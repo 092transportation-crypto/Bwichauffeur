@@ -63,7 +63,7 @@ const Fleet = () => {
     {
       category: 'Van',
       name: 'Mercedes Sprinter Shuttle',
-      image: '/images/mercedes-sprinter.jpg',
+      image: '/images/mercedes-sprinter-shuttle.jpg',
       passengers: '13',
       luggage: '13',
       description:
@@ -72,7 +72,7 @@ const Fleet = () => {
     {
       category: 'Van',
       name: 'Mercedes Sprinter Executive',
-      image: '/images/mercedes-sprinter.jpg',
+      image: '/images/mercedes-sprinter-executive.jpg',
       passengers: '13',
       luggage: '13',
       description:
@@ -81,7 +81,7 @@ const Fleet = () => {
     {
       category: 'Limo',
       name: 'Mercedes Sprinter Limo',
-      image: '/images/mercedes-sprinter.jpg',
+      image: '/images/mercedes-sprinter-limo.jpg',
       passengers: '13',
       luggage: '13',
       description:
