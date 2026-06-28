@@ -12,7 +12,7 @@ const FleetPage = () => {
   return (
     <>
       <Helmet>
-        <title>Premium Luxury Chauffeur Vehicles and Fleet | BWI Chauffeur</title>
+        <title>Our 2026 Luxury Fleet: Mercedes, BMW, Cadillac & Sprinter | BWI Chauffeur</title>
         <meta name="description" content="Travel in premium luxury vehicles with BWI Chauffeur, including Mercedes, BMW, and Cadillac, ensuring ultimate comfort, style, and complete reliability." />
         <link rel="canonical" href="https://bwichauffeur.com/luxury-fleet/" />
       </Helmet>

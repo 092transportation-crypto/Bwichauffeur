@@ -9,6 +9,7 @@ export const BWI_ROUTES = [
     distance: '32 miles',
     drive_time: '45–60 minutes',
     flat_rate_from: 145,
+    metaTitle: 'BWI to Washington DC Car Service 2026 | Flat Rate from $145, No Surge',
     metaDescription:
       'Flat rate BWI Airport to Washington DC chauffeur service. Professional chauffeur, 24/7 availability, late-model luxury fleet. Call 877-679-0100.',
     intro:
@@ -68,6 +69,7 @@ export const BWI_ROUTES = [
     distance: '15 miles',
     drive_time: '20–30 minutes',
     flat_rate_from: 85,
+    metaTitle: 'BWI to Columbia MD Car Service 2026 | Flat Rate from $85 — Book Today',
     metaDescription:
       'Flat rate BWI Airport to Columbia MD chauffeur service. Professional chauffeur, 24/7 availability, corporate-friendly accounts. Call 877-679-0100.',
     intro:
@@ -97,6 +99,7 @@ export const BWI_ROUTES = [
     distance: '38 miles',
     drive_time: '55–80 minutes',
     flat_rate_from: 165,
+    metaTitle: 'BWI to Bethesda MD Car Service 2026 | Flat Rate, NIH & Walter Reed',
     metaDescription:
       'Flat rate BWI Airport to Bethesda MD chauffeur service. Professional chauffeur, 24/7 availability, NIH and Walter Reed savvy. Call 877-679-0100.',
     intro:
@@ -126,6 +129,7 @@ export const BWI_ROUTES = [
     distance: '40–55 miles',
     drive_time: '60–90 minutes',
     flat_rate_from: 175,
+    metaTitle: 'BWI to Northern Virginia Car Service 2026 | Flat Rate from $175',
     metaDescription:
       'Flat rate BWI Airport to Northern Virginia chauffeur service. Professional chauffeur, 24/7 availability, Tysons-Reston-Fairfax. Call 877-679-0100.',
     intro:
@@ -155,6 +159,7 @@ export const BWI_ROUTES = [
     distance: '37 miles',
     drive_time: '55–75 minutes',
     flat_rate_from: 155,
+    metaTitle: 'BWI to Arlington VA Car Service 2026 | Flat Rate from $155 — Book Today',
     metaDescription:
       'Flat rate BWI Airport to Arlington VA chauffeur service. Professional chauffeur, 24/7 availability, Pentagon and Crystal City savvy. Call 877-679-0100.',
     intro:
@@ -184,6 +189,7 @@ export const BWI_ROUTES = [
     distance: '42 miles',
     drive_time: '60–85 minutes',
     flat_rate_from: 165,
+    metaTitle: 'BWI to Alexandria VA Car Service 2026 | Flat Rate from $165, Old Town',
     metaDescription:
       'Flat rate BWI Airport to Alexandria VA chauffeur service. Professional chauffeur, 24/7 availability, Old Town and federal-savvy. Call 877-679-0100.',
     intro:
@@ -213,6 +219,7 @@ export const BWI_ROUTES = [
     distance: '35 miles',
     drive_time: '50–75 minutes',
     flat_rate_from: 145,
+    metaTitle: 'BWI to Rockville MD Car Service 2026 | Flat Rate from $145 — Book Today',
     metaDescription:
       'Flat rate BWI Airport to Rockville MD chauffeur service. Professional chauffeur, 24/7 availability, biotech and federal corridor. Call 877-679-0100.',
     intro:
@@ -272,6 +279,7 @@ export const BWI_ROUTES = [
     distance: '53 miles',
     drive_time: '80–110 minutes',
     flat_rate_from: 195,
+    metaTitle: 'BWI to Dulles (IAD) Car Service 2026 | Flat Rate Airport Transfer from $195',
     metaDescription:
       'Flat rate BWI Airport to Dulles IAD transfer chauffeur service. Professional chauffeur, 24/7 availability, inter-airport connections. Call 877-679-0100.',
     intro:

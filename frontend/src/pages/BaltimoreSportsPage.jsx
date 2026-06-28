@@ -8,7 +8,7 @@ const BaltimoreSportsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Baltimore Sports Event Transportation | BWI Chauffeur</title>
+        <title>Baltimore Sports Transportation 2026 | Ravens & Orioles Car Service | BWI Chauffeur</title>
         <meta name="description" content="Premium transportation to Baltimore sports events with professional chauffeurs, luxury vehicles, and timely service for a seamless, enjoyable experience." />
         <meta name="keywords" content="Baltimore Ravens transportation, Orioles game day shuttle, M&T Bank Stadium limo, Camden Yards chauffeur, Baltimore sports transportation, NFL game transportation, MLB game shuttle, Ravens tailgate transportation" />
         <link rel="canonical" href="https://bwichauffeur.com/baltimore-sports-transportation/" />

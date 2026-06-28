@@ -26,7 +26,7 @@ const BlogPage = () => {
   return (
     <>
       <Helmet>
-        <title>Chauffeur Blog: Latest News, Tips & Service Updates</title>
+        <title>BWI Chauffeur Blog 2026 | Airport Travel Tips, Routes & Pricing Guides</title>
         <meta name="description" content="Stay informed with the latest chauffeur service news, expert travel tips, and timely updates to ensure safe and luxurious transportation experiences always." />
         <link rel="canonical" href="https://bwichauffeur.com/blog/" />
       </Helmet>

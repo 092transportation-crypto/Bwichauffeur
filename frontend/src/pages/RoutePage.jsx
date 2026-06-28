@@ -46,7 +46,7 @@ const RoutePage = ({ route }) => {
     return out.slice(0, 4);
   })();
 
-  const title = route.metaTitle || `BWI Airport to ${route.destination} | BWI Chauffeur`;
+  const title = route.metaTitle || `BWI Airport to ${route.destination} Car Service 2026 | Flat Rate from $${route.flat_rate_from}`;
   const canonical = `https://bwichauffeur.com/${route.slug}`;
 
   const faqStructuredData = {

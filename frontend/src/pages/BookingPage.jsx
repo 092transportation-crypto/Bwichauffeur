@@ -12,7 +12,7 @@ const BookingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Book Your Ride | BWI Chauffeur - Online Reservations</title>
+        <title>Book Your Ride 2026 | BWI Chauffeur Online Reservations & Instant Quote</title>
         <meta
           name="description"
           content="Book your luxury chauffeur service online with BWI Chauffeur. Easy reservations for airport transfers, corporate travel, and special events in Maryland and DC."

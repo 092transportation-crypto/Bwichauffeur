@@ -12,7 +12,7 @@ const ServicesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Luxury Airport Transportation & Executive Car Service | BWI Chauffeur</title>
+        <title>BWI Airport Transportation & Executive Car Service 2026 | BWI Chauffeur</title>
         <meta name="description" content="BWI Chauffeur offers luxury airport transportation, executive car service, airport transfer service, corporate transportation, group and wedding transportation." />
         <link rel="canonical" href="https://bwichauffeur.com/services/" />
       </Helmet>

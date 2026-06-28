@@ -162,9 +162,22 @@ const FAQPage = () => {
   return (
     <>
       <Helmet>
-        <title>FAQ | BWI Chauffeur - Common Questions Answered</title>
+        <title>BWI Chauffeur FAQ 2026 | Pricing, Booking & Airport Pickup Answers</title>
         <meta name="description" content="Find answers to frequently asked questions about BWI Chauffeur's luxury transportation services, booking process, pricing, and service areas in Maryland and DC." />
         <link rel="canonical" href="https://bwichauffeur.com/faq/" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: faqCategories
+              .flatMap((cat) => cat.faqs)
+              .map((f) => ({
+                '@type': 'Question',
+                name: f.question,
+                acceptedAnswer: { '@type': 'Answer', text: f.answer },
+              })),
+          })}
+        </script>
       </Helmet>
     <div className="min-h-screen bg-black pt-32 pb-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
