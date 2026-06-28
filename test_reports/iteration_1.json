@@ -1,0 +1,41 @@
+{
+  "summary": "Frontend-only testing of 46 SEO city landing pages, /service-areas hub, navbar/footer integration, regression, and sitemap. Core navigation, page rendering, testids, and CTAs all work. Found 3 SEO-related defects on city pages: meta description, canonical link, og:* tags, and full JSON-LD (FAQPage + BreadcrumbList + city-specific Service) are NOT being injected by react-helmet-async — only the <title> is overridden. This blocks SEO indexing benefit of these landing pages.",
+  "backend_issues": { "critical": [], "minor": [] },
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [
+      {
+        "flow": "City page SEO metadata (react-helmet-async)",
+        "issue": "On /limo-service-*-md pages, Helmet successfully overrides <title> but FAILS to inject meta name=\"description\", link rel=\"canonical\", og:title, og:description, og:url, and the city-specific JSON-LD (Service + FAQPage + BreadcrumbList). DOM still shows the global homepage values from public/index.html (canonical=https://bwichauffeur.com/, og:title='Professional Chauffeur Service | BWI Chauffeur MD DC VA'). meta name=\"description\" returns null entirely on city pages. Only 2 JSON-LD scripts present (LocalBusiness + generic Service from index.html); the CityPage.jsx Helmet JSON-LD with FAQPage and BreadcrumbList is missing from the DOM.",
+        "affected_selectors": [
+          "link[rel=\"canonical\"]",
+          "meta[name=\"description\"]",
+          "meta[property=\"og:title\"]",
+          "meta[property=\"og:url\"]",
+          "script[type=\"application/ld+json\"]"
+        ],
+        "priority": "HIGH"
+      }
+    ],
+    "design_issues": []
+  },
+  "test_report_links": [],
+  "rca_of_the_issue": "public/index.html declares hardcoded meta og:*, twitter:*, link rel=canonical, and 2 JSON-LD blocks WITHOUT the react-helmet-async dedup marker (data-rh attribute is only on meta description, and even that fails to be replaced). react-helmet-async only manages title successfully. Recommended fix: remove the static og:*/twitter:*/canonical/JSON-LD tags from public/index.html (keep only minimal defaults) and let CityPage.jsx (and other pages) inject them via Helmet; OR ensure HelmetProvider wraps before Router and verify CityPage Helmet block is rendered (it is declared at lines 179-188 of CityPage.jsx with description, canonical, og:title, og:description, og:url, og:type, and JSON-LD containing Service+FAQPage+BreadcrumbList — code is correct but not taking effect at runtime). Verified HelmetProvider is in App.js line 30. Most likely root cause: static index.html tags lacking data-rh marker conflict with Helmet's injection logic.",
+  "action_items": [
+    "Fix SEO meta injection on city pages: remove duplicate static og:*/twitter:*/canonical/JSON-LD tags from public/index.html so react-helmet-async can inject per-page values, OR ensure Helmet markers are correct.",
+    "Verify city pages' JSON-LD includes FAQPage + BreadcrumbList (currently missing from DOM) — code in CityPage.jsx already builds these correctly; runtime injection is broken.",
+    "After fix, re-verify canonical link points to https://bwichauffeur.com/limo-service-{slug} per page, not site root."
+  ],
+  "critical_code_review_comments": [
+    "CityPage.jsx Helmet block (lines 179-188) correctly declares description/canonical/og/JSON-LD but they are not appearing in DOM at runtime — investigate Helmet provider context and static index.html duplicates.",
+    "public/index.html has only meta description marked with data-rh; other static SEO tags (og:*, twitter:*, canonical) are static and duplicate what dynamic pages try to set.",
+    "City pages all share generic global og:title='Professional Chauffeur Service…' which is bad for social sharing per-city pages."
+  ],
+  "updated_files": [],
+  "success_rate": { "backend": "N/A (skipped per request)", "frontend": "85% (functional flows pass; SEO meta injection broken)" },
+  "test_credentials": "None required (public pages)",
+  "seed_data_creation": "None",
+  "retest_needed": true,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "Functional aspects all verified PASSING: hub page shows 8 regions (region-central/baltimore/howard/anne-arundel/montgomery/prince-georges/southern/eastern-shore) with 48 city-link testids (46 unique + 2 duplicates for Columbia & Ellicott City as designed). All 6 spot-checked city pages (columbia, baltimore, bethesda, annapolis, waldorf, ocean-city) load with correct H1 'Limo Service in {City}, MD' and unique <title> 'Limo Service {City}, MD | Black Car & BWI Airport Car Service'. testids city-page-heading, city-stats-strip, city-faqs, city-nearby-links all present. Nearby link click navigates correctly (Columbia → Laurel verified). Footer has /limo-service-baltimore-md and /service-areas links. Navbar More dropdown reveals Service Areas link (3 instances visible). City pages have 10 booking-link CTAs and 9 tel:+16674000092 CTAs. Regression: /, /booking, /coverage, /cruise-transportation all return 200 with correct titles. /booking quote form testids present (15 elements). /sitemap.xml contains 46 /limo-service-* URLs + /service-areas. ONLY ISSUE: SEO meta tags (description/canonical/og/JSON-LD FAQPage+BreadcrumbList) not injected on city pages — Helmet only updates title."
+}
