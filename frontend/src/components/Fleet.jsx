@@ -11,7 +11,7 @@ const Fleet = () => {
       name: 'Mercedes-Benz E-Class 2025',
       image: '/images/mercedes-eclass.jpg',
       passengers: '3',
-      luggage: '3',
+      luggage: '2',
       description:
         'The perfect business sedan for airport transfers and corporate travel. Refined elegance meets cutting-edge technology.'
     },
@@ -20,7 +20,7 @@ const Fleet = () => {
       name: 'BMW 7 Series',
       image: '/images/bmw-7series.jpg',
       passengers: '3',
-      luggage: '3',
+      luggage: '2',
       description:
         'Where performance meets pure luxury. The ultimate first class sedan for discerning travelers.'
     },
@@ -29,7 +29,7 @@ const Fleet = () => {
       name: 'Mercedes-Benz S-Class',
       image: '/images/mercedes-sclass.jpg',
       passengers: '3',
-      luggage: '3',
+      luggage: '2',
       description:
         'The pinnacle of sedan luxury. First-class experience for those who accept nothing less.'
     },
@@ -47,7 +47,7 @@ const Fleet = () => {
       name: 'Chevrolet Suburban',
       image: '/images/chevy-suburban.jpg',
       passengers: '5',
-      luggage: '6',
+      luggage: '5',
       description:
         'Maximum space without compromising luxury. Ideal for larger groups and extended journeys.'
     },
@@ -55,7 +55,7 @@ const Fleet = () => {
       category: 'Premium SUV',
       name: 'Cadillac Escalade',
       image: '/images/cadillac-escalade.jpg',
-      passengers: '5',
+      passengers: '6',
       luggage: '5',
       description:
         "America's premier luxury SUV. Commanding presence with superior comfort for families and groups."
@@ -64,8 +64,8 @@ const Fleet = () => {
       category: 'Van',
       name: 'Mercedes Sprinter Van',
       image: '/images/mercedes-sprinter.jpg',
-      passengers: 'Up to 14',
-      luggage: 'Up to 14',
+      passengers: '13',
+      luggage: '13',
       description:
         'Premium group transportation for corporate events, airport runs, and special occasions.'
     }
