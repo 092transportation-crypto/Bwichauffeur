@@ -1,76 +1,81 @@
 import React from 'react';
-import { Users, Briefcase, Star, CheckCircle, Car } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Users, Briefcase, Star, Car, ArrowRight } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
-import { Badge } from './ui/badge';
 
 const Fleet = () => {
+  // Categories in exact order. "First Class Sedan" contains two vehicles.
   const vehicles = [
     {
-      name: 'Mercedes-Benz E-Class 2025',
       category: 'Business Sedan',
-      image: '/fleet/mercedes-e-class.jpg',
-      passengers: 3,
-      luggage: 2,
-      features: ['MBUX Infotainment System', 'Advanced Driver Assistance', 'Mild-Hybrid Powertrain', 'Premium Leather Interior'],
-      description: 'The latest 2025 Mercedes-Benz E-Class combines cutting-edge technology with refined luxury. Perfect for business travel, airport transfers, and corporate transportation with advanced safety features and exceptional comfort.'
+      name: 'Mercedes-Benz E-Class 2025',
+      image: '/images/mercedes-eclass.jpg',
+      passengers: '3',
+      luggage: '3',
+      description:
+        'The perfect business sedan for airport transfers and corporate travel. Refined elegance meets cutting-edge technology.'
     },
     {
-      name: 'Mercedes-Benz S-Class',
-      category: 'Executive Sedan',
-      image: '/fleet/mercedes-s-class.jpg',
-      passengers: 3,
-      luggage: 2,
-      features: ['Premium Leather Seating', 'Advanced Technology', 'Exceptional Ride Comfort', 'Business-Class Amenities'],
-      description: 'The benchmark in executive ground transportation. Renowned for its spacious interior, advanced technology, and exceptional ride comfort. A preferred choice for senior executives and VIP travelers.'
-    },
-    {
+      category: 'First Class Sedan',
       name: 'BMW 7 Series',
-      category: 'Luxury Sedan',
-      image: '/fleet/bmw-7-series.jpg',
-      passengers: 3,
-      luggage: 2,
-      features: ['iDrive 8.5 System', 'Executive Lounge Seating', 'Panoramic Sky Lounge', 'Ambient Lighting'],
-      description: 'The BMW 7 Series delivers unparalleled luxury and performance. With cutting-edge technology, executive rear seating, and refined German engineering, it\'s the perfect choice for discerning executives and VIP transportation.'
+      image: '/images/bmw-7series.jpg',
+      passengers: '3',
+      luggage: '3',
+      description:
+        'Where performance meets pure luxury. The ultimate first class sedan for discerning travelers.'
     },
     {
-      name: 'Chevrolet Suburban',
-      category: 'Luxury SUV',
-      image: '/fleet/chevrolet-suburban.jpg',
-      // Tight crop to remove the distracting concrete-wall background
-      imageStyle: { transform: 'scale(1.35)', objectPosition: 'center 65%' },
-      passengers: 5,
-      luggage: 5,
-      features: ['Expansive Interior Space', 'Smooth Ride', 'Commanding Road Presence', 'Quiet Performance'],
-      description: 'Cornerstone of executive SUV transportation, offering expansive interior space and quiet performance. Ideal for executives, executive assistants, and corporate groups requiring dependable, discreet transportation.'
+      category: 'First Class Sedan',
+      name: 'Mercedes-Benz S-Class',
+      image: '/images/mercedes-sclass.jpg',
+      passengers: '3',
+      luggage: '3',
+      description:
+        'The pinnacle of sedan luxury. First-class experience for those who accept nothing less.'
     },
     {
-      name: 'Cadillac Escalade',
-      category: 'Luxury SUV',
-      image: '/fleet/cadillac-escalade.jpg',
-      passengers: 5,
-      luggage: 5,
-      features: ['Premium Craftsmanship', 'Advanced Technology', 'Refined Ride Quality', 'Upscale Materials'],
-      description: 'The pinnacle of luxury SUV transportation, combining premium craftsmanship and refined ride quality. A preferred choice for executive travel, VIP transportation, and high-profile corporate engagements.'
-    },
-    {
-      name: 'Midsize SUV',
       category: 'Midsize SUV',
-      image: null,
-      passengers: 5,
-      luggage: 4,
-      features: ['Extra Luggage Room', 'Family-Friendly', 'Climate Comfort', 'Flat Rate — No Surge'],
-      description: 'Spacious and comfortable for up to 5 passengers with extra luggage room. Ideal for families and small groups traveling to BWI, DCA, or Dulles. Professional chauffeur, flat rate, no surge.'
+      name: 'Lincoln Nautilus',
+      image: '/images/lincoln-nautilus.jpg',
+      passengers: '3',
+      luggage: '4',
+      description:
+        'The perfect balance of comfort and practicality for families and travelers with extra luggage.'
     },
     {
+      category: 'Luxury SUV',
+      name: 'Chevrolet Suburban',
+      image: '/images/chevy-suburban.jpg',
+      passengers: '5',
+      luggage: '6',
+      description:
+        'Maximum space without compromising luxury. Ideal for larger groups and extended journeys.'
+    },
+    {
+      category: 'Premium SUV',
+      name: 'Cadillac Escalade',
+      image: '/images/cadillac-escalade.jpg',
+      passengers: '5',
+      luggage: '5',
+      description:
+        "America's premier luxury SUV. Commanding presence with superior comfort for families and groups."
+    },
+    {
+      category: 'Van',
       name: 'Mercedes Sprinter Van',
-      category: 'Executive Sprinter',
-      image: 'https://92limo.com/wp-content/uploads/2025/06/mercedes-sprinter-300x200.png',
-      passengers: 14,
-      luggage: 12,
-      features: ['Upscale Interiors', 'Forward-Facing Seating', 'Ample Luggage Space', 'Premium Group Comfort'],
-      description: 'Executive Sprinter vans purpose-built for premium group transportation. Ideal for corporate events, executive teams, airport transfers, and VIP group movements requiring comfort without compromise.'
+      image: '/images/mercedes-sprinter.jpg',
+      passengers: 'Up to 14',
+      luggage: 'Up to 14',
+      description:
+        'Premium group transportation for corporate events, airport runs, and special occasions.'
     }
   ];
+
+  // If an image hasn't been uploaded yet, hide the broken <img> so the
+  // gold placeholder behind it shows instead.
+  const handleImgError = (e) => {
+    e.currentTarget.style.display = 'none';
+  };
 
   return (
     <section id="fleet" className="py-24 bg-black">
@@ -90,63 +95,52 @@ const Fleet = () => {
           {vehicles.map((vehicle, index) => (
             <Card
               key={index}
-              className="bg-gradient-to-br from-gray-900 to-black border-[#D4AF37]/20 hover:border-[#D4AF37]/60 overflow-hidden group transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/20"
+              className="bg-gradient-to-br from-gray-900 to-black border-[#D4AF37]/20 hover:border-[#D4AF37]/60 overflow-hidden group transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/20 flex flex-col"
+              data-testid={`fleet-card-${index}`}
             >
-              {/* Vehicle Image */}
+              {/* Vehicle Image (gold placeholder behind, in case image not yet uploaded) */}
               <div className="relative h-64 overflow-hidden bg-gradient-to-br from-gray-800 via-gray-900 to-black">
-                {vehicle.image ? (
-                  <img
-                    src={vehicle.image}
-                    alt={`${vehicle.name} — ${vehicle.category} chauffeur service vehicle, ${vehicle.passengers} passenger capacity`}
-                    loading="lazy"
-                    style={vehicle.imageStyle}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                ) : (
-                  <>
-                    <div
-                      aria-hidden="true"
-                      className="absolute inset-0 opacity-20"
-                      style={{
-                        backgroundImage:
-                          'repeating-linear-gradient(45deg, #D4AF37 0, #D4AF37 2px, transparent 2px, transparent 18px)'
-                      }}
-                    />
-                    <div className="absolute inset-0 z-10 flex items-center justify-center text-center px-4">
-                      <div>
-                        <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#D4AF37]/15 border border-[#D4AF37]/40 mb-3">
-                          <Car className="h-7 w-7 text-[#D4AF37]" />
-                        </div>
-                        <div
-                          data-testid={`fleet-placeholder-${index}`}
-                          className="inline-block bg-[#D4AF37] text-black text-xs font-extrabold tracking-widest px-3 py-1 rounded uppercase"
-                        >
-                          Real Car Photo
-                        </div>
-                        <p className="mt-2 text-gray-400 text-xs">Awaiting upload</p>
-                      </div>
-                    </div>
-                  </>
-                )}
+                {/* Placeholder layer */}
+                <div
+                  aria-hidden="true"
+                  className="absolute inset-0 opacity-20"
+                  style={{
+                    backgroundImage:
+                      'repeating-linear-gradient(45deg, #D4AF37 0, #D4AF37 2px, transparent 2px, transparent 18px)'
+                  }}
+                />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#D4AF37]/15 border border-[#D4AF37]/40">
+                    <Car className="h-7 w-7 text-[#D4AF37]" />
+                  </div>
+                </div>
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
+                {/* Actual image (sits on top of placeholder) */}
+                <img
+                  src={vehicle.image}
+                  alt={`${vehicle.name} — ${vehicle.category} chauffeur vehicle, seats ${vehicle.passengers}`}
+                  loading="lazy"
+                  onError={handleImgError}
+                  className="absolute inset-0 w-full h-full object-cover z-10 group-hover:scale-105 transition-transform duration-500"
+                />
 
-                {/* Category Badge */}
-                <Badge className="absolute top-4 right-4 bg-[#D4AF37] text-black border-none font-semibold z-20">
-                  {vehicle.category}
-                </Badge>
-
-                {/* Vehicle Name on Image */}
-                <div className="absolute bottom-4 left-4 right-4 z-20">
+                {/* Overlay + name */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none z-20" />
+                <div className="absolute bottom-4 left-4 right-4 z-30">
                   <h3 className="text-2xl font-bold text-white drop-shadow-lg">{vehicle.name}</h3>
                 </div>
               </div>
 
-              <CardContent className="p-6">
-                {/* Description */}
-                <p className="text-gray-400 mb-4 text-sm">{vehicle.description}</p>
+              <CardContent className="p-6 flex flex-col flex-1">
+                {/* Category label — gold, at top */}
+                <span className="text-[#D4AF37] text-xs font-bold uppercase tracking-widest mb-2">
+                  {vehicle.category}
+                </span>
 
-                {/* Capacity */}
+                {/* Vehicle name */}
+                <h3 className="text-xl font-bold text-white mb-4">{vehicle.name}</h3>
+
+                {/* Capacity: passengers + luggage with icons */}
                 <div className="flex items-center justify-between mb-4 pb-4 border-b border-gray-800">
                   <div className="flex items-center space-x-2">
                     <Users className="h-5 w-5 text-[#D4AF37]" />
@@ -158,15 +152,18 @@ const Fleet = () => {
                   </div>
                 </div>
 
-                {/* Features */}
-                <div className="space-y-2">
-                  {vehicle.features.map((feature, idx) => (
-                    <div key={idx} className="flex items-center text-gray-300">
-                      <CheckCircle className="h-4 w-4 text-[#D4AF37] mr-2 flex-shrink-0" />
-                      <span className="text-sm">{feature}</span>
-                    </div>
-                  ))}
-                </div>
+                {/* Description */}
+                <p className="text-gray-400 mb-6 text-sm flex-1">{vehicle.description}</p>
+
+                {/* Book Now button */}
+                <Link
+                  to="/booking"
+                  className="inline-flex items-center justify-center gap-2 w-full px-5 py-3 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-bold rounded-lg hover:shadow-lg hover:shadow-[#D4AF37]/40 transition-all duration-300"
+                  data-testid={`fleet-book-${index}`}
+                >
+                  Book Now
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
               </CardContent>
             </Card>
           ))}

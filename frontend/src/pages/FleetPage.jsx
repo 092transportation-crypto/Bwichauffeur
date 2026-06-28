@@ -49,7 +49,7 @@ const FleetPage = () => {
           </p>
 
           <p>
-            From executive sedans perfect for airport transfers and business meetings to spacious luxury SUVs ideal for family travel and group outings, our diverse fleet accommodates every transportation need. For larger groups attending conferences, weddings, or corporate events, our Mercedes Sprinter Vans offer premium group transportation without compromising on comfort or amenities. Each vehicle features complimentary Wi-Fi, bottled water, phone chargers, and climate-controlled interiors to ensure a pleasant journey regardless of distance.
+            From business sedans perfect for airport transfers and business meetings to spacious luxury SUVs ideal for family travel and group outings, our diverse fleet accommodates every transportation need. For larger groups attending conferences, weddings, or corporate events, our Mercedes Sprinter Vans offer premium group transportation without compromising on comfort or amenities. Each vehicle features complimentary Wi-Fi, bottled water, phone chargers, and climate-controlled interiors to ensure a pleasant journey regardless of distance.
           </p>
         </div>
 

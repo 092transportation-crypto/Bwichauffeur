@@ -32,9 +32,15 @@ const HEARD_FROM_OPTIONS = [
   { value: 'other', label: 'Other' },
 ];
 
+const CONTACT_METHOD_OPTIONS = [
+  { value: 'email', label: '📧 Email' },
+  { value: 'phone_text', label: '📱 Phone / Text' },
+];
+
 const INITIAL = {
   full_name: '',
   phone: '',
+  preferred_contact: '',
   email: '',
   pickup_location: '',
   dropoff_location: '',
@@ -63,7 +69,7 @@ export const QuoteForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!form.full_name || !form.phone || !form.email || !form.pickup_location) {
+    if (!form.full_name || !form.phone || !form.preferred_contact || !form.email || !form.pickup_location) {
       toast.error('Please fill in all required fields');
       return;
     }
@@ -142,6 +148,38 @@ export const QuoteForm = () => {
         <div className="grid sm:grid-cols-2 gap-5">
           <Field label="Full Name *" name="full_name" value={form.full_name} onChange={handleChange} required placeholder="John Smith" />
           <Field label="Phone *" name="phone" value={form.phone} onChange={handleChange} required type="tel" placeholder="(555) 123-4567" />
+        </div>
+
+        {/* Preferred Contact Method */}
+        <div>
+          <label className="block text-sm font-medium text-gray-300 mb-2">Preferred Contact Method *</label>
+          <div className="grid grid-cols-2 gap-3" role="radiogroup" aria-label="Preferred Contact Method">
+            {CONTACT_METHOD_OPTIONS.map((opt) => {
+              const active = form.preferred_contact === opt.value;
+              return (
+                <label
+                  key={opt.value}
+                  data-testid={`quote-contact-method-${opt.value}`}
+                  className={`flex items-center justify-center gap-2 cursor-pointer rounded-lg border px-4 py-3 text-sm font-medium transition ${
+                    active
+                      ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-white shadow-md shadow-[#D4AF37]/10'
+                      : 'border-gray-700 bg-black/60 text-gray-300 hover:border-[#D4AF37]/60'
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name="preferred_contact"
+                    value={opt.value}
+                    checked={active}
+                    onChange={handleChange}
+                    required
+                    className="sr-only"
+                  />
+                  {opt.label}
+                </label>
+              );
+            })}
+          </div>
         </div>
 
         <Field label="Email *" name="email" value={form.email} onChange={handleChange} required type="email" placeholder="you@example.com" />
