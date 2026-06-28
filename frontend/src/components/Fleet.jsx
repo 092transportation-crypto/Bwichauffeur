@@ -62,12 +62,30 @@ const Fleet = () => {
     },
     {
       category: 'Van',
-      name: 'Mercedes Sprinter Van',
+      name: 'Mercedes Sprinter Shuttle',
       image: '/images/mercedes-sprinter.jpg',
       passengers: '13',
       luggage: '13',
       description:
-        'Premium group transportation for corporate events, airport runs, and special occasions.'
+        'Comfortable group transportation for airport runs, corporate events, and group outings. Spacious and reliable for larger parties.'
+    },
+    {
+      category: 'Van',
+      name: 'Mercedes Sprinter Executive',
+      image: '/images/mercedes-sprinter.jpg',
+      passengers: '13',
+      luggage: '13',
+      description:
+        'Premium executive van with upgraded interior, captain chairs, and luxury amenities. Perfect for corporate groups who demand comfort.'
+    },
+    {
+      category: 'Limo',
+      name: 'Mercedes Sprinter Limo',
+      image: '/images/mercedes-sprinter.jpg',
+      passengers: '13',
+      luggage: '13',
+      description:
+        'The ultimate stretch limo experience in a Sprinter. Perfect for weddings, proms, and special occasions that deserve a grand entrance.'
     }
   ];
 

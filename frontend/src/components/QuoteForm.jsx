@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Phone, Mail, Send, CheckCircle2, Loader2, Zap } from 'lucide-react';
 import { Button } from './ui/button';
 import { toast } from 'sonner';
@@ -50,6 +51,7 @@ const INITIAL = {
   vehicle_preference: '',
   heard_from: '',
   notes: '',
+  sms_consent: false,
 };
 
 export const QuoteForm = () => {
@@ -60,10 +62,15 @@ export const QuoteForm = () => {
   const API_URL = process.env.REACT_APP_BACKEND_URL;
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value, type, checked } = e.target;
     setForm((prev) => ({
       ...prev,
-      [name]: name === 'passengers' ? Number(value) || 1 : value,
+      [name]:
+        type === 'checkbox'
+          ? checked
+          : name === 'passengers'
+          ? Number(value) || 1
+          : value,
     }));
   };
 
@@ -71,6 +78,10 @@ export const QuoteForm = () => {
     e.preventDefault();
     if (!form.full_name || !form.phone || !form.preferred_contact || !form.email || !form.pickup_location) {
       toast.error('Please fill in all required fields');
+      return;
+    }
+    if (!form.sms_consent) {
+      toast.error('Please agree to the SMS consent to continue');
       return;
     }
     setSubmitting(true);
@@ -229,6 +240,29 @@ export const QuoteForm = () => {
             placeholder="Flight info, special requests, number of bags..."
             className="w-full bg-black/60 border border-gray-700 focus:border-[#D4AF37] text-white rounded-lg px-4 py-3 outline-none transition resize-none"
           />
+        </div>
+
+        {/* SMS consent (required) */}
+        <div className="flex items-start gap-3">
+          <input
+            type="checkbox"
+            id="sms_consent"
+            name="sms_consent"
+            checked={form.sms_consent}
+            onChange={handleChange}
+            required
+            data-testid="quote-sms-consent"
+            className="mt-0.5 h-5 w-5 flex-shrink-0 cursor-pointer rounded border-gray-700 bg-black/60 accent-[#D4AF37] focus:ring-[#D4AF37] focus:ring-offset-0"
+          />
+          <label htmlFor="sms_consent" className="text-xs text-gray-400 leading-relaxed cursor-pointer">
+            I consent to receive conversational and informational SMS messages from BWI Chauffeur.
+            Reply STOP to opt-out; reply HELP for support; message &amp; data rates may apply;
+            messaging frequency may vary.{' '}
+            <Link to="/privacy-policy" className="text-[#D4AF37] hover:underline">
+              View our Privacy Policy
+            </Link>
+            .
+          </label>
         </div>
 
         <Button
