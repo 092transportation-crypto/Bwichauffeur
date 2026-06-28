@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, Quote } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import { Link } from 'react-router-dom';
 
@@ -7,57 +7,58 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Michael Richardson',
-      title: 'CEO, Tech Innovations Inc.',
-      location: 'Baltimore, MD',
+      name: 'Michael Reyes',
+      initials: 'MR',
+      avatarColor: '#1A73E8',
+      location: 'Local Guide · 14 reviews',
       rating: 5,
-      text: 'BWI Chauffeur has transformed our executive travel experience. The professionalism, punctuality, and luxury vehicles are unmatched. Our clients are always impressed when we arrange their airport transfers through BWI Chauffeur.',
-      service: 'Corporate Transportation'
+      date: 'June 2026',
+      route: 'BWI → Washington, DC',
+      text: 'Booked a 5 AM pickup for a flight out of a DC meeting the day before, so I needed the BWI to Washington DC run early. Driver was parked outside at 4:55, tracked my return flight, and the flat $85 was exactly what I was quoted — no surge like the rideshare apps were showing that morning. Spotless Mercedes E-Class. This is now my default for airport runs.'
     },
     {
       id: 2,
-      name: 'Sarah & David Mitchell',
-      title: 'Newlyweds',
-      location: 'Annapolis, MD',
+      name: 'Priya Nair',
+      initials: 'PN',
+      avatarColor: '#188038',
+      location: 'Local Guide · 31 reviews',
       rating: 5,
-      text: 'Our wedding day was perfect thanks to BWI Chauffeur! The Mercedes S-Class was stunning, and our chauffeur James was incredibly professional. He even had champagne waiting for us. Highly recommend for any special occasion!',
-      service: 'Wedding Transportation'
+      date: 'May 2026',
+      route: 'Baltimore → Dulles (IAD)',
+      text: 'Needed a cross-town transfer from downtown Baltimore to Dulles for an international flight and was nervous about timing. Our chauffeur built in buffer for the Beltway, kept us updated, and we got to IAD with plenty of time. Professional, immaculate Suburban, and the price never changed from the quote. Worth every dollar for the peace of mind.'
     },
     {
       id: 3,
-      name: 'Jennifer Park',
-      title: 'Frequent Business Traveler',
-      location: 'Washington, DC',
+      name: 'Marcus Bennett',
+      initials: 'MB',
+      avatarColor: '#E37400',
+      location: '8 reviews',
       rating: 5,
-      text: 'As someone who flies out of BWI weekly, I can\'t imagine using any other service. The flight tracking feature means my driver is always there when I land, even when my flights are delayed. The BMW 7 Series is my favorite - perfect for catching up on emails.',
-      service: 'Airport Transportation'
+      date: 'May 2026',
+      route: 'BWI → Annapolis',
+      text: 'Flew in for Commissioning Week at the Naval Academy with my whole family. The BWI to Annapolis transfer was $65 flat — way cheaper than the surge Uber was quoting during USNA weekend. Driver helped with all our luggage and knew exactly which gate to use. Made a hectic travel day genuinely easy.'
     },
     {
       id: 4,
-      name: 'Robert Thompson',
-      title: 'Managing Partner, Thompson Law Group',
-      location: 'Bethesda, MD',
+      name: 'Lauren Whitfield',
+      initials: 'LW',
+      avatarColor: '#9334E6',
+      location: 'Local Guide · 22 reviews',
       rating: 5,
-      text: 'We\'ve been using BWI Chauffeur for our firm for over 3 years. The corporate account management is seamless, billing is always accurate, and the drivers are discreet and professional. Essential for our client-facing business.',
-      service: 'Corporate Account'
+      date: 'April 2026',
+      route: 'BWI → Bethesda (late-night arrival)',
+      text: 'My flight got delayed and I landed at BWI close to 1 AM dreading the ride home to Bethesda. My chauffeur had tracked the delay and was waiting at baggage claim with a sign. Clean car, safe driver, and the same flat rate even at that hour. As a woman traveling alone late at night, this is exactly the service I want.'
     },
     {
       id: 5,
-      name: 'The Johnson Family',
-      title: 'Family of 6',
-      location: 'Columbia, MD',
+      name: 'David Coleman',
+      initials: 'DC',
+      avatarColor: '#D93025',
+      location: '5 reviews',
       rating: 5,
-      text: 'Taking our family of 6 to the airport used to be a nightmare. The Suburban from BWI Chauffeur fits all of us plus luggage comfortably. The kids love the WiFi and the smooth ride. Makes our vacation start stress-free!',
-      service: 'Group Transportation'
-    },
-    {
-      id: 6,
-      name: 'Dr. Amanda Chen',
-      title: 'Medical Director',
-      location: 'Wilmington, DE',
-      rating: 5,
-      text: 'BWI Chauffeur provides reliable service for my commute between Delaware and Baltimore for conferences at Johns Hopkins. Professional, on-time, and the vehicles are immaculate. Worth every penny for the peace of mind.',
-      service: 'Long Distance Service'
+      date: 'March 2026',
+      route: 'BWI → Baltimore Inner Harbor',
+      text: 'Used them for a quick BWI to Baltimore downtown trip to the Inner Harbor for a conference — $55 flat, door to door in about 25 minutes. Driver was in a jacket and tie, offered water, and had the route dialed in. Have since set up a corporate account for our team. Reliable every single time.'
     }
   ];
 
@@ -93,36 +94,51 @@ const Testimonials = () => {
               className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 border-[#D4AF37]/20 hover:border-[#D4AF37]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#D4AF37]/10"
             >
               <CardContent className="p-6">
-                {/* Quote Icon */}
-                <div className="mb-4">
-                  <Quote className="h-8 w-8 text-[#D4AF37]/40" />
+                {/* Header: avatar + name/date + Google glyph */}
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-3">
+                    <div
+                      className="flex items-center justify-center w-11 h-11 rounded-full text-white font-bold text-base flex-shrink-0"
+                      style={{ backgroundColor: testimonial.avatarColor }}
+                      aria-hidden="true"
+                    >
+                      {testimonial.initials}
+                    </div>
+                    <div>
+                      <div className="font-semibold text-white leading-tight">{testimonial.name}</div>
+                      <div className="text-xs text-gray-400">{testimonial.location}</div>
+                    </div>
+                  </div>
+                  {/* Google "G" glyph */}
+                  <svg className="h-5 w-5 flex-shrink-0" viewBox="0 0 48 48" aria-label="Google review">
+                    <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+                    <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+                    <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+                    <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+                  </svg>
                 </div>
 
-                {/* Rating */}
-                <div className="flex mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 text-[#D4AF37] fill-current" />
-                  ))}
+                {/* Rating + date */}
+                <div className="flex items-center gap-2 mb-3">
+                  <div className="flex">
+                    {[...Array(testimonial.rating)].map((_, i) => (
+                      <Star key={i} className="h-4 w-4 text-[#FBBC05] fill-current" />
+                    ))}
+                  </div>
+                  <span className="text-xs text-gray-500">{testimonial.date}</span>
                 </div>
 
-                {/* Testimonial Text */}
-                <p className="text-gray-300 mb-6 leading-relaxed italic">
-                  "{testimonial.text}"
-                </p>
-
-                {/* Service Badge */}
-                <div className="mb-4">
+                {/* Route badge */}
+                <div className="mb-3">
                   <span className="inline-block px-3 py-1 bg-[#D4AF37]/10 text-[#D4AF37] text-xs font-semibold rounded-full border border-[#D4AF37]/30">
-                    {testimonial.service}
+                    {testimonial.route}
                   </span>
                 </div>
 
-                {/* Author Info */}
-                <div className="border-t border-gray-700 pt-4">
-                  <div className="font-semibold text-white">{testimonial.name}</div>
-                  <div className="text-sm text-gray-400">{testimonial.title}</div>
-                  <div className="text-sm text-[#D4AF37]">{testimonial.location}</div>
-                </div>
+                {/* Review Text */}
+                <p className="text-gray-300 leading-relaxed">
+                  {testimonial.text}
+                </p>
               </CardContent>
             </Card>
           ))}

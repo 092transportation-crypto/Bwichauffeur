@@ -8,8 +8,8 @@ export const BWI_ROUTES = [
     headline: 'Washington, D.C.',
     distance: '32 miles',
     drive_time: '45–60 minutes',
-    flat_rate_from: 145,
-    metaTitle: 'BWI to Washington DC Car Service 2026 | Flat Rate from $145, No Surge',
+    flat_rate_from: 85,
+    metaTitle: 'BWI to Washington DC Car Service 2026 | Flat Rate from $85, No Surge',
     metaDescription:
       'Flat rate BWI Airport to Washington DC chauffeur service. Professional chauffeur, 24/7 availability, late-model luxury fleet. Call 877-679-0100.',
     intro:
@@ -38,10 +38,10 @@ export const BWI_ROUTES = [
     headline: 'Annapolis, Maryland',
     distance: '27 miles',
     drive_time: '30–45 minutes',
-    flat_rate_from: 110,
-    metaTitle: 'BWI to Annapolis Car Service 2026 | Flat Rate from $110 — Book Today',
+    flat_rate_from: 65,
+    metaTitle: 'BWI to Annapolis Car Service 2026 | Flat Rate from $65 — Book Today',
     metaDescription:
-      'BWI Airport to Annapolis MD flat rate chauffeur from $110 — no surge pricing, ever. Professional driver, 24/7 availability, USNA-savvy. Call 877-679-0100 to book today.',
+      'BWI Airport to Annapolis MD flat rate chauffeur from $65 — no surge pricing, ever. Professional driver, 24/7 availability, USNA-savvy. Call 877-679-0100 to book today.',
     intro:
       'BWI Chauffeur is the trusted partner for travelers heading from BWI Airport to Annapolis, Maryland — Maryland\'s capital, home of the United States Naval Academy, and gateway to the Chesapeake Bay. Whether you are arriving for Commissioning Week, an Eastport sailing charter, a State House meeting, or a quiet weekend at one of Annapolis\'s historic inns, our chauffeurs deliver a polished, predictable transfer in under an hour. Every booking includes flight tracking, complimentary wait time, and a flat published rate so you can budget without guesswork.',
     why_choose: [

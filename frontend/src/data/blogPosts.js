@@ -1777,8 +1777,8 @@ Sample flat rates from our published pricing — these do not change based on ti
 - **Silver Spring to BWI:** $145
 - **Rockville to BWI:** $145
 - **Columbia to BWI:** $85
-- **Annapolis to BWI:** $110
-- **Washington DC to BWI:** $145
+- **Annapolis to BWI:** $65
+- **Washington DC to BWI:** $85
 - **Arlington to BWI:** $155
 
 Compare those numbers to a 4 a.m. Uber with 2.5x surge to BWI from Bethesda. You will save money and you will absolutely arrive on time. [Get an exact quote](/booking) or call **877-679-0100**.
@@ -2393,12 +2393,12 @@ Here's how the two options compare across the situations BWI travelers actually 
 
 | Scenario | Typical Uber (2026) | BWI Chauffeur Flat Rate |
 |----------|--------------------|--------------------------|
-| BWI → Baltimore, Tue 2 p.m. | $28–$45 | $75 |
-| BWI → Baltimore, Fri 5 p.m. (surge) | $60–$100 | $75 |
+| BWI → Baltimore, Tue 2 p.m. | $28–$45 | $55 |
+| BWI → Baltimore, Fri 5 p.m. (surge) | $60–$100 | $55 |
 | BWI → Bethesda, 4 a.m. (surge) | $120–$180 | $165 |
-| BWI → Annapolis, snow event | $90–$160 | $110 |
+| BWI → Annapolis, snow event | $90–$160 | $65 |
 | BWI → Columbia, normal hours | $40–$60 | $85 |
-| BWI → DC, holiday weekend (surge) | $110–$190 | $145 |
+| BWI → DC, holiday weekend (surge) | $110–$190 | $85 |
 
 The pattern is clear: **Uber wins on quiet, off-peak, short trips. The flat rate wins the moment surge appears** — and surge appears exactly when you most need a reliable ride.
 
@@ -2415,7 +2415,7 @@ A flat-rate chauffeur folds all of that into one predictable number: tolls inclu
 
 ### When Uber Is Genuinely the Better Call
 
-We'll say it plainly: if you're a solo traveler with a backpack, flexible timing, and a short off-peak hop, Uber is probably cheaper and perfectly fine. We're not going to pretend a $30 midday ride to Federal Hill should be a $75 chauffeur booking. Use the right tool.
+We'll say it plainly: if you're a solo traveler with a backpack, flexible timing, and a short off-peak hop, Uber is probably cheaper and perfectly fine. We're not going to pretend a $30 midday ride to Federal Hill should be a $55 chauffeur booking. Use the right tool.
 
 ### When the Flat Rate Wins Decisively
 
@@ -2499,9 +2499,9 @@ A metered taxi from the BWI stand runs roughly **$65–$85** to most Annapolis a
 
 ### Option 5: Flat-Rate Chauffeur (Cheapest for Groups & Peace of Mind)
 
-Our published flat rate from BWI to Annapolis starts at **$110** in a sedan and includes tolls, fuel, flight tracking, and a guaranteed lower-level Arrivals pickup. For one budget traveler at noon, that's more than a shuttle seat. But here's where it wins:
+Our published flat rate from BWI to Annapolis starts at **$65** in a sedan and includes tolls, fuel, flight tracking, and a guaranteed lower-level Arrivals pickup. For one budget traveler at noon, that's more than a shuttle seat. But here's where it wins:
 
-- **For 2–4 people**, $110 split beats four shuttle seats or a surging UberXL.
+- **For 2–4 people**, $65 split beats four shuttle seats or a surging UberXL.
 - **For Commissioning Week, the Boat Show, or any event weekend**, the flat rate stays flat while rideshare triples.
 - **For families with luggage and car seats**, one SUV handles what an UberX can't.
 - **For early-morning departures**, there's no 4 a.m. cancellation roulette.
@@ -2517,7 +2517,7 @@ See full route detail on our [BWI to Annapolis service page](/bwi-to-annapolis).
 | Uber/Lyft (normal) | $45–$70 | 35–45 min | Solo, off-peak |
 | Uber/Lyft (surge) | $90–$160 | 35–45 min | Avoid if possible |
 | BWI taxi | $65–$85 | 35–45 min | No-app, no-surge solo |
-| Flat-rate chauffeur | from $110 | 30–45 min | Groups, families, events, peace of mind |
+| Flat-rate chauffeur | from $65 | 30–45 min | Groups, families, events, peace of mind |
 
 ### Why "Cheapest" Changes During Annapolis Events
 
@@ -2548,7 +2548,7 @@ Want to see the exact flat rate for your group and date? [Request a quote here](
       },
       {
         question: 'Is a chauffeur cheaper than Uber from BWI to Annapolis?',
-        answer: 'For a solo off-peak trip, no — Uber is usually cheaper. For groups of two or more, families with luggage, or any travel during surge-prone event weekends like Commissioning Week, our flat $110 rate is frequently cheaper and always more predictable.',
+        answer: 'For a solo off-peak trip, no — Uber is usually cheaper. For groups of two or more, families with luggage, or any travel during surge-prone event weekends like Commissioning Week, our flat $65 rate is frequently cheaper and always more predictable.',
       },
       {
         question: 'How long does the BWI to Annapolis trip take?',
@@ -2630,7 +2630,7 @@ The best way to judge a black car service is to use it once on a trip that matte
       },
       {
         question: 'How much does black car service from BWI cost?',
-        answer: 'It varies by route and vehicle, but the best services quote one flat, all-inclusive rate up front. For example, BWI to Annapolis starts around $110 and BWI to Baltimore around $75 — including tolls, fuel, and flight-tracking wait time, with no surge or overnight surcharge.',
+        answer: 'It varies by route and vehicle, but the best services quote one flat, all-inclusive rate up front. For example, BWI to Annapolis starts around $65 and BWI to Baltimore around $55 — including tolls, fuel, and flight-tracking wait time, with no surge or overnight surcharge.',
       },
       {
         question: 'Where does a black car pick up at BWI Airport?',
@@ -2685,11 +2685,11 @@ This is worth repeating because it's where late-night travelers get burned by ri
 
 | Destination | Flat Rate From |
 |-------------|----------------|
-| Baltimore (Inner Harbor) | $75 |
-| Annapolis | $110 |
+| Baltimore (Inner Harbor) | $55 |
+| Annapolis | $65 |
 | Columbia | $85 |
 | Severna Park | $95 |
-| Washington DC | $145 |
+| Washington DC | $85 |
 | Bethesda | $165 |
 
 No multiplier, no "late-night fee," no holiday premium. [Get your exact rate here](/booking).
@@ -2750,8 +2750,8 @@ If you've got a late or red-eye arrival coming up, lock in your ride before you 
     id: 23,
     slug: 'bwi-to-dc-flat-rate-car-service',
     title: 'BWI to DC Flat-Rate Car Service — One Price, No Surprises',
-    seoTitle: 'BWI to DC Flat-Rate Car Service 2026 | From $145, No Surge',
-    seoDescription: 'BWI to Washington DC flat-rate car service in 2026 from $145 — tolls and flight tracking included, no surge, no meter. Capitol Hill, Georgetown, K Street. Call 877-679-0100.',
+    seoTitle: 'BWI to DC Flat-Rate Car Service 2026 | From $85, No Surge',
+    seoDescription: 'BWI to Washington DC flat-rate car service in 2026 from $85 — tolls and flight tracking included, no surge, no meter. Capitol Hill, Georgetown, K Street. Call 877-679-0100.',
     excerpt: 'Why a flat-rate beats a metered or surge ride on the BWI to DC run — what is included, real 2026 pricing, routes, and timing for a 32-mile trip that traffic can make unpredictable.',
     date: '2026-03-10',
     author: 'BWI Chauffeur Team',
@@ -2776,14 +2776,14 @@ Compare that to a metered taxi (the worse the traffic, the more you pay) or a ri
 
 ### Real 2026 Flat Rates: BWI to DC
 
-Our published flat rate from BWI to Washington, DC starts at **$145** in a Mercedes E-Class and scales by vehicle and exact drop-off:
+Our published flat rate from BWI to Washington, DC starts at **$85** in a Mercedes E-Class and scales by vehicle and exact drop-off:
 
 | Vehicle | Capacity | Flat Rate From |
 |---------|----------|----------------|
-| Mercedes E-Class | 1–3 | $145 |
-| Mercedes S-Class | 1–3 | $185 |
-| Cadillac Escalade / Suburban | 1–5 | $195 |
-| Mercedes Sprinter | up to 14 | $295 |
+| Mercedes E-Class | 1–3 | $85 |
+| Mercedes S-Class | 1–3 | $125 |
+| Cadillac Escalade / Suburban | 1–5 | $135 |
+| Mercedes Sprinter | up to 14 | $225 |
 
 Every rate includes tolls, fuel, flight tracking, and the chauffeur. [Get your exact quote here](/booking).
 
@@ -2829,7 +2829,7 @@ Lock in one price for the whole trip — no surge, no meter, no surprises. [Rese
     faqs: [
       {
         question: 'How much is a flat-rate car service from BWI to DC?',
-        answer: 'Our published flat rate starts at $145 in a Mercedes E-Class and scales by vehicle — about $185 for an S-Class, $195 for an Escalade or Suburban, and $295 for a 14-passenger Sprinter. Every rate includes tolls, fuel, flight tracking, and the chauffeur, with no surge or meter.',
+        answer: 'Our published flat rate starts at $85 in a Mercedes E-Class and scales by vehicle — about $125 for an S-Class, $135 for an Escalade or Suburban, and $225 for a 14-passenger Sprinter. Every rate includes tolls, fuel, flight tracking, and the chauffeur, with no surge or meter.',
       },
       {
         question: 'How long does the BWI to DC drive take?',

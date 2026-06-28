@@ -3,6 +3,7 @@ import { Helmet } from '@dr.pogodin/react-helmet';
 import Hero from '../components/Hero';
 import IntroContent from '../components/IntroContent';
 import Services from '../components/Services';
+import PricingTable from '../components/PricingTable';
 import Fleet from '../components/Fleet';
 import About from '../components/About';
 import PromiseSection from '../components/Promise';
@@ -31,6 +32,7 @@ const HomePage = () => {
       <Hero />
       <IntroContent />
       <Services />
+      <PricingTable />
       <Fleet />
       <About />
       <PromiseSection />
