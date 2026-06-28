@@ -4,12 +4,12 @@ import { Check, ArrowRight, ShieldCheck, Clock, BadgeDollarSign } from 'lucide-r
 
 const PricingTable = () => {
   const routes = [
-    { route: 'BWI → Baltimore (Inner Harbor)', time: '~25 min', price: 55, to: '/blog/bwi-to-baltimore-car-service' },
-    { route: 'BWI → Annapolis', time: '30–45 min', price: 65, to: '/bwi-to-annapolis' },
-    { route: 'BWI → Washington, DC', time: '45–60 min', price: 85, to: '/bwi-to-washington-dc', popular: true },
-    { route: 'BWI → Bethesda, MD', time: '55–80 min', price: 165, to: '/bwi-to-bethesda' },
-    { route: 'BWI → Dulles Airport (IAD)', time: '80–110 min', price: 195, to: '/bwi-to-dulles' },
-    { route: 'BWI → Ocean City, MD', time: '2.5–3 hrs', price: 385, to: '/blog/bwi-to-ocean-city-md' },
+    { route: 'BWI → Baltimore (Inner Harbor)', time: '~25 min', price: 90, to: '/blog/bwi-to-baltimore-car-service' },
+    { route: 'BWI → Annapolis', time: '30–45 min', price: 120, to: '/bwi-to-annapolis' },
+    { route: 'BWI → Washington, DC', time: '45–60 min', price: 150, to: '/bwi-to-washington-dc', popular: true },
+    { route: 'BWI → Bethesda, MD', time: '55–80 min', price: 150, to: '/bwi-to-bethesda' },
+    { route: 'BWI → Dulles Airport (IAD)', time: '80–110 min', price: 210, to: '/bwi-to-dulles' },
+    { route: 'BWI → Ocean City, MD', time: '2.5–3 hrs', price: 400, to: '/blog/bwi-to-ocean-city-md' },
   ];
 
   const included = [
