@@ -335,8 +335,14 @@ const ContactPage = () => {
                       </Button>
 
                       <p className="text-xs text-gray-500 text-center pt-1">
-                        By submitting, you agree to be contacted at the email/phone provided.
-                        We never share your info.
+                        If you consent to receive conversational and informational SMS messages from BWI Chauffeur,
+                        you agree to receive conversational and informational SMS from us. Reply STOP to opt-out;
+                        reply HELP for support; message &amp; data rates may apply; messaging frequency may vary.
+                        Visit{' '}
+                        <Link to="/privacy-policy" className="underline hover:text-[#D4AF37]">
+                          https://bwichauffeur.com/privacy-policy
+                        </Link>{' '}
+                        to see our Privacy Policy and terms and conditions.
                       </p>
                     </form>
                   )}
