@@ -69,25 +69,10 @@ module.exports = async (req, res) => {
 
   // Only report success if the inquiry was captured somewhere (admin email or DB).
   if (adminResult.status !== "fulfilled" && !saved) {
-    const payload = {
+    return res.status(502).json({
       detail:
         "We could not deliver your request right now. Please call us at 877-679-0100.",
-    };
-    // TEMP DIAGNOSTIC: surface the SMTP error when explicitly requested.
-    if (req.query && req.query.debug === "1") {
-      const r = adminResult.reason || {};
-      payload._debug = {
-        message: r.message,
-        code: r.code,
-        command: r.command,
-        response: r.response,
-        smtp_user_set: Boolean(process.env.SMTP_USER),
-        smtp_pass_set: Boolean(process.env.SMTP_PASSWORD),
-        smtp_host: process.env.SMTP_HOST || "smtp.gmail.com",
-        smtp_port: process.env.SMTP_PORT || "587",
-      };
-    }
-    return res.status(502).json(payload);
+    });
   }
 
   return res.status(201).json(doc);
