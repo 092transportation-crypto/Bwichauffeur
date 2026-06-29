@@ -164,7 +164,7 @@ const FAQPage = () => {
       <Helmet>
         <title>BWI Chauffeur FAQ 2026 | Pricing, Booking & Airport Pickup Answers</title>
         <meta name="description" content="Find answers to frequently asked questions about BWI Chauffeur's luxury transportation services, booking process, pricing, and service areas in Maryland and DC." />
-        <link rel="canonical" href="https://bwichauffeur.com/faq/" />
+        <link rel="canonical" href="https://bwichauffeur.com/faq" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',

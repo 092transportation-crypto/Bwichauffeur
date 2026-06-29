@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    { "source": "/Premier", "destination": "/", "permanent": true },
+    { "source": "/premier", "destination": "/", "permanent": true },
+    { "source": "/faq/", "destination": "/faq", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

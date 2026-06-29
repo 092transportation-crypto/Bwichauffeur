@@ -17,7 +17,7 @@ const BookingPage = () => {
           name="description"
           content="Book your luxury chauffeur service online with BWI Chauffeur. Easy reservations for airport transfers, corporate travel, and special events in Maryland and DC."
         />
-        <link rel="canonical" href="https://bwichauffeur.com/booking/" />
+        <link rel="canonical" href="https://bwichauffeur.com/booking" />
       </Helmet>
 
       <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 pt-32 pb-16">
