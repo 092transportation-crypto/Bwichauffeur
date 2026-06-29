@@ -335,10 +335,11 @@ const ContactPage = () => {
                         />
                         <label htmlFor="sms_consent" className="text-xs text-gray-500 leading-relaxed cursor-pointer">
                           I consent to receive conversational and informational SMS messages from BWI Chauffeur.
+                          BWI Chauffeur will not share your mobile opt-in information with third parties.
                           Reply STOP to opt-out; reply HELP for support; message &amp; data rates may apply;
                           messaging frequency may vary.{' '}
                           <Link to="/privacy-policy" className="underline hover:text-[#D4AF37]">
-                            View our Privacy Policy
+                            View our Privacy Policy at bwichauffeur.com/privacy-policy
                           </Link>.
                         </label>
                       </div>

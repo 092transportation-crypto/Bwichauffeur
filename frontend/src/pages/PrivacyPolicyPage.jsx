@@ -131,6 +131,12 @@ const PrivacyPolicyPage = () => {
               </li>
             </ul>
 
+            <p className="mt-4" data-testid="mobile-opt-in-data-statement">
+              <strong className="text-white">Mobile Opt-In Data:</strong> Mobile opt-in
+              information and consent to receive SMS messages will not be shared with third
+              parties or affiliates for marketing or promotional purposes.
+            </p>
+
             <div
               className="mt-6 p-5 rounded-lg border-2 border-[#D4AF37]/60 bg-[#D4AF37]/10"
               data-testid="sms-no-share-statement"
