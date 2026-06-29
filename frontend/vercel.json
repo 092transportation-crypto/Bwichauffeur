@@ -5,6 +5,8 @@
     { "source": "/faq/", "destination": "/faq", "permanent": true }
   ],
   "rewrites": [
+    { "source": "/privacy-policy", "destination": "/privacy-policy/index.html" },
+    { "source": "/booking", "destination": "/booking/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
