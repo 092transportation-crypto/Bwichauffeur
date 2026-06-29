@@ -16,12 +16,14 @@ const SERVICE_OPTIONS = [
 
 const VEHICLE_OPTIONS = [
   { value: '', label: 'No preference — recommend best fit' },
-  { value: 'sedan', label: 'Luxury Sedan (Mercedes E-Class / BMW 7 / Cadillac CT)' },
-  { value: 'executive_sedan', label: 'Executive Sedan (Mercedes S-Class)' },
-  { value: 'suv', label: 'Luxury SUV (Cadillac Escalade / Chevy Suburban)' },
-  { value: 'midsize_suv', label: 'Midsize SUV (up to 5 passengers, extra luggage room)' },
-  { value: 'sprinter', label: 'Mercedes Sprinter Van (up to 14 passengers)' },
-  { value: 'other', label: 'Other / Special Request' },
+  { value: 'business_sedan', label: 'Business Sedan (Mercedes E-Class)' },
+  { value: 'first_class_sedan', label: 'First Class Sedan (BMW 7 Series / Mercedes S-Class)' },
+  { value: 'midsize_suv', label: 'Midsize SUV (Lincoln Nautilus)' },
+  { value: 'luxury_suv', label: 'Luxury SUV (Chevrolet Suburban)' },
+  { value: 'premium_suv', label: 'Premium SUV (Cadillac Escalade)' },
+  { value: 'sprinter_shuttle', label: 'Sprinter Shuttle' },
+  { value: 'sprinter_executive', label: 'Sprinter Executive' },
+  { value: 'sprinter_limo', label: 'Sprinter Limo' },
 ];
 
 const HEARD_FROM_OPTIONS = [

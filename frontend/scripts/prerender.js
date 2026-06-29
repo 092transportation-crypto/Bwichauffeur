@@ -18,7 +18,6 @@
 const fs = require("fs");
 const http = require("http");
 const path = require("path");
-const puppeteer = require("puppeteer");
 
 const BUILD_DIR = path.resolve(__dirname, "..", "build");
 
@@ -71,6 +70,11 @@ async function main() {
     throw new Error(`No build found at ${BUILD_DIR}. Run the build first.`);
   }
 
+  // puppeteer is an optionalDependency: it may be absent (or its Chromium
+  // download may have been skipped) in some build environments. Require it
+  // lazily so that case is handled gracefully rather than crashing at load.
+  const puppeteer = require("puppeteer");
+
   const server = createServer();
   await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
   const { port } = server.address();
@@ -114,6 +118,11 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error("Prerender failed:", err);
-  process.exit(1);
+  // Never fail the build because of prerendering. If Chromium is unavailable in
+  // the build environment, the site still deploys (serverless functions and the
+  // SPA work); only the static prerendered HTML for /privacy-policy and
+  // /booking is skipped. Logged loudly so it can be addressed.
+  console.warn("\n[prerender] WARNING: prerendering was skipped:", err && err.message);
+  console.warn("[prerender] The deploy will continue without static prerendered HTML.\n");
+  process.exit(0);
 });
