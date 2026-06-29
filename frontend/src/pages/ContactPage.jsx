@@ -29,6 +29,7 @@ const initial = {
   phone: '',
   subject: '',
   message: '',
+  sms_consent: false,
 };
 
 const ContactPage = () => {
@@ -39,8 +40,8 @@ const ContactPage = () => {
   const [error, setError] = useState('');
 
   const onChange = (e) => {
-    const { name, value } = e.target;
-    setForm((prev) => ({ ...prev, [name]: value }));
+    const { name, value, type, checked } = e.target;
+    setForm((prev) => ({ ...prev, [name]: type === 'checkbox' ? checked : value }));
   };
 
   const onSubmit = async (e) => {
@@ -49,6 +50,11 @@ const ContactPage = () => {
 
     if (!form.full_name.trim() || !form.email.trim() || !form.subject.trim() || !form.message.trim()) {
       setError('Please fill in all required fields.');
+      return;
+    }
+
+    if (!form.sms_consent) {
+      setError('Please agree to the SMS consent to continue.');
       return;
     }
 
@@ -315,6 +321,28 @@ const ContactPage = () => {
                         </div>
                       )}
 
+                      {/* SMS consent (required) */}
+                      <div className="flex items-start gap-3">
+                        <input
+                          type="checkbox"
+                          id="sms_consent"
+                          name="sms_consent"
+                          checked={form.sms_consent}
+                          onChange={onChange}
+                          required
+                          data-testid="contact-sms-consent"
+                          className="mt-0.5 h-5 w-5 flex-shrink-0 cursor-pointer rounded border-gray-600 bg-black/60 accent-[#D4AF37]"
+                        />
+                        <label htmlFor="sms_consent" className="text-xs text-gray-500 leading-relaxed cursor-pointer">
+                          I consent to receive conversational and informational SMS messages from BWI Chauffeur.
+                          Reply STOP to opt-out; reply HELP for support; message &amp; data rates may apply;
+                          messaging frequency may vary.{' '}
+                          <Link to="/privacy-policy" className="underline hover:text-[#D4AF37]">
+                            View our Privacy Policy
+                          </Link>.
+                        </label>
+                      </div>
+
                       <Button
                         type="submit"
                         disabled={submitting}
@@ -333,17 +361,6 @@ const ContactPage = () => {
                           </>
                         )}
                       </Button>
-
-                      <p className="text-xs text-gray-500 text-center pt-1">
-                        If you consent to receive conversational and informational SMS messages from BWI Chauffeur,
-                        you agree to receive conversational and informational SMS from us. Reply STOP to opt-out;
-                        reply HELP for support; message &amp; data rates may apply; messaging frequency may vary.
-                        Visit{' '}
-                        <Link to="/privacy-policy" className="underline hover:text-[#D4AF37]">
-                          https://bwichauffeur.com/privacy-policy
-                        </Link>{' '}
-                        to see our Privacy Policy and terms and conditions.
-                      </p>
                     </form>
                   )}
                 </CardContent>
