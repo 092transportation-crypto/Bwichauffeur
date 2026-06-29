@@ -59,7 +59,9 @@ export const QuoteForm = () => {
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const API_URL = process.env.REACT_APP_BACKEND_URL;
+  // Default to same-origin (Vercel serverless /api). Override with
+  // REACT_APP_BACKEND_URL only if the API is hosted elsewhere.
+  const API_URL = process.env.REACT_APP_BACKEND_URL || '';
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;

@@ -21,7 +21,9 @@ import { Textarea } from '../components/ui/textarea';
 import { toast } from 'sonner';
 import Breadcrumbs from '../components/Breadcrumbs';
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+// Default to same-origin (Vercel serverless /api). Override with
+// REACT_APP_BACKEND_URL only if the API is hosted elsewhere.
+const API = `${process.env.REACT_APP_BACKEND_URL || ''}/api`;
 
 const initial = {
   full_name: '',
