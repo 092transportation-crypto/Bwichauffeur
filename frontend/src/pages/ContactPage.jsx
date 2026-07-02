@@ -78,10 +78,10 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Contact BWI Chauffeur 2026 | 24/7 Booking & Support | 877-679-0100</title>
+        <title>Contact BWI Chauffeur | 24/7 Airport Transportation</title>
         <meta
           name="description"
-          content="Get in touch with BWI Chauffeur. Call 877-679-0100 or send us a message for luxury chauffeur service, airport transfers, and corporate transportation across Maryland, DC and Delaware."
+          content="Contact BWI Chauffeur for 24/7 luxury airport transfers and corporate car service across Maryland, DC & Delaware. Call 877-679-0100 or book online."
         />
         <link rel="canonical" href="https://bwichauffeur.com/contact/" />
       </Helmet>

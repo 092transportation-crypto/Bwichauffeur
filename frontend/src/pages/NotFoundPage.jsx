@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from '@dr.pogodin/react-helmet';
 import { useNavigate } from 'react-router-dom';
 import { Home, Phone, Mail } from 'lucide-react';
 import { Button } from '../components/ui/button';
@@ -8,6 +9,14 @@ const NotFoundPage = () => {
 
   return (
     <div className="min-h-screen bg-black flex items-center justify-center px-4">
+      <Helmet>
+        <title>Page Not Found (404) | BWI Chauffeur</title>
+        <meta
+          name="description"
+          content="The page you're looking for doesn't exist. Return to BWI Chauffeur for 24/7 flat-rate airport car service across Maryland, DC & Virginia."
+        />
+        <meta name="robots" content="noindex, follow" />
+      </Helmet>
       <div className="max-w-2xl mx-auto text-center">
         {/* Logo */}
         <img

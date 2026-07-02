@@ -122,8 +122,8 @@ const CityPage = ({ city }) => {
   const faqs = buildFaqs(city);
   const nearby = getNearbyCities(city, 8);
   const pageUrl = `https://bwichauffeur.com/limo-service-${city.slug}`;
-  const title = `Limo Service ${city.name}, MD 2026 | Flat-Rate BWI Airport & Black Car Service`;
-  const description = `Top-rated limo & black car service in ${city.name}, MD. Flat-rate BWI airport transfers (~${city.minutes} min), corporate travel, weddings & 24/7 chauffeur service. Call ${PHONE_DISPLAY}.`;
+  const title = `Limo Service ${city.name}, MD | BWI Car Service`;
+  const description = `Flat-rate BWI airport transfers from ${city.name}, MD (~${city.minutes} min) plus corporate, wedding & 24/7 chauffeur service. Call ${PHONE_DISPLAY}.`;
 
   const jsonLd = {
     '@context': 'https://schema.org',

@@ -61,8 +61,8 @@ const CruiseTransportationPage = () => {
   return (
     <>
       <Helmet>
-        <title>Baltimore Cruise Port Transportation 2026 | Flat-Rate Transfers | BWI Chauffeur</title>
-        <meta name="description" content="Luxury cruise port transportation to Port of Baltimore and Norfolk. Professional chauffeur service for cruise passengers with airport transfers and door-to-door pickup." />
+        <title>Baltimore Cruise Port Transfers | Flat-Rate Car Service</title>
+        <meta name="description" content="Luxury cruise port transfers to the Port of Baltimore & Norfolk. Flat-rate chauffeur service for cruise passengers with door-to-door pickup." />
         <link rel="canonical" href="https://bwichauffeur.com/cruise-transportation/" />
       </Helmet>
 

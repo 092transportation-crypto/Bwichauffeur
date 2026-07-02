@@ -9,7 +9,7 @@ export const BWI_ROUTES = [
     distance: '32 miles',
     drive_time: '45–60 minutes',
     flat_rate_from: 85,
-    metaTitle: 'BWI to Washington DC Car Service 2026 | Flat Rate from $85, No Surge',
+    metaTitle: 'BWI to Washington DC | Flat Rate Car Service from $85',
     metaDescription:
       'Flat rate BWI Airport to Washington DC chauffeur service. Professional chauffeur, 24/7 availability, late-model luxury fleet. Call 877-679-0100.',
     intro:
@@ -39,9 +39,9 @@ export const BWI_ROUTES = [
     distance: '27 miles',
     drive_time: '30–45 minutes',
     flat_rate_from: 65,
-    metaTitle: 'BWI to Annapolis Car Service 2026 | Flat Rate from $65 — Book Today',
+    metaTitle: 'BWI to Annapolis | Flat Rate Car Service from $65',
     metaDescription:
-      'BWI Airport to Annapolis MD flat rate chauffeur from $65 — no surge pricing, ever. Professional driver, 24/7 availability, USNA-savvy. Call 877-679-0100 to book today.',
+      'BWI Airport to Annapolis flat-rate chauffeur from $65 — no surge, ever. Professional driver, 24/7, USNA-savvy. Call 877-679-0100 to book.',
     intro:
       'BWI Chauffeur is the trusted partner for travelers heading from BWI Airport to Annapolis, Maryland — Maryland\'s capital, home of the United States Naval Academy, and gateway to the Chesapeake Bay. Whether you are arriving for Commissioning Week, an Eastport sailing charter, a State House meeting, or a quiet weekend at one of Annapolis\'s historic inns, our chauffeurs deliver a polished, predictable transfer in under an hour. Every booking includes flight tracking, complimentary wait time, and a flat published rate so you can budget without guesswork.',
     why_choose: [
@@ -69,7 +69,7 @@ export const BWI_ROUTES = [
     distance: '15 miles',
     drive_time: '20–30 minutes',
     flat_rate_from: 85,
-    metaTitle: 'BWI to Columbia MD Car Service 2026 | Flat Rate from $85 — Book Today',
+    metaTitle: 'BWI to Columbia | Flat Rate Car Service from $85',
     metaDescription:
       'Flat rate BWI Airport to Columbia MD chauffeur service. Professional chauffeur, 24/7 availability, corporate-friendly accounts. Call 877-679-0100.',
     intro:
@@ -99,7 +99,7 @@ export const BWI_ROUTES = [
     distance: '38 miles',
     drive_time: '55–80 minutes',
     flat_rate_from: 165,
-    metaTitle: 'BWI to Bethesda MD Car Service 2026 | Flat Rate, NIH & Walter Reed',
+    metaTitle: 'BWI to Bethesda | Flat Rate Car Service from $165',
     metaDescription:
       'Flat rate BWI Airport to Bethesda MD chauffeur service. Professional chauffeur, 24/7 availability, NIH and Walter Reed savvy. Call 877-679-0100.',
     intro:
@@ -129,7 +129,7 @@ export const BWI_ROUTES = [
     distance: '40–55 miles',
     drive_time: '60–90 minutes',
     flat_rate_from: 175,
-    metaTitle: 'BWI to Northern Virginia Car Service 2026 | Flat Rate from $175',
+    metaTitle: 'BWI to Northern Virginia | Flat Rate Car Service from $175',
     metaDescription:
       'Flat rate BWI Airport to Northern Virginia chauffeur service. Professional chauffeur, 24/7 availability, Tysons-Reston-Fairfax. Call 877-679-0100.',
     intro:
@@ -159,7 +159,7 @@ export const BWI_ROUTES = [
     distance: '37 miles',
     drive_time: '55–75 minutes',
     flat_rate_from: 155,
-    metaTitle: 'BWI to Arlington VA Car Service 2026 | Flat Rate from $155 — Book Today',
+    metaTitle: 'BWI to Arlington | Flat Rate Car Service from $155',
     metaDescription:
       'Flat rate BWI Airport to Arlington VA chauffeur service. Professional chauffeur, 24/7 availability, Pentagon and Crystal City savvy. Call 877-679-0100.',
     intro:
@@ -189,7 +189,7 @@ export const BWI_ROUTES = [
     distance: '42 miles',
     drive_time: '60–85 minutes',
     flat_rate_from: 165,
-    metaTitle: 'BWI to Alexandria VA Car Service 2026 | Flat Rate from $165, Old Town',
+    metaTitle: 'BWI to Alexandria | Flat Rate Car Service from $165',
     metaDescription:
       'Flat rate BWI Airport to Alexandria VA chauffeur service. Professional chauffeur, 24/7 availability, Old Town and federal-savvy. Call 877-679-0100.',
     intro:
@@ -219,7 +219,7 @@ export const BWI_ROUTES = [
     distance: '35 miles',
     drive_time: '50–75 minutes',
     flat_rate_from: 145,
-    metaTitle: 'BWI to Rockville MD Car Service 2026 | Flat Rate from $145 — Book Today',
+    metaTitle: 'BWI to Rockville | Flat Rate Car Service from $145',
     metaDescription:
       'Flat rate BWI Airport to Rockville MD chauffeur service. Professional chauffeur, 24/7 availability, biotech and federal corridor. Call 877-679-0100.',
     intro:
@@ -249,9 +249,9 @@ export const BWI_ROUTES = [
     distance: '34 miles',
     drive_time: '50–75 minutes',
     flat_rate_from: 145,
-    metaTitle: 'BWI to Silver Spring MD Car Service 2026 | Flat Rate from $145 — Book Today',
+    metaTitle: 'BWI to Silver Spring | Flat Rate Car Service from $145',
     metaDescription:
-      'BWI Airport to Silver Spring MD flat rate chauffeur from $145 — no surge pricing, ever. Professional driver, 24/7 dispatch, NOAA & FDA savvy. Call 877-679-0100 to book today.',
+      'BWI Airport to Silver Spring flat-rate chauffeur from $145 — no surge, ever. Professional driver, 24/7 dispatch, NOAA & FDA savvy. Call 877-679-0100.',
     intro:
       'Silver Spring, Maryland is a thriving downtown hub just north of D.C., home to Discovery Communications, the NOAA Silver Spring Metro Center campus, the FDA White Oak headquarters, and a long list of federal agencies and creative-industry employers. Our BWI to Silver Spring chauffeur service is the polished, no-stress way to bridge the 34 miles between the airport and downtown Silver Spring, Forest Glen, Takoma Park, or Wheaton.',
     why_choose: [
@@ -279,7 +279,7 @@ export const BWI_ROUTES = [
     distance: '53 miles',
     drive_time: '80–110 minutes',
     flat_rate_from: 195,
-    metaTitle: 'BWI to Dulles (IAD) Car Service 2026 | Flat Rate Airport Transfer from $195',
+    metaTitle: 'BWI to Dulles (IAD) | Flat Rate Car Service from $195',
     metaDescription:
       'Flat rate BWI Airport to Dulles IAD transfer chauffeur service. Professional chauffeur, 24/7 availability, inter-airport connections. Call 877-679-0100.',
     intro:

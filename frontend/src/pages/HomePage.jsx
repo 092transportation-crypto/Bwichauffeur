@@ -16,16 +16,16 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>BWI Airport Car Service 2026 | Flat-Rate Chauffeur in MD, DC & VA</title>
+        <title>BWI Airport Car Service | Flat-Rate Chauffeur, No Surge</title>
         <meta name="description" content="BWI Chauffeur offers professional chauffeur service and hourly chauffeur service for airport transfers, business travel, and luxury rides in the BWI area." />
         <link rel="canonical" href="https://bwichauffeur.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://bwichauffeur.com/" />
-        <meta property="og:title" content="BWI Airport Car Service 2026 | Flat-Rate Chauffeur in MD, DC & VA" />
+        <meta property="og:title" content="BWI Airport Car Service | Flat-Rate Chauffeur, No Surge" />
         <meta property="og:description" content="BWI Chauffeur offers professional chauffeur service and hourly chauffeur service for airport transfers, business travel, and luxury rides in the BWI area." />
         <meta property="og:image" content="https://bwichauffeur.com/logo.jpeg" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="BWI Airport Car Service 2026 | Flat-Rate Chauffeur in MD, DC & VA" />
+        <meta property="twitter:title" content="BWI Airport Car Service | Flat-Rate Chauffeur, No Surge" />
         <meta property="twitter:description" content="BWI Chauffeur offers professional chauffeur service and hourly chauffeur service for airport transfers, business travel, and luxury rides in the BWI area." />
         <meta property="twitter:image" content="https://bwichauffeur.com/logo.jpeg" />
       </Helmet>

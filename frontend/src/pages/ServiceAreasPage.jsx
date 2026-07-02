@@ -23,10 +23,10 @@ const ServiceAreasPage = () => {
   return (
     <>
       <Helmet>
-        <title>Service Areas 2026 | Limo & Car Service Cities in Maryland | BWI Chauffeur</title>
+        <title>Service Areas | Maryland Limo & Car Service Cities</title>
         <meta
           name="description"
-          content="BWI Chauffeur serves 45+ Maryland cities with luxury limo, black car & BWI airport car service — Baltimore, Columbia, Annapolis, Bethesda, Ocean City & more. Call 877-679-0100."
+          content="BWI Chauffeur serves 45+ Maryland cities with luxury limo, black car & airport car service — Baltimore, Columbia, Annapolis, Bethesda & more."
         />
         <link rel="canonical" href="https://bwichauffeur.com/service-areas" />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
