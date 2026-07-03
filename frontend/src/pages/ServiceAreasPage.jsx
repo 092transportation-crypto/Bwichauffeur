@@ -62,7 +62,7 @@ const ServiceAreasPage = () => {
               </a>
               <Link to="/booking">
                 <Button variant="outline" className="border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black px-8 py-3 w-full sm:w-auto">
-                  Get a Free Quote
+                  Get a Quote for Your Area
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>

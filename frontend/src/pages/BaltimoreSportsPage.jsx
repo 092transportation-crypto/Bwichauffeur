@@ -23,8 +23,11 @@ const BaltimoreSportsPage = () => {
         <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="https://images.unsplash.com/photo-1611706314453-9e1a6706b1a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHxCYWx0aW1vcmUlMjBSYXZlbnMlMjBORkwlMjBmb290YmFsbCUyMHN0YWRpdW18ZW58MHx8fHwxNzY5MTI2MzYxfDA&ixlib=rb-4.1.0&q=85"
+              src="https://images.unsplash.com/photo-1611706314453-9e1a6706b1a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHxCYWx0aW1vcmUlMjBSYXZlbnMlMjBORkwlMjBmb290YmFsbCUyMHN0YWRpdW18ZW58MHx8fHwxNzY5MTI2MzYxfDA&ixlib=rb-4.1.0&q=70&w=1600&auto=format"
               alt="M&T Bank Stadium Baltimore Ravens Game Day Transportation - BWI Chauffeur Private Car Service for NFL Football Games in Maryland"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black"></div>
@@ -90,8 +93,10 @@ const BaltimoreSportsPage = () => {
               </div>
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/128457/pexels-photo-128457.jpeg"
+                  src="https://images.pexels.com/photos/128457/pexels-photo-128457.jpeg?auto=compress&cs=tinysrgb&w=900"
                   alt="Baltimore Ravens NFL Game Day Luxury Transportation - Professional Chauffeur Service to M&T Bank Stadium Maryland"
+                  loading="lazy"
+                  decoding="async"
                   className="rounded-2xl shadow-2xl shadow-purple-900/30"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-purple-900 text-white p-6 rounded-xl">
@@ -109,8 +114,10 @@ const BaltimoreSportsPage = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 relative">
                 <img
-                  src="https://images.pexels.com/photos/569848/pexels-photo-569848.jpeg"
+                  src="https://images.pexels.com/photos/569848/pexels-photo-569848.jpeg?auto=compress&cs=tinysrgb&w=900"
                   alt="Camden Yards Oriole Park Baltimore - BWI Chauffeur Private Car Service for Orioles Baseball Games and Sports Events"
+                  loading="lazy"
+                  decoding="async"
                   className="rounded-2xl shadow-2xl shadow-orange-900/30"
                 />
                 <div className="absolute -bottom-6 -right-6 bg-orange-600 text-white p-6 rounded-xl">
@@ -255,8 +262,9 @@ const BaltimoreSportsPage = () => {
                         ? 'bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black hover:shadow-lg hover:shadow-[#D4AF37]/50'
                         : 'border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black'
                     }`}
+                    aria-label={`Book the ${pkg.name} game day package`}
                   >
-                    Book Now
+                    Book the {pkg.name} Package
                   </Link>
                 </div>
               ))}

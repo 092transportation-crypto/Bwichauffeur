@@ -22,6 +22,10 @@ const NotFoundPage = () => {
         <img
           src="/logo.jpeg"
           alt="BWI Chauffeur Service - Premier Private Car Service Maryland DC Virginia - Page Not Found"
+          width="96"
+          height="96"
+          loading="eager"
+          decoding="async"
           className="h-24 w-24 mx-auto mb-8 object-contain"
         />
 

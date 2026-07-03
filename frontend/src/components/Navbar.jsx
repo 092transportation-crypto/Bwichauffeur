@@ -45,6 +45,11 @@ const Navbar = () => {
             <img
               src="/logo.jpeg"
               alt="BWI Chauffeur Service Logo - Premier Private Car Service for Maryland, DC, and Virginia"
+              width="56"
+              height="56"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
               className="h-14 w-14 object-contain"
             />
             <div className="text-white">
@@ -88,8 +93,9 @@ const Navbar = () => {
             <Link
               to="/booking"
               className="px-4 py-2 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-semibold rounded-md hover:shadow-lg hover:shadow-[#D4AF37]/50 transition-all duration-300"
+              aria-label="Book your chauffeur ride"
             >
-              Book Now
+              Book Your Ride
             </Link>
           </div>
 
@@ -133,8 +139,9 @@ const Navbar = () => {
               to="/booking"
               onClick={closeMobileMenu}
               className="block w-full text-center px-4 py-2 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-semibold rounded-md"
+              aria-label="Book your chauffeur ride"
             >
-              Book Now
+              Book Your Ride
             </Link>
           </div>
         </div>

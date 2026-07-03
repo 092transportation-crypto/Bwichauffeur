@@ -49,7 +49,7 @@ const BlogPage = () => {
             Welcome to the <strong className="text-[#D4AF37]">BWI Chauffeur Blog</strong>, your ultimate resource for luxury transportation insights, travel tips, and industry expertise. Whether you're planning <Link to="/services" className="text-[#D4AF37] hover:underline">airport transportation</Link> to BWI, DCA, or Dulles, seeking the perfect <Link to="/blog/wedding-transportation-maryland-luxury-limousine" className="text-[#D4AF37] hover:underline">wedding transportation</Link>, or need <Link to="/blog/corporate-transportation-solutions-maryland-businesses" className="text-[#D4AF37] hover:underline">corporate car service</Link> in Maryland, our articles provide valuable information to help you make informed decisions.
           </p>
           <p>
-            Explore our comprehensive guides covering everything from <Link to="/fleet" className="text-[#D4AF37] hover:underline">luxury vehicle options</Link> and <Link to="/coverage" className="text-[#D4AF37] hover:underline">service coverage areas</Link> to insider tips for navigating <Link to="/blog/bwi-airport-transportation-guide-terminals-pickup" className="text-[#D4AF37] hover:underline">BWI Airport</Link>. Our team of transportation experts shares their knowledge to ensure your journey exceeds expectations every time.
+            Explore our comprehensive guides covering everything from <Link to="/luxury-fleet" className="text-[#D4AF37] hover:underline">luxury vehicle options</Link> and <Link to="/coverage" className="text-[#D4AF37] hover:underline">service coverage areas</Link> to insider tips for navigating <Link to="/blog/bwi-airport-transportation-guide-terminals-pickup" className="text-[#D4AF37] hover:underline">BWI Airport</Link>. Our team of transportation experts shares their knowledge to ensure your journey exceeds expectations every time.
           </p>
         </div>
 
@@ -106,6 +106,8 @@ const BlogPage = () => {
                 <img
                   src={featuredPost.image}
                   alt={featuredPost.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent md:bg-gradient-to-r" />
@@ -157,6 +159,8 @@ const BlogPage = () => {
                   <img
                     src={post.image}
                     alt={post.title}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
@@ -239,15 +243,15 @@ const BlogPage = () => {
             <div>
               <h3 className="text-[#D4AF37] font-semibold mb-3">Fleet</h3>
               <ul className="space-y-2">
-                <li><Link to="/fleet" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">View All Vehicles</Link></li>
+                <li><Link to="/luxury-fleet" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">View All Vehicles</Link></li>
                 <li><Link to="/blog/luxury-fleet-mercedes-bmw-cadillac" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">Mercedes & BMW</Link></li>
-                <li><Link to="/fleet" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">SUVs & Sprinters</Link></li>
+                <li><Link to="/luxury-fleet" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">SUVs & Sprinters</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="text-[#D4AF37] font-semibold mb-3">Coverage</h3>
               <ul className="space-y-2">
-                <li><Link to="/coverage" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">Service Areas</Link></li>
+                <li><Link to="/coverage" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">Coverage Areas</Link></li>
                 <li><Link to="/blog/service-coverage-maryland-counties-delaware-dc" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">Maryland Counties</Link></li>
                 <li><Link to="/blog/bwi-airport-transportation-guide-terminals-pickup" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">BWI Airport</Link></li>
               </ul>
@@ -258,7 +262,7 @@ const BlogPage = () => {
                 <li><Link to="/" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">About BWI Chauffeur</Link></li>
                 <li><Link to="/blog/professional-chauffeurs-training-safety-standards" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">Our Chauffeurs</Link></li>
                 <li><Link to="/blog/24-7-availability-flight-tracking-technology" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">Technology</Link></li>
-                <li><Link to="/booking" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">Book Now</Link></li>
+                <li><Link to="/booking" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">Book a Chauffeur</Link></li>
               </ul>
             </div>
           </div>
@@ -276,7 +280,7 @@ const BlogPage = () => {
               size="lg"
               className="bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-bold hover:shadow-lg hover:shadow-[#D4AF37]/50"
             >
-              Book Now
+              Reserve Your Luxury Ride
             </Button>
             <Button
               onClick={() => window.location.href = 'tel:+18776790100'}

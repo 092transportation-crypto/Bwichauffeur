@@ -182,8 +182,9 @@ const RoutePage = ({ route }) => {
                   to="/booking"
                   className="inline-flex items-center px-5 py-3 border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black font-semibold rounded-md transition-all"
                   data-testid="route-book-cta"
+                  aria-label={`Book BWI to ${route.destination} transfer`}
                 >
-                  Book Online
+                  Book BWI to {route.destination}
                 </Link>
               </div>
             </CardContent>
@@ -284,8 +285,9 @@ const RoutePage = ({ route }) => {
               <Link
                 to="/booking"
                 className="inline-flex items-center px-6 py-3 border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black font-semibold rounded-md transition-all"
+                aria-label={`Reserve your BWI to ${route.destination} ride`}
               >
-                Book Online
+                Reserve This {route.destination} Ride
               </Link>
             </div>
           </section>

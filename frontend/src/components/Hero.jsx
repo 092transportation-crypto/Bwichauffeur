@@ -41,6 +41,11 @@ const Hero = () => {
           <img
             src="/logo.jpeg"
             alt="BWI Chauffeur Service Logo - Premier Private Car Service and Executive Airport Transportation in Maryland, Washington DC, and Virginia"
+            width="128"
+            height="128"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
             className="h-32 w-32 object-contain drop-shadow-2xl"
           />
         </div>

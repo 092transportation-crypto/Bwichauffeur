@@ -334,6 +334,9 @@ const BlogPostPage = () => {
           <img
             src={post.image}
             alt={post.title}
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
@@ -383,6 +386,8 @@ const BlogPostPage = () => {
                     <img
                       src={relatedPost.image}
                       alt={relatedPost.title}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
@@ -472,7 +477,7 @@ const BlogPostPage = () => {
               className="bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-bold"
               data-testid="post-get-quote-cta"
             >
-              Get a Free Quote
+              Get Your Free Quote
             </Button>
             <Button
               onClick={() => window.location.href = 'tel:+18776790100'}
@@ -493,11 +498,11 @@ const BlogPostPage = () => {
             <span className="text-gray-600">•</span>
             <Link to="/services" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Our Services</Link>
             <span className="text-gray-600">•</span>
-            <Link to="/fleet" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Luxury Fleet</Link>
+            <Link to="/luxury-fleet" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Luxury Fleet</Link>
             <span className="text-gray-600">•</span>
             <Link to="/coverage" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Coverage Areas</Link>
             <span className="text-gray-600">•</span>
-            <Link to="/booking" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Book Now</Link>
+            <Link to="/booking" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Reserve a Chauffeur</Link>
             <span className="text-gray-600">•</span>
             <Link to="/blog" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">All Articles</Link>
           </div>

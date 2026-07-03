@@ -138,6 +138,9 @@ const Fleet = () => {
                   src={vehicle.image}
                   alt={`${vehicle.name} — ${vehicle.category} chauffeur vehicle, seats ${vehicle.passengers}`}
                   loading="lazy"
+                  decoding="async"
+                  width="800"
+                  height="600"
                   onError={handleImgError}
                   className="absolute inset-0 w-full h-full object-cover z-10 group-hover:scale-105 transition-transform duration-500"
                 />
@@ -178,8 +181,9 @@ const Fleet = () => {
                   to="/booking"
                   className="inline-flex items-center justify-center gap-2 w-full px-5 py-3 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-bold rounded-lg hover:shadow-lg hover:shadow-[#D4AF37]/40 transition-all duration-300"
                   data-testid={`fleet-book-${index}`}
+                  aria-label={`Book the ${vehicle.name}`}
                 >
-                  Book Now
+                  Book the {vehicle.name}
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </CardContent>

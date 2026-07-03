@@ -208,7 +208,7 @@ const FAQPage = () => {
         {/* FAQ Introduction for SEO */}
         <div className="mb-12 text-gray-300 leading-relaxed">
           <p className="mb-4">
-            At <strong className="text-[#D4AF37]">BWI Chauffeur</strong>, we strive to make luxury transportation simple and stress-free. Below you'll find answers to the most commonly asked questions about our <Link to="/services" className="text-[#D4AF37] hover:underline">chauffeur services</Link>, <Link to="/fleet" className="text-[#D4AF37] hover:underline">luxury fleet</Link>, and <Link to="/coverage" className="text-[#D4AF37] hover:underline">service coverage areas</Link>. If you don't find the answer you're looking for, please don't hesitate to call us at <a href="tel:+18776790100" className="text-[#D4AF37] hover:underline">877-679-0100</a> - our team is available 24/7 to assist you.
+            At <strong className="text-[#D4AF37]">BWI Chauffeur</strong>, we strive to make luxury transportation simple and stress-free. Below you'll find answers to the most commonly asked questions about our <Link to="/services" className="text-[#D4AF37] hover:underline">chauffeur services</Link>, <Link to="/luxury-fleet" className="text-[#D4AF37] hover:underline">luxury fleet</Link>, and <Link to="/coverage" className="text-[#D4AF37] hover:underline">service coverage areas</Link>. If you don't find the answer you're looking for, please don't hesitate to call us at <a href="tel:+18776790100" className="text-[#D4AF37] hover:underline">877-679-0100</a> - our team is available 24/7 to assist you.
           </p>
         </div>
 
@@ -273,7 +273,7 @@ const FAQPage = () => {
               variant="outline"
               className="border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black px-6 py-3"
             >
-              Book Online
+              Book Your Ride Online
             </Button>
           </div>
         </div>
@@ -286,11 +286,11 @@ const FAQPage = () => {
             <span className="text-gray-600">•</span>
             <Link to="/services" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Our Services</Link>
             <span className="text-gray-600">•</span>
-            <Link to="/fleet" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Luxury Fleet</Link>
+            <Link to="/luxury-fleet" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Luxury Fleet</Link>
             <span className="text-gray-600">•</span>
             <Link to="/coverage" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Coverage Areas</Link>
             <span className="text-gray-600">•</span>
-            <Link to="/booking" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Book Now</Link>
+            <Link to="/booking" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Schedule Your Ride</Link>
             <span className="text-gray-600">•</span>
             <Link to="/blog" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Blog</Link>
           </div>

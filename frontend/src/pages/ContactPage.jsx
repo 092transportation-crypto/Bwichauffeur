@@ -221,7 +221,7 @@ const ContactPage = () => {
                           to="/booking"
                           className="inline-flex items-center px-5 py-2 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-semibold rounded-md hover:shadow-lg hover:shadow-[#D4AF37]/40 transition-all"
                         >
-                          Book a Ride
+                          Book Your Airport Ride
                         </Link>
                       </div>
                     </div>

@@ -49,7 +49,7 @@ const TermsConditionsPage = () => {
                 <li>Executive and corporate car service for business professionals</li>
                 <li>Wedding and special event transportation</li>
                 <li>Hourly chauffeur services for multiple stops</li>
-                <li>Group transportation in our <Link to="/fleet" className="text-[#D4AF37] hover:underline">luxury vehicles</Link> including Mercedes Sprinter vans</li>
+                <li>Group transportation in our <Link to="/luxury-fleet" className="text-[#D4AF37] hover:underline">luxury vehicles</Link> including Mercedes Sprinter vans</li>
               </ul>
               <p>
                 Services are provided throughout <Link to="/coverage" className="text-[#D4AF37] hover:underline">Maryland, Delaware, and the Washington DC metropolitan area</Link> as detailed on our Coverage page.
@@ -123,7 +123,7 @@ const TermsConditionsPage = () => {
               <ul className="list-disc pl-6 space-y-2">
                 <li>Provide accurate pickup location, contact information, and flight details for airport transfers</li>
                 <li>Be ready at scheduled pickup time (5-minute grace period provided)</li>
-                <li>Respect our professional chauffeurs and treat <Link to="/fleet" className="text-[#D4AF37] hover:underline">luxury vehicles</Link> with care</li>
+                <li>Respect our professional chauffeurs and treat <Link to="/luxury-fleet" className="text-[#D4AF37] hover:underline">luxury vehicles</Link> with care</li>
                 <li>No smoking in any vehicle in our fleet</li>
                 <li>Secure all children in appropriate car seats (available upon request)</li>
                 <li>Report any issues immediately to our dispatch team at 877-679-0100</li>
@@ -148,7 +148,7 @@ const TermsConditionsPage = () => {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">8. Luggage and Personal Belongings</h2>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Standard luggage allowance based on vehicle type (see our <Link to="/fleet" className="text-[#D4AF37] hover:underline">Fleet page</Link> for specifications)</li>
+                <li>Standard luggage allowance based on vehicle type (see our <Link to="/luxury-fleet" className="text-[#D4AF37] hover:underline">Fleet page</Link> for specifications)</li>
                 <li>Oversized or excessive luggage must be declared in advance</li>
                 <li>BWI Chauffeur is not responsible for lost, stolen, or damaged personal items</li>
                 <li>Left items: We will attempt to return lost items for a reasonable fee</li>
@@ -211,7 +211,7 @@ const TermsConditionsPage = () => {
                 <Link to="/faq" className="text-[#D4AF37] hover:underline">FAQ</Link>
                 <Link to="/about" className="text-[#D4AF37] hover:underline">About Us</Link>
                 <Link to="/services" className="text-[#D4AF37] hover:underline">Our Services</Link>
-                <Link to="/booking" className="text-[#D4AF37] hover:underline">Book a Ride</Link>
+                <Link to="/booking" className="text-[#D4AF37] hover:underline">Book a Chauffeured Ride</Link>
               </div>
             </section>
 

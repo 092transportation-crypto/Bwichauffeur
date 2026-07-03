@@ -105,7 +105,7 @@ const CruiseTransportationPage = () => {
               </a>
               <Link to="/booking">
                 <Button variant="outline" className="border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black px-8 py-3">
-                  Book Online
+                  Book Your Cruise Transfer
                 </Button>
               </Link>
             </div>
@@ -143,6 +143,8 @@ const CruiseTransportationPage = () => {
                     <img
                       src={port.image}
                       alt={port.name}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
@@ -247,7 +249,7 @@ const CruiseTransportationPage = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/booking">
                 <Button className="bg-[#D4AF37] text-black hover:bg-[#C4A030] font-semibold px-8 py-4 text-lg">
-                  Book Now
+                  Book My Cruise Transfer
                 </Button>
               </Link>
               <a href="tel:+18776790100">

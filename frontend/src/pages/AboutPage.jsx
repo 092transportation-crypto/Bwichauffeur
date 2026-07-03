@@ -84,7 +84,7 @@ const AboutPage = () => {
                 Our founder recognized a gap in the market for truly professional, reliable transportation that business executives and discerning travelers could depend on. Unlike ride-sharing apps that offer inconsistent quality, BWI Chauffeur was built on the principle that every ride should be an exceptional experience.
               </p>
               <p>
-                Today, we operate a diverse <Link to="/fleet" className="text-[#D4AF37] hover:underline">fleet of luxury vehicles</Link> including the latest Mercedes-Benz, BMW, and Cadillac models. Our team of professional chauffeurs has collectively completed over 100,000 trips, maintaining a 99%+ on-time rate and a 5-star customer satisfaction rating.
+                Today, we operate a diverse <Link to="/luxury-fleet" className="text-[#D4AF37] hover:underline">fleet of luxury vehicles</Link> including the latest Mercedes-Benz, BMW, and Cadillac models. Our team of professional chauffeurs has collectively completed over 100,000 trips, maintaining a 99%+ on-time rate and a 5-star customer satisfaction rating.
               </p>
               <p>
                 We proudly serve all of <Link to="/coverage" className="text-[#D4AF37] hover:underline">Maryland, Delaware, Washington DC, and Northern Virginia</Link>, specializing in <Link to="/services" className="text-[#D4AF37] hover:underline">airport transportation</Link>, corporate car service, wedding transportation, and special events. Our commitment to excellence has made us the preferred transportation partner for Fortune 500 companies, law firms, and individuals who expect nothing but the best.
@@ -99,6 +99,7 @@ const AboutPage = () => {
                 src="/fleet/mercedes-e-class.jpg"
                 alt="BWI Chauffeur Mercedes-Benz E-Class — Executive Private Car Service in Baltimore-Washington DC Area"
                 loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
@@ -229,7 +230,7 @@ const AboutPage = () => {
             <span className="text-gray-600">•</span>
             <Link to="/services" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Our Services</Link>
             <span className="text-gray-600">•</span>
-            <Link to="/fleet" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Luxury Fleet</Link>
+            <Link to="/luxury-fleet" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Luxury Fleet</Link>
             <span className="text-gray-600">•</span>
             <Link to="/coverage" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Coverage Areas</Link>
             <span className="text-gray-600">•</span>
@@ -237,7 +238,7 @@ const AboutPage = () => {
             <span className="text-gray-600">•</span>
             <Link to="/blog" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Blog</Link>
             <span className="text-gray-600">•</span>
-            <Link to="/booking" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Book Now</Link>
+            <Link to="/booking" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Reserve a Vehicle</Link>
           </div>
         </div>
       </div>

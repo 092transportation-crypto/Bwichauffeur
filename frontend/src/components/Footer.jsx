@@ -47,6 +47,10 @@ const Footer = () => {
               <img
                 src="/logo.jpeg"
                 alt="BWI Chauffeur Service Logo - Luxury Airport Transportation Maryland DC Virginia"
+                width="48"
+                height="48"
+                loading="lazy"
+                decoding="async"
                 className="h-12 w-12 object-contain"
               />
               <div>
@@ -89,7 +93,7 @@ const Footer = () => {
               <li><Link to="/faq" className="text-gray-400 hover:text-[#D4AF37] transition-colors">FAQ</Link></li>
               <li><Link to="/contact" className="text-gray-400 hover:text-[#D4AF37] transition-colors" data-testid="footer-contact-link">Contact</Link></li>
               <li><Link to="/blog" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Blog</Link></li>
-              <li><Link to="/booking" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Book Now</Link></li>
+              <li><Link to="/booking" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Book Your Chauffeur</Link></li>
             </ul>
           </div>
 

@@ -109,7 +109,7 @@ const BWIDifference = () => {
             data-testid="difference-cta"
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-bold rounded-md hover:shadow-lg hover:shadow-[#D4AF37]/40 transition-all"
           >
-            Get a Free Quote
+            Request Your Free Quote
             <ChevronRight className="ml-1 h-4 w-4" />
           </Link>
           <p className="mt-3 text-gray-500 text-sm">
