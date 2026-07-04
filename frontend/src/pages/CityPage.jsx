@@ -140,7 +140,7 @@ const CityPage = ({ city }) => {
           telephone: '(877) 679-0100',
           email: 'info@bwichauffeur.com',
           url: 'https://bwichauffeur.com',
-          image: 'https://bwichauffeur.com/logo.jpeg',
+          image: 'https://bwichauffeur.com/images/bmw-7series.jpg',
           address: {
             '@type': 'PostalAddress',
             streetAddress: 'Severna Park',
