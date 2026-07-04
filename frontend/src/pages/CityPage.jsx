@@ -137,12 +137,21 @@ const CityPage = ({ city }) => {
         provider: {
           '@type': 'LocalBusiness',
           name: 'BWI Chauffeur',
-          telephone: '+1-877-679-0100',
+          telephone: '(877) 679-0100',
           email: 'info@bwichauffeur.com',
           url: 'https://bwichauffeur.com',
           image: 'https://bwichauffeur.com/logo.jpeg',
-          address: { '@type': 'PostalAddress', addressLocality: 'Baltimore', addressRegion: 'MD', addressCountry: 'US' },
+          address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Severna Park',
+            addressLocality: 'Severna Park',
+            addressRegion: 'MD',
+            postalCode: '21146',
+            addressCountry: 'US',
+          },
           priceRange: '$$',
+          areaServed: 'Maryland, Washington DC, Virginia, Delaware',
+          openingHours: 'Mo-Su 00:00-23:59',
         },
       },
       {
