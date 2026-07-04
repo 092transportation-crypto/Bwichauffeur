@@ -1,9 +1,9 @@
 # BWI Chauffeur Robots.txt
-# https://bwichauffeur.com
+# https://www.bwichauffeur.com
 
 User-agent: *
 Allow: /
 Disallow: /api/
 
 # Sitemap location
-Sitemap: https://bwichauffeur.com/sitemap.xml
+Sitemap: https://www.bwichauffeur.com/sitemap.xml
