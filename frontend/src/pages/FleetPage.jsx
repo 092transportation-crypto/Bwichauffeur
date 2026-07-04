@@ -41,16 +41,23 @@ const FleetPage = () => {
         {/* Fleet Introduction Content */}
         <div className="max-w-4xl mx-auto mb-16 space-y-6 text-gray-300 leading-relaxed">
           <p className="text-lg">
-            At <strong className="text-[#D4AF37]">BWI Chauffeur</strong>, we take immense pride in our meticulously curated fleet of luxury vehicles. Each automobile in our collection has been carefully selected to provide the ultimate in comfort, safety, and sophistication for our discerning clientele. Whether you're traveling to BWI Airport for a business trip, attending a corporate event in Washington DC, or celebrating a special occasion in Baltimore, our premium vehicles ensure you arrive in style and comfort.
+            At <strong className="text-[#D4AF37]">BWI Chauffeur</strong>, we take great pride in our fleet of luxury vehicles. Each one is chosen for comfort, safety, and style. Business trip to BWI? Corporate event in Washington DC? A celebration in Baltimore? You arrive in style every time.
           </p>
 
           <p>
-            Our fleet features the latest models from the world's most prestigious automotive manufacturers including <strong>Mercedes-Benz</strong>, <strong>BMW</strong>, <strong>Cadillac</strong>, and <strong>Chevrolet</strong>. Every vehicle undergoes rigorous daily inspections and regular professional maintenance to guarantee optimal performance, cleanliness, and reliability. We understand that our vehicles are a reflection of the premium service experience we promise to deliver, which is why we accept nothing less than perfection.
+            Our fleet features the latest models from <strong>Mercedes-Benz</strong>, <strong>BMW</strong>, <strong>Cadillac</strong>, and <strong>Chevrolet</strong>. Every vehicle gets a daily inspection and regular professional maintenance. Our vehicles reflect the service we promise. We accept nothing less than perfection.
           </p>
 
           <p>
-            From business sedans perfect for airport transfers and business meetings to spacious luxury SUVs ideal for family travel and group outings, our diverse fleet accommodates every transportation need. For larger groups attending conferences, weddings, or corporate events, our Mercedes Sprinter Vans offer premium group transportation without compromising on comfort or amenities. Each vehicle features complimentary Wi-Fi, bottled water, phone chargers, and climate-controlled interiors to ensure a pleasant journey regardless of distance.
+            Our fleet fits every travel need. Business sedans work best for airport transfers and meetings. Luxury SUVs suit families and group outings. Mercedes Sprinter vans carry larger groups to conferences, weddings, and corporate events. Every vehicle includes:
           </p>
+
+          <ul className="list-disc list-inside space-y-2 pl-2">
+            <li>Free Wi-Fi</li>
+            <li>Bottled water</li>
+            <li>Phone chargers</li>
+            <li>Climate-controlled interiors</li>
+          </ul>
         </div>
 
         {/* Fleet Features */}

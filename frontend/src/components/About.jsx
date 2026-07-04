@@ -32,11 +32,11 @@ const About = () => {
             </p>
 
             <p className="text-gray-300 leading-relaxed">
-              Whether you need reliable airport transportation to BWI, DCA, or Dulles airports, corporate car service for business meetings, or luxury transportation for special events and weddings, our team is available 24/7 to provide seamless, professional service. We proudly serve all Maryland counties including Anne Arundel, Baltimore, Howard, Montgomery, and Prince George's County, as well as Delaware and the greater Washington DC metropolitan area.
+              Whether you need reliable airport transportation to BWI, DCA, or Dulles airports, corporate car service for business meetings, or luxury transportation for special events and weddings, our team is available 24/7 to provide smooth, professional service. We proudly serve all Maryland counties including Anne Arundel, Baltimore, Howard, Montgomery, and Prince George's County, as well as Delaware and the greater Washington DC metropolitan area.
             </p>
 
             <p className="text-gray-300 leading-relaxed">
-              At BWI Chauffeur, we understand that your time is valuable. That's why we utilize advanced GPS tracking, real-time traffic monitoring, and flight tracking systems to ensure punctual pickups and drop-offs. Our 99% on-time rate is a testament to our commitment to reliability and customer satisfaction.
+              At BWI Chauffeur, we understand that your time is valuable. That's why we use advanced GPS tracking, real-time traffic monitoring, and flight tracking systems to ensure punctual pickups and drop-offs. Our 99% on-time rate is a testament to our commitment to reliability and customer satisfaction.
             </p>
 
             {/* Stats Grid */}

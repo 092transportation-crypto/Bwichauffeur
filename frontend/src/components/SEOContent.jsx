@@ -17,11 +17,11 @@ const SEOContent = () => {
         <div className="space-y-6 text-gray-300 leading-relaxed">
           
           <p className="text-lg">
-            Welcome to <strong className="text-[#D4AF37]">BWI Chauffeur</strong>, your premier choice for luxury transportation services throughout Maryland, Delaware, and the greater Washington DC metropolitan area. Since 2014, we have been providing exceptional <button onClick={() => navigate('/services')} className="text-[#D4AF37] hover:underline font-semibold">chauffeur services</button> to discerning clients who demand excellence, reliability, and professionalism in every journey.
+            Welcome to <strong className="text-[#D4AF37]">BWI Chauffeur</strong>, your first choice for luxury transportation in Maryland, Delaware, and Washington DC. Since 2014, we have provided trusted <button onClick={() => navigate('/services')} className="text-[#D4AF37] hover:underline font-semibold">chauffeur services</button> to clients who expect excellence on every journey.
           </p>
 
           <p>
-            Our company specializes in <strong>BWI airport transportation</strong>, serving Baltimore-Washington International Thurgood Marshall Airport with punctual, stress-free transfers. Whether you're arriving for business meetings in <strong>Baltimore City</strong>, <strong>Annapolis</strong>, or traveling to <strong>Washington DC</strong>, our professional chauffeur service ensures you arrive on time and in style. We also provide comprehensive service to <strong>Ronald Reagan Washington National Airport (DCA)</strong> and <strong>Washington Dulles International Airport (IAD)</strong>.
+            We specialize in <strong>BWI airport transportation</strong>. Our transfers to and from BWI Marshall Airport are punctual and stress-free. Whether you have a meeting in <strong>Baltimore City</strong>, an event in <strong>Annapolis</strong>, or business in <strong>Washington DC</strong>, you arrive on time and in style. We also serve <strong>Ronald Reagan Washington National Airport (DCA)</strong> and <strong>Washington Dulles International Airport (IAD)</strong>.
           </p>
 
           <h2 className="text-3xl font-bold text-white mt-10 mb-4">
@@ -29,11 +29,19 @@ const SEOContent = () => {
           </h2>
 
           <p>
-            At BWI Chauffeur, we maintain an impressive <button onClick={() => navigate('/fleet')} className="text-[#D4AF37] hover:underline font-semibold">fleet of luxury vehicles</button> to meet every transportation need. Our collection includes the latest <strong>2025 Mercedes-Benz E-Class</strong>, renowned <strong>Mercedes-Benz S-Class</strong> executive sedans, prestigious <strong>BMW 7 Series</strong> luxury sedans, spacious <strong>Cadillac Escalade</strong> and <strong>Chevrolet Suburban</strong> SUVs, and premium <strong>Mercedes Sprinter Vans</strong> for group transportation. Each vehicle is meticulously maintained, fully insured, and equipped with modern amenities to ensure your comfort throughout the journey.
+            At BWI Chauffeur, we maintain an impressive <button onClick={() => navigate('/fleet')} className="text-[#D4AF37] hover:underline font-semibold">fleet of luxury vehicles</button> to meet every transportation need. Each vehicle is fully insured and maintained daily. Our collection includes:
           </p>
 
+          <ul className="list-disc list-inside space-y-2 pl-2">
+            <li>The latest <strong>2025 Mercedes-Benz E-Class</strong> business sedans</li>
+            <li><strong>Mercedes-Benz S-Class</strong> executive sedans</li>
+            <li><strong>BMW 7 Series</strong> luxury sedans</li>
+            <li>Spacious <strong>Cadillac Escalade</strong> and <strong>Chevrolet Suburban</strong> SUVs</li>
+            <li><strong>Mercedes Sprinter Vans</strong> for group transportation</li>
+          </ul>
+
           <p>
-            Our <strong>Mercedes-Benz sedans</strong> feature premium leather seating, advanced MBUX infotainment systems, climate control, and Wi-Fi connectivity - perfect for business travelers who need to stay productive during transit. The <strong>BMW 7 Series</strong> offers executive lounge seating with ambient lighting and the innovative iDrive 8.5 system. For larger groups or families, our <strong>luxury SUVs</strong> provide expansive interior space with seating for up to 5 passengers and ample luggage capacity.
+            Our <strong>Mercedes-Benz sedans</strong> feature premium leather seating, MBUX infotainment, climate control, and Wi-Fi. They are perfect for business travelers who need to stay productive on the road. The <strong>BMW 7 Series</strong> adds executive lounge seating, ambient lighting, and the iDrive 8.5 system. For larger groups or families, our <strong>luxury SUVs</strong> seat up to 5 passengers with room for all your luggage.
           </p>
 
           <h2 className="text-3xl font-bold text-white mt-10 mb-4">
@@ -41,11 +49,23 @@ const SEOContent = () => {
           </h2>
 
           <p>
-            Our <button onClick={() => navigate('/services')} className="text-[#D4AF37] hover:underline font-semibold">transportation services</button> cater to various needs including <strong>corporate car service</strong> for business executives, <strong>wedding limousine service</strong> for special occasions, <strong>airport shuttle services</strong>, <strong>point-to-point transfers</strong>, <strong>hourly chauffeur service</strong>, and <strong>group transportation</strong> for events and conferences. We understand that every client has unique requirements, which is why we offer customizable packages tailored to your specific needs.
+            Our <button onClick={() => navigate('/services')} className="text-[#D4AF37] hover:underline font-semibold">transportation services</button> cover every travel need:
+          </p>
+
+          <ul className="list-disc list-inside space-y-2 pl-2">
+            <li><strong>Corporate car service</strong> for business executives</li>
+            <li><strong>Wedding limousine service</strong> for special occasions</li>
+            <li><strong>Airport shuttle services</strong> and <strong>point-to-point transfers</strong></li>
+            <li><strong>Hourly chauffeur service</strong></li>
+            <li><strong>Group transportation</strong> for events and conferences</li>
+          </ul>
+
+          <p>
+            Every client has unique needs. That is why we offer custom packages tailored to you.
           </p>
 
           <p>
-            For corporate clients, we provide <strong>executive transportation solutions</strong> with dedicated account management, flexible billing options, and priority scheduling. Our chauffeurs are trained in corporate protocol and understand the importance of discretion and professionalism. Many <strong>Fortune 500 companies</strong>, law firms, and financial institutions trust BWI Chauffeur for their executive ground transportation needs in the DMV area.
+            For corporate clients, we provide <strong>executive transportation solutions</strong>. These include dedicated account management, flexible billing, and priority scheduling. Our chauffeurs are trained in corporate protocol. They understand discretion and professionalism. Many <strong>Fortune 500 companies</strong>, law firms, and financial institutions trust BWI Chauffeur in the DMV area.
           </p>
 
           <h2 className="text-3xl font-bold text-white mt-10 mb-4">
@@ -53,11 +73,34 @@ const SEOContent = () => {
           </h2>
 
           <p>
-            BWI Chauffeur proudly provides <button onClick={() => navigate('/coverage')} className="text-[#D4AF37] hover:underline font-semibold">comprehensive coverage</button> throughout Maryland including all counties: <strong>Anne Arundel County</strong>, <strong>Baltimore County</strong>, <strong>Howard County</strong>, <strong>Montgomery County</strong>, <strong>Prince George's County</strong>, <strong>Allegany County</strong>, <strong>Calvert County</strong>, <strong>Caroline County</strong>, <strong>Carroll County</strong>, <strong>Cecil County</strong>, <strong>Frederick County</strong>, <strong>Harford County</strong>, <strong>Kent County</strong>, <strong>Queen Anne's County</strong>, <strong>St. Mary's County</strong>, <strong>Somerset County</strong>, <strong>Talbot County</strong>, <strong>Washington County</strong>, <strong>Wicomico County</strong>, and <strong>Worcester County</strong>. We also serve the entire <strong>state of Delaware</strong> and <strong>York County, Pennsylvania</strong>.
+            BWI Chauffeur provides <button onClick={() => navigate('/coverage')} className="text-[#D4AF37] hover:underline font-semibold">full coverage</button> across Maryland. We serve all 23 counties, plus the entire <strong>state of Delaware</strong> and <strong>York County, Pennsylvania</strong>. Maryland counties we cover include:
           </p>
 
+          <ul className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-2 list-disc list-inside pl-2">
+            <li><strong>Anne Arundel</strong></li>
+            <li><strong>Baltimore</strong></li>
+            <li><strong>Howard</strong></li>
+            <li><strong>Montgomery</strong></li>
+            <li><strong>Prince George's</strong></li>
+            <li><strong>Allegany</strong></li>
+            <li><strong>Calvert</strong></li>
+            <li><strong>Caroline</strong></li>
+            <li><strong>Carroll</strong></li>
+            <li><strong>Cecil</strong></li>
+            <li><strong>Frederick</strong></li>
+            <li><strong>Harford</strong></li>
+            <li><strong>Kent</strong></li>
+            <li><strong>Queen Anne's</strong></li>
+            <li><strong>St. Mary's</strong></li>
+            <li><strong>Somerset</strong></li>
+            <li><strong>Talbot</strong></li>
+            <li><strong>Washington</strong></li>
+            <li><strong>Wicomico</strong></li>
+            <li><strong>Worcester</strong></li>
+          </ul>
+
           <p>
-            Major cities and areas we serve include <strong>Baltimore</strong>, <strong>Annapolis</strong>, <strong>Columbia</strong>, <strong>Silver Spring</strong>, <strong>Bethesda</strong>, <strong>Rockville</strong>, <strong>Gaithersburg</strong>, <strong>Germantown</strong>, <strong>Ellicott City</strong>, <strong>Towson</strong>, <strong>Glen Burnie</strong>, <strong>Severna Park</strong>, <strong>Odenton</strong>, <strong>Crofton</strong>, <strong>Bowie</strong>, <strong>Greenbelt</strong>, <strong>College Park</strong>, <strong>Hyattsville</strong>, <strong>Laurel</strong>, <strong>Dundalk</strong>, <strong>Essex</strong>, <strong>Catonsville</strong>, <strong>Owings Mills</strong>, <strong>Pikesville</strong>, <strong>Randallstown</strong>, <strong>Reisterstown</strong>, <strong>Westminster</strong>, <strong>Frederick</strong>, <strong>Hagerstown</strong>, <strong>Cumberland</strong>, and many more communities throughout the region.
+            Major cities and areas we serve include <strong>Baltimore</strong>, <strong>Annapolis</strong>, <strong>Columbia</strong>, <strong>Silver Spring</strong>, <strong>Bethesda</strong>, <strong>Rockville</strong>, <strong>Gaithersburg</strong>, <strong>Ellicott City</strong>, and <strong>Towson</strong>. We also cover <strong>Glen Burnie</strong>, <strong>Severna Park</strong>, <strong>Odenton</strong>, <strong>Crofton</strong>, <strong>Bowie</strong>, <strong>Laurel</strong>, <strong>Frederick</strong>, <strong>Hagerstown</strong>, and many more communities. If your town is in the region, we serve it.
           </p>
 
           <h3 className="text-2xl font-bold text-white mt-8 mb-3">
@@ -65,7 +108,7 @@ const SEOContent = () => {
           </h3>
 
           <p>
-            Every member of our chauffeur team undergoes rigorous <strong>background checks</strong>, <strong>drug testing</strong>, and comprehensive training programs. Our drivers average over 10 years of professional driving experience and maintain clean driving records. They are trained in <strong>defensive driving techniques</strong>, <strong>customer service excellence</strong>, <strong>corporate protocol</strong>, and <strong>GPS navigation systems</strong>. Many of our chauffeurs hold <strong>commercial driver's licenses (CDL)</strong> and have experience with high-profile clients and VIP transportation.
+            Every chauffeur passes strict <strong>background checks</strong> and <strong>drug testing</strong>. Our drivers average over 10 years of professional experience with clean driving records. They are trained in <strong>defensive driving</strong>, <strong>customer service</strong>, <strong>corporate protocol</strong>, and <strong>GPS navigation</strong>. Many hold <strong>commercial driver's licenses (CDL)</strong> and have driven high-profile and VIP clients.
           </p>
 
           <h3 className="text-2xl font-bold text-white mt-8 mb-3">
@@ -73,7 +116,7 @@ const SEOContent = () => {
           </h3>
 
           <p>
-            BWI Chauffeur operates <strong>24 hours a day, 7 days a week, 365 days a year</strong> to accommodate your travel schedule. Our advanced dispatch system utilizes <strong>real-time flight tracking technology</strong> to monitor airline arrivals and departures, automatically adjusting pickup times for early arrivals or delays. This ensures that your chauffeur is always there when you need them, whether your flight lands at 3 AM or 3 PM. Call us anytime at <strong className="text-[#D4AF37]">877-679-0100</strong> for immediate assistance or <button onClick={() => navigate('/booking')} className="text-[#D4AF37] hover:underline font-semibold">book online</button> for instant confirmation.
+            BWI Chauffeur operates <strong>24 hours a day, 7 days a week, 365 days a year</strong>. Our dispatch system uses <strong>real-time flight tracking</strong> to watch arrivals and departures. Pickup times adjust automatically for early arrivals or delays. Your chauffeur is there whether your flight lands at 3 AM or 3 PM. Call us anytime at <strong className="text-[#D4AF37]">877-679-0100</strong> or <button onClick={() => navigate('/booking')} className="text-[#D4AF37] hover:underline font-semibold">book online</button> for instant confirmation.
           </p>
 
           <h3 className="text-2xl font-bold text-white mt-8 mb-3">
@@ -81,7 +124,18 @@ const SEOContent = () => {
           </h3>
 
           <p>
-            Make your special day unforgettable with our elegant <strong>wedding limousine service</strong>. We provide luxury transportation for weddings, proms, anniversaries, milestone birthdays, corporate galas, and other special occasions throughout Maryland and Delaware. Our wedding packages include <strong>red carpet service</strong>, <strong>complimentary champagne</strong>, <strong>decorated vehicles</strong>, and professional chauffeurs dressed in formal attire. We work closely with wedding planners and event coordinators to ensure seamless coordination and on-time service for your entire wedding party.
+            Make your special day unforgettable with our elegant <strong>wedding limousine service</strong>. We cover weddings, proms, anniversaries, milestone birthdays, and corporate galas across Maryland and Delaware. Our wedding packages include:
+          </p>
+
+          <ul className="list-disc list-inside space-y-2 pl-2">
+            <li><strong>Red carpet service</strong></li>
+            <li><strong>Complimentary champagne</strong></li>
+            <li><strong>Decorated vehicles</strong></li>
+            <li>Professional chauffeurs in formal attire</li>
+          </ul>
+
+          <p>
+            We work closely with wedding planners and event coordinators. Your entire wedding party stays on schedule.
           </p>
 
           <h3 className="text-2xl font-bold text-white mt-8 mb-3">
@@ -89,7 +143,18 @@ const SEOContent = () => {
           </h3>
 
           <p>
-            For businesses seeking reliable corporate transportation solutions, BWI Chauffeur offers <strong>corporate account programs</strong> with preferential rates, consolidated billing, detailed trip reports, and dedicated account managers. Our corporate services include <strong>executive airport transfers</strong>, <strong>inter-office transportation</strong>, <strong>client pickup and delivery</strong>, <strong>roadshow transportation</strong>, <strong>board meeting shuttles</strong>, and <strong>convention transportation services</strong>. We integrate seamlessly with corporate travel management systems and provide detailed invoicing for expense reporting.
+            BWI Chauffeur offers <strong>corporate account programs</strong> for businesses. Accounts include preferred rates, consolidated billing, detailed trip reports, and a dedicated account manager. Our corporate services include:
+          </p>
+
+          <ul className="list-disc list-inside space-y-2 pl-2">
+            <li><strong>Executive airport transfers</strong></li>
+            <li><strong>Inter-office transportation</strong> and <strong>client pickup</strong></li>
+            <li><strong>Roadshow transportation</strong></li>
+            <li><strong>Board meeting shuttles</strong> and <strong>convention transportation</strong></li>
+          </ul>
+
+          <p>
+            We work smoothly with corporate travel management systems. You also get detailed invoicing for expense reporting.
           </p>
 
           <h3 className="text-2xl font-bold text-white mt-8 mb-3">
@@ -97,7 +162,7 @@ const SEOContent = () => {
           </h3>
 
           <p>
-            We believe in <strong>transparent pricing</strong> with no hidden fees. All rates are quoted upfront and include gratuity, fuel surcharges, tolls, and parking fees. Our competitive rates make luxury transportation accessible for both personal and business travel. We offer <strong>flat-rate airport transfers</strong>, <strong>hourly rates</strong> for extended trips, and <strong>custom packages</strong> for events and special occasions. Request a free quote by calling <strong>877-679-0100</strong> or submit your details through our online <button onClick={() => navigate('/booking')} className="text-[#D4AF37] hover:underline font-semibold">booking system</button>.
+            We believe in <strong>transparent pricing</strong> with no hidden fees. All rates are quoted upfront. They include gratuity, fuel surcharges, tolls, and parking. We offer <strong>flat-rate airport transfers</strong>, <strong>hourly rates</strong> for longer trips, and <strong>custom packages</strong> for events. Request a free quote at <strong>877-679-0100</strong> or through our online <button onClick={() => navigate('/booking')} className="text-[#D4AF37] hover:underline font-semibold">booking system</button>.
           </p>
 
           <h3 className="text-2xl font-bold text-white mt-8 mb-3">
@@ -105,7 +170,7 @@ const SEOContent = () => {
           </h3>
 
           <p>
-            Safety is our top priority. All BWI Chauffeur vehicles carry comprehensive <strong>commercial insurance coverage</strong> exceeding state requirements. We maintain all required licenses and permits including <strong>Maryland Public Service Commission (PSC) licenses</strong>, <strong>Washington DC DFHV licenses</strong>, and <strong>Delaware transportation permits</strong>. Our fleet undergoes regular safety inspections, preventive maintenance, and detailed cleaning protocols. Every vehicle is equipped with <strong>GPS tracking</strong>, <strong>emergency communication systems</strong>, and <strong>first aid kits</strong> for your peace of mind.
+            Safety is our top priority. Every vehicle carries <strong>commercial insurance</strong> that exceeds state requirements. We hold all required licenses, including <strong>Maryland PSC licenses</strong>, <strong>Washington DC DFHV licenses</strong>, and <strong>Delaware transportation permits</strong>. Our fleet gets regular safety inspections, preventive maintenance, and detailed cleaning. Every vehicle carries <strong>GPS tracking</strong>, <strong>emergency communication</strong>, and <strong>first aid kits</strong>.
           </p>
 
           <div className="mt-12 p-8 bg-gradient-to-r from-[#D4AF37]/10 to-[#F4E5C3]/10 border border-[#D4AF37]/30 rounded-lg">
@@ -113,7 +178,7 @@ const SEOContent = () => {
               Ready to Experience Premier Luxury Transportation?
             </h3>
             <p className="text-lg mb-6">
-              Join thousands of satisfied clients who trust BWI Chauffeur for their transportation needs throughout Maryland, Delaware, and Washington DC. Whether you need reliable <button onClick={() => navigate('/services')} className="text-[#D4AF37] hover:underline font-semibold">airport transportation</button>, <strong>executive car service</strong>, <strong>wedding limousine service</strong>, or <strong>corporate travel solutions</strong>, our team is ready to serve you 24/7.
+              Join thousands of satisfied clients across Maryland, Delaware, and Washington DC. Whether you need <button onClick={() => navigate('/services')} className="text-[#D4AF37] hover:underline font-semibold">airport transportation</button>, <strong>executive car service</strong>, a <strong>wedding limousine</strong>, or <strong>corporate travel</strong>, our team is ready 24/7.
             </p>
             <div className="flex flex-wrap gap-4">
               <button 

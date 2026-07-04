@@ -40,19 +40,29 @@ const CoveragePage = () => {
         {/* Coverage Introduction Content */}
         <div className="max-w-4xl mx-auto mb-16 space-y-6 text-gray-300 leading-relaxed">
           <p className="text-lg">
-            <strong className="text-[#D4AF37]">BWI Chauffeur</strong> proudly provides comprehensive luxury transportation services across an extensive coverage area spanning Maryland, Delaware, Pennsylvania, Washington DC, and Northern Virginia. Our strategic location near Baltimore-Washington International Airport allows us to efficiently serve clients throughout the entire DMV metropolitan region with reliable, punctual, and professional chauffeur services.
+            <strong className="text-[#D4AF37]">BWI Chauffeur</strong> serves Maryland, Delaware, Pennsylvania, Washington DC, and Northern Virginia. We are based near BWI Airport. That lets us reach clients across the entire DMV region quickly and reliably.
           </p>
 
           <p>
-            Our primary service area encompasses all major destinations in Maryland including Baltimore City, Annapolis, Columbia, Rockville, Bethesda, Silver Spring, and the Inner Harbor district. We specialize in <strong>BWI Airport transportation</strong>, offering seamless transfers to and from Baltimore-Washington International Thurgood Marshall Airport for both business and leisure travelers. Additionally, we provide comprehensive service to Ronald Reagan Washington National Airport (DCA) and Washington Dulles International Airport (IAD), ensuring complete airport coverage for the region.
+            Our primary service area covers all major Maryland destinations:
+          </p>
+
+          <ul className="list-disc list-inside space-y-2 pl-2">
+            <li>Baltimore City and the Inner Harbor</li>
+            <li>Annapolis and Columbia</li>
+            <li>Rockville, Bethesda, and Silver Spring</li>
+          </ul>
+
+          <p>
+            We specialize in <strong>BWI Airport transportation</strong> with smooth transfers for business and leisure travelers. We also serve Reagan National (DCA) and Dulles International (IAD). That gives you complete airport coverage for the region.
           </p>
 
           <p>
-            Beyond our primary coverage zone, BWI Chauffeur extends service throughout all 23 Maryland counties plus Baltimore City, from the Eastern Shore communities of Talbot and Queen Anne's County to the western reaches of Allegany and Washington County. We also serve the entire state of Delaware, York County in Pennsylvania, and the greater Washington DC metropolitan area including Arlington, Alexandria, Fairfax, and Tysons Corner in Northern Virginia.
+            Our full coverage goes much further. We serve all 23 Maryland counties plus Baltimore City — from Talbot and Queen Anne's on the Eastern Shore to Allegany and Washington County in the west. We also cover all of Delaware and York County, Pennsylvania. In Northern Virginia, we serve Arlington, Alexandria, Fairfax, and Tysons Corner.
           </p>
 
           <p>
-            Whether you need transportation from BWI Airport to downtown Washington DC, a corporate car service from Annapolis to Baltimore, or luxury transportation for a wedding in the Maryland countryside, our experienced chauffeurs know the region intimately. We utilize advanced GPS navigation and real-time traffic monitoring to select optimal routes, ensuring timely arrivals regardless of traffic conditions or weather challenges.
+            Our chauffeurs know the region well. We use GPS navigation and real-time traffic monitoring to pick the best routes. You arrive on time, whatever the traffic or weather.
           </p>
         </div>
 
@@ -89,7 +99,7 @@ const CoveragePage = () => {
       <div className="bg-gradient-to-r from-[#D4AF37]/10 to-[#F4E5C3]/10 border-y border-[#D4AF37]/30 py-12 mt-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Don't See Your Location Listed?</h2>
-          <p className="text-gray-300 mb-6">Our coverage area is constantly expanding, and we frequently accommodate special requests for destinations outside our standard service zones. Contact our 24/7 concierge team to confirm availability and receive a custom quote for your specific route.</p>
+          <p className="text-gray-300 mb-6">Our coverage area is constantly expanding, and we often handle special requests for destinations outside our standard service zones. Contact our 24/7 concierge team to confirm availability and receive a custom quote for your specific route.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button
               onClick={() => navigate('/booking')}

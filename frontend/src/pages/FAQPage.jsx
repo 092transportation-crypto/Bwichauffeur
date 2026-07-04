@@ -27,7 +27,7 @@ const FAQPage = () => {
         },
         {
           question: 'Can I make last-minute bookings?',
-          answer: 'Yes! We accommodate last-minute bookings based on vehicle availability. Call our 24/7 dispatch at 877-679-0100 for immediate assistance. While we can\'t guarantee availability, we do our best to accommodate all requests.'
+          answer: 'Yes! We take last-minute bookings based on vehicle availability. Call our 24/7 dispatch at 877-679-0100 for immediate assistance. While we can\'t guarantee availability, we do our best to meet all requests.'
         },
         {
           question: 'Do you require a deposit for bookings?',
@@ -90,15 +90,15 @@ const FAQPage = () => {
         },
         {
           question: 'Can I request a specific vehicle?',
-          answer: 'Absolutely! You can select your preferred vehicle class when booking. We\'ll do our best to accommodate specific vehicle requests, though availability may vary. For guaranteed specific vehicle assignments, we recommend booking at least 48 hours in advance.'
+          answer: 'Absolutely! You can select your preferred vehicle class when booking. We\'ll do our best to meet specific vehicle requests, though availability may vary. For guaranteed specific vehicle assignments, we recommend booking at least 48 hours in advance.'
         },
         {
           question: 'Are your vehicles equipped with WiFi?',
           answer: 'Yes, all our vehicles come equipped with complimentary WiFi, phone chargers (USB and wireless), bottled water, and climate control. Our sedans and SUVs also feature premium leather interiors and privacy partitions available upon request.'
         },
         {
-          question: 'How many passengers can your vehicles accommodate?',
-          answer: 'Our sedans (Mercedes E-Class, S-Class, BMW 7 Series) accommodate 3 passengers. Luxury SUVs (Escalade, Suburban) seat 5 passengers. Mercedes Sprinter Vans accommodate up to 14 passengers. All with ample luggage space.'
+          question: 'How many passengers can your vehicles fit?',
+          answer: 'Our sedans (Mercedes E-Class, S-Class, BMW 7 Series) fit 3 passengers. Luxury SUVs (Escalade, Suburban) seat 5 passengers. Mercedes Sprinter Vans fit up to 14 passengers. All with ample luggage space.'
         }
       ]
     },
@@ -115,7 +115,7 @@ const FAQPage = () => {
         },
         {
           question: 'Can you provide service to areas not listed?',
-          answer: 'Likely yes! Our coverage is extensive and we frequently accommodate special requests. Call 877-679-0100 to confirm service availability for your specific route and receive a custom quote.'
+          answer: 'Likely yes! Our coverage is extensive and we often handle special requests. Call 877-679-0100 to confirm service availability for your specific route and receive a custom quote.'
         }
       ]
     },
@@ -131,8 +131,8 @@ const FAQPage = () => {
           answer: 'Absolutely! Our corporate program includes dedicated account management, customized billing, detailed trip reports, priority scheduling, and preferred rates for frequent travelers. Contact our corporate team to set up an account.'
         },
         {
-          question: 'Can you accommodate child car seats?',
-          answer: 'Yes, we can accommodate child car seats. Please let us know at the time of booking if you need a car seat (infant, convertible, or booster) so we can have the appropriate equipment ready. You may also bring your own car seat.'
+          question: 'Can you provide child car seats?',
+          answer: 'Yes, we can provide child car seats. Please let us know at the time of booking if you need a car seat (infant, convertible, or booster) so we can have the appropriate equipment ready. You may also bring your own car seat.'
         },
         {
           question: 'Do you provide hourly/as-directed service?',

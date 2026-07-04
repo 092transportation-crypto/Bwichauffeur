@@ -49,35 +49,33 @@ const RoutePage = ({ route }) => {
   const title = route.metaTitle || `BWI to ${route.destination} | Flat Rate Car Service from $${route.flat_rate_from}`;
   const canonical = `https://bwichauffeur.com/${route.slug}`;
 
+  const faqs = [
+    {
+      q: `How much does BWI to ${route.destination} transportation cost?`,
+      a: `Flat rates for BWI to ${route.destination} start at $${route.flat_rate_from}. The final price depends on vehicle type and exact drop-off address. Call 877-679-0100 or request an instant quote online.`,
+    },
+    {
+      q: `How long is the drive from BWI to ${route.destination}?`,
+      a: `The drive from BWI Airport to ${route.destination} usually takes ${route.drive_time}, covering about ${route.distance}. Our chauffeurs watch traffic in real time and reroute as needed.`,
+    },
+    {
+      q: 'Do you track my flight?',
+      a: 'Yes. Every booking includes real-time flight tracking. You get 60 minutes of free wait time for domestic flights and 90 minutes for international arrivals.',
+    },
+    {
+      q: 'Is the price fixed, or can it change?',
+      a: 'Your quoted flat rate is the price you pay. There is no surge pricing and no hidden fees — tolls and gratuity are included.',
+    },
+  ];
+
   const faqStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: `How much does BWI to ${route.destination} transportation cost?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `Flat rates for BWI to ${route.destination} start at $${route.flat_rate_from}. Final price depends on vehicle type and exact drop-off address. Call 877-679-0100 or request an instant quote online.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: `How long is the drive from BWI to ${route.destination}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `The drive from BWI Airport to ${route.destination} typically takes ${route.drive_time}, covering approximately ${route.distance}. Our chauffeurs monitor real-time traffic and reroute as needed.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Do you track my flight?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Yes. Every booking includes real-time flight tracking with 60 minutes complimentary wait time for domestic flights and 90 minutes for international arrivals.',
-        },
-      },
-    ],
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
   };
 
   return (
@@ -289,6 +287,24 @@ const RoutePage = ({ route }) => {
               >
                 Reserve This {route.destination} Ride
               </Link>
+            </div>
+          </section>
+
+          {/* FAQ */}
+          <section className="mb-12" data-testid="route-faq">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              Frequently asked <span className="text-[#D4AF37]">questions</span>
+            </h2>
+            <div className="space-y-4">
+              {faqs.map((f) => (
+                <div
+                  key={f.q}
+                  className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-lg p-6"
+                >
+                  <h3 className="text-lg font-semibold text-white mb-2">{f.q}</h3>
+                  <p className="text-gray-400">{f.a}</p>
+                </div>
+              ))}
             </div>
           </section>
 

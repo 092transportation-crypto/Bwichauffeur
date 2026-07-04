@@ -91,7 +91,7 @@ const BookingPage = () => {
                 <h4 className="text-[#D4AF37] font-semibold mb-2">Reservation Policy</h4>
                 <p>
                   We recommend booking at least 24 hours in advance for standard services and
-                  48–72 hours for special events. Last-minute bookings are accommodated based
+                  48–72 hours for special events. Last-minute bookings are accepted based
                   on vehicle availability.
                 </p>
               </div>

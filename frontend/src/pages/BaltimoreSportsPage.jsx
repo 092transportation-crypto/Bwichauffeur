@@ -4,14 +4,44 @@ import { Link } from 'react-router-dom';
 import { Phone, MapPin, Clock, Shield, Star, Car, Users, Calendar } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 
+const sportsFaqs = [
+  {
+    q: 'Do you drop off at M&T Bank Stadium and Camden Yards?',
+    a: 'Yes. We drop you at the closest access point to your gate and pick you up at an agreed spot after the game. No stadium parking hassle.',
+  },
+  {
+    q: 'What happens if the game runs long or goes to overtime?',
+    a: 'Your chauffeur tracks the game and adjusts the pickup time. You never pay extra for overtime or rain delays.',
+  },
+  {
+    q: 'Can you take a group to the game?',
+    a: 'Yes. Our Mercedes Sprinter vans fit up to 14 passengers. Everyone rides together and arrives at the same time.',
+  },
+  {
+    q: 'How far in advance should I book game day transportation?',
+    a: 'Book at least 48 hours ahead for regular season games. For playoffs and big rivalry games, book as early as you can.',
+  },
+];
+
 const BaltimoreSportsPage = () => {
   return (
     <>
       <Helmet>
         <title>Baltimore Sports Transportation | Ravens & Orioles</title>
-        <meta name="description" content="Premium transportation to Baltimore sports events with professional chauffeurs, luxury vehicles, and timely service for a seamless, enjoyable experience." />
+        <meta name="description" content="Premium transportation to Baltimore sports events with professional chauffeurs, luxury vehicles, and timely service for a smooth, enjoyable experience." />
         <meta name="keywords" content="Baltimore Ravens transportation, Orioles game day shuttle, M&T Bank Stadium limo, Camden Yards chauffeur, Baltimore sports transportation, NFL game transportation, MLB game shuttle, Ravens tailgate transportation" />
         <link rel="canonical" href="https://bwichauffeur.com/baltimore-sports-transportation/" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: sportsFaqs.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+          })}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-black">
@@ -136,7 +166,7 @@ const BaltimoreSportsPage = () => {
                   Oriole Park at Camden Yards revolutionized baseball stadium design when it opened in 1992, and remains one of the most beloved ballparks in America. The Baltimore Orioles, with their rich history dating back to 1901, have given fans legendary players like Cal Ripken Jr., Brooks Robinson, and Jim Palmer.
                 </p>
                 <p className="text-gray-300 text-lg mb-6">
-                  Whether you're catching a summer night game, attending the home opener, or watching the O's in a pennant race, BWI Chauffeur provides seamless transportation to and from Camden Yards. Enjoy the game, grab a Boog's BBQ sandwich, and let us handle the ride home.
+                  Whether you're catching a summer night game, attending the home opener, or watching the O's in a pennant race, BWI Chauffeur provides smooth transportation to and from Camden Yards. Enjoy the game, grab a Boog's BBQ sandwich, and let us handle the ride home.
                 </p>
                 <ul className="space-y-4 mb-8">
                   <li className="flex items-start space-x-3">
@@ -266,6 +296,23 @@ const BaltimoreSportsPage = () => {
                   >
                     Book the {pkg.name} Package
                   </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-16">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 text-center">
+              Game Day <span style={{ color: '#D4AF37' }}>FAQs</span>
+            </h2>
+            <div className="space-y-4">
+              {sportsFaqs.map((f) => (
+                <div key={f.q} className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-lg p-6">
+                  <h3 className="text-lg font-semibold text-white mb-2">{f.q}</h3>
+                  <p className="text-gray-400">{f.a}</p>
                 </div>
               ))}
             </div>

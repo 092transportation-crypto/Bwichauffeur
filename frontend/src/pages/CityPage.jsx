@@ -110,7 +110,7 @@ const buildFaqs = (city) => {
   } else {
     faqs.push({
       q: `How early should I book my airport pickup in ${city.name}?`,
-      a: `We recommend booking at least 24 hours in advance to guarantee availability, especially for early-morning flights. That said, we accommodate last-minute requests whenever possible — call ${PHONE_DISPLAY} and we'll do our best to get a chauffeur to you.`,
+      a: `We recommend booking at least 24 hours in advance to guarantee availability, especially for early-morning flights. That said, we take last-minute requests whenever possible — call ${PHONE_DISPLAY} and we'll do our best to get a chauffeur to you.`,
     });
   }
   return faqs;

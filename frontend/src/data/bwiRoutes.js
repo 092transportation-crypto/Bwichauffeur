@@ -19,7 +19,7 @@ export const BWI_ROUTES = [
       'Real-time flight tracking with 60 minutes of free wait time (90 minutes for international arrivals)',
       'Direct routes via BW Parkway, I-95, or 295 depending on real-time traffic',
       'Local chauffeurs who know every D.C. neighborhood, hotel motor lobby, and Capitol entrance',
-      'Government, federal contractor, and embassy billing accommodated',
+      'Government, federal contractor, and embassy billing accepted',
     ],
     what_to_expect:
       'Your chauffeur is waiting in the BWI ground transportation area with a name placard when you exit baggage claim — or meets you at the gate if you book the meet-and-greet upgrade. After loading your luggage, you settle into a quiet, climate-controlled cabin with complimentary bottled water, phone chargers, and WiFi. The ride to downtown D.C. averages 45 to 60 minutes depending on time of day. We monitor live traffic and reroute around the Beltway or onto the Suitland Parkway whenever it saves you time. Drop-off works at any address — your hotel, a private residence in Kalorama, the Ronald Reagan Building, the Capitol Visitor Center, or any of the federal agencies in the SW or NW quadrant.',

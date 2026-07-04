@@ -6,6 +6,29 @@ import { useNavigate, Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import Breadcrumbs from '../components/Breadcrumbs';
 
+const servicesFaqs = [
+  {
+    q: 'How much does BWI airport car service cost?',
+    a: 'We charge flat rates based on distance and vehicle type. There is no surge pricing and no hidden fees. Call 877-679-0100 or book online for an exact quote.',
+  },
+  {
+    q: 'Do you track my flight?',
+    a: 'Yes. We track every flight in real time. If your flight is early or delayed, your pickup time adjusts automatically at no charge.',
+  },
+  {
+    q: 'Can I book a chauffeur by the hour?',
+    a: 'Yes. Our hourly chauffeur service is perfect for meetings, events, and city tours. Your chauffeur stays with you for as long as you need.',
+  },
+  {
+    q: 'Do you offer corporate accounts?',
+    a: 'Yes. Corporate accounts include priority booking, consolidated billing, detailed trip reports, and a dedicated account manager.',
+  },
+  {
+    q: 'What vehicles can I choose from?',
+    a: 'Sedans include the Mercedes E-Class, S-Class, and BMW 7 Series. SUVs include the Cadillac Escalade and Chevrolet Suburban. Mercedes Sprinter vans fit up to 14 passengers.',
+  },
+];
+
 const ServicesPage = () => {
   const navigate = useNavigate();
 
@@ -15,6 +38,17 @@ const ServicesPage = () => {
         <title>BWI Airport Transportation & Executive Car Service</title>
         <meta name="description" content="BWI Chauffeur offers luxury airport transportation, executive car service, corporate travel, group rides, and wedding transportation." />
         <link rel="canonical" href="https://bwichauffeur.com/services/" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: servicesFaqs.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+          })}
+        </script>
       </Helmet>
       
     <div className="min-h-screen bg-black pt-32">
@@ -41,44 +75,58 @@ const ServicesPage = () => {
         {/* Services Introduction Content */}
         <div className="max-w-4xl mx-auto mb-16 space-y-6 text-gray-300 leading-relaxed">
           <p className="text-lg">
-            <strong className="text-[#D4AF37]">BWI Chauffeur</strong> offers a comprehensive range of premium transportation services designed to meet the diverse needs of our valued clients throughout Maryland, Delaware, Washington DC, and beyond. From reliable airport transfer service to elegant wedding transportation service, our professional chauffeurs and luxury vehicles ensure every journey is comfortable, safe, and memorable.
+            <strong className="text-[#D4AF37]">BWI Chauffeur</strong> offers a full range of luxury transportation services in Maryland, Delaware, and Washington DC. From airport transfers to wedding transportation, every journey is comfortable, safe, and memorable.
           </p>
 
           <p>
-            Our commitment to excellence begins the moment you make a reservation. Each service is customized to your specific requirements, whether you need a punctual airport pickup at BWI, DCA, or Dulles International Airport, executive car service for important business meetings, or sophisticated limousine service for your wedding day. We understand that every client has unique preferences, which is why we offer flexible booking options, personalized amenities, and dedicated account management for corporate clients.
+            Our commitment to excellence starts the moment you book. Every service is customized to you. Need an airport pickup at BWI, DCA, or Dulles? An executive car for a business meeting? A limousine for your wedding day? We have you covered.
           </p>
 
           <p>
-            What sets BWI Chauffeur apart is our attention to detail and unwavering dedication to customer satisfaction. Our professionally trained chauffeurs arrive early, dress immaculately, and maintain the highest standards of courtesy and discretion. With real-time flight tracking for airport car service, we monitor your arrival and adjust pickup times accordingly, eliminating the stress of delayed flights. For corporate clients, we offer customized billing, detailed trip reports, and priority booking to streamline your company's transportation logistics.
+            What sets us apart is attention to detail:
           </p>
 
+          <ul className="list-disc list-inside space-y-2 pl-2">
+            <li>Chauffeurs arrive early, dressed professionally</li>
+            <li>Real-time flight tracking adjusts your pickup for delays</li>
+            <li>Flexible booking options and personal amenities</li>
+            <li>Corporate accounts with custom billing and trip reports</li>
+          </ul>
+
           <p>
-            Whether you're planning a romantic anniversary celebration or coordinating a group transportation service for a corporate conference, or simply need luxury airport transportation, BWI Chauffeur delivers exceptional service at competitive rates. Our transparent pricing policy means no hidden fees or surprises—just premium black car service you can count on, 24 hours a day, 7 days a week, 365 days a year.
+            Our pricing is transparent. There are no hidden fees and no surprises. You get dependable black car service 24 hours a day, 365 days a year.
           </p>
           
           <h2 className="text-2xl font-bold text-[#D4AF37] mt-8 mb-4">Luxury Airport Transportation</h2>
           <p>
-            Our luxury airport transportation is the premier choice for travelers seeking comfort, reliability, and style. Whether you're flying in or out of BWI Airport, Reagan National (DCA), or Dulles International (IAD), our airport car service ensures a seamless experience. We provide real-time flight tracking, curbside pickup, and complimentary wait time for delayed flights. Our airport transfer service eliminates the stress of parking fees and rideshare surge pricing, giving you peace of mind from door to terminal.
+            Our airport car service covers BWI, Reagan National (DCA), and Dulles International (IAD). You get real-time flight tracking, curbside pickup, and free wait time for delayed flights. No parking fees. No rideshare surge pricing. Just peace of mind from door to terminal.
           </p>
-          
-          <h2 className="text-2xl font-bold text-[#D4AF37] mt-8 mb-4">Executive Car Service & Premium Black Car Service</h2>
+
+          <h2 className="text-2xl font-bold text-[#D4AF37] mt-8 mb-4">Executive Car Service & Black Car Service</h2>
           <p>
-            For discerning professionals, our executive car service delivers the sophistication and reliability your business demands. Our premium black car service fleet features late-model luxury sedans and SUVs, all meticulously maintained and equipped with WiFi for productivity on the go. Whether you're heading to important meetings, hosting VIP clients, or attending conferences, our executive car service ensures you arrive refreshed and ready to succeed.
+            Our executive car service delivers the reliability your business demands. The fleet features late-model luxury sedans and SUVs with WiFi, so you stay productive on the go. Heading to meetings, hosting VIP clients, or attending a conference? You arrive refreshed and ready.
           </p>
-          
+
           <h2 className="text-2xl font-bold text-[#D4AF37] mt-8 mb-4">Corporate Transportation</h2>
           <p>
-            Our corporate transportation solutions are designed for businesses that demand reliability, professionalism, and discretion. Whether you need executive transfers for visiting clients, employee shuttle services, or transportation for corporate events and conferences, BWI Chauffeur provides seamless logistics management. We offer dedicated corporate accounts with priority booking, consolidated billing, and detailed reporting to help manage your company's transportation budget efficiently. Trust our experienced chauffeurs to represent your business with the utmost professionalism.
+            Our corporate transportation is built for businesses that value professionalism and discretion. We handle executive transfers, employee shuttles, and event transportation. Corporate accounts include:
           </p>
-          
+
+          <ul className="list-disc list-inside space-y-2 pl-2">
+            <li>Priority booking</li>
+            <li>Consolidated billing</li>
+            <li>Detailed trip reports</li>
+            <li>A dedicated account manager</li>
+          </ul>
+
           <h2 className="text-2xl font-bold text-[#D4AF37] mt-8 mb-4">Group Transportation Service</h2>
           <p>
-            Planning travel for a group? Our group transportation service features spacious Mercedes Sprinter vans accommodating up to 14 passengers in comfort. Perfect for corporate retreats, family gatherings, wedding parties, and sporting events. Our group transportation service includes climate control, entertainment systems, and ample luggage space, ensuring everyone travels together in style.
+            Planning travel for a group? Our Mercedes Sprinter vans fit up to 14 passengers in comfort. They are perfect for corporate retreats, family gatherings, wedding parties, and sporting events. Every van has climate control, entertainment systems, and plenty of luggage space.
           </p>
-          
+
           <h2 className="text-2xl font-bold text-[#D4AF37] mt-8 mb-4">Wedding Transportation Service</h2>
           <p>
-            Make your special day unforgettable with our elegant wedding transportation service. From the bridal party's arrival at the ceremony to the grand exit after the reception, we ensure every moment is picture-perfect. Our luxury fleet includes sophisticated sedans and spacious SUVs, all decorated to complement your wedding theme. Our professional chauffeurs provide red carpet treatment, assist with wedding attire, and ensure the bride and groom arrive relaxed and on time. We also offer guest shuttle services to transport your loved ones safely between venues.
+            Make your special day unforgettable. We handle every ride, from the bridal party's arrival to the grand exit after the reception. Our sedans and SUVs are decorated to match your wedding theme. Chauffeurs provide red carpet treatment and keep the bride and groom relaxed and on time. We also shuttle your guests safely between venues.
           </p>
         </div>
 
@@ -110,6 +158,21 @@ const ServicesPage = () => {
         </div>
       </div>
       <Services />
+
+      {/* FAQ Section */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h2 className="text-3xl font-bold text-white mb-8 text-center">
+          Frequently Asked <span className="text-[#D4AF37]">Questions</span>
+        </h2>
+        <div className="space-y-6">
+          {servicesFaqs.map((f) => (
+            <div key={f.q} className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-lg p-6">
+              <h3 className="text-lg font-semibold text-white mb-2">{f.q}</h3>
+              <p className="text-gray-400">{f.a}</p>
+            </div>
+          ))}
+        </div>
+      </div>
 
       {/* Bottom CTA Section */}
       <div className="bg-gradient-to-r from-[#D4AF37]/10 to-[#F4E5C3]/10 border-y border-[#D4AF37]/30 py-12 mt-16">

@@ -13,7 +13,7 @@ const AboutPage = () => {
     { year: '2014', title: 'Company Founded', description: 'BWI Chauffeur was established to provide premium transportation services in the Baltimore-Washington area.' },
     { year: '2016', title: 'Fleet Expansion', description: 'Added luxury SUVs and Mercedes Sprinter vans to serve corporate groups and special events.' },
     { year: '2018', title: 'Corporate Program Launch', description: 'Introduced dedicated corporate accounts with customized billing and account management.' },
-    { year: '2020', title: 'Technology Upgrade', description: 'Implemented real-time flight tracking and advanced dispatch systems for seamless service.' },
+    { year: '2020', title: 'Technology Upgrade', description: 'Implemented real-time flight tracking and advanced dispatch systems for smooth service.' },
     { year: '2022', title: 'Service Area Expansion', description: 'Extended coverage to all Maryland counties, Delaware, and Northern Virginia.' },
     { year: '2024', title: '10th Anniversary', description: 'Celebrated a decade of excellence with over 25,000 satisfied clients served.' },
   ];
@@ -78,16 +78,16 @@ const AboutPage = () => {
             <h2 className="text-3xl font-bold text-white">Our Story</h2>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                <strong className="text-[#D4AF37]">BWI Chauffeur</strong> was founded in 2014 with a simple mission: to provide the highest quality luxury transportation service in the Baltimore-Washington metropolitan area. What started as a small operation with just two vehicles has grown into the region's most trusted chauffeur service, serving thousands of clients annually.
+                <strong className="text-[#D4AF37]">BWI Chauffeur</strong> was founded in 2014 with a simple mission. We wanted to provide the best luxury transportation in the Baltimore-Washington area. We started small, with just two vehicles. Today we are the region's most trusted chauffeur service, with thousands of clients each year.
               </p>
               <p>
-                Our founder recognized a gap in the market for truly professional, reliable transportation that business executives and discerning travelers could depend on. Unlike ride-sharing apps that offer inconsistent quality, BWI Chauffeur was built on the principle that every ride should be an exceptional experience.
+                Our founder saw a gap in the market. Business travelers needed transportation they could truly depend on. Ride-sharing apps offer inconsistent quality. BWI Chauffeur was built on a different principle: every ride should be exceptional.
               </p>
               <p>
-                Today, we operate a diverse <Link to="/luxury-fleet" className="text-[#D4AF37] hover:underline">fleet of luxury vehicles</Link> including the latest Mercedes-Benz, BMW, and Cadillac models. Our team of professional chauffeurs has collectively completed over 100,000 trips, maintaining a 99%+ on-time rate and a 5-star customer satisfaction rating.
+                Today, we operate a diverse <Link to="/luxury-fleet" className="text-[#D4AF37] hover:underline">fleet of luxury vehicles</Link>, including the latest Mercedes-Benz, BMW, and Cadillac models. Our chauffeurs have completed over 100,000 trips. We hold a 99%+ on-time rate and a 5-star customer satisfaction rating.
               </p>
               <p>
-                We proudly serve all of <Link to="/coverage" className="text-[#D4AF37] hover:underline">Maryland, Delaware, Washington DC, and Northern Virginia</Link>, specializing in <Link to="/services" className="text-[#D4AF37] hover:underline">airport transportation</Link>, corporate car service, wedding transportation, and special events. Our commitment to excellence has made us the preferred transportation partner for Fortune 500 companies, law firms, and individuals who expect nothing but the best.
+                We serve all of <Link to="/coverage" className="text-[#D4AF37] hover:underline">Maryland, Delaware, Washington DC, and Northern Virginia</Link>. We specialize in <Link to="/services" className="text-[#D4AF37] hover:underline">airport transportation</Link>, corporate car service, weddings, and special events. Fortune 500 companies, law firms, and discerning travelers choose us because we deliver.
               </p>
             </div>
           </div>

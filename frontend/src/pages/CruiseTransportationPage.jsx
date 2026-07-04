@@ -6,6 +6,29 @@ import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import Breadcrumbs from '../components/Breadcrumbs';
 
+const cruiseFaqs = [
+  {
+    q: 'Do you pick up from the Port of Baltimore cruise terminal?',
+    a: 'Yes. We serve the Cruise Maryland Terminal at 2001 East McComas Street. Your chauffeur waits at the terminal when your ship returns.',
+  },
+  {
+    q: 'What if my ship docks late?',
+    a: 'We track ship arrivals the same way we track flights. Your pickup time adjusts automatically at no extra cost.',
+  },
+  {
+    q: 'Is luggage assistance included?',
+    a: 'Yes. Your chauffeur helps load and unload every bag. All vehicles have generous luggage space.',
+  },
+  {
+    q: 'Can you take our whole group to the port?',
+    a: 'Yes. Our Mercedes Sprinter vans fit up to 14 passengers. Families and groups travel together at one flat rate.',
+  },
+  {
+    q: 'Should I book a round trip?',
+    a: 'We recommend it. Booking your return ride before you sail guarantees a waiting vehicle when you dock — no cell coverage needed.',
+  },
+];
+
 const CruiseTransportationPage = () => {
   const cruisePorts = [
     {
@@ -28,7 +51,7 @@ const CruiseTransportationPage = () => {
     {
       icon: Plane,
       title: 'Airport to Cruise Port',
-      description: 'Seamless transfers from BWI, DCA, or Dulles airports directly to your cruise terminal.'
+      description: 'Smooth transfers from BWI, DCA, or Dulles airports directly to your cruise terminal.'
     },
     {
       icon: MapPin,
@@ -64,6 +87,17 @@ const CruiseTransportationPage = () => {
         <title>Baltimore Cruise Port Transfers | Flat-Rate Car Service</title>
         <meta name="description" content="Luxury cruise port transfers to the Port of Baltimore & Norfolk. Flat-rate chauffeur service for cruise passengers with door-to-door pickup." />
         <link rel="canonical" href="https://bwichauffeur.com/cruise-transportation/" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: cruiseFaqs.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+          })}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-black pt-32 pb-16">
@@ -230,11 +264,26 @@ const CruiseTransportationPage = () => {
                 <p className="text-xl text-gray-300 italic mb-6">
                   "BWI Chauffeur made our cruise vacation perfect from the start. They picked us up from our home, 
                   helped with all our luggage, and got us to the Port of Baltimore with time to spare. 
-                  The return pickup after our cruise was equally seamless. Highly recommend!"
+                  The return pickup after our cruise was equally smooth. Highly recommend!"
                 </p>
                 <p className="text-[#D4AF37] font-semibold">— The Johnson Family, Annapolis</p>
               </CardContent>
             </Card>
+          </div>
+
+          {/* FAQ Section */}
+          <div className="mb-16">
+            <h2 className="text-3xl font-bold text-white mb-8 text-center">
+              Cruise Transfer <span className="text-[#D4AF37]">FAQs</span>
+            </h2>
+            <div className="max-w-4xl mx-auto space-y-4">
+              {cruiseFaqs.map((f) => (
+                <div key={f.q} className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-lg p-6">
+                  <h3 className="text-lg font-semibold text-white mb-2">{f.q}</h3>
+                  <p className="text-gray-400">{f.a}</p>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Final CTA */}

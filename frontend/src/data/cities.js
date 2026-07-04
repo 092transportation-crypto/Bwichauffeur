@@ -483,7 +483,7 @@ export const CITIES = [
     minutes: 50,
     emphasis: 'dc-airports',
     intro:
-      'Potomac\'s estates expect excellence — and BWI Chauffeur is the chauffeured car service Potomac families keep on speed dial. Immaculate luxury vehicles, discreet professional chauffeurs, and seamless transfers to Dulles, DCA, and BWI.',
+      'Potomac\'s estates expect excellence — and BWI Chauffeur is the chauffeured car service Potomac families keep on speed dial. Immaculate luxury vehicles, discreet professional chauffeurs, and smooth transfers to Dulles, DCA, and BWI.',
     landmarks: ['Potomac Village', 'TPC Potomac at Avenel Farm', 'Great Falls Park (nearby)'],
     localNote:
       'From River Road estates to Avenel, we provide white-glove service for airport transfers, embassy events, and evenings in Georgetown — privacy and punctuality guaranteed.',
