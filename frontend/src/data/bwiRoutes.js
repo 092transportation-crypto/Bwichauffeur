@@ -13,7 +13,7 @@ export const BWI_ROUTES = [
     metaDescription:
       'Flat rate BWI Airport to Washington DC chauffeur service. Professional chauffeur, 24/7 availability, late-model luxury fleet. Call 877-679-0100.',
     intro:
-      'Traveling from Baltimore-Washington International Airport (BWI) to Washington, D.C. should be the most relaxing leg of your trip — not the most stressful. Our BWI to Washington DC chauffeur service delivers door-to-door transportation in a late-model Mercedes, BMW, Cadillac, or Sprinter, driven by a professionally trained chauffeur who knows the I-295, Baltimore-Washington Parkway, and 14th Street Bridge bottlenecks by heart. Whether you are arriving for a Capitol Hill meeting, a White House briefing, or a long weekend in Georgetown, we get you there on schedule, every time.',
+      'Traveling from Baltimore-Washington International Airport (BWI) to Washington, D.C. should be the most relaxing leg of your trip — not the most stressful. Our BWI to Washington DC chauffeur service delivers door-to-door transportation in a late-model Mercedes, BMW, Cadillac, or Sprinter. Your professionally trained chauffeur knows the I-295, Baltimore-Washington Parkway, and 14th Street Bridge bottlenecks by heart. Whether you are arriving for a Capitol Hill meeting, a White House briefing, or a long weekend in Georgetown, we get you there on schedule, every time.',
     why_choose: [
       'Flat-rate, all-inclusive pricing — no surge, no surprise tolls, no per-minute meter',
       'Real-time flight tracking with 60 minutes of free wait time (90 minutes for international arrivals)',
@@ -22,7 +22,7 @@ export const BWI_ROUTES = [
       'Government, federal contractor, and embassy billing accepted',
     ],
     what_to_expect:
-      'Your chauffeur is waiting in the BWI ground transportation area with a name placard when you exit baggage claim — or meets you at the gate if you book the meet-and-greet upgrade. After loading your luggage, you settle into a quiet, climate-controlled cabin with complimentary bottled water, phone chargers, and WiFi. The ride to downtown D.C. averages 45 to 60 minutes depending on time of day. We monitor live traffic and reroute around the Beltway or onto the Suitland Parkway whenever it saves you time. Drop-off works at any address — your hotel, a private residence in Kalorama, the Ronald Reagan Building, the Capitol Visitor Center, or any of the federal agencies in the SW or NW quadrant.',
+      'Your chauffeur is waiting in the BWI ground transportation area with a name placard when you exit baggage claim — or meets you at the gate if you book the meet-and-greet upgrade. After loading your luggage, you settle into a quiet, climate-controlled cabin with complimentary bottled water, phone chargers, and WiFi. The ride to downtown D.C. averages 45 to 60 minutes depending on time of day. We monitor live traffic and reroute around the Beltway or onto the Suitland Parkway whenever it saves you time. Drop-off works at any address. That includes your hotel, a private residence in Kalorama, the Ronald Reagan Building, the Capitol Visitor Center, or any federal agency in the SW or NW quadrant.',
     service_details: [
       'Pickup zone: BWI Concourse Level (or curb-side if luggage is light)',
       'Drop-off: any D.C. address — hotels, offices, residences, government buildings',
@@ -43,7 +43,7 @@ export const BWI_ROUTES = [
     metaDescription:
       'BWI Airport to Annapolis flat-rate chauffeur from $65 — no surge, ever. Professional driver, 24/7, USNA-savvy. Call 877-679-0100 to book.',
     intro:
-      'BWI Chauffeur is the trusted partner for travelers heading from BWI Airport to Annapolis, Maryland — Maryland\'s capital, home of the United States Naval Academy, and gateway to the Chesapeake Bay. Whether you are arriving for Commissioning Week, an Eastport sailing charter, a State House meeting, or a quiet weekend at one of Annapolis\'s historic inns, our chauffeurs deliver a polished, predictable transfer in under an hour. Every booking includes flight tracking, complimentary wait time, and a flat published rate so you can budget without guesswork.',
+      'BWI Chauffeur is the trusted partner for travelers heading from BWI Airport to Annapolis, Maryland — Maryland\'s capital, home of the United States Naval Academy, and gateway to the Chesapeake Bay. You may be arriving for Commissioning Week, an Eastport sailing charter, a State House meeting, or a quiet weekend at one of Annapolis\'s historic inns. Either way, our chauffeurs deliver a polished, predictable transfer in under an hour. Every booking includes flight tracking, complimentary wait time, and a flat published rate so you can budget without guesswork.',
     why_choose: [
       'USNA-savvy drivers familiar with Gate 1, Gate 8, and the Visitor Control Center protocols',
       'Direct route via MD-2 and US-50 — typically 30–45 minutes from BWI',
@@ -52,7 +52,7 @@ export const BWI_ROUTES = [
       'Flat rate — no meter, no surge, no scenic-route surprises',
     ],
     what_to_expect:
-      'Your chauffeur greets you in the BWI lower-level arrivals area with a sign bearing your name, handles your luggage, and walks you to a freshly detailed vehicle waiting in the ground transportation lane. The drive south on Aris T. Allen Boulevard delivers you to downtown Annapolis, Eastport, the Naval Academy gates, or any waterfront destination on Spa Creek or the Severn River. For weddings and military ceremonies we coordinate multiple pickups and stagger arrivals so guests are dropped off in the right order. We also support corporate visits to AnneArundelMedical, ARINC, and the dozens of defense contractors headquartered in town.',
+      'Your chauffeur greets you in the BWI lower-level arrivals area with a sign bearing your name. They handle your luggage and walk you to a freshly detailed vehicle waiting in the ground transportation lane. The drive south on Aris T. Allen Boulevard delivers you to downtown Annapolis, Eastport, the Naval Academy gates, or any waterfront destination on Spa Creek or the Severn River. For weddings and military ceremonies we coordinate multiple pickups and stagger arrivals so guests are dropped off in the right order. We also support corporate visits to AnneArundelMedical, ARINC, and the dozens of defense contractors headquartered in town.',
     service_details: [
       'Pickup zone: BWI Concourse Level, curbside, or pre-arranged meet-and-greet',
       'Drop-off: USNA gates, Maryland State House, Westin Annapolis, Hilton, B&Bs, private residences, marina pickups',
@@ -82,7 +82,7 @@ export const BWI_ROUTES = [
       'Quiet, productive Mercedes and BMW sedans with WiFi for in-transit calls and email',
     ],
     what_to_expect:
-      'Your chauffeur monitors your flight from wheels-up and is curbside on the BWI arrivals level the moment you land — even if you are 90 minutes early. Wait time is complimentary up to one hour. From BWI we take MD-100 west to US-29, dropping you at any Columbia address: Merriweather Post Pavilion, the GE Aviation campus, Howard Hughes Corporation headquarters, the Mall in Columbia, or any of the dozens of office parks in the Gateway and Snowden River corridors. Reverse trips are equally smooth — we monitor your outbound flight, build in TSA buffer time, and have you at the BWI curb without you ever looking at a clock.',
+      'Your chauffeur monitors your flight from wheels-up and is curbside on the BWI arrivals level the moment you land — even if you are 90 minutes early. Wait time is complimentary up to one hour. From BWI we take MD-100 west to US-29. We drop you at any Columbia address: Merriweather Post Pavilion, the GE Aviation campus, Howard Hughes Corporation headquarters, or the Mall in Columbia. We also serve the dozens of office parks in the Gateway and Snowden River corridors. Reverse trips are equally smooth — we monitor your outbound flight, build in TSA buffer time, and have you at the BWI curb without you ever looking at a clock.',
     service_details: [
       'Pickup zone: BWI Concourse Level, curbside, or pre-arranged meet-and-greet at baggage claim',
       'Drop-off: Town Center, Merriweather District, Gateway corporate parks, Snowden River Parkway offices, residences',
@@ -103,7 +103,7 @@ export const BWI_ROUTES = [
     metaDescription:
       'Flat rate BWI Airport to Bethesda MD chauffeur service. Professional chauffeur, 24/7 availability, NIH and Walter Reed savvy. Call 877-679-0100.',
     intro:
-      'BWI to Bethesda is one of our most-requested corporate and medical-travel routes. Bethesda is home to the National Institutes of Health (NIH), Walter Reed National Military Medical Center, Lockheed Martin\'s headquarters, and one of the densest concentrations of biotech, defense, and consulting firms on the East Coast. Our BWI to Bethesda chauffeur service is the calm, predictable way to bridge the 38-mile gap — particularly for medical patients, traveling executives, and federal contractors who cannot afford a delay.',
+      'BWI to Bethesda is one of our most-requested corporate and medical-travel routes. Bethesda is home to the National Institutes of Health (NIH), Walter Reed National Military Medical Center, and Lockheed Martin\'s headquarters. It also hosts one of the densest concentrations of biotech, defense, and consulting firms on the East Coast. Our BWI to Bethesda chauffeur service is the calm, predictable way to bridge the 38-mile gap — particularly for medical patients, traveling executives, and federal contractors who cannot afford a delay.',
     why_choose: [
       'NIH and Walter Reed motor-lobby savvy — we know the security protocols and visitor entrances',
       'Patient-comfort priority: door-to-door service, gentle drivers, accessible-vehicle requests honored',
@@ -112,7 +112,7 @@ export const BWI_ROUTES = [
       'Flat-rate pricing — no surcharges during NIH symposium weeks or Walter Reed family visits',
     ],
     what_to_expect:
-      'After your flight lands at BWI, your chauffeur greets you in the arrivals hall and walks you to a polished vehicle staged in the ground transportation lane. Depending on time of day, we take I-95 South to I-495 West, or break through to the Beltway via MD-29 — whichever is moving better in real-time traffic. The drive takes 55 to 80 minutes. Drop-off works at any Bethesda address: the NIH Clinical Center, Walter Reed\'s Building 19 visitor entrance, Children\'s Inn at NIH, the Bethesda North Marriott, or any of the row-house residences along Battery Lane or Old Georgetown Road. Discreet, professional, and unfailingly on time.',
+      'After your flight lands at BWI, your chauffeur greets you in the arrivals hall and walks you to a polished vehicle staged in the ground transportation lane. Depending on time of day, we take I-95 South to I-495 West, or break through to the Beltway via MD-29 — whichever is moving better in real-time traffic. The drive takes 55 to 80 minutes. Drop-off works at any Bethesda address: the NIH Clinical Center, Walter Reed\'s Building 19 visitor entrance, Children\'s Inn at NIH, or the Bethesda North Marriott. We also serve the row-house residences along Battery Lane and Old Georgetown Road. Discreet, professional, and unfailingly on time.',
     service_details: [
       'Pickup zone: BWI Concourse Level (or curb if luggage is light)',
       'Drop-off: NIH Clinical Center, Walter Reed NMMC, Bethesda hotels, Lockheed Martin HQ, downtown Bethesda',
@@ -133,7 +133,7 @@ export const BWI_ROUTES = [
     metaDescription:
       'Flat rate BWI Airport to Northern Virginia chauffeur service. Professional chauffeur, 24/7 availability, Tysons-Reston-Fairfax. Call 877-679-0100.',
     intro:
-      'Whether your destination is Tysons Corner, Reston, McLean, Fairfax, or anywhere across Northern Virginia, our BWI to Northern Virginia chauffeur service connects you in unmistakable luxury. With major employers like Capital One, Hilton, Booz Allen Hamilton, MITRE, and dozens of cleared-defense contractors based in NoVA, we move more business travelers across the Wilson Bridge and into Fairfax County than any other premium service in the BWI area. Every transfer is flat-rated and chauffeured by a professional who knows the difference between rush hour on the GW Parkway and a clean run via I-95 South.',
+      'Whether your destination is Tysons Corner, Reston, McLean, Fairfax, or anywhere across Northern Virginia, our BWI to Northern Virginia chauffeur service connects you in unmistakable luxury. Major employers like Capital One, Hilton, Booz Allen Hamilton, MITRE, and dozens of cleared-defense contractors are based in NoVA. We move more business travelers across the Wilson Bridge and into Fairfax County than any other premium service in the BWI area. Every transfer is flat-rated and chauffeured by a professional who knows the difference between rush hour on the GW Parkway and a clean run via I-95 South.',
     why_choose: [
       'NoVA-experienced chauffeurs who know Tysons, Reston Town Center, McLean, Vienna, Fairfax City, and the Dulles corridor',
       'Capital Beltway expertise — we reroute around 495 closures and HOT lane congestion in real time',
@@ -142,7 +142,7 @@ export const BWI_ROUTES = [
       'Flat-rate pricing means you know the cost before wheels-up — no surge during convention season',
     ],
     what_to_expect:
-      'Your chauffeur tracks your inbound flight, parks BWI ground side, and meets you in the arrivals hall the moment you exit baggage claim. We typically take I-95 South across the Wilson Bridge, then split off to the Beltway, the Dulles Toll Road, or I-66 depending on which is moving fastest. The trip ranges from 60 minutes to Crystal City to 90+ minutes to Reston during peak hours. Drop-off works at any NoVA address — your office park in Tysons, a hotel motor lobby in Reston, a residence in McLean, a courthouse in Fairfax City, or any tech company headquarters in the Dulles Corridor.',
+      'Your chauffeur tracks your inbound flight, parks BWI ground side, and meets you in the arrivals hall the moment you exit baggage claim. We typically take I-95 South across the Wilson Bridge, then split off to the Beltway, the Dulles Toll Road, or I-66 depending on which is moving fastest. The trip ranges from 60 minutes to Crystal City to 90+ minutes to Reston during peak hours. Drop-off works at any NoVA address — your office park in Tysons, a hotel motor lobby in Reston, or a residence in McLean. We also serve the courthouse in Fairfax City and every tech company headquarters in the Dulles Corridor.',
     service_details: [
       'Pickup zone: BWI Concourse Level or pre-arranged meet-and-greet at baggage claim',
       'Drop-off: Tysons Corner, Reston, McLean, Vienna, Fairfax, Arlington, Alexandria, Loudoun County',
@@ -163,7 +163,7 @@ export const BWI_ROUTES = [
     metaDescription:
       'Flat rate BWI Airport to Arlington VA chauffeur service. Professional chauffeur, 24/7 availability, Pentagon and Crystal City savvy. Call 877-679-0100.',
     intro:
-      'Arlington, Virginia sits at the heart of the federal government, defense, and tech economies — from the Pentagon and Crystal City to Amazon HQ2, Rosslyn, Ballston, and Pentagon City. Our BWI to Arlington chauffeur service is the discreet, dependable way for officials, contractors, and tech executives to bridge those 37 miles. Every booking is flat-rated, flight-tracked, and chauffeured in a meticulously maintained late-model vehicle.',
+      'Arlington, Virginia sits at the heart of the federal government, defense, and tech economies. From the Pentagon and Crystal City to Amazon HQ2, Rosslyn, Ballston, and Pentagon City. Our BWI to Arlington chauffeur service is the discreet, dependable way for officials, contractors, and tech executives to bridge those 37 miles. Every booking is flat-rated, flight-tracked, and chauffeured in a meticulously maintained late-model vehicle.',
     why_choose: [
       'Pentagon and Crystal City motor-lobby experience — we know visitor entrances and security protocols',
       'Amazon HQ2 (National Landing) drop-offs handled cleanly with addressable building access',
@@ -172,7 +172,7 @@ export const BWI_ROUTES = [
       'Flat-rate pricing — no surcharges during Pentagon City conferences or Reagan Airport handoffs',
     ],
     what_to_expect:
-      'Your chauffeur waits in the BWI arrivals hall with a sign and greets you by name, then loads luggage into a vehicle staged in the airport\'s ground transportation lane. The drive south runs about 55 to 75 minutes depending on the Beltway and the 14th Street Bridge. We deliver you door-to-door to the Pentagon\'s visitor entrance, Crystal City and Pentagon City hotels (Marriott, Hyatt, Westin, Renaissance), Amazon HQ2 buildings (Metropolitan Park, PenPlace), Rosslyn high-rises, Ballston offices, or any private residence in Lyon Park, Clarendon, or Cherrydale. For reverse trips to BWI we monitor your outbound flight and build in TSA buffer time automatically.',
+      'Your chauffeur waits in the BWI arrivals hall with a sign and greets you by name, then loads luggage into a vehicle staged in the airport\'s ground transportation lane. The drive south runs about 55 to 75 minutes depending on the Beltway and the 14th Street Bridge. We deliver you door-to-door to the Pentagon\'s visitor entrance, Crystal City and Pentagon City hotels (Marriott, Hyatt, Westin, Renaissance), and Amazon HQ2 buildings (Metropolitan Park, PenPlace). We also serve Rosslyn high-rises, Ballston offices, and private residences in Lyon Park, Clarendon, and Cherrydale. For reverse trips to BWI we monitor your outbound flight and build in TSA buffer time automatically.',
     service_details: [
       'Pickup zone: BWI Concourse Level, curbside, or pre-arranged meet-and-greet',
       'Drop-off: Pentagon, Crystal City, Pentagon City, Amazon HQ2, Rosslyn, Ballston, Clarendon, Courthouse, Shirlington',
@@ -193,7 +193,7 @@ export const BWI_ROUTES = [
     metaDescription:
       'Flat rate BWI Airport to Alexandria VA chauffeur service. Professional chauffeur, 24/7 availability, Old Town and federal-savvy. Call 877-679-0100.',
     intro:
-      'Old Town Alexandria, with its waterfront cobblestones, historic inns, and rapidly growing federal-contractor corridor along Eisenhower Avenue, sits about 42 miles from BWI. Our BWI to Alexandria chauffeur service is the polished, professional way to connect those dots — whether you are arriving for a romantic weekend at the Morrison House, a defense-contractor visit to the National Industrial Park, or a federal court appearance at the U.S. District Court for the Eastern District of Virginia.',
+      'Old Town Alexandria, with its waterfront cobblestones, historic inns, and rapidly growing federal-contractor corridor along Eisenhower Avenue, sits about 42 miles from BWI. Our BWI to Alexandria chauffeur service is the polished, professional way to connect those dots. You may be arriving for a romantic weekend at the Morrison House, a defense-contractor visit to the National Industrial Park, or a federal court appearance at the U.S. District Court for the Eastern District of Virginia.',
     why_choose: [
       'Old Town familiarity — narrow Royal Street, King Street, and Union Street drop-offs handled effortlessly',
       'Federal court and Eisenhower Avenue defense-contractor visitor protocols understood',
@@ -202,7 +202,7 @@ export const BWI_ROUTES = [
       'Flat-rate pricing — no surprises, no meter, no scenic-route detours',
     ],
     what_to_expect:
-      'Your chauffeur monitors your flight in real time, meets you in the BWI arrivals hall, and walks you to a freshly detailed vehicle waiting in the ground transportation lane. From BWI we cross the Beltway and Wilson Bridge into Virginia, exiting onto the GW Parkway or US-1 for the final stretch into Old Town. The trip runs 60 to 85 minutes depending on Beltway traffic. Drop-off works at any Alexandria address — the Hilton Old Town, Morrison House Autograph Collection, the historic Carlyle, Eisenhower Avenue corporate offices, the federal courthouse, or any private residence in Del Ray, Rosemont, or the West End.',
+      'Your chauffeur monitors your flight in real time, meets you in the BWI arrivals hall, and walks you to a freshly detailed vehicle waiting in the ground transportation lane. From BWI we cross the Beltway and Wilson Bridge into Virginia, exiting onto the GW Parkway or US-1 for the final stretch into Old Town. The trip runs 60 to 85 minutes depending on Beltway traffic. Drop-off works at any Alexandria address — the Hilton Old Town, Morrison House Autograph Collection, the historic Carlyle, or Eisenhower Avenue corporate offices. We also serve the federal courthouse and private residences in Del Ray, Rosemont, and the West End.',
     service_details: [
       'Pickup zone: BWI Concourse Level or pre-arranged meet-and-greet at baggage claim',
       'Drop-off: Old Town hotels and B&Bs, federal courthouse, Eisenhower Ave offices, Del Ray, West End, Mount Vernon estate',
@@ -223,7 +223,7 @@ export const BWI_ROUTES = [
     metaDescription:
       'Flat rate BWI Airport to Rockville MD chauffeur service. Professional chauffeur, 24/7 availability, biotech and federal corridor. Call 877-679-0100.',
     intro:
-      'Rockville, Maryland is the corporate heart of Montgomery County — home to the FDA White Oak campus, the Westat headquarters, Choice Hotels International, and one of the East Coast\'s densest biotech corridors. Our BWI to Rockville chauffeur service is the calm, predictable way to connect the airport to Rockville\'s I-270 tech corridor, downtown Rockville Town Square, and the residential neighborhoods of King Farm and Twinbrook.',
+      'Rockville, Maryland is the corporate heart of Montgomery County — home to the FDA White Oak campus, the Westat headquarters, Choice Hotels International, and one of the East Coast\'s densest biotech corridors. Our BWI to Rockville chauffeur service is the calm, predictable way to reach Rockville\'s I-270 tech corridor and downtown Rockville Town Square. We also serve the residential neighborhoods of King Farm and Twinbrook.',
     why_choose: [
       'I-270 biotech corridor experience — drop-offs at MedImmune, Emergent BioSolutions, Choice Hotels, FDA',
       'Direct I-95 to I-495 to I-270 routing with real-time traffic optimization',
@@ -232,7 +232,7 @@ export const BWI_ROUTES = [
       'Flat-rate pricing — no surcharges during BIO International or FDA advisory committee weeks',
     ],
     what_to_expect:
-      'Your chauffeur is curbside on the BWI arrivals level when you exit baggage claim, and walks you to a polished vehicle staged in the airport\'s ground transportation lane. The drive takes 50 to 75 minutes via the Beltway and I-270, with our chauffeur monitoring traffic and switching to local routes when 270 is congested. We deliver door-to-door to any Rockville address — the Hilton Rockville, Cambria Hotel Rockville, the FDA White Oak campus, biotech offices along Shady Grove Road, the Rockville Metro station, or residential addresses in King Farm, Twinbrook, Fallsmead, or Potomac.',
+      'Your chauffeur is curbside on the BWI arrivals level when you exit baggage claim, and walks you to a polished vehicle staged in the airport\'s ground transportation lane. The drive takes 50 to 75 minutes via the Beltway and I-270, with our chauffeur monitoring traffic and switching to local routes when 270 is congested. We deliver door-to-door to any Rockville address — the Hilton Rockville, Cambria Hotel Rockville, the FDA White Oak campus, or biotech offices along Shady Grove Road. We also serve the Rockville Metro station and homes in King Farm, Twinbrook, Fallsmead, and Potomac.',
     service_details: [
       'Pickup zone: BWI Concourse Level or pre-arranged meet-and-greet',
       'Drop-off: I-270 corporate corridor, downtown Rockville Town Square, FDA White Oak, residential addresses',
@@ -253,7 +253,7 @@ export const BWI_ROUTES = [
     metaDescription:
       'BWI Airport to Silver Spring flat-rate chauffeur from $145 — no surge, ever. Professional driver, 24/7 dispatch, NOAA & FDA savvy. Call 877-679-0100.',
     intro:
-      'Silver Spring, Maryland is a thriving downtown hub just north of D.C., home to Discovery Communications, the NOAA Silver Spring Metro Center campus, the FDA White Oak headquarters, and a long list of federal agencies and creative-industry employers. Our BWI to Silver Spring chauffeur service is the polished, no-stress way to bridge the 34 miles between the airport and downtown Silver Spring, Forest Glen, Takoma Park, or Wheaton.',
+      'Silver Spring, Maryland is a thriving downtown hub just north of D.C. It is home to Discovery Communications, the NOAA Silver Spring Metro Center campus, the FDA White Oak headquarters, and many federal agencies and creative-industry employers. Our BWI to Silver Spring chauffeur service is the polished, no-stress way to bridge the 34 miles between the airport and downtown Silver Spring, Forest Glen, Takoma Park, or Wheaton.',
     why_choose: [
       'Federal-agency motor-lobby experience: NOAA, FDA White Oak, NIH visitor protocols',
       'Direct routing via I-95 to MD-200 (ICC) or I-495 depending on real-time traffic',
@@ -262,7 +262,7 @@ export const BWI_ROUTES = [
       'Flat-rate pricing — no surcharges during AFI Silver film festival or government recruiting events',
     ],
     what_to_expect:
-      'Your chauffeur greets you in the BWI arrivals hall with a name placard, walks you to a freshly detailed vehicle, and loads your luggage. The drive south runs 50 to 75 minutes — we use the ICC (MD-200) when 495 is congested, saving you 10–20 minutes during rush hour. Drop-off works at any Silver Spring address: the Sheraton Silver Spring, downtown Silver Spring entertainment district, NOAA Silver Spring Metro Center, FDA White Oak, Discovery Communications building, Holy Cross Hospital, or any private residence in Takoma Park, Forest Glen, Wheaton, or Four Corners.',
+      'Your chauffeur greets you in the BWI arrivals hall with a name placard, walks you to a freshly detailed vehicle, and loads your luggage. The drive south runs 50 to 75 minutes — we use the ICC (MD-200) when 495 is congested, saving you 10–20 minutes during rush hour. Drop-off works at any Silver Spring address: the Sheraton Silver Spring, the downtown entertainment district, NOAA Silver Spring Metro Center, FDA White Oak, the Discovery Communications building, or Holy Cross Hospital. We also serve private residences in Takoma Park, Forest Glen, Wheaton, and Four Corners.',
     service_details: [
       'Pickup zone: BWI Concourse Level or pre-arranged meet-and-greet at baggage claim',
       'Drop-off: NOAA Silver Spring, FDA White Oak, downtown Silver Spring, Takoma Park, Forest Glen, Wheaton',
@@ -283,7 +283,7 @@ export const BWI_ROUTES = [
     metaDescription:
       'Flat rate BWI Airport to Dulles IAD transfer chauffeur service. Professional chauffeur, 24/7 availability, inter-airport connections. Call 877-679-0100.',
     intro:
-      'Misconnect at BWI? Need to switch to a Dulles departure? Long international layover? Our BWI to Dulles (IAD) transfer chauffeur service is the fastest, most reliable inter-airport option in the region — far more comfortable than a shared shuttle and far more reliable than a rideshare. We cover the 53 miles in 80 to 110 minutes depending on traffic, with a professional chauffeur, real-time flight tracking on both legs, and a flat published rate that includes Dulles Toll Road tolls and curbside drop-off at the correct departures terminal.',
+      'Misconnect at BWI? Need to switch to a Dulles departure? Long international layover? Our BWI to Dulles (IAD) transfer chauffeur service is the fastest, most reliable inter-airport option in the region. It is far more comfortable than a shared shuttle and far more dependable than a rideshare. We cover the 53 miles in 80 to 110 minutes depending on traffic. Every transfer includes a professional chauffeur, real-time flight tracking on both legs, and a flat published rate. Dulles Toll Road tolls and curbside drop-off at the correct departures terminal are included.',
     why_choose: [
       'Both-end flight tracking — inbound at BWI and outbound at IAD',
       'Dulles Toll Road tolls included in your flat rate — no surprise charges',

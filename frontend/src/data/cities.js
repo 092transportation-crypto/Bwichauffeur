@@ -86,7 +86,7 @@ export const CITIES = [
       'From historic Main Street to the newer communities along Route 40 and Route 100, Ellicott City families and executives rely on BWI Chauffeur for premium airport transportation. We are about 20 minutes from BWI — close enough for stress-free early-morning flights.',
     landmarks: ['Historic Ellicott City Main Street', 'Patapsco Valley State Park', 'B&O Railroad Museum: Ellicott City Station'],
     localNote:
-      'Our chauffeurs know Ellicott City\'s winding roads — from Turf Valley to Centennial Park to Oella — and monitor traffic on US-29 and US-40 in real time so you never miss a flight.',
+      'Our chauffeurs know Ellicott City\'s winding roads, from Turf Valley to Centennial Park to Oella. They monitor traffic on US-29 and US-40 in real time, so you never miss a flight.',
   },
   {
     slug: 'elkridge-md',
@@ -100,7 +100,7 @@ export const CITIES = [
       'Elkridge is one of the closest communities to BWI Airport — just 12 minutes door-to-terminal. BWI Chauffeur offers Elkridge travelers a true luxury alternative to airport parking and rideshares, with professional chauffeurs and flat-rate pricing.',
     landmarks: ['Patapsco Valley State Park', 'Rockburn Branch Park', 'Route 1 Corridor'],
     localNote:
-      'One of Maryland\'s oldest settlements, Elkridge sits at the crossroads of I-95, Route 1, and Route 100 — our chauffeurs leverage all three to make your BWI transfer the easiest part of your trip.',
+      'One of Maryland\'s oldest settlements, Elkridge sits at the crossroads of I-95, Route 1, and Route 100. Our chauffeurs leverage all three to make your BWI transfer the easiest part of your trip.',
   },
   {
     slug: 'jessup-md',
@@ -267,7 +267,7 @@ export const CITIES = [
     minutes: 20,
     emphasis: 'cruise',
     intro:
-      'Dundalk\'s waterfront community deserves waterfront-level service. BWI Chauffeur provides Dundalk residents with luxury airport transfers to BWI in about 20 minutes, plus some of the fastest cruise terminal transfers in the region — the Port of Baltimore is right next door.',
+      'Dundalk\'s waterfront community deserves waterfront-level service. BWI Chauffeur provides Dundalk residents with luxury airport transfers to BWI in about 20 minutes, plus some of the fastest cruise terminal transfers in the region. The Port of Baltimore is right next door.',
     landmarks: ['Tradepoint Atlantic', 'North Point State Park', 'Dundalk Heritage Park'],
     localNote:
       'Cruising out of Baltimore? Dundalk to the South Locust Point Cruise Terminal takes our chauffeurs under 15 minutes. We also serve Tradepoint Atlantic business travelers with executive car service.',
@@ -358,7 +358,7 @@ export const CITIES = [
       'Maryland\'s capital deserves a capital-class car service. BWI Chauffeur serves Annapolis with luxury airport transfers to BWI in about 30 minutes via I-97, plus elegant transportation for Naval Academy events, weddings, and nights on Main Street.',
     landmarks: ['U.S. Naval Academy', 'Annapolis City Dock', 'Maryland State House', 'Westfield Annapolis'],
     localNote:
-      'Commissioning Week, Navy football, downtown galas, or an early flight from BWI — our chauffeurs know Annapolis inside and out, from Eastport to West Annapolis to the Broadneck Peninsula.',
+      'Commissioning Week, Navy football, downtown galas, or an early flight from BWI. Our chauffeurs know Annapolis inside and out, from Eastport to West Annapolis to the Broadneck Peninsula.',
   },
   {
     slug: 'crofton-md',
@@ -586,7 +586,7 @@ export const CITIES = [
       'From UMD move-in weekends to visiting professors and Discovery District executives, College Park runs on arrivals and departures — and BWI Chauffeur handles them all. Flat-rate luxury transfers to BWI (~30 min), DCA, and Dulles, 24/7.',
     landmarks: ['University of Maryland', 'Xfinity Center', 'The Hotel at UMD', 'Discovery District'],
     localNote:
-      'Parents flying in for graduation, recruiters visiting campus, Terps fans heading to games — our chauffeurs know every UMD entrance and the fastest Route 1 and BW Parkway routes.',
+      'Parents flying in for graduation, recruiters visiting campus, Terps fans heading to games. Our chauffeurs know every UMD entrance and the fastest Route 1 and BW Parkway routes.',
   },
   {
     slug: 'hyattsville-md',
