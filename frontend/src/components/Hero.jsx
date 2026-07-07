@@ -89,10 +89,10 @@ const Hero = () => {
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </Link>
           <a
-            href="tel:+18776790100"
+            href="tel:+18776091919"
             className="inline-flex items-center px-8 py-4 border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black font-bold text-lg rounded-md transition-all duration-300 hover:scale-105"
           >
-            Call 877-679-0100
+            Call 877-609-1919
           </a>
         </div>
 

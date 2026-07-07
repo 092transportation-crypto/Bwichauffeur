@@ -133,7 +133,7 @@ def build_customer_email(quote: dict) -> tuple[str, str, str]:
           </p>
           <p style="line-height:1.6;color:#ddd;font-size:15px;">
             <strong style="color:{GOLD};">Need immediate assistance?</strong><br/>
-            Call us 24/7 at <a href="tel:+18776790100" style="color:{GOLD};">877-679-0100</a>
+            Call us 24/7 at <a href="tel:+18776091919" style="color:{GOLD};">877-609-1919</a>
           </p>
           <div style="margin:24px 0;padding:16px;background:#0a0a0a;border-left:3px solid {GOLD};border-radius:4px;">
             <p style="margin:0;color:#999;font-size:13px;">Trip summary:</p>
@@ -154,7 +154,7 @@ def build_customer_email(quote: dict) -> tuple[str, str, str]:
         f"Hi {name},\n\n"
         "Thank you for choosing BWI Chauffeur. We've received your quote request and "
         "a reservation specialist will reach out shortly with your custom quote.\n\n"
-        "For immediate assistance, call us 24/7 at 877-679-0100.\n\n"
+        "For immediate assistance, call us 24/7 at 877-609-1919.\n\n"
         f"Trip: {quote.get('pickup_location','')} -> {quote.get('dropoff_location','') or '—'}\n"
         f"When: {quote.get('pickup_datetime','')}\n"
         f"Passengers: {quote.get('passengers','')}\n\n"
@@ -224,7 +224,7 @@ def build_contact_customer_email(msg: dict) -> tuple[str, str, str]:
           </p>
           <p style="line-height:1.6;color:#ddd;font-size:15px;">
             <strong style="color:{GOLD};">Need immediate assistance?</strong><br/>
-            Call us 24/7 at <a href="tel:+18776790100" style="color:{GOLD};">877-679-0100</a>
+            Call us 24/7 at <a href="tel:+18776091919" style="color:{GOLD};">877-609-1919</a>
           </p>
           <p style="color:#666;font-size:12px;margin-top:30px;">
             BWI Chauffeur &middot; Serving Maryland, Delaware &amp; the DMV<br/>
@@ -238,7 +238,7 @@ def build_contact_customer_email(msg: dict) -> tuple[str, str, str]:
         f"Hi {name},\n\n"
         "Thanks for reaching out. We've received your message and a member of our "
         "team will get back to you within one business day.\n\n"
-        "For immediate assistance, call us 24/7 at 877-679-0100.\n\n"
+        "For immediate assistance, call us 24/7 at 877-609-1919.\n\n"
         "— BWI Chauffeur\nbwichauffeur.com"
     )
     return subject, text, html

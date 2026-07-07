@@ -65,7 +65,7 @@ const ChatWidget = () => {
       console.error('Chat error:', error);
       setMessages(prev => [...prev, {
         role: 'assistant',
-        content: 'I apologize, but I\'m having trouble connecting right now. Please call us at 877-679-0100 for immediate assistance.'
+        content: 'I apologize, but I\'m having trouble connecting right now. Please call us at 877-609-1919 for immediate assistance.'
       }]);
     } finally {
       setIsLoading(false);

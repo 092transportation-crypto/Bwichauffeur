@@ -124,10 +124,10 @@ export const QuoteForm = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <a
             data-testid="quote-success-call"
-            href="tel:+18776790100"
+            href="tel:+18776091919"
             className="inline-flex items-center gap-2 px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-lg hover:bg-[#F4E5C3] transition"
           >
-            <Phone className="h-4 w-4" /> 877-679-0100
+            <Phone className="h-4 w-4" /> 877-609-1919
           </a>
           <Button
             data-testid="quote-success-new"
@@ -292,7 +292,7 @@ export const QuoteForm = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
               data-testid="quote-call-now"
-              href="tel:+18776790100"
+              href="tel:+18776091919"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#D4AF37] text-black font-semibold rounded-lg hover:bg-[#F4E5C3] transition"
             >
               <Phone className="h-4 w-4" /> Call Now

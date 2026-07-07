@@ -116,7 +116,7 @@ const SEOContent = () => {
           </h3>
 
           <p>
-            BWI Chauffeur operates <strong>24 hours a day, 7 days a week, 365 days a year</strong>. Our dispatch system uses <strong>real-time flight tracking</strong> to watch arrivals and departures. Pickup times adjust automatically for early arrivals or delays. Your chauffeur is there whether your flight lands at 3 AM or 3 PM. Call us anytime at <strong className="text-[#D4AF37]">877-679-0100</strong> or <button onClick={() => navigate('/booking')} className="text-[#D4AF37] hover:underline font-semibold">book online</button> for instant confirmation.
+            BWI Chauffeur operates <strong>24 hours a day, 7 days a week, 365 days a year</strong>. Our dispatch system uses <strong>real-time flight tracking</strong> to watch arrivals and departures. Pickup times adjust automatically for early arrivals or delays. Your chauffeur is there whether your flight lands at 3 AM or 3 PM. Call us anytime at <strong className="text-[#D4AF37]">877-609-1919</strong> or <button onClick={() => navigate('/booking')} className="text-[#D4AF37] hover:underline font-semibold">book online</button> for instant confirmation.
           </p>
 
           <h3 className="text-2xl font-bold text-white mt-8 mb-3">
@@ -162,7 +162,7 @@ const SEOContent = () => {
           </h3>
 
           <p>
-            We believe in <strong>transparent pricing</strong> with no hidden fees. All rates are quoted upfront. They include gratuity, fuel surcharges, tolls, and parking. We offer <strong>flat-rate airport transfers</strong>, <strong>hourly rates</strong> for longer trips, and <strong>custom packages</strong> for events. Request a free quote at <strong>877-679-0100</strong> or through our online <button onClick={() => navigate('/booking')} className="text-[#D4AF37] hover:underline font-semibold">booking system</button>.
+            We believe in <strong>transparent pricing</strong> with no hidden fees. All rates are quoted upfront. They include gratuity, fuel surcharges, tolls, and parking. We offer <strong>flat-rate airport transfers</strong>, <strong>hourly rates</strong> for longer trips, and <strong>custom packages</strong> for events. Request a free quote at <strong>877-609-1919</strong> or through our online <button onClick={() => navigate('/booking')} className="text-[#D4AF37] hover:underline font-semibold">booking system</button>.
           </p>
 
           <h3 className="text-2xl font-bold text-white mt-8 mb-3">
@@ -188,10 +188,10 @@ const SEOContent = () => {
                 Book Online Now
               </button>
               <a 
-                href="tel:+18776790100"
+                href="tel:+18776091919"
                 className="px-8 py-3 border-2 border-[#D4AF37] text-[#D4AF37] font-bold rounded-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300"
               >
-                Call 877-679-0100
+                Call 877-609-1919
               </a>
             </div>
           </div>

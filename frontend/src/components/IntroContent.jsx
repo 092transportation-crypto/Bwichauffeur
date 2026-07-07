@@ -53,7 +53,7 @@ const IntroContent = () => {
           </p>
 
           <p>
-            We cover every Maryland county, all of Delaware, and York County, Pennsylvania. That includes Anne Arundel, Baltimore, Howard, Montgomery, and Prince George's counties. Our chauffeurs are available 24 hours a day, every day of the year. Call us anytime at <a href="tel:+18776790100" className="text-[#D4AF37] hover:underline font-semibold">877-679-0100</a>.
+            We cover every Maryland county, all of Delaware, and York County, Pennsylvania. That includes Anne Arundel, Baltimore, Howard, Montgomery, and Prince George's counties. Our chauffeurs are available 24 hours a day, every day of the year. Call us anytime at <a href="tel:+18776091919" className="text-[#D4AF37] hover:underline font-semibold">877-609-1919</a>.
           </p>
 
           {/* CTA Buttons */}

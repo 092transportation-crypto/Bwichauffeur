@@ -5,7 +5,7 @@
 ### 1. Meta Description
 **Problem:** Too long (3936 pixels, max should be 1000 pixels)
 **Fixed:** Reduced to 183 characters
-**New Description:** "BWI Chauffeur - Premium airport transportation & luxury car service in Maryland, Delaware, DC. 24/7 professional chauffeurs, Mercedes S-Class, BMW 7 Series fleet. Book (667) 400-0092"
+**New Description:** "BWI Chauffeur - Premium airport transportation & luxury car service in Maryland, Delaware, DC. 24/7 professional chauffeurs, Mercedes S-Class, BMW 7 Series fleet. Book (877) 609-1919"
 
 ### 2. Page Title
 **Problem:** Too long (884 pixels, max should be 580 pixels)

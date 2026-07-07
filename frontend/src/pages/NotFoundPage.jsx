@@ -65,9 +65,9 @@ const NotFoundPage = () => {
         <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 border border-[#D4AF37]/20 rounded-lg p-6">
           <h3 className="text-white font-bold text-lg mb-4">Need Assistance?</h3>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-gray-300">
-            <a href="tel:+18776790100" className="flex items-center hover:text-[#D4AF37] transition-colors">
+            <a href="tel:+18776091919" className="flex items-center hover:text-[#D4AF37] transition-colors">
               <Phone className="h-4 w-4 mr-2" />
-              877-679-0100
+              877-609-1919
             </a>
             <a href="mailto:info@bwichauffeur.com" className="flex items-center hover:text-[#D4AF37] transition-colors">
               <Mail className="h-4 w-4 mr-2" />

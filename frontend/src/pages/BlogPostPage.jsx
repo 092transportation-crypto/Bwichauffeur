@@ -480,12 +480,12 @@ const BlogPostPage = () => {
               Get Your Free Quote
             </Button>
             <Button
-              onClick={() => window.location.href = 'tel:+18776790100'}
+              onClick={() => window.location.href = 'tel:+18776091919'}
               variant="outline"
               className="border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black"
             >
               <Phone className="mr-2 h-4 w-4" />
-              877-679-0100
+              877-609-1919
             </Button>
           </div>
         </div>

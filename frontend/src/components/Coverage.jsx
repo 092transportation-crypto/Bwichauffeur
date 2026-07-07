@@ -127,7 +127,7 @@ const Coverage = () => {
               We likely serve it! Contact our 24/7 concierge team to confirm service availability in your location.
             </p>
             <a
-              href="tel:+18776790100"
+              href="tel:+18776091919"
               className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-bold rounded-lg hover:shadow-lg hover:shadow-[#D4AF37]/50 transition-all duration-300"
             >
               Call to Confirm Coverage

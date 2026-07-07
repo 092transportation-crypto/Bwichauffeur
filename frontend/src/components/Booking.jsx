@@ -112,7 +112,7 @@ const Booking = () => {
                     type="tel"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="877-679-0100"
+                    placeholder="877-609-1919"
                     required
                     className="bg-gray-900/50 border-gray-700 text-white placeholder:text-gray-500 focus:border-[#D4AF37]"
                   />

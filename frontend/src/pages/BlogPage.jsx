@@ -283,12 +283,12 @@ const BlogPage = () => {
               Reserve Your Luxury Ride
             </Button>
             <Button
-              onClick={() => window.location.href = 'tel:+18776790100'}
+              onClick={() => window.location.href = 'tel:+18776091919'}
               size="lg"
               variant="outline"
               className="border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black"
             >
-              Call 877-679-0100
+              Call 877-609-1919
             </Button>
           </div>
         </div>

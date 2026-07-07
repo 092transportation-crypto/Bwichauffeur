@@ -107,10 +107,10 @@ const PricingTable = () => {
                 <ArrowRight className="h-5 w-5" />
               </Link>
               <a
-                href="tel:+18776790100"
+                href="tel:+18776091919"
                 className="block text-center text-sm text-gray-400 mt-4 hover:text-[#D4AF37] transition-colors"
               >
-                or call 877-679-0100 — 24/7
+                or call 877-609-1919 — 24/7
               </a>
             </div>
           </div>

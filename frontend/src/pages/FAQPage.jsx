@@ -19,7 +19,7 @@ const FAQPage = () => {
       faqs: [
         {
           question: 'How do I book a ride with BWI Chauffeur?',
-          answer: 'You can book a ride through our online reservation system at the booking page, call us 24/7 at 877-679-0100, or email us at info@bwichauffeur.com. We recommend booking at least 24 hours in advance for standard services and 48-72 hours for special events like weddings.'
+          answer: 'You can book a ride through our online reservation system at the booking page, call us 24/7 at 877-609-1919, or email us at info@bwichauffeur.com. We recommend booking at least 24 hours in advance for standard services and 48-72 hours for special events like weddings.'
         },
         {
           question: 'What is your cancellation policy?',
@@ -27,7 +27,7 @@ const FAQPage = () => {
         },
         {
           question: 'Can I make last-minute bookings?',
-          answer: 'Yes! We take last-minute bookings based on vehicle availability. Call our 24/7 dispatch at 877-679-0100 for immediate assistance. While we can\'t guarantee availability, we do our best to meet all requests.'
+          answer: 'Yes! We take last-minute bookings based on vehicle availability. Call our 24/7 dispatch at 877-609-1919 for immediate assistance. While we can\'t guarantee availability, we do our best to meet all requests.'
         },
         {
           question: 'Do you require a deposit for bookings?',
@@ -115,7 +115,7 @@ const FAQPage = () => {
         },
         {
           question: 'Can you provide service to areas not listed?',
-          answer: 'Likely yes! Our coverage is extensive and we often handle special requests. Call 877-679-0100 to confirm service availability for your specific route and receive a custom quote.'
+          answer: 'Likely yes! Our coverage is extensive and we often handle special requests. Call 877-609-1919 to confirm service availability for your specific route and receive a custom quote.'
         }
       ]
     },
@@ -208,7 +208,7 @@ const FAQPage = () => {
         {/* FAQ Introduction for SEO */}
         <div className="mb-12 text-gray-300 leading-relaxed">
           <p className="mb-4">
-            At <strong className="text-[#D4AF37]">BWI Chauffeur</strong>, we strive to make luxury transportation simple and stress-free. Below you'll find answers to the most commonly asked questions about our <Link to="/services" className="text-[#D4AF37] hover:underline">chauffeur services</Link>, <Link to="/luxury-fleet" className="text-[#D4AF37] hover:underline">luxury fleet</Link>, and <Link to="/coverage" className="text-[#D4AF37] hover:underline">service coverage areas</Link>. If you don't find the answer you're looking for, please don't hesitate to call us at <a href="tel:+18776790100" className="text-[#D4AF37] hover:underline">877-679-0100</a> - our team is available 24/7 to assist you.
+            At <strong className="text-[#D4AF37]">BWI Chauffeur</strong>, we strive to make luxury transportation simple and stress-free. Below you'll find answers to the most commonly asked questions about our <Link to="/services" className="text-[#D4AF37] hover:underline">chauffeur services</Link>, <Link to="/luxury-fleet" className="text-[#D4AF37] hover:underline">luxury fleet</Link>, and <Link to="/coverage" className="text-[#D4AF37] hover:underline">service coverage areas</Link>. If you don't find the answer you're looking for, please don't hesitate to call us at <a href="tel:+18776091919" className="text-[#D4AF37] hover:underline">877-609-1919</a> - our team is available 24/7 to assist you.
           </p>
         </div>
 
@@ -262,11 +262,11 @@ const FAQPage = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="tel:+18776790100"
+              href="tel:+18776091919"
               className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-bold rounded-lg hover:shadow-lg hover:shadow-[#D4AF37]/50 transition-all"
             >
               <Phone className="mr-2 h-5 w-5" />
-              Call 877-679-0100
+              Call 877-609-1919
             </a>
             <Button
               onClick={() => navigate('/booking')}

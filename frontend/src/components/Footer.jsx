@@ -29,11 +29,11 @@ const Footer = () => {
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
             <a
-              href="tel:+18776790100"
+              href="tel:+18776091919"
               className="inline-flex items-center justify-center px-6 py-3 border-2 border-black text-black font-bold rounded-md hover:bg-black hover:text-[#D4AF37] transition-all whitespace-nowrap"
             >
               <Phone className="mr-2 h-4 w-4" />
-              877-679-0100
+              877-609-1919
             </a>
           </div>
         </div>
@@ -122,9 +122,9 @@ const Footer = () => {
             </ul>
             <h3 className="text-white font-bold text-lg mb-4">Contact</h3>
             <div className="space-y-3">
-              <a href="tel:+18776790100" className="flex items-center space-x-3 text-gray-400 hover:text-[#D4AF37] transition-colors">
+              <a href="tel:+18776091919" className="flex items-center space-x-3 text-gray-400 hover:text-[#D4AF37] transition-colors">
                 <Phone className="h-5 w-5 text-[#D4AF37]" />
-                <span>877-679-0100</span>
+                <span>877-609-1919</span>
               </a>
               <a href="mailto:info@bwichauffeur.com" className="flex items-center space-x-3 text-gray-400 hover:text-[#D4AF37] transition-colors">
                 <Mail className="h-5 w-5 text-[#D4AF37]" />

@@ -117,7 +117,7 @@ const About = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-white mb-1">Easy Booking</div>
-                    <p className="text-gray-400 text-sm">Book online 24/7 or call 877-679-0100 for instant confirmation and personalized service.</p>
+                    <p className="text-gray-400 text-sm">Book online 24/7 or call 877-609-1919 for instant confirmation and personalized service.</p>
                   </div>
                 </li>
 

@@ -10,8 +10,8 @@ import { Card, CardContent } from '../components/ui/card';
 import { getNearbyCities } from '../data/cities';
 import Breadcrumbs from '../components/Breadcrumbs';
 
-const PHONE_DISPLAY = '877-679-0100';
-const PHONE_TEL = 'tel:+18776790100';
+const PHONE_DISPLAY = '877-609-1919';
+const PHONE_TEL = 'tel:+18776091919';
 
 const buildServices = (city) => {
   const base = [
@@ -137,7 +137,7 @@ const CityPage = ({ city }) => {
         provider: {
           '@type': 'LocalBusiness',
           name: 'BWI Chauffeur',
-          telephone: '(877) 679-0100',
+          telephone: '(877) 609-1919',
           email: 'info@bwichauffeur.com',
           url: 'https://bwichauffeur.com',
           image: 'https://bwichauffeur.com/images/bmw-7series.jpg',

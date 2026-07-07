@@ -86,9 +86,9 @@ const Navbar = () => {
               )}
             </div>
             
-            <a href="tel:+18776790100" className="flex items-center space-x-2 text-[#D4AF37] hover:text-[#F4E5C3] transition-colors duration-300">
+            <a href="tel:+18776091919" className="flex items-center space-x-2 text-[#D4AF37] hover:text-[#F4E5C3] transition-colors duration-300">
               <Phone className="h-4 w-4" />
-              <span className="font-semibold">877-679-0100</span>
+              <span className="font-semibold">877-609-1919</span>
             </a>
             <Link
               to="/booking"
@@ -131,9 +131,9 @@ const Navbar = () => {
               <Link to="/terms-conditions" onClick={closeMobileMenu} className="block text-gray-400 hover:text-[#D4AF37] transition-colors duration-300 py-2 text-sm">Terms & Conditions</Link>
             </div>
             
-            <a href="tel:+18776790100" onClick={closeMobileMenu} className="flex items-center space-x-2 text-[#D4AF37] py-2">
+            <a href="tel:+18776091919" onClick={closeMobileMenu} className="flex items-center space-x-2 text-[#D4AF37] py-2">
               <Phone className="h-4 w-4" />
-              <span className="font-semibold">877-679-0100</span>
+              <span className="font-semibold">877-609-1919</span>
             </a>
             <Link
               to="/booking"

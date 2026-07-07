@@ -54,10 +54,10 @@ const ServiceAreasPage = () => {
               <span className="flex items-center"><Clock className="h-4 w-4 text-[#D4AF37] mr-1.5" /> 24/7 Availability</span>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+18776790100">
+              <a href="tel:+18776091919">
                 <Button className="bg-[#D4AF37] text-black hover:bg-[#C4A030] font-semibold px-8 py-3 w-full sm:w-auto">
                   <Phone className="mr-2 h-5 w-5" />
-                  877-679-0100
+                  877-609-1919
                 </Button>
               </a>
               <Link to="/booking">
@@ -143,10 +143,10 @@ const ServiceAreasPage = () => {
               We serve all of Maryland, Washington DC, Northern Virginia, and Delaware. Call us — if you need a
               ride, we'll get you there.
             </p>
-            <a href="tel:+18776790100">
+            <a href="tel:+18776091919">
               <Button className="bg-[#D4AF37] text-black hover:bg-[#C4A030] font-semibold px-8 py-3">
                 <Phone className="mr-2 h-5 w-5" />
-                Call 877-679-0100
+                Call 877-609-1919
               </Button>
             </a>
           </div>

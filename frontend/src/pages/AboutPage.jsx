@@ -213,11 +213,11 @@ const AboutPage = () => {
               Book Your Ride
             </Button>
             <a
-              href="tel:+18776790100"
+              href="tel:+18776091919"
               className="inline-flex items-center px-6 py-3 border-2 border-[#D4AF37] text-[#D4AF37] font-semibold rounded-md hover:bg-[#D4AF37] hover:text-black transition-all"
             >
               <Phone className="mr-2 h-5 w-5" />
-              877-679-0100
+              877-609-1919
             </a>
           </div>
         </div>

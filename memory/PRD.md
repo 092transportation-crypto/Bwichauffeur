@@ -1,7 +1,7 @@
 # BWI Chauffeur - PRD
 
 ## Original Problem Statement
-A website similar to dcalimos.com for BWI Chauffeur brand. Gold-and-black theme matching brand logo. Multi-page SPA with SEO optimization, AI chatbot, fleet showcase, blog, coverage areas (Maryland counties, Delaware, parts of PA), testimonials, FAQ, privacy/terms, cruise transportation page, social media links, and phone number (667) 400-0092.
+A website similar to dcalimos.com for BWI Chauffeur brand. Gold-and-black theme matching brand logo. Multi-page SPA with SEO optimization, AI chatbot, fleet showcase, blog, coverage areas (Maryland counties, Delaware, parts of PA), testimonials, FAQ, privacy/terms, cruise transportation page, social media links, and phone number (877) 609-1919.
 
 ## Tech Stack
 - Frontend: React (CRA + craco), Tailwind, react-router, react-helmet-async, lucide-react, sonner, shadcn UI

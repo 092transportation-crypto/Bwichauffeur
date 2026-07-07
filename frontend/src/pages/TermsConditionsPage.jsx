@@ -60,7 +60,7 @@ const TermsConditionsPage = () => {
               <h2 className="text-2xl font-bold text-white mb-4">3. Reservations and Bookings</h2>
               <h3 className="text-xl font-semibold text-[#D4AF37] mb-3">3.1 Making Reservations</h3>
               <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>Reservations can be made <Link to="/booking" className="text-[#D4AF37] hover:underline">online</Link>, by phone at <a href="tel:+18776790100" className="text-[#D4AF37] hover:underline">877-679-0100</a>, or via email</li>
+                <li>Reservations can be made <Link to="/booking" className="text-[#D4AF37] hover:underline">online</Link>, by phone at <a href="tel:+18776091919" className="text-[#D4AF37] hover:underline">877-609-1919</a>, or via email</li>
                 <li>All reservations require complete and accurate information</li>
                 <li>Confirmation is sent upon successful booking</li>
                 <li>We recommend booking at least 24 hours in advance for guaranteed availability</li>
@@ -126,7 +126,7 @@ const TermsConditionsPage = () => {
                 <li>Respect our professional chauffeurs and treat <Link to="/luxury-fleet" className="text-[#D4AF37] hover:underline">luxury vehicles</Link> with care</li>
                 <li>No smoking in any vehicle in our fleet</li>
                 <li>Secure all children in appropriate car seats (available upon request)</li>
-                <li>Report any issues immediately to our dispatch team at 877-679-0100</li>
+                <li>Report any issues immediately to our dispatch team at 877-609-1919</li>
                 <li>Comply with all applicable laws and regulations</li>
                 <li>No illegal substances or contraband allowed in vehicles</li>
               </ul>
@@ -199,7 +199,7 @@ const TermsConditionsPage = () => {
                 <p className="mb-2"><strong className="text-white">BWI Chauffeur</strong></p>
                 <p className="mb-2">BWI Airport Area, Baltimore, Maryland</p>
                 <p className="mb-2">Email: <a href="mailto:info@bwichauffeur.com" className="text-[#D4AF37] hover:underline">info@bwichauffeur.com</a></p>
-                <p className="mb-2">Phone: <a href="tel:+18776790100" className="text-[#D4AF37] hover:underline">877-679-0100</a></p>
+                <p className="mb-2">Phone: <a href="tel:+18776091919" className="text-[#D4AF37] hover:underline">877-609-1919</a></p>
                 <p>Hours: 24/7 Customer Service</p>
               </div>
             </section>

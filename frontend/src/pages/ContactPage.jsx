@@ -81,7 +81,7 @@ const ContactPage = () => {
         <title>Contact BWI Chauffeur | 24/7 Airport Transportation</title>
         <meta
           name="description"
-          content="Contact BWI Chauffeur for 24/7 luxury airport transfers and corporate car service across Maryland, DC & Delaware. Call 877-679-0100 or book online."
+          content="Contact BWI Chauffeur for 24/7 luxury airport transfers and corporate car service across Maryland, DC & Delaware. Call 877-609-1919 or book online."
         />
         <link rel="canonical" href="https://bwichauffeur.com/contact/" />
       </Helmet>
@@ -121,11 +121,11 @@ const ContactPage = () => {
                     <div>
                       <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">Call 24/7</p>
                       <a
-                        href="tel:+18776790100"
+                        href="tel:+18776091919"
                         className="text-xl font-bold text-white hover:text-[#D4AF37] transition-colors"
                         data-testid="contact-phone"
                       >
-                        877-679-0100
+                        877-609-1919
                       </a>
                     </div>
                   </div>
@@ -203,8 +203,8 @@ const ContactPage = () => {
                       <p className="text-gray-300 max-w-md mx-auto mb-6">
                         Thanks for reaching out. We&apos;ll reply to your email within one
                         business day. For anything urgent, call{' '}
-                        <a href="tel:+18776790100" className="text-[#D4AF37] hover:underline">
-                          877-679-0100
+                        <a href="tel:+18776091919" className="text-[#D4AF37] hover:underline">
+                          877-609-1919
                         </a>{' '}
                         — we&apos;re available 24/7.
                       </p>
