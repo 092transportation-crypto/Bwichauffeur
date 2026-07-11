@@ -16,6 +16,8 @@ import FAQPage from "./pages/FAQPage";
 import AboutPage from "./pages/AboutPage";
 import BaltimoreSportsPage from "./pages/BaltimoreSportsPage";
 import CruiseTransportationPage from "./pages/CruiseTransportationPage";
+import ConcertTransportationPage from "./pages/ConcertTransportationPage";
+import VenuePage from "./pages/VenuePage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import TermsConditionsPage from "./pages/TermsConditionsPage";
 import NotFoundPage from "./pages/NotFoundPage";
@@ -25,6 +27,7 @@ import ContactPage from "./pages/ContactPage";
 import RoutePage from "./pages/RoutePage";
 import { CITIES } from "./data/cities";
 import { BWI_ROUTES } from "./data/bwiRoutes";
+import { CONCERT_VENUES } from "./data/concertVenues";
 import ChatWidget from "./components/ChatWidget";
 import { Toaster } from "sonner";
 
@@ -52,6 +55,14 @@ function App() {
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/baltimore-sports-transportation" element={<BaltimoreSportsPage />} />
                 <Route path="/cruise-transportation" element={<CruiseTransportationPage />} />
+                <Route path="/concert-transportation" element={<ConcertTransportationPage />} />
+                {CONCERT_VENUES.map((venue) => (
+                  <Route
+                    key={venue.slug}
+                    path={`/${venue.slug}`}
+                    element={<VenuePage venue={venue} />}
+                  />
+                ))}
                 <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
                 <Route path="/terms-conditions" element={<TermsConditionsPage />} />
                 <Route path="/service-areas" element={<ServiceAreasPage />} />

@@ -121,6 +121,31 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Concert & Event Transportation Pages -->
+  <url>
+    <loc>https://www.bwichauffeur.com/concert-transportation</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.bwichauffeur.com/cfg-bank-arena-transportation</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.bwichauffeur.com/merriweather-post-pavilion-transportation</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.bwichauffeur.com/capital-one-arena-transportation</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://www.bwichauffeur.com/blog</loc>
     <lastmod>2026-01-20</lastmod>
