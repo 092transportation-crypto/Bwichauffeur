@@ -64,6 +64,7 @@ const Navbar = () => {
             <Link to="/services" className="text-white hover:text-[#D4AF37] transition-colors duration-300 font-medium">Services</Link>
             <Link to="/luxury-fleet" className="text-white hover:text-[#D4AF37] transition-colors duration-300 font-medium">Fleet</Link>
             <Link to="/baltimore-sports-transportation" className="text-white hover:text-[#D4AF37] transition-colors duration-300 font-medium">Sports</Link>
+            <Link to="/concert-transportation" className="text-white hover:text-[#D4AF37] transition-colors duration-300 font-medium">Events & Concerts</Link>
             <Link to="/cruise-transportation" className="text-white hover:text-[#D4AF37] transition-colors duration-300 font-medium">Cruise</Link>
             <Link to="/blog" className="text-white hover:text-[#D4AF37] transition-colors duration-300 font-medium">Blog</Link>
             <Link to="/coverage" className="text-white hover:text-[#D4AF37] transition-colors duration-300 font-medium">Coverage</Link>
@@ -118,6 +119,7 @@ const Navbar = () => {
             <Link to="/services" onClick={closeMobileMenu} className="block text-white hover:text-[#D4AF37] transition-colors duration-300 py-2 font-medium">Services</Link>
             <Link to="/luxury-fleet" onClick={closeMobileMenu} className="block text-white hover:text-[#D4AF37] transition-colors duration-300 py-2 font-medium">Fleet</Link>
             <Link to="/baltimore-sports-transportation" onClick={closeMobileMenu} className="block text-white hover:text-[#D4AF37] transition-colors duration-300 py-2 font-medium">Sports Transportation</Link>
+            <Link to="/concert-transportation" onClick={closeMobileMenu} className="block text-white hover:text-[#D4AF37] transition-colors duration-300 py-2 font-medium">Events & Concerts</Link>
             <Link to="/cruise-transportation" onClick={closeMobileMenu} className="block text-white hover:text-[#D4AF37] transition-colors duration-300 py-2 font-medium">Cruise Transportation</Link>
             <Link to="/blog" onClick={closeMobileMenu} className="block text-white hover:text-[#D4AF37] transition-colors duration-300 py-2 font-medium">Blog</Link>
             <Link to="/about" onClick={closeMobileMenu} className="block text-white hover:text-[#D4AF37] transition-colors duration-300 py-2 font-medium">About Us</Link>
