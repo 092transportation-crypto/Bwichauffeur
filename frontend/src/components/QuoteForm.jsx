@@ -40,6 +40,11 @@ const CONTACT_METHOD_OPTIONS = [
   { value: 'phone_text', label: '📱 Phone / Text' },
 ];
 
+const PASSENGER_OPTIONS = Array.from({ length: 14 }, (_, i) => ({
+  value: String(i + 1),
+  label: `${i + 1} ${i === 0 ? 'Passenger' : 'Passengers'}`,
+}));
+
 const INITIAL = {
   full_name: '',
   phone: '',
@@ -206,7 +211,13 @@ export const QuoteForm = () => {
 
         <div className="grid sm:grid-cols-3 gap-5">
           <Field label="Pickup Date & Time" name="pickup_datetime" value={form.pickup_datetime} onChange={handleChange} type="datetime-local" />
-          <Field label="Passengers" name="passengers" value={form.passengers} onChange={handleChange} type="number" min="1" max="50" />
+          <Select
+            label="Passengers"
+            name="passengers"
+            value={String(form.passengers)}
+            onChange={handleChange}
+            options={PASSENGER_OPTIONS}
+          />
           <Select
             label="Service Type"
             name="service_type"
