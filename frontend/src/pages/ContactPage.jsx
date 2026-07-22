@@ -17,20 +17,27 @@ import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
-import { Textarea } from '../components/ui/textarea';
 import { toast } from 'sonner';
 import Breadcrumbs from '../components/Breadcrumbs';
+import TrustSignals from '../components/TrustSignals';
 
 // Default to same-origin (Vercel serverless /api). Override with
 // REACT_APP_BACKEND_URL only if the API is hosted elsewhere.
 const API = `${process.env.REACT_APP_BACKEND_URL || ''}/api`;
 
+const PASSENGER_OPTIONS = Array.from({ length: 14 }, (_, i) => ({
+  value: String(i + 1),
+  label: `${i + 1} ${i === 0 ? 'Passenger' : 'Passengers'}`,
+}));
+
 const initial = {
   full_name: '',
-  email: '',
   phone: '',
-  subject: '',
-  message: '',
+  email: '',
+  pickup_location: '',
+  dropoff_location: '',
+  pickup_datetime: '',
+  passengers: 1,
   sms_consent: false,
 };
 
@@ -43,14 +50,17 @@ const ContactPage = () => {
 
   const onChange = (e) => {
     const { name, value, type, checked } = e.target;
-    setForm((prev) => ({ ...prev, [name]: type === 'checkbox' ? checked : value }));
+    setForm((prev) => ({
+      ...prev,
+      [name]: type === 'checkbox' ? checked : name === 'passengers' ? Number(value) || 1 : value,
+    }));
   };
 
   const onSubmit = async (e) => {
     e.preventDefault();
     setError('');
 
-    if (!form.full_name.trim() || !form.email.trim() || !form.subject.trim() || !form.message.trim()) {
+    if (!form.full_name.trim() || !form.phone.trim() || !form.email.trim() || !form.pickup_location.trim()) {
       setError('Please fill in all required fields.');
       return;
     }
@@ -62,10 +72,10 @@ const ContactPage = () => {
 
     setSubmitting(true);
     try {
-      await axios.post(`${API}/contact`, form);
+      await axios.post(`${API}/quote-requests`, form);
       setSubmitted(true);
       setForm(initial);
-      toast.success('Message sent — we\'ll be in touch shortly.');
+      toast.success('Quote request received! We respond within 15 minutes.');
     } catch (err) {
       const detail = err?.response?.data?.detail || 'Something went wrong. Please try again or call us directly.';
       setError(detail);
@@ -104,8 +114,8 @@ const ContactPage = () => {
               Contact <span className="text-[#D4AF37]">BWI Chauffeur</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-              Questions, custom quotes, or corporate accounts — our team replies within
-              one business day, 24/7 by phone.
+              Questions, custom quotes, or corporate accounts — we respond within
+              15 minutes, 24/7 by phone.
             </p>
           </div>
 
@@ -198,11 +208,11 @@ const ContactPage = () => {
                         <CheckCircle2 className="h-9 w-9 text-[#D4AF37]" />
                       </div>
                       <h2 className="text-2xl font-bold text-white mb-3">
-                        Message received
+                        Quote request received
                       </h2>
                       <p className="text-gray-300 max-w-md mx-auto mb-6">
-                        Thanks for reaching out. We&apos;ll reply to your email within one
-                        business day. For anything urgent, call{' '}
+                        Thanks for reaching out. We&apos;ll get back to you within 15
+                        minutes. For anything urgent, call{' '}
                         <a href="tel:+18776091919" className="text-[#D4AF37] hover:underline">
                           877-609-1919
                         </a>{' '}
@@ -265,12 +275,13 @@ const ContactPage = () => {
                       <div className="grid sm:grid-cols-2 gap-5">
                         <div>
                           <Label htmlFor="phone" className="text-gray-300">
-                            Phone <span className="text-gray-500 text-xs">(optional)</span>
+                            Phone <span className="text-[#D4AF37]">*</span>
                           </Label>
                           <Input
                             id="phone"
                             name="phone"
                             type="tel"
+                            required
                             value={form.phone}
                             onChange={onChange}
                             placeholder="(667) 555-0123"
@@ -279,38 +290,71 @@ const ContactPage = () => {
                           />
                         </div>
                         <div>
-                          <Label htmlFor="subject" className="text-gray-300">
-                            Subject <span className="text-[#D4AF37]">*</span>
+                          <Label htmlFor="pickup_location" className="text-gray-300">
+                            Pickup Location <span className="text-[#D4AF37]">*</span>
                           </Label>
                           <Input
-                            id="subject"
-                            name="subject"
+                            id="pickup_location"
+                            name="pickup_location"
                             type="text"
                             required
-                            value={form.subject}
+                            value={form.pickup_location}
                             onChange={onChange}
-                            placeholder="Corporate account inquiry"
+                            placeholder="BWI Airport, Terminal A"
                             className="mt-2 bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-[#D4AF37]"
-                            data-testid="contact-input-subject"
+                            data-testid="contact-input-pickup"
+                          />
+                        </div>
+                      </div>
+
+                      <div className="grid sm:grid-cols-2 gap-5">
+                        <div>
+                          <Label htmlFor="dropoff_location" className="text-gray-300">
+                            Drop-off Location <span className="text-[#D4AF37]">*</span>
+                          </Label>
+                          <Input
+                            id="dropoff_location"
+                            name="dropoff_location"
+                            type="text"
+                            required
+                            value={form.dropoff_location}
+                            onChange={onChange}
+                            placeholder="Downtown Baltimore, MD"
+                            className="mt-2 bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-[#D4AF37]"
+                            data-testid="contact-input-dropoff"
+                          />
+                        </div>
+                        <div>
+                          <Label htmlFor="pickup_datetime" className="text-gray-300">
+                            Pickup Date <span className="text-[#D4AF37]">*</span>
+                          </Label>
+                          <Input
+                            id="pickup_datetime"
+                            name="pickup_datetime"
+                            type="datetime-local"
+                            required
+                            value={form.pickup_datetime}
+                            onChange={onChange}
+                            className="mt-2 bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-[#D4AF37]"
+                            data-testid="contact-input-date"
                           />
                         </div>
                       </div>
 
                       <div>
-                        <Label htmlFor="message" className="text-gray-300">
-                          Message <span className="text-[#D4AF37]">*</span>
-                        </Label>
-                        <Textarea
-                          id="message"
-                          name="message"
-                          required
-                          rows={6}
-                          value={form.message}
+                        <Label htmlFor="passengers" className="text-gray-300">Passengers</Label>
+                        <select
+                          id="passengers"
+                          name="passengers"
+                          value={String(form.passengers)}
                           onChange={onChange}
-                          placeholder="Tell us how we can help..."
-                          className="mt-2 bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-[#D4AF37] resize-none"
-                          data-testid="contact-input-message"
-                        />
+                          data-testid="contact-input-passengers"
+                          className="mt-2 w-full bg-black/40 border border-gray-700 focus:border-[#D4AF37] text-white rounded-md px-3 py-2 outline-none transition"
+                        >
+                          {PASSENGER_OPTIONS.map((o) => (
+                            <option key={o.value} value={o.value}>{o.label}</option>
+                          ))}
+                        </select>
                       </div>
 
                       {error && (
@@ -360,10 +404,13 @@ const ContactPage = () => {
                         ) : (
                           <>
                             <Send className="mr-2 h-5 w-5" />
-                            Send Message
+                            Get My Free Quote
                           </>
                         )}
                       </Button>
+
+                      <p className="text-center text-[#D4AF37] text-sm font-medium">We respond within 15 minutes</p>
+                      <TrustSignals />
                     </form>
                   )}
                 </CardContent>

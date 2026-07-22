@@ -21,11 +21,13 @@ module.exports = async (req, res) => {
 
   const body = readBody(req);
 
-  // Validate required fields (mirrors the old Pydantic model).
+  // Validate required fields. Name and email are optional so the compact
+  // hero quick-quote form (pickup, dropoff, date, phone) can submit; we
+  // always need a way to reach the customer plus a pickup location.
+  const hasPhone = body.phone && String(body.phone).trim();
+  const hasEmail = isEmail(body.email);
   const missing = [];
-  if (!body.full_name || !String(body.full_name).trim()) missing.push("full_name");
-  if (!body.phone || !String(body.phone).trim()) missing.push("phone");
-  if (!isEmail(body.email)) missing.push("email");
+  if (!hasPhone && !hasEmail) missing.push("phone or email");
   if (!body.pickup_location || !String(body.pickup_location).trim()) missing.push("pickup_location");
   if (missing.length) {
     return res.status(400).json({ detail: `Missing or invalid fields: ${missing.join(", ")}` });
@@ -33,10 +35,10 @@ module.exports = async (req, res) => {
 
   const doc = {
     id: uuid(),
-    full_name: String(body.full_name).trim(),
-    phone: String(body.phone).trim(),
+    full_name: String(body.full_name || "").trim() || "Website Visitor",
+    phone: String(body.phone || "").trim(),
     preferred_contact: String(body.preferred_contact || "").trim(),
-    email: String(body.email).toLowerCase().trim(),
+    email: hasEmail ? String(body.email).toLowerCase().trim() : "",
     pickup_location: String(body.pickup_location).trim(),
     dropoff_location: String(body.dropoff_location || "").trim(),
     pickup_datetime: String(body.pickup_datetime || "").trim(),
@@ -57,7 +59,9 @@ module.exports = async (req, res) => {
 
   const [adminResult, customerResult] = await Promise.allSettled([
     sendEmail(notifyTo, admin.subject, admin.text, admin.html),
-    sendEmail(doc.email, customer.subject, customer.text, customer.html),
+    doc.email
+      ? sendEmail(doc.email, customer.subject, customer.text, customer.html)
+      : Promise.resolve(null),
   ]);
 
   if (adminResult.status === "rejected") {

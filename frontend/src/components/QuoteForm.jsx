@@ -3,42 +3,7 @@ import { Link } from 'react-router-dom';
 import { Phone, Mail, Send, CheckCircle2, Loader2, Zap } from 'lucide-react';
 import { Button } from './ui/button';
 import { toast } from 'sonner';
-
-const SERVICE_OPTIONS = [
-  { value: 'airport', label: 'Airport Transfer' },
-  { value: 'corporate', label: 'Corporate / Executive' },
-  { value: 'wedding', label: 'Wedding / Event' },
-  { value: 'hourly', label: 'Hourly Service' },
-  { value: 'cruise', label: 'Cruise Port Transfer' },
-  { value: 'group', label: 'Group / Sprinter Van' },
-  { value: 'other', label: 'Other' },
-];
-
-const VEHICLE_OPTIONS = [
-  { value: '', label: 'No preference — recommend best fit' },
-  { value: 'business_sedan', label: 'Business Sedan (Mercedes E-Class)' },
-  { value: 'first_class_sedan', label: 'First Class Sedan (BMW 7 Series / Mercedes S-Class)' },
-  { value: 'midsize_suv', label: 'Midsize SUV (Lincoln Nautilus)' },
-  { value: 'luxury_suv', label: 'Luxury SUV (Chevrolet Suburban)' },
-  { value: 'premium_suv', label: 'Premium SUV (Cadillac Escalade)' },
-  { value: 'sprinter_shuttle', label: 'Sprinter Shuttle' },
-  { value: 'sprinter_executive', label: 'Sprinter Executive' },
-  { value: 'sprinter_limo', label: 'Sprinter Limo' },
-];
-
-const HEARD_FROM_OPTIONS = [
-  { value: '', label: 'Please select…' },
-  { value: 'google', label: 'Google Search' },
-  { value: 'social', label: 'Social Media' },
-  { value: 'referral', label: 'Referral' },
-  { value: 'hotel', label: 'Hotel Partner' },
-  { value: 'other', label: 'Other' },
-];
-
-const CONTACT_METHOD_OPTIONS = [
-  { value: 'email', label: '📧 Email' },
-  { value: 'phone_text', label: '📱 Phone / Text' },
-];
+import TrustSignals from './TrustSignals';
 
 const PASSENGER_OPTIONS = Array.from({ length: 14 }, (_, i) => ({
   value: String(i + 1),
@@ -48,16 +13,11 @@ const PASSENGER_OPTIONS = Array.from({ length: 14 }, (_, i) => ({
 const INITIAL = {
   full_name: '',
   phone: '',
-  preferred_contact: '',
   email: '',
   pickup_location: '',
   dropoff_location: '',
   pickup_datetime: '',
   passengers: 1,
-  service_type: 'airport',
-  vehicle_preference: '',
-  heard_from: '',
-  notes: '',
   sms_consent: false,
 };
 
@@ -85,7 +45,7 @@ export const QuoteForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!form.full_name || !form.phone || !form.preferred_contact || !form.email || !form.pickup_location) {
+    if (!form.full_name || !form.phone || !form.email || !form.pickup_location) {
       toast.error('Please fill in all required fields');
       return;
     }
@@ -154,7 +114,7 @@ export const QuoteForm = () => {
     >
       <div className="text-center mb-8">
         <div className="inline-flex items-center gap-2 bg-[#D4AF37]/15 border border-[#D4AF37]/40 text-[#D4AF37] text-xs sm:text-sm font-medium px-3 py-1.5 rounded-full mb-4">
-          <Zap className="h-3.5 w-3.5" /> Fast response guaranteed
+          <Zap className="h-3.5 w-3.5" /> We respond within 15 minutes
         </div>
         <h2 className="text-4xl sm:text-5xl font-bold text-white mb-3">
           Get a <span className="text-[#D4AF37]">Free Quote</span>
@@ -170,90 +130,21 @@ export const QuoteForm = () => {
           <Field label="Phone *" name="phone" value={form.phone} onChange={handleChange} required type="tel" placeholder="(555) 123-4567" />
         </div>
 
-        {/* Preferred Contact Method */}
-        <div>
-          <label className="block text-sm font-medium text-gray-300 mb-2">Preferred Contact Method *</label>
-          <div className="grid grid-cols-2 gap-3" role="radiogroup" aria-label="Preferred Contact Method">
-            {CONTACT_METHOD_OPTIONS.map((opt) => {
-              const active = form.preferred_contact === opt.value;
-              return (
-                <label
-                  key={opt.value}
-                  data-testid={`quote-contact-method-${opt.value}`}
-                  className={`flex items-center justify-center gap-2 cursor-pointer rounded-lg border px-4 py-3 text-sm font-medium transition ${
-                    active
-                      ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-white shadow-md shadow-[#D4AF37]/10'
-                      : 'border-gray-700 bg-black/60 text-gray-300 hover:border-[#D4AF37]/60'
-                  }`}
-                >
-                  <input
-                    type="radio"
-                    name="preferred_contact"
-                    value={opt.value}
-                    checked={active}
-                    onChange={handleChange}
-                    required
-                    className="sr-only"
-                  />
-                  {opt.label}
-                </label>
-              );
-            })}
-          </div>
-        </div>
-
         <Field label="Email *" name="email" value={form.email} onChange={handleChange} required type="email" placeholder="you@example.com" />
 
         <div className="grid sm:grid-cols-2 gap-5">
           <Field label="Pickup Location *" name="pickup_location" value={form.pickup_location} onChange={handleChange} required placeholder="BWI Airport, Terminal A" />
-          <Field label="Drop-off Location" name="dropoff_location" value={form.dropoff_location} onChange={handleChange} placeholder="Downtown Baltimore, MD" />
+          <Field label="Drop-off Location *" name="dropoff_location" value={form.dropoff_location} onChange={handleChange} required placeholder="Downtown Baltimore, MD" />
         </div>
 
-        <div className="grid sm:grid-cols-3 gap-5">
-          <Field label="Pickup Date & Time" name="pickup_datetime" value={form.pickup_datetime} onChange={handleChange} type="datetime-local" />
+        <div className="grid sm:grid-cols-2 gap-5">
+          <Field label="Pickup Date & Time *" name="pickup_datetime" value={form.pickup_datetime} onChange={handleChange} required type="datetime-local" />
           <Select
             label="Passengers"
             name="passengers"
             value={String(form.passengers)}
             onChange={handleChange}
             options={PASSENGER_OPTIONS}
-          />
-          <Select
-            label="Service Type"
-            name="service_type"
-            value={form.service_type}
-            onChange={handleChange}
-            options={SERVICE_OPTIONS}
-          />
-        </div>
-
-        <div className="grid sm:grid-cols-2 gap-5">
-          <Select
-            label="Vehicle Preference"
-            name="vehicle_preference"
-            value={form.vehicle_preference}
-            onChange={handleChange}
-            options={VEHICLE_OPTIONS}
-          />
-          <Select
-            label="How did you hear about us?"
-            name="heard_from"
-            value={form.heard_from}
-            onChange={handleChange}
-            options={HEARD_FROM_OPTIONS}
-          />
-        </div>
-
-        <div>
-          <label className="block text-sm font-medium text-gray-300 mb-2">Additional Notes</label>
-          <textarea
-            data-testid="quote-notes"
-            name="notes"
-            value={form.notes}
-            onChange={handleChange}
-            rows={3}
-            placeholder="Flight info, special requests, number of bags..."
-            className="w-full bg-black/60 border border-gray-700 focus:border-[#D4AF37] text-white rounded-lg px-4 py-3 outline-none transition resize-none"
           />
         </div>
 
@@ -297,6 +188,8 @@ export const QuoteForm = () => {
             </>
           )}
         </Button>
+
+        <TrustSignals />
 
         <div className="pt-5 border-t border-gray-800">
           <p className="text-center text-sm text-gray-500 mb-3">Or contact us directly</p>

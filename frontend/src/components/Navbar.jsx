@@ -100,14 +100,23 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden text-white hover:text-[#D4AF37] transition-colors"
-            aria-label="Toggle mobile menu"
-          >
-            {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          {/* Mobile CTA + Menu Button */}
+          <div className="flex lg:hidden items-center gap-3">
+            <Link
+              to="/booking"
+              data-testid="mobile-book-now"
+              className="px-4 py-2 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black text-sm font-bold rounded-md shadow-lg shadow-[#D4AF37]/25 whitespace-nowrap"
+            >
+              Book Now
+            </Link>
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="text-white hover:text-[#D4AF37] transition-colors"
+              aria-label="Toggle mobile menu"
+            >
+              {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
       </div>
 

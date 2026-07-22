@@ -29,6 +29,7 @@ import { CITIES } from "./data/cities";
 import { BWI_ROUTES } from "./data/bwiRoutes";
 import { CONCERT_VENUES } from "./data/concertVenues";
 import ChatWidget from "./components/ChatWidget";
+import FloatingCallButton from "./components/FloatingCallButton";
 import { Toaster } from "sonner";
 
 function App() {
@@ -88,6 +89,7 @@ function App() {
               <Footer />
             </footer>
             <ChatWidget />
+            <FloatingCallButton />
             <Toaster position="top-right" richColors />
           </div>
         </BrowserRouter>

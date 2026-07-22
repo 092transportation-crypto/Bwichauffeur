@@ -1,6 +1,7 @@
 import React from 'react';
-import { ArrowRight, Shield, Clock, Star } from 'lucide-react';
+import { ArrowRight, Shield, Clock, Star, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import QuickQuoteForm from './QuickQuoteForm';
 
 const Hero = () => {
   return (
@@ -77,6 +78,25 @@ const Hero = () => {
             <Star className="h-5 w-5 text-[#D4AF37]" />
             <span className="text-white font-medium">5-Star Rated</span>
           </div>
+        </div>
+
+        {/* Big phone CTA */}
+        <div className="mb-8 animate-slide-up" style={{ animationDelay: '0.5s' }}>
+          <p className="text-[#D4AF37] text-sm font-semibold tracking-[0.25em] uppercase mb-2 flex items-center justify-center gap-2">
+            <Phone className="h-4 w-4" /> Call or Text 24/7
+          </p>
+          <a
+            href="tel:+18776091919"
+            data-testid="hero-phone-number"
+            className="inline-block text-4xl sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] via-[#F4E5C3] to-[#D4AF37] hover:opacity-90 transition-opacity tracking-tight"
+          >
+            (877) 609-1919
+          </a>
+        </div>
+
+        {/* Quick quote form */}
+        <div className="mb-8 animate-slide-up" style={{ animationDelay: '0.55s' }}>
+          <QuickQuoteForm />
         </div>
 
         {/* CTA Buttons - Using proper anchor tags */}
