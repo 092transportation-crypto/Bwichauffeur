@@ -14,7 +14,7 @@ const Testimonials = () => {
       rating: 5,
       date: 'June 2026',
       route: 'BWI → Washington, DC',
-      text: 'Booked a 5 AM pickup for a flight out of a DC meeting the day before, so I needed the BWI to Washington DC run early. Driver was parked outside at 4:55, tracked my return flight, and the flat $85 was exactly what I was quoted — no surge like the rideshare apps were showing that morning. Spotless Mercedes E-Class. This is now my default for airport runs.'
+      text: 'Booked a 5 AM pickup for a flight out of a DC meeting the day before, so I needed the BWI to Washington DC run early. Driver was parked outside at 4:55, tracked my return flight, and the flat rate was exactly what I was quoted — no surge like the rideshare apps were showing that morning. Spotless Mercedes E-Class. This is now my default for airport runs.'
     },
     {
       id: 2,
@@ -36,7 +36,7 @@ const Testimonials = () => {
       rating: 5,
       date: 'May 2026',
       route: 'BWI → Annapolis',
-      text: 'Flew in for Commissioning Week at the Naval Academy with my whole family. The BWI to Annapolis transfer was $65 flat — way cheaper than the surge Uber was quoting during USNA weekend. Driver helped with all our luggage and knew exactly which gate to use. Made a hectic travel day genuinely easy.'
+      text: 'Flew in for Commissioning Week at the Naval Academy with my whole family. The BWI to Annapolis transfer was one flat rate — way cheaper than the surge Uber was quoting during USNA weekend. Driver helped with all our luggage and knew exactly which gate to use. Made a hectic travel day genuinely easy.'
     },
     {
       id: 4,
@@ -58,7 +58,7 @@ const Testimonials = () => {
       rating: 5,
       date: 'March 2026',
       route: 'BWI → Baltimore Inner Harbor',
-      text: 'Used them for a quick BWI to Baltimore downtown trip to the Inner Harbor for a conference — $55 flat, door to door in about 25 minutes. Driver was in a jacket and tie, offered water, and had the route dialed in. Have since set up a corporate account for our team. Reliable every single time.'
+      text: 'Used them for a quick BWI to Baltimore downtown trip to the Inner Harbor for a conference — one flat quoted rate, door to door in about 25 minutes. Driver was in a jacket and tie, offered water, and had the route dialed in. Have since set up a corporate account for our team. Reliable every single time.'
     }
   ];
 
