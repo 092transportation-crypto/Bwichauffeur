@@ -140,7 +140,7 @@ const TermsConditionsPage = () => {
               <ul className="list-disc pl-6 space-y-2">
                 <li>We monitor flight arrivals in real-time and adjust pickup times accordingly</li>
                 <li>Complimentary wait time: 60 minutes for domestic flights, 90 minutes for international flights (from actual landing time)</li>
-                <li>Additional wait time beyond complimentary period: charged at $1 per minute</li>
+                <li>Additional wait time beyond complimentary period: charged at our prevailing per-minute rate</li>
                 <li>Customer must notify us if unable to meet within the grace period</li>
               </ul>
             </section>
@@ -167,7 +167,7 @@ const TermsConditionsPage = () => {
                 <li>Excessive cleaning required due to spills, vomit, or other mess</li>
               </ul>
               <p className="mt-4">
-                Cleaning fees range from $150-$500 depending on severity. Vehicle damage will be charged at repair cost.
+                Cleaning fees vary depending on severity. Vehicle damage will be charged at repair cost.
               </p>
             </section>
 

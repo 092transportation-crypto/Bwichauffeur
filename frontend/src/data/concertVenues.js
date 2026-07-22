@@ -26,7 +26,7 @@ export const CONCERT_VENUES = [
       'That is where BWI Chauffeur comes in. Our chauffeurs drop you at the arena entrance minutes before doors open. After the encore, your vehicle is waiting at a pre-arranged pickup point. You skip the parking garage lines on Baltimore and Howard Streets and get home while other fans are still stuck in the deck.',
     ],
     logistics: [
-      'CFG Bank Arena sits in the heart of downtown Baltimore, one block from the Inner Harbor and Oriole Park at Camden Yards. Event parking nearby runs $20 to $50 and sells out early for big shows. Post-show traffic on Baltimore Street and I-395 can take 45 minutes to clear.',
+      'CFG Bank Arena sits in the heart of downtown Baltimore, one block from the Inner Harbor and Oriole Park at Camden Yards. Event parking nearby is expensive and sells out early for big shows. Post-show traffic on Baltimore Street and I-395 can take 45 minutes to clear.',
       'We serve CFG Bank Arena from anywhere in the region: BWI Airport (about 15 minutes), Annapolis, Columbia, Towson, Bethesda, and Washington DC. Dinner before the show at the Inner Harbor or Little Italy? Ask about hourly service so your chauffeur stays with you all evening.',
     ],
     faqs: [
@@ -119,10 +119,10 @@ export const CONCERT_VENUES = [
     ],
     about: [
       'Capital One Arena anchors Washington DC’s Chinatown at 601 F Street NW. Home of the NHL’s Capitals and the NBA’s Wizards, it also hosts more than 200 events a year, including nearly every major arena tour that comes through the mid-Atlantic. When the arena lets out, thousands of fans pour onto some of the most congested blocks in the city.',
-      'BWI Chauffeur turns that chaos into a door-to-door evening. Your chauffeur drops you near the F Street or 7th Street entrances, then stages nearby for your exit. No hunting for a $50 garage spot, no surge-priced rideshare standing in a crowd on Gallery Place — your car is confirmed before the house lights come up.',
+      'BWI Chauffeur turns that chaos into a door-to-door evening. Your chauffeur drops you near the F Street or 7th Street entrances, then stages nearby for your exit. No hunting for a pricey garage spot, no surge-priced rideshare standing in a crowd on Gallery Place — your car is confirmed before the house lights come up.',
     ],
     logistics: [
-      'Capital One Arena is about 45 minutes from BWI Airport, 50 minutes from Baltimore, and an easy run from Bethesda, Silver Spring, Arlington, and Alexandria. Downtown garages near the arena charge $40 to $60 on event nights and back up badly at exit.',
+      'Capital One Arena is about 45 minutes from BWI Airport, 50 minutes from Baltimore, and an easy run from Bethesda, Silver Spring, Arlington, and Alexandria. Downtown garages near the arena charge premium rates on event nights and back up badly at exit.',
       'We offer one-way transfers, round trips with post-show pickup, and hourly service if you want dinner in Penn Quarter or Chinatown before the show. Corporate groups use our Sprinters for client outings to Capitals and Wizards games all season long.',
     ],
     faqs: [

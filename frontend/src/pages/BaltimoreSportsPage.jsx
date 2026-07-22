@@ -104,7 +104,7 @@ const BaltimoreSportsPage = () => {
                   The Baltimore Ravens have been a symbol of excellence in the NFL since their founding in 1996. With two Super Bowl championships (2000 and 2012), the Ravens have built a passionate fan base that fills M&T Bank Stadium every game day. Our luxury chauffeur service ensures you experience every touchdown, every big play, and every victory without the stress of driving or parking.
                 </p>
                 <p className="text-gray-300 text-lg mb-6">
-                  M&T Bank Stadium, located in downtown Baltimore, seats over 71,000 fans and offers an electric atmosphere on game days. However, parking can cost $40-$100 and traffic can add hours to your trip. Let BWI Chauffeur handle the logistics while you focus on cheering for Lamar Jackson and the Ravens.
+                  M&T Bank Stadium, located in downtown Baltimore, seats over 71,000 fans and offers an electric atmosphere on game days. However, parking is expensive and traffic can add hours to your trip. Let BWI Chauffeur handle the logistics while you focus on cheering for Lamar Jackson and the Ravens.
                 </p>
                 <ul className="space-y-4 mb-8">
                   <li className="flex items-start space-x-3">
@@ -204,7 +204,7 @@ const BaltimoreSportsPage = () => {
                 {
                   icon: Car,
                   title: 'No Parking Hassles',
-                  description: 'Save $40-$100 on stadium parking and avoid the post-game parking lot gridlock.'
+                  description: 'Skip the pricey stadium parking and avoid the post-game parking lot gridlock.'
                 },
                 {
                   icon: Clock,

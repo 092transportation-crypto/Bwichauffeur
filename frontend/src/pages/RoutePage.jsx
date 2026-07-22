@@ -46,13 +46,13 @@ const RoutePage = ({ route }) => {
     return out.slice(0, 4);
   })();
 
-  const title = route.metaTitle || `BWI to ${route.destination} | Flat Rate Car Service from $${route.flat_rate_from}`;
+  const title = route.metaTitle || `BWI to ${route.destination} | Flat Rate Car Service`;
   const canonical = `https://bwichauffeur.com/${route.slug}`;
 
   const faqs = [
     {
       q: `How much does BWI to ${route.destination} transportation cost?`,
-      a: `Flat rates for BWI to ${route.destination} start at $${route.flat_rate_from}. The final price depends on vehicle type and exact drop-off address. Call 877-609-1919 or request an instant quote online.`,
+      a: `BWI to ${route.destination} is quoted as one locked-in flat rate. The exact price depends on vehicle type and drop-off address — call 877-609-1919 or request an instant quote online for pricing.`,
     },
     {
       q: `How long is the drive from BWI to ${route.destination}?`,
@@ -143,9 +143,9 @@ const RoutePage = ({ route }) => {
               </div>
               <div className="bg-gradient-to-br from-gray-900 to-black border border-[#D4AF37]/30 rounded-lg p-4">
                 <div className="flex items-center gap-2 text-gray-400 text-xs uppercase tracking-widest mb-1">
-                  <Car className="h-3.5 w-3.5 text-[#D4AF37]" /> Flat Rate From
+                  <Car className="h-3.5 w-3.5 text-[#D4AF37]" /> Pricing
                 </div>
-                <p className="text-white font-bold text-lg">${route.flat_rate_from}</p>
+                <p className="text-white font-bold text-lg">Flat rate — call for quote</p>
               </div>
               <div className="bg-gradient-to-br from-gray-900 to-black border border-[#D4AF37]/30 rounded-lg p-4">
                 <div className="flex items-center gap-2 text-gray-400 text-xs uppercase tracking-widest mb-1">
@@ -268,7 +268,7 @@ const RoutePage = ({ route }) => {
               Ready to book BWI to {route.destination}?
             </h2>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Flat rate from <span className="text-[#D4AF37] font-bold">${route.flat_rate_from}</span>.
+              One locked-in <span className="text-[#D4AF37] font-bold">flat rate</span> — contact us for pricing.
               No surge, no surprise. A real chauffeur, a real vehicle, and a guaranteed pickup —
               every single time.
             </p>
@@ -328,7 +328,7 @@ const RoutePage = ({ route }) => {
                     BWI → {r.destination}
                   </p>
                   <p className="text-gray-400 text-sm mt-2">
-                    {r.drive_time} · from ${r.flat_rate_from}
+                    {r.drive_time} · flat rate
                   </p>
                   <p className="text-[#D4AF37] text-sm font-semibold mt-3 inline-flex items-center">
                     View route

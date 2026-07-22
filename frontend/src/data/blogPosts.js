@@ -892,10 +892,10 @@ Here is the math most travelers never run. BWI's published [parking rates](https
 
 | Option | Daily Rate | 5-Day Trip Cost |
 |--------|-----------|----------------|
-| Hourly Garage | $36/day max | $180 |
-| Daily Garage | $22/day | $110 |
-| Express Lot (shuttle) | $10/day | $50 |
-| Long-Term Lots | $8–10/day | $40–50 |
+| Hourly Garage | Highest daily rate | Adds up fast |
+| Daily Garage | Mid-range daily rate | Substantial |
+| Express Lot (shuttle) | Lower daily rate | Still meaningful |
+| Long-Term Lots | Lowest daily rate | Cheapest on paper |
 
 Now add what parking actually costs you beyond the meter:
 
@@ -906,9 +906,9 @@ Now add what parking actually costs you beyond the meter:
 
 **Compare to our flat-rate chauffeur for the same 5-day trip from Bethesda:**
 
-- Bethesda → BWI: $165
-- BWI → Bethesda return: $165
-- **Total: $330 — but with zero parking, zero shuttle time, zero gas, no driving, and no exposure to long-term-lot risk**
+- Bethesda → BWI: one flat quoted rate
+- BWI → Bethesda return: the same flat rate
+- **Total: two predictable flat rates — but with zero parking, zero shuttle time, zero gas, no driving, and no exposure to long-term-lot risk**
 
 For solo travelers staying 1–3 days, the express lot may still win on raw dollars. For longer trips, families with multiple drivers, or anyone whose time is genuinely valuable — a flat-rate chauffeur is consistently the better number once you account for everything that parking math leaves out. [Get an exact quote here](/booking).
 
@@ -957,7 +957,7 @@ Skip the rideshare lottery, the parking-lot shuttle, and the surge pricing. Pre-
       },
       {
         question: 'Is it cheaper to park at BWI or hire a chauffeur for a 5-day trip?',
-        answer: 'Express Lot parking runs about $50 for 5 days, plus your fuel, drive time, and shuttle waits. A round-trip flat-rate chauffeur from Bethesda runs about $330 with zero parking, zero gas, and zero shuttles. For solo short trips, parking may be cheaper on paper; for longer trips, families, or anyone valuing time, the chauffeur math wins.',
+        answer: 'Express Lot parking adds up over 5 days, plus your fuel, drive time, and shuttle waits. A round-trip flat-rate chauffeur from Bethesda runs one predictable flat rate each way with zero parking, zero gas, and zero shuttles. For solo short trips, parking may be cheaper on paper; for longer trips, families, or anyone valuing time, the chauffeur math wins.',
       },
       {
         question: 'Does BWI Chauffeur charge extra for early morning or overnight rides?',
@@ -993,12 +993,12 @@ Many businesses are surprised to learn that professional chauffeur service can b
 
 | Scenario | Ride-share/Taxi | BWI Chauffeur |
 |----------|-----------------|---------------|
-| Executive hourly rate | $200-400/hr | Same |
+| Executive hourly rate | Substantial | Same |
 | Productive time in vehicle | 0 hours | Full travel time |
 | Professional impression | Variable | Guaranteed |
 | Reliability | Uncertain | 99%+ on-time |
 
-**Calculate the true cost:** If an executive bills at $300/hour and can work during a 2-hour airport transfer, that's $600 of productivity captured—often exceeding the transportation cost.
+**Calculate the true cost:** If an executive bills at a substantial hourly rate and can work during a 2-hour airport transfer, that's hundreds of dollars of productivity captured—often exceeding the transportation cost.
 
 ### Corporate Account Benefits
 
@@ -1541,7 +1541,7 @@ The big advantage: flat rate. No surge during Orioles or Ravens home games, no s
 
 ### Option 2: The MTA Light Rail (Cheap, But Plan For An Hour)
 
-The Light Rail picks up right at BWI and runs to Camden Yards, Convention Center, and Penn Station. Fare is around $2.
+The Light Rail picks up right at BWI and runs to Camden Yards, Convention Center, and Penn Station. The fare is only a few dollars.
 
 The catch: trains run every 20–30 minutes, the trip itself takes **35–45 minutes**, and once you arrive at Camden or Penn Station you still need to get to wherever you are actually going. Total real-world time, baggage in hand, with one transfer: **60–90 minutes**.
 
@@ -1551,11 +1551,11 @@ It works if you are budget-traveling solo with a backpack. It does not work if y
 
 Uber and Lyft both serve BWI. Pickup is at the upper level (departures), not lower-level arrivals, so plan for the walk.
 
-Realistic cost on a normal Tuesday: **$28–$45 to Inner Harbor**. During Ravens or Orioles home games, snow events, or rush hour: **$60–$100 with surge**, and you might wait 10–15 minutes for a driver to accept the pickup. Cars are whatever drivers happen to own — sometimes nice, sometimes not.
+Realistic cost on a normal Tuesday: a moderate fare to Inner Harbor. During Ravens or Orioles home games, snow events, or rush hour: **fares can double or more with surge**, and you might wait 10–15 minutes for a driver to accept the pickup. Cars are whatever drivers happen to own — sometimes nice, sometimes not.
 
 ### Option 4: BWI Taxi Stand
 
-Curbside taxis are metered, no surge. Expect roughly **$35–$50** to most Baltimore neighborhoods. Vehicles vary in age and cleanliness. Cash or card depending on the cab — always ask before getting in.
+Curbside taxis are metered, no surge. Expect a mid-range metered fare to most Baltimore neighborhoods. Vehicles vary in age and cleanliness. Cash or card depending on the cab — always ask before getting in.
 
 ## What We Tell Friends and Family
 
@@ -1600,7 +1600,7 @@ We run BWI to Baltimore flat-rate transfers in late-model Mercedes, BMW, Cadilla
       },
       {
         question: 'What is the cheapest way to get from BWI to Baltimore?',
-        answer: 'MTA Light Rail at roughly $2 per ride is the cheapest option, but the total trip — including waits and walks — averages 60 to 90 minutes with luggage. For most travelers the time savings of a flat-rate chauffeur or rideshare is worth the cost.',
+        answer: 'MTA Light Rail, at just a few dollars per ride, is the cheapest option, but the total trip — including waits and walks — averages 60 to 90 minutes with luggage. For most travelers the time savings of a flat-rate chauffeur or rideshare is worth the cost.',
       },
       {
         question: 'Is BWI Chauffeur cheaper than Uber to Baltimore?',
@@ -1762,7 +1762,7 @@ There are simply not many Uber/Lyft drivers actively driving at 3:30 a.m. in sub
 1. The app shows "available drivers" that are actually 15+ minutes away
 2. Drivers cancel when they see how far the pickup is
 3. Surge multiplier kicks in (sometimes 2.0x–3.5x)
-4. You eat a $90 ride that should have been $35
+4. You eat a steeply surge-inflated fare for a ride that should have cost a fraction of it
 
 ### Why a Pre-Arranged Chauffeur Solves It
 
@@ -1772,17 +1772,17 @@ Our drivers actually plan to be there 5–10 minutes early. They text when they 
 
 ### What a Real Early-Morning BWI Ride Costs
 
-Sample flat rates from our published pricing — these do not change based on time of day:
+Every route below is covered by one flat quoted rate — and these rates do not change based on time of day:
 
-- **Bethesda to BWI:** $165 (Mercedes E-Class)
-- **Silver Spring to BWI:** $145
-- **Rockville to BWI:** $145
-- **Columbia to BWI:** $85
-- **Annapolis to BWI:** $65
-- **Washington DC to BWI:** $85
-- **Arlington to BWI:** $155
+- **Bethesda to BWI** (Mercedes E-Class)
+- **Silver Spring to BWI**
+- **Rockville to BWI**
+- **Columbia to BWI**
+- **Annapolis to BWI**
+- **Washington DC to BWI**
+- **Arlington to BWI**
 
-Compare those numbers to a 4 a.m. Uber with 2.5x surge to BWI from Bethesda. You will save money and you will absolutely arrive on time. [Get an exact quote](/booking) or call **877-609-1919**.
+Compare a locked-in flat rate to a 4 a.m. Uber with 2.5x surge to BWI from Bethesda. You will save money and you will absolutely arrive on time. [Get an exact quote](/booking) or call **877-609-1919**.
 
 ### Practical Tips From Drivers Who Do These Rides
 
@@ -1882,9 +1882,9 @@ We make one bathroom stop typically — usually at the **Royal Farms or Wawa jus
 
 ### Cost — What This Actually Runs
 
-Our published flat rate for BWI to Ocean City starts at **$385 in a Mercedes E-Class** and varies by vehicle and exact OC drop-off address. That includes all tolls, the chauffeur, fuel, and gratuity guidelines. No surge, no per-mile metering. [Get an exact quote](/booking) or call **877-609-1919**.
+We quote one flat rate for BWI to Ocean City — starting with the **Mercedes E-Class** — that varies by vehicle and exact OC drop-off address. That includes all tolls, the chauffeur, fuel, and gratuity guidelines. No surge, no per-mile metering. [Get an exact quote](/booking) or call **877-609-1919**.
 
-For perspective: Uber/Lyft will not reliably accept a 131-mile fare. Even when they do, you are looking at $250–$400 with no flight tracking, no professional chauffeur, and zero customer support if the driver bails 30 miles in.
+For perspective: Uber/Lyft will not reliably accept a 131-mile fare. Even when they do, you are looking at an unpredictable, often steeper fare with no flight tracking, no professional chauffeur, and zero customer support if the driver bails 30 miles in.
 
 ### Common Pickups and Drop-offs in Ocean City
 
@@ -1903,7 +1903,7 @@ We drop off at every kind of OC address:
 2. **Sunscreen and beach gear** are easier to buy at the [Walmart in Berlin](https://www.walmart.com/) on the way in than to lug from the airport.
 3. **If you are flying back from BWI on a Sunday,** book your return chauffeur for at least 4 hours before your flight. Sunday westbound bridge backups are no joke.
 4. **Cell coverage on US-50 east of Cambridge** has a few weak spots. Download your music or podcast ahead of time.
-5. **Toll on the Bay Bridge:** $4 each way for a sedan with E-ZPass; we cover it in your flat rate.
+5. **Toll on the Bay Bridge:** charged each way for a sedan; we cover it in your flat rate.
 
 ### Ready to Book Your OC Run?
 
@@ -1918,7 +1918,7 @@ We do BWI to Ocean City flat-rate transfers year-round. Off-season (October thro
       },
       {
         question: 'How much does BWI to Ocean City car service cost?',
-        answer: 'Our flat rate starts at $385 in a Mercedes E-Class. Pricing varies by vehicle (sedan, SUV, Sprinter) and exact Ocean City drop-off. Tolls, fuel, and chauffeur are included.',
+        answer: 'We quote one flat rate, starting with the Mercedes E-Class. Pricing varies by vehicle (sedan, SUV, Sprinter) and exact Ocean City drop-off. Tolls, fuel, and chauffeur are included. Contact us for an exact quote.',
       },
       {
         question: 'Will my chauffeur stop for bathroom breaks?',
@@ -1987,11 +1987,11 @@ A few things to get right when you book:
 
 ### What This Costs vs. Multiple Ubers
 
-A single Sprinter from BWI to downtown Baltimore is **~$185**. Three Uber XLs for the same group: probably $90–$120 per car × 3 = $270–$360, plus the chaos and time loss.
+A single Sprinter from BWI to downtown Baltimore is **one flat quoted rate**. Three Uber XLs for the same group: three separate surge-prone fares that together typically cost far more, plus the chaos and time loss.
 
-BWI to a wedding venue in Annapolis: **~$235** in a Sprinter. Three Ubers: $200+ if you are lucky.
+BWI to a wedding venue in Annapolis: **one flat quoted rate** in a Sprinter. Three Ubers: usually more, if you are lucky.
 
-BWI to Bethesda or DC for a corporate offsite: **~$295–$345** in a Sprinter for 8–14 execs. The math works out at roughly $25–$40 per person — less than each of them would pay for a coffee plus an Uber, with a fraction of the friction.
+BWI to Bethesda or DC for a corporate offsite: **one flat quoted rate** in a Sprinter for 8–14 execs. Split across the group, the per-person math works out to less than each of them would pay for a coffee plus an Uber, with a fraction of the friction.
 
 [Get a custom group quote in 60 seconds](/booking).
 
@@ -2024,7 +2024,7 @@ For more on our group capabilities and other services, see our [full services pa
       },
       {
         question: 'How much does a Sprinter van from BWI to Baltimore cost?',
-        answer: 'Approximately $185 flat rate from BWI to downtown Baltimore. Pricing for other routes is published online and includes tolls, fuel, and the chauffeur. Get exact pricing at 877-609-1919.',
+        answer: 'One flat quoted rate covers the trip from BWI to downtown Baltimore. Pricing for every route includes tolls, fuel, and the chauffeur. Get exact pricing at 877-609-1919.',
       },
       {
         question: 'Can you handle wedding-party transportation at BWI?',
@@ -2067,9 +2067,9 @@ If you're heading to a wedding, the [Chartwell Country Club](https://chartwellgc
 
 ### What It Actually Costs
 
-Our published flat rate from BWI to Severna Park starts at **$95 in a Mercedes E-Class** and varies by vehicle and exact drop-off address. That includes the chauffeur, fuel, tolls, and tip guidelines.
+We quote one flat rate from BWI to Severna Park — starting with the **Mercedes E-Class** — that varies by vehicle and exact drop-off address. That includes the chauffeur, fuel, tolls, and tip guidelines.
 
-For comparison: a Tuesday-morning Uber XL on this same route runs around $48–$62. On a Friday afternoon during the BWI rush, that same Uber jumps to $80–$110 with surge. Our flat rate stays flat. Same number at 5 a.m., same number at 5 p.m. [Get an exact quote](/booking) — takes about a minute.
+For comparison: a Tuesday-morning Uber XL on this same route may look reasonable. On a Friday afternoon during the BWI rush, that same Uber jumps substantially with surge. Our flat rate stays flat. Same number at 5 a.m., same number at 5 p.m. [Get an exact quote](/booking) — takes about a minute.
 
 ### Why Locals Book a Chauffeur Instead of an Uber
 
@@ -2127,7 +2127,7 @@ We look forward to driving you.
       },
       {
         question: 'How much does BWI to Severna Park car service cost?',
-        answer: 'Our flat rate starts at $95 in a Mercedes E-Class. Pricing varies by vehicle (sedan, SUV, Sprinter) and exact Severna Park drop-off address. Tolls, fuel, and the chauffeur are all included in the published rate. No surge pricing, ever.',
+        answer: 'We quote one flat rate, starting with the Mercedes E-Class. Pricing varies by vehicle (sedan, SUV, Sprinter) and exact Severna Park drop-off address. Tolls, fuel, and the chauffeur are all included in the quoted rate. No surge pricing, ever.',
       },
       {
         question: 'Do you do early-morning pickups in Severna Park?',
@@ -2194,9 +2194,9 @@ Total time from your foot hitting the jet bridge to your bag in the trunk: usual
 
 ### What Meet and Greet Costs
 
-We charge a flat **$25 add-on** for meet and greet on top of the published ride rate. That covers the chauffeur's time inside the terminal, the printed sign, and the curb-to-curb luggage handling. It is not metered. It does not change based on flight delay or wait time.
+We charge a **modest flat add-on** for meet and greet on top of the quoted ride rate. That covers the chauffeur's time inside the terminal, the printed sign, and the curb-to-curb luggage handling. It is not metered. It does not change based on flight delay or wait time.
 
-For comparison: many premium-brand services charge $40–$75 for the same service. [Add meet and greet to your quote](/booking) at the time of booking or by calling **877-609-1919**.
+For comparison: many premium-brand services charge considerably more for the same service. [Add meet and greet to your quote](/booking) at the time of booking or by calling **877-609-1919**.
 
 ### How It Works for International Arrivals
 
@@ -2231,7 +2231,7 @@ Call **877-609-1919** to add meet and greet to your ride, or [book online](/book
       },
       {
         question: 'How much does BWI meet and greet cost?',
-        answer: 'BWI Chauffeur charges a flat $25 add-on for meet and greet, on top of your published ride rate. It includes the chauffeur\'s time inside the terminal, the printed sign, and luggage handling from baggage claim to the vehicle.',
+        answer: 'BWI Chauffeur charges a modest flat add-on for meet and greet, on top of your quoted ride rate. It includes the chauffeur\'s time inside the terminal, the printed sign, and luggage handling from baggage claim to the vehicle.',
       },
       {
         question: 'Can my chauffeur meet me at the gate?',
@@ -2309,11 +2309,11 @@ For a typical 5-hour Maryland prom block (5 p.m. pickup, photos at homes, dinner
 
 | Vehicle | Capacity | 5-hr Total | Per-Person (full vehicle) |
 |---------|----------|-----------|---------------------------|
-| Stretch Lincoln Limo | 8 | ~$750 | $94 |
-| Stretch Chrysler 300 | 10 | ~$850 | $85 |
-| Cadillac Escalade | 5 | ~$650 | $130 |
-| Chevy Suburban | 5 | ~$650 | $130 |
-| Mercedes Sprinter (luxury) | 14 | ~$1,150 | $82 |
+| Stretch Lincoln Limo | 8 | Mid-range | Moderate |
+| Stretch Chrysler 300 | 10 | Higher | Moderate |
+| Cadillac Escalade | 5 | Lower total | Higher per person |
+| Chevy Suburban | 5 | Lower total | Higher per person |
+| Mercedes Sprinter (luxury) | 14 | Highest total | Lowest per person |
 
 Per-person, a fully-loaded **Sprinter is actually the cheapest** modern option. And it's a much nicer ride than a stretch.
 
@@ -2321,9 +2321,9 @@ Per-person, a fully-loaded **Sprinter is actually the cheapest** modern option. 
 
 In our experience working with Maryland families, the booking pattern that works best is:
 
-**For 5–6 kids:** One Cadillac Escalade or Chevy Suburban. Splits to ~$130 per kid for a 5-hour block, vehicle is brand-new, chauffeur is professional, parents have a single point of contact for the night.
+**For 5–6 kids:** One Cadillac Escalade or Chevy Suburban. Splits to a reasonable per-kid share for a 5-hour block, vehicle is brand-new, chauffeur is professional, parents have a single point of contact for the night.
 
-**For 8–14 kids:** One Mercedes Sprinter van. Splits to ~$80 per kid for a 5-hour block, with captain's chairs, USB charging, climate control, and Bluetooth audio.
+**For 8–14 kids:** One Mercedes Sprinter van. Splits to the lowest per-kid share for a 5-hour block, with captain's chairs, USB charging, climate control, and Bluetooth audio.
 
 **For 15+ kids:** Two Sprinters or a Sprinter + an Escalade. We coordinate the night as one booking with one bill that we split among families.
 
@@ -2349,7 +2349,7 @@ Have a great night, and bring lots of memory card space for the photos.
     faqs: [
       {
         question: 'Is a chauffeured SUV cheaper than a stretch limo for prom?',
-        answer: 'It depends on group size. Per-person, a fully-loaded Mercedes Sprinter (~$82 per kid for 5 hours) is actually cheaper than most stretch limos. For groups of 5 or 6 in a Cadillac Escalade, it works out to about $130 per person — slightly more than a stretch but in a much nicer, newer, safer vehicle.',
+        answer: 'It depends on group size. Per-person, a fully-loaded Mercedes Sprinter is actually cheaper than most stretch limos. For groups of 5 or 6 in a Cadillac Escalade, the per-person share is slightly more than a stretch but in a much nicer, newer, safer vehicle.',
       },
       {
         question: 'When should I book Maryland prom transportation?',
@@ -2384,7 +2384,7 @@ This is the question every BWI traveler eventually asks: is a pre-arranged car s
 
 ### The Surface Price vs. The Real Price
 
-On a calm Tuesday afternoon, a basic UberX from BWI to downtown Baltimore runs about **$28–$45**. Our flat-rate sedan for that same trip is higher on the sticker. If that Tuesday afternoon were the only scenario that existed, Uber would win and this article would be over.
+On a calm Tuesday afternoon, a basic UberX from BWI to downtown Baltimore is relatively cheap. Our flat-rate sedan for that same trip is higher on the sticker. If that Tuesday afternoon were the only scenario that existed, Uber would win and this article would be over.
 
 But airport travel almost never happens on the calm Tuesday afternoon. It happens at 4:30 a.m., during a snow event, on the Friday before a holiday, or right when an Orioles game lets out. That's where the comparison flips — and it flips hard.
 
@@ -2394,12 +2394,12 @@ Here's how the two options compare across the situations BWI travelers actually 
 
 | Scenario | Typical Uber (2026) | BWI Chauffeur Flat Rate |
 |----------|--------------------|--------------------------|
-| BWI → Baltimore, Tue 2 p.m. | $28–$45 | $55 |
-| BWI → Baltimore, Fri 5 p.m. (surge) | $60–$100 | $55 |
-| BWI → Bethesda, 4 a.m. (surge) | $120–$180 | $165 |
-| BWI → Annapolis, snow event | $90–$160 | $65 |
-| BWI → Columbia, normal hours | $40–$60 | $85 |
-| BWI → DC, holiday weekend (surge) | $110–$190 | $85 |
+| BWI → Baltimore, Tue 2 p.m. | Lower | One flat rate |
+| BWI → Baltimore, Fri 5 p.m. (surge) | Surge-inflated | Same flat rate |
+| BWI → Bethesda, 4 a.m. (surge) | Surge-inflated | Same flat rate |
+| BWI → Annapolis, snow event | Steeply surge-priced | Same flat rate |
+| BWI → Columbia, normal hours | Lower | One flat rate |
+| BWI → DC, holiday weekend (surge) | Steeply surge-priced | Same flat rate |
 
 The pattern is clear: **Uber wins on quiet, off-peak, short trips. The flat rate wins the moment surge appears** — and surge appears exactly when you most need a reliable ride.
 
@@ -2409,14 +2409,14 @@ Surge is the obvious one, but it's not the only hidden cost:
 
 1. **The cancellation tax.** At 4 a.m. in suburban Maryland, drivers routinely accept then cancel long pickups. Each re-request can bump you into a higher surge tier. We've had clients eat three cancellations before paying double.
 2. **The wait.** Average early-morning suburban pickup waits run 8–15 minutes. At BWI arrivals, you're walking to the upper-level rideshare zone and waiting again.
-3. **Your time and stress.** If you miss a 6 a.m. flight because your Uber fell through, the "savings" evaporate against a $300 rebooking fee.
+3. **Your time and stress.** If you miss a 6 a.m. flight because your Uber fell through, the "savings" evaporate against a steep rebooking fee.
 4. **Vehicle roulette.** You might get a clean Camry or a 12-year-old car with a cracked windshield. For a client pickup or a wedding, that's a real risk.
 
 A flat-rate chauffeur folds all of that into one predictable number: tolls included, gratuity guidance included, flight tracking included, a committed late-model vehicle, and a guaranteed pickup time. For the full reliability argument, see our [chauffeur vs. rideshare comparison](/blog/choosing-luxury-transportation-vs-rideshare-comparison).
 
 ### When Uber Is Genuinely the Better Call
 
-We'll say it plainly: if you're a solo traveler with a backpack, flexible timing, and a short off-peak hop, Uber is probably cheaper and perfectly fine. We're not going to pretend a $30 midday ride to Federal Hill should be a $55 chauffeur booking. Use the right tool.
+We'll say it plainly: if you're a solo traveler with a backpack, flexible timing, and a short off-peak hop, Uber is probably cheaper and perfectly fine. We're not going to pretend a cheap midday ride to Federal Hill needs a chauffeur booking. Use the right tool.
 
 ### When the Flat Rate Wins Decisively
 
@@ -2430,9 +2430,9 @@ Book a chauffeur when any of these are true:
 
 ### A Worked Example: The 5 a.m. Monday Flight
 
-Let's make it concrete. You live in Columbia and have a 7 a.m. Monday flight, so you need to be at BWI by 5:30 a.m. You open Uber at 4:50 a.m. The app shows one driver, 14 minutes away. You request; he cancels. You re-request into a 2.2x surge tier. Your $40 ride is now $88, and it's 5:05 a.m. with no car yet. You finally get moving at 5:18 and reach the curb at 5:42 — later than you wanted, $88 lighter, and stressed before a full travel day.
+Let's make it concrete. You live in Columbia and have a 7 a.m. Monday flight, so you need to be at BWI by 5:30 a.m. You open Uber at 4:50 a.m. The app shows one driver, 14 minutes away. You request; he cancels. You re-request into a 2.2x surge tier. Your ride now costs more than double the normal fare, and it's 5:05 a.m. with no car yet. You finally get moving at 5:18 and reach the curb at 5:42 — later than you wanted, noticeably lighter in the wallet, and stressed before a full travel day.
 
-Now the chauffeur version: you booked last night for an 85-dollar flat rate. At 4:55 a.m. your phone buzzes — your chauffeur is outside. You're at the BWI curb by 5:25, calm, for $3 less than the surged Uber and with zero gamble on whether a car would show. That's the entire value proposition in one morning: not a luxury splurge, but the removal of risk on the trips where risk is expensive.
+Now the chauffeur version: you booked last night at one flat quoted rate. At 4:55 a.m. your phone buzzes — your chauffeur is outside. You're at the BWI curb by 5:25, calm, for less than the surged Uber and with zero gamble on whether a car would show. That's the entire value proposition in one morning: not a luxury splurge, but the removal of risk on the trips where risk is expensive.
 
 ### Don't Forget the Group Math
 
@@ -2451,7 +2451,7 @@ Want the exact flat rate for your route so you can compare it against tonight's 
       },
       {
         question: 'How much does Uber surge cost at BWI?',
-        answer: 'Surge multipliers of 2x–3.5x are common at BWI during early-morning departure banks, evening rush, snow events, and holiday weekends. A $40 trip can become $120–$160. Pre-arranged chauffeur rates stay flat regardless of demand.',
+        answer: 'Surge multipliers of 2x–3.5x are common at BWI during early-morning departure banks, evening rush, snow events, and holiday weekends. An ordinary fare can double or triple. Pre-arranged chauffeur rates stay flat regardless of demand.',
       },
       {
         question: 'Does a flat rate really include everything?',
@@ -2482,27 +2482,27 @@ Annapolis sits about **27 miles south of BWI Airport**, a 30–45 minute drive v
 
 ### Option 1: Public Transit (Cheapest on Paper)
 
-You can technically do it for a few dollars: take the BWI Light Rail or a connecting MTA bus toward the city, then transfer to a regional bus heading toward Annapolis. Fare totals roughly **$4–$8**.
+You can technically do it for a few dollars: take the BWI Light Rail or a connecting MTA bus toward the city, then transfer to a regional bus heading toward Annapolis. The combined fares total just a few dollars.
 
 The catch is brutal: multiple transfers, infrequent schedules, and a total travel time that can stretch to **2–3 hours** with luggage. There is no direct, frequent public route from BWI to Annapolis. For a student traveling light with all day to spare, it's the cheapest. For almost everyone else, the time cost is too high.
 
 ### Option 2: Shared Airport Shuttle
 
-Some shared-ride shuttle services cover the BWI–Annapolis corridor for around **$45–$70 per person**. They make multiple stops, run on their own schedule, and you may wait for the van to fill. For a solo traveler it can beat a private car — but for two or more people the per-person math erases the savings fast.
+Some shared-ride shuttle services cover the BWI–Annapolis corridor for a mid-range per-person fare. They make multiple stops, run on their own schedule, and you may wait for the van to fill. For a solo traveler it can beat a private car — but for two or more people the per-person math erases the savings fast.
 
 ### Option 3: Uber / Lyft
 
-A normal-hours UberX or Lyft from BWI to Annapolis runs about **$45–$70**. That's competitive — until surge hits. Early mornings, evening rush, USNA event weekends (Commissioning Week is notorious), and bad weather routinely push it to **$90–$160**, with the usual pickup waits and cancellation risk. Rideshare pickup at BWI is also on the upper level, so plan for the walk with your bags.
+A normal-hours UberX or Lyft from BWI to Annapolis runs a moderate fare. That's competitive — until surge hits. Early mornings, evening rush, USNA event weekends (Commissioning Week is notorious), and bad weather routinely push it to **double or more**, with the usual pickup waits and cancellation risk. Rideshare pickup at BWI is also on the upper level, so plan for the walk with your bags.
 
 ### Option 4: BWI Taxi
 
-A metered taxi from the BWI stand runs roughly **$65–$85** to most Annapolis addresses. No surge, no app, but vehicles vary in age and you can't lock the price in advance.
+A metered taxi from the BWI stand runs a comparable, meter-dependent fare to most Annapolis addresses. No surge, no app, but vehicles vary in age and you can't lock the price in advance.
 
 ### Option 5: Flat-Rate Chauffeur (Cheapest for Groups & Peace of Mind)
 
-Our published flat rate from BWI to Annapolis starts at **$65** in a sedan and includes tolls, fuel, flight tracking, and a guaranteed lower-level Arrivals pickup. For one budget traveler at noon, that's more than a shuttle seat. But here's where it wins:
+We quote **one flat rate** from BWI to Annapolis in a sedan that includes tolls, fuel, flight tracking, and a guaranteed lower-level Arrivals pickup. For one budget traveler at noon, that's more than a shuttle seat. But here's where it wins:
 
-- **For 2–4 people**, $65 split beats four shuttle seats or a surging UberXL.
+- **For 2–4 people**, one flat rate split beats four shuttle seats or a surging UberXL.
 - **For Commissioning Week, the Boat Show, or any event weekend**, the flat rate stays flat while rideshare triples.
 - **For families with luggage and car seats**, one SUV handles what an UberX can't.
 - **For early-morning departures**, there's no 4 a.m. cancellation roulette.
@@ -2513,12 +2513,12 @@ See full route detail on our [BWI to Annapolis service page](/bwi-to-annapolis).
 
 | Option | Solo Cost | Travel Time | Best For |
 |--------|-----------|-------------|----------|
-| Public transit | $4–$8 | 2–3 hrs | Students, no luggage, all day |
-| Shared shuttle | $45–$70/person | 1–1.5 hrs | Solo, flexible timing |
-| Uber/Lyft (normal) | $45–$70 | 35–45 min | Solo, off-peak |
-| Uber/Lyft (surge) | $90–$160 | 35–45 min | Avoid if possible |
-| BWI taxi | $65–$85 | 35–45 min | No-app, no-surge solo |
-| Flat-rate chauffeur | from $65 | 30–45 min | Groups, families, events, peace of mind |
+| Public transit | A few dollars | 2–3 hrs | Students, no luggage, all day |
+| Shared shuttle | Mid-range, per person | 1–1.5 hrs | Solo, flexible timing |
+| Uber/Lyft (normal) | Moderate | 35–45 min | Solo, off-peak |
+| Uber/Lyft (surge) | Double or more | 35–45 min | Avoid if possible |
+| BWI taxi | Meter-dependent | 35–45 min | No-app, no-surge solo |
+| Flat-rate chauffeur | One flat quoted rate | 30–45 min | Groups, families, events, peace of mind |
 
 ### Why "Cheapest" Changes During Annapolis Events
 
@@ -2541,15 +2541,15 @@ Want to see the exact flat rate for your group and date? [Request a quote here](
     faqs: [
       {
         question: 'What is the absolute cheapest way from BWI to Annapolis?',
-        answer: 'Public transit (Light Rail plus connecting buses) is cheapest at roughly $4–$8, but it takes 2–3 hours with multiple transfers and is impractical with luggage. For most travelers, an off-peak Uber or a flat-rate chauffeur split among a group is the better real-world value.',
+        answer: 'Public transit (Light Rail plus connecting buses) is cheapest at just a few dollars, but it takes 2–3 hours with multiple transfers and is impractical with luggage. For most travelers, an off-peak Uber or a flat-rate chauffeur split among a group is the better real-world value.',
       },
       {
         question: 'How much is an Uber from BWI to Annapolis?',
-        answer: 'Roughly $45–$70 during normal hours. During surge — early mornings, rush hour, USNA event weekends, and bad weather — expect $90–$160. Pickup is on the BWI upper level, not lower-level arrivals.',
+        answer: 'A moderate fare during normal hours. During surge — early mornings, rush hour, USNA event weekends, and bad weather — expect double or more. Pickup is on the BWI upper level, not lower-level arrivals.',
       },
       {
         question: 'Is a chauffeur cheaper than Uber from BWI to Annapolis?',
-        answer: 'For a solo off-peak trip, no — Uber is usually cheaper. For groups of two or more, families with luggage, or any travel during surge-prone event weekends like Commissioning Week, our flat $65 rate is frequently cheaper and always more predictable.',
+        answer: 'For a solo off-peak trip, no — Uber is usually cheaper. For groups of two or more, families with luggage, or any travel during surge-prone event weekends like Commissioning Week, our flat rate is frequently cheaper and always more predictable.',
       },
       {
         question: 'How long does the BWI to Annapolis trip take?',
@@ -2631,7 +2631,7 @@ The best way to judge a black car service is to use it once on a trip that matte
       },
       {
         question: 'How much does black car service from BWI cost?',
-        answer: 'It varies by route and vehicle, but the best services quote one flat, all-inclusive rate up front. For example, BWI to Annapolis starts around $65 and BWI to Baltimore around $55 — including tolls, fuel, and flight-tracking wait time, with no surge or overnight surcharge.',
+        answer: 'It varies by route and vehicle, but the best services quote one flat, all-inclusive rate up front — including tolls, fuel, and flight-tracking wait time, with no surge or overnight surcharge. Contact us for exact pricing on your route.',
       },
       {
         question: 'Where does a black car pick up at BWI Airport?',
@@ -2682,16 +2682,16 @@ When you book in advance, none of the above applies. Your chauffeur is committed
 
 ### The Flat Rate Doesn't Change at Night — Ever
 
-This is worth repeating because it's where late-night travelers get burned by rideshare. Our published flat rates are time-agnostic. Sample 2026 rates that apply at 1 a.m. exactly as they do at 1 p.m.:
+This is worth repeating because it's where late-night travelers get burned by rideshare. Our quoted flat rates are time-agnostic. The rate you're quoted applies at 1 a.m. exactly as it does at 1 p.m. on every route we serve:
 
 | Destination | Flat Rate From |
 |-------------|----------------|
-| Baltimore (Inner Harbor) | $55 |
-| Annapolis | $65 |
-| Columbia | $85 |
-| Severna Park | $95 |
-| Washington DC | $85 |
-| Bethesda | $165 |
+| Baltimore (Inner Harbor) | One flat rate, day or night |
+| Annapolis | One flat rate, day or night |
+| Columbia | One flat rate, day or night |
+| Severna Park | One flat rate, day or night |
+| Washington DC | One flat rate, day or night |
+| Bethesda | One flat rate, day or night |
 
 No multiplier, no "late-night fee," no holiday premium. [Get your exact rate here](/booking).
 
@@ -2777,14 +2777,14 @@ Compare that to a metered taxi (the worse the traffic, the more you pay) or a ri
 
 ### Real 2026 Flat Rates: BWI to DC
 
-Our published flat rate from BWI to Washington, DC starts at **$85** in a Mercedes E-Class and scales by vehicle and exact drop-off:
+We quote one flat rate from BWI to Washington, DC — starting with the **Mercedes E-Class** — that scales by vehicle and exact drop-off:
 
-| Vehicle | Capacity | Flat Rate From |
+| Vehicle | Capacity | Pricing Tier |
 |---------|----------|----------------|
-| Mercedes E-Class | 1–3 | $85 |
-| Mercedes S-Class | 1–3 | $125 |
-| Cadillac Escalade / Suburban | 1–5 | $135 |
-| Mercedes Sprinter | up to 14 | $225 |
+| Mercedes E-Class | 1–3 | Base flat rate |
+| Mercedes S-Class | 1–3 | Premium tier |
+| Cadillac Escalade / Suburban | 1–5 | SUV tier |
+| Mercedes Sprinter | up to 14 | Group tier |
 
 Every rate includes tolls, fuel, flight tracking, and the chauffeur. [Get your exact quote here](/booking).
 
@@ -2830,7 +2830,7 @@ Lock in one price for the whole trip — no surge, no meter, no surprises. [Rese
     faqs: [
       {
         question: 'How much is a flat-rate car service from BWI to DC?',
-        answer: 'Our published flat rate starts at $85 in a Mercedes E-Class and scales by vehicle — about $125 for an S-Class, $135 for an Escalade or Suburban, and $225 for a 14-passenger Sprinter. Every rate includes tolls, fuel, flight tracking, and the chauffeur, with no surge or meter.',
+        answer: 'We quote one flat rate, starting with the Mercedes E-Class and scaling by vehicle — S-Class, Escalade or Suburban, and the 14-passenger Sprinter. Every rate includes tolls, fuel, flight tracking, and the chauffeur, with no surge or meter. Contact us for exact pricing.',
       },
       {
         question: 'How long does the BWI to DC drive take?',

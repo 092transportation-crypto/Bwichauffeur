@@ -93,7 +93,7 @@ const ServiceAreasPage = () => {
                       BWI → {route.destination}
                     </p>
                     <p className="text-gray-500 text-xs mt-0.5">
-                      {route.drive_time} · from ${route.flat_rate_from}
+                      {route.drive_time} · flat rate
                     </p>
                   </div>
                   <ArrowRight className="h-4 w-4 text-gray-600 group-hover:text-[#D4AF37] transition-colors flex-shrink-0 ml-3" />

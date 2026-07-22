@@ -236,7 +236,7 @@ const ConcertTransportationPage = () => {
                 {
                   icon: Car,
                   title: 'No Parking, No Stress',
-                  description: 'Venue parking runs $30-$60 and sells out early. Skip the garage entirely — and the hour it takes to leave it.',
+                  description: 'Venue parking is pricey and sells out early. Skip the garage entirely — and the hour it takes to leave it.',
                 },
                 {
                   icon: Clock,
