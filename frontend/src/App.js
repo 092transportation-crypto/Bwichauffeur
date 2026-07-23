@@ -28,6 +28,8 @@ import RoutePage from "./pages/RoutePage";
 import { CITIES } from "./data/cities";
 import { BWI_ROUTES } from "./data/bwiRoutes";
 import { CONCERT_VENUES } from "./data/concertVenues";
+import AirportServicePage from "./pages/AirportServicePage";
+import { AIRPORT_PAGES } from "./data/airportPages";
 import ChatWidget from "./components/ChatWidget";
 import FloatingCallButton from "./components/FloatingCallButton";
 import { Toaster } from "sonner";
@@ -62,6 +64,13 @@ function App() {
                     key={venue.slug}
                     path={`/${venue.slug}`}
                     element={<VenuePage venue={venue} />}
+                  />
+                ))}
+                {AIRPORT_PAGES.map((airport) => (
+                  <Route
+                    key={airport.slug}
+                    path={`/${airport.slug}`}
+                    element={<AirportServicePage airport={airport} />}
                   />
                 ))}
                 <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
