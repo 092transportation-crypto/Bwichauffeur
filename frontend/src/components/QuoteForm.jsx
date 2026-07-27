@@ -5,6 +5,20 @@ import { Button } from './ui/button';
 import { toast } from 'sonner';
 import TrustSignals from './TrustSignals';
 
+const SERVICE_OPTIONS = [
+  { value: 'airport', label: 'Airport Transfer' },
+  { value: 'corporate', label: 'Corporate' },
+  { value: 'wedding', label: 'Wedding' },
+  { value: 'special_event', label: 'Special Event' },
+  { value: 'hourly', label: 'Hourly' },
+];
+
+const CONTACT_METHOD_OPTIONS = [
+  { value: 'phone', label: '📞 Phone' },
+  { value: 'email', label: '📧 Email' },
+  { value: 'text', label: '💬 Text' },
+];
+
 const PASSENGER_OPTIONS = Array.from({ length: 14 }, (_, i) => ({
   value: String(i + 1),
   label: `${i + 1} ${i === 0 ? 'Passenger' : 'Passengers'}`,
@@ -14,10 +28,13 @@ const INITIAL = {
   full_name: '',
   phone: '',
   email: '',
+  preferred_contact: '',
+  service_type: 'airport',
   pickup_location: '',
   dropoff_location: '',
   pickup_datetime: '',
   passengers: 1,
+  notes: '',
   sms_consent: false,
 };
 
@@ -132,12 +149,44 @@ export const QuoteForm = () => {
 
         <Field label="Email *" name="email" value={form.email} onChange={handleChange} required type="email" placeholder="you@example.com" />
 
+        {/* Preferred Contact Method */}
+        <div>
+          <label className="block text-sm font-medium text-gray-300 mb-2">Preferred Contact Method *</label>
+          <div className="grid grid-cols-3 gap-3" role="radiogroup" aria-label="Preferred Contact Method">
+            {CONTACT_METHOD_OPTIONS.map((opt) => {
+              const active = form.preferred_contact === opt.value;
+              return (
+                <label
+                  key={opt.value}
+                  data-testid={`quote-contact-method-${opt.value}`}
+                  className={`flex items-center justify-center gap-2 cursor-pointer rounded-lg border px-4 py-3 text-sm font-medium transition ${
+                    active
+                      ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-white shadow-md shadow-[#D4AF37]/10'
+                      : 'border-gray-700 bg-black/60 text-gray-300 hover:border-[#D4AF37]/60'
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name="preferred_contact"
+                    value={opt.value}
+                    checked={active}
+                    onChange={handleChange}
+                    required
+                    className="sr-only"
+                  />
+                  {opt.label}
+                </label>
+              );
+            })}
+          </div>
+        </div>
+
         <div className="grid sm:grid-cols-2 gap-5">
           <Field label="Pickup Location *" name="pickup_location" value={form.pickup_location} onChange={handleChange} required placeholder="BWI Airport, Terminal A" />
           <Field label="Drop-off Location *" name="dropoff_location" value={form.dropoff_location} onChange={handleChange} required placeholder="Downtown Baltimore, MD" />
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-5">
+        <div className="grid sm:grid-cols-3 gap-5">
           <Field label="Pickup Date & Time *" name="pickup_datetime" value={form.pickup_datetime} onChange={handleChange} required type="datetime-local" />
           <Select
             label="Passengers"
@@ -145,6 +194,26 @@ export const QuoteForm = () => {
             value={String(form.passengers)}
             onChange={handleChange}
             options={PASSENGER_OPTIONS}
+          />
+          <Select
+            label="Service Type"
+            name="service_type"
+            value={form.service_type}
+            onChange={handleChange}
+            options={SERVICE_OPTIONS}
+          />
+        </div>
+
+        <div>
+          <label className="block text-sm font-medium text-gray-300 mb-2">Notes / Special Requests</label>
+          <textarea
+            data-testid="quote-notes"
+            name="notes"
+            value={form.notes}
+            onChange={handleChange}
+            rows={3}
+            placeholder="Flight info, special requests, number of bags..."
+            className="w-full bg-black/60 border border-gray-700 focus:border-[#D4AF37] text-white rounded-lg px-4 py-3 outline-none transition resize-none placeholder:text-gray-600"
           />
         </div>
 

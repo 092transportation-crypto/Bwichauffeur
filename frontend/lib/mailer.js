@@ -62,6 +62,85 @@ async function sendEmail(to, subject, text, html) {
 
 // ----------------- Templates (ported from Python) -----------------
 
+// Human-readable labels for the raw values the form submits. Includes legacy
+// values (phone_text, cruise, group, ...) so older links/forms still render.
+const SERVICE_LABELS = {
+  airport: "Airport Transfer",
+  corporate: "Corporate",
+  wedding: "Wedding",
+  special_event: "Special Event",
+  hourly: "Hourly",
+  cruise: "Cruise Port Transfer",
+  group: "Group / Sprinter Van",
+  tour: "City Tour",
+  other: "Other",
+};
+
+const CONTACT_LABELS = {
+  phone: "Phone",
+  email: "Email",
+  text: "Text",
+  phone_text: "Phone / Text",
+};
+
+const VEHICLE_LABELS = {
+  business_sedan: "Business Sedan (Mercedes E-Class)",
+  first_class_sedan: "First Class Sedan (BMW 7 Series / Mercedes S-Class)",
+  midsize_suv: "Midsize SUV (Lincoln Nautilus)",
+  luxury_suv: "Luxury SUV (Chevrolet Suburban)",
+  premium_suv: "Premium SUV (Cadillac Escalade)",
+  sprinter_shuttle: "Sprinter Shuttle",
+  sprinter_executive: "Sprinter Executive",
+  sprinter_limo: "Sprinter Limo",
+};
+
+const HEARD_FROM_LABELS = {
+  google: "Google Search",
+  social: "Social Media",
+  referral: "Referral",
+  hotel: "Hotel Partner",
+  other: "Other",
+};
+
+function serviceLabel(value) {
+  return SERVICE_LABELS[value] || value || "";
+}
+
+function vehicleLabel(value) {
+  return VEHICLE_LABELS[value] || value || "";
+}
+
+function heardFromLabel(value) {
+  return HEARD_FROM_LABELS[value] || value || "";
+}
+
+function contactLabel(value) {
+  return CONTACT_LABELS[value] || value || "";
+}
+
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+/**
+ * Format a datetime-local value ("2026-10-21T17:32") as
+ * "October 21, 2026 at 5:32 PM". Parsed from the string directly (no Date
+ * object) so the customer's chosen local time is never shifted by the
+ * server's timezone. Unrecognized values pass through unchanged.
+ */
+function formatDateTime(value) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(String(value || ""));
+  if (!m) return value || "";
+  const [, y, mo, d, h, mi] = m;
+  const month = MONTHS[Number(mo) - 1];
+  if (!month) return value;
+  let hour = Number(h);
+  const ampm = hour >= 12 ? "PM" : "AM";
+  hour = hour % 12 || 12;
+  return `${month} ${Number(d)}, ${y} at ${hour}:${mi} ${ampm}`;
+}
+
 function row(label, value) {
   if (!value) return "";
   return (
@@ -85,15 +164,15 @@ function buildAdminQuoteEmail(q) {
     row("Name", q.full_name),
     row("Phone", q.phone),
     row("Email", q.email),
-    row("Preferred Contact", q.preferred_contact),
-    row("Service Type", q.service_type),
-    row("Vehicle Preference", q.vehicle_preference),
-    row("Pickup", q.pickup_location),
-    row("Drop-off", q.dropoff_location),
-    row("Date / Time", q.pickup_datetime),
+    row("Preferred Contact", contactLabel(q.preferred_contact)),
+    row("Service Type", serviceLabel(q.service_type)),
+    row("Vehicle Preference", vehicleLabel(q.vehicle_preference)),
+    row("Pickup Location", q.pickup_location),
+    row("Drop-off Location", q.dropoff_location),
+    row("Date & Time", formatDateTime(q.pickup_datetime)),
     row("Passengers", String(q.passengers || "")),
-    row("Heard About Us From", q.heard_from),
-    row("Notes", q.notes),
+    row("Heard About Us From", heardFromLabel(q.heard_from)),
+    row("Notes / Special Requests", q.notes),
     row("Submitted", q.created_at),
   ].join("");
   const html = `
@@ -109,23 +188,26 @@ function buildAdminQuoteEmail(q) {
         </div>
       </div>
     </div>`;
+  const textLine = (label, value) => (value ? `${label}: ${value}` : "");
   const text = [
     "New Quote Request - BWI Chauffeur",
     "",
-    `Name: ${q.full_name || ""}`,
-    `Phone: ${q.phone || ""}`,
-    `Email: ${q.email || ""}`,
-    `Preferred Contact: ${q.preferred_contact || ""}`,
-    `Service: ${q.service_type || ""}`,
-    `Vehicle Preference: ${q.vehicle_preference || ""}`,
-    `Pickup: ${q.pickup_location || ""}`,
-    `Drop-off: ${q.dropoff_location || ""}`,
-    `Date/Time: ${q.pickup_datetime || ""}`,
-    `Passengers: ${q.passengers || ""}`,
-    `Heard About Us From: ${q.heard_from || ""}`,
-    `Notes: ${q.notes || ""}`,
-    `Submitted: ${q.created_at || ""}`,
-  ].join("\n");
+    textLine("Name", q.full_name),
+    textLine("Phone", q.phone),
+    textLine("Email", q.email),
+    textLine("Preferred Contact", contactLabel(q.preferred_contact)),
+    textLine("Service Type", serviceLabel(q.service_type)),
+    textLine("Vehicle Preference", vehicleLabel(q.vehicle_preference)),
+    textLine("Pickup Location", q.pickup_location),
+    textLine("Drop-off Location", q.dropoff_location),
+    textLine("Date & Time", formatDateTime(q.pickup_datetime)),
+    textLine("Passengers", String(q.passengers || "")),
+    textLine("Heard About Us From", heardFromLabel(q.heard_from)),
+    textLine("Notes / Special Requests", q.notes),
+    textLine("Submitted", q.created_at),
+  ]
+    .filter((line, i) => i < 2 || line)
+    .join("\n");
   return { subject, text, html };
 }
 
@@ -153,7 +235,7 @@ function buildCustomerQuoteEmail(q) {
             <p style="margin:0;color:#999;font-size:13px;">Trip summary:</p>
             <p style="margin:6px 0 0;color:#fff;font-size:14px;">
               ${escapeHtml(q.pickup_location || "")} &rarr; ${escapeHtml(q.dropoff_location || "—")}<br/>
-              ${escapeHtml(q.pickup_datetime || "")} &middot; ${escapeHtml(String(q.passengers || ""))} passenger(s)
+              ${escapeHtml(formatDateTime(q.pickup_datetime) || "")} &middot; ${escapeHtml(String(q.passengers || ""))} passenger(s)
             </p>
           </div>
           <p style="color:#666;font-size:12px;margin-top:30px;">
@@ -169,7 +251,7 @@ function buildCustomerQuoteEmail(q) {
     "a reservation specialist will reach out shortly with your custom quote.\n\n" +
     "For immediate assistance, call us 24/7 at 877-609-1919.\n\n" +
     `Trip: ${q.pickup_location || ""} -> ${q.dropoff_location || "—"}\n` +
-    `When: ${q.pickup_datetime || ""}\n` +
+    `When: ${formatDateTime(q.pickup_datetime) || ""}\n` +
     `Passengers: ${q.passengers || ""}\n\n` +
     "— BWI Chauffeur\nbwichauffeur.com";
   return { subject, text, html };
