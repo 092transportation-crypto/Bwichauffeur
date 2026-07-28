@@ -24,7 +24,7 @@ const BUILD_DIR = path.resolve(__dirname, "..", "build");
 // Routes whose content must be present in the raw HTML response.
 const ROUTES = [
   { path: "/privacy-policy", waitFor: '[data-testid="mobile-opt-in-data-statement"]' },
-  { path: "/booking", waitFor: '[data-testid="quote-sms-consent"]' },
+  { path: "/booking", waitFor: '[data-testid="inquiry-sms-consent"]' },
 ];
 
 const MIME = {

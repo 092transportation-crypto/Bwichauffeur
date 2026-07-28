@@ -3,7 +3,7 @@ import { Helmet } from '@dr.pogodin/react-helmet';
 import { ArrowLeft, CheckCircle, Clock, CreditCard, Shield } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/button';
-import { QuoteForm } from '../components/QuoteForm';
+import { InquiryForm } from '../components/InquiryForm';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const BookingPage = () => {
@@ -78,7 +78,7 @@ const BookingPage = () => {
 
           {/* The ONE booking form */}
           <div data-testid="quote-section">
-            <QuoteForm />
+            <InquiryForm />
           </div>
 
           {/* Booking Info */}

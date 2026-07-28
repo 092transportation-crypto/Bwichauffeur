@@ -113,3 +113,67 @@ code {
         border-bottom-color: inherit;
     }
 }
+
+/* ---------- Gold theme utilities (inquiry form + awards) ---------- */
+
+.gold-gradient {
+    background: linear-gradient(135deg, #F4E5C3 0%, #D4AF37 45%, #B8933A 100%);
+}
+
+.tabnums {
+    font-variant-numeric: tabular-nums;
+}
+
+/* iOS Safari: keep native date/time values left-aligned inside padded fields */
+input[type="date"]::-webkit-date-and-time-value,
+input[type="time"]::-webkit-date-and-time-value {
+    text-align: left;
+    margin: 0;
+}
+
+/* Recurring light sweep across gold CTAs */
+.btn-shimmer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -150%;
+    width: 55%;
+    background: linear-gradient(115deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    transform: skewX(-20deg);
+    animation: shimmerSweep 2.8s ease-in-out infinite;
+    pointer-events: none;
+}
+@keyframes shimmerSweep {
+    0% { left: -150%; }
+    60% { left: 150%; }
+    100% { left: 150%; }
+}
+
+/* Slow diagonal gold sheen drifting across dark sections */
+.gold-sheen::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(105deg, transparent 42%, rgba(212, 175, 55, 0.08) 50%, transparent 58%);
+    background-size: 220% 100%;
+    animation: sheenDrift 10s linear infinite;
+    pointer-events: none;
+}
+@keyframes sheenDrift {
+    0% { background-position: 220% 0; }
+    100% { background-position: -220% 0; }
+}
+
+/* Breathing gold glow on hover (award cards) */
+.glow-card {
+    transition: border-color 0.4s ease, transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s ease;
+}
+.glow-card:hover {
+    transform: translateY(-6px);
+    animation: goldGlowPulse 2.2s ease-in-out infinite;
+}
+@keyframes goldGlowPulse {
+    0%, 100% { box-shadow: 0 18px 50px -18px rgba(212, 175, 55, 0.55), 0 0 0 1px rgba(212, 175, 55, 0.35); }
+    50% { box-shadow: 0 18px 70px -14px rgba(212, 175, 55, 0.85), 0 0 0 1px rgba(212, 175, 55, 0.6); }
+}

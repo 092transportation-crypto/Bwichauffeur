@@ -10,6 +10,7 @@ import PromiseSection from '../components/Promise';
 import BWIDifference from '../components/BWIDifference';
 import WhyChooseUs from '../components/WhyChooseUs';
 import Testimonials from '../components/Testimonials';
+import Awards from '../components/Awards';
 import HomeFAQ from '../components/HomeFAQ';
 
 const HomePage = () => {
@@ -37,6 +38,7 @@ const HomePage = () => {
       <About />
       <PromiseSection />
       <BWIDifference />
+      <Awards />
       <Testimonials />
       <WhyChooseUs />
       <HomeFAQ />
