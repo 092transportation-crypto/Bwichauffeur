@@ -1,7 +1,6 @@
 import React from 'react';
 import { ArrowRight, Shield, Clock, Star, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import QuickQuoteForm from './QuickQuoteForm';
 
 const Hero = () => {
   return (
@@ -92,11 +91,6 @@ const Hero = () => {
           >
             (877) 609-1919
           </a>
-        </div>
-
-        {/* Quick quote form */}
-        <div className="mb-8 animate-slide-up" style={{ animationDelay: '0.55s' }}>
-          <QuickQuoteForm />
         </div>
 
         {/* CTA Buttons - Using proper anchor tags */}
