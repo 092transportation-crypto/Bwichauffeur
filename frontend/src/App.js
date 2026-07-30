@@ -17,6 +17,7 @@ import AboutPage from "./pages/AboutPage";
 import BaltimoreSportsPage from "./pages/BaltimoreSportsPage";
 import CruiseTransportationPage from "./pages/CruiseTransportationPage";
 import ConcertTransportationPage from "./pages/ConcertTransportationPage";
+import CarSeatServicePage from "./pages/CarSeatServicePage";
 import VenuePage from "./pages/VenuePage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import TermsConditionsPage from "./pages/TermsConditionsPage";
@@ -59,6 +60,7 @@ function App() {
                 <Route path="/baltimore-sports-transportation" element={<BaltimoreSportsPage />} />
                 <Route path="/cruise-transportation" element={<CruiseTransportationPage />} />
                 <Route path="/concert-transportation" element={<ConcertTransportationPage />} />
+                <Route path="/car-seat-service" element={<CarSeatServicePage />} />
                 {CONCERT_VENUES.map((venue) => (
                   <Route
                     key={venue.slug}
