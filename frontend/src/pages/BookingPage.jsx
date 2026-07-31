@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from '@dr.pogodin/react-helmet';
-import { ArrowLeft, CheckCircle, Clock, CreditCard, Shield } from 'lucide-react';
+import { ArrowLeft, BadgeDollarSign, CheckCircle, Clock, CreditCard, Shield } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { InquiryForm } from '../components/InquiryForm';
@@ -62,18 +62,27 @@ const BookingPage = () => {
             </div>
           </div>
 
-          {/* Rates Notice */}
+          {/* Flat-Rate Notice */}
           <div
             data-testid="rates-notice"
-            className="mb-6 p-4 rounded-lg bg-[#D4AF37]/10 border border-[#D4AF37]/40 text-center"
+            className="mb-8 overflow-hidden rounded-2xl border border-[#D4AF37]/40 bg-gradient-to-r from-[#D4AF37]/10 via-[#D4AF37]/5 to-[#D4AF37]/10"
           >
-            <p className="text-[#F4E5C3] text-sm md:text-base font-medium">
-              <span className="text-[#D4AF37] font-bold">
-                Rates vary by vehicle and distance
-              </span>{' '}
-              — fill out the form below for a{' '}
-              <span className="text-[#D4AF37] font-bold">free instant quote</span>
-            </p>
+            <div className="h-1 w-full bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3]" aria-hidden="true" />
+            <div className="flex flex-col items-center gap-4 px-6 py-6 text-center sm:flex-row sm:gap-5 sm:px-8 sm:text-left">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#D4AF37] to-[#F4E5C3] shadow-lg shadow-[#D4AF37]/30">
+                <BadgeDollarSign className="h-6 w-6 text-black" aria-hidden="true" />
+              </div>
+              <div className="min-w-0">
+                <p className="text-base font-bold text-white md:text-lg">
+                  Flat-Rate Pricing — <span className="text-[#D4AF37]">No Surge, Ever</span>
+                </p>
+                <p className="mt-1 text-sm leading-relaxed text-gray-300">
+                  Rates vary by vehicle and distance. Every quote is all-inclusive — tolls,
+                  taxes &amp; gratuity. Fill out the form below for your{' '}
+                  <span className="font-semibold text-[#D4AF37]">free instant quote</span>.
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* The ONE booking form */}

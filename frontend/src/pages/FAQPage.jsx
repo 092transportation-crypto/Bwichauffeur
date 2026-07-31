@@ -86,7 +86,7 @@ const FAQPage = () => {
       faqs: [
         {
           question: 'What types of vehicles do you have?',
-          answer: 'Our luxury fleet includes: Mercedes-Benz E-Class 2025 and S-Class sedans, BMW 7 Series, Cadillac Escalade and Chevrolet Suburban SUVs, and Mercedes Sprinter Vans for groups up to 14 passengers. All vehicles are late-model, meticulously maintained, and fully insured.'
+          answer: 'Our luxury fleet includes: the Business Sedan (Mercedes-Benz E-Class), First Class Sedan (BMW 7 Series / Mercedes S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), Mercedes Sprinter Shuttle and Sprinter Executive vans, and the Mercedes Sprinter Limo — all 2023+ or similar, meticulously maintained, and fully insured.'
         },
         {
           question: 'Can I request a specific vehicle?',
@@ -98,7 +98,7 @@ const FAQPage = () => {
         },
         {
           question: 'How many passengers can your vehicles fit?',
-          answer: 'Our sedans (Mercedes E-Class, S-Class, BMW 7 Series) fit 3 passengers. Luxury SUVs (Escalade, Suburban) seat 5 passengers. Mercedes Sprinter Vans fit up to 14 passengers. All with ample luggage space.'
+          answer: 'Our sedans (Mercedes E-Class, BMW 7 Series, Mercedes S-Class) fit 3 passengers with 2 bags. The Midsize SUV (Lincoln Nautilus) seats 3 with 4 bags, the Luxury SUV (Chevrolet Suburban) seats 5 with 5 bags, and the Premium SUV (Cadillac Escalade) seats 6 with 5 bags. Mercedes Sprinter vans fit up to 13 passengers with 13 bags.'
         }
       ]
     },
