@@ -123,7 +123,7 @@ const BaltimoreSportsPage = () => {
               </div>
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/128457/pexels-photo-128457.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  src="/images/stock/pexels-128457.jpg"
                   alt="Baltimore Ravens NFL Game Day Luxury Transportation - Professional Chauffeur Service to M&T Bank Stadium Maryland"
                   loading="lazy"
                   decoding="async"
@@ -144,7 +144,7 @@ const BaltimoreSportsPage = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 relative">
                 <img
-                  src="https://images.pexels.com/photos/569848/pexels-photo-569848.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  src="/images/stock/pexels-569848.jpg"
                   alt="Camden Yards Oriole Park Baltimore - BWI Chauffeur Private Car Service for Orioles Baseball Games and Sports Events"
                   loading="lazy"
                   decoding="async"

@@ -23,6 +23,7 @@ import {
   BadgeDollarSign,
   UserCheck,
 } from "lucide-react";
+import { AddressAutocomplete } from "./AddressAutocomplete";
 
 // Inquiries POST to the same-origin Vercel serverless function
 // (api/quote-requests), which emails NOTIFICATION_EMAIL.
@@ -488,29 +489,29 @@ export const InquiryForm = () => {
             </motion.div>
 
             {/* Pickup */}
-            <motion.div variants={itemVariants} className="relative">
-              <input
+            <motion.div variants={itemVariants}>
+              <AddressAutocomplete
                 id="inq-pickup"
-                data-testid="inquiry-pickup"
-                className={`${inputBase} ${borderCls(invalid.includes("pickup_location"))}`}
+                testId="inquiry-pickup"
+                inputClassName={`${inputBase} ${borderCls(invalid.includes("pickup_location"))}`}
                 placeholder="Pickup Location"
                 value={form.pickup_location}
-                onChange={(e) => set("pickup_location", e.target.value)}
+                onChange={(v) => set("pickup_location", v)}
+                label={<label htmlFor="inq-pickup" className={labelBase}>Pickup Location *</label>}
               />
-              <label htmlFor="inq-pickup" className={labelBase}>Pickup Location *</label>
             </motion.div>
 
             {/* Drop-off */}
-            <motion.div variants={itemVariants} className="relative">
-              <input
+            <motion.div variants={itemVariants}>
+              <AddressAutocomplete
                 id="inq-dropoff"
-                data-testid="inquiry-dropoff"
-                className={`${inputBase} ${borderCls(invalid.includes("dropoff_location"))}`}
+                testId="inquiry-dropoff"
+                inputClassName={`${inputBase} ${borderCls(invalid.includes("dropoff_location"))}`}
                 placeholder="Drop-off Location"
                 value={form.dropoff_location}
-                onChange={(e) => set("dropoff_location", e.target.value)}
+                onChange={(v) => set("dropoff_location", v)}
+                label={<label htmlFor="inq-dropoff" className={labelBase}>Drop-off Location *</label>}
               />
-              <label htmlFor="inq-dropoff" className={labelBase}>Drop-off Location *</label>
             </motion.div>
 
             {/* Date */}

@@ -19,6 +19,7 @@ import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
 import { toast } from 'sonner';
 import Breadcrumbs from '../components/Breadcrumbs';
+import { AddressAutocomplete } from '../components/AddressAutocomplete';
 import TrustSignals from '../components/TrustSignals';
 
 // Default to same-origin (Vercel serverless /api). Override with
@@ -293,17 +294,16 @@ const ContactPage = () => {
                           <Label htmlFor="pickup_location" className="text-gray-300">
                             Pickup Location <span className="text-[#D4AF37]">*</span>
                           </Label>
-                          <Input
-                            id="pickup_location"
-                            name="pickup_location"
-                            type="text"
-                            required
-                            value={form.pickup_location}
-                            onChange={onChange}
-                            placeholder="BWI Airport, Terminal A"
-                            className="mt-2 bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-[#D4AF37]"
-                            data-testid="contact-input-pickup"
-                          />
+                          <div className="mt-2">
+                            <AddressAutocomplete
+                              id="pickup_location"
+                              testId="contact-input-pickup"
+                              inputClassName="flex h-10 w-full rounded-md border px-3 py-2 text-sm bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#D4AF37]"
+                              placeholder="BWI Airport, Terminal A"
+                              value={form.pickup_location}
+                              onChange={(v) => setForm((prev) => ({ ...prev, pickup_location: v }))}
+                            />
+                          </div>
                         </div>
                       </div>
 
@@ -312,17 +312,16 @@ const ContactPage = () => {
                           <Label htmlFor="dropoff_location" className="text-gray-300">
                             Drop-off Location <span className="text-[#D4AF37]">*</span>
                           </Label>
-                          <Input
-                            id="dropoff_location"
-                            name="dropoff_location"
-                            type="text"
-                            required
-                            value={form.dropoff_location}
-                            onChange={onChange}
-                            placeholder="Downtown Baltimore, MD"
-                            className="mt-2 bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-[#D4AF37]"
-                            data-testid="contact-input-dropoff"
-                          />
+                          <div className="mt-2">
+                            <AddressAutocomplete
+                              id="dropoff_location"
+                              testId="contact-input-dropoff"
+                              inputClassName="flex h-10 w-full rounded-md border px-3 py-2 text-sm bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#D4AF37]"
+                              placeholder="Downtown Baltimore, MD"
+                              value={form.dropoff_location}
+                              onChange={(v) => setForm((prev) => ({ ...prev, dropoff_location: v }))}
+                            />
+                          </div>
                         </div>
                         <div>
                           <Label htmlFor="pickup_datetime" className="text-gray-300">

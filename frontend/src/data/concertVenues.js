@@ -11,7 +11,7 @@ export const CONCERT_VENUES = [
     keywords:
       'CFG Bank Arena limo service, CFG Bank Arena transportation, Baltimore concert limo, CFG Bank Arena car service, Baltimore arena chauffeur, concert transportation Baltimore',
     heroImage:
-      'https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-1105666.jpg',
     heroAlt:
       'CFG Bank Arena Baltimore Concert Limo Service - BWI Chauffeur Black Car Transportation to Downtown Baltimore Shows',
     heroTagline:
@@ -59,7 +59,7 @@ export const CONCERT_VENUES = [
     keywords:
       'Merriweather Post Pavilion transportation, Merriweather limo service, Columbia MD concert limo, Merriweather car service, Merriweather Post Pavilion parking alternative, concert shuttle Columbia Maryland',
     heroImage:
-      'https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-1190298.jpg',
     heroAlt:
       'Merriweather Post Pavilion Columbia Maryland Concert Transportation - BWI Chauffeur Luxury Car Service to Outdoor Amphitheater Shows',
     heroTagline:
@@ -107,7 +107,7 @@ export const CONCERT_VENUES = [
     keywords:
       'Capital One Arena transportation, Capital One Arena limo, DC concert car service, Capital One Arena transfers, Washington DC concert limo, Chinatown DC arena chauffeur',
     heroImage:
-      'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-1763075.jpg',
     heroAlt:
       'Capital One Arena Washington DC Concert Transfers - BWI Chauffeur Black Car Service to Downtown DC Shows and Games',
     heroTagline:
@@ -155,7 +155,7 @@ export const CONCERT_VENUES = [
     keywords:
       'Jiffy Lube Live transportation, Jiffy Lube Live limo service, Bristow VA concert limo, Jiffy Lube Live car service, Jiffy Lube Live parking alternative, Northern Virginia amphitheater transportation',
     heroImage:
-      'https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-2263436.jpg',
     heroAlt:
       'Jiffy Lube Live Bristow Virginia Concert Transportation - BWI Chauffeur Luxury Car Service to Northern Virginia Amphitheater Shows',
     heroTagline:
@@ -208,7 +208,7 @@ export const CONCERT_VENUES = [
     keywords:
       'The Anthem transportation, The Anthem DC limo, The Wharf car service, The Anthem concert transportation, DC waterfront concert limo, The Anthem parking alternative',
     heroImage:
-      'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-1587927.jpg',
     heroAlt:
       'The Anthem Washington DC Wharf Concert Car Service - BWI Chauffeur Black Car Transportation to DC Waterfront Shows',
     heroTagline:
@@ -261,7 +261,7 @@ export const CONCERT_VENUES = [
     keywords:
       'Pier Six Pavilion transportation, Pier Six Pavilion limo, Inner Harbor concert car service, Baltimore waterfront concert limo, Pier Six concert transportation, Pier Six Pavilion parking',
     heroImage:
-      'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-1763075.jpg',
     heroAlt:
       'Pier Six Pavilion Baltimore Inner Harbor Concert Limo Service - BWI Chauffeur Luxury Transportation to Waterfront Amphitheater Shows',
     heroTagline:
@@ -314,7 +314,7 @@ export const CONCERT_VENUES = [
     keywords:
       'Wolf Trap transportation, Wolf Trap limo service, Filene Center car service, Vienna VA concert limo, Wolf Trap parking alternative, national park performing arts transportation',
     heroImage:
-      'https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-1190298.jpg',
     heroAlt:
       'Wolf Trap Filene Center Vienna Virginia Concert Car Service - BWI Chauffeur Luxury Transportation to the National Park for the Performing Arts',
     heroTagline:

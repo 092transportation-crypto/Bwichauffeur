@@ -10,7 +10,7 @@ export const AIRPORT_PAGES = [
     keywords:
       'BWI airport car service, BWI limo service, BWI chauffeur, BWI airport pickup, Baltimore airport transportation, BWI Marshall car service, luxury car service BWI',
     heroImage:
-      'https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-2026324.jpg',
     heroAlt:
       'Airliner on final approach at dusk, arriving at BWI Marshall Airport',
     h1Line1: 'BWI Airport',
@@ -82,7 +82,7 @@ export const AIRPORT_PAGES = [
     keywords:
       'DCA car service, Reagan National airport car service, DCA airport limo, Reagan airport chauffeur, DCA to Maryland car service, Washington National airport transportation',
     heroImage:
-      'https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-358319.jpg',
     heroAlt:
       'Modern airport terminal concourse with travelers, evoking Reagan National Airport',
     h1Line1: 'Reagan National (DCA)',
@@ -154,7 +154,7 @@ export const AIRPORT_PAGES = [
     keywords:
       'IAD car service, Dulles airport car service, Washington Dulles limo, IAD chauffeur, Dulles international arrival pickup, IAD to Maryland car service, Dulles airport transportation',
     heroImage:
-      'https://images.pexels.com/photos/2833264/pexels-photo-2833264.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-2007401.jpg',
     heroAlt:
       'View over an aircraft wing at cruising altitude on a long-haul flight into Dulles',
     h1Line1: 'Washington Dulles (IAD)',
@@ -226,7 +226,7 @@ export const AIRPORT_PAGES = [
     keywords:
       'Dulles airport transfers, IAD to BWI transfer, IAD to DCA shuttle alternative, Dulles to Maryland transfer, Dulles airport connection service, IAD group transfers, Dulles to Baltimore cruise terminal',
     heroImage:
-      'https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-120049.jpg',
     heroAlt:
       'Black luxury vehicle staged and ready for an airport transfer assignment',
     h1Line1: 'Dulles Airport',
@@ -298,7 +298,7 @@ export const AIRPORT_PAGES = [
     keywords:
       'Reagan airport transfers, DCA to BWI transfer, DCA to Annapolis car service, DCA to Baltimore transfer, DCA corporate car service, Capitol Hill airport transfer, Reagan National to Bethesda',
     heroImage:
-      'https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/images/stock/pexels-170811.jpg',
     heroAlt:
       'Polished luxury sedan awaiting an executive transfer assignment at dusk',
     h1Line1: 'Reagan Airport',

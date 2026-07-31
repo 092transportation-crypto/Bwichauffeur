@@ -11,7 +11,7 @@ export const blogPosts = [
     date: '2026-01-15',
     author: 'BWI Chauffeur Team',
     category: 'Company News',
-    image: 'https://customer-assets.emergentagent.com/job_elegant-transit-2/artifacts/xla13sdn_6813c067451ad84a5a83db86_Rolls-Royce20by%2520MANSORY-thumb.webp',
+    image: '/images/stock/blog-rolls-royce-mansory.webp',
     content: `
 ## BWI Chauffeur — Maryland's Premier Luxury Transportation Provider in 2026
 
@@ -100,7 +100,7 @@ Skip the surge pricing, the parking-lot shuttle, and the rideshare guesswork. [B
     date: '2026-01-14',
     author: 'Fleet Manager',
     category: 'Fleet',
-    image: 'https://customer-assets.emergentagent.com/job_elegant-transit-2/artifacts/af73quwz_sddefault.jpg',
+    image: '/images/stock/blog-airport-limo.jpg',
     content: `
 ## The Finest Luxury Vehicles in Maryland's Premier Transportation Fleet
 
@@ -2568,7 +2568,7 @@ Want to see the exact flat rate for your group and date? [Request a quote here](
     date: '2026-03-06',
     author: 'BWI Chauffeur Team',
     category: 'Guides',
-    image: 'https://customer-assets.emergentagent.com/job_elegant-transit-2/artifacts/af73quwz_sddefault.jpg',
+    image: '/images/stock/blog-airport-limo.jpg',
     content: `
 ## How to Choose the Best Black Car Service at BWI Airport in 2026
 
