@@ -302,6 +302,113 @@ export const BWI_ROUTES = [
     ],
     nearby_links: ['bwi-to-northern-virginia', 'bwi-to-arlington', 'bwi-to-washington-dc'],
   },
+  {
+    slug: 'phl-airport-to-philadelphia',
+    origin: 'PHL Airport',
+    origin_short: 'PHL',
+    destination: 'Philadelphia',
+    headline: 'Philadelphia',
+    distance: '8–12 miles',
+    drive_time: '15–30 minutes',
+    metaTitle: 'PHL Airport to Philadelphia | Private Car Service',
+    metaDescription:
+      'Private chauffeur from PHL Airport to Center City Philadelphia & beyond. Flight tracking, meet & greet, luxury fleet, 24/7. Call (877) 609-1919.',
+    intro:
+      'Landing at Philadelphia International Airport should not mean a taxi line, a rideshare lottery, or a rental-car shuttle. Our PHL Airport to Philadelphia private car service puts a professional chauffeur and a late-model Mercedes, BMW, Cadillac, or Sprinter at the curb the moment you clear baggage claim. We track your flight from wheels-up, adjust for early arrivals and delays automatically, and deliver you door-to-door to Center City, University City, the Navy Yard, or any address in the greater Philadelphia region. It is the calmest possible start to a business trip, a family visit, or a weekend in the city — and because we also run the I-95 corridor every day, we are just as comfortable continuing south to Wilmington, Baltimore, or Washington DC when your itinerary goes further than the city line.',
+    why_choose: [
+      'Real-time flight tracking with 60 minutes of free wait time (90 minutes for international arrivals)',
+      'Meet-and-greet option: your chauffeur waits at PHL baggage claim with a name sign',
+      'Direct routes into Center City via I-95 and I-76 — typically 15 to 30 minutes door-to-door',
+      'One flat, all-inclusive rate quoted up front — no surge, no meter, no airport-queue roulette',
+      'Onward long-distance service to Wilmington, Baltimore, Annapolis, and Washington DC in the same vehicle',
+    ],
+    what_to_expect:
+      'Your chauffeur monitors your inbound flight and times the pickup to the minute. For curbside service, we coordinate by text and meet you outside your terminal — PHL’s A-East through F terminals all work — the moment you have your bags. For meet-and-greet, your chauffeur is waiting inside at baggage claim with a name placard and helps with luggage from the carousel to the vehicle. From the airport it is a short run up I-95 or the Platt Bridge into Center City; most hotel drop-offs at the Ritz-Carlton, Four Seasons, Kimpton, or Rittenhouse Square addresses take under half an hour even with city traffic. Heading to University City, the stadiums at the South Philadelphia Sports Complex, Manayunk, or the Main Line instead? Same service, same vehicle, one quoted price. The cabin is quiet and climate-controlled with bottled water and phone chargers, so you land, sit down, and simply arrive.',
+    service_details: [
+      'Pickup zone: PHL arrivals curb at any terminal, or inside baggage claim with the meet-and-greet upgrade',
+      'Drop-off: Center City hotels, University City, the Navy Yard, South Philadelphia Sports Complex, suburbs, and the Main Line',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, Mercedes Sprinter (up to 13 pax)',
+      'Reverse trips: Philadelphia to PHL with departure-time monitoring and TSA buffer built in',
+      'Ideal for: business travelers, conventions at the Pennsylvania Convention Center, cruise passengers, families, and group arrivals',
+    ],
+    faqs: [
+      {
+        q: 'How long does the ride from PHL Airport to Center City Philadelphia take?',
+        a: 'Usually 15 to 30 minutes depending on the time of day and your exact address. Your chauffeur watches live traffic and picks the best route — I-95 north, the Platt Bridge, or I-76 — so even rush-hour arrivals stay predictable.',
+      },
+      {
+        q: 'Where does my chauffeur meet me at PHL?',
+        a: 'Two options: curbside pickup coordinated by text at your terminal’s arrivals level, or a meet-and-greet where your chauffeur waits at baggage claim with a name sign and helps carry your luggage to the vehicle.',
+      },
+      {
+        q: 'What if my flight into PHL is delayed?',
+        a: 'Nothing to do on your end. Every booking includes real-time flight tracking, and your pickup adjusts automatically. You get 60 minutes of free wait time on domestic arrivals and 90 minutes on international ones.',
+      },
+      {
+        q: 'Can you take me from PHL to destinations beyond Philadelphia?',
+        a: 'Yes. We regularly run PHL to Wilmington, the Delaware beaches, Baltimore, Annapolis, and Washington DC. One vehicle, one chauffeur, one flat rate for the entire trip — no transfers and no per-mile meter.',
+      },
+      {
+        q: 'How much does a car from PHL Airport to Philadelphia cost?',
+        a: 'Every transfer is quoted as one flat, all-inclusive rate based on your drop-off address and vehicle choice — tolls and gratuity included. Call (877) 609-1919 or request an online quote for an exact price with no hidden fees.',
+      },
+    ],
+    nearby_links: ['baltimore-to-philadelphia-limo', 'bwi-to-washington-dc', 'bwi-to-annapolis'],
+  },
+  {
+    slug: 'baltimore-to-philadelphia-limo',
+    origin: 'Baltimore',
+    origin_short: 'Baltimore',
+    badge: 'Long-Distance Route',
+    destination: 'Philadelphia',
+    headline: 'Philadelphia',
+    distance: '101 miles',
+    drive_time: '1 hr 45 min – 2 hrs 15 min',
+    metaTitle: 'Baltimore to Philadelphia Limo | Luxury Car Service',
+    metaDescription:
+      'Chauffeured luxury car service from Baltimore to Philadelphia. Door-to-door sedans, SUVs & Sprinter vans, flat-rate, 24/7. Call (877) 609-1919.',
+    intro:
+      'The Baltimore to Philadelphia corridor is one of the busiest stretches of I-95 in the country — and one of the least pleasant to drive yourself. Our Baltimore to Philadelphia limo service replaces the toll plazas, merge battles, and parking hunts with a single door-to-door ride in a late-model luxury vehicle. A professional chauffeur picks you up anywhere in the Baltimore metro — downtown, Fells Point, Towson, Columbia, Annapolis, or straight from a BWI arrival — and delivers you to any Philadelphia address: a Center City hotel, a University City campus, a convention, a wedding venue, or the stadiums at the South Philadelphia Sports Complex. Work the whole way up, or recline and arrive rested. Either way, the hundred miles between the cities become the most productive or most relaxing two hours of your day.',
+    why_choose: [
+      'True door-to-door service — no train stations, no transfers, no luggage drags through 30th Street Station',
+      'One flat, all-inclusive rate quoted before you ride — tolls and gratuity included, no surge ever',
+      'Work en route: quiet cabins with WiFi, chargers, and room to spread out a laptop',
+      'Sprinter vans carry up to 13 passengers — ideal for wedding parties, corporate groups, and game-day crews',
+      'Round trips and same-day returns handled by the same chauffeur, on your schedule',
+    ],
+    what_to_expect:
+      'Your chauffeur arrives ahead of schedule at your Baltimore pickup address, loads luggage, and sets the cabin the way you like it before pulling away. The run north follows I-95 through the Fort McHenry Tunnel, across the Susquehanna, and past Wilmington into Pennsylvania — about two hours door-to-door depending on traffic and your exact addresses, with live rerouting around any corridor slowdowns. There are no stops unless you want them: some clients add a meeting in Wilmington, others a lunch break, others ride straight through on a deadline. Drop-off works anywhere in the Philadelphia region — Center City and Old City hotels, the Pennsylvania Convention Center, Penn and Drexel, Manayunk, the Main Line, or Lincoln Financial Field, Citizens Bank Park, and Wells Fargo Center on game days. For the return leg, your chauffeur can wait with hourly service or come back for a scheduled pickup — whichever suits the day.',
+    service_details: [
+      'Pickup zone: any Baltimore-area address — downtown, the suburbs, Annapolis, Columbia, Towson, or BWI Airport',
+      'Drop-off: any Philadelphia address, including Center City hotels, universities, hospitals, venues, and the sports complex',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, Mercedes Sprinter (up to 13 pax)',
+      'Options: one-way, round-trip, same-day return, hourly as-directed, and multi-stop itineraries',
+      'Ideal for: business meetings, PHL and cruise connections, weddings, Eagles/Phillies/Sixers games, and university visits',
+    ],
+    faqs: [
+      {
+        q: 'How long is the drive from Baltimore to Philadelphia?',
+        a: 'Roughly 1 hour 45 minutes to 2 hours 15 minutes door-to-door for the 101-mile run up I-95, depending on traffic and your exact pickup and drop-off addresses. Your chauffeur tracks conditions live and reroutes around corridor slowdowns.',
+      },
+      {
+        q: 'Is a chauffeured car better than Amtrak for this trip?',
+        a: 'It is door-to-door: no getting to Penn Station, no schedule to make, no luggage limits, and no transfer on the Philadelphia end. For two or more people traveling together, a private vehicle is often comparable in total cost and considerably more flexible.',
+      },
+      {
+        q: 'Can you take a group from Baltimore to a Philadelphia event?',
+        a: 'Yes — our Mercedes Sprinter vans seat up to 13, which makes them popular for wedding parties, corporate outings, and Eagles, Phillies, and Sixers game groups. Everyone rides together and arrives together.',
+      },
+      {
+        q: 'Do you do same-day round trips to Philadelphia?',
+        a: 'Regularly. Book a round trip and your chauffeur either waits with hourly service or returns for a scheduled evening pickup. Meetings, medical appointments, and games all fit — the vehicle works around your day, not the other way around.',
+      },
+      {
+        q: 'How much does a Baltimore to Philadelphia limo cost?',
+        a: 'Every trip is one flat, all-inclusive quote based on vehicle choice, addresses, and whether you book one-way, round-trip, or hourly — tolls and gratuity included. Call (877) 609-1919 or request a quote online for an exact price.',
+      },
+    ],
+    nearby_links: ['phl-airport-to-philadelphia', 'bwi-to-washington-dc', 'bwi-to-annapolis'],
+  },
 ];
 
 export const findRouteBySlug = (slug) =>

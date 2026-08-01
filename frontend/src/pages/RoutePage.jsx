@@ -23,6 +23,11 @@ const RoutePage = ({ route }) => {
 
   if (!route) return null;
 
+  // Most routes start at BWI; a route can override with its own origin
+  // (e.g. "PHL Airport" or "Baltimore") without changing the template.
+  const origin = route.origin || 'BWI Airport';
+  const originShort = route.origin_short || 'BWI';
+
   // Always show 4 related routes. Start with the curated `nearby_links`, then
   // backfill with other BWI routes (excluding the current one) until we reach 4.
   const relatedRoutes = (() => {
@@ -46,17 +51,17 @@ const RoutePage = ({ route }) => {
     return out.slice(0, 4);
   })();
 
-  const title = route.metaTitle || `BWI to ${route.destination} | Flat Rate Car Service`;
+  const title = route.metaTitle || `${originShort} to ${route.destination} | Flat Rate Car Service`;
   const canonical = `https://bwichauffeur.com/${route.slug}`;
 
-  const faqs = [
+  const faqs = route.faqs || [
     {
-      q: `How much does BWI to ${route.destination} transportation cost?`,
-      a: `BWI to ${route.destination} is quoted as one locked-in flat rate. The exact price depends on vehicle type and drop-off address — call 877-609-1919 or request an instant quote online for pricing.`,
+      q: `How much does ${originShort} to ${route.destination} transportation cost?`,
+      a: `${originShort} to ${route.destination} is quoted as one locked-in flat rate. The exact price depends on vehicle type and drop-off address — call 877-609-1919 or request an instant quote online for pricing.`,
     },
     {
-      q: `How long is the drive from BWI to ${route.destination}?`,
-      a: `The drive from BWI Airport to ${route.destination} usually takes ${route.drive_time}, covering about ${route.distance}. Our chauffeurs watch traffic in real time and reroute as needed.`,
+      q: `How long is the drive from ${originShort} to ${route.destination}?`,
+      a: `The drive from ${origin} to ${route.destination} usually takes ${route.drive_time}, covering about ${route.distance}. Our chauffeurs watch traffic in real time and reroute as needed.`,
     },
     {
       q: 'Do you track my flight?',
@@ -110,17 +115,17 @@ const RoutePage = ({ route }) => {
           <Breadcrumbs
             items={[
               { label: 'Service Areas', to: '/service-areas' },
-              { label: `BWI to ${route.destination}` },
+              { label: `${originShort} to ${route.destination}` },
             ]}
           />
 
           {/* Hero */}
           <header className="mb-12">
             <Badge className="bg-[#D4AF37] text-black border-none mb-4 font-semibold tracking-wide uppercase text-[10px]">
-              Airport Transfer Route
+              {route.badge || 'Airport Transfer Route'}
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-5 leading-tight">
-              BWI Airport to{' '}
+              {origin} to{' '}
               <span className="text-[#D4AF37]">{route.headline}</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 max-w-3xl leading-relaxed">
@@ -180,9 +185,9 @@ const RoutePage = ({ route }) => {
                   to="/booking"
                   className="inline-flex items-center px-5 py-3 border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black font-semibold rounded-md transition-all"
                   data-testid="route-book-cta"
-                  aria-label={`Book BWI to ${route.destination} transfer`}
+                  aria-label={`Book ${originShort} to ${route.destination} transfer`}
                 >
-                  Book BWI to {route.destination}
+                  Book {originShort} to {route.destination}
                 </Link>
               </div>
             </CardContent>
@@ -265,7 +270,7 @@ const RoutePage = ({ route }) => {
           {/* Final CTA */}
           <section className="mb-12 bg-gradient-to-r from-[#D4AF37]/15 to-[#F4E5C3]/10 border border-[#D4AF37]/40 rounded-2xl p-8 md:p-12 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">
-              Ready to book BWI to {route.destination}?
+              Ready to book {originShort} to {route.destination}?
             </h2>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
               One locked-in <span className="text-[#D4AF37] font-bold">flat rate</span> — contact us for pricing.
@@ -322,10 +327,10 @@ const RoutePage = ({ route }) => {
                   data-testid={`related-route-${r.slug}`}
                 >
                   <p className="text-xs uppercase tracking-widest text-gray-500 mb-2">
-                    Airport Transfer
+                    {r.badge ? r.badge.replace(/ Route$/, '') : 'Airport Transfer'}
                   </p>
                   <p className="text-white font-bold text-lg group-hover:text-[#D4AF37] transition-colors leading-snug">
-                    BWI → {r.destination}
+                    {r.origin_short || 'BWI'} → {r.destination}
                   </p>
                   <p className="text-gray-400 text-sm mt-2">
                     {r.drive_time} · flat rate
