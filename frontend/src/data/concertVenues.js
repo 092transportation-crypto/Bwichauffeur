@@ -149,9 +149,9 @@ export const CONCERT_VENUES = [
     name: 'Jiffy Lube Live',
     highlight: 'Concert Transportation',
     city: 'Bristow, VA',
-    metaTitle: 'Jiffy Lube Live Transportation | Bristow VA Limo',
+    metaTitle: 'Jiffy Lube Live Concert Limo | BWI Chauffeur',
     metaDescription:
-      'Skip the Jiffy Lube Live parking lot exit. Chauffeured concert transportation to Bristow VA from DC, Maryland, and Northern Virginia. Call (877) 609-1919.',
+      'Skip the parking nightmare at Jiffy Lube Live. Professional limo service from BWI area. Call (877) 609-1919.',
     keywords:
       'Jiffy Lube Live transportation, Jiffy Lube Live limo service, Bristow VA concert limo, Jiffy Lube Live car service, Jiffy Lube Live parking alternative, Northern Virginia amphitheater transportation',
     heroImage:
