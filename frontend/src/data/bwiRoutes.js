@@ -929,6 +929,60 @@ export const BWI_ROUTES = [
     ],
     nearby_links: ['bwi-to-annapolis', 'bwi-to-crofton-md', 'bwi-to-pasadena-md'],
   },
+  {
+    slug: 'bwi-to-gibson-island',
+    destination: 'Gibson Island, MD',
+    headline: 'Gibson Island, Maryland',
+    h1: 'Gibson Island MD Luxury Car Service |',
+    h1_accent: 'BWI Chauffeur',
+    distance: '20 miles',
+    drive_time: '30–40 minutes',
+    badge: 'Anne Arundel County Route',
+    metaTitle: 'Gibson Island MD Luxury Car Service | BWI Chauffeur',
+    metaDescription:
+      'Discreet luxury car service for Gibson Island, MD. Flat-rate chauffeured transfers to BWI, DCA & IAD, plus corporate travel. 24/7 — call 877-609-1919.',
+    intro:
+      'Gibson Island is unlike anywhere else in Anne Arundel County — a private, gated island community of roughly one thousand acres rising from the Chesapeake Bay at the mouth of the Magothy River, reached only by the causeway at the end of Mountain Road. Life here is deliberately quiet: a security gatehouse, unhurried lanes, the Gibson Island Club, and generations of families who value privacy above all. Getting a dependable, discreet ride on and off the island, however, has never been simple. Rideshare drivers balk at the gatehouse, cancel on the far end of the Pasadena peninsula, or simply never accept the trip. Our Gibson Island luxury car service is built for this community specifically. A professional chauffeur is committed to you the moment you book — cleared through the gate, on time at your door, and holding one flat quoted rate to BWI, Reagan National, Dulles, or anywhere your travel requires.',
+    why_choose: [
+      'Discretion first — professional chauffeurs accustomed to serving private communities, with no logos, no chatter, and no shared rides',
+      'Gatehouse-ready arrivals — we coordinate your pickup at booking so your chauffeur is announced and cleared before reaching the causeway',
+      'Flat quoted rates to BWI, DCA, and IAD with tolls and gratuity included, locked in before you travel',
+      'Flight tracking on every airport transfer, with generous free wait time when arrivals run late',
+      'True 24/7 coverage at the end of Mountain Road — early departures and midnight landings where app-based rides routinely fail',
+    ],
+    what_to_expect:
+      'For departures, your chauffeur arrives at your Gibson Island residence a few minutes early — announced through the gatehouse per your instructions — loads your luggage, and eases back across the causeway while you settle into a quiet Mercedes, BMW, or Cadillac cabin. The run up Mountain Road to MD-100 and I-97 puts most travelers at the BWI terminal curb in thirty to forty minutes; Reagan National is roughly an hour and a quarter, and Dulles about an hour and a half, timed against live traffic. Arriving home, we track your flight into BWI, DCA, or IAD, meet you curbside or at baggage claim with a name placard, and carry you door to door — no juggling apps at midnight, no explaining the gatehouse to a stranger. Corporate runs into Baltimore, Annapolis, or Washington work the same way: one chauffeur, one quoted rate, and a cabin quiet enough to take a call or prepare for the meeting. Dispatch confirms every detail the evening before your trip.',
+    service_details: [
+      'Pickup: any Gibson Island residence or the Gibson Island Club, coordinated through the gatehouse at booking',
+      'Airports served: BWI Marshall, Reagan National (DCA), Dulles (IAD), plus private aviation at Martin State and BWI FBOs',
+      'Vehicles: executive sedans for solo travelers and couples, Escalade and Suburban SUVs for families, Sprinter van for larger parties',
+      'Corporate and private travel: Baltimore, Annapolis, and Washington DC meetings, dinners, and events with wait-and-return service',
+      'Ideal for: island residents, club members and their guests, yacht squadron visitors, and house guests arriving by air',
+    ],
+    faqs: [
+      {
+        q: 'How much is a car service from Gibson Island to BWI?',
+        a: 'Every transfer is one flat, all-inclusive quoted rate — tolls and gratuity included, fixed at booking with no surge pricing. Rates vary by vehicle class, so call 877-609-1919 or request an online quote for your exact price to BWI, DCA, or IAD.',
+      },
+      {
+        q: 'How does my chauffeur get through the Gibson Island gatehouse?',
+        a: 'We handle it at booking. You provide your gate instructions once, we pass the chauffeur and vehicle details to be announced, and your driver is cleared before reaching the causeway. There is no calling around or waiting at the gate on the day of travel.',
+      },
+      {
+        q: 'Do you serve airports other than BWI?',
+        a: 'Yes. In addition to BWI Marshall — about 30 to 40 minutes away — we run flat-rate transfers to Reagan National and Dulles, and serve private aviation terminals at Martin State Airport and the BWI FBOs. Every airport trip includes flight tracking and free wait time.',
+      },
+      {
+        q: 'Can you handle very early departures or late-night arrivals?',
+        a: 'Around the clock. Dispatch operates 24/7, and because your chauffeur is committed when you book, a 4 AM pickup on the island or a midnight landing at BWI is guaranteed — not left to whether an app driver will accept a trip to the end of Mountain Road.',
+      },
+      {
+        q: 'Do you offer recurring service for corporate travelers?',
+        a: 'Yes. Many Gibson Island clients keep a standing arrangement — weekly airport runs, regular commutes to Baltimore or Washington, or on-call service for house guests. We keep your gate instructions, vehicle preference, and billing on file so each trip takes one short call or email to arrange.',
+      },
+    ],
+    nearby_links: ['bwi-to-pasadena-md', 'bwi-to-annapolis', 'bwi-to-severn-md'],
+  },
 ];
 
 export const findRouteBySlug = (slug) =>
