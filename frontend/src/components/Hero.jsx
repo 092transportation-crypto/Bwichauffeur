@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
-      {/* Background — flagship Mercedes S-Class */}
+      {/* Background — our BMW 7 Series and Escalade ESV staged in downtown Baltimore */}
       <div className="absolute inset-0">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(/fleet/mercedes-s-class.jpg)',
+            backgroundImage: 'url(/images/gallery/fleet-downtown-baltimore.jpg)',
             filter: 'brightness(0.35)',
           }}
         />

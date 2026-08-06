@@ -5,6 +5,7 @@ import IntroContent from '../components/IntroContent';
 import Services from '../components/Services';
 import QuoteCTA from '../components/QuoteCTA';
 import Fleet from '../components/Fleet';
+import Gallery from '../components/Gallery';
 import About from '../components/About';
 import PromiseSection from '../components/Promise';
 import BWIDifference from '../components/BWIDifference';
@@ -35,6 +36,7 @@ const HomePage = () => {
       <Services />
       <QuoteCTA />
       <Fleet />
+      <Gallery />
       <About />
       <PromiseSection />
       <BWIDifference />
