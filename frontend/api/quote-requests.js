@@ -9,6 +9,7 @@
 const { readBody, applyCors, isEmail, uuid, nowIso } = require("../lib/http");
 const { saveDoc } = require("../lib/db");
 const {
+  cleanEnv,
   sendEmail,
   buildAdminQuoteEmail,
   buildCustomerQuoteEmail,
@@ -53,7 +54,7 @@ module.exports = async (req, res) => {
   // Persist (optional / non-fatal) and notify in parallel.
   const saved = await saveDoc("quote_requests", doc);
 
-  const notifyTo = process.env.NOTIFICATION_EMAIL || "092transportation@gmail.com";
+  const notifyTo = cleanEnv(process.env.NOTIFICATION_EMAIL) || "092transportation@gmail.com";
   const admin = buildAdminQuoteEmail(doc);
   const customer = buildCustomerQuoteEmail(doc);
 

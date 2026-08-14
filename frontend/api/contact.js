@@ -8,6 +8,7 @@
 const { readBody, applyCors, isEmail, uuid, nowIso } = require("../lib/http");
 const { saveDoc } = require("../lib/db");
 const {
+  cleanEnv,
   sendEmail,
   buildAdminContactEmail,
   buildCustomerContactEmail,
@@ -41,7 +42,7 @@ module.exports = async (req, res) => {
 
   const saved = await saveDoc("contact_messages", doc);
 
-  const notifyTo = process.env.NOTIFICATION_EMAIL || "092transportation@gmail.com";
+  const notifyTo = cleanEnv(process.env.NOTIFICATION_EMAIL) || "092transportation@gmail.com";
   const admin = buildAdminContactEmail(doc);
   const customer = buildCustomerContactEmail(doc);
 
