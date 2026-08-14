@@ -16,17 +16,43 @@ const GOLD = "#D4AF37";
 
 let cachedTransport = null;
 
+/**
+ * Env values pasted into dashboards often pick up stray whitespace, newlines,
+ * or wrapping quotes. Gmail also displays app passwords in spaced groups
+ * ("abcd efgh ijkl mnop") while SMTP AUTH requires the 16 chars unspaced.
+ */
+function cleanEnv(value) {
+  return String(value || "").trim().replace(/^["']|["']$/g, "");
+}
+
+function smtpConfig() {
+  const host = cleanEnv(process.env.SMTP_HOST) || "smtp.gmail.com";
+  const port = parseInt(cleanEnv(process.env.SMTP_PORT) || "587", 10);
+  const user = cleanEnv(process.env.SMTP_USER);
+  let pass = cleanEnv(process.env.SMTP_PASSWORD);
+  if (host.endsWith("gmail.com")) pass = pass.replace(/\s+/g, "");
+  return { host, port, user, pass };
+}
+
+/** Safe-to-log summary of the SMTP config (never includes the password). */
+function smtpDebugSummary() {
+  const raw = String(process.env.SMTP_PASSWORD || "");
+  const { host, port, user, pass } = smtpConfig();
+  return (
+    `host=${host} port=${port} user=${user || "(unset)"} ` +
+    `passLen=${pass.length} rawPassHadWhitespace=${/\s/.test(raw)}`
+  );
+}
+
 function getTransport() {
   if (cachedTransport) return cachedTransport;
 
-  const host = process.env.SMTP_HOST || "smtp.gmail.com";
-  const port = parseInt(process.env.SMTP_PORT || "587", 10);
-  const user = process.env.SMTP_USER;
-  const pass = process.env.SMTP_PASSWORD;
+  const { host, port, user, pass } = smtpConfig();
 
   if (!user || !pass) {
     throw new Error(
-      "Email is not configured: set SMTP_USER and SMTP_PASSWORD environment variables."
+      "Email is not configured: set SMTP_USER and SMTP_PASSWORD environment variables. " +
+        `(${smtpDebugSummary()})`
     );
   }
 
@@ -40,24 +66,44 @@ function getTransport() {
 }
 
 function fromAddress() {
-  const user = process.env.SMTP_USER || "no-reply@bwichauffeur.com";
+  const user = smtpConfig().user || "no-reply@bwichauffeur.com";
   return `BWI Chauffeur <${user}>`;
 }
 
 /** Send one email. Returns the nodemailer info object. Throws on failure. */
 async function sendEmail(to, subject, text, html) {
   const transport = getTransport();
-  const info = await transport.sendMail({
-    from: fromAddress(),
-    to,
-    subject,
-    text,
-    html,
-  });
-  // When using an Ethereal test account this exposes a preview URL.
-  const preview = nodemailer.getTestMessageUrl && nodemailer.getTestMessageUrl(info);
-  if (preview) console.log("Email preview URL:", preview);
-  return info;
+  try {
+    const info = await transport.sendMail({
+      from: fromAddress(),
+      to,
+      subject,
+      text,
+      html,
+    });
+    // When using an Ethereal test account this exposes a preview URL.
+    const preview = nodemailer.getTestMessageUrl && nodemailer.getTestMessageUrl(info);
+    if (preview) console.log("Email preview URL:", preview);
+    return info;
+  } catch (err) {
+    // Surface everything the SMTP server told us, plus a redacted config
+    // summary, so production logs pinpoint the failure (auth vs network vs
+    // recipient) without exposing credentials.
+    console.error(
+      "sendEmail failed:",
+      JSON.stringify({
+        to,
+        subject,
+        code: err.code,
+        responseCode: err.responseCode,
+        command: err.command,
+        response: err.response,
+        message: err.message,
+        smtp: smtpDebugSummary(),
+      })
+    );
+    throw err;
+  }
 }
 
 // ----------------- Templates (ported from Python) -----------------
