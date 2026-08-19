@@ -30,7 +30,7 @@ const BaltimoreSportsPage = () => {
         <title>Baltimore Sports Transportation | Ravens & Orioles</title>
         <meta name="description" content="Premium transportation to Baltimore sports events with professional chauffeurs, luxury vehicles, and timely service for a smooth, enjoyable experience." />
         <meta name="keywords" content="Baltimore Ravens transportation, Orioles game day shuttle, M&T Bank Stadium limo, Camden Yards chauffeur, Baltimore sports transportation, NFL game transportation, MLB game shuttle, Ravens tailgate transportation" />
-        <link rel="canonical" href="https://bwichauffeur.com/baltimore-sports-transportation/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/baltimore-sports-transportation/" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',

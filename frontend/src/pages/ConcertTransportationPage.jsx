@@ -84,7 +84,7 @@ const ConcertTransportationPage = () => {
           name="keywords"
           content="concert transportation Baltimore, event limo service, CFG Bank Arena limo, Merriweather Post Pavilion transportation, Capital One Arena car service, Jiffy Lube Live limo, M&T Bank Stadium transportation, Camden Yards limo, concert car service DC"
         />
-        <link rel="canonical" href="https://bwichauffeur.com/concert-transportation/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/concert-transportation/" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',

@@ -38,7 +38,7 @@ const VenuePage = ({ venue }) => {
         <title>{venue.metaTitle}</title>
         <meta name="description" content={venue.metaDescription} />
         <meta name="keywords" content={venue.keywords} />
-        <link rel="canonical" href={`https://bwichauffeur.com/${venue.slug}/`} />
+        <link rel="canonical" href={`https://www.bwichauffeur.com/${venue.slug}/`} />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',

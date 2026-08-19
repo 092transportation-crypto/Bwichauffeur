@@ -9,7 +9,7 @@ const TermsConditionsPage = () => {
       <Helmet>
         <title>Terms & Conditions 2026 | BWI Chauffeur Services</title>
         <meta name="description" content="Review the terms and conditions for all BWI Chauffeur services, including bookings, cancellations, and service agreements for every valued client clearly." />
-        <link rel="canonical" href="https://bwichauffeur.com/terms-conditions/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/terms-conditions/" />
       </Helmet>
       
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

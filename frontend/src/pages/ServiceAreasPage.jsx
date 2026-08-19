@@ -12,11 +12,11 @@ const ServiceAreasPage = () => {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'BWI Chauffeur Service Areas — Maryland Limo & Car Service Cities',
-    url: 'https://bwichauffeur.com/service-areas',
+    url: 'https://www.bwichauffeur.com/service-areas',
     hasPart: CITIES.map((c) => ({
       '@type': 'WebPage',
       name: `Limo Service ${c.name}, MD`,
-      url: `https://bwichauffeur.com/limo-service-${c.slug}`,
+      url: `https://www.bwichauffeur.com/limo-service-${c.slug}`,
     })),
   };
 
@@ -28,7 +28,7 @@ const ServiceAreasPage = () => {
           name="description"
           content="BWI Chauffeur serves 45+ Maryland cities with luxury limo, black car & airport car service — Baltimore, Columbia, Annapolis, Bethesda & more."
         />
-        <link rel="canonical" href="https://bwichauffeur.com/service-areas" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/service-areas" />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 

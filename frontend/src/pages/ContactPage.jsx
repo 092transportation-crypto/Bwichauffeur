@@ -94,7 +94,7 @@ const ContactPage = () => {
           name="description"
           content="Contact BWI Chauffeur for 24/7 luxury airport transfers and corporate car service across Maryland, DC & Delaware. Call 877-609-1919 or book online."
         />
-        <link rel="canonical" href="https://bwichauffeur.com/contact/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/contact/" />
       </Helmet>
 
       <div className="min-h-screen bg-black pt-32 pb-16" data-testid="contact-page">

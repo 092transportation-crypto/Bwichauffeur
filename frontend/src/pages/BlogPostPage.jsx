@@ -296,7 +296,7 @@ const BlogPostPage = () => {
       <Helmet>
         <title>{post.seoTitle || post.title}</title>
         <meta name="description" content={post.seoDescription || post.excerpt} />
-        <link rel="canonical" href={`https://bwichauffeur.com/blog/${slug}/`} />
+        <link rel="canonical" href={`https://www.bwichauffeur.com/blog/${slug}/`} />
         {post.faqs && post.faqs.length > 0 && (
           <script type="application/ld+json">
             {JSON.stringify({

@@ -86,7 +86,7 @@ const CruiseTransportationPage = () => {
       <Helmet>
         <title>Port of Baltimore Cruise Terminal Limo | BWI Chauffeur</title>
         <meta name="description" content="Luxury cruise port transfers to the Port of Baltimore & Norfolk. Flat-rate chauffeur service for cruise passengers with door-to-door pickup." />
-        <link rel="canonical" href="https://bwichauffeur.com/cruise-transportation/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/cruise-transportation/" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',

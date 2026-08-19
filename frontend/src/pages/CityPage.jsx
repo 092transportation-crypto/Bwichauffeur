@@ -121,7 +121,7 @@ const CityPage = ({ city }) => {
   const routes = buildRoutes(city);
   const faqs = buildFaqs(city);
   const nearby = getNearbyCities(city, 8);
-  const pageUrl = `https://bwichauffeur.com/limo-service-${city.slug}`;
+  const pageUrl = `https://www.bwichauffeur.com/limo-service-${city.slug}`;
   const title = `Limo Service ${city.name}, MD | BWI Car Service`;
   const description = `Flat-rate BWI airport transfers from ${city.name}, MD (~${city.minutes} min) plus corporate, wedding & 24/7 chauffeur service. Call ${PHONE_DISPLAY}.`;
 
@@ -139,8 +139,8 @@ const CityPage = ({ city }) => {
           name: 'BWI Chauffeur',
           telephone: '(877) 609-1919',
           email: 'info@bwichauffeur.com',
-          url: 'https://bwichauffeur.com',
-          image: 'https://bwichauffeur.com/images/bmw-7series.jpg',
+          url: 'https://www.bwichauffeur.com',
+          image: 'https://www.bwichauffeur.com/images/bmw-7series.jpg',
           address: {
             '@type': 'PostalAddress',
             streetAddress: 'Severna Park',
@@ -165,8 +165,8 @@ const CityPage = ({ city }) => {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://bwichauffeur.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Service Areas', item: 'https://bwichauffeur.com/service-areas' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.bwichauffeur.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Service Areas', item: 'https://www.bwichauffeur.com/service-areas' },
           { '@type': 'ListItem', position: 3, name: `${city.name}, MD`, item: pageUrl },
         ],
       },

@@ -46,7 +46,7 @@ const AboutPage = () => {
       <Helmet>
         <title>About BWI Chauffeur | Maryland Luxury Car Service</title>
         <meta name="description" content="Learn about BWI Chauffeur's professional services, highly trained drivers, and luxury vehicle fleet for premium, stress-free transportation experiences." />
-        <link rel="canonical" href="https://bwichauffeur.com/about/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/about/" />
       </Helmet>
       <div className="min-h-screen bg-black pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

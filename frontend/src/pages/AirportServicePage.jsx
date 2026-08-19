@@ -38,7 +38,7 @@ const AirportServicePage = ({ airport }) => {
         <title>{airport.metaTitle}</title>
         <meta name="description" content={airport.metaDescription} />
         <meta name="keywords" content={airport.keywords} />
-        <link rel="canonical" href={`https://bwichauffeur.com/${airport.slug}/`} />
+        <link rel="canonical" href={`https://www.bwichauffeur.com/${airport.slug}/`} />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',

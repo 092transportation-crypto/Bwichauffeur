@@ -28,7 +28,7 @@ const BlogPage = () => {
       <Helmet>
         <title>BWI Chauffeur Blog | Airport Travel Tips & Route Guides</title>
         <meta name="description" content="Stay informed with the latest chauffeur service news, expert travel tips, and timely updates to ensure safe and luxurious transportation experiences always." />
-        <link rel="canonical" href="https://bwichauffeur.com/blog/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/blog/" />
       </Helmet>
     <div className="min-h-screen bg-black pt-32 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -52,7 +52,7 @@ const RoutePage = ({ route }) => {
   })();
 
   const title = route.metaTitle || `${originShort} to ${route.destination} | Flat Rate Car Service`;
-  const canonical = `https://bwichauffeur.com/${route.slug}`;
+  const canonical = `https://www.bwichauffeur.com/${route.slug}`;
 
   const faqs = route.faqs || [
     {
@@ -93,7 +93,7 @@ const RoutePage = ({ route }) => {
         <meta property="og:url" content={canonical} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={route.metaDescription} />
-        <meta property="og:image" content="https://bwichauffeur.com/logo.jpeg" />
+        <meta property="og:image" content="https://www.bwichauffeur.com/logo.jpeg" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={route.metaDescription} />

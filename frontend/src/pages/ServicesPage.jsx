@@ -37,7 +37,7 @@ const ServicesPage = () => {
       <Helmet>
         <title>BWI Airport Transportation & Executive Car Service</title>
         <meta name="description" content="BWI Chauffeur offers luxury airport transportation, executive car service, corporate travel, group rides, and wedding transportation." />
-        <link rel="canonical" href="https://bwichauffeur.com/services/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/services/" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',

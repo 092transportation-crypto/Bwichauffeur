@@ -14,7 +14,7 @@ const FleetPage = () => {
       <Helmet>
         <title>Luxury Fleet | Mercedes, BMW, Cadillac & Sprinter</title>
         <meta name="description" content="Travel in premium luxury vehicles with BWI Chauffeur, including Mercedes, BMW, and Cadillac, ensuring ultimate comfort, style, and complete reliability." />
-        <link rel="canonical" href="https://bwichauffeur.com/luxury-fleet/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/luxury-fleet/" />
       </Helmet>
       
     <div className="min-h-screen bg-black pt-32">

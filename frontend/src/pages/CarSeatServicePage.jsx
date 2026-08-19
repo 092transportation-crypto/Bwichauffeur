@@ -87,7 +87,7 @@ const CarSeatServicePage = () => {
       <Helmet>
         <title>Car Seat BWI Airport Transfers | BWI Chauffeur</title>
         <meta name="description" content="Safe, clean car seats for infants, toddlers & kids on every BWI airport transfer. Inspected, sanitized & installed by your chauffeur. Call 877-609-1919." />
-        <link rel="canonical" href="https://bwichauffeur.com/car-seat-service/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/car-seat-service/" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',

@@ -12,7 +12,7 @@ const PrivacyPolicyPage = () => {
           name="description"
           content="BWI Chauffeur privacy policy: what we collect, how we use it, your SMS opt-in rights, and our commitment to never share mobile consent data."
         />
-        <link rel="canonical" href="https://bwichauffeur.com/privacy-policy/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/privacy-policy/" />
       </Helmet>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,7 +37,7 @@ const PrivacyPolicyPage = () => {
           <p>
             BWI Chauffeur (&quot;BWI Chauffeur,&quot; &quot;we,&quot; &quot;us,&quot; or
             &quot;our&quot;) operates the website{' '}
-            <a href="https://bwichauffeur.com" className="text-[#D4AF37] hover:underline">
+            <a href="https://www.bwichauffeur.com" className="text-[#D4AF37] hover:underline">
               bwichauffeur.com
             </a>{' '}
             and provides luxury chauffeur transportation services across Maryland,
@@ -185,10 +185,10 @@ const PrivacyPolicyPage = () => {
                   reply <strong>HELP</strong> for support; message &amp; data rates may
                   apply; messaging frequency may vary. Visit{' '}
                   <a
-                    href="https://bwichauffeur.com/privacy-policy"
+                    href="https://www.bwichauffeur.com/privacy-policy"
                     className="text-[#D4AF37] hover:underline not-italic"
                   >
-                    https://bwichauffeur.com/privacy-policy
+                    https://www.bwichauffeur.com/privacy-policy
                   </a>{' '}
                   to see our Privacy Policy and terms and conditions.&quot;
                 </p>
@@ -357,7 +357,7 @@ const PrivacyPolicyPage = () => {
               <li>
                 <strong className="text-white">Web:</strong>{' '}
                 <a
-                  href="https://bwichauffeur.com"
+                  href="https://www.bwichauffeur.com"
                   className="text-[#D4AF37] hover:underline"
                 >
                   bwichauffeur.com
