@@ -330,7 +330,7 @@ const RoutePage = ({ route }) => {
           {/* Related routes — always 4 */}
           <section className="mb-8" data-testid="related-routes">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-5">
-              Related <span className="text-[#D4AF37]">BWI Routes</span>
+              Also Serving <span className="text-[#D4AF37]">These BWI Routes</span>
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {relatedRoutes.map((r) => (

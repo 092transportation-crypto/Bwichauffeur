@@ -30,6 +30,28 @@ const HomePage = () => {
         <meta property="twitter:title" content="BWI Airport Car Service | Flat-Rate Chauffeur, No Surge" />
         <meta property="twitter:description" content="BWI Chauffeur offers professional chauffeur service and hourly chauffeur service for airport transfers, business travel, and luxury rides in the BWI area." />
         <meta property="twitter:image" content="https://bwichauffeur.com/logo.jpeg" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LimousineService',
+            name: 'BWI Chauffeur',
+            url: 'https://bwichauffeur.com/',
+            telephone: '+1-877-609-1919',
+            image: 'https://bwichauffeur.com/logo.jpeg',
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              addressCountry: 'US',
+            },
+            areaServed: [
+              { '@type': 'State', name: 'Maryland' },
+              { '@type': 'State', name: 'Virginia' },
+              { '@type': 'AdministrativeArea', name: 'Washington DC' },
+            ],
+            priceRange: '$$',
+          })}
+        </script>
       </Helmet>
       <Hero />
       <IntroContent />

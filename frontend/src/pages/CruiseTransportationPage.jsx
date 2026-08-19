@@ -176,7 +176,7 @@ const CruiseTransportationPage = () => {
                   <div className="relative h-56 overflow-hidden">
                     <img
                       src={port.image}
-                      alt={port.name}
+                      alt={`${port.name} — BWI Chauffeur cruise terminal car service and transfers`}
                       loading="lazy"
                       decoding="async"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"

@@ -8,19 +8,29 @@ const HomeFAQ = () => {
 
   const faqs = [
     {
-      question: 'How much does BWI airport transportation cost?',
+      question: 'How much does BWI airport car service cost?',
       answer:
-        'Rates depend on vehicle type and distance. Fill out our quote form for an accurate price.'
+        'Rates are flat and quoted by vehicle class and distance — the price includes fuel, tolls, flight tracking, and the chauffeur, with no surge pricing and no overnight fees. Request a quote online or call (877) 609-1919 for an exact all-inclusive rate for your address.'
     },
     {
-      question: 'Do you provide flight tracking for airport pickups?',
+      question: 'How far in advance should I book?',
       answer:
-        'Yes. We monitor your flight in real-time and adjust the pickup time automatically if your flight is early or delayed — at no extra charge.'
+        'Book by the night before at the latest — earlier for pre-dawn departures, holidays, and event weekends when vehicles sell out. We accommodate same-day and last-minute requests whenever a vehicle is available, and our phone line answers 24/7.'
     },
     {
-      question: 'Which areas do you serve?',
+      question: 'Do you track flights?',
       answer:
-        'We serve all of Maryland, Washington DC, Northern Virginia, and Delaware, with our primary hub at BWI Airport.'
+        'Yes. Every airport pickup includes real-time flight tracking with complimentary wait time built in. If your flight lands early or hours late, your chauffeur adjusts automatically — you never need to call from the tarmac.'
+    },
+    {
+      question: 'What vehicles do you offer?',
+      answer:
+        'Late-model Mercedes-Benz E-Class and S-Class sedans, BMW 7 Series, Cadillac Escalade and Chevrolet Suburban SUVs, and 14-passenger Mercedes Sprinter vans for groups. Every vehicle is detailed before your trip and driven by a professional, background-checked chauffeur.'
+    },
+    {
+      question: 'Do you serve DCA and IAD airports too?',
+      answer:
+        'Yes. In addition to BWI Marshall, we run flat-rate, flight-tracked transfers to and from Reagan National (DCA), Washington Dulles (IAD), and Philadelphia International (PHL) from anywhere in Maryland, DC, Virginia, and Delaware.'
     }
   ];
 
