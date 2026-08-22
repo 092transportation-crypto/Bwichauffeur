@@ -4,6 +4,7 @@ import { ArrowLeft, BadgeDollarSign, CheckCircle, Clock, CreditCard, Shield } fr
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { InquiryForm } from '../components/InquiryForm';
+import { QuoteCalculator } from '../components/QuoteCalculator';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const BookingPage = () => {
@@ -87,6 +88,7 @@ const BookingPage = () => {
 
           {/* The ONE booking form */}
           <div data-testid="quote-section">
+            <QuoteCalculator />
             <InquiryForm />
           </div>
 
