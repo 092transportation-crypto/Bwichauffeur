@@ -79,7 +79,7 @@ const BookingPage = () => {
                 <p className="mt-1 text-sm leading-relaxed text-gray-300">
                   Rates vary by vehicle and distance. Every quote is all-inclusive — tolls,
                   taxes &amp; gratuity. Fill out the form below for your{' '}
-                  <span className="font-semibold text-[#D4AF37]">free instant quote</span>.
+                  <span className="font-semibold text-[#D4AF37]">free quote</span>.
                 </p>
               </div>
             </div>
