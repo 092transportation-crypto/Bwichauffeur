@@ -132,7 +132,7 @@ const Footer = () => {
               </a>
               <div className="flex items-start space-x-3 text-gray-400">
                 <MapPin className="h-5 w-5 text-[#D4AF37] mt-1" />
-                <span>BWI Airport Area<br />Baltimore, Maryland</span>
+                <span>9836 Lyon Ave<br />Laurel, MD 20723</span>
               </div>
             </div>
           </div>

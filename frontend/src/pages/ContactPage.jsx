@@ -190,12 +190,13 @@ const ContactPage = () => {
                       <MapPin className="h-5 w-5 text-[#D4AF37]" />
                     </div>
                     <div>
-                      <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">Service Area</p>
+                      <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">Office</p>
                       <p className="text-white">
-                        BWI Airport Area
+                        9836 Lyon Ave
                         <br />
-                        Baltimore, Maryland
+                        Laurel, MD 20723
                       </p>
+                      <p className="text-gray-400 text-sm mt-1">Serving BWI, Baltimore, Washington DC and all of Maryland</p>
                     </div>
                   </div>
                 </CardContent>

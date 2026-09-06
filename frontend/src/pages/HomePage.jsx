@@ -40,8 +40,10 @@ const HomePage = () => {
             image: 'https://www.bwichauffeur.com/logo.jpeg',
             address: {
               '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
               addressLocality: 'Laurel',
               addressRegion: 'MD',
+              postalCode: '20723',
               addressCountry: 'US',
             },
             areaServed: [

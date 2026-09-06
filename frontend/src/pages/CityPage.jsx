@@ -143,10 +143,10 @@ const CityPage = ({ city }) => {
           image: 'https://www.bwichauffeur.com/images/bmw-7series.jpg',
           address: {
             '@type': 'PostalAddress',
-            streetAddress: 'Severna Park',
-            addressLocality: 'Severna Park',
+            streetAddress: '9836 Lyon Ave',
+            addressLocality: 'Laurel',
             addressRegion: 'MD',
-            postalCode: '21146',
+            postalCode: '20723',
             addressCountry: 'US',
           },
           priceRange: '$$',

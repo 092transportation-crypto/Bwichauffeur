@@ -42,7 +42,7 @@ const MarylandPage = ({ page }) => {
         url: SITE_URL,
         image: `${SITE_URL}/logo.jpeg`,
         priceRange: '$$',
-        address: { '@type': 'PostalAddress', addressRegion: 'MD', addressCountry: 'US' },
+        address: { '@type': 'PostalAddress', streetAddress: '9836 Lyon Ave', addressLocality: 'Laurel', addressRegion: 'MD', postalCode: '20723', addressCountry: 'US' },
         areaServed: page.schema.areaServed.map((a) => ({ '@type': 'Place', name: a })),
         openingHours: 'Mo-Su 00:00-23:59',
       },
