@@ -31,6 +31,8 @@ import { BWI_ROUTES } from "./data/bwiRoutes";
 import { CONCERT_VENUES } from "./data/concertVenues";
 import AirportServicePage from "./pages/AirportServicePage";
 import { AIRPORT_PAGES } from "./data/airportPages";
+import MarylandPage from "./pages/MarylandPage";
+import { MARYLAND_PAGES } from "./data/marylandPages";
 import ChatWidget from "./components/ChatWidget";
 import FloatingCallButton from "./components/FloatingCallButton";
 import { Toaster } from "sonner";
@@ -91,6 +93,13 @@ function App() {
                     key={route.slug}
                     path={`/${route.slug}`}
                     element={<RoutePage route={route} />}
+                  />
+                ))}
+                {MARYLAND_PAGES.map((page) => (
+                  <Route
+                    key={page.slug}
+                    path={`/${page.slug}`}
+                    element={<MarylandPage page={page} />}
                   />
                 ))}
                 <Route path="*" element={<NotFoundPage />} />
