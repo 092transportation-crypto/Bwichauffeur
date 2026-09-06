@@ -17,6 +17,7 @@ import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
+import { sanitizePhone, isValidPhone } from '../lib/phone';
 import { toast } from 'sonner';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { AddressAutocomplete } from '../components/AddressAutocomplete';
@@ -32,7 +33,8 @@ const PASSENGER_OPTIONS = Array.from({ length: 14 }, (_, i) => ({
 }));
 
 const initial = {
-  full_name: '',
+  first_name: '',
+  last_name: '',
   phone: '',
   email: '',
   pickup_location: '',
@@ -53,7 +55,14 @@ const ContactPage = () => {
     const { name, value, type, checked } = e.target;
     setForm((prev) => ({
       ...prev,
-      [name]: type === 'checkbox' ? checked : name === 'passengers' ? Number(value) || 1 : value,
+      [name]:
+        type === 'checkbox'
+          ? checked
+          : name === 'passengers'
+            ? Number(value) || 1
+            : name === 'phone'
+              ? sanitizePhone(value)
+              : value,
     }));
   };
 
@@ -61,8 +70,13 @@ const ContactPage = () => {
     e.preventDefault();
     setError('');
 
-    if (!form.full_name.trim() || !form.phone.trim() || !form.email.trim() || !form.pickup_location.trim()) {
+    if (!form.first_name.trim() || !form.last_name.trim() || !form.phone.trim() || !form.email.trim() || !form.pickup_location.trim()) {
       setError('Please fill in all required fields.');
+      return;
+    }
+
+    if (!isValidPhone(form.phone)) {
+      setError('Please enter a valid phone number (digits only, at least 10).');
       return;
     }
 
@@ -73,7 +87,13 @@ const ContactPage = () => {
 
     setSubmitting(true);
     try {
-      await axios.post(`${API}/quote-requests`, form);
+      await axios.post(`${API}/quote-requests`, {
+        ...form,
+        full_name: `${form.first_name.trim()} ${form.last_name.trim()}`.trim(),
+        first_name: form.first_name.trim(),
+        last_name: form.last_name.trim(),
+        phone: form.phone.trim(),
+      });
       setSubmitted(true);
       setForm(initial);
       toast.success('Quote request received! We respond within 15 minutes.');
@@ -240,19 +260,59 @@ const ContactPage = () => {
                     <form onSubmit={onSubmit} className="space-y-5" data-testid="contact-form">
                       <div className="grid sm:grid-cols-2 gap-5">
                         <div>
-                          <Label htmlFor="full_name" className="text-gray-300">
-                            Name <span className="text-[#D4AF37]">*</span>
+                          <Label htmlFor="first_name" className="text-gray-300">
+                            First Name <span className="text-[#D4AF37]">*</span>
                           </Label>
                           <Input
-                            id="full_name"
-                            name="full_name"
+                            id="first_name"
+                            name="first_name"
                             type="text"
+                            autoComplete="given-name"
                             required
-                            value={form.full_name}
+                            value={form.first_name}
                             onChange={onChange}
-                            placeholder="Jane Doe"
+                            placeholder="First Name"
                             className="mt-2 bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-[#D4AF37]"
-                            data-testid="contact-input-name"
+                            data-testid="contact-input-first-name"
+                          />
+                        </div>
+                        <div>
+                          <Label htmlFor="last_name" className="text-gray-300">
+                            Last Name <span className="text-[#D4AF37]">*</span>
+                          </Label>
+                          <Input
+                            id="last_name"
+                            name="last_name"
+                            type="text"
+                            autoComplete="family-name"
+                            required
+                            value={form.last_name}
+                            onChange={onChange}
+                            placeholder="Last Name"
+                            className="mt-2 bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-[#D4AF37]"
+                            data-testid="contact-input-last-name"
+                          />
+                        </div>
+                      </div>
+
+                      <div className="grid sm:grid-cols-2 gap-5">
+                        <div>
+                          <Label htmlFor="phone" className="text-gray-300">
+                            Phone Number <span className="text-[#D4AF37]">*</span>
+                          </Label>
+                          <Input
+                            id="phone"
+                            name="phone"
+                            type="tel"
+                            inputMode="tel"
+                            pattern="[0-9+()\-.\s]*"
+                            autoComplete="tel"
+                            required
+                            value={form.phone}
+                            onChange={onChange}
+                            placeholder="Phone Number"
+                            className="mt-2 bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-[#D4AF37]"
+                            data-testid="contact-input-phone"
                           />
                         </div>
                         <div>
@@ -274,22 +334,6 @@ const ContactPage = () => {
                       </div>
 
                       <div className="grid sm:grid-cols-2 gap-5">
-                        <div>
-                          <Label htmlFor="phone" className="text-gray-300">
-                            Phone <span className="text-[#D4AF37]">*</span>
-                          </Label>
-                          <Input
-                            id="phone"
-                            name="phone"
-                            type="tel"
-                            required
-                            value={form.phone}
-                            onChange={onChange}
-                            placeholder="(667) 555-0123"
-                            className="mt-2 bg-black/40 border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-[#D4AF37]"
-                            data-testid="contact-input-phone"
-                          />
-                        </div>
                         <div>
                           <Label htmlFor="pickup_location" className="text-gray-300">
                             Pickup Location <span className="text-[#D4AF37]">*</span>

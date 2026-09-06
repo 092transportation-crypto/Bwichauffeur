@@ -23,6 +23,7 @@ import {
   BadgeDollarSign,
   UserCheck,
 } from "lucide-react";
+import { sanitizePhone, isValidPhone } from "../lib/phone";
 import { AddressAutocomplete } from "./AddressAutocomplete";
 
 // Inquiries POST to the same-origin Vercel serverless function
@@ -68,7 +69,8 @@ const TRUST_BADGES = [
 ];
 
 const EMPTY = {
-  full_name: "",
+  first_name: "",
+  last_name: "",
   phone: "",
   email: "",
   preferred_contact: "",
@@ -86,7 +88,7 @@ const EMPTY = {
 
 // Fields that count toward the completion meter (vehicle/notes optional).
 const PROGRESS_FIELDS = [
-  "full_name", "phone", "email", "preferred_contact",
+  "first_name", "last_name", "phone", "email", "preferred_contact",
   "service_type", "pickup_location", "dropoff_location", "date", "time",
 ];
 
@@ -252,6 +254,9 @@ export const InquiryForm = () => {
     if (form.email && !EMAIL_RE.test(form.email) && !missing.includes("email")) {
       missing.push("email");
     }
+    if (form.phone && !isValidPhone(form.phone) && !missing.includes("phone")) {
+      missing.push("phone");
+    }
     if (!form.sms_consent) missing.push("sms_consent");
     if (missing.length) {
       setInvalid(missing);
@@ -259,7 +264,9 @@ export const InquiryForm = () => {
       toast.error(
         missing.length === 1 && missing[0] === "sms_consent"
           ? "Please agree to the SMS consent to continue."
-          : "Please complete the highlighted fields."
+          : form.phone.trim() && !isValidPhone(form.phone)
+            ? "Please enter a valid phone number (digits only, at least 10)."
+            : "Please complete the highlighted fields."
       );
       return;
     }
@@ -270,8 +277,10 @@ export const InquiryForm = () => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          full_name: form.full_name,
-          phone: form.phone,
+          full_name: `${form.first_name.trim()} ${form.last_name.trim()}`.trim(),
+          first_name: form.first_name.trim(),
+          last_name: form.last_name.trim(),
+          phone: form.phone.trim(),
           email: form.email,
           preferred_contact: form.preferred_contact,
           service_type: form.service_type,
@@ -350,37 +359,56 @@ export const InquiryForm = () => {
           onAnimationComplete={() => setShaking(false)}
         >
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
-            {/* Full Name */}
+            {/* First Name */}
             <motion.div variants={itemVariants} className="relative">
               <input
-                id="inq-name"
-                data-testid="inquiry-name"
-                className={`${inputBase} ${borderCls(invalid.includes("full_name"))}`}
-                placeholder="Full Name"
-                autoComplete="name"
-                value={form.full_name}
-                onChange={(e) => set("full_name", e.target.value)}
+                id="inq-first-name"
+                data-testid="inquiry-first-name"
+                name="first_name"
+                className={`${inputBase} ${borderCls(invalid.includes("first_name"))}`}
+                placeholder="First Name"
+                autoComplete="given-name"
+                value={form.first_name}
+                onChange={(e) => set("first_name", e.target.value)}
               />
-              <label htmlFor="inq-name" className={labelBase}>Full Name *</label>
+              <label htmlFor="inq-first-name" className={labelBase}>First Name *</label>
             </motion.div>
 
-            {/* Phone */}
+            {/* Last Name */}
+            <motion.div variants={itemVariants} className="relative">
+              <input
+                id="inq-last-name"
+                data-testid="inquiry-last-name"
+                name="last_name"
+                className={`${inputBase} ${borderCls(invalid.includes("last_name"))}`}
+                placeholder="Last Name"
+                autoComplete="family-name"
+                value={form.last_name}
+                onChange={(e) => set("last_name", e.target.value)}
+              />
+              <label htmlFor="inq-last-name" className={labelBase}>Last Name *</label>
+            </motion.div>
+
+            {/* Phone Number — digits only (formatting characters allowed) */}
             <motion.div variants={itemVariants} className="relative">
               <input
                 id="inq-phone"
                 data-testid="inquiry-phone"
+                name="phone"
                 type="tel"
+                inputMode="tel"
+                pattern="[0-9+()\-.\s]*"
                 className={`${inputBase} ${borderCls(invalid.includes("phone"))}`}
                 placeholder="Phone Number"
                 autoComplete="tel"
                 value={form.phone}
-                onChange={(e) => set("phone", e.target.value)}
+                onChange={(e) => set("phone", sanitizePhone(e.target.value))}
               />
               <label htmlFor="inq-phone" className={labelBase}>Phone Number *</label>
             </motion.div>
 
             {/* Email */}
-            <motion.div variants={itemVariants} className="relative md:col-span-2">
+            <motion.div variants={itemVariants} className="relative">
               <input
                 id="inq-email"
                 data-testid="inquiry-email"

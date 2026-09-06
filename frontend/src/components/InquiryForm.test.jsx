@@ -4,7 +4,7 @@
  * /api/quote-requests.
  */
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 
 // CRA's bundled jest can't resolve react-router-dom v7's exports map; the
 // form only uses <Link> for the privacy-policy anchor, so stub it.
@@ -39,4 +39,27 @@ test("renders the quote-request form without calculator or payment UI", () => {
   expect(screen.queryByTestId("inquiry-quote-panel")).toBeNull();
   expect(screen.queryByText(/Pay & Book/i)).toBeNull();
   expect(screen.queryByText(/instant quote/i)).toBeNull();
+});
+
+test("has separate First Name / Last Name fields and a clearly labeled Phone Number field", () => {
+  render(<InquiryForm />);
+  const first = screen.getByTestId("inquiry-first-name");
+  const last = screen.getByTestId("inquiry-last-name");
+  const phone = screen.getByTestId("inquiry-phone");
+  expect(screen.getByLabelText(/^First Name/)).toBe(first);
+  expect(screen.getByLabelText(/^Last Name/)).toBe(last);
+  expect(screen.getByLabelText(/^Phone Number/)).toBe(phone);
+  expect(phone.getAttribute("placeholder")).toBe("Phone Number");
+  expect(phone.getAttribute("type")).toBe("tel");
+  const inputs = [...screen.getByTestId("inquiry-form").querySelectorAll("input")];
+  expect(inputs.indexOf(first)).toBe(0);
+  expect(inputs.indexOf(last)).toBe(1);
+  expect(inputs.indexOf(phone)).toBe(2);
+});
+
+test("phone field drops letters and keeps digits", () => {
+  render(<InquiryForm />);
+  const phone = screen.getByTestId("inquiry-phone");
+  fireEvent.change(phone, { target: { value: "John Doe 4a1b0c 555-12x34" } });
+  expect(phone.value).toBe("410 555-1234");
 });
