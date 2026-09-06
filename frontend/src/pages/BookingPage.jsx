@@ -115,17 +115,18 @@ const BookingPage = () => {
               <div>
                 <h4 className="text-[#D4AF37] font-semibold mb-2">Cancellation Policy</h4>
                 <p>
-                  Free cancellation up to 24 hours before your scheduled pickup. Cancellations
-                  within 24 hours may be subject to a fee. No-shows are charged the full fare
-                  amount.
+                  Sedans and SUVs: free cancellation up to 3 hours before your scheduled pickup.
+                  Sprinter vans, limousines and special events: free cancellation up to 12 hours
+                  before pickup. Later cancellations may be subject to a fee. No-shows are charged
+                  the full fare amount.
                 </p>
               </div>
               <div>
                 <h4 className="text-[#D4AF37] font-semibold mb-2">Airport Pickups</h4>
                 <p>
                   For airport arrivals, our chauffeurs track your flight in real-time and
-                  adjust pickup times accordingly. We include 60 minutes of free wait time for
-                  domestic flights and 90 minutes for international arrivals.
+                  adjust pickup times accordingly. We include 45 minutes of free wait time for
+                  domestic flights and 60 minutes for international arrivals.
                 </p>
               </div>
             </div>

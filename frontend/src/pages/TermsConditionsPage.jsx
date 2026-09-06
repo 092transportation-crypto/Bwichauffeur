@@ -106,9 +106,9 @@ const TermsConditionsPage = () => {
               <h2 className="text-2xl font-bold text-white mb-4">5. Cancellation Policy</h2>
               <h3 className="text-xl font-semibold text-[#D4AF37] mb-3">5.1 Customer Cancellations</h3>
               <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li><strong>More than 24 hours notice:</strong> Full refund</li>
-                <li><strong>12-24 hours notice:</strong> 50% cancellation fee</li>
-                <li><strong>Less than 12 hours notice:</strong> 100% cancellation fee</li>
+                <li><strong>Sedans &amp; SUVs:</strong> cancel at least 3 hours before the scheduled pickup time for no charge. Cancellations within 3 hours of pickup may be charged up to 100% of the quoted fare.</li>
+                <li><strong>Sprinter vans &amp; limousines:</strong> cancel at least 12 hours before the scheduled pickup time for no charge. Cancellations within 12 hours of pickup may be charged up to 100% of the quoted fare.</li>
+                <li><strong>Special events:</strong> cancel at least 12 hours before the scheduled pickup time for no charge. Cancellations within 12 hours of pickup may be charged up to 100% of the quoted fare.</li>
                 <li><strong>No-show:</strong> 100% charge of quoted fare</li>
               </ul>
 
@@ -139,7 +139,7 @@ const TermsConditionsPage = () => {
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>We monitor flight arrivals in real-time and adjust pickup times accordingly</li>
-                <li>Complimentary wait time: 60 minutes for domestic flights, 90 minutes for international flights (from actual landing time)</li>
+                <li>Complimentary wait time: 45 minutes for domestic flights, 60 minutes for international flights (from actual landing time)</li>
                 <li>Additional wait time beyond complimentary period: charged at our prevailing per-minute rate</li>
                 <li>Customer must notify us if unable to meet within the grace period</li>
               </ul>

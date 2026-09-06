@@ -65,7 +65,7 @@ const RoutePage = ({ route }) => {
     },
     {
       q: 'Do you track my flight?',
-      a: 'Yes. Every booking includes real-time flight tracking. You get 60 minutes of free wait time for domestic flights and 90 minutes for international arrivals.',
+      a: 'Yes. Every booking includes real-time flight tracking. You get 45 minutes of free wait time for domestic flights and 60 minutes for international arrivals.',
     },
     {
       q: 'Is the price fixed, or can it change?',
@@ -269,7 +269,7 @@ const RoutePage = ({ route }) => {
               <Plane className="h-6 w-6 text-[#D4AF37] flex-shrink-0" />
               <div>
                 <p className="text-white font-semibold text-sm">Flight Tracked</p>
-                <p className="text-gray-400 text-xs">60–90 min free wait</p>
+                <p className="text-gray-400 text-xs">45–60 min free wait</p>
               </div>
             </div>
             <div className="flex items-center gap-3 p-4 bg-gradient-to-br from-gray-900 to-black border border-[#D4AF37]/30 rounded-lg">

@@ -23,7 +23,7 @@ const FAQPage = () => {
         },
         {
           question: 'What is your cancellation policy?',
-          answer: 'We offer free cancellation up to 24 hours before your scheduled pickup time. Cancellations within 24 hours may be subject to a cancellation fee. No-shows are charged the full fare amount. For special events and wedding bookings, please refer to your contract for specific terms.'
+          answer: 'Sedans and SUVs can be cancelled free of charge up to 3 hours before your scheduled pickup time. Sprinter vans, limousines and special-event bookings can be cancelled free of charge up to 12 hours before pickup. Cancellations inside those windows may be subject to a cancellation fee, and no-shows are charged the full fare amount.'
         },
         {
           question: 'Can I make last-minute bookings?',
@@ -73,7 +73,7 @@ const FAQPage = () => {
         },
         {
           question: 'What is your wait time policy for airport pickups?',
-          answer: 'We include 60 minutes of complimentary wait time for domestic flights and 90 minutes for international arrivals. This starts when your flight lands, giving you time to deplane, clear customs (if applicable), and collect luggage. Additional wait time can be arranged.'
+          answer: 'We include 45 minutes of complimentary wait time for domestic flights and 60 minutes for international arrivals. This starts when your flight lands, giving you time to deplane, clear customs (if applicable), and collect luggage. Additional wait time can be arranged.'
         },
         {
           question: 'Where will my chauffeur meet me at the airport?',

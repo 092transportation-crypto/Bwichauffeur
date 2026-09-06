@@ -16,7 +16,7 @@ export const BWI_ROUTES = [
       'Traveling from Baltimore-Washington International Airport (BWI) to Washington, D.C. should be the most relaxing leg of your trip — not the most stressful. Our BWI to Washington DC chauffeur service delivers door-to-door transportation in a late-model Mercedes, BMW, Cadillac, or Sprinter. Your professionally trained chauffeur knows the I-295, Baltimore-Washington Parkway, and 14th Street Bridge bottlenecks by heart. Whether you are arriving for a Capitol Hill meeting, a White House briefing, or a long weekend in Georgetown, we get you there on schedule, every time.',
     why_choose: [
       'Flat-rate, all-inclusive pricing — no surge, no surprise tolls, no per-minute meter',
-      'Real-time flight tracking with 60 minutes of free wait time (90 minutes for international arrivals)',
+      'Real-time flight tracking with 45 minutes of free wait time (60 minutes for international arrivals)',
       'Direct routes via BW Parkway, I-95, or 295 depending on real-time traffic',
       'Local chauffeurs who know every D.C. neighborhood, hotel motor lobby, and Capitol entrance',
       'Government, federal contractor, and embassy billing accepted',
@@ -82,7 +82,7 @@ export const BWI_ROUTES = [
       'Quiet, productive Mercedes and BMW sedans with WiFi for in-transit calls and email',
     ],
     what_to_expect:
-      'Your chauffeur monitors your flight from wheels-up and is curbside on the BWI arrivals level the moment you land — even if you are 90 minutes early. Wait time is complimentary up to one hour. From BWI we take MD-100 west to US-29. We drop you at any Columbia address: Merriweather Post Pavilion, the GE Aviation campus, Howard Hughes Corporation headquarters, or the Mall in Columbia. We also serve the dozens of office parks in the Gateway and Snowden River corridors. Reverse trips are equally smooth — we monitor your outbound flight, build in TSA buffer time, and have you at the BWI curb without you ever looking at a clock.',
+      'Your chauffeur monitors your flight from wheels-up and is curbside on the BWI arrivals level the moment you land — even if you are 60 minutes early. Wait time is complimentary for 45 minutes. From BWI we take MD-100 west to US-29. We drop you at any Columbia address: Merriweather Post Pavilion, the GE Aviation campus, Howard Hughes Corporation headquarters, or the Mall in Columbia. We also serve the dozens of office parks in the Gateway and Snowden River corridors. Reverse trips are equally smooth — we monitor your outbound flight, build in TSA buffer time, and have you at the BWI curb without you ever looking at a clock.',
     service_details: [
       'Pickup zone: BWI Concourse Level, curbside, or pre-arranged meet-and-greet at baggage claim',
       'Drop-off: Town Center, Merriweather District, Gateway corporate parks, Snowden River Parkway offices, residences',
@@ -316,7 +316,7 @@ export const BWI_ROUTES = [
     intro:
       'Landing at Philadelphia International Airport should not mean a taxi line, a rideshare lottery, or a rental-car shuttle. Our PHL Airport to Philadelphia private car service puts a professional chauffeur and a late-model Mercedes, BMW, Cadillac, or Sprinter at the curb the moment you clear baggage claim. We track your flight from wheels-up, adjust for early arrivals and delays automatically, and deliver you door-to-door to Center City, University City, the Navy Yard, or any address in the greater Philadelphia region. It is the calmest possible start to a business trip, a family visit, or a weekend in the city — and because we also run the I-95 corridor every day, we are just as comfortable continuing south to Wilmington, Baltimore, or Washington DC when your itinerary goes further than the city line.',
     why_choose: [
-      'Real-time flight tracking with 60 minutes of free wait time (90 minutes for international arrivals)',
+      'Real-time flight tracking with 45 minutes of free wait time (60 minutes for international arrivals)',
       'Meet-and-greet option: your chauffeur waits at PHL baggage claim with a name sign',
       'Direct routes into Center City via I-95 and I-76 — typically 15 to 30 minutes door-to-door',
       'One flat, all-inclusive rate quoted up front — no surge, no meter, no airport-queue roulette',
@@ -342,7 +342,7 @@ export const BWI_ROUTES = [
       },
       {
         q: 'What if my flight into PHL is delayed?',
-        a: 'Nothing to do on your end. Every booking includes real-time flight tracking, and your pickup adjusts automatically. You get 60 minutes of free wait time on domestic arrivals and 90 minutes on international ones.',
+        a: 'Nothing to do on your end. Every booking includes real-time flight tracking, and your pickup adjusts automatically. You get 45 minutes of free wait time on domestic arrivals and 60 minutes on international ones.',
       },
       {
         q: 'Can you take me from PHL to destinations beyond Philadelphia?',
@@ -508,7 +508,7 @@ export const BWI_ROUTES = [
       },
       {
         q: 'Will my driver wait if my flight into BWI is delayed?',
-        a: 'Yes. We track your flight from wheels-up and adjust the pickup automatically. You get 60 minutes of free wait time on domestic arrivals and 90 on international, so a late landing never turns into a missed ride or a penalty fee.',
+        a: 'Yes. We track your flight from wheels-up and adjust the pickup automatically. You get 45 minutes of free wait time on domestic arrivals and 60 on international, so a late landing never turns into a missed ride or a penalty fee.',
       },
     ],
     nearby_links: ['bwi-to-glen-burnie', 'bwi-to-millersville-md', 'bwi-to-annapolis'],
@@ -664,7 +664,7 @@ export const BWI_ROUTES = [
       },
       {
         q: 'Will the driver still be there if my flight is delayed?',
-        a: 'Yes. We track your flight from departure, so your chauffeur adjusts automatically to the real arrival time. Domestic arrivals include 60 minutes of free wait time and international arrivals include 90, so delays are our problem to manage, not yours.',
+        a: 'Yes. We track your flight from departure, so your chauffeur adjusts automatically to the real arrival time. Domestic arrivals include 45 minutes of free wait time and international arrivals include 60, so delays are our problem to manage, not yours.',
       },
     ],
     nearby_links: ['bwi-to-gambrills-md', 'bwi-to-odenton-md', 'bwi-to-annapolis'],

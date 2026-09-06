@@ -214,7 +214,7 @@ Our airport transportation services cover all three major airports in the DMV re
 **BWI Airport (Baltimore-Washington International)**
 - Real-time flight monitoring via [FlightAware](https://flightaware.com/)
 - Curbside pickup at all terminals
-- 60 minutes complimentary wait time for domestic flights
+- 45 minutes complimentary wait time for domestic flights
 - Meet-and-greet service available at baggage claim
 - Direct routes to Baltimore, Annapolis, and Washington DC
 
@@ -226,7 +226,7 @@ Our airport transportation services cover all three major airports in the DMV re
 
 **IAD Airport (Washington Dulles International)**
 - International arrival assistance and meet-and-greet
-- 90 minutes complimentary wait time for international flights
+- 60 minutes complimentary wait time for international flights
 - Service to Reston, Tysons Corner, and Fairfax County
 - Custom clearance wait time available upon request
 
@@ -311,7 +311,7 @@ Experience the best of the DMV region with our custom tour services:
       },
       {
         question: 'Do you serve all three major DMV airports?',
-        answer: 'Yes — we provide flat-rate service to BWI Marshall, Reagan National (DCA), and Washington Dulles (IAD), plus Philadelphia International (PHL). International arrivals include 90 minutes of complimentary wait time.',
+        answer: 'Yes — we provide flat-rate service to BWI Marshall, Reagan National (DCA), and Washington Dulles (IAD), plus Philadelphia International (PHL). International arrivals include 60 minutes of complimentary wait time.',
       },
       {
         question: 'Can you handle large group and corporate events?',
@@ -696,8 +696,8 @@ Our sophisticated flight monitoring system provides peace of mind for airport tr
 **Benefits for Travelers**
 - No stress about flight delays affecting your pickup
 - Chauffeur waiting when you exit the terminal
-- 60-minute complimentary wait time for domestic flights
-- 90-minute complimentary wait time for international arrivals
+- 45-minute complimentary wait time for domestic flights
+- 60-minute complimentary wait time for international arrivals
 - Real-time status updates via SMS
 
 ### Advanced Dispatch System
@@ -805,7 +805,7 @@ Think about the last time an app showed a driver "2 minutes away" who then sat m
       },
       {
         question: 'How much free wait time is included?',
-        answer: 'We include 60 minutes of complimentary wait time for domestic arrivals and 90 minutes for international arrivals, measured from your actual landing time. That covers the realistic baggage-claim and customs window with room to spare.',
+        answer: 'We include 45 minutes of complimentary wait time for domestic arrivals and 60 minutes for international arrivals, measured from your actual landing time. That covers the realistic baggage-claim and customs window with room to spare.',
       },
       {
         question: 'Do you charge extra for late-night or holiday rides?',
@@ -919,7 +919,7 @@ A short, honest summary:
 - **Guaranteed pickup time** — flight tracked, vehicle committed
 - **No surge pricing**, ever — same rate 4 a.m. or 4 p.m.
 - **Lower-level Arrivals pickup** — no schlepping bags upstairs
-- **60 minutes free wait time** (90 minutes international) — no panic if customs is slow
+- **45 minutes free wait time** (60 minutes international) — no panic if customs is slow
 - **Late-model luxury fleet** — Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Suburban, Sprinter
 - **Real customer support** — a human at 877-609-1919 24/7, not an app chatbot
 
@@ -965,7 +965,7 @@ Skip the rideshare lottery, the parking-lot shuttle, and the surge pricing. Pre-
       },
       {
         question: 'What happens if my flight is delayed or arrives early?',
-        answer: 'We monitor your flight in real time from wheels-up. If your flight is early, we adjust pickup time forward at no charge. If delayed, we automatically reschedule — and we include 60 minutes of complimentary wait time for domestic arrivals and 90 minutes for international. Your chauffeur will be there whenever you actually land.',
+        answer: 'We monitor your flight in real time from wheels-up. If your flight is early, we adjust pickup time forward at no charge. If delayed, we automatically reschedule — and we include 45 minutes of complimentary wait time for domestic arrivals and 60 minutes for international. Your chauffeur will be there whenever you actually land.',
       },
     ],
     relatedPosts: [1, 4, 6]
@@ -1355,7 +1355,7 @@ At first glance, ride-sharing apps appear less expensive. However, a complete an
 | Base fare | $ | $$ |
 | Surge pricing | Up to 5x | Never |
 | Wait time charges | Yes | Included |
-| Cancellation fees | Variable | 24-hr policy |
+| Cancellation fees | Variable | Free up to 3 hrs before pickup (12 hrs vans/limos/events) |
 | Airport fees | Added | Included |
 | Toll road charges | Added | Included |
 
@@ -1600,7 +1600,7 @@ We run BWI to Baltimore flat-rate transfers in late-model Mercedes, BMW, Cadilla
       },
       {
         question: 'What is the cheapest way to get from BWI to Baltimore?',
-        answer: 'MTA Light Rail, at just a few dollars per ride, is the cheapest option, but the total trip — including waits and walks — averages 60 to 90 minutes with luggage. For most travelers the time savings of a flat-rate chauffeur or rideshare is worth the cost.',
+        answer: 'MTA Light Rail, at just a few dollars per ride, is the cheapest option, but the total trip — including waits and walks — averages 60 to 60 minutes with luggage. For most travelers the time savings of a flat-rate chauffeur or rideshare is worth the cost.',
       },
       {
         question: 'Is BWI Chauffeur cheaper than Uber to Baltimore?',
@@ -1819,7 +1819,7 @@ Sleep better tonight knowing your morning transfer is locked in.
       },
       {
         question: 'What if my flight is cancelled at the last minute?',
-        answer: 'Call or text dispatch immediately at 877-609-1919. We will adjust your pickup time or cancel and reschedule without a fee, provided we have at least 60 minutes notice before the originally scheduled pickup.',
+        answer: 'Call or text dispatch immediately at 877-609-1919. We will adjust your pickup time or cancel and reschedule without a fee, provided we have at least 3 hours notice before the originally scheduled pickup (12 hours for Sprinter vans, limousines and special events).',
       },
     ],
     relatedPosts: [7, 11, 15],
@@ -2200,7 +2200,7 @@ For comparison: many premium-brand services charge considerably more for the sam
 
 ### How It Works for International Arrivals
 
-International arrivals at BWI come through Concourse E and clear customs there. The customs hall has its own greeter area. We position our chauffeur in the area just past customs exit, with the same name placard. Wait time through customs varies wildly — Global Entry takes 3 minutes, standard non-citizen processing can take 60 minutes. We include **90 minutes of complimentary wait time** for international arrivals (vs. 60 for domestic) at no extra charge.
+International arrivals at BWI come through Concourse E and clear customs there. The customs hall has its own greeter area. We position our chauffeur in the area just past customs exit, with the same name placard. Wait time through customs varies wildly — Global Entry takes 3 minutes, standard non-citizen processing can take 60 minutes. We include **60 minutes of complimentary wait time** for international arrivals (vs. 45 for domestic) at no extra charge.
 
 If you're an international traveler arriving for the first time, you can read more in our [BWI Airport Transportation Guide](/blog/bwi-airport-transportation-guide-terminals-pickup).
 
@@ -2239,7 +2239,7 @@ Call **877-609-1919** to add meet and greet to your ride, or [book online](/book
       },
       {
         question: 'How long is the wait time included with meet and greet?',
-        answer: 'We include 60 minutes of complimentary wait time for domestic flights and 90 minutes for international arrivals (which factors in customs and immigration processing). Additional wait time is rare but reasonable beyond that.',
+        answer: 'We include 45 minutes of complimentary wait time for domestic flights and 60 minutes for international arrivals (which factors in customs and immigration processing). Additional wait time is rare but reasonable beyond that.',
       },
     ],
     relatedPosts: [13, 15, 11],
@@ -2580,7 +2580,7 @@ The single biggest tell. The best BWI black car services quote one flat rate tha
 
 ### 2. Real Flight Tracking
 
-A serious airport service monitors your flight automatically and adjusts your pickup when it's early or delayed. Ask directly: "Do you track my flight, and what's the included wait time?" The right answer is yes, with **60 minutes free for domestic and 90 for international arrivals**, measured from actual landing. Anything less means you risk either waiting alone or paying for the driver's idle time. Here's [how our flight tracking works](/blog/24-7-availability-flight-tracking-technology).
+A serious airport service monitors your flight automatically and adjusts your pickup when it's early or delayed. Ask directly: "Do you track my flight, and what's the included wait time?" The right answer is yes, with **45 minutes free for domestic and 60 for international arrivals**, measured from actual landing. Anything less means you risk either waiting alone or paying for the driver's idle time. Here's [how our flight tracking works](/blog/24-7-availability-flight-tracking-technology).
 
 ### 3. A Genuinely Late-Model Fleet
 
@@ -2712,7 +2712,7 @@ Late-night travel is exactly when the difference between a vetted chauffeur and 
 
 ### International Red-Eyes and the Customs Factor
 
-Late-night international arrivals add one more wrinkle: customs. Flights landing at Concourse E around or after midnight feed into an immigration hall whose wait swings from 5 minutes with Global Entry to over an hour during a busy bank of arrivals. Rideshare drivers won't wait through that uncertainty late at night — they'll cancel rather than sit. Our chauffeurs are built for it: international arrivals include **90 minutes of complimentary wait time** measured from landing, and the chauffeur monitors your flight so they're staged when you clear customs, not gambling on when you'll appear. If you want them waiting inside with a name placard rather than at the curb, add [meet-and-greet service](/blog/bwi-airport-vip-meet-greet).
+Late-night international arrivals add one more wrinkle: customs. Flights landing at Concourse E around or after midnight feed into an immigration hall whose wait swings from 5 minutes with Global Entry to over an hour during a busy bank of arrivals. Rideshare drivers won't wait through that uncertainty late at night — they'll cancel rather than sit. Our chauffeurs are built for it: international arrivals include **60 minutes of complimentary wait time** measured from landing, and the chauffeur monitors your flight so they're staged when you clear customs, not gambling on when you'll appear. If you want them waiting inside with a name placard rather than at the curb, add [meet-and-greet service](/blog/bwi-airport-vip-meet-greet).
 
 ### A Few Late-Night Tips From Dispatch
 
@@ -2742,7 +2742,7 @@ If you've got a late or red-eye arrival coming up, lock in your ride before you 
       },
       {
         question: 'What if my late flight is delayed even further?',
-        answer: 'We track your flight to its actual landing time and adjust automatically. There is nothing for you to do — your chauffeur will be repositioned and waiting whenever you land. Domestic arrivals include 60 minutes of free wait time and international 90 minutes.',
+        answer: 'We track your flight to its actual landing time and adjust automatically. There is nothing for you to do — your chauffeur will be repositioned and waiting whenever you land. Domestic arrivals include 45 minutes of free wait time and international 60 minutes.',
       },
     ],
     relatedPosts: [13, 7, 17],
@@ -3313,7 +3313,7 @@ When BWI Chauffeur quotes a number, that number is the number. Included in every
 
 - **All tolls and fuel** — no line-item surprises on the receipt
 - **Flight tracking** with pickup automatically adjusted to your actual landing time
-- **Free wait time** — 60 minutes on domestic arrivals, 90 on international
+- **Free wait time** — 45 minutes on domestic arrivals, 60 on international
 - **Lower-level Arrivals curbside pickup**, so you walk out of baggage claim to a waiting car
 - **No surge, no overnight surcharge** — a 4 a.m. pickup costs the same as 4 p.m.
 
@@ -3346,7 +3346,7 @@ Ranges are useful; your number is better. Tell us your date, pickup address, and
       },
       {
         question: 'What is included in a BWI limo flat rate?',
-        answer: 'A legitimate all-inclusive rate covers tolls, fuel, airport fees, real-time flight tracking, and free wait time — typically 60 minutes for domestic arrivals and 90 for international — plus curbside pickup on the lower-level Arrivals curb. There should be no surge pricing or overnight surcharges.',
+        answer: 'A legitimate all-inclusive rate covers tolls, fuel, airport fees, real-time flight tracking, and free wait time — typically 45 minutes for domestic arrivals and 60 for international — plus curbside pickup on the lower-level Arrivals curb. There should be no surge pricing or overnight surcharges.',
       },
       {
         question: 'Is a BWI limo more expensive than Uber or Lyft?',
@@ -3484,7 +3484,7 @@ This difference is bigger in Maryland than most states. Rideshare density is exc
 
 ### At the Airport, the Difference Is Physical
 
-At BWI Marshall, rideshare pickup is on the **upper Departures level** — you land, collect bags downstairs, then haul them upstairs while watching a car icon circle. Pre-arranged chauffeurs stage on the **lower-level Arrivals curb**, flight-tracked, with 60–90 minutes of included wait time if customs or baggage runs long. Rideshare charges you nothing to wait because the driver simply leaves.
+At BWI Marshall, rideshare pickup is on the **upper Departures level** — you land, collect bags downstairs, then haul them upstairs while watching a car icon circle. Pre-arranged chauffeurs stage on the **lower-level Arrivals curb**, flight-tracked, with 45–60 minutes of included wait time if customs or baggage runs long. Rideshare charges you nothing to wait because the driver simply leaves.
 
 ### The Vehicle and the Person Driving It
 
@@ -3513,7 +3513,7 @@ Credibility requires saying it plainly: for a two-mile daytime hop in Baltimore,
 | Vehicle | Driver's personal car | Guaranteed late-model luxury class |
 | BWI pickup | Upper Departures level | Lower-level Arrivals curb, flight-tracked |
 | Statewide coverage | Urban-centric | All 23 Maryland counties, scheduled |
-| Wait time | None — driver leaves | 60–90 minutes included on arrivals |
+| Wait time | None — driver leaves | 45–60 minutes included on arrivals |
 
 ### The One-Line Summary
 
@@ -3565,7 +3565,7 @@ From BWI, the drive is straightforward: I-195 to I-97 South, which runs directly
 
 ### What Car Service to Annapolis Costs in 2026
 
-Professional chauffeured service from BWI to Annapolis typically runs **$95–$130 for a luxury sedan** and **$130–$180 for a premium SUV**, flat — tolls, fuel, flight tracking, and up to 60–90 minutes of arrival wait time included. Rideshare quotes $40–$55 in perfect conditions, but this route exposes its weak points: thin driver supply around Annapolis for the return trip, cancellations on early-morning airport runs, and surge during boat shows and Academy events that can double the fare. Our comparison of [every way to get from BWI to Annapolis](/blog/bwi-to-annapolis-cheapest-way) runs the full numbers; the short version is that for anyone on a schedule, the flat rate buys certainty the apps can't sell on this corridor.
+Professional chauffeured service from BWI to Annapolis typically runs **$95–$130 for a luxury sedan** and **$130–$180 for a premium SUV**, flat — tolls, fuel, flight tracking, and up to 45–60 minutes of arrival wait time included. Rideshare quotes $40–$55 in perfect conditions, but this route exposes its weak points: thin driver supply around Annapolis for the return trip, cancellations on early-morning airport runs, and surge during boat shows and Academy events that can double the fare. Our comparison of [every way to get from BWI to Annapolis](/blog/bwi-to-annapolis-cheapest-way) runs the full numbers; the short version is that for anyone on a schedule, the flat rate buys certainty the apps can't sell on this corridor.
 
 ### Naval Academy Travel: Plan Around the Big Weeks
 
@@ -3588,7 +3588,7 @@ Car service pricing and coverage extend across the greater Annapolis area: **Eas
 
 ### How the Airport Pickup Works
 
-Book with your flight number and the rest is automatic. BWI Chauffeur tracks the flight and adjusts for early landings or delays; your chauffeur waits on the **lower-level Arrivals curb** just outside baggage claim — or inside the terminal with a name sign if you add [meet-and-greet](/blog/bwi-airport-vip-meet-greet), which Academy families with first-time-visiting grandparents consistently tell us is worth every penny. Sixty minutes of wait time on domestic arrivals (90 international) is included, so a slow bag carousel costs you nothing. Departing Annapolis, we recommend leaving 2.5 hours before domestic flights — 3+ on summer Fridays when Route 50 crawls.
+Book with your flight number and the rest is automatic. BWI Chauffeur tracks the flight and adjusts for early landings or delays; your chauffeur waits on the **lower-level Arrivals curb** just outside baggage claim — or inside the terminal with a name sign if you add [meet-and-greet](/blog/bwi-airport-vip-meet-greet), which Academy families with first-time-visiting grandparents consistently tell us is worth every penny. Forty-five minutes of wait time on domestic arrivals (60 international) is included, so a slow bag carousel costs you nothing. Departing Annapolis, we recommend leaving 2.5 hours before domestic flights — 3+ on summer Fridays when Route 50 crawls.
 
 ### Practical Tips for a Smooth Annapolis Trip
 
@@ -3601,7 +3601,7 @@ Whether it's one traveler for the legislative session, a family of five for Comm
     faqs: [
       {
         question: 'How much is a car service from BWI Airport to Annapolis?',
-        answer: 'In 2026, professional chauffeured service from BWI to Annapolis typically costs $95–$130 flat for a luxury sedan and $130–$180 for a premium SUV, including tolls, fuel, flight tracking, and 60–90 minutes of free arrival wait time, with no surge pricing.',
+        answer: 'In 2026, professional chauffeured service from BWI to Annapolis typically costs $95–$130 flat for a luxury sedan and $130–$180 for a premium SUV, including tolls, fuel, flight tracking, and 45–60 minutes of free arrival wait time, with no surge pricing.',
       },
       {
         question: 'How long is the drive from BWI to Annapolis?',
@@ -3697,7 +3697,7 @@ Opening a corporate account is a ten-minute conversation: your routes, your volu
       },
       {
         question: 'How do executive airport pickups at BWI work?',
-        answer: 'The chauffeur tracks the inbound flight automatically and waits on the lower-level Arrivals curb or inside baggage claim with a name sign for meet-and-greet service. Wait time of 60–90 minutes is included for delays, and the traveler and coordinator both receive confirmations.',
+        answer: 'The chauffeur tracks the inbound flight automatically and waits on the lower-level Arrivals curb or inside baggage claim with a name sign for meet-and-greet service. Wait time of 45–60 minutes is included for delays, and the traveler and coordinator both receive confirmations.',
       },
     ],
     relatedPosts: [12, 8, 26],

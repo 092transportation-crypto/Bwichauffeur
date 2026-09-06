@@ -150,7 +150,7 @@ export const AIRPORT_PAGES = [
     location: 'Dulles, Virginia',
     metaTitle: 'Dulles IAD Airport Car Service | BWI Chauffeur',
     metaDescription:
-      'Luxury car service at Washington Dulles (IAD) with 90 minutes of free international wait. Serving MD, DC & VA. Flat rates — call (877) 609-1919.',
+      'Luxury car service at Washington Dulles (IAD) with 60 minutes of free international wait. Serving MD, DC & VA. Flat rates — call (877) 609-1919.',
     keywords:
       'IAD car service, Dulles airport car service, Washington Dulles limo, IAD chauffeur, Dulles international arrival pickup, IAD to Maryland car service, Dulles airport transportation',
     heroImage:
@@ -160,16 +160,16 @@ export const AIRPORT_PAGES = [
     h1Line1: 'Washington Dulles (IAD)',
     h1Line2: 'Airport Car Service',
     heroTagline:
-      'After a ten-hour flight and a customs line, the last thing you should do is negotiate ground transportation. At Dulles we wait for you — ninety minutes free on international arrivals — then drive you home in silence and comfort.',
+      'After a ten-hour flight and a customs line, the last thing you should do is negotiate ground transportation. At Dulles we wait for you — sixty minutes free on international arrivals — then drive you home in silence and comfort.',
     stats: [
-      { value: '90 min', label: 'Free International Wait' },
+      { value: '60 min', label: 'Free International Wait' },
       { value: '24/7', label: 'Arrival Monitoring' },
       { value: '~1 hr', label: 'To the Baltimore Area' },
     ],
     aboutHeading: 'International Arrivals, Handled at',
     aboutHeadingGold: 'Dulles',
     about: [
-      'Washington Dulles International is the region’s long-haul gateway — the airport where flights from London, Doha, Tokyo, and Frankfurt touch down, and where Eero Saarinen’s swooping main terminal still greets them. It is also, famously, a big airport to move through. Between the midfield concourses, the AeroTrain, the occasional mobile lounge, and an immigration hall that ebbs and surges with each bank of widebody arrivals, the time between wheels-down and walking out with your bags is genuinely unpredictable. We designed our Dulles service around that reality instead of pretending it away, which is why international pickups here come with ninety minutes of complimentary wait time as standard.',
+      'Washington Dulles International is the region’s long-haul gateway — the airport where flights from London, Doha, Tokyo, and Frankfurt touch down, and where Eero Saarinen’s swooping main terminal still greets them. It is also, famously, a big airport to move through. Between the midfield concourses, the AeroTrain, the occasional mobile lounge, and an immigration hall that ebbs and surges with each bank of widebody arrivals, the time between wheels-down and walking out with your bags is genuinely unpredictable. We designed our Dulles service around that reality instead of pretending it away, which is why international pickups here come with sixty minutes of complimentary wait time as standard.',
       'Here is what that means in practice. We log your flight number and monitor the aircraft from its origin city, so a headwind delay over the Atlantic never strands your driver or triggers a fee. Once you land, the clock on your free wait starts at actual arrival — not scheduled arrival — giving you an unhurried hour and a half to clear passport control, collect luggage, and pass customs. Your chauffeur or greeter is positioned in the international arrivals hall with a name board when you emerge. No frantic texting from the customs line, no re-booking a car that gave up on you. You simply walk out, and we are there.',
       'From Dulles we carry travelers everywhere our region reaches: into Washington itself, out to Bethesda, Rockville, and Silver Spring, and — our specialty — across the river to Annapolis, Columbia, Baltimore, and the neighborhoods around BWI, roughly an hour away. The trip is priced as one locked-in flat rate, quoted before you ride, whether the Beltway cooperates that day or not. Sedans for solo flyers, SUVs for families returning with a vacation’s worth of luggage, and Sprinters for inbound delegations are all in the fleet, each driven by a vetted professional chauffeur.',
     ],
@@ -182,8 +182,8 @@ export const AIRPORT_PAGES = [
     ],
     faqs: [
       {
-        q: 'How does the 90-minute free wait work for international arrivals at Dulles?',
-        a: 'The complimentary window opens when your aircraft actually lands, not at the scheduled time, and runs a full ninety minutes. That comfortably covers passport control, baggage claim, and customs for most arrivals. If an exceptional backlog pushes past it, dispatch will contact you rather than abandoning the pickup — we finish the job we started.',
+        q: 'How does the 60-minute free wait work for international arrivals at Dulles?',
+        a: 'The complimentary window opens when your aircraft actually lands, not at the scheduled time, and runs a full sixty minutes. That comfortably covers passport control, baggage claim, and customs for most arrivals. If an exceptional backlog pushes past it, dispatch will contact you rather than abandoning the pickup — we finish the job we started.',
       },
       {
         q: 'Where will I find my chauffeur when I clear customs at IAD?',

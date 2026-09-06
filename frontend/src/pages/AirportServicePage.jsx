@@ -15,7 +15,7 @@ const features = [
   {
     icon: Clock,
     title: 'Generous Free Wait Time',
-    description: '60 minutes free on domestic arrivals, 90 on international — time to deplane, grab bags, and breathe.',
+    description: '45 minutes free on domestic arrivals, 60 on international — time to deplane, grab bags, and breathe.',
   },
   {
     icon: Car,
