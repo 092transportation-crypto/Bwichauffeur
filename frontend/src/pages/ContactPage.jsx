@@ -39,10 +39,6 @@ const initial = {
   email: '',
   pickup_location: '',
   dropoff_location: '',
-  pickup_lat: null,
-  pickup_lng: null,
-  dropoff_lat: null,
-  dropoff_lng: null,
   pickup_datetime: '',
   passengers: 1,
   sms_consent: false,
@@ -351,7 +347,6 @@ const ContactPage = () => {
                               placeholder="BWI Airport, Terminal A"
                               value={form.pickup_location}
                               onChange={(v) => setForm((prev) => ({ ...prev, pickup_location: v }))}
-                              onSelect={(p) => setForm((prev) => ({ ...prev, pickup_lat: p ? p.lat : null, pickup_lng: p ? p.lng : null }))}
                             />
                           </div>
                         </div>
@@ -370,7 +365,6 @@ const ContactPage = () => {
                               placeholder="Downtown Baltimore, MD"
                               value={form.dropoff_location}
                               onChange={(v) => setForm((prev) => ({ ...prev, dropoff_location: v }))}
-                              onSelect={(p) => setForm((prev) => ({ ...prev, dropoff_lat: p ? p.lat : null, dropoff_lng: p ? p.lng : null }))}
                             />
                           </div>
                         </div>
