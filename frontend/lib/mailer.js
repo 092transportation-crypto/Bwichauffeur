@@ -187,6 +187,9 @@ function formatDateTime(value) {
   return `${month} ${Number(d)}, ${y} at ${hour}:${mi} ${ampm}`;
 }
 
+const coordText = (lat, lng) =>
+  lat != null && lng != null ? `${lat.toFixed(5)}, ${lng.toFixed(5)} (https://www.google.com/maps?q=${lat},${lng})` : "";
+
 function row(label, value) {
   if (!value) return "";
   return (
@@ -307,7 +310,9 @@ function buildAdminQuoteEmail(q) {
     row("Flight Number", q.flight_number),
     row("Vehicle Preference", vehicleLabel(q.vehicle_preference)),
     row("Pickup Location", q.pickup_location),
+    q.pickup_lat != null ? row("Pickup Coordinates", coordText(q.pickup_lat, q.pickup_lng)) : "",
     row("Drop-off Location", q.dropoff_location),
+    q.dropoff_lat != null ? row("Drop-off Coordinates", coordText(q.dropoff_lat, q.dropoff_lng)) : "",
     row("Date & Time", formatDateTime(q.pickup_datetime)),
     row("Passengers", String(q.passengers || "")),
     row("Heard About Us From", heardFromLabel(q.heard_from)),
@@ -340,7 +345,9 @@ function buildAdminQuoteEmail(q) {
     textLine("Flight Number", q.flight_number),
     textLine("Vehicle Preference", vehicleLabel(q.vehicle_preference)),
     textLine("Pickup Location", q.pickup_location),
+    q.pickup_lat != null ? textLine("Pickup Coordinates", coordText(q.pickup_lat, q.pickup_lng)) : "",
     textLine("Drop-off Location", q.dropoff_location),
+    q.dropoff_lat != null ? textLine("Drop-off Coordinates", coordText(q.dropoff_lat, q.dropoff_lng)) : "",
     textLine("Date & Time", formatDateTime(q.pickup_datetime)),
     textLine("Passengers", String(q.passengers || "")),
     textLine("Heard About Us From", heardFromLabel(q.heard_from)),
