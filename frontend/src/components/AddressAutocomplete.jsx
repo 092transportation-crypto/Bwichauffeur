@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import { MapPin, Plane } from "lucide-react";
-import { providerLabel, suggest } from "../lib/placesAutocomplete";
+import { Building2, Hotel, Landmark, MapPin, Plane, TrainFront } from "lucide-react";
+import { hasGooglePlaces, prefetchGooglePlaces, providerLabel, suggest } from "../lib/placesAutocomplete";
 
 /*
  * Address autocomplete for the inquiry form's pickup / drop-off fields.
@@ -27,6 +27,10 @@ const AIRPORTS = [
 
 // Bias remote results toward BWI / the Baltimore-Washington corridor.
 const BIAS = { lat: 39.18, lng: -76.67 };
+
+
+// Google Maps-style icons per place type.
+const ICONS = { airport: Plane, hotel: Hotel, landmark: Landmark, transit: TrainFront, city: Building2, address: MapPin };
 
 function airportMatches(query) {
   const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
@@ -60,7 +64,8 @@ export function AddressAutocomplete({
   const search = useCallback((query) => {
     const q = query.trim();
     const airports = airportMatches(q);
-    if (q.length < 3) {
+    // Google answers usefully from two characters; Photon needs three.
+    if (q.length < (hasGooglePlaces() ? 2 : 3)) {
       setItems(airports);
       setOpen(airports.length > 0);
       setActive(-1);
@@ -98,7 +103,7 @@ export function AddressAutocomplete({
   const handleInput = (v) => {
     onChange(v);
     clearTimeout(debounceRef.current);
-    debounceRef.current = setTimeout(() => search(v), 250);
+    debounceRef.current = setTimeout(() => search(v), 120);
   };
 
   const pick = (item) => {
@@ -149,7 +154,10 @@ export function AddressAutocomplete({
         value={value}
         onChange={(e) => handleInput(e.target.value)}
         onKeyDown={handleKeyDown}
-        onFocus={() => value.trim() && search(value)}
+        onFocus={() => {
+          prefetchGooglePlaces();
+          if (value.trim()) search(value);
+        }}
         role="combobox"
         aria-expanded={open}
         aria-autocomplete="list"
@@ -168,7 +176,7 @@ export function AddressAutocomplete({
           style={{ backgroundColor: "#1a1a1a" }}
         >
           {items.map((item, i) => {
-            const Icon = item.isAirport ? Plane : MapPin;
+            const Icon = item.isAirport ? Plane : ICONS[item.kind] || MapPin;
             return (
               <li
                 key={`${item.placeId || ""}${item.main}|${item.secondary}`}
