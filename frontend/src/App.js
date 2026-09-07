@@ -32,6 +32,7 @@ import { CONCERT_VENUES } from "./data/concertVenues";
 import AirportServicePage from "./pages/AirportServicePage";
 import { AIRPORT_PAGES } from "./data/airportPages";
 import MarylandPage from "./pages/MarylandPage";
+import EventRoute from "./pages/EventRoute";
 import { MARYLAND_PAGES } from "./data/marylandPages";
 import ChatWidget from "./components/ChatWidget";
 import FloatingCallButton from "./components/FloatingCallButton";
@@ -102,6 +103,7 @@ function App() {
                     element={<MarylandPage page={page} />}
                   />
                 ))}
+                <Route path="/:slug" element={<EventRoute />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>
             </main>
