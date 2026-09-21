@@ -30,7 +30,7 @@ const QuoteCTA = () => (
           className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-bold text-lg rounded-md hover:shadow-2xl hover:shadow-[#D4AF37]/50 transition-all duration-300 hover:scale-105"
         >
           <Phone className="h-5 w-5" />
-          Call (877) 609-1919
+          Call 877-609-1919
         </a>
         <Link
           to="/booking"

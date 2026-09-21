@@ -6,11 +6,11 @@ export const AIRPORT_PAGES = [
     location: 'Linthicum, Maryland',
     metaTitle: 'BWI Airport Car Service | BWI Chauffeur',
     metaDescription:
-      'Luxury BWI Airport car service with meet-and-greet at baggage claim. Flat rates, 24/7 pickups across Maryland, DC & VA. Call (877) 609-1919.',
+      'Luxury BWI Airport car service with meet-and-greet at baggage claim. Flat rates, 24/7 pickups across Maryland, DC & VA. Call 877-609-1919.',
     keywords:
       'BWI airport car service, BWI limo service, BWI chauffeur, BWI airport pickup, Baltimore airport transportation, BWI Marshall car service, luxury car service BWI',
     heroImage:
-      '/images/stock/pexels-2026324.jpg',
+      '/images/stock/pexels-2026324.webp',
     heroAlt:
       'Airliner on final approach at dusk, arriving at BWI Marshall Airport',
     h1Line1: 'BWI Airport',
@@ -47,7 +47,7 @@ export const AIRPORT_PAGES = [
       },
       {
         q: 'How far in advance should I book a BWI pickup?',
-        a: 'Twenty-four hours of notice guarantees your preferred vehicle class, and we encourage it for early-morning departures and holiday travel. That said, because our base is ten minutes from the terminal, we accommodate same-day and even short-notice requests more often than not. Call (877) 609-1919 and dispatch will tell you honestly what is available.',
+        a: 'Twenty-four hours of notice guarantees your preferred vehicle class, and we encourage it for early-morning departures and holiday travel. That said, because our base is ten minutes from the terminal, we accommodate same-day and even short-notice requests more often than not. Call 877-609-1919 and dispatch will tell you honestly what is available.',
       },
       {
         q: 'Do you charge extra for tolls, luggage, or late-night BWI pickups?',
@@ -78,11 +78,11 @@ export const AIRPORT_PAGES = [
     location: 'Arlington, Virginia',
     metaTitle: 'DCA Airport Car Service | BWI Chauffeur',
     metaDescription:
-      'Chauffeured car service at Reagan National (DCA) — luxury sedans and SUVs to DC, Maryland & BWI. Flat-rate quotes at (877) 609-1919, day or night.',
+      'Chauffeured car service at Reagan National (DCA) — luxury sedans and SUVs to DC, Maryland & BWI. Flat-rate quotes at 877-609-1919, day or night.',
     keywords:
       'DCA car service, Reagan National airport car service, DCA airport limo, Reagan airport chauffeur, DCA to Maryland car service, Washington National airport transportation',
     heroImage:
-      '/images/stock/pexels-358319.jpg',
+      '/images/stock/pexels-358319.webp',
     heroAlt:
       'Modern airport terminal concourse with travelers, evoking Reagan National Airport',
     h1Line1: 'Reagan National (DCA)',
@@ -127,7 +127,7 @@ export const AIRPORT_PAGES = [
       },
       {
         q: 'What vehicles are available for DCA trips?',
-        a: 'Executive sedans suit solo business travelers; luxury SUVs handle families, extra luggage, or clients you want to impress; Sprinter vans cover delegations and event groups. Every vehicle is chauffeur-driven, detailed between trips, and stocked with water. Tell us passenger and bag counts when you call (877) 609-1919 and we will match the right one.',
+        a: 'Executive sedans suit solo business travelers; luxury SUVs handle families, extra luggage, or clients you want to impress; Sprinter vans cover delegations and event groups. Every vehicle is chauffeur-driven, detailed between trips, and stocked with water. Tell us passenger and bag counts when you call 877-609-1919 and we will match the right one.',
       },
     ],
     relatedLinks: [
@@ -150,11 +150,11 @@ export const AIRPORT_PAGES = [
     location: 'Dulles, Virginia',
     metaTitle: 'Dulles IAD Airport Car Service | BWI Chauffeur',
     metaDescription:
-      'Luxury car service at Washington Dulles (IAD) with 60 minutes of free international wait. Serving MD, DC & VA. Flat rates — call (877) 609-1919.',
+      'Luxury car service at Washington Dulles (IAD) with 60 minutes of free international wait. Serving MD, DC & VA. Flat rates — call 877-609-1919.',
     keywords:
       'IAD car service, Dulles airport car service, Washington Dulles limo, IAD chauffeur, Dulles international arrival pickup, IAD to Maryland car service, Dulles airport transportation',
     heroImage:
-      '/images/stock/pexels-2007401.jpg',
+      '/images/stock/pexels-2007401.webp',
     heroAlt:
       'View over an aircraft wing at cruising altitude on a long-haul flight into Dulles',
     h1Line1: 'Washington Dulles (IAD)',
@@ -199,7 +199,7 @@ export const AIRPORT_PAGES = [
       },
       {
         q: 'What if my overseas flight into IAD is delayed several hours?',
-        a: 'We track the aircraft from its departure city, so a long delay simply resets your pickup automatically — no fees, no rebooking, no phone calls from a foreign departure lounge. Even a diversion or next-day rescheduling is handled by dispatch at (877) 609-1919, where a human answers at any hour.',
+        a: 'We track the aircraft from its departure city, so a long delay simply resets your pickup automatically — no fees, no rebooking, no phone calls from a foreign departure lounge. Even a diversion or next-day rescheduling is handled by dispatch at 877-609-1919, where a human answers at any hour.',
       },
     ],
     relatedLinks: [
@@ -222,11 +222,11 @@ export const AIRPORT_PAGES = [
     location: 'Dulles, Virginia',
     metaTitle: 'Dulles Airport Transfers | IAD to BWI, DCA & MD',
     metaDescription:
-      'Dulles Airport transfers made simple: IAD to BWI, DCA, Maryland suburbs & cruise ports. Chauffeured, flat-rate, on time. Call (877) 609-1919.',
+      'Dulles Airport transfers made simple: IAD to BWI, DCA, Maryland suburbs & cruise ports. Chauffeured, flat-rate, on time. Call 877-609-1919.',
     keywords:
       'Dulles airport transfers, IAD to BWI transfer, IAD to DCA shuttle alternative, Dulles to Maryland transfer, Dulles airport connection service, IAD group transfers, Dulles to Baltimore cruise terminal',
     heroImage:
-      '/images/stock/pexels-120049.jpg',
+      '/images/stock/pexels-120049.webp',
     heroAlt:
       'Black luxury vehicle staged and ready for an airport transfer assignment',
     h1Line1: 'Dulles Airport',
@@ -271,7 +271,7 @@ export const AIRPORT_PAGES = [
       },
       {
         q: 'Is a Dulles transfer priced differently from a normal airport pickup?',
-        a: 'The structure is identical: one flat rate covering the entire door-to-door move, quoted and confirmed before you travel. Airport-to-airport runs, suburb drop-offs, and cruise connections each have their own quote, but none of them ever involves meters, waiting-time surprises, or surge pricing. Call (877) 609-1919 and we will price your exact itinerary.',
+        a: 'The structure is identical: one flat rate covering the entire door-to-door move, quoted and confirmed before you travel. Airport-to-airport runs, suburb drop-offs, and cruise connections each have their own quote, but none of them ever involves meters, waiting-time surprises, or surge pricing. Call 877-609-1919 and we will price your exact itinerary.',
       },
     ],
     relatedLinks: [
@@ -294,11 +294,11 @@ export const AIRPORT_PAGES = [
     location: 'Arlington, Virginia',
     metaTitle: 'Reagan Airport Transfers | DCA to BWI & Maryland',
     metaDescription:
-      'Reagan Airport transfers for business travel: DCA to BWI, Annapolis, Baltimore & Bethesda. Chauffeured flat-rate service — (877) 609-1919.',
+      'Reagan Airport transfers for business travel: DCA to BWI, Annapolis, Baltimore & Bethesda. Chauffeured flat-rate service — 877-609-1919.',
     keywords:
       'Reagan airport transfers, DCA to BWI transfer, DCA to Annapolis car service, DCA to Baltimore transfer, DCA corporate car service, Capitol Hill airport transfer, Reagan National to Bethesda',
     heroImage:
-      '/images/stock/pexels-170811.jpg',
+      '/images/stock/pexels-170811.webp',
     heroAlt:
       'Polished luxury sedan awaiting an executive transfer assignment at dusk',
     h1Line1: 'Reagan Airport',
@@ -322,7 +322,7 @@ export const AIRPORT_PAGES = [
     logistics: [
       'A Reagan transfer begins before your flight does. Dispatch confirms your terminal — DCA splits its gates between Terminal 1 and the larger Terminal 2 — from your flight number, assigns your chauffeur, and sends confirmation with the driver’s name and vehicle details. On landing, you receive a text with the pickup door nearest your baggage claim. Travelers with carry-on only are frequently in the car within ten minutes of the aircraft door opening, which is the kind of margin that makes a 4 p.m. meeting in Bethesda possible after a 2:30 arrival.',
       'Northbound routing is where local judgment earns its keep. The BW Parkway is usually the graceful choice toward BWI and Baltimore, but a stalled car can flip the calculus toward I-95 or Route 50 toward Annapolis in a moment, and our chauffeurs drive these corridors enough to feel the change coming. Toward Bethesda, the choice between Rock Creek routes and the Beltway shifts by the hour. Whatever the road decides to do, your quoted flat rate has already absorbed it — the only variable in play is the route, never the price.',
-      'For airport-to-airport work between DCA and BWI, we build the schedule from your second flight backward: bag re-check requirements, security wait patterns at the BWI checkpoints, and the drive itself all get counted honestly. Corporate accounts can standardize the whole playbook — preferred vehicles, billing, standing pickup instructions for frequent flyers — through our dispatch desk, which answers around the clock. One call to (877) 609-1919 sets it up, and every transfer after that runs on rails.',
+      'For airport-to-airport work between DCA and BWI, we build the schedule from your second flight backward: bag re-check requirements, security wait patterns at the BWI checkpoints, and the drive itself all get counted honestly. Corporate accounts can standardize the whole playbook — preferred vehicles, billing, standing pickup instructions for frequent flyers — through our dispatch desk, which answers around the clock. One call to 877-609-1919 sets it up, and every transfer after that runs on rails.',
     ],
     faqs: [
       {

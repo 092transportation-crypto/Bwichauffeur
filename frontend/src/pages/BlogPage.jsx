@@ -5,14 +5,23 @@ import { Calendar, User, ArrowRight, BookOpen, Tag } from 'lucide-react';
 import { Card, CardContent } from '../components/ui/card';
 import { Button } from '../components/ui/button';
 import { Badge } from '../components/ui/badge';
-import { blogPosts } from '../data/blogPosts';
+import { blogPosts as datedPosts } from '../data/blogPosts';
+import { GUIDES } from '../data/guides';
+
+// Guides live at /<slug>, blog posts at /blog/<slug>. Guides are the newest
+// content, so they lead the index.
+const postPath = (p) => (GUIDES.includes(p) ? `/${p.slug}` : `/blog/${p.slug}`);
+const blogPosts = [...GUIDES, ...datedPosts];
+import FaqSection from '../components/FaqSection';
+import { PAGE_FAQS } from '../data/pageFaqs';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const BlogPage = () => {
   const navigate = useNavigate();
 
   const formatDate = (dateString) => {
-    const date = new Date(dateString);
+    // Noon avoids the UTC-midnight parse showing the previous day in US time zones.
+    const date = new Date(`${dateString}T12:00:00`);
     return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   };
 
@@ -28,7 +37,7 @@ const BlogPage = () => {
       <Helmet>
         <title>BWI Chauffeur Blog | Airport Travel Tips & Route Guides</title>
         <meta name="description" content="Stay informed with the latest chauffeur service news, expert travel tips, and timely updates to ensure safe and luxurious transportation experiences always." />
-        <link rel="canonical" href="https://www.bwichauffeur.com/blog/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/blog" />
       </Helmet>
     <div className="min-h-screen bg-black pt-32 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -99,7 +108,7 @@ const BlogPage = () => {
           </h2>
           <Card
             className="bg-gradient-to-br from-gray-900 to-black border-[#D4AF37]/40 hover:border-[#D4AF37]/80 overflow-hidden group transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/30 cursor-pointer"
-            onClick={() => navigate(`/blog/${featuredPost.slug}`)}
+            onClick={() => navigate(postPath(featuredPost))}
           >
             <div className="grid md:grid-cols-2 gap-0">
               <div className="relative h-64 md:h-auto overflow-hidden">
@@ -127,7 +136,7 @@ const BlogPage = () => {
                   </div>
                 </div>
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 group-hover:text-[#D4AF37] transition-colors duration-300">
-                  {featuredPost.title}
+                  <Link to={postPath(featuredPost)} onClick={(e) => e.stopPropagation()}>{featuredPost.title}</Link>
                 </h2>
                 <p className="text-gray-400 mb-6 line-clamp-3">
                   {featuredPost.excerpt}
@@ -152,7 +161,7 @@ const BlogPage = () => {
               <Card
                 key={post.id}
                 className="bg-gradient-to-br from-gray-900 to-black border-[#D4AF37]/20 hover:border-[#D4AF37]/60 overflow-hidden group transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/20 cursor-pointer"
-                onClick={() => navigate(`/blog/${post.slug}`)}
+                onClick={() => navigate(postPath(post))}
               >
                 {/* Featured Image */}
                 <div className="relative h-48 overflow-hidden">
@@ -182,7 +191,7 @@ const BlogPage = () => {
 
                   {/* Title */}
                   <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#D4AF37] transition-colors duration-300 line-clamp-2">
-                    {post.title}
+                    <Link to={postPath(post)} onClick={(e) => e.stopPropagation()}>{post.title}</Link>
                   </h3>
 
                   {/* Excerpt */}
@@ -294,6 +303,7 @@ const BlogPage = () => {
         </div>
       </div>
     </div>
+      <FaqSection faqs={PAGE_FAQS['/blog']} />
     </>
   );
 };

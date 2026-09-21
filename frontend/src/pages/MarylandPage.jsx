@@ -16,6 +16,7 @@ import {
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
+import { ensureFiveFaqs } from '../lib/faqExtras';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const SITE_URL = 'https://www.bwichauffeur.com';
@@ -25,6 +26,7 @@ const PHONE_TEL = 'tel:+18776091919';
 // Maryland city, route and service landing pages. Same visual system as
 // RoutePage; content comes from src/data/marylandPages.js.
 const MarylandPage = ({ page }) => {
+  const faqs = ensureFiveFaqs(page.faqs, { slug: page.slug });
   const navigate = useNavigate();
   if (!page) return null;
 
@@ -57,7 +59,7 @@ const MarylandPage = ({ page }) => {
       },
       {
         '@type': 'FAQPage',
-        mainEntity: page.faqs.map((f) => ({
+        mainEntity: faqs.map((f) => ({
           '@type': 'Question',
           name: f.q,
           acceptedAnswer: { '@type': 'Answer', text: f.a },
@@ -104,7 +106,7 @@ const MarylandPage = ({ page }) => {
             Back to Home
           </Button>
 
-          <Breadcrumbs items={[{ label: 'Service Areas', to: '/service-areas' }, { label: crumbLabel }]} />
+          <Breadcrumbs schema={false} items={[{ label: 'Service Areas', to: '/service-areas' }, { label: crumbLabel }]} />
 
           {/* Hero */}
           <header className="mb-12">
@@ -270,7 +272,7 @@ const MarylandPage = ({ page }) => {
               Frequently asked <span className="text-[#D4AF37]">questions</span>
             </h2>
             <div className="space-y-4">
-              {page.faqs.map((f) => (
+              {faqs.map((f) => (
                 <div key={f.q} className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-lg p-6">
                   <h3 className="text-lg font-semibold text-white mb-2">{f.q}</h3>
                   <p className="text-gray-400">{f.a}</p>

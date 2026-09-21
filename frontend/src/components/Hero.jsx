@@ -10,7 +10,7 @@ const Hero = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(/images/gallery/fleet-downtown-baltimore.jpg)',
+            backgroundImage: 'url(/images/gallery/fleet-downtown-baltimore.webp)',
             filter: 'brightness(0.35)',
           }}
         />
@@ -89,7 +89,7 @@ const Hero = () => {
             data-testid="hero-phone-number"
             className="inline-block text-4xl sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] via-[#F4E5C3] to-[#D4AF37] hover:opacity-90 transition-opacity tracking-tight"
           >
-            (877) 609-1919
+            877-609-1919
           </a>
         </div>
 

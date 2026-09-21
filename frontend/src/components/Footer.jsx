@@ -101,12 +101,12 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-bold text-lg mb-6">Our Services</h3>
             <ul className="space-y-3">
-              <li><Link to="/services" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Airport Transportation</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Corporate Car Service</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Wedding & Events</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Group Transportation</Link></li>
+              <li><Link to="/bwi-airport-car-service" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Airport Transportation</Link></li>
+              <li><Link to="/maryland-corporate-car-service" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Corporate Car Service</Link></li>
+              <li><Link to="/maryland-wedding-limo" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Wedding & Events</Link></li>
+              <li><Link to="/concert-transportation" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Group Transportation</Link></li>
               <li><Link to="/services" className="text-gray-400 hover:text-[#D4AF37] transition-colors">City Tours</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Hourly Service</Link></li>
+              <li><Link to="/maryland-hourly-chauffeur-service" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Hourly Service</Link></li>
             </ul>
           </div>
 
@@ -117,6 +117,10 @@ const Footer = () => {
               <li><Link to="/blog/bwi-airport-transportation-guide-terminals-pickup" className="text-gray-400 hover:text-[#D4AF37] transition-colors">BWI Airport Guide</Link></li>
               <li><Link to="/blog/corporate-transportation-solutions-maryland-businesses" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Corporate Solutions</Link></li>
               <li><Link to="/blog/wedding-transportation-maryland-luxury-limousine" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Wedding Transport</Link></li>
+              <li><Link to="/airport-transportation-guide" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Airport Transportation Guide</Link></li>
+              <li><Link to="/uber-vs-limo-service" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Uber vs. Limo Service</Link></li>
+              <li><Link to="/why-hire-a-chauffeur" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Why Hire a Chauffeur</Link></li>
+              <li><Link to="/corporate-car-service-vs-rideshare" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Corporate Car Service vs. Rideshare</Link></li>
               <li><Link to="/privacy-policy" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Privacy Policy</Link></li>
               <li><Link to="/terms-conditions" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Terms & Conditions</Link></li>
             </ul>

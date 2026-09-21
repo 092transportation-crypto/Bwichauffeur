@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Phone, MapPin, Clock, Shield, Car, Users, Music } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 import TrustSignals from '../components/TrustSignals';
+import { ensureFiveFaqs } from '../lib/faqExtras';
 import { CONCERT_VENUES } from '../data/concertVenues';
 
 const features = [
@@ -30,6 +31,7 @@ const features = [
 ];
 
 const VenuePage = ({ venue }) => {
+  const faqs = ensureFiveFaqs(venue.faqs, { slug: venue.slug });
   const otherVenues = CONCERT_VENUES.filter((v) => v.slug !== venue.slug);
 
   return (
@@ -38,12 +40,12 @@ const VenuePage = ({ venue }) => {
         <title>{venue.metaTitle}</title>
         <meta name="description" content={venue.metaDescription} />
         <meta name="keywords" content={venue.keywords} />
-        <link rel="canonical" href={`https://www.bwichauffeur.com/${venue.slug}/`} />
+        <link rel="canonical" href={`https://www.bwichauffeur.com/${venue.slug}`} />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            mainEntity: venue.faqs.map((f) => ({
+            mainEntity: faqs.map((f) => ({
               '@type': 'Question',
               name: f.q,
               acceptedAnswer: { '@type': 'Answer', text: f.a },
@@ -99,7 +101,7 @@ const VenuePage = ({ venue }) => {
                 href="tel:+18776091919"
                 className="px-8 py-4 border-2 border-[#D4AF37] text-[#D4AF37] font-bold rounded-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300"
               >
-                Call (877) 609-1919
+                Call 877-609-1919
               </a>
             </div>
             <TrustSignals className="mt-6" />
@@ -185,7 +187,7 @@ const VenuePage = ({ venue }) => {
               {venue.name} <span style={{ color: '#D4AF37' }}>FAQs</span>
             </h2>
             <div className="space-y-4">
-              {venue.faqs.map((f) => (
+              {faqs.map((f) => (
                 <div key={f.q} className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-lg p-6">
                   <h3 className="text-lg font-semibold text-white mb-2">{f.q}</h3>
                   <p className="text-gray-400">{f.a}</p>
@@ -247,7 +249,7 @@ const VenuePage = ({ venue }) => {
                 className="px-8 py-4 border-2 border-[#D4AF37] text-[#D4AF37] font-bold rounded-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300 flex items-center justify-center space-x-2"
               >
                 <Phone className="h-5 w-5" />
-                <span>(877) 609-1919</span>
+                <span>877-609-1919</span>
               </a>
             </div>
             <TrustSignals className="mt-6" />

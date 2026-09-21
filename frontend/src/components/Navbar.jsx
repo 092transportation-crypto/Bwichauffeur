@@ -140,7 +140,7 @@ const Navbar = () => {
 
             <a href="tel:+18776091919" className="flex items-center space-x-2 text-[#D4AF37] hover:text-[#F4E5C3] transition-colors duration-300">
               <Phone className="h-4 w-4" />
-              <span className="font-semibold">877-609-1919</span>
+              <span className="font-semibold whitespace-nowrap">877-609-1919</span>
             </a>
             <Link
               to="/booking"

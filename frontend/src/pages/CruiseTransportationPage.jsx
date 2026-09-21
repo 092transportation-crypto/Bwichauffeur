@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Ship, Plane, Clock, Users, Shield, Star, Phone, MapPin, CheckCircle } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
+import Testimonials from '../components/Testimonials';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const cruiseFaqs = [
@@ -36,14 +37,14 @@ const CruiseTransportationPage = () => {
       location: 'Baltimore, Maryland',
       description: 'Maryland\'s premier cruise terminal serving major cruise lines including Royal Caribbean, Carnival, and Norwegian.',
       distance: '15 minutes from BWI Airport',
-      image: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2064'
+      image: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=2064&auto=format'
     },
     {
       name: 'Norfolk Cruise Terminal',
       location: 'Norfolk, Virginia',
       description: 'Virginia\'s gateway to Caribbean and Bermuda cruises with easy access from the DMV region.',
       distance: '3.5 hours from Baltimore',
-      image: 'https://images.unsplash.com/photo-1599640842225-85d111c60e6b?q=80&w=2074'
+      image: 'https://images.unsplash.com/photo-1599640842225-85d111c60e6b?q=80&w=2074&auto=format'
     }
   ];
 
@@ -86,7 +87,7 @@ const CruiseTransportationPage = () => {
       <Helmet>
         <title>Port of Baltimore Cruise Terminal Limo | BWI Chauffeur</title>
         <meta name="description" content="Luxury cruise port transfers to the Port of Baltimore & Norfolk. Flat-rate chauffeur service for cruise passengers with door-to-door pickup." />
-        <link rel="canonical" href="https://www.bwichauffeur.com/cruise-transportation/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/cruise-transportation" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
@@ -311,6 +312,7 @@ const CruiseTransportationPage = () => {
           </div>
         </div>
       </div>
+      <Testimonials />
     </>
   );
 };

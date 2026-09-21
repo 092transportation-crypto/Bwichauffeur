@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Phone, MapPin, Clock, Shield, Car, Plane, BadgeCheck } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 import TrustSignals from '../components/TrustSignals';
+import Testimonials from '../components/Testimonials';
 import { AIRPORT_PAGES } from '../data/airportPages';
 
 const features = [
@@ -38,7 +39,7 @@ const AirportServicePage = ({ airport }) => {
         <title>{airport.metaTitle}</title>
         <meta name="description" content={airport.metaDescription} />
         <meta name="keywords" content={airport.keywords} />
-        <link rel="canonical" href={`https://www.bwichauffeur.com/${airport.slug}/`} />
+        <link rel="canonical" href={`https://www.bwichauffeur.com/${airport.slug}`} />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
@@ -99,7 +100,7 @@ const AirportServicePage = ({ airport }) => {
                 href="tel:+18776091919"
                 className="px-8 py-4 border-2 border-[#D4AF37] text-[#D4AF37] font-bold rounded-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300"
               >
-                Call (877) 609-1919
+                Call 877-609-1919
               </a>
             </div>
             <TrustSignals />
@@ -250,13 +251,14 @@ const AirportServicePage = ({ airport }) => {
                 className="px-8 py-4 border-2 border-[#D4AF37] text-[#D4AF37] font-bold rounded-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300 flex items-center justify-center space-x-2"
               >
                 <Phone className="h-5 w-5" />
-                <span>(877) 609-1919</span>
+                <span>877-609-1919</span>
               </a>
             </div>
             <TrustSignals />
           </div>
         </section>
       </div>
+      <Testimonials />
     </>
   );
 };

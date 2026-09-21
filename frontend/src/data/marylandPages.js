@@ -1,6 +1,8 @@
 // Maryland SEO landing pages — city, route and service pages.
 // Generated content; each entry drives one page at /<slug>.
 
+import { MARYLAND_BATCH3 } from './marylandPagesBatch3';
+
 export const MARYLAND_PAGES = [
   {
     "slug": "rockville-limo-service",
@@ -9,7 +11,7 @@ export const MARYLAND_PAGES = [
     "badge": "Montgomery County Limo Service",
     "h1": "Rockville Limo Service",
     "metaTitle": "Rockville Limo Service | Car Service Rockville MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Rockville, MD. BWI in 55–70 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Rockville, MD. BWI in 55–70 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -172,7 +174,7 @@ export const MARYLAND_PAGES = [
     "badge": "Montgomery County Limo Service",
     "h1": "Bethesda Limo Service",
     "metaTitle": "Bethesda Limo Service | Car Service Bethesda MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Bethesda, MD. BWI in 50–65 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Bethesda, MD. BWI in 50–65 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -335,7 +337,7 @@ export const MARYLAND_PAGES = [
     "badge": "Montgomery County Limo Service",
     "h1": "Gaithersburg Limo Service",
     "metaTitle": "Gaithersburg Limo Service | Car Service Gaithersburg MD",
-    "metaDescription": "Flat-rate limo & car service in Gaithersburg, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Gaithersburg, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -498,7 +500,7 @@ export const MARYLAND_PAGES = [
     "badge": "Montgomery County Limo Service",
     "h1": "Silver Spring Limo Service",
     "metaTitle": "Silver Spring Limo Service | Car Service Silver Spring MD",
-    "metaDescription": "Flat-rate limo & car service in Silver Spring, MD. BWI in 45–60 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Silver Spring, MD. BWI in 45–60 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -661,7 +663,7 @@ export const MARYLAND_PAGES = [
     "badge": "Prince George's County Limo Service",
     "h1": "Bowie Limo Service",
     "metaTitle": "Bowie Limo Service | Car Service Bowie MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Bowie, MD. BWI in 30–40 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Bowie, MD. BWI in 30–40 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -824,7 +826,7 @@ export const MARYLAND_PAGES = [
     "badge": "Prince George's, Howard and Anne Arundel counties Limo Service",
     "h1": "Laurel Limo Service",
     "metaTitle": "Laurel Limo Service | Car Service Laurel MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Laurel, MD. BWI in 20–25 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Laurel, MD. BWI in 20–25 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -987,7 +989,7 @@ export const MARYLAND_PAGES = [
     "badge": "Prince George's County Limo Service",
     "h1": "Greenbelt Limo Service",
     "metaTitle": "Greenbelt Limo Service | Car Service Greenbelt MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Greenbelt, MD. BWI in 25–35 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Greenbelt, MD. BWI in 25–35 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -1150,7 +1152,7 @@ export const MARYLAND_PAGES = [
     "badge": "Charles County Limo Service",
     "h1": "Waldorf Limo Service",
     "metaTitle": "Waldorf Limo Service | Car Service Waldorf MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Waldorf, MD. BWI in 55–75 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Waldorf, MD. BWI in 55–75 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -1313,7 +1315,7 @@ export const MARYLAND_PAGES = [
     "badge": "Frederick County Limo Service",
     "h1": "Frederick Limo Service",
     "metaTitle": "Frederick Limo Service | Car Service Frederick MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Frederick, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Frederick, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -1476,7 +1478,7 @@ export const MARYLAND_PAGES = [
     "badge": "Anne Arundel County Limo Service",
     "h1": "Odenton Limo Service",
     "metaTitle": "Odenton Limo Service | Car Service Odenton MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Odenton, MD. BWI in 15–20 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Odenton, MD. BWI in 15–20 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -1613,7 +1615,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -1639,7 +1641,7 @@ export const MARYLAND_PAGES = [
     "badge": "Anne Arundel County Limo Service",
     "h1": "Severna Park Limo Service",
     "metaTitle": "Severna Park Limo Service | Car Service Severna Park MD",
-    "metaDescription": "Flat-rate limo & car service in Severna Park, MD. BWI in 20–30 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Severna Park, MD. BWI in 20–30 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -1776,7 +1778,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -1802,7 +1804,7 @@ export const MARYLAND_PAGES = [
     "badge": "Anne Arundel County Limo Service",
     "h1": "Crofton Limo Service",
     "metaTitle": "Crofton Limo Service | Car Service Crofton MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Crofton, MD. BWI in 25–35 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Crofton, MD. BWI in 25–35 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -1939,7 +1941,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -1965,7 +1967,7 @@ export const MARYLAND_PAGES = [
     "badge": "Prince George's County Limo Service",
     "h1": "Hyattsville Limo Service",
     "metaTitle": "Hyattsville Limo Service | Car Service Hyattsville MD",
-    "metaDescription": "Flat-rate limo & car service in Hyattsville, MD. BWI in 35–45 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Hyattsville, MD. BWI in 35–45 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -2128,7 +2130,7 @@ export const MARYLAND_PAGES = [
     "badge": "Montgomery County Limo Service",
     "h1": "Germantown Limo Service",
     "metaTitle": "Germantown Limo Service | Car Service Germantown MD",
-    "metaDescription": "Flat-rate limo & car service in Germantown, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Germantown, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -2291,7 +2293,7 @@ export const MARYLAND_PAGES = [
     "badge": "Anne Arundel County Limo Service",
     "h1": "Glen Burnie Limo Service",
     "metaTitle": "Glen Burnie Limo Service | Car Service Glen Burnie MD",
-    "metaDescription": "Flat-rate limo & car service in Glen Burnie, MD. BWI in 10–15 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Glen Burnie, MD. BWI in 10–15 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -2428,7 +2430,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -2454,7 +2456,7 @@ export const MARYLAND_PAGES = [
     "badge": "Anne Arundel County Limo Service",
     "h1": "Arnold Limo Service",
     "metaTitle": "Arnold Limo Service | Car Service Arnold MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Arnold, MD. BWI in 30–40 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Arnold, MD. BWI in 30–40 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -2591,7 +2593,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -2617,7 +2619,7 @@ export const MARYLAND_PAGES = [
     "badge": "Anne Arundel County Limo Service",
     "h1": "Riva Limo Service",
     "metaTitle": "Riva Limo Service | Car Service Riva MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Riva, MD. BWI in 35–45 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Riva, MD. BWI in 35–45 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -2754,7 +2756,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -2774,7 +2776,7 @@ export const MARYLAND_PAGES = [
     }
   },
   {
-    "slug": "capstone-limo-service",
+    "slug": "cape-st-claire-limo-service",
     "type": "city",
     "name": "Cape St. Claire",
     "badge": "Anne Arundel County Limo Service",
@@ -2943,7 +2945,7 @@ export const MARYLAND_PAGES = [
     "badge": "Howard County Limo Service",
     "h1": "Clarksville Limo Service",
     "metaTitle": "Clarksville Limo Service | Car Service Clarksville MD",
-    "metaDescription": "Flat-rate limo & car service in Clarksville, MD. BWI in 25–35 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Clarksville, MD. BWI in 25–35 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -3106,7 +3108,7 @@ export const MARYLAND_PAGES = [
     "badge": "Baltimore County Limo Service",
     "h1": "Towson Limo Service",
     "metaTitle": "Towson Limo Service | Car Service Towson MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Towson, MD. BWI in 25–40 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Towson, MD. BWI in 25–40 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -3269,7 +3271,7 @@ export const MARYLAND_PAGES = [
     "badge": "Baltimore County Limo Service",
     "h1": "Timonium Limo Service",
     "metaTitle": "Timonium Limo Service | Car Service Timonium MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Timonium, MD. BWI in 30–45 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Timonium, MD. BWI in 30–45 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -3432,7 +3434,7 @@ export const MARYLAND_PAGES = [
     "badge": "Baltimore County Limo Service",
     "h1": "Lutherville Limo Service",
     "metaTitle": "Lutherville Limo Service | Car Service Lutherville MD",
-    "metaDescription": "Flat-rate limo & car service in Lutherville, MD. BWI in 30–45 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Lutherville, MD. BWI in 30–45 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -3595,7 +3597,7 @@ export const MARYLAND_PAGES = [
     "badge": "Baltimore County Limo Service",
     "h1": "Phoenix Limo Service",
     "metaTitle": "Phoenix Limo Service | Car Service Phoenix MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Phoenix, MD. BWI in 40–50 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Phoenix, MD. BWI in 40–50 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -3758,7 +3760,7 @@ export const MARYLAND_PAGES = [
     "badge": "Montgomery County Limo Service",
     "h1": "North Bethesda Limo Service",
     "metaTitle": "North Bethesda Limo Service | Car Service North Bethesda MD",
-    "metaDescription": "Flat-rate limo & car service in North Bethesda, MD. BWI in 55–70 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in North Bethesda, MD. BWI in 55–70 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -3921,7 +3923,7 @@ export const MARYLAND_PAGES = [
     "badge": "Montgomery County Limo Service",
     "h1": "North Potomac Limo Service",
     "metaTitle": "North Potomac Limo Service | Car Service North Potomac MD",
-    "metaDescription": "Flat-rate limo & car service in North Potomac, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in North Potomac, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -4084,7 +4086,7 @@ export const MARYLAND_PAGES = [
     "badge": "Anne Arundel County Limo Service",
     "h1": "Gibson Island Limo Service",
     "metaTitle": "Gibson Island Limo Service | Car Service Gibson Island MD",
-    "metaDescription": "Flat-rate limo & car service in Gibson Island, MD. BWI in 25–35 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Gibson Island, MD. BWI in 25–35 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -4225,7 +4227,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Navy-Marine Corps Memorial Stadium Transportation",
@@ -4247,7 +4249,7 @@ export const MARYLAND_PAGES = [
     "badge": "Queen Anne's County Limo Service",
     "h1": "Stevensville Limo Service",
     "metaTitle": "Stevensville Limo Service | Car Service Stevensville MD",
-    "metaDescription": "Flat-rate limo & car service in Stevensville, MD. BWI in 40–55 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Stevensville, MD. BWI in 40–55 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -4410,7 +4412,7 @@ export const MARYLAND_PAGES = [
     "badge": "Montgomery County Limo Service",
     "h1": "Chevy Chase Limo Service",
     "metaTitle": "Chevy Chase Limo Service | Car Service Chevy Chase MD",
-    "metaDescription": "Flat-rate limo & car service in Chevy Chase, MD. BWI in 50–65 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Chevy Chase, MD. BWI in 50–65 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -4567,13 +4569,13 @@ export const MARYLAND_PAGES = [
     }
   },
   {
-    "slug": "snopesville-limo-service",
+    "slug": "sykesville-limo-service",
     "type": "city",
     "name": "Sykesville",
     "badge": "Carroll County Limo Service",
     "h1": "Sykesville Limo Service",
     "metaTitle": "Sykesville Limo Service | Car Service Sykesville MD",
-    "metaDescription": "Flat-rate limo & car service in Sykesville, MD. BWI in 40–50 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7 chauffeurs. Call 877-609-1919.",
+    "metaDescription": "Flat-rate limo & car service in Sykesville, MD. BWI in 40–50 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -6149,7 +6151,7 @@ export const MARYLAND_PAGES = [
     "badge": "Maryland Service",
     "h1": "Maryland Wedding Limo Service",
     "metaTitle": "Maryland Wedding Limo | Flat Rate Chauffeurs | BWI Chauffeur",
-    "metaDescription": "Maryland Wedding Limo across Baltimore and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919 for a fla",
+    "metaDescription": "Maryland Wedding Limo across Baltimore and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "Coverage",
@@ -6304,7 +6306,7 @@ export const MARYLAND_PAGES = [
     "badge": "Maryland Service",
     "h1": "Maryland Corporate Car Service",
     "metaTitle": "Maryland Corporate Car Service | BWI Chauffeur",
-    "metaDescription": "Maryland Corporate Car Service across Baltimore and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919 ",
+    "metaDescription": "Maryland Corporate Car Service across Baltimore and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "Coverage",
@@ -6459,7 +6461,7 @@ export const MARYLAND_PAGES = [
     "badge": "Maryland Service",
     "h1": "Maryland Prom Limo Service",
     "metaTitle": "Maryland Prom Limo | Flat Rate Chauffeurs | BWI Chauffeur",
-    "metaDescription": "Maryland Prom Limo across Howard and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919 for a flat-rate",
+    "metaDescription": "Maryland Prom Limo across Howard and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "Coverage",
@@ -6614,7 +6616,7 @@ export const MARYLAND_PAGES = [
     "badge": "Maryland Service",
     "h1": "Maryland Concert Transportation",
     "metaTitle": "Maryland Concert Transportation | BWI Chauffeur",
-    "metaDescription": "Maryland Concert Transportation across Columbia and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919 ",
+    "metaDescription": "Maryland Concert Transportation across Columbia and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "Coverage",
@@ -6769,7 +6771,7 @@ export const MARYLAND_PAGES = [
     "badge": "Maryland Service",
     "h1": "Maryland Wine Tour Transportation",
     "metaTitle": "Maryland Wine Tour Transportation | BWI Chauffeur",
-    "metaDescription": "Maryland Wine Tour Transportation across the Frederick wine trail and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. ",
+    "metaDescription": "Maryland Wine Tour Transportation across the Frederick wine trail and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7.",
     "stats": [
       {
         "label": "Coverage",
@@ -7909,7 +7911,7 @@ export const MARYLAND_PAGES = [
     "name": "Navy-Marine Corps Stadium",
     "badge": "Event Transportation",
     "h1": "Navy-Marine Corps Memorial Stadium Transportation & Limo Service",
-    "metaTitle": "Navy-Marine Corps Memorial Stadium Transportation | Limo & Car Service",
+    "metaTitle": "Navy-Marine Corps Stadium Transportation | BWI Chauffeur",
     "metaDescription": "Chauffeured transportation to Navy-Marine Corps Memorial Stadium in Annapolis. Door drop-off, staged pickup, flat rates, sedans to. Call 877-609-1919.",
     "stats": [
       {
@@ -8898,7 +8900,9 @@ export const MARYLAND_PAGES = [
       ],
       "serviceType": "Event transportation"
     }
-  }
+  },
+  // Batch 3 (2026-09-21) lives in its own file.
+  ...MARYLAND_BATCH3,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);

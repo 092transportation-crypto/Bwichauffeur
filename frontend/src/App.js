@@ -34,15 +34,17 @@ import { AIRPORT_PAGES } from "./data/airportPages";
 import MarylandPage from "./pages/MarylandPage";
 import EventRoute from "./pages/EventRoute";
 import { MARYLAND_PAGES } from "./data/marylandPages";
+import { GUIDES } from "./data/guides";
 import ChatWidget from "./components/ChatWidget";
 import FloatingCallButton from "./components/FloatingCallButton";
 import { Toaster } from "sonner";
 
-function App() {
+// Router- and Helmet-agnostic shell: the browser wraps it in BrowserRouter
+// (below); scripts/prerender.js wraps it in StaticRouter to server-render every
+// route to static HTML at build time.
+export function AppShell() {
   return (
-    <HelmetProvider>
-      <div className="App">
-        <BrowserRouter>
+    <>
           <ScrollToTop />
           <div className="min-h-screen bg-black">
             <header>
@@ -103,6 +105,13 @@ function App() {
                     element={<MarylandPage page={page} />}
                   />
                 ))}
+                {GUIDES.map((guide) => (
+                  <Route
+                    key={guide.slug}
+                    path={`/${guide.slug}`}
+                    element={<BlogPostPage guideSlug={guide.slug} />}
+                  />
+                ))}
                 <Route path="/:slug" element={<EventRoute />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>
@@ -114,6 +123,16 @@ function App() {
             <FloatingCallButton />
             <Toaster position="top-right" richColors />
           </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <HelmetProvider>
+      <div className="App">
+        <BrowserRouter>
+          <AppShell />
         </BrowserRouter>
       </div>
     </HelmetProvider>

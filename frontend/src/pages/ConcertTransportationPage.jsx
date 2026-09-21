@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from '@dr.pogodin/react-helmet';
 import { Link } from 'react-router-dom';
 import { Phone, MapPin, Clock, Shield, Car, Users, Music, Ticket } from 'lucide-react';
+import Testimonials from '../components/Testimonials';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const concertFaqs = [
@@ -78,13 +79,13 @@ const ConcertTransportationPage = () => {
         <title>BWI Concert & Event Transportation | Baltimore, DC & VA</title>
         <meta
           name="description"
-          content="Luxury concert and event transportation across Baltimore, DC, and Virginia. CFG Bank Arena, Merriweather, Capital One Arena, Jiffy Lube Live & more. (877) 609-1919."
+          content="Luxury concert and event transportation across Baltimore, DC, and Virginia. CFG Bank Arena, Merriweather, Capital One Arena, Jiffy Lube Live & more. 877-609-1919."
         />
         <meta
           name="keywords"
           content="concert transportation Baltimore, event limo service, CFG Bank Arena limo, Merriweather Post Pavilion transportation, Capital One Arena car service, Jiffy Lube Live limo, M&T Bank Stadium transportation, Camden Yards limo, concert car service DC"
         />
-        <link rel="canonical" href="https://www.bwichauffeur.com/concert-transportation/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/concert-transportation" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
@@ -107,7 +108,7 @@ const ConcertTransportationPage = () => {
         <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="/images/stock/pexels-1540406.jpg"
+              src="/images/stock/pexels-1540406.webp"
               alt="BWI Concert and Event Transportation - Luxury Chauffeur Service to Baltimore, Washington DC and Virginia Concert Venues"
               loading="eager"
               fetchpriority="high"
@@ -137,7 +138,7 @@ const ConcertTransportationPage = () => {
                 href="tel:+18776091919"
                 className="px-8 py-4 border-2 border-[#D4AF37] text-[#D4AF37] font-bold rounded-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300"
               >
-                Call (877) 609-1919
+                Call 877-609-1919
               </a>
             </div>
           </div>
@@ -347,12 +348,13 @@ const ConcertTransportationPage = () => {
                 className="px-8 py-4 border-2 border-[#D4AF37] text-[#D4AF37] font-bold rounded-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300 flex items-center justify-center space-x-2"
               >
                 <Phone className="h-5 w-5" />
-                <span>(877) 609-1919</span>
+                <span>877-609-1919</span>
               </a>
             </div>
           </div>
         </section>
       </div>
+      <Testimonials />
     </>
   );
 };

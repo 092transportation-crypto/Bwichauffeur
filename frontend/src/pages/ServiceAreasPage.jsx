@@ -5,6 +5,21 @@ import { MapPin, Phone, ArrowRight, Star, Shield, Clock } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { REGIONS, getCitiesByRegion, CITIES } from '../data/cities';
 import { BWI_ROUTES } from '../data/bwiRoutes';
+import { MARYLAND_PAGES } from '../data/marylandPages';
+import { CONCERT_VENUES } from '../data/concertVenues';
+import { GUIDES } from '../data/guides';
+
+// Directory of every data-driven landing page, so each one is reachable by a
+// crawlable link from this hub (they were previously linked only from each other).
+const DIRECTORY = [
+  { title: 'More Maryland', accent: 'Cities', items: MARYLAND_PAGES.filter((p) => p.type === 'city').map((p) => ({ to: `/${p.slug}`, label: p.h1 })) },
+  { title: 'Point-to-Point', accent: 'Routes', items: MARYLAND_PAGES.filter((p) => p.type === 'route').map((p) => ({ to: `/${p.slug}`, label: p.h1 })) },
+  { title: 'Chauffeur', accent: 'Services', items: MARYLAND_PAGES.filter((p) => p.type === 'service').map((p) => ({ to: `/${p.slug}`, label: p.h1 })) },
+  { title: 'Events &', accent: 'Venues', items: [...MARYLAND_PAGES.filter((p) => p.type === 'event').map((p) => ({ to: `/${p.slug}`, label: p.h1 })), ...CONCERT_VENUES.map((v) => ({ to: `/${v.slug}`, label: v.name }))] },
+  { title: 'Local & Airport', accent: 'Guides', items: GUIDES.map((g) => ({ to: `/${g.slug}`, label: g.title })) },
+];
+import FaqSection from '../components/FaqSection';
+import { PAGE_FAQS } from '../data/pageFaqs';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const ServiceAreasPage = () => {
@@ -152,6 +167,27 @@ const ServiceAreasPage = () => {
           </div>
         </div>
       </div>
+      <section className="py-16 bg-black" data-testid="landing-directory">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+          {DIRECTORY.map((group) => (
+            <div key={group.accent}>
+              <h2 className="text-2xl md:text-3xl font-bold text-white mb-5">
+                {group.title} <span className="text-[#D4AF37]">{group.accent}</span>
+              </h2>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
+                {group.items.map((item) => (
+                  <li key={item.to}>
+                    <Link to={item.to} className="text-gray-300 hover:text-[#D4AF37] transition-colors text-sm">
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
+      <FaqSection faqs={PAGE_FAQS['/service-areas']} />
     </>
   );
 };

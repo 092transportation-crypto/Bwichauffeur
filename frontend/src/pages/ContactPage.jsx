@@ -21,6 +21,8 @@ import { sanitizePhone, isValidPhone } from '../lib/phone';
 import { toast } from 'sonner';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { AddressAutocomplete } from '../components/AddressAutocomplete';
+import FaqSection from '../components/FaqSection';
+import { PAGE_FAQS } from '../data/pageFaqs';
 import TrustSignals from '../components/TrustSignals';
 
 // Default to same-origin (Vercel serverless /api). Override with
@@ -109,12 +111,12 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Get a Free Quote | BWI Chauffeur (877) 609-1919</title>
+        <title>Get a Free Quote | BWI Chauffeur 877-609-1919</title>
         <meta
           name="description"
           content="Contact BWI Chauffeur for 24/7 luxury airport transfers and corporate car service across Maryland, DC & Delaware. Call 877-609-1919 or book online."
         />
-        <link rel="canonical" href="https://www.bwichauffeur.com/contact/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/contact" />
       </Helmet>
 
       <div className="min-h-screen bg-black pt-32 pb-16" data-testid="contact-page">
@@ -463,6 +465,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+      <FaqSection faqs={PAGE_FAQS['/contact']} />
     </>
   );
 };

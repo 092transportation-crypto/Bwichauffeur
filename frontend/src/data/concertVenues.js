@@ -7,11 +7,11 @@ export const CONCERT_VENUES = [
     city: 'Baltimore, MD',
     metaTitle: 'CFG Bank Arena Limo Service | Baltimore Concerts',
     metaDescription:
-      'Luxury limo and black car service to CFG Bank Arena in Baltimore. Door-to-door concert transportation with professional chauffeurs. Book (877) 609-1919.',
+      'Luxury limo and black car service to CFG Bank Arena in Baltimore. Door-to-door concert transportation with professional chauffeurs. Book 877-609-1919.',
     keywords:
       'CFG Bank Arena limo service, CFG Bank Arena transportation, Baltimore concert limo, CFG Bank Arena car service, Baltimore arena chauffeur, concert transportation Baltimore',
     heroImage:
-      '/images/stock/pexels-1105666.jpg',
+      '/images/stock/pexels-1105666.webp',
     heroAlt:
       'CFG Bank Arena Baltimore Concert Limo Service - BWI Chauffeur Black Car Transportation to Downtown Baltimore Shows',
     heroTagline:
@@ -44,7 +44,7 @@ export const CONCERT_VENUES = [
       },
       {
         q: 'How much does a limo to CFG Bank Arena cost?',
-        a: 'Pricing depends on your pickup location, vehicle, and whether you want one-way, round-trip, or hourly service. Call (877) 609-1919 or request a quote online for an exact price with no hidden fees.',
+        a: 'Pricing depends on your pickup location, vehicle, and whether you want one-way, round-trip, or hourly service. Call 877-609-1919 or request a quote online for an exact price with no hidden fees.',
       },
     ],
   },
@@ -55,11 +55,11 @@ export const CONCERT_VENUES = [
     city: 'Columbia, MD',
     metaTitle: 'Merriweather Post Pavilion Transportation | Columbia MD',
     metaDescription:
-      'Skip the Merriweather Post Pavilion parking lots. Chauffeured concert transportation to Columbia MD from Baltimore, DC, and BWI. Call (877) 609-1919.',
+      'Skip the Merriweather Post Pavilion parking lots. Chauffeured concert transportation to Columbia MD from Baltimore, DC, and BWI. Call 877-609-1919.',
     keywords:
       'Merriweather Post Pavilion transportation, Merriweather limo service, Columbia MD concert limo, Merriweather car service, Merriweather Post Pavilion parking alternative, concert shuttle Columbia Maryland',
     heroImage:
-      '/images/stock/pexels-1190298.jpg',
+      '/images/stock/pexels-1190298.webp',
     heroAlt:
       'Merriweather Post Pavilion Columbia Maryland Concert Transportation - BWI Chauffeur Luxury Car Service to Outdoor Amphitheater Shows',
     heroTagline:
@@ -103,11 +103,11 @@ export const CONCERT_VENUES = [
     city: 'Washington, DC',
     metaTitle: 'Capital One Arena Transportation | DC Concert Transfers',
     metaDescription:
-      'Chauffeured transfers to Capital One Arena in downtown DC. Concert, Capitals & Wizards rides from Maryland, Virginia & BWI. (877) 609-1919.',
+      'Chauffeured transfers to Capital One Arena in downtown DC. Concert, Capitals & Wizards rides from Maryland, Virginia & BWI. 877-609-1919.',
     keywords:
       'Capital One Arena transportation, Capital One Arena limo, DC concert car service, Capital One Arena transfers, Washington DC concert limo, Chinatown DC arena chauffeur',
     heroImage:
-      '/images/stock/pexels-1763075.jpg',
+      '/images/stock/pexels-1763075.webp',
     heroAlt:
       'Capital One Arena Washington DC Concert Transfers - BWI Chauffeur Black Car Service to Downtown DC Shows and Games',
     heroTagline:
@@ -151,11 +151,11 @@ export const CONCERT_VENUES = [
     city: 'Bristow, VA',
     metaTitle: 'Jiffy Lube Live Concert Limo | BWI Chauffeur',
     metaDescription:
-      'Skip the parking nightmare at Jiffy Lube Live. Professional limo service from BWI area. Call (877) 609-1919.',
+      'Skip the parking nightmare at Jiffy Lube Live. Professional limo service from BWI area. Call 877-609-1919.',
     keywords:
       'Jiffy Lube Live transportation, Jiffy Lube Live limo service, Bristow VA concert limo, Jiffy Lube Live car service, Jiffy Lube Live parking alternative, Northern Virginia amphitheater transportation',
     heroImage:
-      '/images/stock/pexels-2263436.jpg',
+      '/images/stock/pexels-2263436.webp',
     heroAlt:
       'Jiffy Lube Live Bristow Virginia Concert Transportation - BWI Chauffeur Luxury Car Service to Northern Virginia Amphitheater Shows',
     heroTagline:
@@ -193,7 +193,7 @@ export const CONCERT_VENUES = [
       },
       {
         q: 'What does a round trip to Jiffy Lube Live cost?',
-        a: 'Every trip is one locked-in flat rate based on your pickup location and vehicle — no surge pricing, and no meter running while you sit in venue traffic. Call (877) 609-1919 or request a quote online and we will lock in your price before show day.',
+        a: 'Every trip is one locked-in flat rate based on your pickup location and vehicle — no surge pricing, and no meter running while you sit in venue traffic. Call 877-609-1919 or request a quote online and we will lock in your price before show day.',
       },
     ],
   },
@@ -204,11 +204,11 @@ export const CONCERT_VENUES = [
     city: 'Washington, DC',
     metaTitle: 'The Anthem DC Transportation | Wharf Car Service',
     metaDescription:
-      'Black car service to The Anthem at The Wharf in Washington DC. Door-to-door concert transportation with pre-arranged pickup. Call (877) 609-1919.',
+      'Black car service to The Anthem at The Wharf in Washington DC. Door-to-door concert transportation with pre-arranged pickup. Call 877-609-1919.',
     keywords:
       'The Anthem transportation, The Anthem DC limo, The Wharf car service, The Anthem concert transportation, DC waterfront concert limo, The Anthem parking alternative',
     heroImage:
-      '/images/stock/pexels-1587927.jpg',
+      '/images/stock/pexels-1587927.webp',
     heroAlt:
       'The Anthem Washington DC Wharf Concert Car Service - BWI Chauffeur Black Car Transportation to DC Waterfront Shows',
     heroTagline:
@@ -246,7 +246,7 @@ export const CONCERT_VENUES = [
       },
       {
         q: 'How is the ride to The Anthem priced?',
-        a: 'Simple: one locked-in flat rate based on your pickup point, vehicle, and whether you want one-way, round-trip, or hourly service — call (877) 609-1919 for a quote. There is no meter, no surge pricing, and no penalty if the show runs long.',
+        a: 'Simple: one locked-in flat rate based on your pickup point, vehicle, and whether you want one-way, round-trip, or hourly service — call 877-609-1919 for a quote. There is no meter, no surge pricing, and no penalty if the show runs long.',
       },
     ],
   },
@@ -257,11 +257,11 @@ export const CONCERT_VENUES = [
     city: 'Baltimore, MD',
     metaTitle: 'Pier Six Pavilion Transportation | Baltimore Limo',
     metaDescription:
-      'Chauffeured limo service to Pier Six Pavilion on Baltimore’s Inner Harbor. Concert transfers from BWI, Annapolis, and DC. Call (877) 609-1919.',
+      'Chauffeured limo service to Pier Six Pavilion on Baltimore’s Inner Harbor. Concert transfers from BWI, Annapolis, and DC. Call 877-609-1919.',
     keywords:
       'Pier Six Pavilion transportation, Pier Six Pavilion limo, Inner Harbor concert car service, Baltimore waterfront concert limo, Pier Six concert transportation, Pier Six Pavilion parking',
     heroImage:
-      '/images/stock/pexels-1763075.jpg',
+      '/images/stock/pexels-1763075.webp',
     heroAlt:
       'Pier Six Pavilion Baltimore Inner Harbor Concert Limo Service - BWI Chauffeur Luxury Transportation to Waterfront Amphitheater Shows',
     heroTagline:
@@ -299,7 +299,7 @@ export const CONCERT_VENUES = [
       },
       {
         q: 'How much does car service to Pier Six Pavilion cost?',
-        a: 'Every booking is one locked-in flat rate — call (877) 609-1919 for a quote and we will price your exact pickup point, vehicle, and service type. There is no surge pricing on sold-out nights and no meter running while you stay for the encore.',
+        a: 'Every booking is one locked-in flat rate — call 877-609-1919 for a quote and we will price your exact pickup point, vehicle, and service type. There is no surge pricing on sold-out nights and no meter running while you stay for the encore.',
       },
     ],
   },
@@ -310,11 +310,11 @@ export const CONCERT_VENUES = [
     city: 'Vienna, VA',
     metaTitle: 'Wolf Trap Transportation | Vienna VA Car Service',
     metaDescription:
-      'Chauffeured car service to Wolf Trap’s Filene Center in Vienna VA. Summer concert transportation from DC, Tysons, and Maryland. Call (877) 609-1919.',
+      'Chauffeured car service to Wolf Trap’s Filene Center in Vienna VA. Summer concert transportation from DC, Tysons, and Maryland. Call 877-609-1919.',
     keywords:
       'Wolf Trap transportation, Wolf Trap limo service, Filene Center car service, Vienna VA concert limo, Wolf Trap parking alternative, national park performing arts transportation',
     heroImage:
-      '/images/stock/pexels-1190298.jpg',
+      '/images/stock/pexels-1190298.webp',
     heroAlt:
       'Wolf Trap Filene Center Vienna Virginia Concert Car Service - BWI Chauffeur Luxury Transportation to the National Park for the Performing Arts',
     heroTagline:
@@ -352,7 +352,7 @@ export const CONCERT_VENUES = [
       },
       {
         q: 'How much is car service to Wolf Trap?',
-        a: 'Every trip is one locked-in flat rate — call (877) 609-1919 for a quote with your pickup location and vehicle preference. Round trips and hourly evenings are quoted up front too, so the price never changes no matter how long the standing ovation lasts.',
+        a: 'Every trip is one locked-in flat rate — call 877-609-1919 for a quote with your pickup location and vehicle preference. Round trips and hourly evenings are quoted up front too, so the price never changes no matter how long the standing ovation lasts.',
       },
     ],
   },
@@ -363,10 +363,10 @@ export const CONCERT_VENUES = [
     city: 'Philadelphia, PA',
     metaTitle: 'Lincoln Financial Field Limo | Eagles Game Transport',
     metaDescription:
-      'Chauffeured limo service to Lincoln Financial Field for Eagles games from Maryland, DC & Baltimore. Skip stadium parking. Call (877) 609-1919.',
+      'Chauffeured limo service to Lincoln Financial Field for Eagles games from Maryland, DC & Baltimore. Skip stadium parking. Call 877-609-1919.',
     keywords:
       'Lincoln Financial Field transportation, Eagles game limo service, Lincoln Financial Field limo, Eagles game car service from Maryland, Philadelphia stadium transportation, the Linc limo service, Eagles game day chauffeur',
-    heroImage: '/images/stock/pexels-120049.jpg',
+    heroImage: '/images/stock/pexels-120049.webp',
     heroAlt:
       'Lincoln Financial Field Philadelphia Eagles Game Limo Service - BWI Chauffeur Luxury Transportation from Maryland and Washington DC',
     heroTagline:
@@ -404,7 +404,7 @@ export const CONCERT_VENUES = [
       },
       {
         q: 'How much does a limo to Lincoln Financial Field cost?',
-        a: 'Pricing depends on your pickup location, vehicle choice, and whether you want a round trip or hourly service for the full game day. Call (877) 609-1919 or request a quote online and we will lock in one flat, all-inclusive rate with no surge and no hidden fees.',
+        a: 'Pricing depends on your pickup location, vehicle choice, and whether you want a round trip or hourly service for the full game day. Call 877-609-1919 or request a quote online and we will lock in one flat, all-inclusive rate with no surge and no hidden fees.',
       },
     ],
   },
@@ -415,10 +415,10 @@ export const CONCERT_VENUES = [
     city: 'Philadelphia, PA',
     metaTitle: 'Citizens Bank Park Limo | Phillies Game Car Service',
     metaDescription:
-      'Luxury car service to Citizens Bank Park for Phillies games from Baltimore, Maryland & DC. Door-to-gate chauffeur, no parking hassle. (877) 609-1919.',
+      'Luxury car service to Citizens Bank Park for Phillies games from Baltimore, Maryland & DC. Door-to-gate chauffeur, no parking hassle. 877-609-1919.',
     keywords:
       'Citizens Bank Park transportation, Phillies game limo, Citizens Bank Park car service, Phillies game transportation from Maryland, Philadelphia baseball limo service, Citizens Bank Park chauffeur, Phillies game day car service',
-    heroImage: '/images/stock/pexels-1540406.jpg',
+    heroImage: '/images/stock/pexels-1540406.webp',
     heroAlt:
       'Citizens Bank Park Philadelphia Phillies Game Transportation - BWI Chauffeur Luxury Car Service from Baltimore and Maryland',
     heroTagline:
@@ -456,7 +456,7 @@ export const CONCERT_VENUES = [
       },
       {
         q: 'How much is car service to Citizens Bank Park?',
-        a: 'It depends on where we pick you up, which vehicle you choose, and whether you book one-way, round-trip, or hourly for the full outing. Call (877) 609-1919 or request an online quote and we will confirm one flat, all-inclusive price up front.',
+        a: 'It depends on where we pick you up, which vehicle you choose, and whether you book one-way, round-trip, or hourly for the full outing. Call 877-609-1919 or request an online quote and we will confirm one flat, all-inclusive price up front.',
       },
     ],
   },
@@ -467,10 +467,10 @@ export const CONCERT_VENUES = [
     city: 'Philadelphia, PA',
     metaTitle: 'Wells Fargo Center Limo | 76ers & Flyers Car Service',
     metaDescription:
-      'Chauffeured rides to Wells Fargo Center for 76ers, Flyers games & concerts from Maryland, Baltimore & DC. Luxury fleet, 24/7. Call (877) 609-1919.',
+      'Chauffeured rides to Wells Fargo Center for 76ers, Flyers games & concerts from Maryland, Baltimore & DC. Luxury fleet, 24/7. Call 877-609-1919.',
     keywords:
       'Wells Fargo Center transportation, 76ers game limo, Flyers game car service, Wells Fargo Center limo service, Philadelphia arena transportation, Sixers game transportation from Maryland, Wells Fargo Center chauffeur',
-    heroImage: '/images/stock/pexels-2263436.jpg',
+    heroImage: '/images/stock/pexels-2263436.webp',
     heroAlt:
       'Wells Fargo Center Philadelphia 76ers and Flyers Game Transportation - BWI Chauffeur Black Car Service from Maryland and Washington DC',
     heroTagline:
@@ -508,7 +508,7 @@ export const CONCERT_VENUES = [
       },
       {
         q: 'How much does transportation to Wells Fargo Center cost?',
-        a: 'Every trip is quoted as one flat, all-inclusive rate based on pickup location, vehicle, and one-way, round-trip, or hourly service. Call (877) 609-1919 or request a quote online — no surge pricing, no hidden fees.',
+        a: 'Every trip is quoted as one flat, all-inclusive rate based on pickup location, vehicle, and one-way, round-trip, or hourly service. Call 877-609-1919 or request a quote online — no surge pricing, no hidden fees.',
       },
     ],
   },

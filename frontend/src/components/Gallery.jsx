@@ -4,33 +4,33 @@ import { Camera } from 'lucide-react';
 // Real photos of our own vehicles on the job — no stock imagery.
 const photos = [
   {
-    src: '/images/gallery/fleet-downtown-baltimore.jpg',
+    src: '/images/gallery/fleet-downtown-baltimore.webp',
     alt: 'BMW 7 Series and Cadillac Escalade ESV chauffeur vehicles staged curbside in downtown Baltimore',
     caption: 'Executive fleet staged in downtown Baltimore',
     wide: true
   },
   {
-    src: '/images/gallery/mercedes-s-class-westin-bwi.jpg',
+    src: '/images/gallery/mercedes-s-class-westin-bwi.webp',
     alt: 'Mercedes-Benz S-Class chauffeur car waiting under the portico of a BWI airport hotel at night',
     caption: 'S-Class night pickup at a BWI airport hotel'
   },
   {
-    src: '/images/gallery/escalade-harbor-east.jpg',
+    src: '/images/gallery/escalade-harbor-east.webp',
     alt: 'Black Cadillac Escalade ESV parked at Harbor East on the Baltimore waterfront',
     caption: 'Escalade ESV at Harbor East, Baltimore'
   },
   {
-    src: '/images/gallery/yukon-denali-washington-dc.jpg',
+    src: '/images/gallery/yukon-denali-washington-dc.webp',
     alt: 'Black luxury SUV parked curbside on a tree-lined street in downtown Washington, DC',
     caption: 'Luxury SUV curbside in Washington, DC'
   },
   {
-    src: '/images/gallery/mercedes-s-class-morning-pickup.jpg',
+    src: '/images/gallery/mercedes-s-class-morning-pickup.webp',
     alt: 'Mercedes-Benz S-Class arriving for a morning pickup outside a country bakery',
     caption: 'S-Class ready for a morning pickup'
   },
   {
-    src: '/images/bmw-7-series.jpg',
+    src: '/images/bmw-7-series.webp',
     alt: 'BMW 7 Series chauffeur sedan arriving at a hotel entrance in the evening',
     caption: 'BMW 7 Series evening hotel arrival'
   }

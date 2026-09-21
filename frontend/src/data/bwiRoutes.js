@@ -312,7 +312,7 @@ export const BWI_ROUTES = [
     drive_time: '15–30 minutes',
     metaTitle: 'PHL Airport to Philadelphia | Private Car Service',
     metaDescription:
-      'Private chauffeur from PHL Airport to Center City Philadelphia & beyond. Flight tracking, meet & greet, luxury fleet, 24/7. Call (877) 609-1919.',
+      'Private chauffeur from PHL Airport to Center City Philadelphia & beyond. Flight tracking, meet & greet, luxury fleet, 24/7. Call 877-609-1919.',
     intro:
       'Landing at Philadelphia International Airport should not mean a taxi line, a rideshare lottery, or a rental-car shuttle. Our PHL Airport to Philadelphia private car service puts a professional chauffeur and a late-model Mercedes, BMW, Cadillac, or Sprinter at the curb the moment you clear baggage claim. We track your flight from wheels-up, adjust for early arrivals and delays automatically, and deliver you door-to-door to Center City, University City, the Navy Yard, or any address in the greater Philadelphia region. It is the calmest possible start to a business trip, a family visit, or a weekend in the city — and because we also run the I-95 corridor every day, we are just as comfortable continuing south to Wilmington, Baltimore, or Washington DC when your itinerary goes further than the city line.',
     why_choose: [
@@ -350,7 +350,7 @@ export const BWI_ROUTES = [
       },
       {
         q: 'How much does a car from PHL Airport to Philadelphia cost?',
-        a: 'Every transfer is quoted as one flat, all-inclusive rate based on your drop-off address and vehicle choice — tolls and gratuity included. Call (877) 609-1919 or request an online quote for an exact price with no hidden fees.',
+        a: 'Every transfer is quoted as one flat, all-inclusive rate based on your drop-off address and vehicle choice — tolls and gratuity included. Call 877-609-1919 or request an online quote for an exact price with no hidden fees.',
       },
     ],
     nearby_links: ['baltimore-to-philadelphia-limo', 'bwi-to-washington-dc', 'bwi-to-annapolis'],
@@ -366,7 +366,7 @@ export const BWI_ROUTES = [
     drive_time: '1 hr 45 min – 2 hrs 15 min',
     metaTitle: 'Baltimore to Philadelphia Limo | Luxury Car Service',
     metaDescription:
-      'Chauffeured luxury car service from Baltimore to Philadelphia. Door-to-door sedans, SUVs & Sprinter vans, flat-rate, 24/7. Call (877) 609-1919.',
+      'Chauffeured luxury car service from Baltimore to Philadelphia. Door-to-door sedans, SUVs & Sprinter vans, flat-rate, 24/7. Call 877-609-1919.',
     intro:
       'The Baltimore to Philadelphia corridor is one of the busiest stretches of I-95 in the country — and one of the least pleasant to drive yourself. Our Baltimore to Philadelphia limo service replaces the toll plazas, merge battles, and parking hunts with a single door-to-door ride in a late-model luxury vehicle. A professional chauffeur picks you up anywhere in the Baltimore metro — downtown, Fells Point, Towson, Columbia, Annapolis, or straight from a BWI arrival — and delivers you to any Philadelphia address: a Center City hotel, a University City campus, a convention, a wedding venue, or the stadiums at the South Philadelphia Sports Complex. Work the whole way up, or recline and arrive rested. Either way, the hundred miles between the cities become the most productive or most relaxing two hours of your day.',
     why_choose: [
@@ -404,7 +404,7 @@ export const BWI_ROUTES = [
       },
       {
         q: 'How much does a Baltimore to Philadelphia limo cost?',
-        a: 'Every trip is one flat, all-inclusive quote based on vehicle choice, addresses, and whether you book one-way, round-trip, or hourly — tolls and gratuity included. Call (877) 609-1919 or request a quote online for an exact price.',
+        a: 'Every trip is one flat, all-inclusive quote based on vehicle choice, addresses, and whether you book one-way, round-trip, or hourly — tolls and gratuity included. Call 877-609-1919 or request a quote online for an exact price.',
       },
     ],
     nearby_links: ['phl-airport-to-philadelphia', 'bwi-to-washington-dc', 'bwi-to-annapolis'],

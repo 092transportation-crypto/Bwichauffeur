@@ -4,6 +4,7 @@ import Services from '../components/Services';
 import { ArrowLeft, Clock, Award, ThumbsUp } from 'lucide-react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
+import Testimonials from '../components/Testimonials';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const servicesFaqs = [
@@ -37,7 +38,7 @@ const ServicesPage = () => {
       <Helmet>
         <title>BWI Airport Transportation & Executive Car Service</title>
         <meta name="description" content="BWI Chauffeur offers luxury airport transportation, executive car service, corporate travel, group rides, and wedding transportation." />
-        <link rel="canonical" href="https://www.bwichauffeur.com/services/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/services" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
@@ -240,6 +241,7 @@ const ServicesPage = () => {
         </div>
       </div>
     </div>
+      <Testimonials />
     </>
   );
 };

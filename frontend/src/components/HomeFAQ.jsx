@@ -10,7 +10,7 @@ const HomeFAQ = () => {
     {
       question: 'How much does BWI airport car service cost?',
       answer:
-        'Rates are flat and quoted by vehicle class and distance — the price includes fuel, tolls, flight tracking, and the chauffeur, with no surge pricing and no overnight fees. Request a quote online or call (877) 609-1919 for an exact all-inclusive rate for your address.'
+        'Rates are flat and quoted by vehicle class and distance — the price includes fuel, tolls, flight tracking, and the chauffeur, with no surge pricing and no overnight fees. Request a quote online or call 877-609-1919 for an exact all-inclusive rate for your address.'
     },
     {
       question: 'How far in advance should I book?',

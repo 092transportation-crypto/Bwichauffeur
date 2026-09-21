@@ -4,6 +4,8 @@ import { useNavigate, Link } from 'react-router-dom';
 import { ArrowLeft, Award, Users, Clock, Shield, Star, CheckCircle, Phone } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
+import FaqSection from '../components/FaqSection';
+import { PAGE_FAQS } from '../data/pageFaqs';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const AboutPage = () => {
@@ -46,7 +48,7 @@ const AboutPage = () => {
       <Helmet>
         <title>About BWI Chauffeur | Maryland Luxury Car Service</title>
         <meta name="description" content="Learn about BWI Chauffeur's professional services, highly trained drivers, and luxury vehicle fleet for premium, stress-free transportation experiences." />
-        <link rel="canonical" href="https://www.bwichauffeur.com/about/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/about" />
       </Helmet>
       <div className="min-h-screen bg-black pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -96,7 +98,7 @@ const AboutPage = () => {
           <div className="space-y-8">
             <div className="relative h-64 rounded-2xl overflow-hidden">
               <img
-                src="/fleet/mercedes-e-class.jpg"
+                src="/fleet/mercedes-e-class.webp"
                 alt="BWI Chauffeur Mercedes-Benz E-Class — Executive Private Car Service in Baltimore-Washington DC Area"
                 loading="lazy"
                 decoding="async"
@@ -243,6 +245,7 @@ const AboutPage = () => {
         </div>
       </div>
     </div>
+      <FaqSection faqs={PAGE_FAQS['/about']} />
     </>
   );
 };

@@ -1,6 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import { Helmet } from '@dr.pogodin/react-helmet';
 import { ChevronRight, Home } from 'lucide-react';
+
+const ORIGIN = 'https://www.bwichauffeur.com';
 
 /**
  * Reusable breadcrumb navigation.
@@ -11,8 +14,20 @@ import { ChevronRight, Home } from 'lucide-react';
  * The "Home" crumb is always rendered first. The final item is rendered as
  * plain text (current page) when it has no `to` prop.
  */
-const Breadcrumbs = ({ items = [] }) => {
+const Breadcrumbs = ({ items = [], schema = true }) => {
+  const { pathname } = useLocation();
   const trail = [{ label: 'Home', to: '/' }, ...items];
+  // BreadcrumbList JSON-LD. Pass schema={false} on pages that emit their own.
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: trail.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.label,
+      item: `${ORIGIN}${item.to ? (item.to === '/' ? '/' : item.to) : pathname.replace(/(.)\/+$/, '$1')}`,
+    })),
+  };
 
   return (
     <nav
@@ -20,6 +35,11 @@ const Breadcrumbs = ({ items = [] }) => {
       aria-label="Breadcrumb"
       data-testid="breadcrumbs"
     >
+      {schema && (
+        <Helmet>
+          <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+        </Helmet>
+      )}
       <ol className="flex flex-wrap items-center gap-1">
         {trail.map((item, i) => {
           const isLast = i === trail.length - 1;

@@ -2,9 +2,11 @@ import React from 'react';
 import { Helmet } from '@dr.pogodin/react-helmet';
 import { Link } from 'react-router-dom';
 import { Phone, MapPin, Clock, Shield, Star, Car, Users, Calendar } from 'lucide-react';
+import { ensureFiveFaqs } from '../lib/faqExtras';
+import Testimonials from '../components/Testimonials';
 import Breadcrumbs from '../components/Breadcrumbs';
 
-const sportsFaqs = [
+const baseSportsFaqs = [
   {
     q: 'Do you drop off at M&T Bank Stadium and Camden Yards?',
     a: 'Yes. We drop you at the closest access point to your gate and pick you up at an agreed spot after the game. No stadium parking hassle.',
@@ -22,6 +24,7 @@ const sportsFaqs = [
     a: 'Book at least 48 hours ahead for regular season games. For playoffs and big rivalry games, book as early as you can.',
   },
 ];
+const sportsFaqs = ensureFiveFaqs(baseSportsFaqs, { slug: 'baltimore-sports-transportation' });
 
 const BaltimoreSportsPage = () => {
   return (
@@ -30,7 +33,7 @@ const BaltimoreSportsPage = () => {
         <title>Baltimore Sports Transportation | Ravens & Orioles</title>
         <meta name="description" content="Premium transportation to Baltimore sports events with professional chauffeurs, luxury vehicles, and timely service for a smooth, enjoyable experience." />
         <meta name="keywords" content="Baltimore Ravens transportation, Orioles game day shuttle, M&T Bank Stadium limo, Camden Yards chauffeur, Baltimore sports transportation, NFL game transportation, MLB game shuttle, Ravens tailgate transportation" />
-        <link rel="canonical" href="https://www.bwichauffeur.com/baltimore-sports-transportation/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/baltimore-sports-transportation" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
@@ -123,7 +126,7 @@ const BaltimoreSportsPage = () => {
               </div>
               <div className="relative">
                 <img
-                  src="/images/stock/pexels-128457.jpg"
+                  src="/images/stock/pexels-128457.webp"
                   alt="Baltimore Ravens NFL Game Day Luxury Transportation - Professional Chauffeur Service to M&T Bank Stadium Maryland"
                   loading="lazy"
                   decoding="async"
@@ -144,7 +147,7 @@ const BaltimoreSportsPage = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 relative">
                 <img
-                  src="/images/stock/pexels-569848.jpg"
+                  src="/images/stock/pexels-569848.webp"
                   alt="Camden Yards Oriole Park Baltimore - BWI Chauffeur Private Car Service for Orioles Baseball Games and Sports Events"
                   loading="lazy"
                   decoding="async"
@@ -346,6 +349,7 @@ const BaltimoreSportsPage = () => {
           </div>
         </section>
       </div>
+      <Testimonials />
     </>
   );
 };

@@ -8,6 +8,7 @@ import {
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { getNearbyCities } from '../data/cities';
+import { ensureFiveFaqs } from '../lib/faqExtras';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const PHONE_DISPLAY = '877-609-1919';
@@ -113,7 +114,7 @@ const buildFaqs = (city) => {
       a: `We recommend booking at least 24 hours in advance to guarantee availability, especially for early-morning flights. That said, we take last-minute requests whenever possible — call ${PHONE_DISPLAY} and we'll do our best to get a chauffeur to you.`,
     });
   }
-  return faqs;
+  return ensureFiveFaqs(faqs, { slug: city.slug, name: city.name });
 };
 
 const CityPage = ({ city }) => {
@@ -137,7 +138,7 @@ const CityPage = ({ city }) => {
         provider: {
           '@type': 'LocalBusiness',
           name: 'BWI Chauffeur',
-          telephone: '(877) 609-1919',
+          telephone: '877-609-1919',
           email: 'info@bwichauffeur.com',
           url: 'https://www.bwichauffeur.com',
           image: 'https://www.bwichauffeur.com/images/bmw-7series.jpg',
@@ -200,7 +201,7 @@ const CityPage = ({ city }) => {
       <div className="min-h-screen bg-black pt-32 pb-16" data-testid={`city-page-${city.slug}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
-          <Breadcrumbs
+          <Breadcrumbs schema={false}
             items={[
               { label: 'Service Areas', to: '/service-areas' },
               { label: `${city.name}, MD` },

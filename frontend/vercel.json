@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/sitemap.js": {
+      "includeFiles": "public/sitemap-static.xml"
+    }
+  },
   "redirects": [
     {
       "source": "/Premier",
@@ -11,8 +16,38 @@
       "permanent": true
     },
     {
-      "source": "/faq/",
-      "destination": "/faq",
+      "source": "/capstone-limo-service",
+      "destination": "/cape-st-claire-limo-service",
+      "permanent": true
+    },
+    {
+      "source": "/snopesville-limo-service",
+      "destination": "/sykesville-limo-service",
+      "permanent": true
+    },
+    {
+      "source": "/images/:name((?!bmw-7series)[^/]+)\\.(jpg|jpeg)",
+      "destination": "/images/:name.webp",
+      "permanent": true
+    },
+    {
+      "source": "/images/gallery/:name([^/]+)\\.(jpg|jpeg)",
+      "destination": "/images/gallery/:name.webp",
+      "permanent": true
+    },
+    {
+      "source": "/images/stock/:name([^/]+)\\.(jpg|jpeg)",
+      "destination": "/images/stock/:name.webp",
+      "permanent": true
+    },
+    {
+      "source": "/fleet/:name([^/]+)\\.(jpg|jpeg)",
+      "destination": "/fleet/:name.webp",
+      "permanent": true
+    },
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
       "permanent": true
     }
   ],
@@ -31,7 +66,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": "/shell.html"
     }
   ]
 }

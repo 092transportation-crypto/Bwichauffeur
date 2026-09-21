@@ -16,6 +16,7 @@ import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
 import { BWI_ROUTES, findRouteBySlug } from '../data/bwiRoutes';
+import { ensureFiveFaqs } from '../lib/faqExtras';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const RoutePage = ({ route }) => {
@@ -54,7 +55,7 @@ const RoutePage = ({ route }) => {
   const title = route.metaTitle || `${originShort} to ${route.destination} | Flat Rate Car Service`;
   const canonical = `https://www.bwichauffeur.com/${route.slug}`;
 
-  const faqs = route.faqs || [
+  const baseFaqs = route.faqs || [
     {
       q: `How much does ${originShort} to ${route.destination} transportation cost?`,
       a: `${originShort} to ${route.destination} is quoted as one locked-in flat rate. The exact price depends on vehicle type and drop-off address — call 877-609-1919 or request an instant quote online for pricing.`,
@@ -72,6 +73,7 @@ const RoutePage = ({ route }) => {
       a: 'Your quoted flat rate is the price you pay. There is no surge pricing and no hidden fees — tolls and gratuity are included.',
     },
   ];
+  const faqs = ensureFiveFaqs(baseFaqs, { slug: route.slug });
 
   const faqStructuredData = {
     '@context': 'https://schema.org',

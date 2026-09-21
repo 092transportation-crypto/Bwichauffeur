@@ -4,6 +4,8 @@ import Coverage from '../components/Coverage';
 import { ArrowLeft, Navigation, Plane, Building } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/button';
+import FaqSection from '../components/FaqSection';
+import { PAGE_FAQS } from '../data/pageFaqs';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const CoveragePage = () => {
@@ -14,7 +16,7 @@ const CoveragePage = () => {
       <Helmet>
         <title>BWI Chauffeur Coverage | Service Areas in MD, DE, DC & VA</title>
         <meta name="description" content="Explore BWI Chauffeur service areas and coverage maps across Maryland, Delaware, and DC for reliable, professional airport and car service." />
-        <link rel="canonical" href="https://www.bwichauffeur.com/coverage/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/coverage" />
       </Helmet>
     <div className="min-h-screen bg-black pt-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -117,6 +119,7 @@ const CoveragePage = () => {
         </div>
       </div>
     </div>
+      <FaqSection faqs={PAGE_FAQS['/coverage']} />
     </>
   );
 };

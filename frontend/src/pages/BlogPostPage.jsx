@@ -7,15 +7,24 @@ import { Badge } from '../components/ui/badge';
 import { Card, CardContent } from '../components/ui/card';
 import { blogPosts } from '../data/blogPosts';
 import Breadcrumbs from '../components/Breadcrumbs';
+import { GUIDES } from '../data/guides';
+import { ensureFiveFaqs } from '../lib/faqExtras';
 
-const BlogPostPage = () => {
-  const { slug } = useParams();
+// Blog posts live at /blog/<slug>; guides (data/guides.js) use this same
+// template at /<slug> and are routed with an explicit `guideSlug` prop.
+const postPath = (p) => (GUIDES.includes(p) ? `/${p.slug}` : `/blog/${p.slug}`);
+
+const BlogPostPage = ({ guideSlug }) => {
+  const params = useParams();
+  const slug = guideSlug || params.slug;
   const navigate = useNavigate();
-  
-  const post = blogPosts.find(p => p.slug === slug);
-  const currentIndex = blogPosts.findIndex(p => p.slug === slug);
-  const nextPost = currentIndex < blogPosts.length - 1 ? blogPosts[currentIndex + 1] : null;
-  const prevPost = currentIndex > 0 ? blogPosts[currentIndex - 1] : null;
+
+  const collection = guideSlug ? GUIDES : blogPosts;
+  const post = collection.find(p => p.slug === slug);
+  const currentIndex = collection.findIndex(p => p.slug === slug);
+  const nextPost = currentIndex < collection.length - 1 ? collection[currentIndex + 1] : null;
+  const prevPost = currentIndex > 0 ? collection[currentIndex - 1] : null;
+  const postFaqs = post ? ensureFiveFaqs(post.faqs, { slug, keys: ['question', 'answer'] }) : [];
 
   // Always show up to 3 related posts. Use the post's curated relatedPosts,
   // then backfill with other posts (newest first) to guarantee at least 3.
@@ -53,7 +62,8 @@ const BlogPostPage = () => {
   }
 
   const formatDate = (dateString) => {
-    const date = new Date(dateString);
+    // Noon avoids the UTC-midnight parse showing the previous day in US time zones.
+    const date = new Date(`${dateString}T12:00:00`);
     return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   };
 
@@ -296,13 +306,26 @@ const BlogPostPage = () => {
       <Helmet>
         <title>{post.seoTitle || post.title}</title>
         <meta name="description" content={post.seoDescription || post.excerpt} />
-        <link rel="canonical" href={`https://www.bwichauffeur.com/blog/${slug}/`} />
-        {post.faqs && post.faqs.length > 0 && (
+        <link rel="canonical" href={`https://www.bwichauffeur.com${postPath(post)}`} />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: post.title,
+            datePublished: post.date,
+            dateModified: post.date,
+            image: post.image,
+            author: { '@type': 'Organization', name: 'BWI Chauffeur' },
+            publisher: { '@type': 'Organization', name: 'BWI Chauffeur', url: 'https://www.bwichauffeur.com' },
+            mainEntityOfPage: `https://www.bwichauffeur.com${postPath(post)}`,
+          })}
+        </script>
+        {postFaqs.length > 0 && (
           <script type="application/ld+json">
             {JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'FAQPage',
-              mainEntity: post.faqs.map((f) => ({
+              mainEntity: postFaqs.map((f) => ({
                 '@type': 'Question',
                 name: f.question,
                 acceptedAnswer: { '@type': 'Answer', text: f.answer },
@@ -380,7 +403,7 @@ const BlogPostPage = () => {
                 <Card
                   key={relatedPost.id}
                   className="bg-gradient-to-br from-gray-900 to-black border-[#D4AF37]/20 hover:border-[#D4AF37]/60 overflow-hidden group transition-all duration-300 cursor-pointer"
-                  onClick={() => navigate(`/blog/${relatedPost.slug}`)}
+                  onClick={() => navigate(postPath(relatedPost))}
                 >
                   <div className="relative h-32 overflow-hidden">
                     <img
@@ -397,7 +420,8 @@ const BlogPostPage = () => {
                       {relatedPost.category}
                     </Badge>
                     <h4 className="text-white font-semibold line-clamp-2 group-hover:text-[#D4AF37] transition-colors">
-                      {relatedPost.title}
+                      {/* Real anchor so crawlers can follow it (the card itself navigates via onClick). */}
+                      <Link to={postPath(relatedPost)} onClick={(e) => e.stopPropagation()}>{relatedPost.title}</Link>
                     </h4>
                   </CardContent>
                 </Card>
@@ -411,7 +435,7 @@ const BlogPostPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {prevPost && (
               <Button
-                onClick={() => navigate(`/blog/${prevPost.slug}`)}
+                onClick={() => navigate(postPath(prevPost))}
                 variant="outline"
                 className="border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black h-auto py-4 justify-start"
               >
@@ -427,7 +451,7 @@ const BlogPostPage = () => {
             
             {nextPost && (
               <Button
-                onClick={() => navigate(`/blog/${nextPost.slug}`)}
+                onClick={() => navigate(postPath(nextPost))}
                 variant="outline"
                 className="border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black h-auto py-4 justify-end md:col-start-2"
               >
@@ -443,8 +467,24 @@ const BlogPostPage = () => {
           </div>
         </div>
 
+        {/* Related service pages (guides carry curated internal links) */}
+        {post.relatedLinks && post.relatedLinks.length > 0 && (
+          <section className="mt-12" data-testid="post-related-links">
+            <h2 className="text-2xl font-bold text-white mb-4">Related <span className="text-[#D4AF37]">Pages</span></h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {post.relatedLinks.map((l) => (
+                <li key={l.to}>
+                  <Link to={l.to} className="block bg-gray-900/60 border border-[#D4AF37]/20 hover:border-[#D4AF37] rounded-lg px-5 py-3 text-gray-300 hover:text-[#D4AF37] transition-colors">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         {/* FAQ Section (when post has FAQs) */}
-        {post.faqs && post.faqs.length > 0 && (
+        {postFaqs.length > 0 && (
           <section
             className="mt-12 bg-gradient-to-br from-gray-900 to-black border border-[#D4AF37]/30 rounded-2xl p-6 md:p-8"
             data-testid="post-faq-section"
@@ -453,7 +493,7 @@ const BlogPostPage = () => {
               Frequently Asked <span className="text-[#D4AF37]">Questions</span>
             </h3>
             <div className="space-y-5">
-              {post.faqs.map((faq, i) => (
+              {postFaqs.map((faq, i) => (
                 <div key={i} className="border-l-2 border-[#D4AF37]/60 pl-4">
                   <h4 className="text-white font-semibold text-base md:text-lg mb-2">
                     {faq.question}

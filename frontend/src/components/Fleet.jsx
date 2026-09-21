@@ -9,7 +9,7 @@ const Fleet = () => {
     {
       category: 'Business Sedan',
       name: 'Mercedes-Benz E-Class 2023+ or similar',
-      image: '/images/mercedes-e-class.jpg',
+      image: '/images/mercedes-e-class.webp',
       passengers: '3',
       luggage: '2',
       description:
@@ -18,7 +18,7 @@ const Fleet = () => {
     {
       category: 'First Class Sedan',
       name: 'BMW 7 Series / Mercedes S-Class 2023+ or similar',
-      image: '/images/bmw-7-series.jpg',
+      image: '/images/bmw-7-series.webp',
       passengers: '3',
       luggage: '2',
       description:
@@ -27,7 +27,7 @@ const Fleet = () => {
     {
       category: 'Midsize SUV',
       name: 'Lincoln Nautilus 2023+ or similar',
-      image: '/images/lincoln-nautilus.jpg',
+      image: '/images/lincoln-nautilus.webp',
       passengers: '3',
       luggage: '4',
       description:
@@ -36,7 +36,7 @@ const Fleet = () => {
     {
       category: 'Luxury SUV',
       name: 'Chevrolet Suburban 2023+ or similar',
-      image: '/images/chevy-suburban.jpg',
+      image: '/images/chevy-suburban.webp',
       passengers: '5',
       luggage: '5',
       description:
@@ -45,7 +45,7 @@ const Fleet = () => {
     {
       category: 'Premium SUV',
       name: 'Cadillac Escalade 2023+ or similar',
-      image: '/images/cadillac-escalade.jpg',
+      image: '/images/cadillac-escalade.webp',
       passengers: '6',
       luggage: '5',
       description:
@@ -54,7 +54,7 @@ const Fleet = () => {
     {
       category: 'Sprinter Shuttle',
       name: 'Mercedes Sprinter 2023+ or similar',
-      image: '/images/sprinter-shuttle-seats.jpg',
+      image: '/images/sprinter-shuttle-seats.webp',
       passengers: '13',
       luggage: '13',
       description:
@@ -63,7 +63,7 @@ const Fleet = () => {
     {
       category: 'Sprinter Executive',
       name: 'Mercedes Sprinter 2023+ or similar',
-      image: '/images/mercedes-sprinter.jpg',
+      image: '/images/mercedes-sprinter.webp',
       passengers: '13',
       luggage: '13',
       description:
@@ -72,7 +72,7 @@ const Fleet = () => {
     {
       category: 'Sprinter Limo',
       name: 'Mercedes Sprinter Limo 2023+ or similar',
-      image: '/images/limousine.jpg',
+      image: '/images/limousine.webp',
       passengers: '13',
       luggage: '13',
       description:

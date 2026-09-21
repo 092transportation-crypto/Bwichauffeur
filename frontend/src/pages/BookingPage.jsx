@@ -4,6 +4,8 @@ import { ArrowLeft, BadgeDollarSign, CheckCircle, Clock, CreditCard, Shield } fr
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { InquiryForm } from '../components/InquiryForm';
+import FaqSection from '../components/FaqSection';
+import { PAGE_FAQS } from '../data/pageFaqs';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const BookingPage = () => {
@@ -133,6 +135,7 @@ const BookingPage = () => {
           </div>
         </div>
       </div>
+      <FaqSection faqs={PAGE_FAQS['/booking']} />
     </>
   );
 };

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Baby, Armchair, Car, CalendarCheck, MessageSquarePlus, Wrench, Phone, ShieldCheck, Sparkles, BadgeCheck, UserCheck, CheckCircle } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
+import Testimonials from '../components/Testimonials';
 import Breadcrumbs from '../components/Breadcrumbs';
 
 const carSeatFaqs = [
@@ -87,7 +88,7 @@ const CarSeatServicePage = () => {
       <Helmet>
         <title>Car Seat BWI Airport Transfers | BWI Chauffeur</title>
         <meta name="description" content="Safe, clean car seats for infants, toddlers & kids on every BWI airport transfer. Inspected, sanitized & installed by your chauffeur. Call 877-609-1919." />
-        <link rel="canonical" href="https://www.bwichauffeur.com/car-seat-service/" />
+        <link rel="canonical" href="https://www.bwichauffeur.com/car-seat-service" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
@@ -136,7 +137,7 @@ const CarSeatServicePage = () => {
               <a href="tel:+18776091919">
                 <Button className="bg-[#D4AF37] text-black hover:bg-[#C4A030] font-semibold px-8 py-3">
                   <Phone className="mr-2 h-5 w-5" />
-                  (877) 609-1919
+                  877-609-1919
                 </Button>
               </a>
               <Link to="/booking">
@@ -262,13 +263,14 @@ const CarSeatServicePage = () => {
               <a href="tel:+18776091919">
                 <Button variant="outline" className="border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black px-8 py-4 text-lg">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call (877) 609-1919
+                  Call 877-609-1919
                 </Button>
               </a>
             </div>
           </div>
         </div>
       </div>
+      <Testimonials />
     </>
   );
 };
