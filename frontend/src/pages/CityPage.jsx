@@ -10,6 +10,7 @@ import { Card, CardContent } from '../components/ui/card';
 import { getNearbyCities } from '../data/cities';
 import { ensureFiveFaqs } from '../lib/faqExtras';
 import Breadcrumbs from '../components/Breadcrumbs';
+import KeywordSection from '../components/KeywordSection';
 
 const PHONE_DISPLAY = '877-609-1919';
 const PHONE_TEL = 'tel:+18776091919';
@@ -353,6 +354,8 @@ const CityPage = ({ city }) => {
               </Link>
             </div>
           </div>
+
+          <KeywordSection slug={`city-${city.slug}`} place={`${city.name}, MD`} kind="place" />
 
           {/* FAQs */}
           <div className="mb-16">

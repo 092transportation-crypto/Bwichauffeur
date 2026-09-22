@@ -18,6 +18,7 @@ import { Card, CardContent } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
 import { ensureFiveFaqs } from '../lib/faqExtras';
 import Breadcrumbs from '../components/Breadcrumbs';
+import KeywordSection from '../components/KeywordSection';
 
 const SITE_URL = 'https://www.bwichauffeur.com';
 const PHONE_DISPLAY = '877-609-1919';
@@ -265,6 +266,8 @@ const MarylandPage = ({ page }) => {
               </Link>
             </div>
           </section>
+
+          <KeywordSection slug={page.slug} place={page.type === "event" ? page.name : page.name.match(/, (MD|VA|DC|PA|DE)$/) ? page.name : `${page.name}, MD`} kind={page.type === "event" ? "event" : "place"} />
 
           {/* FAQ */}
           <section className="mb-12" data-testid="maryland-faq">

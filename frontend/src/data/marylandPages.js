@@ -2,6 +2,7 @@
 // Generated content; each entry drives one page at /<slug>.
 
 import { MARYLAND_BATCH3 } from './marylandPagesBatch3';
+import { MARYLAND_BATCH4 } from './marylandPagesBatch4';
 
 export const MARYLAND_PAGES = [
   {
@@ -8903,6 +8904,7 @@ export const MARYLAND_PAGES = [
   },
   // Batch 3 (2026-09-21) lives in its own file.
   ...MARYLAND_BATCH3,
+  ...MARYLAND_BATCH4,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);

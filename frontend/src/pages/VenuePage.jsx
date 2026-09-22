@@ -6,6 +6,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import TrustSignals from '../components/TrustSignals';
 import { ensureFiveFaqs } from '../lib/faqExtras';
 import { CONCERT_VENUES } from '../data/concertVenues';
+import KeywordSection from '../components/KeywordSection';
 
 const features = [
   {
@@ -179,6 +180,8 @@ const VenuePage = ({ venue }) => {
             </div>
           </div>
         </section>
+
+        <KeywordSection slug={venue.slug} place={venue.name} kind="event" wrap="contained" />
 
         {/* FAQ */}
         <section className="py-16 bg-gradient-to-b from-black to-gray-900">

@@ -127,7 +127,7 @@ const Fleet = () => {
                 {/* Actual image (sits on top of placeholder) */}
                 <img
                   src={vehicle.image}
-                  alt={`${vehicle.name} — ${vehicle.category} chauffeur vehicle, seats ${vehicle.passengers}`}
+                  alt={`${vehicle.name} — ${vehicle.category} for BWI airport car service and Baltimore black car service, seats ${vehicle.passengers}`}
                   loading="lazy"
                   decoding="async"
                   width="800"

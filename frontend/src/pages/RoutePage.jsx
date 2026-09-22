@@ -18,6 +18,7 @@ import { Badge } from '../components/ui/badge';
 import { BWI_ROUTES, findRouteBySlug } from '../data/bwiRoutes';
 import { ensureFiveFaqs } from '../lib/faqExtras';
 import Breadcrumbs from '../components/Breadcrumbs';
+import KeywordSection from '../components/KeywordSection';
 
 const RoutePage = ({ route }) => {
   const navigate = useNavigate();
@@ -310,6 +311,8 @@ const RoutePage = ({ route }) => {
               </Link>
             </div>
           </section>
+
+          <KeywordSection slug={route.slug} place={`BWI to ${route.destination}`} kind="place" />
 
           {/* FAQ */}
           <section className="mb-12" data-testid="route-faq">

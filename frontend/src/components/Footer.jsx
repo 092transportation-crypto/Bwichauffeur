@@ -101,12 +101,12 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-bold text-lg mb-6">Our Services</h3>
             <ul className="space-y-3">
-              <li><Link to="/bwi-airport-car-service" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Airport Transportation</Link></li>
-              <li><Link to="/maryland-corporate-car-service" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Corporate Car Service</Link></li>
-              <li><Link to="/maryland-wedding-limo" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Wedding & Events</Link></li>
-              <li><Link to="/concert-transportation" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Group Transportation</Link></li>
+              <li><Link to="/bwi-airport-car-service" className="text-gray-400 hover:text-[#D4AF37] transition-colors">BWI Airport Car Service</Link></li>
+              <li><Link to="/maryland-corporate-car-service" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Baltimore Corporate Car Service</Link></li>
+              <li><Link to="/maryland-wedding-limo" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Maryland Wedding Limo Service</Link></li>
+              <li><Link to="/concert-transportation" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Group &amp; Concert Transportation</Link></li>
               <li><Link to="/services" className="text-gray-400 hover:text-[#D4AF37] transition-colors">City Tours</Link></li>
-              <li><Link to="/maryland-hourly-chauffeur-service" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Hourly Service</Link></li>
+              <li><Link to="/maryland-hourly-chauffeur-service" className="text-gray-400 hover:text-[#D4AF37] transition-colors">Hourly Chauffeur Service</Link></li>
             </ul>
           </div>
 
