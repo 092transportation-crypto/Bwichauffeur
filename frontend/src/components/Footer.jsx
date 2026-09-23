@@ -62,19 +62,19 @@ const Footer = () => {
               Premium luxury transportation services throughout Maryland, Delaware, and the DMV area. Available 24/7.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a href="https://www.facebook.com/share/19oFQPdPwv/" target="_blank" rel="noopener noreferrer nofollow" className="w-10 h-10 bg-gray-800 hover:bg-[#D4AF37] rounded-full flex items-center justify-center transition-colors duration-300 group" aria-label="Facebook">
+              <a href="https://www.facebook.com/share/19oFQPdPwv/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 hover:bg-[#D4AF37] rounded-full flex items-center justify-center transition-colors duration-300 group" aria-label="Facebook">
                 <Facebook className="h-5 w-5 text-gray-400 group-hover:text-black" />
               </a>
-              <a href="https://www.instagram.com/bwi_chauffeur/" target="_blank" rel="noopener noreferrer nofollow" className="w-10 h-10 bg-gray-800 hover:bg-[#D4AF37] rounded-full flex items-center justify-center transition-colors duration-300 group" aria-label="Instagram">
+              <a href="https://www.instagram.com/bwi_chauffeur/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 hover:bg-[#D4AF37] rounded-full flex items-center justify-center transition-colors duration-300 group" aria-label="Instagram">
                 <Instagram className="h-5 w-5 text-gray-400 group-hover:text-black" />
               </a>
-              <a href="https://x.com/BwiChauffeur" target="_blank" rel="noopener noreferrer nofollow" className="w-10 h-10 bg-gray-800 hover:bg-[#D4AF37] rounded-full flex items-center justify-center transition-colors duration-300 group" aria-label="X (Twitter)">
+              <a href="https://x.com/BwiChauffeur" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 hover:bg-[#D4AF37] rounded-full flex items-center justify-center transition-colors duration-300 group" aria-label="X (Twitter)">
                 <Twitter className="h-5 w-5 text-gray-400 group-hover:text-black" />
               </a>
-              <a href="https://www.youtube.com/@bwichauffeur" target="_blank" rel="noopener noreferrer nofollow" className="w-10 h-10 bg-gray-800 hover:bg-[#D4AF37] rounded-full flex items-center justify-center transition-colors duration-300 group" aria-label="YouTube">
+              <a href="https://www.youtube.com/@bwichauffeur" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 hover:bg-[#D4AF37] rounded-full flex items-center justify-center transition-colors duration-300 group" aria-label="YouTube">
                 <Youtube className="h-5 w-5 text-gray-400 group-hover:text-black" />
               </a>
-              <a href="https://www.linkedin.com/in/bwi-chauffeur-5078a03a7" target="_blank" rel="noopener noreferrer nofollow" className="w-10 h-10 bg-gray-800 hover:bg-[#D4AF37] rounded-full flex items-center justify-center transition-colors duration-300 group" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/bwi-chauffeur-5078a03a7" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 hover:bg-[#D4AF37] rounded-full flex items-center justify-center transition-colors duration-300 group" aria-label="LinkedIn">
                 <Linkedin className="h-5 w-5 text-gray-400 group-hover:text-black" />
               </a>
             </div>

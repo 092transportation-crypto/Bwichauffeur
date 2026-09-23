@@ -6,6 +6,11 @@
   },
   "redirects": [
     {
+      "source": "/fleet",
+      "destination": "/luxury-fleet",
+      "permanent": true
+    },
+    {
       "source": "/Premier",
       "destination": "/",
       "permanent": true
