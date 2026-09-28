@@ -7,10 +7,10 @@ const PrivacyPolicyPage = () => {
   return (
     <div className="min-h-screen bg-black pt-32 pb-16">
       <Helmet>
-        <title>Privacy Policy | Data Protection | BWI Chauffeur</title>
+        <title>Privacy Policy | BWI Chauffeur</title>
         <meta
           name="description"
-          content="BWI Chauffeur privacy policy: what we collect, how we use it, your SMS opt-in rights, and our commitment to never share mobile consent data."
+          content="How BWI Chauffeur collects, uses and protects your personal information, including SMS opt-in rights and data privacy commitments."
         />
         <link rel="canonical" href="https://www.bwichauffeur.com/privacy-policy" />
       </Helmet>

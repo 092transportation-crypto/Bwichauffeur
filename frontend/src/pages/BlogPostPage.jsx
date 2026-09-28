@@ -310,14 +310,31 @@ const BlogPostPage = ({ guideSlug }) => {
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Article',
+            '@type': 'BlogPosting',
             headline: post.title,
+            description: post.seoDescription || post.excerpt,
+            image: post.image
+              ? (post.image.startsWith('http') ? post.image : `https://www.bwichauffeur.com${post.image}`)
+              : undefined,
             datePublished: post.date,
             dateModified: post.date,
-            image: post.image,
-            author: { '@type': 'Organization', name: 'BWI Chauffeur' },
-            publisher: { '@type': 'Organization', name: 'BWI Chauffeur', url: 'https://www.bwichauffeur.com' },
-            mainEntityOfPage: `https://www.bwichauffeur.com${postPath(post)}`,
+            author: {
+              '@type': 'Organization',
+              name: post.author || 'BWI Chauffeur Team',
+              url: 'https://www.bwichauffeur.com/about',
+            },
+            publisher: {
+              '@type': 'Organization',
+              name: 'BWI Chauffeur',
+              logo: {
+                '@type': 'ImageObject',
+                url: 'https://www.bwichauffeur.com/logo.jpeg',
+              },
+            },
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': `https://www.bwichauffeur.com${postPath(post)}`,
+            },
           })}
         </script>
         {postFaqs.length > 0 && (
