@@ -13,7 +13,7 @@ export const blogPosts = [
     date: '2026-01-15',
     author: 'BWI Chauffeur Team',
     category: 'Company News',
-    image: '/images/stock/blog-rolls-royce-mansory.webp',
+    image: '/images/gallery/fleet-downtown-baltimore.webp',
     content: `
 ## BWI Chauffeur — Maryland's Premier Luxury Transportation Provider in 2026
 
@@ -102,7 +102,7 @@ Skip the surge pricing, the parking-lot shuttle, and the rideshare guesswork. [B
     date: '2026-01-14',
     author: 'Fleet Manager',
     category: 'Fleet',
-    image: '/images/stock/blog-airport-limo.webp',
+    image: '/fleet/bmw-7-series.webp',
     content: `
 ## The Finest Luxury Vehicles in Maryland's Premier Transportation Fleet
 
@@ -203,7 +203,7 @@ Every vehicle in our fleet undergoes rigorous daily inspections and regular prof
     date: '2026-01-13',
     author: 'Operations Director',
     category: 'Services',
-    image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070&auto=format',
+    image: '/images/gallery/mercedes-s-class-morning-pickup.webp',
     content: `
 ## Comprehensive Luxury Transportation Services for Every Occasion
 
@@ -336,7 +336,7 @@ Experience the best of the DMV region with our custom tour services:
     date: '2026-01-12',
     author: 'BWI Chauffeur Team',
     category: 'Coverage',
-    image: 'https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?q=80&w=2070&auto=format',
+    image: '/images/blog/landmark-capitol-1.webp',
     content: `
 ## Where BWI Chauffeur Drives in 2026 — The Complete Coverage Map
 
@@ -516,7 +516,7 @@ The fastest way to confirm we cover your exact pickup or drop-off is to [request
     date: '2026-01-11',
     author: 'HR Director',
     category: 'Team',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2070&auto=format',
+    image: '/images/blog/scenario-doorman.webp',
     content: `
 ## The BWI Chauffeur Difference - Professional Drivers You Can Trust
 
@@ -678,7 +678,7 @@ Different clients value our standards for different reasons. **Business traveler
     date: '2026-01-10',
     author: 'Technology Team',
     category: 'Technology',
-    image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2074&auto=format',
+    image: '/images/blog/airport-tarmac-sunset.webp',
     content: `
 ## Advanced Technology for Smooth Transportation
 
@@ -830,7 +830,7 @@ Think about the last time an app showed a driver "2 minutes away" who then sat m
     date: '2026-01-09',
     author: 'Operations Team',
     category: 'Airport Guide',
-    image: 'https://images.unsplash.com/photo-1529074963764-98f45c47344b?q=80&w=2072&auto=format',
+    image: '/images/gallery/mercedes-s-class-westin-bwi.webp',
     content: `
 ## Your Complete Guide to BWI Airport Transportation in 2026
 
@@ -982,7 +982,7 @@ Skip the rideshare lottery, the parking-lot shuttle, and the surge pricing. Pre-
     date: '2026-01-08',
     author: 'Business Development',
     category: 'Corporate',
-    image: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=2073&auto=format',
+    image: '/images/blog/scenario-corporate-1.webp',
     content: `
 ## Executive Transportation Solutions for Maryland's Leading Businesses
 
@@ -1167,7 +1167,7 @@ Most corporate relationships start small — a single executive airport run book
     date: '2026-01-07',
     author: 'Events Coordinator',
     category: 'Weddings',
-    image: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format',
+    image: '/images/blog/scenario-wedding-1.webp',
     content: `
 ## Create Unforgettable Wedding Transportation Memories
 
@@ -1340,7 +1340,7 @@ Absolutely. Multi-vehicle bookings receive preferred rates. [Contact us](/bookin
     date: '2026-01-06',
     author: 'BWI Chauffeur Team',
     category: 'Guides',
-    image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format',
+    image: '/images/limousine.webp',
     content: `
 ## Luxury Chauffeur Service vs. Ride-Share: Making the Right Choice
 
@@ -1527,7 +1527,7 @@ Experience the difference professional chauffeur service makes. [Book your first
     date: '2026-02-14',
     author: 'BWI Chauffeur Team',
     category: 'Airport Guide',
-    image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=2070&auto=format',
+    image: '/images/gallery/fleet-downtown-baltimore.webp',
     content: `
 ## Getting from BWI to Baltimore — The Honest Local Take
 
@@ -1625,7 +1625,7 @@ We run BWI to Baltimore flat-rate transfers in late-model Mercedes, BMW, Cadilla
     date: '2026-02-13',
     author: 'Corporate Accounts Team',
     category: 'Corporate',
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2032&auto=format',
+    image: '/images/blog/scenario-corporate-2.webp',
     content: `
 ## What Corporate Car Service Actually Means in 2026
 
@@ -1725,7 +1725,7 @@ Call **877-609-1919** to talk to our corporate accounts team, or [request your f
     date: '2026-02-12',
     author: 'Dispatch Team',
     category: 'Airport Guide',
-    image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2071&auto=format',
+    image: '/images/gallery/mercedes-s-class-morning-pickup.webp',
     content: `
 ## Early Morning BWI Rides — The Stuff Nobody Warns You About
 
@@ -1836,7 +1836,7 @@ Sleep better tonight knowing your morning transfer is locked in.
     date: '2026-02-11',
     author: 'BWI Chauffeur Team',
     category: 'Routes',
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format',
+    image: '/images/mercedes-sprinter-executive.webp',
     content: `
 ## BWI to Ocean City — A 2.5-Hour Trip That Most People Get Wrong
 
@@ -1943,7 +1943,7 @@ We do BWI to Ocean City flat-rate transfers year-round. Off-season (October thro
     date: '2026-02-10',
     author: 'Operations Team',
     category: 'Routes',
-    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2070&auto=format',
+    image: '/images/mercedes-sprinter.webp',
     content: `
 ## Moving a Group From BWI — Why a Sprinter Van Beats Three Ubers
 
@@ -2049,7 +2049,7 @@ For more on our group capabilities and other services, see our [full services pa
     date: '2026-02-15',
     author: 'BWI Chauffeur Team',
     category: 'Routes',
-    image: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2070&auto=format',
+    image: '/images/mercedes-eclass.webp',
     content: `
 ## BWI to Severna Park — From a Company That Lives Here
 
@@ -2152,7 +2152,7 @@ We look forward to driving you.
     date: '2026-02-15',
     author: 'Dispatch Team',
     category: 'Airport Guide',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format',
+    image: '/images/blog/scenario-doorman.webp',
     content: `
 ## BWI Meet and Greet — How It Really Works
 
@@ -2256,7 +2256,7 @@ Call **877-609-1919** to add meet and greet to your ride, or [book online](/book
     date: '2026-02-15',
     author: 'BWI Chauffeur Team',
     category: 'Special Events',
-    image: 'https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?q=80&w=2070&auto=format',
+    image: '/images/limousine.webp',
     content: `
 ## Maryland Prom Transportation — A Parent's Honest Guide
 
@@ -2378,7 +2378,7 @@ Have a great night, and bring lots of memory card space for the photos.
     date: '2026-03-02',
     author: 'BWI Chauffeur Team',
     category: 'Guides',
-    image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format',
+    image: '/fleet/mercedes-e-class.webp',
     content: `
 ## BWI Car Service vs Uber in 2026 — The Honest Cost Comparison
 
@@ -2476,7 +2476,7 @@ Want the exact flat rate for your route so you can compare it against tonight's 
     date: '2026-03-04',
     author: 'BWI Chauffeur Team',
     category: 'Airport Guide',
-    image: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2070&auto=format',
+    image: '/images/blog/landmark-annapolis-1.webp',
     content: `
 ## The Cheapest Way From BWI to Annapolis in 2026
 
@@ -2570,7 +2570,7 @@ Want to see the exact flat rate for your group and date? [Request a quote here](
     date: '2026-03-06',
     author: 'BWI Chauffeur Team',
     category: 'Guides',
-    image: '/images/stock/blog-airport-limo.webp',
+    image: '/images/blog/airport-dropoff.webp',
     content: `
 ## How to Choose the Best Black Car Service at BWI Airport in 2026
 
@@ -2656,7 +2656,7 @@ The best way to judge a black car service is to use it once on a trip that matte
     date: '2026-03-08',
     author: 'Dispatch Team',
     category: 'Airport Guide',
-    image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2071&auto=format',
+    image: '/images/blog/airport-tarmac-sunset.webp',
     content: `
 ## BWI Late-Night Pickup — How to Guarantee a Ride After Midnight
 
@@ -2759,7 +2759,7 @@ If you've got a late or red-eye arrival coming up, lock in your ride before you 
     date: '2026-03-10',
     author: 'BWI Chauffeur Team',
     category: 'Routes',
-    image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=2070&auto=format',
+    image: '/images/gallery/yukon-denali-washington-dc.webp',
     content: `
 ## BWI to DC Flat-Rate Car Service — One Locked Price for a Trip Traffic Loves to Ruin
 
@@ -2859,7 +2859,7 @@ Lock in one price for the whole trip — no surge, no meter, no surprises. [Rese
     date: '2026-08-06',
     author: 'BWI Chauffeur Team',
     category: 'Airport Guide',
-    image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2071&auto=format',
+    image: '/images/blog/airport-terminal-glass.webp',
     content: `
 ## 10 Tips for a Stress-Free BWI Airport Experience in 2026
 
@@ -2939,7 +2939,7 @@ A stress-free BWI run isn't luck — it's a checklist. Know your concourse, resp
     date: '2026-08-09',
     author: 'BWI Chauffeur Team',
     category: 'Weddings',
-    image: 'https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?q=80&w=2070&auto=format',
+    image: '/images/blog/scenario-wedding-2.webp',
     content: `
 ## How to Choose Wedding Transportation in Maryland: A Planner's Playbook
 
@@ -3025,7 +3025,7 @@ Whether you're a couple planning your own day or a planner coordinating your ten
     date: '2026-08-12',
     author: 'BWI Chauffeur Team',
     category: 'Corporate',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format',
+    image: '/images/blog/scenario-corporate-rain.webp',
     content: `
 ## Corporate Travel Tips for DC Executives Who Can't Afford a Missed Meeting
 
@@ -3110,7 +3110,7 @@ When you're ready to put the ground-travel piece on autopilot, [set up a corpora
     date: '2026-08-15',
     author: 'BWI Chauffeur Team',
     category: 'Airport Guide',
-    image: '/images/stock/blog-airport-limo.webp',
+    image: '/images/blog/scenario-airport-pickup-1.webp',
     content: `
 ## BWI vs DCA vs IAD: Which Airport Should You Actually Fly From?
 
@@ -3199,7 +3199,7 @@ The airport comparison usually gets decided by fares and flight times — but th
     date: '2026-08-18',
     author: 'BWI Chauffeur Team',
     category: 'Special Events',
-    image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format',
+    image: '/images/mercedes-sprinter-limo.webp',
     content: `
 ## The Maryland Parent's Guide to Prom Night Transportation
 
@@ -3278,7 +3278,7 @@ Prom should be memorable for the right reasons — the photos, the entrance, the
     date: '2026-08-14',
     author: 'BWI Chauffeur Team',
     category: 'Guides',
-    image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070&auto=format',
+    image: '/images/mercedes-sclass.webp',
     content: `
 ## What BWI Airport Limo Service Actually Costs in 2026
 
@@ -3375,7 +3375,7 @@ Ranges are useful; your number is better. Tell us your date, pickup address, and
     date: '2026-08-15',
     author: 'BWI Chauffeur Team',
     category: 'Airport Guide',
-    image: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2070&auto=format',
+    image: '/images/gallery/yukon-denali-washington-dc.webp',
     content: `
 ## Every Way to Get from BWI to Washington DC, Compared
 
@@ -3462,7 +3462,7 @@ If your BWI-to-DC trip is the kind where showing up on time matters — a meetin
     date: '2026-08-17',
     author: 'BWI Chauffeur Team',
     category: 'Guides',
-    image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format',
+    image: '/fleet/chevrolet-suburban.webp',
     content: `
 ## Limo Service vs Rideshare in Maryland — The Real Differences
 
@@ -3555,7 +3555,7 @@ Rideshare sells you a ride that probably works. A licensed chauffeured service s
     date: '2026-08-19',
     author: 'BWI Chauffeur Team',
     category: 'Airport Guide',
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format',
+    image: '/images/blog/landmark-annapolis-2.webp',
     content: `
 ## Getting from BWI Airport to Annapolis — The Complete Guide
 
@@ -3634,7 +3634,7 @@ Whether it's one traveler for the legislative session, a family of five for Comm
     date: '2026-08-20',
     author: 'BWI Chauffeur Team',
     category: 'Corporate Travel',
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2032&auto=format',
+    image: '/images/gallery/escalade-harbor-east.webp',
     content: `
 ## Corporate Limo Service in Baltimore — What You're Actually Buying
 

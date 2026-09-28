@@ -13,7 +13,7 @@ export const BLOG_POSTS_BATCH2 = [
     date: '2026-09-22',
     author: 'BWI Chauffeur Team',
     category: 'Airport Guides',
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2032',
+    image: '/images/blog/scenario-airport-pickup-2.webp',
     content: `
 ## What Actually Happens After You Land
 
@@ -68,7 +68,7 @@ Give us your flight number, airline, and whether you want curbside or meet and g
     date: '2026-09-22',
     author: 'BWI Chauffeur Team',
     category: 'Airport Guides',
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2032',
+    image: '/images/gallery/mercedes-s-class-morning-pickup.webp',
     content: `
 ## Why Early Departures Are the Hardest Trip to Improvise
 
@@ -123,7 +123,7 @@ Early flights are the trip where "I'll just get a rideshare" carries the most ri
     date: '2026-09-22',
     author: 'BWI Chauffeur Team',
     category: 'Corporate Travel',
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2032',
+    image: '/images/blog/scenario-corporate-2.webp',
     content: `
 ## Why a Program Beats Booking Ride by Ride
 
@@ -182,7 +182,7 @@ If your company is flying through BWI regularly enough that airport transportati
     date: '2026-09-22',
     author: 'BWI Chauffeur Team',
     category: 'Business Insights',
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2032',
+    image: '/images/gallery/fleet-downtown-baltimore.webp',
     content: `
 ## Three Options, Three Different Trips
 
