@@ -1,6 +1,7 @@
 // Blog posts data for BWI Chauffeur - Comprehensive SEO Content
 
 import { BLOG_POSTS_BATCH2 } from './blogPostsBatch2';
+import { BLOG_POSTS_BATCH4 } from './blogPostsBatch4';
 
 export const blogPosts = [
   {
@@ -3705,6 +3706,7 @@ Opening a corporate account is a ten-minute conversation: your routes, your volu
     relatedPosts: [12, 8, 26],
   },
   ...BLOG_POSTS_BATCH2,
+  ...BLOG_POSTS_BATCH4,
 ];
 
 
