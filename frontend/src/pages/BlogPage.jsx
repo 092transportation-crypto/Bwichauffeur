@@ -35,8 +35,8 @@ const BlogPage = () => {
   return (
     <>
       <Helmet>
-        <title>BWI Chauffeur Blog | Airport Travel Tips & Route Guides</title>
-        <meta name="description" content="Stay informed with the latest chauffeur service news, expert travel tips, and timely updates to ensure safe and luxurious transportation experiences always." />
+        <title>Limo Blog | Transportation Tips & Guides</title>
+        <meta name="description" content="Read travel tips, airport guides and transportation advice from BWI Chauffeur, covering BWI, DCA, IAD and destinations across Maryland and DC." />
         <link rel="canonical" href="https://www.bwichauffeur.com/blog" />
       </Helmet>
     <div className="min-h-screen bg-black pt-32 pb-16">

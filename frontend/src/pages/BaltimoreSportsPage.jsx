@@ -30,8 +30,8 @@ const BaltimoreSportsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Baltimore Sports Transportation | Ravens & Orioles</title>
-        <meta name="description" content="Premium transportation to Baltimore sports events with professional chauffeurs, luxury vehicles, and timely service for a smooth, enjoyable experience." />
+        <title>Sports Event Limo | Ravens Games, O's Events</title>
+        <meta name="description" content="Ride to Ravens games at M&T Bank Stadium and Orioles games at Camden Yards in style. Reliable luxury transportation for Baltimore sports fans." />
         <meta name="keywords" content="Baltimore Ravens transportation, Orioles game day shuttle, M&T Bank Stadium limo, Camden Yards chauffeur, Baltimore sports transportation, NFL game transportation, MLB game shuttle, Ravens tailgate transportation" />
         <link rel="canonical" href="https://www.bwichauffeur.com/baltimore-sports-transportation" />
         <script type="application/ld+json">

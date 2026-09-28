@@ -14,10 +14,10 @@ const BookingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Book Your Ride | BWI Chauffeur Service Maryland</title>
+        <title>Book Your Ride | Easy Airport Limo Reservation</title>
         <meta
           name="description"
-          content="Book your luxury chauffeur service online with BWI Chauffeur. Easy reservations for airport transfers, corporate travel, and special events in Maryland and DC."
+          content="Reserve your BWI Chauffeur ride online in minutes. Airport transfers, corporate travel and event transportation across MD, DC and DE. Call 877-609-1919."
         />
         <link rel="canonical" href="https://www.bwichauffeur.com/booking" />
       </Helmet>

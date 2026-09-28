@@ -14,8 +14,8 @@ const CoveragePage = () => {
   return (
     <>
       <Helmet>
-        <title>BWI Chauffeur Coverage | Service Areas in MD, DE, DC & VA</title>
-        <meta name="description" content="Explore BWI Chauffeur service areas and coverage maps across Maryland, Delaware, and DC for reliable, professional airport and car service." />
+        <title>Service Areas | Maryland, DC, Virginia Coverage</title>
+        <meta name="description" content="See where BWI Chauffeur drives: Maryland, Washington DC, Northern Virginia and Delaware, with service to BWI, DCA, IAD and PHL airports." />
         <link rel="canonical" href="https://www.bwichauffeur.com/coverage" />
       </Helmet>
     <div className="min-h-screen bg-black pt-32">
