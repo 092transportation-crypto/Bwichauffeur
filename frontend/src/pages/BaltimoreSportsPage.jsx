@@ -305,6 +305,37 @@ const BaltimoreSportsPage = () => {
           </div>
         </section>
 
+        {/* Game day logistics guide */}
+        <section className="py-16">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 bg-gray-900/60 border border-[#D4AF37]/20 rounded-2xl p-8">
+            <h2 className="text-2xl font-bold text-white mb-4">
+              Skip the <span className="text-[#D4AF37]">Stadium Parking Hassle</span>
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Camden Yards and M&T Bank Stadium lots fill up fast on game day, and post-game
+              traffic out of downtown Baltimore can take longer than the drive in. Pre-paid lots
+              near the stadiums run $25–$50 depending on the opponent and day of the week — before
+              you factor in circling for a spot or the walk from an overflow lot. A chauffeured
+              drop-off puts you at the gate and picks you back up curbside when the game ends,
+              without you ever touching a parking app.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              We track first pitch and kickoff times, not just the scheduled start, so your
+              chauffeur adjusts pickup automatically for extra innings, overtime, or a game that
+              simply runs long. That's especially useful for Ravens Sunday games and Orioles
+              weeknight series, when thousands of fans are trying to leave the same three exits at
+              once — your driver waits nearby and meets you the moment you're ready, rather than
+              you hunting for a rideshare in a crowd of 40,000 people all requesting one at the
+              same time.
+            </p>
+            <p className="text-gray-300 leading-relaxed">
+              Groups splitting a suite or a block of seats often book a Sprinter van so everyone
+              arrives and leaves together at one flat rate — no coordinating separate rideshares
+              or losing each other in the stadium concourse after the final out.
+            </p>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <section className="py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

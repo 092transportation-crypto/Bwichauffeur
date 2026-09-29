@@ -85,11 +85,9 @@ const HomeFAQ = () => {
                     <ChevronDown className="h-5 w-5 text-gray-400 flex-shrink-0" />
                   )}
                 </button>
-                {isOpen && (
-                  <div className="px-6 pb-6 -mt-1">
-                    <p className="text-gray-300 leading-relaxed">{faq.answer}</p>
-                  </div>
-                )}
+                <div className={isOpen ? 'px-6 pb-6 -mt-1' : 'hidden'}>
+                  <p className="text-gray-300 leading-relaxed">{faq.answer}</p>
+                </div>
               </div>
             );
           })}

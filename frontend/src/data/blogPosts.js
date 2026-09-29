@@ -262,7 +262,7 @@ Your wedding day deserves extraordinary transportation. BWI Chauffeur provides:
 - **Guest Shuttles** - Mercedes Sprinter vans for wedding party groups
 - **Honeymoon Airport Service** - Start your journey together in luxury
 
-We've provided transportation for weddings at premier Maryland venues including [Belmont Manor](https://www.belmontmanormd.com/), [Chesapeake Bay Beach Club](https://www.chesapeakebaybeachclub.com/), and [Historic Oakland](https://historicoakland.com/).
+We've provided transportation for weddings at premier Maryland venues including [Belmont Manor](https://www.belmontmanormd.com/), [Chesapeake Bay Beach Club](https://www.baybeachclub.com/weddings), and [Historic Oakland](https://www.historic-oakland.com/).
 
 ### Hourly Chauffeur Service
 
@@ -1207,14 +1207,14 @@ Your wedding day is one of the most important days of your life, and every detai
 Our chauffeurs are familiar with Maryland's premier wedding venues:
 
 **Baltimore Area**
-- [George Peabody Library](https://www.peabodyevents.jhu.edu/)
+- [George Peabody Library](https://peabodyevents.library.jhu.edu/)
 - Evergreen Museum & Library
 - Belvedere Hotel
 - American Visionary Art Museum
 - Historic Savage Mill
 
 **Annapolis & Eastern Shore**
-- [Chesapeake Bay Beach Club](https://www.chesapeakebaybeachclub.com/)
+- [Chesapeake Bay Beach Club](https://www.baybeachclub.com/weddings)
 - [Annapolis Waterfront Hotel](https://www.annapoliswaterfronthotel.com/)
 - Kent Manor Inn
 - Wye River Conference Center
@@ -3397,7 +3397,7 @@ BWI Marshall is often the cheapest airport to fly into for a Washington DC trip 
 
 ### Option 1: MARC Penn Line — The Budget Champion
 
-The [MARC Penn Line](https://www.mta.maryland.gov/schedule/marctrain) runs from BWI Rail Station to Washington Union Station for about $9, taking 30–35 minutes on the rails. First you catch the free shuttle from the terminal's lower level to the rail station (10–15 minutes including the wait). It's a genuinely good product on weekday business hours — clean, reliable, and immune to Beltway traffic. The weaknesses: reduced weekend frequency, limited late-evening service, hauling luggage through Union Station, and the fact that Union Station is probably not your final destination. Budget another Metro ride or a $15–$25 rideshare to reach your hotel.
+The [MARC Penn Line](https://www.mta.maryland.gov/schedule/marc-penn) runs from BWI Rail Station to Washington Union Station for about $9, taking 30–35 minutes on the rails. First you catch the free shuttle from the terminal's lower level to the rail station (10–15 minutes including the wait). It's a genuinely good product on weekday business hours — clean, reliable, and immune to Beltway traffic. The weaknesses: reduced weekend frequency, limited late-evening service, hauling luggage through Union Station, and the fact that Union Station is probably not your final destination. Budget another Metro ride or a $15–$25 rideshare to reach your hotel.
 
 ### Option 2: Amtrak — Faster Rail, Higher Fare
 

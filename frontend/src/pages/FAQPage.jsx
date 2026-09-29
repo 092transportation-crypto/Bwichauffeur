@@ -241,11 +241,9 @@ const FAQPage = () => {
                         )}
                       </button>
                       
-                      {isOpen && (
-                        <div className="px-6 pb-5">
-                          <p className="text-gray-300 leading-relaxed">{faq.answer}</p>
-                        </div>
-                      )}
+                      <div className={isOpen ? 'px-6 pb-5' : 'hidden'}>
+                        <p className="text-gray-300 leading-relaxed">{faq.answer}</p>
+                      </div>
                     </div>
                   );
                 })}

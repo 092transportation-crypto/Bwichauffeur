@@ -118,10 +118,32 @@ const buildFaqs = (city) => {
   return ensureFiveFaqs(faqs, { slug: city.slug, name: city.name });
 };
 
+const emphasisTravelers = {
+  cruise: `cruise passengers heading to the Port of Baltimore, business travelers catching early flights, and ${'{CITY}'} families who'd rather not park a car for a week`,
+  'dc-airports': `${'{CITY}'} commuters who fly out of DCA or Dulles as often as BWI, government contractors on tight schedules, and travelers who want one flat rate regardless of which regional airport they land at`,
+  'long-distance': `${'{CITY}'} residents who don't want to drive the whole way to BWI themselves, groups splitting the cost of a private SUV, and travelers who've learned that a shared shuttle from this far out means extra stops and a longer trip`,
+  bwi: `${'{CITY}'} business travelers on early-morning flights, wedding parties and prom groups, and families who don't want to wrangle luggage into a rideshare`,
+};
+
+const buildLocalGuide = (city) => {
+  const travelers = (emphasisTravelers[city.emphasis] || emphasisTravelers.bwi).split('{CITY}').join(city.name);
+  const landmarkList = city.landmarks.slice(0, 3).join(', ');
+  const driveTime = city.minutes >= 60
+    ? `about ${Math.floor(city.minutes / 60)} hour${city.minutes >= 120 ? 's' : ''}${city.minutes % 60 ? ` ${city.minutes % 60} minutes` : ''}`
+    : `about ${city.minutes} minutes`;
+
+  return [
+    `${city.name} sits in ${city.county}, and it's one of the areas BWI Chauffeur's dispatch team knows block by block — from ${landmarkList} out to the quieter residential streets nearby. That local knowledge matters on the ${city.miles}-mile run to BWI Marshall Airport: our chauffeurs know which routes bog down during rush hour and which back roads keep a ${driveTime} trip on schedule, so you're not left guessing whether you'll make your flight.`,
+    `Most of the ${city.name} riders we serve fall into a few groups: ${travelers}. Whatever the reason for the trip, every ride books at one flat rate quoted before you get in the car — no surge multiplier if your flight lands during a Ravens home game or a Friday rush hour.`,
+    `Every reservation from ${city.name} includes complimentary wait time (45 minutes for domestic arrivals, 60 for international) and free cancellation up to 3 hours before pickup for sedans and SUVs, 12 hours for Sprinter vans and special events, so plans can change without a penalty. Our chauffeurs track your flight automatically and are curbside with a name sign and luggage assistance the moment you land.`,
+  ];
+};
+
 const CityPage = ({ city }) => {
   const services = buildServices(city);
   const routes = buildRoutes(city);
   const faqs = buildFaqs(city);
+  const localGuide = buildLocalGuide(city);
   const nearby = getNearbyCities(city, 8);
   const pageUrl = `https://www.bwichauffeur.com/limo-service-${city.slug}`;
   const title = `Limo Service ${city.name}, MD | BWI Car Service`;
@@ -316,6 +338,18 @@ const CityPage = ({ city }) => {
               <Link to="/booking" className="mt-6 inline-flex items-center text-[#D4AF37] hover:text-[#F4E5C3] font-semibold transition-colors" data-testid="city-routes-quote-link">
                 Get an exact quote for your route <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
+            </div>
+          </div>
+
+          {/* Local guide — genuine per-city travel content */}
+          <div className="bg-gradient-to-br from-gray-900 to-black border border-[#D4AF37]/20 rounded-2xl p-8 mb-16">
+            <h2 className="text-2xl font-bold text-white mb-4">
+              Airport Car Service from <span className="text-[#D4AF37]">{city.name}</span>: What to Expect
+            </h2>
+            <div className="space-y-4">
+              {localGuide.map((paragraph, i) => (
+                <p key={i} className="text-gray-300 leading-relaxed">{paragraph}</p>
+              ))}
             </div>
           </div>
 

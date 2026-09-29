@@ -84,6 +84,24 @@ const ServiceAreasPage = () => {
             </div>
           </div>
 
+          {/* Coverage overview */}
+          <div className="max-w-4xl mx-auto mb-14 text-gray-300 leading-relaxed space-y-4">
+            <p>
+              We built this page as a single directory to every city, route, service, and venue
+              page on the site, because our coverage area has grown well past the handful of
+              communities we started with. Each community below links to its own page with local
+              drive times to BWI, nearby landmarks our chauffeurs know well, and pricing specific
+              to that pickup zone — rather than one generic page trying to speak to all of Central
+              Maryland at once.
+            </p>
+            <p>
+              Not seeing your exact neighborhood listed? We still serve you. Our coverage extends
+              across the full Baltimore–Washington corridor, the Eastern Shore, and Southern
+              Maryland; if your town isn't one of the 45+ pages below, call 877-609-1919 or
+              request a quote and we'll confirm pricing and availability for your address directly.
+            </p>
+          </div>
+
           {/* Popular BWI Routes */}
           <div
             className="mb-10 bg-gradient-to-br from-[#D4AF37]/10 to-black border border-[#D4AF37]/30 rounded-2xl p-8"

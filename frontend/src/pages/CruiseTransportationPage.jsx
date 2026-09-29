@@ -272,6 +272,34 @@ const CruiseTransportationPage = () => {
             </Card>
           </div>
 
+          {/* Cruise port guide */}
+          <div className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-2xl p-8 mb-16">
+            <h2 className="text-2xl font-bold text-white mb-4">
+              Your Guide to the <span className="text-[#D4AF37]">Port of Baltimore</span>
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              The Cruise Maryland Terminal at 2001 East McComas Street is home port for Carnival
+              and Royal Caribbean sailings out of Baltimore, along with occasional Norwegian and
+              Princess departures. Embarkation typically opens by noon, and cruise lines recommend
+              arriving 2–3 hours before your scheduled boarding time to clear check-in and
+              security — earlier on holiday weekends and during peak summer sailing season.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Self-parking at the terminal runs about $20–$25 per day for the length of your
+              cruise, which adds up fast on a 7-night sailing. Most of our cruise clients find
+              that a round-trip chauffeured transfer costs about the same as parking alone —
+              without the hassle of hauling luggage across a parking garage at 6 AM on
+              embarkation day or again after a long week at sea.
+            </p>
+            <p className="text-gray-300 leading-relaxed">
+              We serve cruisers from across the region — Annapolis, Columbia, Towson, Bel Air, and
+              the DC suburbs — with a single flat rate that covers the whole vehicle, not a
+              per-person fare. Book your return trip when you reserve your departure and your
+              chauffeur will already be watching your ship's estimated dock time on disembarkation
+              day, so there's no need to call or coordinate pickup from the ship.
+            </p>
+          </div>
+
           {/* FAQ Section */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-white mb-8 text-center">

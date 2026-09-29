@@ -463,6 +463,44 @@ const ContactPage = () => {
               </Card>
             </div>
           </div>
+
+          {/* Why contact us directly */}
+          <div className="mt-16 grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-2xl p-8">
+              <h2 className="text-2xl font-bold text-white mb-4">
+                Why Riders Contact Us <span className="text-[#D4AF37]">Directly</span>
+              </h2>
+              <p className="text-gray-300 leading-relaxed mb-4">
+                Most of our quote requests come through this form or a phone call rather than
+                an app, because trips like group airport transfers, weddings, and multi-stop
+                corporate itineraries usually need a human to get the details right — the exact
+                number of passengers and bags, a second pickup stop, or a specific vehicle for a
+                client. A reservation specialist reviews every request and replies with a
+                flat-rate quote, not an algorithm-generated surge price.
+              </p>
+              <p className="text-gray-300 leading-relaxed">
+                We reply within 15 minutes during business hours, and our 877-609-1919 line is
+                answered 24/7 for same-day and urgent requests. If you'd rather book online
+                without waiting for a reply, use the <Link to="/booking" className="text-[#D4AF37] hover:text-[#F4E5C3] font-medium">booking page</Link> instead — both routes reach the same dispatch team.
+              </p>
+            </div>
+            <div className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-2xl p-8">
+              <h2 className="text-2xl font-bold text-white mb-4">
+                Our Office & <span className="text-[#D4AF37]">Service Area</span>
+              </h2>
+              <p className="text-gray-300 leading-relaxed mb-4">
+                BWI Chauffeur is based at 9836 Lyon Ave, Laurel, MD 20723 — dispatch central for
+                chauffeurs serving Baltimore, Annapolis, Columbia, and the rest of the
+                Baltimore–Washington corridor, plus Reagan National (DCA), Dulles (IAD), and
+                Philadelphia International (PHL) beyond BWI itself.
+              </p>
+              <p className="text-gray-300 leading-relaxed">
+                Corporate accounts, wedding planners, and event coordinators are welcome to reach
+                out about recurring bookings or multi-vehicle events; a member of our team will
+                set up direct billing and a dedicated point of contact for ongoing arrangements.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <FaqSection faqs={PAGE_FAQS['/contact']} />

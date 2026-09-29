@@ -218,6 +218,32 @@ const CarSeatServicePage = () => {
             </div>
           </div>
 
+          {/* Choosing the right seat */}
+          <div className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-2xl p-8 mb-16">
+            <h2 className="text-2xl font-bold text-white mb-4">
+              How We Match the <span className="text-[#D4AF37]">Right Seat to Your Child</span>
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Maryland law requires children under 8 (and under 4'9") to ride in a federally
+              approved car seat or booster, and we take that requirement as seriously as you do.
+              When you book, just tell us your child's age and weight — we bring an infant seat,
+              convertible seat, or belt-positioning booster sized correctly for them, not a
+              one-size-fits-all seat that technically clips in but doesn't fit right.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Every seat we carry is inspected for recalls and expiration before each trip, and
+              our chauffeurs are trained to install it correctly rather than leaving it loose or
+              improperly angled. If you're traveling with more than one child, let us know the
+              ages of each so we can bring the right number and type of seats — our Sprinter vans
+              can accommodate multiple car seats for larger families without anyone squeezed in.
+            </p>
+            <p className="text-gray-300 leading-relaxed">
+              Prefer to use your own seat? That's fine too — just mention it when you book and
+              your chauffeur will help you install and remove it at both ends of the trip, same as
+              with our equipment.
+            </p>
+          </div>
+
           {/* FAQ Section */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-white mb-8 text-center">

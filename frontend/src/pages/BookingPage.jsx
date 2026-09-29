@@ -133,6 +133,59 @@ const BookingPage = () => {
               </div>
             </div>
           </div>
+
+          {/* Why book with a chauffeur service */}
+          <div className="mt-12 bg-gray-900/60 border border-[#D4AF37]/20 rounded-2xl p-8">
+            <h2 className="text-2xl font-bold text-white mb-4">
+              Why Book a <span className="text-[#D4AF37]">Chauffeur Instead of a Rideshare?</span>
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              An Uber or Lyft quote can double or triple during a rush-hour flight bank, a Ravens
+              game, or a rainy morning — the same route can price differently every time you check.
+              Every quote from this form is a flat rate locked in when you book, so a delayed
+              flight or bad weather never turns into a surprise charge.
+            </p>
+            <p className="text-gray-300 leading-relaxed">
+              You also get a specific chauffeur, not a rotating pool of drivers: someone who shows
+              up in a professional vehicle, tracks your flight, waits with a name sign, and helps
+              with luggage — the kind of service that matters most when you're traveling with
+              family, running late for a meeting, or simply don't want the uncertainty of tapping
+              "request ride" and hoping for the best.
+            </p>
+          </div>
+
+          {/* How booking works */}
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold text-white text-center mb-8">
+              How Booking a <span className="text-[#D4AF37]">BWI Chauffeur</span> Works
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6 text-gray-300 text-sm">
+              <div className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-xl p-6">
+                <h4 className="text-[#D4AF37] font-semibold mb-2">1. Tell Us the Trip</h4>
+                <p>
+                  Enter your pickup and drop-off locations, date, time, and passenger count in the
+                  form above. Flying? Add your flight number and our chauffeurs will track it
+                  automatically so your pickup adjusts if your flight is early or delayed.
+                </p>
+              </div>
+              <div className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-xl p-6">
+                <h4 className="text-[#D4AF37] font-semibold mb-2">2. Get a Flat-Rate Quote</h4>
+                <p>
+                  A reservation specialist replies within minutes with an all-inclusive price —
+                  no surge pricing, no surprise fees at drop-off. The rate you're quoted for your
+                  sedan, SUV, or Sprinter van is the rate you pay.
+                </p>
+              </div>
+              <div className="bg-gray-900/60 border border-[#D4AF37]/20 rounded-xl p-6">
+                <h4 className="text-[#D4AF37] font-semibold mb-2">3. Ride With Confidence</h4>
+                <p>
+                  Your chauffeur arrives on time, uniformed and professional, with your name sign
+                  ready at arrivals. Need to change plans? Cancel free up to 3 hours before pickup
+                  (12 hours for vans and special events) — no questions asked.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <FaqSection faqs={PAGE_FAQS['/booking']} />

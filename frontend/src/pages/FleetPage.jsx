@@ -88,6 +88,32 @@ const FleetPage = () => {
             <p className="text-gray-400 text-sm">Regular professional servicing and daily inspections ensure optimal performance, safety, and reliability for every trip you take.</p>
           </div>
         </div>
+
+        {/* Which vehicle to choose */}
+        <div className="max-w-4xl mx-auto mb-16 bg-gray-900/60 border border-[#D4AF37]/20 rounded-2xl p-8">
+          <h2 className="text-2xl font-bold text-white mb-4">
+            Which Vehicle Should <span className="text-[#D4AF37]">You Book?</span>
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            For a solo business traveler or a couple heading to BWI, our Mercedes-Benz E-Class
+            Business Sedan is the most-booked option — plenty of legroom and trunk space for two
+            standard bags without paying for a vehicle you don't need. Clients meeting an
+            important client or arriving for a wedding often step up to the BMW 7 Series or
+            Mercedes S-Class First Class Sedan for the extra presence and comfort on longer rides.
+          </p>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Families and small groups of 3–5 with multiple suitcases usually do best in a Lincoln
+            Nautilus or Cadillac Escalade — the Escalade's third row also works well for golf
+            clubs, car seats, or a stroller alongside the luggage. For wedding parties, airport
+            groups, or corporate shuttles of 7–14 people, our Mercedes Sprinter vans keep everyone
+            together in one vehicle at one flat rate, instead of splitting into two or three cars.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            Not sure which fits your group? Tell us your passenger and luggage count when you
+            request a quote and we'll recommend the right vehicle — there's no charge for asking,
+            and we'd rather size it correctly the first time than have you arrive short on space.
+          </p>
+        </div>
       </div>
       <Fleet />
 
