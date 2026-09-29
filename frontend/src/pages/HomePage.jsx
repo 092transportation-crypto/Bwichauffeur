@@ -33,7 +33,7 @@ const HomePage = () => {
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'LimousineService',
+            '@type': 'LocalBusiness',
             name: 'BWI Chauffeur',
             url: 'https://www.bwichauffeur.com/',
             telephone: '+1-877-609-1919',
