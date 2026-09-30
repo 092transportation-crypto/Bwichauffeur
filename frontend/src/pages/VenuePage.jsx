@@ -85,7 +85,7 @@ const VenuePage = ({ venue }) => {
               <span className="text-gray-300 text-sm font-semibold">{venue.city}</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              {venue.name}
+              {venue.name}{' '}
               <br />
               <span style={{ color: '#D4AF37' }}>{venue.highlight}</span>
             </h1>

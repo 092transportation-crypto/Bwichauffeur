@@ -83,7 +83,7 @@ const AirportServicePage = ({ airport }) => {
               <span className="text-gray-300 text-sm font-semibold">{airport.location}</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              {airport.h1Line1}
+              {airport.h1Line1}{' '}
               <br />
               <span style={{ color: '#D4AF37' }}>{airport.h1Line2}</span>
             </h1>

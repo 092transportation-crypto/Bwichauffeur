@@ -194,7 +194,7 @@ const ContactPage = () => {
                     <div>
                       <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">Office</p>
                       <p className="text-white">
-                        9836 Lyon Ave
+                        9836 Lyon Ave{' '}
                         <br />
                         Laurel, MD 20723
                       </p>

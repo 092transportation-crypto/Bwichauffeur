@@ -52,7 +52,7 @@ const Hero = () => {
 
         {/* Main Heading - H1 for Homepage */}
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-slide-up leading-tight" style={{ color: '#D4AF37' }}>
-          Baltimore-Washington&apos;s Most Trusted
+          Baltimore-Washington&apos;s Most Trusted{' '}
           <span className="block text-white mt-2">Chauffeur Service</span>
         </h1>
 
