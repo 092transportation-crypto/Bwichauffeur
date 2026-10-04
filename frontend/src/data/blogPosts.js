@@ -6,6 +6,7 @@ import { BLOG_POSTS_BATCH4 } from './blogPostsBatch4';
 import { BLOG_POSTS_BATCH5 } from './blogPostsBatch5';
 import { BLOG_POSTS_BATCH6 } from './blogPostsBatch6';
 import { BLOG_POSTS_BATCH7 } from './blogPostsBatch7';
+import { BLOG_POSTS_BATCH8 } from './blogPostsBatch8';
 
 export const blogPosts = [
   {
@@ -3715,6 +3716,7 @@ Opening a corporate account is a ten-minute conversation: your routes, your volu
   ...BLOG_POSTS_BATCH5,
   ...BLOG_POSTS_BATCH6,
   ...BLOG_POSTS_BATCH7,
+  ...BLOG_POSTS_BATCH8,
 ];
 
 
