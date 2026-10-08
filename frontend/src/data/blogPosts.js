@@ -56,7 +56,7 @@ We are far more than an airport car service. Our most-requested services include
 - **Cruise transfers** to the Port of Baltimore terminal, about 15 minutes from BWI
 - **Hourly chauffeur service** for multi-stop business days, city tours, and nights out
 
-Explore the [complete services menu](/services) or browse the [luxury fleet](/fleet) to pick your preferred vehicle class.
+Explore the [complete services menu](/services) or browse the [luxury fleet](/luxury-fleet) to pick your preferred vehicle class.
 
 ### Serving the Entire DMV Region
 
@@ -804,7 +804,7 @@ Think about the last time an app showed a driver "2 minutes away" who then sat m
 
 ### Book Your Next Ride
 
-[Experience our technology-driven service](/booking) or call **877-609-1919** to book your next ride. [View our luxury fleet](/fleet) to select your preferred vehicle, or read our full [BWI airport transportation guide](/blog/bwi-airport-transportation-guide-terminals-pickup) for terminal and pickup details.
+[Experience our technology-driven service](/booking) or call **877-609-1919** to book your next ride. [View our luxury fleet](/luxury-fleet) to select your preferred vehicle, or read our full [BWI airport transportation guide](/blog/bwi-airport-transportation-guide-terminals-pickup) for terminal and pickup details.
     `,
     faqs: [
       {
@@ -1141,7 +1141,7 @@ Most corporate relationships start small — a single executive airport run book
 
 **Phone:** 877-609-1919
 **Email:** corporate@bwichauffeur.com
-**[View Our Fleet](/fleet)** | **[Service Coverage](/coverage)** | **[All Services](/services)**
+**[View Our Fleet](/luxury-fleet)** | **[Service Coverage](/coverage)** | **[All Services](/services)**
     `,
     faqs: [
       {
@@ -1195,7 +1195,7 @@ Your wedding day is one of the most important days of your life, and every detai
 
 **Guest Shuttles**
 - Hotel-to-venue shuttle service
-- [Mercedes Sprinter Vans](/fleet) for guest groups
+- [Mercedes Sprinter Vans](/luxury-fleet) for guest groups
 - Multiple shuttle runs available
 - Professional drivers familiar with venue
 
@@ -1311,7 +1311,7 @@ Absolutely. Multi-vehicle bookings receive preferred rates. [Contact us](/bookin
 [Request a wedding consultation](/booking) or call **877-609-1919** to speak with our events team.
 
 **Related Resources:**
-- [View Our Luxury Fleet](/fleet)
+- [View Our Luxury Fleet](/luxury-fleet)
 - [Complete Service Details](/services)
 - [Coverage Areas](/coverage)
 - [Company Information](/)
@@ -1436,7 +1436,7 @@ Ride-sharing apps can be appropriate for:
 - 99%+ on-time pickup rate
 - No-surge-pricing guarantee
 - [Flight tracking](/blog/24-7-availability-flight-tracking-technology) for airport pickups
-- Guaranteed [luxury vehicle](/fleet)
+- Guaranteed [luxury vehicle](/luxury-fleet)
 - [Professional, vetted chauffeurs](/blog/professional-chauffeurs-training-safety-standards)
 - Select your preferred vehicle class
 
@@ -1498,7 +1498,7 @@ Learn more about our [safety standards and chauffeur training](/blog/professiona
 Experience the difference professional chauffeur service makes. [Book your first ride](/booking) or call **877-609-1919** for a quote.
 
 **Learn More:**
-- [Our Luxury Fleet](/fleet)
+- [Our Luxury Fleet](/luxury-fleet)
 - [Service Coverage](/coverage)
 - [Corporate Accounts](/blog/corporate-transportation-solutions-maryland-businesses)
 - [All Services](/services)
@@ -2592,7 +2592,7 @@ A serious airport service monitors your flight automatically and adjusts your pi
 
 ### 3. A Genuinely Late-Model Fleet
 
-"Luxury" is a word; a 2018 sedan with 180,000 miles is a reality. The best services run **late-model Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, and Mercedes Sprinter** vehicles, professionally detailed and inspected daily. Ask the model year and whether you can request a vehicle class. See our [full fleet](/fleet) for what a real black car lineup looks like.
+"Luxury" is a word; a 2018 sedan with 180,000 miles is a reality. The best services run **late-model Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, and Mercedes Sprinter** vehicles, professionally detailed and inspected daily. Ask the model year and whether you can request a vehicle class. See our [full fleet](/luxury-fleet) for what a real black car lineup looks like.
 
 ### 4. Lower-Level Arrivals Pickup
 
@@ -2999,7 +2999,7 @@ Two local realities deserve their own line items. First, weather: an April showe
 
 ### Let's Get Your Wedding Moving
 
-Whether you're a couple planning your own day or a planner coordinating your tenth season, we'd love to build the transportation plan with you. Explore [the fleet](/fleet), then [request a wedding quote](/booking) or call **877-609-1919** — tell us the date, the venues, and the guest count, and we'll map the rest.
+Whether you're a couple planning your own day or a planner coordinating your tenth season, we'd love to build the transportation plan with you. Explore [the fleet](/luxury-fleet), then [request a wedding quote](/booking) or call **877-609-1919** — tell us the date, the venues, and the guest count, and we'll map the rest.
     `,
     faqs: [
       {
@@ -3313,7 +3313,7 @@ These are representative market ranges for professional chauffeured service in 2
 | Bethesda / Rockville | $135–$180 | $175–$235 |
 | Northern Virginia (Tysons, Arlington) | $160–$210 | $200–$270 |
 
-Group travel in a Sprinter van generally starts around $250–$350 for regional transfers — which, for a party of ten, beats three separate rideshares on both price and logistics. See the [full fleet lineup](/fleet) to match a vehicle to your group.
+Group travel in a Sprinter van generally starts around $250–$350 for regional transfers — which, for a party of ten, beats three separate rideshares on both price and logistics. See the [full fleet lineup](/luxury-fleet) to match a vehicle to your group.
 
 ### What a Legitimate Flat Rate Includes
 
@@ -3496,7 +3496,7 @@ At BWI Marshall, rideshare pickup is on the **upper Departures level** — you l
 
 ### The Vehicle and the Person Driving It
 
-Rideshare guarantees a category ("UberX," "Black"); a chauffeured reservation guarantees a **specific class of late-model luxury vehicle** — Mercedes E- or S-Class, BMW, Escalade, Suburban, or Sprinter — detailed before every trip, driven by a uniformed professional who loads your luggage, holds the door, and knows the route without a phone mounted on the dash. Browse the [fleet](/fleet) to see the actual vehicles.
+Rideshare guarantees a category ("UberX," "Black"); a chauffeured reservation guarantees a **specific class of late-model luxury vehicle** — Mercedes E- or S-Class, BMW, Escalade, Suburban, or Sprinter — detailed before every trip, driven by a uniformed professional who loads your luggage, holds the door, and knows the route without a phone mounted on the dash. Browse the [fleet](/luxury-fleet) to see the actual vehicles.
 
 ### When Rideshare Is the Right Choice
 
@@ -3676,7 +3676,7 @@ Corporate service is defined by the person driving. Every BWI Chauffeur driver i
 
 ### The Fleet, Matched to the Occasion
 
-Corporate accounts draw on the [full fleet](/fleet): Mercedes E-Class and BMW sedans for standard executive transfers, S-Class for board-level guests, Cadillac Escalades and Suburbans for teams and clients with presence to project, and Sprinters for groups. Same chauffeur standard at every tier; the vehicle simply matches the meeting.
+Corporate accounts draw on the [full fleet](/luxury-fleet): Mercedes E-Class and BMW sedans for standard executive transfers, S-Class for board-level guests, Cadillac Escalades and Suburbans for teams and clients with presence to project, and Sprinters for groups. Same chauffeur standard at every tier; the vehicle simply matches the meeting.
 
 ### Why Companies Switch from Rideshare Reimbursement
 

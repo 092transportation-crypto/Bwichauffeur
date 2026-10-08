@@ -11,7 +11,7 @@ export const BLOG_POSTS_BATCH3 = [
     date: '2026-09-01',
     author: 'BWI Chauffeur Team',
     category: 'Airport Guide',
-    image: '/images/stock/blog-airport-limo.jpg',
+    image: '/images/stock/blog-airport-limo.webp',
     content: `
 ## What "BWI Airport Limo Service" Actually Means
 
@@ -102,7 +102,7 @@ BWI Chauffeur has run flat-rate limo service out of BWI Marshall since 2014, wit
     date: '2026-09-04',
     author: 'BWI Chauffeur Team',
     category: 'Guides',
-    image: '/images/stock/pexels-1540406.jpg',
+    image: '/images/stock/pexels-1540406.webp',
     content: `
 ## Why Booking Timing Actually Matters
 
@@ -205,7 +205,7 @@ Ready to lock in your pickup window? [Book online in about 60 seconds](/booking)
     date: '2026-09-07',
     author: 'BWI Chauffeur Team',
     category: 'Comparisons',
-    image: '/images/stock/pexels-2007401.jpg',
+    image: '/images/stock/pexels-2007401.webp',
     content: `
 ## The Comparison Nobody Runs Honestly
 
@@ -303,7 +303,7 @@ Skip the guesswork on your next BWI trip. [Get a fixed, no-surge quote](/booking
     date: '2026-09-09',
     author: 'BWI Chauffeur Team',
     category: 'Weddings',
-    image: '/images/gallery/mercedes-s-class-westin-bwi.jpg',
+    image: '/images/gallery/mercedes-s-class-westin-bwi.webp',
     content: `
 ## Why Wedding Transportation Deserves Its Own Planning Line Item
 
@@ -411,7 +411,7 @@ The single best piece of advice for wedding transportation: treat it like your v
     date: '2026-09-11',
     author: 'BWI Chauffeur Team',
     category: 'Corporate Travel',
-    image: '/images/gallery/escalade-harbor-east.jpg',
+    image: '/images/gallery/escalade-harbor-east.webp',
     content: `
 ## Annapolis Is Not a Typical Corporate Market
 
@@ -499,7 +499,7 @@ Opening an account takes one short call covering your typical routes, expected v
     date: '2026-09-13',
     author: 'BWI Chauffeur Team',
     category: 'Comparisons',
-    image: '/images/stock/pexels-1763075.jpg',
+    image: '/images/stock/pexels-1763075.webp',
     content: `
 ## Two Different Products Solving the Same Problem
 
@@ -593,7 +593,7 @@ Ready for a direct, no-stops ride from BWI? [Book a private chauffeur online](/b
     date: '2026-09-16',
     author: 'BWI Chauffeur Team',
     category: 'Guides',
-    image: '/images/stock/pexels-358319.jpg',
+    image: '/images/stock/pexels-358319.webp',
     content: `
 ## Booking a Chauffeur Is Simpler Than First-Timers Expect
 
@@ -714,7 +714,7 @@ The whole process — from first call to confirmed reservation — typically tak
     date: '2026-09-18',
     author: 'BWI Chauffeur Team',
     category: 'Guides',
-    image: '/images/gallery/fleet-downtown-baltimore.jpg',
+    image: '/images/gallery/fleet-downtown-baltimore.webp',
     content: `
 ## Group Transportation Has Different Rules Than Solo Travel
 
@@ -817,7 +817,7 @@ The difference between a smooth group arrival and a chaotic one usually comes do
     date: '2026-09-21',
     author: 'BWI Chauffeur Team',
     category: 'Travel Tips',
-    image: '/images/stock/pexels-2026324.jpg',
+    image: '/images/stock/pexels-2026324.webp',
     content: `
 ## The Details That Actually Matter
 
@@ -923,7 +923,7 @@ For BWI specifically, our [airport car service page](/bwi-airport-car-service) c
     date: '2026-09-24',
     author: 'BWI Chauffeur Team',
     category: 'Comparisons',
-    image: '/images/stock/pexels-1587927.jpg',
+    image: '/images/stock/pexels-1587927.webp',
     content: `
 ## Two Different Business Models, Not Just Two Different Cars
 
