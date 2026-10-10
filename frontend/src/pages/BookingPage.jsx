@@ -14,10 +14,10 @@ const BookingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Book Your Ride | Easy Airport Limo Reservation</title>
+        <title>Book Your Ride | Flat-Rate Airport Limo Reservation in Minutes</title>
         <meta
           name="description"
-          content="Reserve your BWI Chauffeur ride online in minutes. Airport transfers, corporate travel and event transportation across MD, DC and DE. Call 877-609-1919."
+          content="Reserve your flat-rate BWI Chauffeur ride online in minutes. Airport transfers, corporate travel & event transportation across MD, DC & DE. Call 877-609-1919."
         />
         <link rel="canonical" href="https://www.bwichauffeur.com/booking" />
       </Helmet>

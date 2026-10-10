@@ -14,8 +14,8 @@ const FleetPage = () => {
   return (
     <>
       <Helmet>
-        <title>Fleet | Mercedes, BMW, Cadillac Escalade</title>
-        <meta name="description" content="Tour our luxury fleet: Mercedes-Benz sedans, BMW 7 Series and Cadillac Escalade SUVs. Clean, insured vehicles for every BWI Chauffeur ride." />
+        <title>Luxury Fleet | Mercedes, BMW 7 Series, Escalade & Sprinter Vans</title>
+        <meta name="description" content="Tour our luxury fleet: Mercedes-Benz sedans, BMW 7 Series, Cadillac Escalade SUVs & 14-passenger Sprinter vans. Clean, insured. Call 877-609-1919." />
         <link rel="canonical" href="https://www.bwichauffeur.com/luxury-fleet" />
       </Helmet>
       

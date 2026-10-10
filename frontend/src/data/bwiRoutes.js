@@ -9,9 +9,9 @@ export const BWI_ROUTES = [
     distance: '32 miles',
     drive_time: '45–60 minutes',
     flat_rate_from: 85,
-    metaTitle: 'BWI to Washington DC | Flat Rate Car Service',
+    metaTitle: 'BWI to Washington DC Car Service | Flat Rate, No Surge, 24/7',
     metaDescription:
-      'Flat rate BWI Airport to Washington DC chauffeur service. Professional chauffeur, 24/7 availability, late-model luxury fleet. Call 877-609-1919.',
+      'Flat-rate BWI Airport to Washington DC chauffeur service. Flight tracking, 24/7 availability, late-model luxury fleet. Call 877-609-1919 to book.',
     intro:
       'Traveling from Baltimore-Washington International Airport (BWI) to Washington, D.C. should be the most relaxing leg of your trip — not the most stressful. Our BWI to Washington DC chauffeur service delivers door-to-door transportation in a late-model Mercedes, BMW, Cadillac, or Sprinter. Your professionally trained chauffeur knows the I-295, Baltimore-Washington Parkway, and 14th Street Bridge bottlenecks by heart. Whether you are arriving for a Capitol Hill meeting, a White House briefing, or a long weekend in Georgetown, we get you there on schedule, every time.',
     why_choose: [

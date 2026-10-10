@@ -3,6 +3,7 @@
 
 import { MARYLAND_BATCH3 } from './marylandPagesBatch3';
 import { MARYLAND_BATCH4 } from './marylandPagesBatch4';
+import { MARYLAND_BATCH5 } from './marylandPagesBatch5';
 
 export const MARYLAND_PAGES = [
   {
@@ -11,8 +12,8 @@ export const MARYLAND_PAGES = [
     "name": "Rockville",
     "badge": "Montgomery County Limo Service",
     "h1": "Rockville Limo Service",
-    "metaTitle": "Rockville Limo Service | Car Service Rockville MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Rockville, MD. BWI in 55–70 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Rockville MD Limo Service | #1 Flat-Rate Car Service to BWI & DCA",
+    "metaDescription": "Rockville's trusted limo & car service — BWI in 55–70 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -174,8 +175,8 @@ export const MARYLAND_PAGES = [
     "name": "Bethesda",
     "badge": "Montgomery County Limo Service",
     "h1": "Bethesda Limo Service",
-    "metaTitle": "Bethesda Limo Service | Car Service Bethesda MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Bethesda, MD. BWI in 50–65 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Bethesda MD Limo Service | Flat-Rate Car Service to BWI, DCA & IAD",
+    "metaDescription": "Bethesda's trusted limo & car service — BWI in 50–65 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -337,8 +338,8 @@ export const MARYLAND_PAGES = [
     "name": "Gaithersburg",
     "badge": "Montgomery County Limo Service",
     "h1": "Gaithersburg Limo Service",
-    "metaTitle": "Gaithersburg Limo Service | Car Service Gaithersburg MD",
-    "metaDescription": "Flat-rate limo & car service in Gaithersburg, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Gaithersburg MD Limo Service | Flat-Rate Car Service to BWI & IAD",
+    "metaDescription": "Gaithersburg's trusted limo & car service — BWI in 60–75 min, DCA & Dulles covered, corporate, weddings & events, 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -500,8 +501,8 @@ export const MARYLAND_PAGES = [
     "name": "Silver Spring",
     "badge": "Montgomery County Limo Service",
     "h1": "Silver Spring Limo Service",
-    "metaTitle": "Silver Spring Limo Service | Car Service Silver Spring MD",
-    "metaDescription": "Flat-rate limo & car service in Silver Spring, MD. BWI in 45–60 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Silver Spring MD Limo Service | Flat-Rate Car Service to BWI & DCA",
+    "metaDescription": "Silver Spring's trusted limo & car service — BWI in 45–60 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -663,8 +664,8 @@ export const MARYLAND_PAGES = [
     "name": "Bowie",
     "badge": "Prince George's County Limo Service",
     "h1": "Bowie Limo Service",
-    "metaTitle": "Bowie Limo Service | Car Service Bowie MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Bowie, MD. BWI in 30–40 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Bowie MD Limo Service | Flat-Rate Car Service, BWI in 30–40 Min",
+    "metaDescription": "Bowie's trusted limo & car service — BWI in 30–40 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -826,8 +827,8 @@ export const MARYLAND_PAGES = [
     "name": "Laurel",
     "badge": "Prince George's, Howard and Anne Arundel counties Limo Service",
     "h1": "Laurel Limo Service",
-    "metaTitle": "Laurel Limo Service | Car Service Laurel MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Laurel, MD. BWI in 20–25 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Laurel MD Limo Service | Flat-Rate Car Service, BWI in 20 Min",
+    "metaDescription": "Laurel's home-base limo & car service — BWI in just 20–25 min, DCA & Dulles covered, corporate, weddings & events, 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -1315,8 +1316,8 @@ export const MARYLAND_PAGES = [
     "name": "Frederick",
     "badge": "Frederick County Limo Service",
     "h1": "Frederick Limo Service",
-    "metaTitle": "Frederick Limo Service | Car Service Frederick MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Frederick, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Frederick MD Limo Service | Flat-Rate Car Service to BWI & Dulles",
+    "metaDescription": "Frederick's trusted limo & car service — BWI in 60–75 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -3108,8 +3109,8 @@ export const MARYLAND_PAGES = [
     "name": "Towson",
     "badge": "Baltimore County Limo Service",
     "h1": "Towson Limo Service",
-    "metaTitle": "Towson Limo Service | Car Service Towson MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Towson, MD. BWI in 25–40 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Towson MD Limo Service | Flat-Rate Car Service to BWI, 25–40 Min",
+    "metaDescription": "Towson's trusted limo & car service — BWI in just 25–40 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -5680,8 +5681,8 @@ export const MARYLAND_PAGES = [
     "name": "Baltimore to Washington DC",
     "badge": "City-to-City Route",
     "h1": "Baltimore to Washington, DC Car Service",
-    "metaTitle": "Baltimore to Washington DC Car Service | BWI Chauffeur",
-    "metaDescription": "Flat-rate chauffeured car service from Baltimore to Washington, DC — 40 miles, 55–75 minutes. Flight tracking, 24/7, sedans to Sprinters. Call 877-609-1919.",
+    "metaTitle": "Baltimore to Washington DC Car Service | Flat-Rate, 55–75 Min",
+    "metaDescription": "Flat-rate chauffeured car service from Baltimore to Washington, DC — 40 miles, 55–75 minutes, flight tracking, 24/7. Call 877-609-1919 to book.",
     "stats": [
       {
         "label": "Distance",
@@ -6306,8 +6307,8 @@ export const MARYLAND_PAGES = [
     "name": "Maryland Corporate Car Service",
     "badge": "Maryland Service",
     "h1": "Maryland Corporate Car Service",
-    "metaTitle": "Maryland Corporate Car Service | BWI Chauffeur",
-    "metaDescription": "Maryland Corporate Car Service across Baltimore and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919.",
+    "metaTitle": "Maryland Corporate Car Service | Executive Chauffeurs, 24/7",
+    "metaDescription": "Maryland corporate car service for executives & teams — sedans, SUVs, Sprinter vans & stretch limos, flat rates, 24/7. Call 877-609-1919 for an account.",
     "stats": [
       {
         "label": "Coverage",
@@ -8905,6 +8906,7 @@ export const MARYLAND_PAGES = [
   // Batch 3 (2026-09-21) lives in its own file.
   ...MARYLAND_BATCH3,
   ...MARYLAND_BATCH4,
+  ...MARYLAND_BATCH5,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);

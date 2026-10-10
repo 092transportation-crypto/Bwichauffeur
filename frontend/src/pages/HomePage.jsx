@@ -18,17 +18,17 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>BWI Airport Car Service | Flat-Rate Chauffeur, No Surge</title>
-        <meta name="description" content="BWI Chauffeur offers professional chauffeur service and hourly chauffeur service for airport transfers, business travel, and luxury rides in the BWI area." />
+        <title>BWI Airport Car Service | #1 Flat-Rate Chauffeur, No Surge Ever</title>
+        <meta name="description" content="BWI's trusted chauffeur service: flat-rate airport transfers, corporate travel & hourly hire across Maryland, DC & VA. 24/7, no surge. Call 877-609-1919." />
         <link rel="canonical" href="https://www.bwichauffeur.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.bwichauffeur.com/" />
-        <meta property="og:title" content="BWI Airport Car Service | Flat-Rate Chauffeur, No Surge" />
-        <meta property="og:description" content="BWI Chauffeur offers professional chauffeur service and hourly chauffeur service for airport transfers, business travel, and luxury rides in the BWI area." />
+        <meta property="og:title" content="BWI Airport Car Service | #1 Flat-Rate Chauffeur, No Surge Ever" />
+        <meta property="og:description" content="BWI's trusted chauffeur service: flat-rate airport transfers, corporate travel & hourly hire across Maryland, DC & VA. 24/7, no surge. Call 877-609-1919." />
         <meta property="og:image" content="https://www.bwichauffeur.com/logo.jpeg" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="BWI Airport Car Service | Flat-Rate Chauffeur, No Surge" />
-        <meta property="twitter:description" content="BWI Chauffeur offers professional chauffeur service and hourly chauffeur service for airport transfers, business travel, and luxury rides in the BWI area." />
+        <meta property="twitter:title" content="BWI Airport Car Service | #1 Flat-Rate Chauffeur, No Surge Ever" />
+        <meta property="twitter:description" content="BWI's trusted chauffeur service: flat-rate airport transfers, corporate travel & hourly hire across Maryland, DC & VA. 24/7, no surge. Call 877-609-1919." />
         <meta property="twitter:image" content="https://www.bwichauffeur.com/logo.jpeg" />
         <script type="application/ld+json">
           {JSON.stringify({
