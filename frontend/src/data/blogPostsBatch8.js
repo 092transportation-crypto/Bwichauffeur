@@ -1337,7 +1337,7 @@ When you call, share whatever details you have — the expected arrival date and
     content: `
 A client golf outing is one of the more effective relationship-building events a company runs, offering hours of unhurried conversation in a way a typical office meeting or dinner never quite replicates, which makes it exactly the wrong occasion to leave transportation to chance. Clients flying in for the day, golf bags that don't fit neatly into a standard sedan trunk alongside luggage, and a group that often moves from the course to a clubhouse dinner afterward all add up to a logistics plan that deserves the same attention as the golf itself, especially when the point of the whole day is making a strong impression rather than just getting eighteen holes in, and a client who spends the morning stressed about parking or a late arrival is not a client walking away with the impression you were hoping to leave after months of planning the perfect outing.
 
-This guide covers transportation planning for corporate golf outings at Maryland country clubs like Baltimore Country Club and Caves Valley Golf Club — handling golf bags and equipment, coordinating clients flying in for the day, and moving the group from the course to dinner afterward.
+This guide covers transportation planning for corporate golf outings at Maryland country clubs like Baltimore Country Club and Caves Valley Golf Club — handling golf bags and equipment, coordinating clients flying in for the day, and moving the group from the course to dinner afterward. For the full service overview and booking details, see our [country club and golf course car service](/maryland-golf-outing-transportation) page.
 
 ## Handling Golf Bags and Equipment
 

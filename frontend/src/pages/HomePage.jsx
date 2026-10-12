@@ -18,17 +18,17 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>BWI Airport Car Service | #1 Flat-Rate Chauffeur, No Surge Ever</title>
-        <meta name="description" content="BWI's trusted chauffeur service: flat-rate airport transfers, corporate travel & hourly hire across Maryland, DC & VA. 24/7, no surge. Call 877-609-1919." />
+        <title>BWI Chauffeur | Luxury Car Service in Maryland, DC & VA</title>
+        <meta name="description" content="Maryland's trusted luxury chauffeur service: airport transfers, corporate travel, weddings & hourly hire across MD, DC & VA. 24/7. Call 877-609-1919." />
         <link rel="canonical" href="https://www.bwichauffeur.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.bwichauffeur.com/" />
-        <meta property="og:title" content="BWI Airport Car Service | #1 Flat-Rate Chauffeur, No Surge Ever" />
-        <meta property="og:description" content="BWI's trusted chauffeur service: flat-rate airport transfers, corporate travel & hourly hire across Maryland, DC & VA. 24/7, no surge. Call 877-609-1919." />
+        <meta property="og:title" content="BWI Chauffeur | Luxury Car Service in Maryland, DC & VA" />
+        <meta property="og:description" content="Maryland's trusted luxury chauffeur service: airport transfers, corporate travel, weddings & hourly hire across MD, DC & VA. 24/7. Call 877-609-1919." />
         <meta property="og:image" content="https://www.bwichauffeur.com/logo.jpeg" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="BWI Airport Car Service | #1 Flat-Rate Chauffeur, No Surge Ever" />
-        <meta property="twitter:description" content="BWI's trusted chauffeur service: flat-rate airport transfers, corporate travel & hourly hire across Maryland, DC & VA. 24/7, no surge. Call 877-609-1919." />
+        <meta property="twitter:title" content="BWI Chauffeur | Luxury Car Service in Maryland, DC & VA" />
+        <meta property="twitter:description" content="Maryland's trusted luxury chauffeur service: airport transfers, corporate travel, weddings & hourly hire across MD, DC & VA. 24/7. Call 877-609-1919." />
         <meta property="twitter:image" content="https://www.bwichauffeur.com/logo.jpeg" />
         <script type="application/ld+json">
           {JSON.stringify({

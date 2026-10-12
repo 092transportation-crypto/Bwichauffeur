@@ -8,7 +8,7 @@ export const BLOG_POSTS_BATCH4 = [
     title: 'Baltimore Running Festival Weekend: A Transportation Guide',
     seoTitle: 'Baltimore Running Festival Transportation Guide',
     seoDescription:
-      'Street closures, hotel-to-start-line logistics, and BWI pickups for Baltimore Running Festival weekend — how to move around the course without a headache. 877-609-1919.',
+      'Street closures, hotel-to-start-line logistics and BWI pickups for Baltimore Running Festival weekend — how to get around the course. Call 877-609-1919.',
     excerpt:
       'Marathon weekend reroutes a big piece of downtown Baltimore. Here is how runners, families, and spectators get around the closures without missing the start.',
     date: '2026-09-28',
@@ -191,7 +191,7 @@ Preakness Saturday is one of the highest-demand dates on our calendar, and vehic
     title: 'Milestone Birthday Party Transportation in Baltimore & Annapolis',
     seoTitle: 'Milestone Birthday Party Transportation | Baltimore & Annapolis',
     seoDescription:
-      'Planning a 30th, 40th, 50th or 60th birthday night out in Baltimore or Annapolis? Here is how a reserved chauffeur keeps the group together and the night simple. 877-609-1919.',
+      'Planning a milestone birthday night out in Baltimore or Annapolis? Here is how a reserved chauffeur keeps the group together. Call 877-609-1919.',
     excerpt:
       'A milestone birthday deserves a night where nobody is the designated driver and nobody is splitting off to find parking. Here is how to plan the transportation piece.',
     date: '2026-09-28',
@@ -254,7 +254,7 @@ The actual point of hiring a chauffeur for a birthday night is simple: everyone 
     title: 'A Private Chauffeur Day: Touring Inner Harbor & Fells Point',
     seoTitle: 'Private Chauffeur City Tour | Inner Harbor & Fells Point',
     seoDescription:
-      'What an hourly chauffeured day actually looks like touring Baltimore\'s Inner Harbor and Fells Point — stops, pacing, and why it beats parking twice. 877-609-1919.',
+      'What an hourly chauffeured day touring Baltimore\'s Inner Harbor and Fells Point looks like — stops, pacing, and why it beats parking twice.',
     excerpt:
       'An hourly chauffeur turns a Baltimore day of sightseeing from a parking-and-walking exercise into an actual tour. Here is what a typical Inner Harbor and Fells Point day looks like.',
     date: '2026-09-28',
@@ -317,7 +317,7 @@ Hourly, as-directed service is billed for the block of time you reserve, with st
     title: 'Micro-Wedding & Elopement Chauffeur Service in Annapolis & Baltimore',
     seoTitle: 'Micro-Wedding & Elopement Chauffeur | Annapolis & Baltimore',
     seoDescription:
-      'A smaller wedding still deserves a proper arrival. How chauffeured transportation works for micro-weddings and elopements in Annapolis and Baltimore. 877-609-1919.',
+      'A smaller wedding still deserves a proper arrival. How chauffeured transport works for micro-weddings and elopements in Annapolis and Baltimore.',
     excerpt:
       'A guest list of twenty does not mean the transportation should be an afterthought. Here is how chauffeured service scales down for an intimate wedding without losing the occasion.',
     date: '2026-09-28',
@@ -569,7 +569,7 @@ Send us your day-of timeline as early as you have one, even in draft form. [Book
     title: 'Proposal & Anniversary Chauffeur Experiences in Baltimore & Annapolis',
     seoTitle: 'Proposal & Anniversary Chauffeur Service | Baltimore & Annapolis',
     seoDescription:
-      'Planning a proposal or anniversary evening in Baltimore or Annapolis? Here is how a private chauffeur handles the timing, the surprise, and the scenic stops. 877-609-1919.',
+      'Planning a proposal or anniversary evening in Baltimore or Annapolis? How a private chauffeur handles the timing, the surprise and scenic stops.',
     excerpt:
       'A proposal or a big anniversary usually has one moment that has to go right. Here is how chauffeured transportation supports that moment instead of adding risk to it.',
     date: '2026-09-28',
@@ -695,7 +695,7 @@ Tell us your city sequence, approximate meeting count, and team size, and we wil
     title: 'Corporate Holiday Party Transportation: A Planning Guide for Office Managers',
     seoTitle: 'Corporate Holiday Party Transportation Planning Guide',
     seoDescription:
-      'A practical guide for office managers booking employee transportation for a corporate holiday party — shuttle loops, timing, and headcount planning. 877-609-1919.',
+      'A practical guide for office managers booking a corporate holiday party shuttle — loop planning, timing and headcount tips. Call 877-609-1919.',
     excerpt:
       'Getting fifty employees safely to and from a holiday party is a logistics project, not a single booking. Here is how office managers plan it well.',
     date: '2026-09-28',
@@ -758,7 +758,7 @@ Give us your venue, estimated headcount, pickup points, and event window, and wh
     title: 'Sedan vs. SUV vs. Sprinter Van: Which Vehicle Should You Actually Book?',
     seoTitle: 'Sedan vs SUV vs Sprinter Van: Which to Book?',
     seoDescription:
-      'A practical vehicle-selection guide — sedan, SUV, or Sprinter van — based on group size, luggage, and occasion, for Maryland and DC chauffeur bookings. 877-609-1919.',
+      'A practical vehicle guide — sedan, SUV or Sprinter van — based on group size, luggage and occasion for Maryland and DC chauffeur bookings.',
     excerpt:
       'Picking the wrong vehicle class is the most common booking mistake — either paying for more van than you need or cramming a group into a sedan. Here is how to choose.',
     date: '2026-09-28',
@@ -821,7 +821,7 @@ If your trip does not cleanly fit one tier — six passengers with heavy luggage
     title: 'Conference & Association Meeting Transportation in Baltimore',
     seoTitle: 'Conference & Association Meeting Transportation | Baltimore',
     seoDescription:
-      'Shuttle logistics for conferences and association meetings at the Baltimore Convention Center and downtown hotel blocks — planning guide for organizers. 877-609-1919.',
+      'Shuttle logistics for conferences and meetings at the Baltimore Convention Center and downtown hotel blocks — a planning guide for organizers.',
     excerpt:
       'Conference transportation is really three separate logistics problems: airport arrivals, hotel-to-venue shuttles, and off-site event transfers. Here is how organizers plan for all three.',
     date: '2026-09-28',
@@ -1073,7 +1073,7 @@ Tell us flight numbers, arrival windows, headcount, any car seat needs, and your
     title: 'The Winter Weather & Flight Delay Playbook for BWI Travelers',
     seoTitle: 'Winter Weather & Flight Delay Playbook | BWI Airport',
     seoDescription:
-      'How BWI travelers should plan around winter weather delays — flight tracking, pickup rescheduling, and why a chauffeur beats rideshare on a snow day. 877-609-1919.',
+      'How BWI travelers should plan around winter weather delays — flight tracking, pickup rescheduling and why a chauffeur beats rideshare in snow.',
     excerpt:
       'Snow and ice turn a normal BWI travel day into a guessing game. Here is a practical playbook for handling delays without losing the whole day to stress.',
     date: '2026-09-28',

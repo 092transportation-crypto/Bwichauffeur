@@ -955,8 +955,8 @@ export const MARYLAND_BATCH5 = [
     type: "event",
     name: "MGM National Harbor",
     badge: "Event Transportation",
-    h1: "MGM National Harbor Transportation & Limo Service",
-    metaTitle: "MGM National Harbor Transportation | Limo & Car Service | BWI Chauffeur",
+    h1: "MGM National Harbor Casino & Resort Transportation",
+    metaTitle: "MGM National Harbor Casino Transportation | BWI Chauffeur",
     metaDescription: "Chauffeured transportation to MGM National Harbor casino & resort in Oxon Hill, MD. Door drop-off, flat rates, sedans to Sprinters. 24/7. Call 877-609-1919.",
     stats: [
       { label: "Location", value: "Oxon Hill, MD" },

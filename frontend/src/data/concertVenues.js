@@ -24,6 +24,7 @@ export const CONCERT_VENUES = [
     about: [
       'CFG Bank Arena at 201 West Baltimore Street reopened in 2023 after a $250 million renovation. It is now the busiest concert venue in Maryland. The arena hosts the biggest touring artists in music, plus comedy shows, family events, and college basketball. With more than 14,000 seats and a packed calendar, downtown Baltimore fills up fast on show nights.',
       'That is where BWI Chauffeur comes in. Our chauffeurs drop you at the arena entrance minutes before doors open. After the encore, your vehicle is waiting at a pre-arranged pickup point. You skip the parking garage lines on Baltimore and Howard Streets and get home while other fans are still stuck in the deck.',
+      'Before it became CFG Bank Arena, the same building operated for decades as the Baltimore Civic Center, 1st Mariner Arena, and Royal Farms Arena. Longtime Baltimoreans will recognize the address and the Pratt Street loading patterns, but the 2023 renovation added a new premium level, improved sightlines, and a redesigned West Baltimore Street entrance that changed exactly where rideshare and taxi queues form — a detail our chauffeurs track show to show so your pickup point is never a guess.',
     ],
     logistics: [
       'CFG Bank Arena sits in the heart of downtown Baltimore, one block from the Inner Harbor and Oriole Park at Camden Yards. Event parking nearby is expensive and sells out early for big shows. Post-show traffic on Baltimore Street and I-395 can take 45 minutes to clear.',
@@ -45,6 +46,10 @@ export const CONCERT_VENUES = [
       {
         q: 'How much does a limo to CFG Bank Arena cost?',
         a: 'Pricing depends on your pickup location, vehicle, and whether you want one-way, round-trip, or hourly service. Call 877-609-1919 or request a quote online for an exact price with no hidden fees.',
+      },
+      {
+        q: 'Is there a specific entrance for pre-booked car service at CFG Bank Arena?',
+        a: 'Yes. Chauffeured vehicles use the West Baltimore Street side rather than the general rideshare queue on Howard Street, which is typically faster on a sold-out night. Your chauffeur will confirm the exact curb by text before you leave your seat.',
       },
     ],
   },
@@ -72,6 +77,7 @@ export const CONCERT_VENUES = [
     about: [
       'Merriweather Post Pavilion has hosted legends since 1967 — from Led Zeppelin and Jimi Hendrix to today’s biggest summer tours. Rolling Stone has ranked it among the best amphitheaters in the United States. Tucked into the woods of downtown Columbia, Maryland, it seats thousands under the pavilion roof with room for thousands more on the lawn.',
       'The venue’s famous downside is getting out. Merriweather’s lots and the surrounding Columbia streets bottleneck badly after a sold-out show, and exits can take an hour or more. With BWI Chauffeur, you walk past the entire line. Your chauffeur stages at a pre-set pickup point and has you on Route 29 while the lots are still gridlocked.',
+      'The amphitheater’s distinctive hyperbolic-paraboloid roof was designed by a young Frank Gehry decades before he became a household name, and it remains one of the most recognizable silhouettes in American concert architecture. The surrounding Merriweather District redevelopment has since added restaurants, breweries, and green space around the venue, so a pre-show dinner no longer means driving all the way back out to Columbia Town Center.',
     ],
     logistics: [
       'Merriweather sits in the Merriweather District of downtown Columbia, just off Route 29 and Broken Land Parkway — roughly 20 minutes from BWI Airport, 30 minutes from Baltimore, and 45 minutes from Washington DC. On-site and district garage parking fills up early for major tours.',
@@ -93,6 +99,10 @@ export const CONCERT_VENUES = [
       {
         q: 'What happens if an outdoor show is delayed by weather?',
         a: 'Rain delays are common at an outdoor amphitheater. Your chauffeur tracks the event in real time and adjusts your pickup at no extra charge.',
+      },
+      {
+        q: 'Is lawn or pavilion seating closer to the pickup point?',
+        a: 'Both sections funnel toward the same main paths at the end of a show, and our chauffeurs position for whichever gate empties fastest that night, so lawn and pavilion guests get the same quick walk to the vehicle.',
       },
     ],
   },
@@ -120,6 +130,7 @@ export const CONCERT_VENUES = [
     about: [
       'Capital One Arena anchors Washington DC’s Chinatown at 601 F Street NW. Home of the NHL’s Capitals and the NBA’s Wizards, it also hosts more than 200 events a year, including nearly every major arena tour that comes through the mid-Atlantic. When the arena lets out, thousands of fans pour onto some of the most congested blocks in the city.',
       'BWI Chauffeur turns that chaos into a door-to-door evening. Your chauffeur drops you near the F Street or 7th Street entrances, then stages nearby for your exit. No hunting for a pricey garage spot, no surge-priced rideshare standing in a crowd on Gallery Place — your car is confirmed before the house lights come up.',
+      'The arena sits two blocks from the Chinatown Friendship Archway and a short walk from the Smithsonian American Art Museum and the National Portrait Gallery, so many guests pair a show with dinner in Chinatown or an afternoon at the museums beforehand. Our dispatch team also watches for weekends when a Capitals or Wizards game and a concert land on the same night, since the Gallery Place blocks get noticeably more congested than usual.',
     ],
     logistics: [
       'Capital One Arena is about 45 minutes from BWI Airport, 50 minutes from Baltimore, and an easy run from Bethesda, Silver Spring, Arlington, and Alexandria. Downtown garages near the arena charge premium rates on event nights and back up badly at exit.',
@@ -141,6 +152,10 @@ export const CONCERT_VENUES = [
       {
         q: 'How far in advance should I book arena transportation?',
         a: 'Book at least 48 hours ahead for most events. For sold-out tours, playoff games, and weekend shows, book as early as you can — event-night vehicles go fast.',
+      },
+      {
+        q: 'Do you serve Georgetown University basketball games at Capital One Arena?',
+        a: 'Yes. Georgetown Hoyas home games fill the arena and the surrounding blocks just like a concert, and we schedule staging and pickup the same way we do for Capitals and Wizards games.',
       },
     ],
   },
@@ -509,6 +524,158 @@ export const CONCERT_VENUES = [
       {
         q: 'How much does transportation to Wells Fargo Center cost?',
         a: 'Every trip is quoted as one flat, all-inclusive rate based on pickup location, vehicle, and one-way, round-trip, or hourly service. Call 877-609-1919 or request a quote online — no surge pricing, no hidden fees.',
+      },
+    ],
+  },
+  {
+    slug: 'nine-thirty-club-dc-transportation',
+    name: '9:30 Club',
+    highlight: 'DC Concert Transportation',
+    city: 'Washington, DC',
+    metaTitle: '9:30 Club Transportation | DC Concert Car Service',
+    metaDescription:
+      'Chauffeured transportation to the 9:30 Club in Washington DC. Skip U Street parking and ride door to door. Call 877-609-1919 to book.',
+    keywords:
+      '9:30 Club transportation, 9:30 Club limo service, U Street concert car service, 9:30 Club parking alternative, Washington DC club transportation, 9:30 Club chauffeur',
+    heroImage: '/images/stock/pexels-569848.webp',
+    heroAlt: '9:30 Club Washington DC Concert Transportation - BWI Chauffeur Black Car Service to U Street Shows',
+    heroTagline:
+      'DC’s legendary standing-room club draws a sold-out line around the block most nights. Skip the U Street parking hunt and arrive by chauffeur instead.',
+    stats: [
+      { value: '1,200', label: 'Standing Capacity' },
+      { value: '45 min', label: 'From BWI Airport' },
+      { value: '24/7', label: 'Chauffeur Service' },
+    ],
+    about: [
+      'The 9:30 Club at 815 V Street NW has been Washington DC’s most important small venue for decades, launching and hosting acts long before they filled arenas. Because it is general-admission and standing-room, the room fills fast and the sidewalk line on V Street starts early — which also means street parking nearby disappears just as quickly on any night with a notable touring act.',
+      'BWI Chauffeur turns a 9:30 Club night into something you do not have to think about twice. Your chauffeur drops you right at the club entrance, you skip the hunt for a spot on a side street in the U Street Corridor, and after the last encore your vehicle is already staged and waiting rather than something you have to summon from a crowded sidewalk full of other fans doing the same thing.',
+    ],
+    logistics: [
+      'The club sits in the U Street Corridor, a dense nightlife strip with limited and metered parking that is routinely full by early evening. Shows here run late and let out onto a sidewalk crowded with people trying to flag the same handful of rideshare drivers at once — a chauffeur who already knows your pickup point skips that scramble entirely.',
+      'We serve the 9:30 Club from across the DMV: Bethesda, Silver Spring, Arlington, and Alexandria are all under 30 minutes, with BWI about 45 minutes and Baltimore closer to an hour. Many guests pair the show with dinner on 14th Street or U Street first — ask about hourly service so your chauffeur stays with you for dinner and the show alike.',
+    ],
+    faqs: [
+      {
+        q: 'Where do you drop off and pick up at the 9:30 Club?',
+        a: 'As close to the V Street entrance as DC traffic control allows for drop-off. For pickup, your chauffeur confirms an exact nearby corner by text before the show ends, since V Street itself is usually packed with fans leaving at the same time.',
+      },
+      {
+        q: 'Is parking really that hard to find near the club?',
+        a: 'Yes, especially for a popular touring act. Metered spots on V Street and 9th Street fill early, and the nearby garages charge a premium on show nights. A chauffeur avoids the search entirely.',
+      },
+      {
+        q: 'Can you pick up a group for a show?',
+        a: 'Yes. Sedans and SUVs cover smaller groups, and our Sprinter vans seat up to 14 for a larger night out — everyone arrives and leaves together.',
+      },
+      {
+        q: 'Do you serve the 9:30 Club from Maryland and Virginia?',
+        a: 'Yes. Bethesda, Silver Spring, Arlington, Alexandria, Annapolis, and Baltimore are all regular pickups, plus direct transfers from BWI, DCA, or IAD for out-of-town fans flying in for the show.',
+      },
+      {
+        q: 'How much does a car to the 9:30 Club cost?',
+        a: 'Pricing depends on pickup location, vehicle, and whether you want one-way, round-trip, or hourly service. Call 877-609-1919 or request a quote online for an exact price with no hidden fees.',
+      },
+    ],
+  },
+  {
+    slug: 'eaglebank-arena-transportation',
+    name: 'EagleBank Arena',
+    highlight: 'Fairfax Concert & Event Transportation',
+    city: 'Fairfax, VA',
+    metaTitle: 'EagleBank Arena Transportation | Fairfax VA',
+    metaDescription:
+      'Chauffeured transportation to EagleBank Arena at George Mason University in Fairfax, VA. Concerts, graduations & Patriots games. 877-609-1919.',
+    keywords:
+      'EagleBank Arena transportation, EagleBank Arena limo service, George Mason University arena car service, Fairfax VA concert limo, GMU graduation transportation, EagleBank Arena chauffeur',
+    heroImage: '/images/stock/pexels-128457.webp',
+    heroAlt: 'EagleBank Arena Fairfax Virginia Transportation - BWI Chauffeur Car Service to George Mason University Events',
+    heroTagline:
+      'Concerts, Patriots basketball, and commencement crowds all fill the same Fairfax campus arena. A chauffeured ride skips the Ox Road backup after the final buzzer.',
+    stats: [
+      { value: '10,000+', label: 'Seat Capacity' },
+      { value: '70 min', label: 'From BWI Airport' },
+      { value: '24/7', label: 'Chauffeur Service' },
+    ],
+    about: [
+      'EagleBank Arena sits on the George Mason University campus in Fairfax, Virginia, hosting Patriots basketball, touring concerts, family shows, and — every spring — some of the region’s largest college commencement ceremonies. Graduation weekends in particular flood the campus with family vehicles well beyond what the surrounding lots were built for.',
+      'A chauffeured vehicle removes the two hardest parts of an arena visit here: finding parking on a campus built for students, not event crowds, and then clearing the single-lane exits onto Braddock Road or Route 123 once everyone leaves at once. Your chauffeur drops you near the arena entrance and is already staged nearby when the event ends.',
+      'The arena opened in 1985 and has hosted everything from touring arena-rock acts to NCAA tournament games over the decades, in addition to being the home court for Mason Patriots basketball since the program’s run to the 2006 Final Four put the school on the national map. Commencement at George Mason moved into EagleBank Arena years ago specifically because the campus outgrew every smaller venue it had used before, which is part of why graduation weekends here now rival any concert for sheer traffic volume.',
+    ],
+    logistics: [
+      'EagleBank Arena is just off Braddock Road near the Fairfax campus, with the main approach from I-66 via Route 123 or the Fairfax County Parkway. Commencement weekends and sold-out concerts both strain the campus lots, and the exit onto Braddock Road backs up noticeably once an event lets out.',
+      'We serve EagleBank Arena from Washington DC, Arlington, and Tysons in well under an hour, and from BWI or Baltimore in roughly 70 to 90 minutes depending on traffic. For graduation weekends we commonly run multiple vehicles for extended families, with Sprinter vans keeping larger groups together for the drive to a celebration dinner afterward.',
+    ],
+    faqs: [
+      {
+        q: 'Can you handle a George Mason graduation weekend with a large family group?',
+        a: 'Yes. Commencement is one of our busiest weekends for this venue. We often book a Sprinter van for the extended family plus a sedan for the graduate, timed around the ceremony and a celebration dinner afterward.',
+      },
+      {
+        q: 'Where do you drop off at EagleBank Arena?',
+        a: 'As close to the main arena entrance as campus and event-day traffic control allow. Your chauffeur confirms the exact pickup point by text before the event ends.',
+      },
+      {
+        q: 'Do you cover Patriots basketball games as well as concerts?',
+        a: 'Yes — Patriots men’s and women’s basketball, touring concerts, family shows, and graduation ceremonies are all regular bookings for us at this venue.',
+      },
+      {
+        q: 'How far in advance should I book for a commencement weekend?',
+        a: 'As early as you can once the date is published. Graduation weekends are the highest-demand dates we see for this venue, and Sprinter vans sell out first.',
+      },
+      {
+        q: 'Do you serve EagleBank Arena from BWI or Dulles?',
+        a: 'Yes. We run direct transfers from BWI, Dulles, and Reagan National straight to the Fairfax campus for family flying in for an event.',
+      },
+    ],
+  },
+  {
+    slug: 'rams-head-live-transportation',
+    name: 'Rams Head Live',
+    highlight: 'Inner Harbor Concert Transportation',
+    city: 'Baltimore, MD',
+    metaTitle: 'Rams Head Live Transportation | Baltimore Concerts',
+    metaDescription:
+      'Chauffeured transportation to Rams Head Live in downtown Baltimore. Door-to-door Inner Harbor concert rides. Call 877-609-1919 to book.',
+    keywords:
+      'Rams Head Live transportation, Rams Head Live limo service, Inner Harbor concert car service, Rams Head Live parking, Baltimore club transportation, Rams Head Live chauffeur',
+    heroImage: '/images/stock/pexels-2007401.webp',
+    heroAlt: 'Rams Head Live Baltimore Inner Harbor Concert Transportation - BWI Chauffeur Black Car Service to Power Plant Live Shows',
+    heroTagline:
+      'A mid-size concert hall in the heart of Power Plant Live and the Inner Harbor — arrive by chauffeur and skip the harbor-area parking garages entirely.',
+    stats: [
+      { value: '2,000+', label: 'Concert Capacity' },
+      { value: '15 min', label: 'From BWI Airport' },
+      { value: '24/7', label: 'Chauffeur Service' },
+    ],
+    about: [
+      'Rams Head Live sits inside the Power Plant Live entertainment complex at the edge of Baltimore’s Inner Harbor, drawing national touring acts to a room sized between a club and a full arena. It is a short walk from the harbor’s hotels, restaurants, and Oriole Park at Camden Yards, which makes a concert here an easy pairing with dinner downtown.',
+      'The tradeoff is parking: Inner Harbor garages fill early on show nights and charge premium rates, and the surrounding one-way streets around Power Plant Live get congested the moment doors open and again when the show lets out. A chauffeur sidesteps both problems, dropping you steps from the entrance and staging nearby for a confirmed pickup afterward.',
+      'Power Plant Live itself occupies the former Pratt Street power plant and generating station, redeveloped into Baltimore’s downtown entertainment block of bars, restaurants and this concert hall. Because it sits inside a lively bar district rather than a stand-alone building, show nights here often blend into a broader night out — which is exactly when having a chauffeur already arranged for the end of the evening matters most, rather than trying to flag a ride from a crowded block of competing bar crowds.',
+    ],
+    logistics: [
+      'Rams Head Live is at 20 Market Place, inside Power Plant Live, a few blocks from both the Inner Harbor and Camden Yards. Harbor-area garages and the Power Plant Live lots are the usual parking options, both of which fill quickly and run premium rates on event nights.',
+      'We serve Rams Head Live from across the region — about 15 minutes from BWI, and easy runs from Annapolis, Columbia, Towson, and Washington DC. Many guests add a dinner stop at the Inner Harbor or Little Italy beforehand; ask about hourly service to keep your chauffeur with you for the whole evening.',
+    ],
+    faqs: [
+      {
+        q: 'Where do you drop off at Rams Head Live?',
+        a: 'As close to the Power Plant Live entrance on Market Place as event-night traffic allows. Your chauffeur confirms the exact pickup spot by text before the show ends.',
+      },
+      {
+        q: 'Is Inner Harbor parking really that bad on a show night?',
+        a: 'It can be. Nearby garages fill early and charge premium event-night rates, and the surrounding streets around Power Plant Live get congested at both doors and encore. A chauffeur avoids both.',
+      },
+      {
+        q: 'Can we add dinner at the Inner Harbor before the show?',
+        a: 'Yes. Many guests book hourly service so the same chauffeur handles a dinner stop at the harbor or Little Italy and then the drive to the venue and home afterward.',
+      },
+      {
+        q: 'Can you take a group to a show at Rams Head Live?',
+        a: 'Yes. Sedans and SUVs cover smaller parties, and our Mercedes Sprinter vans seat up to 14 for a larger group night out.',
+      },
+      {
+        q: 'How much does a limo to Rams Head Live cost?',
+        a: 'Pricing depends on pickup location, vehicle, and whether you want one-way, round-trip, or hourly service. Call 877-609-1919 or request a quote online for an exact price with no hidden fees.',
       },
     ],
   },

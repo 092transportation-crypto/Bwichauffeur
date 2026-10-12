@@ -4,6 +4,7 @@
 import { MARYLAND_BATCH3 } from './marylandPagesBatch3';
 import { MARYLAND_BATCH4 } from './marylandPagesBatch4';
 import { MARYLAND_BATCH5 } from './marylandPagesBatch5';
+import { MARYLAND_BATCH6 } from './marylandPagesBatch6';
 
 export const MARYLAND_PAGES = [
   {
@@ -6928,7 +6929,7 @@ export const MARYLAND_PAGES = [
     "badge": "Airport Transfer Service",
     "h1": "Philadelphia Airport Car Service",
     "metaTitle": "Philadelphia Airport Car Service | BWI Chauffeur",
-    "metaDescription": "Philadelphia Airport Car Service across Baltimore and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-191",
+    "metaDescription": "Philadelphia Airport car service from Baltimore and the DMV — sedans, SUVs, Sprinter vans & stretch limos with pro chauffeurs, 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "Coverage",
@@ -7250,7 +7251,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Pimlico Race Course Transportation & Limo Service",
     "metaTitle": "Pimlico Race Course Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Pimlico Race Course in Baltimore. Door drop-off, staged pickup, flat rates, sedans to Sprinters & limos.. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to Pimlico Race Course in Baltimore. Door drop-off, staged pickup, flat-rate sedans to Sprinters & limos. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -7582,7 +7583,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Oriole Park at Camden Yards Transportation & Limo Service",
     "metaTitle": "Oriole Park at Camden Yards Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Oriole Park at Camden Yards in Baltimore. Door drop-off, staged pickup, flat rates, sedans to Sprinters &. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to Oriole Park at Camden Yards in Baltimore. Door drop-off, staged pickup, flat-rate sedans to Sprinter vans. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -7748,7 +7749,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "University of Maryland Transportation & Limo Service",
     "metaTitle": "University of Maryland Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to University of Maryland in College Park. Door drop-off, staged pickup, flat rates, sedans to Sprinters &. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to the University of Maryland in College Park. Door drop-off, staged pickup, flat-rate sedans to Sprinter vans. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -7914,7 +7915,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Navy-Marine Corps Memorial Stadium Transportation & Limo Service",
     "metaTitle": "Navy-Marine Corps Stadium Transportation | BWI Chauffeur",
-    "metaDescription": "Chauffeured transportation to Navy-Marine Corps Memorial Stadium in Annapolis. Door drop-off, staged pickup, flat rates, sedans to. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to Navy-Marine Corps Stadium in Annapolis. Door drop-off, staged pickup, flat-rate sedans to Sprinter vans. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -8246,7 +8247,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Chesapeake Bay Events Transportation & Limo Service",
     "metaTitle": "Chesapeake Bay Events Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Chesapeake Bay Events in Annapolis and the Eastern Shore. Door drop-off, staged pickup, flat rates, sedans. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation for Chesapeake Bay events in Annapolis and the Eastern Shore. Door drop-off, flat-rate sedans to SUVs. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -8412,7 +8413,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Annapolis Boat Shows Transportation & Limo Service",
     "metaTitle": "Annapolis Boat Shows Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Annapolis Boat Shows in Annapolis. Door drop-off, staged pickup, flat rates, sedans to Sprinters & limos.. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to the Annapolis Boat Shows. Door drop-off, staged pickup, flat-rate sedans to Sprinters & limos. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -8578,7 +8579,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Maryland Renaissance Festival Transportation & Limo Service",
     "metaTitle": "Maryland Renaissance Festival Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Maryland Renaissance Festival in Crownsville. Door drop-off, staged pickup, flat rates, sedans to Sprinters. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to the Maryland Renaissance Festival in Crownsville. Door drop-off, flat-rate sedans to Sprinter vans. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -8744,7 +8745,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Preakness Stakes Transportation & Limo Service",
     "metaTitle": "Preakness Stakes Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Preakness Stakes in Baltimore and Laurel. Door drop-off, staged pickup, flat rates, sedans to Sprinters &. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to the Preakness Stakes in Baltimore and Laurel. Door drop-off, staged pickup, flat-rate sedans to Sprinter vans. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -8907,6 +8908,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH3,
   ...MARYLAND_BATCH4,
   ...MARYLAND_BATCH5,
+  ...MARYLAND_BATCH6,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);

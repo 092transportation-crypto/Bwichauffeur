@@ -353,6 +353,35 @@ const BaltimoreSportsPage = () => {
           </div>
         </section>
 
+        {/* Related venue & event pages */}
+        <section className="py-16 bg-gray-900">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8 text-center">
+              More Baltimore <span style={{ color: '#D4AF37' }}>Game-Day & Event Pages</span>
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                { name: 'M&T Bank Stadium', location: 'Direct venue page', to: '/mt-bank-stadium-transportation' },
+                { name: 'Oriole Park at Camden Yards', location: 'Direct venue page', to: '/oriole-park-camden-yards-transportation' },
+                { name: 'Pimlico Race Course', location: 'Preakness & race days', to: '/pimlico-race-course-transportation' },
+                { name: 'Preakness Stakes', location: 'Event weekend transportation', to: '/preakness-stakes-transportation' },
+                { name: 'Navy-Marine Corps Memorial Stadium', location: 'Annapolis', to: '/navy-marine-corps-stadium-transportation' },
+                { name: 'All Concert & Event Venues', location: 'Baltimore, DC & Virginia', to: '/concert-transportation' },
+              ].map((v) => (
+                <Link
+                  key={v.to}
+                  to={v.to}
+                  className="bg-black/50 border border-gray-800 rounded-xl p-6 hover:border-[#D4AF37]/50 transition-all duration-300 block"
+                >
+                  <Calendar className="h-6 w-6 text-[#D4AF37] mb-3" />
+                  <h3 className="text-lg font-bold text-white mb-1">{v.name}</h3>
+                  <p className="text-gray-400 text-sm">{v.location}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="py-20 bg-gradient-to-r from-purple-900/30 via-black to-orange-900/30">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

@@ -30,6 +30,24 @@ export const BWI_ROUTES = [
       'Reverse trip: D.C. to BWI bookings monitored by departure flight time, with buffer for TSA',
       'Ideal for: government travelers, federal contractors, lobbyists, conference attendees, embassy guests',
     ],
+    faqs: [
+      {
+        q: 'Is Reagan National or Dulles ever a better choice than BWI for a D.C. trip?',
+        a: 'For destinations right in downtown D.C., BWI is often just as fast once you account for its shorter security lines and typically lower fares. We quote the same flat rate from any of the three regional airports, so call and we will tell you honestly which one saves you time.',
+      },
+      {
+        q: 'Can you pick up at the Capitol or a federal building for a return trip to BWI?',
+        a: 'Yes. We regularly collect passengers from the Capitol Visitor Center, Senate and House office buildings, and federal agency entrances in the SW and NW quadrants, coordinating with building security in advance when required.',
+      },
+      {
+        q: 'Do you accommodate Secret Service or embassy security sweeps?',
+        a: 'Yes. Government, embassy, and diplomatic clients often need extra lead time for vehicle checks. Tell dispatch in advance and we will build that buffer into your pickup window at no extra charge.',
+      },
+      {
+        q: 'What is the best time to leave BWI to avoid Beltway traffic into D.C.?',
+        a: 'Departures before 6:30 a.m. or after 7 p.m. clear the Beltway fastest. Midday trips run close to the posted 45–60 minute time; we avoid the 4–6:30 p.m. inbound crunch on 295 whenever the schedule allows.',
+      },
+    ],
     nearby_links: ['bwi-to-arlington', 'bwi-to-bethesda', 'bwi-to-silver-spring'],
   },
   {
@@ -59,6 +77,28 @@ export const BWI_ROUTES = [
       'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Sprinter Van for groups',
       'Common occasions: Commissioning Week, USNA family weekends, Boat Show transfers, legislative session visits, weddings',
       'Round-trip discounts when same-day return is booked together',
+    ],
+    faqs: [
+      {
+        q: 'Can you get me onto the Naval Academy grounds for Commissioning Week?',
+        a: 'Yes. Our chauffeurs know the Visitor Control Center process at Gate 1 and Gate 8 and plan extra time for the vehicle inspection line during Commissioning Week and Parents Weekend.',
+      },
+      {
+        q: 'Do you serve the Annapolis City Dock and Eastport marinas?',
+        a: 'Yes. We drop off and pick up at the City Dock, Eastport Yacht Club, and the marinas along Spa Creek and the Severn River — useful for boat show visitors and sailing charter guests.',
+      },
+      {
+        q: 'Is BWI to Annapolis faster than driving yourself and parking?',
+        a: 'Usually. Annapolis street parking and the garage near the City Dock fill quickly on weekends and during the boat shows. A chauffeur drops you at the door and returns for you later, with no circling for a spot.',
+      },
+      {
+        q: 'Can you handle a wedding party with multiple pickup stops in Annapolis?',
+        a: 'Yes. We stagger pickups across hotels and homes so the wedding party arrives in the correct order, and we offer Sprinter vans for larger groups heading to the same venue.',
+      },
+      {
+        q: 'Do you serve legislative session visits at the Maryland State House?',
+        a: 'Yes. Lobbyists, state employees, and visiting officials book us regularly during the General Assembly session, when State Circle parking is especially tight.',
+      },
     ],
     nearby_links: ['bwi-to-washington-dc', 'bwi-to-columbia-md', 'bwi-to-bethesda'],
   },
@@ -90,6 +130,28 @@ export const BWI_ROUTES = [
       'Common occasions: corporate visits, conferences at Merriweather, Howard County General Hospital visits, JHU-APL contractor travel',
       'Hourly chauffeur option available for multi-stop business days',
     ],
+    faqs: [
+      {
+        q: 'Do you serve Merriweather Post Pavilion concerts from the BWI corridor?',
+        a: 'Yes. Columbia is about 15 minutes from BWI, and we run concert-night transfers to Merriweather Post Pavilion with a pre-arranged pickup point so you skip the lot traffic after the show.',
+      },
+      {
+        q: 'Can you set up a standing account for a Columbia office?',
+        a: 'Yes. Many Columbia employers near Town Center and the US-29 corridor use a corporate account with consolidated monthly billing for recurring BWI airport runs.',
+      },
+      {
+        q: 'How far in advance should I book a BWI to Columbia pickup?',
+        a: 'A day ahead guarantees your preferred vehicle. Because Columbia is only 15 minutes from our Linthicum base, same-day requests are usually possible — call 877-609-1919 to check availability.',
+      },
+      {
+        q: 'Do you drop off anywhere in Columbia, or just Town Center?',
+        a: 'Anywhere — Town Center high-rises, River Hill, Dorsey Hall, Long Reach, and the neighborhoods around Lake Kittamaqundi are all standard drop-off points at the same flat rate.',
+      },
+      {
+        q: 'Can you handle a transfer for a patient or visitor at Howard County General Hospital?',
+        a: 'Yes. We regularly drop off and pick up at Howard County General Hospital, with comfortable sedans and SUVs suited to patients and family who do not need medical equipment.',
+      },
+    ],
     nearby_links: ['bwi-to-rockville', 'bwi-to-silver-spring', 'bwi-to-bethesda'],
   },
   {
@@ -119,6 +181,28 @@ export const BWI_ROUTES = [
       'Vehicles: Mercedes S-Class for executive travel, Cadillac Escalade for family/medical travel, Sprinter for multi-passenger groups',
       'Common occasions: NIH outpatient visits, Walter Reed family visits, biotech corporate travel, Lockheed Martin contractor trips',
       'Round-trip discounts and patient-family long-stay packages available',
+    ],
+    faqs: [
+      {
+        q: 'Do you handle transport for NIH or Walter Reed appointments?',
+        a: 'We provide non-medical chauffeured transport — comfortable sedans and SUVs for patients and family who do not require medical equipment or a wheelchair-accessible vehicle — timed around appointment schedules.',
+      },
+      {
+        q: 'Is Bethesda closer to Dulles or Reagan National than BWI?',
+        a: 'Reagan National is usually the shortest drive to Bethesda, but BWI often has better fares and shorter security lines. We quote the same flat rate from any of the three, so compare total trip time and cost before you book.',
+      },
+      {
+        q: 'Can you wait during a long NIH or hospital appointment?',
+        a: 'Yes, with an hourly booking your chauffeur stays nearby and is ready the moment you are finished, rather than you waiting for a new pickup to be dispatched.',
+      },
+      {
+        q: 'Do you serve the Naval Support Activity Bethesda gate directly?',
+        a: 'Yes, including the Wisconsin Avenue entrance used for Walter Reed National Military Medical Center, with extra time built in for the base access check.',
+      },
+      {
+        q: 'Can you drop off near Bethesda Row or the Capital Crescent Trail?',
+        a: 'Yes. Bethesda Row restaurants, the Capital Crescent Trail trailhead, and the Woodmont Triangle are all standard drop-off points, often booked for a dinner-and-ride evening after a long flight.',
+      },
     ],
     nearby_links: ['bwi-to-rockville', 'bwi-to-silver-spring', 'bwi-to-washington-dc'],
   },
@@ -150,6 +234,24 @@ export const BWI_ROUTES = [
       'Common occasions: defense contractor travel, tech industry executive visits, Capital One/Hilton/Booz Allen meetings',
       'Multi-stop hourly chauffeur service ideal for full-day Tysons-Reston-McLean tours',
     ],
+    faqs: [
+      {
+        q: 'How do you price a trip that could end up in Tysons, Reston, or Fairfax?',
+        a: 'Tell us the exact address when you book and we quote one flat rate for that address — Tysons, Reston, McLean, and Fairfax are all within the same 60–90 minute range from BWI but priced individually by exact distance.',
+      },
+      {
+        q: 'Can you cross into Virginia for a same-day return trip?',
+        a: 'Yes. Round trips from BWI into Northern Virginia and back are common for same-day business meetings; book both legs together for a coordinated pickup window on the return.',
+      },
+      {
+        q: 'Do you serve Dulles-area tech campuses like Amazon HQ2 or Tysons offices directly?',
+        a: 'Yes, including badge-gated corporate campuses — give dispatch the building and visitor-entrance details in advance so the chauffeur knows exactly where to stop.',
+      },
+      {
+        q: 'Is traffic on I-495 figured into the drive time estimate?',
+        a: 'Yes. The 60–90 minute range already accounts for typical Capital Beltway congestion; our chauffeurs reroute in real time via the Fairfax County Parkway or Route 7 when it saves time.',
+      },
+    ],
     nearby_links: ['bwi-to-arlington', 'bwi-to-alexandria', 'bwi-to-dulles'],
   },
   {
@@ -179,6 +281,32 @@ export const BWI_ROUTES = [
       'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban',
       'Common occasions: federal/military travel, defense contractor visits, Amazon HQ2 corporate travel, conferences at Crystal Gateway Marriott',
       'Reagan National (DCA) connector trips also available when itineraries mix airports',
+    ],
+    faqs: [
+      {
+        q: 'Do you serve the Pentagon directly?',
+        a: 'Yes, including Pentagon visitor and contractor entrances. Give dispatch your exact gate or building in advance, since Pentagon access requires extra screening time that we build into the pickup.',
+      },
+      {
+        q: 'Can you pick up from Reagan National if my connecting flight changes to DCA?',
+        a: 'Yes. If your itinerary shifts from BWI to DCA, call dispatch and we will redirect your chauffeur — Arlington is only minutes from Reagan National, and we keep the same flat rate.',
+      },
+      {
+        q: 'Is Crystal City or Rosslyn closer to BWI than downtown Arlington?',
+        a: 'Drive times are similar across Crystal City, Rosslyn, and Ballston — all sit within the quoted 55–75 minute range from BWI, and we price by exact address, not neighborhood.',
+      },
+      {
+        q: 'Do you serve Amazon HQ2 in Pentagon City?',
+        a: 'Yes. We run regular transfers for Amazon HQ2 employees and visitors between BWI and the Pentagon City and Crystal City campuses.',
+      },
+      {
+        q: 'Is there a direct route that avoids the 14th Street Bridge backups?',
+        a: 'When the bridge is backed up, chauffeurs reroute via the Roosevelt or Memorial Bridge or hold on the Virginia side until the crossing clears, so your arrival time does not depend on one chokepoint.',
+      },
+      {
+        q: 'Can you accommodate a visit to Arlington National Cemetery?',
+        a: 'Yes. We drop off at the Welcome Center and can hold or return for a wreath-laying or burial service, timing the pickup around the ceremony rather than a fixed clock time.',
+      },
     ],
     nearby_links: ['bwi-to-alexandria', 'bwi-to-washington-dc', 'bwi-to-northern-virginia'],
   },
@@ -210,6 +338,28 @@ export const BWI_ROUTES = [
       'Common occasions: Old Town weddings, federal court appearances, defense contractor visits, Mount Vernon tours, romantic getaways',
       'Hourly chauffeur option ideal for full-day Old Town and Mount Vernon excursions',
     ],
+    faqs: [
+      {
+        q: "Can you navigate Old Town Alexandria's cobblestone streets and tight parking?",
+        a: 'Yes. Our chauffeurs know which Old Town blocks allow curbside loading and route around the King Street trolley and weekend market closures to reach your hotel or restaurant directly.',
+      },
+      {
+        q: 'Do you serve the Eisenhower Avenue federal-contractor corridor?',
+        a: 'Yes, including the office parks along Eisenhower Avenue and the Carlyle neighborhood, with corporate billing available for recurring contractor travel.',
+      },
+      {
+        q: 'How far is Alexandria from Reagan National versus BWI?',
+        a: 'Reagan National is closer in miles, but BWI frequently offers better fares and faster security. We quote the same flat rate from either airport, so you can choose based on your flight options.',
+      },
+      {
+        q: 'Can you accommodate a waterfront wedding or event drop-off in Old Town?',
+        a: 'Yes. We regularly handle wedding and event transportation to venues along the Alexandria waterfront, with Sprinter vans available for wedding parties.',
+      },
+      {
+        q: 'Do you continue on to National Harbor from Alexandria?',
+        a: 'Yes. Many Alexandria guests add a stop or onward trip to National Harbor and MGM National Harbor across the Wilson Bridge — tell us when you book and we will quote the full route as one flat rate.',
+      },
+    ],
     nearby_links: ['bwi-to-arlington', 'bwi-to-washington-dc', 'bwi-to-northern-virginia'],
   },
   {
@@ -239,6 +389,32 @@ export const BWI_ROUTES = [
       'Vehicles: Mercedes E-Class, BMW 7 Series, Cadillac Escalade, Suburban, Sprinter for biotech teams',
       'Common occasions: biotech and pharma corporate travel, FDA advisory visits, Choice Hotels HQ trips, family transport',
       'Hourly chauffeur option ideal for full-day Rockville/Bethesda/Gaithersburg corporate tours',
+    ],
+    faqs: [
+      {
+        q: 'Do you serve the FDA White Oak campus directly?',
+        a: 'Yes, including the White Oak Federal Research Center visitor entrance, with extra time built in for the security check that federal campuses require.',
+      },
+      {
+        q: 'Can you set up a recurring account for a Rockville biotech company?',
+        a: 'Yes. Several Rockville and I-270 biotech and life-science companies use a standing corporate account with monthly invoicing for employee and visitor airport transfers.',
+      },
+      {
+        q: 'Is Rockville closer to Dulles than BWI for international connections?',
+        a: 'Dulles is often geographically closer, but BWI frequently has better domestic fares. We quote the same flat rate from both airports so you can compare total trip cost.',
+      },
+      {
+        q: 'Do you drop off at Rockville Town Center or just office parks?',
+        a: 'Both, and everywhere between — Rockville Town Center, King Farm, Twinbrook, and the I-270 corporate corridor are all standard drop-off points at one flat rate.',
+      },
+      {
+        q: 'Is I-270 traffic figured into the Rockville drive-time estimate?',
+        a: 'Yes. The 50–75 minute range already assumes normal I-270 and Capital Beltway congestion; chauffeurs watch live traffic and shift to Route 355 or Veirs Mill Road when it is faster.',
+      },
+      {
+        q: 'Do you serve Westfield Montgomery or the Rockville Pike corridor?',
+        a: 'Yes. Westfield Montgomery mall, the Pike District, and the hotels along Rockville Pike are all routine drop-off points, with the same flat rate whether you are shopping, meeting, or catching a flight.',
+      },
     ],
     nearby_links: ['bwi-to-bethesda', 'bwi-to-silver-spring', 'bwi-to-columbia-md'],
   },
@@ -270,6 +446,28 @@ export const BWI_ROUTES = [
       'Common occasions: federal-agency visits, Discovery/NOAA corporate travel, Holy Cross Hospital family visits, residential transfers',
       'ICC (MD-200) routing recommended during peak hours — we cover the toll automatically in flat rate',
     ],
+    faqs: [
+      {
+        q: 'Do you serve the NOAA Silver Spring Metro Center campus?',
+        a: 'Yes, including the NOAA and FDA buildings in the Silver Spring Metro Center complex, with chauffeurs familiar with the visitor-badge process at both.',
+      },
+      {
+        q: 'Can you drop off near the AFI Silver Theatre or downtown Silver Spring restaurants?',
+        a: 'Yes. Downtown Silver Spring, the Ellsworth Place area, and the AFI Silver Theatre are standard drop-off points, often booked for dinner-and-show evenings timed around a showtime.',
+      },
+      {
+        q: 'Is Silver Spring served by Metro, or is a chauffeur still worth it from BWI?',
+        a: 'The Red Line reaches Silver Spring, but it does not reach BWI directly. A door-to-door chauffeur avoids the transfer at Union Station or a taxi queue and is the faster option with luggage.',
+      },
+      {
+        q: 'Do you handle Discovery Communications or other corporate headquarters pickups?',
+        a: "Yes, including Discovery's Silver Spring headquarters and the surrounding office towers, with corporate billing available for frequent travelers.",
+      },
+      {
+        q: 'Can you drop off near the Fillmore Silver Spring for a show?',
+        a: 'Yes. The Fillmore and the surrounding Ellsworth Place restaurants are a standard drop-off, and we coordinate the return pickup around the show\'s actual end time, not the posted start time.',
+      },
+    ],
     nearby_links: ['bwi-to-bethesda', 'bwi-to-rockville', 'bwi-to-washington-dc'],
   },
   {
@@ -299,6 +497,24 @@ export const BWI_ROUTES = [
       'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, Sprinter for luggage-heavy groups',
       'Common occasions: international connections, missed-flight rebooking, mixed-airport itineraries, corporate inter-airport transfers',
       'Round-trip discounts when both legs are booked together — ideal for international travelers returning via the same gateway',
+    ],
+    faqs: [
+      {
+        q: 'Why would I transfer between BWI and Dulles instead of just rebooking a flight?',
+        a: 'Mixed-airport itineraries are common for international connections, positioning flights, or when one airport simply has the better fare or schedule. One chauffeur and one flat rate gets you between the two without a rental car or a multi-leg rideshare.',
+      },
+      {
+        q: 'How much buffer time should I build in for a tight international connection?',
+        a: 'We recommend at least 3 hours between touchdown at BWI and your Dulles departure to allow for baggage re-check and international TSA lines; tell dispatch your connection time and we will plan the pickup around it.',
+      },
+      {
+        q: 'Can you handle a large group with international luggage between the two airports?',
+        a: 'Yes. Our Sprinter vans and SUVs carry oversize and extra luggage common on international itineraries, and we quote one flat rate for the group rather than per-bag fees.',
+      },
+      {
+        q: 'Do you offer a discount for booking both the BWI-to-Dulles leg and the return?',
+        a: 'Yes, round-trip inter-airport transfers booked together receive a small discount over two one-way bookings — ask dispatch when you call.',
+      },
     ],
     nearby_links: ['bwi-to-northern-virginia', 'bwi-to-arlington', 'bwi-to-washington-dc'],
   },

@@ -812,7 +812,7 @@ Neighboring areas are covered in the [BWI corridor guide](/bwi-corridor-transpor
     slug: 'holiday-lights-limo-tours-maryland-dc',
     title: 'Holiday Lights Limo Tours Guide: Maryland, DC & Northern Virginia',
     seoTitle: 'Holiday Lights Limo Tours: Maryland, DC & Northern Virginia',
-    seoDescription: 'Plan a chauffeured holiday lights tour around Baltimore, DC and Northern Virginia: the real displays, flat-rate pricing, vehicle picks, timing and a vendor checklist.',
+    seoDescription: 'Plan a chauffeured holiday lights tour around Baltimore, DC and Northern Virginia: real displays, flat-rate pricing, vehicle picks and timing tips.',
     excerpt: 'The region\'s best holiday light displays are spread across three states, and the good ones get crowded fast. Here is how to actually plan a chauffeured lights tour: which displays are real and worth it, which vehicle fits your group, how pricing works, and what to ask before you book anyone.',
     date: '2026-09-30',
     author: 'BWI Chauffeur Team',

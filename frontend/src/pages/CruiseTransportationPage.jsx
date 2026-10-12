@@ -315,6 +315,29 @@ const CruiseTransportationPage = () => {
             </div>
           </div>
 
+          {/* Related pages */}
+          <div className="mb-16">
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center">
+              Serving the <span className="text-[#D4AF37]">Baltimore Cruise Terminal Area</span>
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+              {[
+                { label: 'Baltimore Limo Service', to: '/limo-service-baltimore-md' },
+                { label: 'Dundalk Limo Service', to: '/limo-service-dundalk-md' },
+                { label: 'Towson Limo Service', to: '/limo-service-towson-md' },
+                { label: 'See All Service Areas', to: '/service-areas' },
+              ].map((r) => (
+                <Link
+                  key={r.to}
+                  to={r.to}
+                  className="bg-gradient-to-br from-gray-900 to-black border border-[#D4AF37]/30 hover:border-[#D4AF37] rounded-lg p-5 text-center transition-colors"
+                >
+                  <p className="text-white font-semibold">{r.label}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+
           {/* Final CTA */}
           <div className="text-center">
             <h2 className="text-3xl font-bold text-white mb-6">
