@@ -18,7 +18,6 @@
 - Luxury SUV: Chevrolet Suburban (5 passengers)
 - Premium SUV: Cadillac Escalade (6 passengers)
 - Van: Mercedes Sprinter Shuttle, Sprinter Executive (13 passengers)
-- Limo: Mercedes Sprinter Limo (13 passengers)
 
 ## Service Areas
 

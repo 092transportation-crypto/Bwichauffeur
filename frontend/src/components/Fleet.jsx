@@ -67,16 +67,7 @@ const Fleet = () => {
       passengers: '13',
       luggage: '13',
       description:
-        'Premium executive van with upgraded interior and luxury amenities. Perfect for corporate groups. Mercedes Sprinter or similar.'
-    },
-    {
-      category: 'Sprinter Limo',
-      name: 'Mercedes Sprinter Limo 2023+ or similar',
-      image: '/images/limousine.webp',
-      passengers: '13',
-      luggage: '13',
-      description:
-        'The ultimate stretch limo experience. Perfect for weddings, proms, and special occasions that deserve a grand entrance.'
+        'Premium executive van with upgraded interior, mood lighting, and luxury amenities. Perfect for corporate groups, weddings, proms, and special occasions that deserve a grand entrance. Mercedes Sprinter or similar.'
     }
   ];
 

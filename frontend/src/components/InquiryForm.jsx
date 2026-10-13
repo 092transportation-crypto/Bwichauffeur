@@ -47,7 +47,7 @@ const SERVICE_OPTIONS = [
   { value: "hourly", label: "Hourly", icon: Clock },
 ];
 
-// The 8 fleet categories — kept in sync with the Fleet section and 92limo.com.
+// The 7 fleet categories — kept in sync with the Fleet section and 92limo.com.
 const VEHICLE_OPTIONS = [
   { value: "Business Sedan", icon: Car },
   { value: "First Class Sedan", icon: Car },
@@ -56,7 +56,6 @@ const VEHICLE_OPTIONS = [
   { value: "Premium SUV", icon: CarFront },
   { value: "Sprinter Shuttle", icon: Bus },
   { value: "Sprinter Executive", icon: Bus },
-  { value: "Sprinter Limo", icon: Bus },
 ];
 
 const TRUST_BADGES = [

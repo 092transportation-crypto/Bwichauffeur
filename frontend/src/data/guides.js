@@ -56,7 +56,7 @@ A chauffeured car earns its place when the ride is part of the workday. You can 
 
 Moving eight or twelve people by app means several separate cars, several arrival times and at least one person sent to the wrong entrance. It works, but someone ends up playing dispatcher from the sidewalk.
 
-One Mercedes Sprinter van, a Sprinter limo or a stretch limousine moves the group as a unit. For weddings, proms and milestone birthdays, the vehicle is also part of the occasion. You can view the options on our [luxury fleet](/luxury-fleet) page. Note that larger vehicles and special events carry a longer cancellation window with us: free cancellation up to 12 hours before pickup, compared with 3 hours for sedans and SUVs.
+One Mercedes Sprinter van, a Sprinter Executive or a stretch limousine moves the group as a unit. For weddings, proms and milestone birthdays, the vehicle is also part of the occasion. You can view the options on our [luxury fleet](/luxury-fleet) page. Note that larger vehicles and special events carry a longer cancellation window with us: free cancellation up to 12 hours before pickup, compared with 3 hours for sedans and SUVs.
 
 **Pick rideshare if** the group is small and timing is loose. **Pick a car service if** everyone must arrive together and on time.
 
@@ -886,8 +886,8 @@ Our fleet gives a holiday group several reasonable options, and the right one de
 | Lincoln Nautilus (Midsize SUV) | 3 passengers, 4 bags | A family with car seats, strollers or gifts to carry between stops |
 | Chevrolet Suburban (Luxury SUV) | 5 passengers, 5 bags | Extended family groups who want a higher seating position for drive-through displays |
 | Cadillac Escalade (Premium SUV) | 6 passengers, 5 bags | A larger family or friend group that wants extra presence along with the room |
-| Mercedes Sprinter Shuttle or Sprinter Executive | 13 passengers, 13 bags | Office holiday parties, extended family reunions, or multiple households touring together |
-| Mercedes Sprinter Limo | 13 passengers, 13 bags | A celebratory group that wants a stretch-limo evening built around the lights |
+| Mercedes Sprinter Shuttle | 13 passengers, 13 bags | Office holiday parties, extended family reunions, or multiple households touring together |
+| Mercedes Sprinter Executive | 13 passengers, 13 bags | A celebratory group that wants a stretch-limo evening built around the lights |
 
 For most families, an SUV class is the practical sweet spot: tall enough for everyone to see a drive-through display clearly, roomy enough for coats, car seats and a few gift bags, and still an easy single-vehicle booking. For a company holiday outing or a reunion spanning several households, a Sprinter keeps everyone together for the whole night rather than splitting into cars that have to regroup at every stop. See the full lineup, with photos and exact specifications, on our [luxury fleet](/luxury-fleet) page.
 

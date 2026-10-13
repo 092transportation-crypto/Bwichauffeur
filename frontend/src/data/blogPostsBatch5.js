@@ -37,7 +37,7 @@ For point-to-point transfers — BWI to a hotel, a corporate pickup, a trip to a
 
 ### Hourly Chauffeur Rates for Weddings, Proms and Multi-Stop Nights
 
-Hourly, as-directed service — where the vehicle and chauffeur stay with you for a block of time rather than a single trip — is priced differently than point-to-point transfers, and it is the standard structure for weddings, proms, milestone celebrations, and bar-crawl-style nights out with multiple stops. As a general 2026 market range, a chauffeured sedan or SUV booked hourly runs in the neighborhood of **$95–$150 per hour**, a stretch limousine or Sprinter limo runs higher, and most companies apply a **three- or four-hour minimum** for weekend and event bookings. A wedding day with multiple stops, photo time, and a return trip typically prices as a package rather than a strict hourly rate — see our [Maryland wedding limo](/maryland-wedding-limo) page and [wedding transportation guide](/blog/wedding-transportation-maryland-luxury-limousine) for how that structure works in practice.
+Hourly, as-directed service — where the vehicle and chauffeur stay with you for a block of time rather than a single trip — is priced differently than point-to-point transfers, and it is the standard structure for weddings, proms, milestone celebrations, and bar-crawl-style nights out with multiple stops. As a general 2026 market range, a chauffeured sedan or SUV booked hourly runs in the neighborhood of **$95–$150 per hour**, a stretch limousine or Sprinter Executive runs higher, and most companies apply a **three- or four-hour minimum** for weekend and event bookings. A wedding day with multiple stops, photo time, and a return trip typically prices as a package rather than a strict hourly rate — see our [Maryland wedding limo](/maryland-wedding-limo) page and [wedding transportation guide](/blog/wedding-transportation-maryland-luxury-limousine) for how that structure works in practice.
 
 ### Distance and Route: The Biggest Single Lever on Price
 
@@ -131,11 +131,7 @@ Once a group passes six or seven people, sedans and SUVs stop being the right to
 
 ### Sprinter Executive: The Same Capacity, a More Premium Cabin
 
-A Sprinter Executive matches the Sprinter Shuttle's **thirteen passengers and thirteen bags** but adds an upgraded interior and additional amenities, making it the choice for corporate groups, conference transportation, and any larger party that wants the group-size capacity of a Sprinter without sacrificing the premium feel of a smaller luxury vehicle. Companies moving a full team to a conference or a client group between meetings often book this tier specifically for the added polish.
-
-### Sprinter Limo: The Grand-Entrance Version of Group Travel
-
-A Sprinter limo carries the same **thirteen passenger, thirteen bag** capacity as the other Sprinter classes but is built out as a true stretch-limousine experience — the vehicle most people picture when they hear "limo service" for a wedding, prom, or milestone celebration that calls for a genuine grand entrance. It is the group-capacity answer to the question a stretch limo traditionally answers for a smaller party: an occasion where the vehicle itself is part of the celebration.
+A Sprinter Executive matches the Sprinter Shuttle's **thirteen passengers and thirteen bags** but adds an upgraded interior and additional amenities, making it the choice for corporate groups, conference transportation, and any larger party that wants the group-size capacity of a Sprinter without sacrificing the premium feel of a smaller luxury vehicle. It also doubles as the grand-entrance option for a wedding, prom, or milestone celebration that calls for a genuine stretch-limousine presentation — the vehicle itself as part of the occasion. Companies moving a full team to a conference or a client group between meetings often book this tier specifically for the added polish.
 
 ### Booking the Right Class for BWI, DCA, and IAD
 
@@ -147,7 +143,7 @@ Vehicle class is not only about passengers and bags — practical needs matter t
 
 ### Matching Vehicle to Occasion: A Quick Reference
 
-A solo business trip or airport transfer calls for a business sedan; a VIP or board-level guest often rides in a first class sedan instead. A family with moderate luggage fits a midsize SUV; more people or more bags points to a luxury or premium SUV. Any group past six or seven people belongs in one of the three Sprinter classes — shuttle for straightforward group moves, executive for a more polished corporate group, and limo for a celebration that wants the full stretch-limousine presentation.
+A solo business trip or airport transfer calls for a business sedan; a VIP or board-level guest often rides in a first class sedan instead. A family with moderate luggage fits a midsize SUV; more people or more bags points to a luxury or premium SUV. Any group past six or seven people belongs in one of the two Sprinter classes — shuttle for straightforward group moves, and executive for a more polished corporate group or a celebration that wants the full stretch-limousine presentation.
 
 ### How Fleet Age and Maintenance Standards Affect Every Class
 
@@ -155,7 +151,7 @@ Whichever category you book, the specific vehicle should be a late-model car mai
 
 ### Mixed Fleets for One Event
 
-Larger occasions often use more than one vehicle class at the same time — a wedding where the couple rides in a first class sedan while the bridal party follows in a Sprinter limo, or a corporate event where a CEO takes a first class sedan and the rest of the team rides in a Sprinter executive. There is nothing unusual about booking a mixed fleet for a single event; it is common practice whenever different passengers in the same group have different needs.
+Larger occasions often use more than one vehicle class at the same time — a wedding where the couple rides in a first class sedan while the bridal party follows in a Sprinter Executive, or a corporate event where a CEO takes a first class sedan and the rest of the team rides in a Sprinter executive. There is nothing unusual about booking a mixed fleet for a single event; it is common practice whenever different passengers in the same group have different needs.
 
 ### Why Vehicle Age and Maintenance Matter as Much as Class
 
@@ -201,11 +197,11 @@ For routine corporate travel — client pickups, single-day meetings, standard a
 
 ### Weddings: Book Six to Twelve Months Out
 
-Wedding transportation deserves the longest lead time of any occasion on this list, and for good reason — popular wedding dates, especially Saturdays from late spring through early fall, book out the vehicles couples actually want well in advance. Booking **six to twelve months** before your wedding date is the standard recommendation, particularly if your day calls for a specific vehicle class like a Sprinter limo or a matched multi-vehicle fleet for the bridal party. Waiting until a few weeks out risks finding your first-choice vehicle already reserved for someone else's wedding that same Saturday. See our [wedding transportation guide](/blog/wedding-transportation-maryland-luxury-limousine) for how to plan the full vehicle count and timeline once your date is set.
+Wedding transportation deserves the longest lead time of any occasion on this list, and for good reason — popular wedding dates, especially Saturdays from late spring through early fall, book out the vehicles couples actually want well in advance. Booking **six to twelve months** before your wedding date is the standard recommendation, particularly if your day calls for a specific vehicle class like a Sprinter Executive or a matched multi-vehicle fleet for the bridal party. Waiting until a few weeks out risks finding your first-choice vehicle already reserved for someone else's wedding that same Saturday. See our [wedding transportation guide](/blog/wedding-transportation-maryland-luxury-limousine) for how to plan the full vehicle count and timeline once your date is set.
 
 ### Prom and Graduation Season: Book as Early as January or February
 
-Prom and graduation season is its own category of demand crunch, concentrated into roughly six weekends each spring across dozens of Maryland high schools. Popular Saturdays in April, May, and early June book out early, and the vehicles in highest demand — stretch limos and Sprinter limos — go first. Booking in **January or February** for a May prom date is not overly cautious; it is simply realistic given how many students are competing for the same limited fleet on the same handful of dates. See our [Maryland prom limo guide](/maryland-prom-limo) for how pricing and group-size planning work specifically for prom season.
+Prom and graduation season is its own category of demand crunch, concentrated into roughly six weekends each spring across dozens of Maryland high schools. Popular Saturdays in April, May, and early June book out early, and the vehicles in highest demand — stretch limos and Sprinter Executives — go first. Booking in **January or February** for a May prom date is not overly cautious; it is simply realistic given how many students are competing for the same limited fleet on the same handful of dates. See our [Maryland prom limo guide](/maryland-prom-limo) for how pricing and group-size planning work specifically for prom season.
 
 ### Milestone Birthdays, Proposals, and Celebration Nights: Two to Four Weeks
 
@@ -253,8 +249,8 @@ Whatever your occasion, the safest move is simply to ask. [Book your Maryland ch
 `,
     faqs: [
       { question: 'Can I book a limo in Maryland the same day I need it?', answer: 'Often yes for point-to-point trips like airport transfers, since operators hold a reserve of vehicles for last-minute requests. Booking a day or more ahead when possible still improves your odds of getting your preferred vehicle class.' },
-      { question: 'How far ahead should I book wedding transportation?', answer: 'Six to twelve months before your wedding date is the standard recommendation, especially for popular Saturday dates in peak wedding season or if you need a specific vehicle class like a Sprinter limo.' },
-      { question: 'When should I book for prom season?', answer: 'As early as January or February for an April, May, or early-June prom date. Prom season concentrates enormous demand into a handful of weekends, and stretch limos and Sprinter limos book out first.' },
+      { question: 'How far ahead should I book wedding transportation?', answer: 'Six to twelve months before your wedding date is the standard recommendation, especially for popular Saturday dates in peak wedding season or if you need a specific vehicle class like a Sprinter Executive.' },
+      { question: 'When should I book for prom season?', answer: 'As early as January or February for an April, May, or early-June prom date. Prom season concentrates enormous demand into a handful of weekends, and stretch limos and Sprinter Executives book out first.' },
       { question: 'Is holiday season transportation harder to book?', answer: 'Yes — the period from Thanksgiving through New Year\'s Eve is the busiest stretch of the year for corporate holiday parties and celebration nights out. Booking by early-to-mid November significantly improves your chances of getting your preferred vehicle.' },
     ],
     relatedPosts: [35, 18, 321],
@@ -389,7 +385,7 @@ New Year's Eve is the single busiest celebration night of the year for exactly t
 
 ### Sweet Sixteens and Quinceañeras
 
-A milestone birthday celebration for a teenager — a Sweet Sixteen or a quinceañera — is its own category of special occasion, often involving a formal entrance that matters as much to the family as it does to the honoree. A Sprinter limo or stretch limo gives that entrance real presence, and booking early matters here too, since these celebrations cluster around the same spring and summer weekends as prom season and compete for some of the same vehicles.
+A milestone birthday celebration for a teenager — a Sweet Sixteen or a quinceañera — is its own category of special occasion, often involving a formal entrance that matters as much to the family as it does to the honoree. A Sprinter Executive or stretch limo gives that entrance real presence, and booking early matters here too, since these celebrations cluster around the same spring and summer weekends as prom season and compete for some of the same vehicles.
 
 ### Wine Country and Day-Trip Celebrations
 

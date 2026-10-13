@@ -86,7 +86,7 @@ const FAQPage = () => {
       faqs: [
         {
           question: 'What types of vehicles do you have?',
-          answer: 'Our luxury fleet includes: the Business Sedan (Mercedes-Benz E-Class), First Class Sedan (BMW 7 Series / Mercedes S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), Mercedes Sprinter Shuttle and Sprinter Executive vans, and the Mercedes Sprinter Limo — all 2023+ or similar, meticulously maintained, and fully insured.'
+          answer: 'Our luxury fleet includes: the Business Sedan (Mercedes-Benz E-Class), First Class Sedan (BMW 7 Series / Mercedes S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), Mercedes Sprinter Shuttle and Sprinter Executive vans — all 2023+ or similar, meticulously maintained, and fully insured.'
         },
         {
           question: 'Can I request a specific vehicle?',

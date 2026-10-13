@@ -137,7 +137,6 @@ const VEHICLE_LABELS = {
   premium_suv: "Premium SUV (Cadillac Escalade)",
   sprinter_shuttle: "Sprinter Shuttle",
   sprinter_executive: "Sprinter Executive",
-  sprinter_limo: "Sprinter Limo",
 };
 
 const HEARD_FROM_LABELS = {

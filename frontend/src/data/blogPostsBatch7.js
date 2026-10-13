@@ -40,7 +40,7 @@ The single biggest planning mistake we see is choosing a vehicle based on how it
 
 **Premium SUV (Cadillac Escalade)** — Seats six with real luggage room, and is our most-requested vehicle for a six-person wedding party that wants one vehicle instead of splitting into two cars.
 
-**Mercedes Sprinter (Shuttle, Executive, or Limo trim)** — Once your bridal party passes six people, this is the only vehicle that keeps everyone together. A 10-to-13-person wedding party in a Sprinter Limo travels as one unit, arrives together, and never has a "where's the second car" moment in the parking lot.
+**Mercedes Sprinter (Shuttle or Executive trim)** — Once your bridal party passes six people, this is the only vehicle that keeps everyone together. A 10-to-13-person wedding party in a Sprinter Executive travels as one unit, arrives together, and never has a "where's the second car" moment in the parking lot.
 
 The planning rule of thumb: count your actual wedding party (not your guest list), add anyone riding with them, and add ten percent for garment bags, gift bags, and the inevitable extra person who needs a ride at the last minute. Undersizing the vehicle is the single most common (and most avoidable) wedding transportation mistake.
 
