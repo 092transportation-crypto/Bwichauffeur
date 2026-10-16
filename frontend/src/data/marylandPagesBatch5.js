@@ -155,7 +155,7 @@ export const MARYLAND_BATCH5 = [
     name: "New Carrollton",
     badge: "Prince George's County Limo Service",
     h1: "New Carrollton Limo Service",
-    metaTitle: "New Carrollton Limo Service | Car Service New Carrollton MD | BWI Chauffeur",
+    metaTitle: "New Carrollton MD Limo & Car Service | BWI Chauffeur",
     metaDescription: "Flat-rate limo & car service in New Carrollton, MD. BWI in 30–40 minutes, Metro/MARC/Amtrak transfers, corporate & events. Call 877-609-1919.",
     stats: [
       { label: "To BWI", value: "25 mi · 30–40 minutes" },
@@ -211,6 +211,9 @@ export const MARYLAND_BATCH5 = [
       { label: "Hyattsville Limo Service", to: "/hyattsville-limo-service" },
       { label: "Bowie Limo Service", to: "/bowie-limo-service" },
       { label: "Suitland Limo Service", to: "/suitland-limo-service" },
+      { label: "Lanham Limo Service", to: "/lanham-md-limo-service" },
+      { label: "Seabrook Limo Service", to: "/seabrook-md-limo-service" },
+      { label: "Cheverly Limo Service", to: "/cheverly-limo-service" },
       { label: "DCA to Columbia MD", to: "/dca-to-columbia-md" },
       { label: "BWI to Washington DC", to: "/bwi-to-washington-dc" },
     ],
@@ -260,7 +263,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Beyond the airport in Beltsville",
         paragraphs: [
-          "Beltsville clients book us for federal research-campus visits, University of Maryland conferences a few minutes away in College Park, and corporate travel for the warehousing and logistics firms along US-1. Families use the Escalade or Suburban for quick BWI runs with full luggage.",
+          "Beltsville clients book us for federal research-campus visits, University of Maryland conferences a few minutes away in College Park, and corporate travel for the warehousing and logistics firms along US-1. Families use the Escalade or Suburban for quick BWI runs with full luggage. The short drive to BWI also makes same-day round trips practical for day-trip visitors who need to be back on a flight by evening.",
         ],
       },
     ],
@@ -327,7 +330,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Beyond the airport in Suitland",
         paragraphs: [
-          "Suitland clients book us for federal-agency business travel, Census Bureau conference and delegation transport, and connections to Branch Avenue Metro. Families use the Escalade or Suburban for luggage-heavy DCA and BWI trips.",
+          "Suitland clients book us for federal-agency business travel, Census Bureau conference and delegation transport, and connections to Branch Avenue Metro. Families use the Escalade or Suburban for luggage-heavy DCA and BWI trips, and we handle recurring visitor shuttles for agencies hosting multi-day conferences on the federal campus throughout the year, with consolidated billing available on request.",
         ],
       },
     ],
@@ -344,6 +347,8 @@ export const MARYLAND_BATCH5 = [
       { label: "Bowie Limo Service", to: "/bowie-limo-service" },
       { label: "National Harbor Transportation", to: "/national-harbor-transportation" },
       { label: "MGM National Harbor Transportation", to: "/mgm-national-harbor-transportation" },
+      { label: "Clinton Limo Service", to: "/clinton-md-limo-service" },
+      { label: "District Heights Limo Service", to: "/district-heights-limo-service" },
       { label: "DCA to Bethesda", to: "/dca-to-bethesda" },
       { label: "Maryland Corporate Car Service", to: "/maryland-corporate-car-service" },
       { label: "Reagan Airport Transfers", to: "/reagan-airport-transfers" },
@@ -461,7 +466,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Beyond the airport in Urbana",
         paragraphs: [
-          "Urbana clients book us for corporate travel into the I-270 biotech corridor, weddings and events across Frederick County, and family trips that combine a Dulles or BWI run with a stop in downtown Frederick. The Sprinter van is popular for youth sports teams and multi-family group travel.",
+          "Urbana clients book us for corporate travel into the I-270 biotech corridor, weddings and events across Frederick County, and family trips that combine a Dulles or BWI run with a stop in downtown Frederick. The Sprinter van is popular for youth sports teams and multi-family group travel, and we coordinate multiple vehicles together when a tournament bracket sends several Urbana families to the same out-of-town venue.",
         ],
       },
     ],
@@ -490,7 +495,7 @@ export const MARYLAND_BATCH5 = [
     name: "Elkton",
     badge: "Cecil County Limo Service",
     h1: "Elkton Limo Service",
-    metaTitle: "Elkton MD Limo Service | Car Service Near I-95 & Delaware | BWI Chauffeur",
+    metaTitle: "Elkton MD Limo & Car Service | BWI Chauffeur",
     metaDescription: "Flat-rate limo & car service in Elkton, MD. BWI in 55–65 minutes, Philadelphia airport covered, corporate & events. Call 877-609-1919.",
     stats: [
       { label: "To BWI", value: "55 mi · 55–65 minutes" },
@@ -661,7 +666,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Why Annapolis travelers choose a chauffeur from Dulles",
         paragraphs: [
-          "Rideshare coverage thins out the further you get from downtown DC, and the Dulles-to-Annapolis corridor is a case in point — availability and pricing both get less predictable. A BWI Chauffeur reservation locks in a specific vehicle and a written flat rate well before you land, which matters most for Naval Academy families flying in internationally for Commissioning Week or Parents' Weekend.",
+          "Rideshare coverage thins out the further you get from downtown DC, and the Dulles-to-Annapolis corridor is a case in point — availability and pricing both get less predictable. A BWI Chauffeur reservation locks in a specific vehicle and a written flat rate well before you land, which matters most for Naval Academy families flying in internationally for Commissioning Week or Parents' Weekend. Business travelers heading to a meeting near City Dock or the State House district get the same benefit on a Tuesday afternoon as a family does on a Saturday during Commissioning Week.",
         ],
       },
     ],
@@ -793,7 +798,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Why book a chauffeur instead of rideshare",
         paragraphs: [
-          "Rideshare coverage in Takoma Park's close-in, narrow-street neighborhoods can be inconsistent, especially late at night. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it — including red-eye landings when BWI's rideshare queues are at their longest.",
+          "Rideshare coverage in Takoma Park's close-in, narrow-street neighborhoods can be inconsistent, especially late at night. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it — including red-eye landings when BWI's rideshare queues are at their longest. Families connecting through the Takoma Metro station also appreciate having one chauffeur handle the door-to-door leg rather than coordinating a transfer at the station.",
         ],
       },
     ],
@@ -822,7 +827,7 @@ export const MARYLAND_BATCH5 = [
     name: "BWI to National Harbor",
     badge: "Airport Transfer Route",
     h1: "BWI Airport to National Harbor Car Service",
-    metaTitle: "BWI to National Harbor Car Service | MGM & Resort Transfers | BWI Chauffeur",
+    metaTitle: "BWI to National Harbor Car Service | BWI Chauffeur",
     metaDescription: "Flat-rate chauffeured car service from BWI Airport to National Harbor & MGM — 35 miles, 40–55 minutes. Flight tracking, 24/7. Call 877-609-1919.",
     stats: [
       { label: "Distance", value: "35 miles" },
@@ -919,13 +924,13 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Where we drop off in Silver Spring",
         paragraphs: [
-          "Popular Silver Spring destinations on this route include downtown's Ellsworth Drive district, The Fillmore Silver Spring, the Discovery Communications headquarters area and the East-West Highway corridor. Tell us the address at booking and we plan the exact approach.",
+          "Popular Silver Spring destinations on this route include downtown's Ellsworth Drive district, The Fillmore Silver Spring, the Discovery Communications headquarters area and the East-West Highway corridor. Tell us the address at booking and we plan the exact approach, including the right entrance for office buildings that have more than one lobby.",
         ],
       },
       {
         h2: "Why book a chauffeur instead of rideshare",
         paragraphs: [
-          "Rideshare on this short but high-demand corridor can still surge around Fillmore show nights and weekday commute peaks. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it.",
+          "Rideshare on this short but high-demand corridor can still surge around Fillmore show nights and weekday commute peaks. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Even on a trip this short, having a chauffeur already assigned before you land means no app refresh, no surge banner and no wondering whether a driver will actually accept the request.",
         ],
       },
     ],
@@ -1062,6 +1067,12 @@ export const MARYLAND_BATCH5 = [
           "Nearby stops we combine with a show: downtown College Park's restaurant row, the University of Maryland's main campus landmarks and Greenbelt's dining options for an easy pre-show meal.",
         ],
       },
+      {
+        h2: "Group bookings for bigger shows",
+        paragraphs: [
+          "Sold-out nights at Xfinity Center routinely bring groups of six, eight or more friends or coworkers together for a show, and splitting that group across several rideshares at the end of the night is exactly when people get separated in a crowded lot. One Sprinter van keeps the whole group together for pickup and drop-off, with a single pre-set meeting point everyone can find even if phones are low on battery by the encore.",
+        ],
+      },
     ],
     vehicles: FLEET_ALL,
     faqs: [
@@ -1128,6 +1139,12 @@ export const MARYLAND_BATCH5 = [
           "Nearby stops we combine with the event: the Inner Harbor, Camden Yards, the Hippodrome Theatre and Mount Vernon's restaurant district.",
         ],
       },
+      {
+        h2: "Making a full night of it downtown",
+        paragraphs: [
+          "Royal Farms Arena sits close enough to the Inner Harbor, Camden Yards and Mount Vernon that many of our bookings are really a full downtown evening built around the event rather than a single point-to-point trip — dinner first, the show, then a nightcap nearby. An hourly booking keeps the same chauffeur and vehicle with you for the whole sequence, so you are not re-booking a new ride for every stop.",
+        ],
+      },
     ],
     vehicles: FLEET_ALL,
     faqs: [
@@ -1154,7 +1171,7 @@ export const MARYLAND_BATCH5 = [
     name: "U.S. Naval Academy",
     badge: "Event Transportation",
     h1: "Naval Academy Transportation & Limo Service",
-    metaTitle: "Naval Academy Transportation | Annapolis Limo & Car Service | BWI Chauffeur",
+    metaTitle: "Naval Academy Transportation | BWI Chauffeur",
     metaDescription: "Chauffeured transportation to the U.S. Naval Academy in Annapolis. Commissioning Week, graduation, home games. Flat rates, 24/7. Call 877-609-1919.",
     stats: [
       { label: "Location", value: "Annapolis, MD" },
@@ -1260,6 +1277,12 @@ export const MARYLAND_BATCH5 = [
           "Nearby stops we combine with a Six Flags visit: Upper Marlboro, Bowie and New Carrollton for a meal or hotel stop before or after the park.",
         ],
       },
+      {
+        h2: "Built for tired kids and a full day of bags",
+        paragraphs: [
+          "A theme park day ends with sunburned, exhausted kids, souvenirs, and whatever everyone was carrying at 9 a.m. that morning, which is exactly the scenario a chauffeured SUV or Sprinter van is built for — enough room that nobody is holding a stuffed animal on their lap for the ride home, and a driver who already knows to expect a slow walk out from the gate rather than a sprint to a waiting car.",
+        ],
+      },
     ],
     vehicles: FLEET_ALL,
     faqs: [
@@ -1286,7 +1309,7 @@ export const MARYLAND_BATCH5 = [
     name: "Johns Hopkins University",
     badge: "Event Transportation",
     h1: "Johns Hopkins University Transportation & Limo Service",
-    metaTitle: "Johns Hopkins University Transportation | Limo & Car Service | BWI Chauffeur",
+    metaTitle: "Johns Hopkins University Transportation | BWI Chauffeur",
     metaDescription: "Chauffeured transportation to Johns Hopkins University's Homewood campus in Baltimore. Commencement, move-in, games. 24/7. Call 877-609-1919.",
     stats: [
       { label: "Location", value: "Baltimore, MD" },
@@ -1324,6 +1347,12 @@ export const MARYLAND_BATCH5 = [
         paragraphs: [
           "We drop at the Homewood campus gate nearest your specific event — commencement, a dorm move-in, or Homewood Field — and set a pickup spot on a quieter Charles Village side street away from the main ceremony crowd.",
           "Nearby stops we combine with a Hopkins visit: the Baltimore Museum of Art next door, the Johns Hopkins Hospital medical campus in East Baltimore, and Charles Village's restaurant strip on St. Paul Street.",
+        ],
+      },
+      {
+        h2: "Booking ahead for commencement and move-in weekends",
+        paragraphs: [
+          "Commencement and move-in are the two busiest weekends of the year for Homewood-area transportation, and they are also the weekends when hotel blocks, restaurant reservations and ground transportation all compete for the same small pool of availability. Families who book their chauffeur as soon as the date is confirmed get first pick of vehicle type; families who wait until the week of are more often choosing from whatever is left.",
         ],
       },
     ],

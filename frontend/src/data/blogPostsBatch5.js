@@ -7,7 +7,7 @@ export const BLOG_POSTS_BATCH5 = [
     id: 321,
     slug: 'how-much-does-limo-service-cost-in-maryland-2026-pricing-guide',
     title: 'How Much Does Limo Service Cost in Maryland? A 2026 Pricing Guide',
-    seoTitle: 'How Much Does Limo Service Cost in Maryland? 2026 Guide',
+    seoTitle: 'How Much Does Limo Service Cost in Maryland? 2026 Guide | BWI Chauffeur',
     seoDescription:
       'Real 2026 price ranges for Maryland limo service by vehicle class, airport transfer and hourly rate, plus what moves the price. Call 877-609-1919.',
     excerpt:
@@ -91,7 +91,7 @@ Ranges are a useful starting point, but your actual number will always be more u
     id: 322,
     slug: 'maryland-limousine-fleet-guide-sedans-suvs-stretch-limos-sprinter-vans',
     title: 'Maryland Limousine Fleet Guide: Sedans, SUVs, Stretch Limos & Sprinter Vans',
-    seoTitle: 'Maryland Limo Fleet Guide: Sedans, SUVs & Sprinter Vans',
+    seoTitle: 'Maryland Limo Fleet Guide: Sedans, SUVs & Sprinter Vans | BWI Chauffeur',
     seoDescription:
       'Every vehicle class in a Maryland limousine fleet, explained — passenger and luggage capacity, and which occasion actually fits each one. 877-609-1919.',
     excerpt:
@@ -173,7 +173,7 @@ Passenger count and luggage volume resolve the vast majority of vehicle-selectio
     id: 323,
     slug: 'booking-a-limo-in-maryland-how-far-in-advance-should-you-reserve',
     title: 'Booking a Limo in Maryland: How Far in Advance Should You Reserve?',
-    seoTitle: 'How Far in Advance to Book a Limo in Maryland?',
+    seoTitle: 'How Far in Advance to Book a Limo in Maryland? | BWI Chauffeur',
     seoDescription:
       'Real lead-time guidance for booking limo service in Maryland — by occasion, from same-day airport transfers to weddings booked months out. Call 877-609-1919.',
     excerpt:
@@ -259,7 +259,7 @@ Whatever your occasion, the safest move is simply to ask. [Book your Maryland ch
     id: 324,
     slug: 'licensed-and-insured-what-to-verify-before-booking-a-maryland-limo-company',
     title: 'Licensed & Insured: What to Verify Before Booking a Maryland Limo Company',
-    seoTitle: 'Licensed & Insured: What to Verify Before Booking a Limo',
+    seoTitle: 'Licensed & Insured: What to Verify Before Booking a Limo | BWI Chauffeur',
     seoDescription:
       'A practical checklist for verifying a Maryland limo company — licensing, insurance, background checks, real reviews, and written quotes. Call 877-609-1919.',
     excerpt:
@@ -345,7 +345,7 @@ BWI Chauffeur operates under **Maryland PSC Carrier No. 6325**, carries **$5 mil
     id: 325,
     slug: 'maryland-limo-service-special-occasions-graduations-retirement-nights-out',
     title: 'Maryland Limo Service for Special Occasions: Graduations, Retirements & Nights Out',
-    seoTitle: 'Maryland Limo Service for Special Occasions & Nights Out',
+    seoTitle: 'Maryland Limo Service for Special Occasions & Nights Out | BWI Chauffeur',
     seoDescription:
       'Beyond weddings — chauffeured Maryland limo service for graduations, retirements, date nights, and group nights out, with real booking guidance. 877-609-1919.',
     excerpt:

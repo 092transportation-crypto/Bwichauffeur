@@ -5,6 +5,7 @@ import { MARYLAND_BATCH3 } from './marylandPagesBatch3';
 import { MARYLAND_BATCH4 } from './marylandPagesBatch4';
 import { MARYLAND_BATCH5 } from './marylandPagesBatch5';
 import { MARYLAND_BATCH6 } from './marylandPagesBatch6';
+import { MARYLAND_BATCH7 } from './marylandPagesBatch7';
 
 export const MARYLAND_PAGES = [
   {
@@ -144,6 +145,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "Bethesda Limo Service",
         "to": "/bethesda-limo-service"
+      },
+      {
+        "label": "Kensington Limo Service",
+        "to": "/kensington-md-limo-service"
       },
       {
         "label": "Gaithersburg Limo Service",
@@ -1436,6 +1441,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "BWI to Frederick",
         "to": "/bwi-to-frederick"
+      },
+      {
+        "label": "Walkersville Limo Service",
+        "to": "/walkersville-limo-service"
       },
       {
         "label": "Rockville Limo Service",
@@ -6203,6 +6212,12 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
         ]
+      },
+      {
+        "h2": "Coordinating with your planner and vendors",
+        "paragraphs": [
+          "Most wedding transportation problems are really timeline problems, not vehicle problems, so we ask for the full day-of schedule — hair and makeup, first look, ceremony start, photo locations, reception load-in — before the vehicle ever gets assigned. If your planner issues a vendor timeline, send it directly to dispatch and we build the chauffeur's schedule around it rather than around a generic set of pickup windows. On the day itself, the chauffeur checks in with the planner or point of contact rather than disappearing between stops, which is usually the detail that saves the most stress when a photo session runs long or a ceremony starts a few minutes late."
+        ]
       }
     ],
     "vehicles": [
@@ -6357,6 +6372,12 @@ export const MARYLAND_PAGES = [
         "h2": "Choosing the right vehicle",
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+        ]
+      },
+      {
+        "h2": "Standing accounts and consolidated billing",
+        "paragraphs": [
+          "Most of our corporate clients book through a standing account rather than a one-off reservation, which means a single point of contact, consolidated monthly invoicing, and priority dispatch for recurring routes like a weekly Bethesda-to-BWI executive run or a standing conference shuttle during a busy week at the convention center. Setting one up takes a short conversation with dispatch to confirm billing details and the recurring routes you need."
         ]
       }
     ],
@@ -6513,6 +6534,12 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
         ]
+      },
+      {
+        "h2": "Group safety and parent peace of mind",
+        "paragraphs": [
+          "For prom specifically, many parents book directly and ask for a check-in call or text once the group is picked up and again at drop-off — a request we are glad to accommodate. A single chauffeured vehicle also means the whole group arrives and leaves together rather than splitting across several rides over the course of the night, which is usually the actual safety concern behind the question. Our chauffeurs are background-checked and trained to handle the after-party pickup the same way as the ride to the venue — professionally, and on the schedule the parents agreed to."
+        ]
       }
     ],
     "vehicles": [
@@ -6668,6 +6695,12 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
         ]
+      },
+      {
+        "h2": "Season-long planning for frequent concertgoers",
+        "paragraphs": [
+          "Regular concertgoers at Merriweather Post Pavilion, CFG Bank Arena or Capital One Arena often set up a standing arrangement with us for the season rather than booking fresh for every show, which simplifies the process to a text or call with the date and venue. Pricing for post-show pickup accounts for the real exit time at each venue, not the advertised end time, so your chauffeur is in position when the crowd actually clears the gates."
+        ]
       }
     ],
     "vehicles": [
@@ -6774,7 +6807,7 @@ export const MARYLAND_PAGES = [
     "badge": "Maryland Service",
     "h1": "Maryland Wine Tour Transportation",
     "metaTitle": "Maryland Wine Tour Transportation | BWI Chauffeur",
-    "metaDescription": "Maryland Wine Tour Transportation across the Frederick wine trail and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7.",
+    "metaDescription": "Maryland wine tour transportation across the Frederick wine trail and beyond. Sedans, SUVs & Sprinter vans, 24/7. Call 877-609-1919 to book.",
     "stats": [
       {
         "label": "Coverage",
@@ -6822,6 +6855,12 @@ export const MARYLAND_PAGES = [
         "h2": "Choosing the right vehicle",
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+        ]
+      },
+      {
+        "h2": "Group tasting days and designated-driver logic",
+        "paragraphs": [
+          "A wine tour only works if nobody at the tasting is also the one driving home, and a chauffeured Sprinter van or sedan solves that cleanly for a group of any size. We typically route two to three wineries in an afternoon, build in time at each stop, and handle the return trip at the end — the same planning we use for a wedding day, just with vineyards instead of a ceremony and reception."
         ]
       }
     ],
@@ -6977,6 +7016,12 @@ export const MARYLAND_PAGES = [
         "h2": "Choosing the right vehicle",
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+        ]
+      },
+      {
+        "h2": "Group day trips and sports excursions",
+        "paragraphs": [
+          "A Philadelphia day trip is a common group booking out of Maryland — a Phillies or Eagles game, a day at the outlets, or a family visiting relatives in the city. A Sprinter van keeps a group of eight to fourteen together for the whole round trip rather than splitting into multiple cars, and the flat rate is quoted for the vehicle, not per seat, which usually makes it the better value once a group gets past four or five people. Round trips can be booked together or as two separate one-way legs, whichever fits your schedule better and your return date."
         ]
       }
     ],
@@ -8229,8 +8274,12 @@ export const MARYLAND_PAGES = [
         "to": "/bowie-limo-service"
       },
       {
-        "label": "Laurel Limo Service",
-        "to": "/laurel-limo-service"
+        "label": "Capitol Heights Limo Service",
+        "to": "/capitol-heights-limo-service"
+      },
+      {
+        "label": "Fort Washington Limo Service",
+        "to": "/fort-washington-md-limo-service"
       }
     ],
     "schema": {
@@ -8909,6 +8958,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH4,
   ...MARYLAND_BATCH5,
   ...MARYLAND_BATCH6,
+  ...MARYLAND_BATCH7,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);

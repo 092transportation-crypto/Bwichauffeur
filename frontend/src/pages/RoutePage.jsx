@@ -86,6 +86,26 @@ const RoutePage = ({ route }) => {
     })),
   };
 
+  const localBusinessSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'BWI Chauffeur',
+    telephone: '+1-877-609-1919',
+    url: 'https://www.bwichauffeur.com',
+    image: 'https://www.bwichauffeur.com/logo.jpeg',
+    priceRange: '$$',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '9836 Lyon Ave',
+      addressLocality: 'Laurel',
+      addressRegion: 'MD',
+      postalCode: '20723',
+      addressCountry: 'US',
+    },
+    areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+    openingHours: 'Mo-Su 00:00-23:59',
+  };
+
   return (
     <>
       <Helmet>
@@ -101,6 +121,7 @@ const RoutePage = ({ route }) => {
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={route.metaDescription} />
         <script type="application/ld+json">{JSON.stringify(faqStructuredData)}</script>
+        <script type="application/ld+json">{JSON.stringify(localBusinessSchema)}</script>
       </Helmet>
 
       <div className="min-h-screen bg-black pt-32 pb-16" data-testid={`route-page-${route.slug}`}>

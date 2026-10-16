@@ -191,6 +191,12 @@ export const MARYLAND_BATCH6 = [
           "Game-day groups heading to M&T Bank Stadium or Camden Yards, wine-tasting parties, bachelor and bachelorette groups and family reunions all use the same vehicle for the same reason: everyone leaves together, nobody drives, and the group stays intact for the whole outing rather than splitting into separate cars that have to regroup later.",
         ],
       },
+      {
+        h2: "Booking the right configuration",
+        paragraphs: [
+          "Tell us the group size, the occasion and whether luggage, golf bags or decorations are coming along, and we will recommend shuttle, executive or limo-style seating before you book rather than after the van shows up. Most Sprinter reservations are flat-rate for a single pickup and drop-off, or hourly as-directed when the day includes more than one stop — either way, the rate is confirmed in writing before the day arrives.",
+        ],
+      },
     ],
     vehicles: FLEET_ALL,
     faqs: [
@@ -216,7 +222,7 @@ export const MARYLAND_BATCH6 = [
     type: "service",
     name: "Maryland Stretch Limousine Rental",
     badge: "Maryland Service",
-    h1: "Maryland Stretch Limousine Rental",
+    h1: "Maryland Stretch Limousine Rental & Car Service",
     metaTitle: "Maryland Stretch Limo Rental | BWI Chauffeur",
     metaDescription: "Classic stretch limousine rental in Maryland for weddings, proms & milestone celebrations. Red carpet service. Call 877-609-1919.",
     stats: [
@@ -254,6 +260,12 @@ export const MARYLAND_BATCH6 = [
         h2: "Anniversaries and milestone birthdays",
         paragraphs: [
           "A stretch limousine for a milestone 30th, 40th or 50th birthday or a significant anniversary signals that the evening is different from an ordinary night out, and it works equally well for a dinner-and-show evening in Baltimore or Annapolis or for a longer tour of several stops on an hourly booking.",
+        ],
+      },
+      {
+        h2: "What to expect when you book",
+        paragraphs: [
+          "The limousine arrives detailed and ready, with a chauffeur in formal attire who introduces themselves before the event rather than simply pulling up at pickup time. We confirm the hourly minimum, the route and any champagne or decoration requests ahead of the date, so the only thing left to plan on the day itself is the celebration.",
         ],
       },
     ],
@@ -321,6 +333,12 @@ export const MARYLAND_BATCH6 = [
           "Out-of-town golfers flying into BWI, Reagan National or Dulles for a tournament or a member-guest weekend can be picked up directly at the airport and driven to the course or the hotel, with clubs and luggage handled by the chauffeur. The same vehicle can then run the return trip to the airport once the event wraps up.",
         ],
       },
+      {
+        h2: "Planning a golf outing booking",
+        paragraphs: [
+          "Tell us the course, the tee time and whether the chauffeur should wait through the round or simply handle drop-off and a separate pickup, and we will quote the booking as flat-rate or hourly depending on what fits the day. Corporate accounts with recurring golf outings can set up standing billing so each event is a quick confirmation rather than a new booking conversation.",
+        ],
+      },
     ],
     vehicles: FLEET_ALL,
     faqs: [
@@ -386,6 +404,12 @@ export const MARYLAND_BATCH6 = [
           "A wine-tasting bachelorette day along the Maryland wine trail is one of the most common Sprinter bookings we run, since nobody wants to be the one not drinking at a tasting. We route between two or three wineries, build in time at each, and handle the ride home afterward — the same approach used on our general Maryland wine tour transportation.",
         ],
       },
+      {
+        h2: "Planning the itinerary",
+        paragraphs: [
+          "Send us a rough idea of the stops — bars, wineries, a dinner reservation — and roughly how long the group wants at each, and we will quote the hourly booking and suggest timing so nobody feels rushed at the first stop or stuck without a plan for the last one. The itinerary can still flex on the day itself; the chauffeur and vehicle stay with the group regardless of how the order changes.",
+        ],
+      },
     ],
     vehicles: FLEET_ALL,
     faqs: [
@@ -449,6 +473,12 @@ export const MARYLAND_BATCH6 = [
         h2: "Banquet halls across Maryland",
         paragraphs: [
           "Maryland's event halls across the Baltimore and Washington suburbs host Sweet 16 and quinceañera receptions most weekends during peak season, and we know the loading areas and timing quirks of the region's most-booked venues. Tell us the hall name when you book and we will plan the arrival accordingly.",
+        ],
+      },
+      {
+        h2: "Booking for the season",
+        paragraphs: [
+          "Spring is the busiest stretch for Sweet 16s and quinceañeras alike, overlapping with prom season for the same pool of limousines and Sprinter vans, so the families who book earliest get first choice of vehicle and arrival time. We confirm the hourly rate, the route and the exact grand-entrance timing with the family well before the event, not the week of.",
         ],
       },
     ],

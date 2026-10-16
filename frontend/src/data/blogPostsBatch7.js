@@ -9,8 +9,7 @@ export const BLOG_POSTS_BATCH7 = [
     slug: 'maryland-dc-wedding-limo-complete-guide',
     title: 'The Complete Maryland & DC Wedding Limo Guide: Vehicles, Venues, Timeline & Questions to Ask',
     seoTitle: 'Maryland Wedding Limo Guide: Vehicles, Pricing & Venues | BWI Chauffeur',
-    seoDescription:
-      'The complete guide to wedding limo service in Maryland, DC & Virginia: vehicle comparison, venue logistics, timelines and pricing questions.',
+    seoDescription: 'The complete guide to wedding limo service in Maryland, DC & Virginia: vehicle comparison, venue logistics, timelines and pricing questions. Call 877-609-1919.',
     excerpt:
       'Everything a bride, groom, or wedding planner needs to know before booking wedding transportation in Maryland, DC or Virginia — vehicle selection, venue-specific logistics, timeline coordination, and the vendor-vetting questions most couples never think to ask.',
     date: '2026-09-30',

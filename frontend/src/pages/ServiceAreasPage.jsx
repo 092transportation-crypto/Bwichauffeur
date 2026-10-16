@@ -35,16 +35,37 @@ const ServiceAreasPage = () => {
     })),
   };
 
+  const localBusinessSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'BWI Chauffeur',
+    telephone: '+1-877-609-1919',
+    url: 'https://www.bwichauffeur.com',
+    image: 'https://www.bwichauffeur.com/logo.jpeg',
+    priceRange: '$$',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '9836 Lyon Ave',
+      addressLocality: 'Laurel',
+      addressRegion: 'MD',
+      postalCode: '20723',
+      addressCountry: 'US',
+    },
+    areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+    openingHours: 'Mo-Su 00:00-23:59',
+  };
+
   return (
     <>
       <Helmet>
         <title>Service Areas | Maryland Limo & Car Service Cities</title>
         <meta
           name="description"
-          content="BWI Chauffeur serves 45+ Maryland cities with luxury limo, black car & airport car service — Baltimore, Columbia, Annapolis, Bethesda & more."
+          content="BWI Chauffeur serves 60+ Maryland & DC cities with flat-rate limo, black car & airport car service, 24/7. Call 877-609-1919 to book."
         />
         <link rel="canonical" href="https://www.bwichauffeur.com/service-areas" />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+        <script type="application/ld+json">{JSON.stringify(localBusinessSchema)}</script>
       </Helmet>
 
       <div className="min-h-screen bg-black pt-32 pb-16" data-testid="service-areas-page">

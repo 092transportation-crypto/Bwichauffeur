@@ -135,6 +135,8 @@ export const MARYLAND_BATCH3 = [
     related: [
       { label: "Bel Air Limo Service", to: "/bel-air-limo-service" },
       { label: "Havre de Grace Limo Service", to: "/havre-de-grace-limo-service" },
+      { label: "Edgewood Limo Service", to: "/edgewood-md-limo-service" },
+      { label: "Joppatowne Limo Service", to: "/joppatowne-limo-service" },
       { label: "BWI Airport Car Service", to: "/bwi-airport-car-service" },
       { label: "Philadelphia Airport Car Service", to: "/philadelphia-airport-car-service" },
       { label: "Maryland Corporate Car Service", to: "/maryland-corporate-car-service" },
@@ -1070,7 +1072,7 @@ export const MARYLAND_BATCH3 = [
     badge: "Maryland Service",
     h1: "Maryland Anniversary Limo Service",
     metaTitle: "Maryland Anniversary Limo & Car Service | BWI Chauffeur",
-    metaDescription: "Anniversary limo and chauffeur service in Maryland: Annapolis waterfront dinners, Baltimore theatre nights, National Harbor, wine country. Book today.",
+    metaDescription: "Anniversary limo & chauffeur service in Maryland: Annapolis waterfront dinners, Baltimore theatre nights, National Harbor. Call 877-609-1919.",
     stats: [
       { label: "Coverage", value: "Annapolis, Baltimore & statewide" },
       { label: "Vehicles", value: "Sedans · SUVs · Limos" },

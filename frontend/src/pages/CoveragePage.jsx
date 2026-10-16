@@ -15,8 +15,29 @@ const CoveragePage = () => {
     <>
       <Helmet>
         <title>Where We Drive | Maryland, DC, Virginia & Delaware</title>
-        <meta name="description" content="See where BWI Chauffeur drives: Maryland, Washington DC, Northern Virginia and Delaware, with service to BWI, DCA, IAD and PHL airports." />
+        <meta name="description" content="See where BWI Chauffeur drives: Maryland, Washington DC, Northern Virginia & Delaware, BWI/DCA/IAD/PHL. Call 877-609-1919." />
         <link rel="canonical" href="https://www.bwichauffeur.com/coverage" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'BWI Chauffeur',
+            telephone: '+1-877-609-1919',
+            url: 'https://www.bwichauffeur.com',
+            image: 'https://www.bwichauffeur.com/logo.jpeg',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              postalCode: '20723',
+              addressCountry: 'US',
+            },
+            areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+            openingHours: 'Mo-Su 00:00-23:59',
+          })}
+        </script>
       </Helmet>
     <div className="min-h-screen bg-black pt-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
