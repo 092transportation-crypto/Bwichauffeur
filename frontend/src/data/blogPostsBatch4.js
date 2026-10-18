@@ -927,7 +927,7 @@ Contractors who visit Fort Meade regularly for the same program or contract ofte
 
 ### Booking a Fort Meade Trip
 
-Give us your appointment window, sponsoring organization if relevant, and pickup location, and let us know if the visit is a first trip or a recurring one. [Book your visit transportation](/booking) or call **877-609-1919**.
+Give us your appointment window, sponsoring organization if relevant, and pickup location, and let us know if the visit is a first trip or a recurring one. [Book your visit transportation](/booking) or call **877-609-1919**. See our [Fort Meade, MD limo and car service page](/fort-meade-limo-service) for flat-rate pricing and coverage details for the surrounding corridor.
 `,
     faqs: [
       { question: 'Why not just use rideshare for a Fort Meade visitor appointment?', answer: 'Driver cancellations or unfamiliarity with gate and visitor-center procedures create real risk near a strict appointment window, where a missed check-in can be difficult to reschedule.' },
@@ -935,6 +935,12 @@ Give us your appointment window, sponsoring organization if relevant, and pickup
       { question: 'Do you offer accounts for contractors with regular visits?', answer: 'Yes, a corporate account with consolidated invoicing is available for recurring travel, and you can request a preferred chauffeur for continuity across visits.' },
     ],
     relatedPosts: [12, 20, 33],
+    relatedLinks: [
+      { to: '/fort-meade-limo-service', label: 'Fort Meade, MD Limo Service' },
+      { to: '/odenton-limo-service', label: 'Odenton Limo Service' },
+      { to: '/bwi-airport-car-service', label: 'BWI Airport Car Service' },
+      { to: '/booking', label: 'Book Your Ride' },
+    ],
   },
   {
     id: 316,

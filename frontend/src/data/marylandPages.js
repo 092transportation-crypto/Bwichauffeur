@@ -6,6 +6,7 @@ import { MARYLAND_BATCH4 } from './marylandPagesBatch4';
 import { MARYLAND_BATCH5 } from './marylandPagesBatch5';
 import { MARYLAND_BATCH6 } from './marylandPagesBatch6';
 import { MARYLAND_BATCH7 } from './marylandPagesBatch7';
+import { MARYLAND_BATCH8 } from './marylandPagesBatch8';
 
 export const MARYLAND_PAGES = [
   {
@@ -1447,6 +1448,10 @@ export const MARYLAND_PAGES = [
         "to": "/walkersville-limo-service"
       },
       {
+        "label": "Brunswick, MD Limo Service",
+        "to": "/brunswick-md-limo-service"
+      },
+      {
         "label": "Rockville Limo Service",
         "to": "/rockville-limo-service"
       },
@@ -1605,6 +1610,10 @@ export const MARYLAND_PAGES = [
       }
     ],
     "related": [
+      {
+        "label": "Fort Meade, MD Limo Service",
+        "to": "/fort-meade-limo-service"
+      },
       {
         "label": "Severna Park Limo Service",
         "to": "/severna-park-limo-service"
@@ -4376,6 +4385,14 @@ export const MARYLAND_PAGES = [
       }
     ],
     "related": [
+      {
+        "label": "Centreville, MD Limo Service",
+        "to": "/centreville-md-limo-service"
+      },
+      {
+        "label": "Chestertown, MD Limo Service",
+        "to": "/chestertown-md-limo-service"
+      },
       {
         "label": "Rockville Limo Service",
         "to": "/rockville-limo-service"
@@ -7914,6 +7931,10 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Riverdale Park, MD Limo Service",
+        "to": "/riverdale-park-limo-service"
+      },
+      {
         "label": "Merriweather Post Pavilion Transportation",
         "to": "/merriweather-post-pavilion-transportation"
       },
@@ -8245,6 +8266,10 @@ export const MARYLAND_PAGES = [
       }
     ],
     "related": [
+      {
+        "label": "Oxon Hill, MD Limo Service",
+        "to": "/oxon-hill-md-limo-service"
+      },
       {
         "label": "Merriweather Post Pavilion Transportation",
         "to": "/merriweather-post-pavilion-transportation"
@@ -8914,6 +8939,10 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Dover, DE Limo Service (Dover Motor Speedway)",
+        "to": "/dover-de-limo-service"
+      },
+      {
         "label": "Merriweather Post Pavilion Transportation",
         "to": "/merriweather-post-pavilion-transportation"
       },
@@ -8959,6 +8988,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH5,
   ...MARYLAND_BATCH6,
   ...MARYLAND_BATCH7,
+  ...MARYLAND_BATCH8,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);

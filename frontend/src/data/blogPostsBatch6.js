@@ -1111,6 +1111,7 @@ Whether it is a single client pickup, a multi-city itinerary spanning several Mi
     ],
     relatedPosts: [12, 8, 342],
     relatedLinks: [
+      { to: '/wilmington-de-limo-service', label: 'Wilmington, DE Limo Service' },
       { to: '/philadelphia-airport-car-service', label: 'Philadelphia Airport Car Service' },
       { to: '/phl-airport-to-philadelphia', label: 'PHL to Philadelphia' },
       { to: '/blog/corporate-car-service-maryland', label: 'Corporate Car Service in Maryland' },
@@ -1182,6 +1183,7 @@ Whether it is a single airport transfer, a boardwalk night out, or complete tran
     ],
     relatedPosts: [317, 341, 325],
     relatedLinks: [
+      { to: '/rehoboth-beach-de-limo-service', label: 'Rehoboth Beach, DE Limo Service' },
       { to: '/blog/family-reunion-airport-transportation-sprinter-van-guide', label: 'Family Reunion Airport Transportation' },
       { to: '/philadelphia-airport-car-service', label: 'Philadelphia Airport Car Service' },
       { to: '/coverage', label: 'Full Coverage Map' },
