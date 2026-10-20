@@ -2,8 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, Loader2 } from 'lucide-react';
 import { Button } from './ui/button';
 
-const API_URL = process.env.REACT_APP_BACKEND_URL;
-
+// Same-origin Vercel serverless function (api/chat.js) — no separate
+// backend. The full conversation history is resent every turn since the
+// endpoint is stateless.
 const ChatWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
@@ -14,7 +15,6 @@ const ChatWidget = () => {
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [sessionId, setSessionId] = useState(null);
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -38,20 +38,18 @@ const ChatWidget = () => {
 
     const userMessage = inputValue.trim();
     setInputValue('');
-    setMessages(prev => [...prev, { role: 'user', content: userMessage }]);
+    const nextMessages = [...messages, { role: 'user', content: userMessage }];
+    setMessages(nextMessages);
     setIsLoading(true);
 
     try {
-      const response = await fetch(`${API_URL}/api/chat/send`, {
+      const response = await fetch('/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({
-          message: userMessage,
-          session_id: sessionId,
-          history: messages
-        }),
+        // Full history each turn — the endpoint is stateless.
+        body: JSON.stringify({ messages: nextMessages }),
       });
 
       if (!response.ok) {
@@ -59,8 +57,17 @@ const ChatWidget = () => {
       }
 
       const data = await response.json();
-      setSessionId(data.session_id);
-      setMessages(prev => [...prev, { role: 'assistant', content: data.response }]);
+      setMessages(prev => [...prev, { role: 'assistant', content: data.reply }]);
+      if (data.leadCaptured) {
+        // A dispatcher now has this visitor's trip details — don't nag them
+        // with the lead-capture / exit-intent popups this session.
+        try {
+          sessionStorage.setItem('leadSubmitted', '1');
+        } catch {
+          // Storage can throw (private browsing, blocked cookies, etc.) —
+          // non-fatal, the popups just fall back to their own logic.
+        }
+      }
     } catch (error) {
       console.error('Chat error:', error);
       setMessages(prev => [...prev, {

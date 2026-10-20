@@ -25,7 +25,20 @@ function isEmail(value) {
   return typeof value === "string" && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 }
 
+// Mirrors src/lib/phone.js's phoneDigits/isValidPhone exactly (10–15 digits,
+// ignoring formatting characters). src/lib/phone.js is an ES module built for
+// the browser bundle and can't be require()'d from these CommonJS serverless
+// functions, so the same tiny rule is duplicated here — keep both in sync.
+function phoneDigits(value) {
+  return String(value ?? "").replace(/\D/g, "");
+}
+
+function isValidPhone(value) {
+  const digits = phoneDigits(value);
+  return digits.length >= 10 && digits.length <= 15;
+}
+
 const uuid = () => crypto.randomUUID();
 const nowIso = () => new Date().toISOString();
 
-module.exports = { readBody, applyCors, isEmail, uuid, nowIso };
+module.exports = { readBody, applyCors, isEmail, phoneDigits, isValidPhone, uuid, nowIso };

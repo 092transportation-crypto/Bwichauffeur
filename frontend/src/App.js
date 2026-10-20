@@ -37,6 +37,8 @@ import { MARYLAND_PAGES } from "./data/marylandPages";
 import { GUIDES } from "./data/guides";
 import ChatWidget from "./components/ChatWidget";
 import FloatingCallButton from "./components/FloatingCallButton";
+import LeadCapturePopup from "./components/LeadCapturePopup";
+import ExitIntentPopup from "./components/ExitIntentPopup";
 import { Toaster } from "sonner";
 
 // Router- and Helmet-agnostic shell: the browser wraps it in BrowserRouter
@@ -121,6 +123,8 @@ export function AppShell() {
             </footer>
             <ChatWidget />
             <FloatingCallButton />
+            <LeadCapturePopup />
+            <ExitIntentPopup />
             <Toaster position="top-right" richColors />
           </div>
     </>
