@@ -21,7 +21,7 @@ export const MARYLAND_BATCH5 = [
     name: "Takoma Park",
     badge: "Montgomery County Limo Service",
     h1: "Takoma Park Limo Service",
-    metaTitle: "Takoma Park Limo Service | Car Service Takoma Park MD | BWI Chauffeur",
+    metaTitle: "Takoma Park MD Limo Service | BWI Chauffeur",
     metaDescription: "Flat-rate limo & car service in Takoma Park, MD. BWI in 45–60 minutes, DCA in 20–30, corporate, weddings & events. 24/7. Call 877-609-1919.",
     stats: [
       { label: "To BWI", value: "35 mi · 45–60 minutes" },
@@ -88,7 +88,7 @@ export const MARYLAND_BATCH5 = [
     name: "Clarksburg",
     badge: "Montgomery County Limo Service",
     h1: "Clarksburg Limo Service",
-    metaTitle: "Clarksburg Limo Service | Car Service Clarksburg MD | BWI Chauffeur",
+    metaTitle: "Clarksburg MD Limo Service | BWI Chauffeur",
     metaDescription: "Flat-rate limo & car service in Clarksburg, MD. BWI in 60–75 minutes, DCA & Dulles covered, corporate, weddings & events. 24/7. Call 877-609-1919.",
     stats: [
       { label: "To BWI", value: "50 mi · 60–75 minutes" },
@@ -225,7 +225,7 @@ export const MARYLAND_BATCH5 = [
     name: "Beltsville",
     badge: "Prince George's County Limo Service",
     h1: "Beltsville Limo Service",
-    metaTitle: "Beltsville Limo Service | Car Service Beltsville MD | BWI Chauffeur",
+    metaTitle: "Beltsville MD Limo Service | BWI Chauffeur",
     metaDescription: "Flat-rate limo & car service in Beltsville, MD. BWI in just 15–20 minutes, plus DCA & Dulles, corporate & USDA/NOAA travel. Call 877-609-1919.",
     stats: [
       { label: "To BWI", value: "12 mi · 15–20 minutes" },
@@ -292,7 +292,7 @@ export const MARYLAND_BATCH5 = [
     name: "Suitland",
     badge: "Prince George's County Limo Service",
     h1: "Suitland Limo Service",
-    metaTitle: "Suitland Limo Service | Car Service Suitland MD | BWI Chauffeur",
+    metaTitle: "Suitland MD Limo Service | BWI Chauffeur",
     metaDescription: "Flat-rate limo & car service in Suitland, MD. DCA in 20–30 minutes, BWI & Dulles covered, Census Bureau & federal travel. Call 877-609-1919.",
     stats: [
       { label: "To DCA", value: "12 mi · 20–30 minutes" },
@@ -361,7 +361,7 @@ export const MARYLAND_BATCH5 = [
     name: "Mount Airy",
     badge: "Carroll & Frederick County Limo Service",
     h1: "Mount Airy Limo Service",
-    metaTitle: "Mount Airy MD Limo Service | Car Service I-70 Corridor | BWI Chauffeur",
+    metaTitle: "Mount Airy MD Limo Service | I-70 Corridor",
     metaDescription: "Flat-rate limo & car service in Mount Airy, MD. BWI in 55–65 minutes, DCA & Dulles covered, corporate, weddings & events. Call 877-609-1919.",
     stats: [
       { label: "To BWI", value: "45 mi · 55–65 minutes" },
@@ -428,7 +428,7 @@ export const MARYLAND_BATCH5 = [
     name: "Urbana",
     badge: "Frederick County Limo Service",
     h1: "Urbana Limo Service",
-    metaTitle: "Urbana MD Limo Service | Car Service Near Frederick | BWI Chauffeur",
+    metaTitle: "Urbana MD Limo Service | Near Frederick",
     metaDescription: "Flat-rate limo & car service in Urbana, MD. Dulles in 45–60 minutes, BWI & DCA covered, corporate, weddings & events. Call 877-609-1919.",
     stats: [
       { label: "To Dulles", value: "35 mi · 45–60 minutes" },
@@ -567,7 +567,7 @@ export const MARYLAND_BATCH5 = [
     name: "DCA to Annapolis",
     badge: "Airport Transfer Route",
     h1: "Reagan National Airport to Annapolis Car Service",
-    metaTitle: "DCA to Annapolis Car Service | Flat Rate Limo | BWI Chauffeur",
+    metaTitle: "DCA to Annapolis Car Service | Flat Rate Limo",
     metaDescription: "Flat-rate chauffeured car service from DCA Airport to Annapolis — 32 miles, 40–55 minutes. Flight tracking, 24/7, sedans to Sprinters. Call 877-609-1919.",
     stats: [
       { label: "Distance", value: "32 miles" },
@@ -633,7 +633,7 @@ export const MARYLAND_BATCH5 = [
     name: "IAD to Annapolis",
     badge: "Airport Transfer Route",
     h1: "Washington Dulles to Annapolis Car Service",
-    metaTitle: "IAD to Annapolis Car Service | Flat Rate Limo | BWI Chauffeur",
+    metaTitle: "IAD to Annapolis Car Service | Flat Rate Limo",
     metaDescription: "Flat-rate chauffeured car service from Dulles (IAD) to Annapolis — 55 miles, 70–85 minutes. 60-min international wait, 24/7. Call 877-609-1919.",
     stats: [
       { label: "Distance", value: "55 miles" },
@@ -698,7 +698,7 @@ export const MARYLAND_BATCH5 = [
     name: "DCA to Columbia MD",
     badge: "Airport Transfer Route",
     h1: "Reagan National Airport to Columbia, MD Car Service",
-    metaTitle: "DCA to Columbia MD Car Service | Flat Rate Limo | BWI Chauffeur",
+    metaTitle: "DCA to Columbia MD Car Service | Flat Rate Limo",
     metaDescription: "Flat-rate chauffeured car service from DCA Airport to Columbia, MD — 27 miles, 35–50 minutes. Flight tracking, 24/7, sedans to Sprinters. Call 877-609-1919.",
     stats: [
       { label: "Distance", value: "27 miles" },
@@ -764,7 +764,7 @@ export const MARYLAND_BATCH5 = [
     name: "BWI to Takoma Park",
     badge: "Airport Transfer Route",
     h1: "BWI Airport to Takoma Park Car Service",
-    metaTitle: "BWI to Takoma Park Car Service | Flat Rate Limo | BWI Chauffeur",
+    metaTitle: "BWI to Takoma Park Car Service | Flat Rate Limo",
     metaDescription: "Flat-rate chauffeured car service from BWI Airport to Takoma Park, MD — 35 miles, 45–60 minutes. Flight tracking, 24/7. Call 877-609-1919.",
     stats: [
       { label: "Distance", value: "35 miles" },
@@ -896,7 +896,7 @@ export const MARYLAND_BATCH5 = [
     name: "DCA to Silver Spring",
     badge: "Airport Transfer Route",
     h1: "Reagan National Airport to Silver Spring Car Service",
-    metaTitle: "DCA to Silver Spring Car Service | Flat Rate Limo | BWI Chauffeur",
+    metaTitle: "DCA to Silver Spring Car Service | Flat Rate Limo",
     metaDescription: "Flat-rate chauffeured car service from DCA Airport to Silver Spring, MD — 15 miles, 25–35 minutes. Flight tracking, 24/7. Call 877-609-1919.",
     stats: [
       { label: "Distance", value: "15 miles" },
@@ -1030,7 +1030,7 @@ export const MARYLAND_BATCH5 = [
     name: "Xfinity Center",
     badge: "Event Transportation",
     h1: "Xfinity Center Transportation & Limo Service",
-    metaTitle: "Xfinity Center Transportation | Limo & Car Service | BWI Chauffeur",
+    metaTitle: "Xfinity Center Transportation | BWI Chauffeur",
     metaDescription: "Chauffeured transportation to Xfinity Center concerts at the University of Maryland. Door drop-off, flat rates, sedans to Sprinters. 24/7. Call 877-609-1919.",
     stats: [
       { label: "Location", value: "College Park, MD" },
@@ -1102,7 +1102,7 @@ export const MARYLAND_BATCH5 = [
     name: "Royal Farms Arena",
     badge: "Event Transportation",
     h1: "Royal Farms Arena Transportation & Limo Service",
-    metaTitle: "Royal Farms Arena Transportation | Limo & Car Service | BWI Chauffeur",
+    metaTitle: "Royal Farms Arena Transportation | BWI Chauffeur",
     metaDescription: "Chauffeured transportation to Royal Farms Arena in downtown Baltimore. Door drop-off, flat rates, sedans to Sprinters. 24/7. Call 877-609-1919.",
     stats: [
       { label: "Location", value: "Baltimore, MD" },
@@ -1240,7 +1240,7 @@ export const MARYLAND_BATCH5 = [
     name: "Six Flags America",
     badge: "Event Transportation",
     h1: "Six Flags America Transportation & Limo Service",
-    metaTitle: "Six Flags America Transportation | Limo & Car Service | BWI Chauffeur",
+    metaTitle: "Six Flags America Transportation | BWI Chauffeur",
     metaDescription: "Chauffeured transportation to Six Flags America in Largo, MD. Family-friendly, flat rates, sedans to Sprinters. 24/7. Call 877-609-1919.",
     stats: [
       { label: "Location", value: "Largo, MD" },

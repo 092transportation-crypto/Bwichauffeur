@@ -5,7 +5,7 @@ export const BLOG_POSTS_BATCH2 = [
     id: 201,
     slug: 'bwi-arrivals-guide-where-to-meet-your-driver',
     title: 'BWI Arrivals Guide: Where to Meet Your Chauffeur',
-    seoTitle: 'BWI Arrivals Guide | Where to Meet Your Driver | BWI Chauffeur',
+    seoTitle: 'BWI Arrivals Guide: Where to Meet Your Driver',
     seoDescription:
       'A practical BWI arrivals guide — baggage claim, curbside pickup, meet and greet, and how flight tracking keeps your chauffeur on time. 877-609-1919.',
     excerpt:

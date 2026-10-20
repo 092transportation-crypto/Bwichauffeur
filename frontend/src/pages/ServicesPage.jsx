@@ -36,7 +36,7 @@ const ServicesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Chauffeur Services | Airport Transfers, Weddings & Corporate Car Service</title>
+        <title>Chauffeur Services | Airport, Weddings & Corporate</title>
         <meta name="description" content="Flat-rate airport transfers, wedding limousines, corporate car service & hourly chauffeur hire across Maryland, DC and Delaware. 24/7 — call 877-609-1919." />
         <link rel="canonical" href="https://www.bwichauffeur.com/services" />
         <script type="application/ld+json">

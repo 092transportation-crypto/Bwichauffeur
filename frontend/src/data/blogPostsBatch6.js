@@ -421,7 +421,7 @@ Whether it is a single client pickup or a standing arrangement for your firm's r
     id: 332,
     slug: 'real-estate-closing-showing-transportation-maryland',
     title: 'Real Estate Closing & Showing Day Transportation',
-    seoTitle: 'Realtor & Closing-Day Car Service in Maryland | BWI Chauffeur',
+    seoTitle: 'Realtor & Closing-Day Car Service in Maryland',
     seoDescription:
       'Chauffeured transportation for Maryland real estate agents and clients — multi-property showings, closing-day trips, and relocation visits. Call 877-609-1919.',
     excerpt:
@@ -981,7 +981,7 @@ Tell us your venue, hotel block, and full weekend schedule, and we will build a 
     id: 340,
     slug: 'brewery-winery-tour-party-bus-maryland',
     title: 'Brewery & Winery Tour Party Bus Service in Maryland',
-    seoTitle: 'Maryland Brewery & Winery Tour Transportation | BWI Chauffeur',
+    seoTitle: 'Maryland Brewery & Winery Tour Car Service | BWI Chauffeur',
     seoDescription:
       'Chauffeured Sprinter and SUV service for Maryland brewery and winery tours — multi-stop routes, flat rates, and no designated driver required. 877-609-1919.',
     excerpt:

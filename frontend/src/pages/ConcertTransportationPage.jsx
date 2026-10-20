@@ -143,7 +143,7 @@ const ConcertTransportationPage = () => {
         <title>BWI Concert & Event Transportation | Baltimore, DC & VA</title>
         <meta
           name="description"
-          content="Luxury concert and event transportation across Baltimore, DC, and Virginia. CFG Bank Arena, Merriweather, Capital One Arena, Jiffy Lube Live & more. 877-609-1919."
+          content="Luxury concert and event transportation across Baltimore, DC, and Virginia. CFG Bank Arena, Merriweather, Capital One Arena, Jiffy Lube Live. 877-609-1919."
         />
         <meta
           name="keywords"

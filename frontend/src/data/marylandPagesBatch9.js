@@ -1746,7 +1746,7 @@ export const MARYLAND_BATCH9 = [
     name: "The Maryland Zoo",
     badge: "Baltimore Landmark Transportation",
     h1: "Limo Service Near the Maryland Zoo",
-    metaTitle: "Limo Service Near the Maryland Zoo in Baltimore | BWI Chauffeur",
+    metaTitle: "Limo Service Near the Maryland Zoo in Baltimore",
     metaDescription: "Limo & car service near the Maryland Zoo in Druid Hill Park, Baltimore — flat-rate transfers, school & group tours, 24/7. Call 877-609-1919.",
     stats: [
       { label: "Location", value: "Druid Hill Park, Baltimore" },
@@ -1812,7 +1812,7 @@ export const MARYLAND_BATCH9 = [
     name: "Antietam National Battlefield",
     badge: "Washington County Landmark Transportation",
     h1: "Limo Service Near Antietam National Battlefield",
-    metaTitle: "Limo Service Near Antietam National Battlefield | BWI Chauffeur",
+    metaTitle: "Limo Service Near Antietam National Battlefield",
     metaDescription: "Limo & car service near Antietam National Battlefield in Sharpsburg, MD — flat-rate day trips, group tours, 24/7. Call 877-609-1919.",
     stats: [
       { label: "Location", value: "Sharpsburg, Washington County" },

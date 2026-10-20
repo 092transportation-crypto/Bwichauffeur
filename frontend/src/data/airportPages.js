@@ -4,7 +4,7 @@ export const AIRPORT_PAGES = [
     shortName: 'BWI Airport',
     name: 'Baltimore/Washington International Thurgood Marshall Airport',
     location: 'Linthicum, Maryland',
-    metaTitle: 'BWI Airport Car Service | #1 Flat-Rate Chauffeur & Meet-and-Greet',
+    metaTitle: 'BWI Airport Car Service | Flat-Rate & Meet-and-Greet',
     metaDescription:
       'BWI Airport car service with meet-and-greet at baggage claim & 10-minute home-base pickups. Flat rates, no surge, 24/7. Call 877-609-1919 to book.',
     keywords:
@@ -99,7 +99,7 @@ export const AIRPORT_PAGES = [
     shortName: 'Reagan National (DCA)',
     name: 'Ronald Reagan Washington National Airport',
     location: 'Arlington, Virginia',
-    metaTitle: 'DCA Airport Car Service | Reagan National Flat-Rate Chauffeur',
+    metaTitle: 'DCA Airport Car Service | Reagan National Flat-Rate',
     metaDescription:
       'Chauffeured car service at Reagan National (DCA) — luxury sedans & SUVs to DC, Maryland and BWI. Flat-rate, no surge, 24/7. Call 877-609-1919 now.',
     keywords:
@@ -194,7 +194,7 @@ export const AIRPORT_PAGES = [
     shortName: 'Washington Dulles (IAD)',
     name: 'Washington Dulles International Airport',
     location: 'Dulles, Virginia',
-    metaTitle: 'Dulles (IAD) Airport Car Service | 60-Min Free International Wait',
+    metaTitle: 'Dulles (IAD) Airport Car Service | Free 60-Min Wait',
     metaDescription:
       'Luxury car service at Washington Dulles (IAD) with 60 minutes of free international wait. Serving MD, DC & VA, flat rates. Call 877-609-1919.',
     keywords:
@@ -289,7 +289,7 @@ export const AIRPORT_PAGES = [
     shortName: 'Dulles Transfers',
     name: 'Dulles Airport Transfers & Connections',
     location: 'Dulles, Virginia',
-    metaTitle: 'Dulles Airport Transfers | IAD to BWI, DCA, MD & Cruise Ports',
+    metaTitle: 'Dulles Airport Transfers | IAD to BWI, DCA & MD',
     metaDescription:
       'Dulles Airport transfers made simple: IAD to BWI, DCA, Maryland suburbs & Baltimore cruise terminal. Chauffeured, flat-rate. Call 877-609-1919.',
     keywords:

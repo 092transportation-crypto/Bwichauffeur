@@ -6,7 +6,7 @@ export const BLOG_POSTS_BATCH4 = [
     id: 301,
     slug: 'baltimore-running-festival-transportation-guide',
     title: 'Baltimore Running Festival Weekend: A Transportation Guide',
-    seoTitle: 'Baltimore Running Festival Transportation Guide | BWI Chauffeur',
+    seoTitle: 'Baltimore Running Festival Transportation | BWI Chauffeur',
     seoDescription:
       'Street closures, hotel-to-start-line logistics and BWI pickups for Baltimore Running Festival weekend — how to get around the course. Call 877-609-1919.',
     excerpt:
@@ -67,7 +67,7 @@ Marathon Saturday is one of the few mornings in Baltimore where "I will just get
     id: 302,
     slug: 'ravens-game-day-car-service-mt-bank-stadium',
     title: 'Ravens Game Day Car Service at M&T Bank Stadium',
-    seoTitle: 'Ravens Game Day Car Service | M&T Bank Stadium | BWI Chauffeur',
+    seoTitle: 'Ravens Game Day Car Service | BWI Chauffeur',
     seoDescription:
       'Skip stadium parking and post-game gridlock — a reserved chauffeur for Ravens games at M&T Bank Stadium, with pre- and post-game pickup timing. 877-609-1919.',
     excerpt:
@@ -130,7 +130,7 @@ Popular game dates book chauffeurs early, especially primetime and division matc
     id: 303,
     slug: 'preakness-pimlico-laurel-park-weekend-car-service-guide',
     title: 'Preakness & Old Hilltop: A Pimlico and Laurel Park Weekend Car Service Guide',
-    seoTitle: 'Preakness Weekend Car Service | Pimlico & Laurel Park | BWI Chauffeur',
+    seoTitle: 'Preakness Weekend Car Service | BWI Chauffeur',
     seoDescription:
       'Preakness weekend transportation for Pimlico and Laurel Park — infield groups, InfieldFest logistics, and flat-rate chauffeur service. Call 877-609-1919.',
     excerpt:
@@ -189,7 +189,7 @@ Preakness Saturday is one of the highest-demand dates on our calendar, and vehic
     id: 304,
     slug: 'milestone-birthday-party-transportation-baltimore-annapolis',
     title: 'Milestone Birthday Party Transportation in Baltimore & Annapolis',
-    seoTitle: 'Milestone Birthday Party Transportation | Baltimore & Annapolis | BWI Chauffeur',
+    seoTitle: 'Milestone Birthday Party Transportation MD',
     seoDescription:
       'Planning a milestone birthday night out in Baltimore or Annapolis? Here is how a reserved chauffeur keeps the group together. Call 877-609-1919.',
     excerpt:
@@ -252,7 +252,7 @@ The actual point of hiring a chauffeur for a birthday night is simple: everyone 
     id: 305,
     slug: 'private-chauffeur-day-inner-harbor-fells-point-touring',
     title: 'A Private Chauffeur Day: Touring Inner Harbor & Fells Point',
-    seoTitle: 'Private Chauffeur City Tour | Inner Harbor & Fells Point | BWI Chauffeur',
+    seoTitle: 'Private Chauffeur Tour: Inner Harbor & Fells Point',
     seoDescription: 'What an hourly chauffeured day touring Baltimore\'s Inner Harbor and Fells Point looks like — stops, pacing, and why it beats parking twice. Call 877-609-1919.',
     excerpt:
       'An hourly chauffeur turns a Baltimore day of sightseeing from a parking-and-walking exercise into an actual tour. Here is what a typical Inner Harbor and Fells Point day looks like.',
@@ -314,8 +314,8 @@ Hourly, as-directed service is billed for the block of time you reserve, with st
     id: 306,
     slug: 'micro-wedding-elopement-chauffeur-annapolis-baltimore',
     title: 'Micro-Wedding & Elopement Chauffeur Service in Annapolis & Baltimore',
-    seoTitle: 'Micro-Wedding & Elopement Chauffeur | Annapolis & Baltimore | BWI Chauffeur',
-    seoDescription: 'A smaller wedding still deserves a proper arrival. How chauffeured transport works for micro-weddings and elopements in Annapolis and Baltimore. Call 877-609-1919.',
+    seoTitle: 'Micro-Wedding & Elopement Chauffeur Service MD',
+    seoDescription: 'A smaller wedding still deserves a proper arrival. How chauffeured transport works for micro-weddings and elopements in Annapolis. Call 877-609-1919.',
     excerpt:
       'A guest list of twenty does not mean the transportation should be an afterthought. Here is how chauffeured service scales down for an intimate wedding without losing the occasion.',
     date: '2026-09-28',
@@ -376,7 +376,7 @@ Whether your day is a single vehicle for two people or a small group of a dozen 
     id: 307,
     slug: 'bachelor-bachelorette-party-transportation-baltimore',
     title: 'Bachelor & Bachelorette Party Transportation in Baltimore',
-    seoTitle: 'Bachelor & Bachelorette Party Transportation | Baltimore | BWI Chauffeur',
+    seoTitle: 'Bachelor & Bachelorette Party Transportation Baltimore',
     seoDescription:
       'Multi-stop bachelor and bachelorette nights in Baltimore — how to book a Sprinter or SUV for a bar crawl, dinner, and a safe ride home. 877-609-1919.',
     excerpt:
@@ -439,7 +439,7 @@ Tell us your group size, your stops, and your estimated end time, plus whether y
     id: 308,
     slug: 'how-many-cars-wedding-party-transportation-guide',
     title: 'How Many Cars Do You Actually Need for Your Wedding Party?',
-    seoTitle: 'How Many Cars for a Wedding Party? Vehicle Guide | BWI Chauffeur',
+    seoTitle: 'How Many Cars for a Wedding Party? | BWI Chauffeur',
     seoDescription:
       'A practical vehicle-count guide for Maryland wedding parties — bridal party size, guest shuttles, and when one Sprinter replaces three cars. 877-609-1919.',
     excerpt:
@@ -502,7 +502,7 @@ Tell us your guest count, bridal party size, and venue locations, and we will re
     id: 309,
     slug: 'coordinating-chauffeur-wedding-vendor-timeline',
     title: 'Coordinating Your Chauffeur With Your Wedding Vendor Timeline',
-    seoTitle: 'Coordinating a Chauffeur With Your Wedding Timeline | BWI Chauffeur',
+    seoTitle: 'Coordinating a Chauffeur With Your Wedding Timeline',
     seoDescription:
       'How to fit chauffeured transportation into your photographer, planner, and venue timeline so wedding day pickups never become the bottleneck. 877-609-1919.',
     excerpt:
@@ -565,8 +565,8 @@ Send us your day-of timeline as early as you have one, even in draft form. [Book
     id: 310,
     slug: 'proposal-anniversary-chauffeur-baltimore-annapolis',
     title: 'Proposal & Anniversary Chauffeur Experiences in Baltimore & Annapolis',
-    seoTitle: 'Proposal & Anniversary Chauffeur Service | Baltimore & Annapolis | BWI Chauffeur',
-    seoDescription: 'Planning a proposal or anniversary evening in Baltimore or Annapolis? How a private chauffeur handles the timing, the surprise and scenic stops. Call 877-609-1919.',
+    seoTitle: 'Proposal & Anniversary Chauffeur Service MD',
+    seoDescription: 'Planning a proposal or anniversary evening in Baltimore or Annapolis? How a private chauffeur handles the timing, the surprise and scenic. Call 877-609-1919.',
     excerpt:
       'A proposal or a big anniversary usually has one moment that has to go right. Here is how chauffeured transportation supports that moment instead of adding risk to it.',
     date: '2026-09-28',
@@ -627,7 +627,7 @@ Tell us your target moment, your backup plan if weather changes it, and where th
     id: 311,
     slug: 'hourly-as-directed-chauffeur-corporate-roadshows',
     title: 'Hourly As-Directed Chauffeur Service for Corporate Roadshows',
-    seoTitle: 'Hourly Chauffeur Service for Corporate Roadshows | BWI Chauffeur',
+    seoTitle: 'Hourly Chauffeur Service for Corporate Roadshows',
     seoDescription:
       'How hourly, as-directed chauffeur service works for investor roadshows and multi-meeting business days in Baltimore and DC. 877-609-1919.',
     excerpt:
@@ -690,7 +690,7 @@ Tell us your city sequence, approximate meeting count, and team size, and we wil
     id: 312,
     slug: 'corporate-holiday-party-transportation-planning-guide',
     title: 'Corporate Holiday Party Transportation: A Planning Guide for Office Managers',
-    seoTitle: 'Corporate Holiday Party Transportation Planning Guide | BWI Chauffeur',
+    seoTitle: 'Corporate Holiday Party Transportation Guide',
     seoDescription:
       'A practical guide for office managers booking a corporate holiday party shuttle — loop planning, timing and headcount tips. Call 877-609-1919.',
     excerpt:
@@ -815,8 +815,8 @@ If your trip does not cleanly fit one tier — six passengers with heavy luggage
     id: 314,
     slug: 'conference-association-meeting-transportation-baltimore',
     title: 'Conference & Association Meeting Transportation in Baltimore',
-    seoTitle: 'Conference & Association Meeting Transportation | Baltimore | BWI Chauffeur',
-    seoDescription: 'Shuttle logistics for conferences and meetings at the Baltimore Convention Center and downtown hotel blocks — a planning guide for organizers. Call 877-609-1919.',
+    seoTitle: 'Conference & Meeting Transportation in Baltimore',
+    seoDescription: 'Shuttle logistics for conferences and meetings at the Baltimore Convention Center and downtown hotel blocks — a planning guide. Call 877-609-1919.',
     excerpt:
       'Conference transportation is really three separate logistics problems: airport arrivals, hotel-to-venue shuttles, and off-site event transfers. Here is how organizers plan for all three.',
     date: '2026-09-28',
@@ -877,7 +877,7 @@ Share your attendee count, hotel block, venue, and daily schedule, and we will h
     id: 315,
     slug: 'fort-meade-nsa-contractor-visitor-transportation-guide',
     title: 'Fort Meade & NSA Contractor Visitor Transportation Guide',
-    seoTitle: 'Fort Meade & NSA Contractor Visitor Transportation Guide | BWI Chauffeur',
+    seoTitle: 'Fort Meade & NSA Visitor Transportation Guide',
     seoDescription:
       'Reliable chauffeur service for contractors and visitors traveling to Fort Meade and the NSA corridor near Odenton and Laurel, MD. 877-609-1919.',
     excerpt:
@@ -946,7 +946,7 @@ Give us your appointment window, sponsoring organization if relevant, and pickup
     id: 316,
     slug: 'bwi-to-port-of-baltimore-cruise-transfer-guide',
     title: 'BWI to the Port of Baltimore: A Cruise Transfer Guide',
-    seoTitle: 'BWI to Port of Baltimore Cruise Transfer Guide | BWI Chauffeur',
+    seoTitle: 'BWI to Port of Baltimore Cruise Transfer | BWI Chauffeur',
     seoDescription:
       'Flying into BWI before a Baltimore cruise? A complete guide to timing your terminal transfer, luggage, and pickup at the Port of Baltimore. 877-609-1919.',
     excerpt:
@@ -1009,7 +1009,7 @@ Give us your flight details, cruise line, and boarding cutoff time, and we will 
     id: 317,
     slug: 'family-reunion-airport-transportation-sprinter-van-guide',
     title: 'Family Reunion Airport Transportation: Why a Sprinter Van Solves the Group Problem',
-    seoTitle: 'Family Reunion Airport Transportation | Sprinter Van Guide | BWI Chauffeur',
+    seoTitle: 'Family Reunion Airport Sprinter Van Transportation',
     seoDescription:
       'Coordinating airport pickups for a large family reunion? A Sprinter van consolidates multiple flights and generations into one reliable transfer. 877-609-1919.',
     excerpt:
@@ -1072,8 +1072,8 @@ Tell us flight numbers, arrival windows, headcount, any car seat needs, and your
     id: 318,
     slug: 'winter-weather-flight-delay-playbook-bwi',
     title: 'The Winter Weather & Flight Delay Playbook for BWI Travelers',
-    seoTitle: 'Winter Weather & Flight Delay Playbook | BWI Airport | BWI Chauffeur',
-    seoDescription: 'How BWI travelers should plan around winter weather delays — flight tracking, pickup rescheduling and why a chauffeur beats rideshare in snow. Call 877-609-1919.',
+    seoTitle: 'Winter Weather & Flight Delay Playbook | BWI',
+    seoDescription: 'How BWI travelers should plan around winter weather delays — flight tracking, pickup rescheduling and why a chauffeur beats rideshare. Call 877-609-1919.',
     excerpt:
       'Snow and ice turn a normal BWI travel day into a guessing game. Here is a practical playbook for handling delays without losing the whole day to stress.',
     date: '2026-09-28',
@@ -1134,7 +1134,7 @@ A winter weather day at BWI is manageable with the right setup: check status ear
     id: 319,
     slug: 'combining-air-travel-marc-train-penn-station-chauffeur',
     title: 'Combining Air Travel and the MARC Train or Penn Station With a Private Chauffeur',
-    seoTitle: 'BWI, MARC Train & Penn Station With a Private Chauffeur | BWI Chauffeur',
+    seoTitle: 'BWI, MARC Train & Penn Station Chauffeur Service',
     seoDescription:
       'Flying into BWI and continuing by MARC train or Amtrak from Baltimore Penn Station? Here is how a chauffeur bridges the two legs smoothly. 877-609-1919.',
     excerpt:
@@ -1197,7 +1197,7 @@ Tell us your flight details and which rail station and train you are targeting, 
     id: 320,
     slug: 'national-harbor-mgm-transportation-from-bwi',
     title: 'National Harbor & MGM Transportation From BWI: What to Know',
-    seoTitle: 'National Harbor & MGM Transportation From BWI | BWI Chauffeur',
+    seoTitle: 'National Harbor & MGM Transportation From BWI',
     seoDescription:
       'Traveling from BWI to National Harbor or MGM National Harbor? Drive time, pickup logistics, and what to expect from a chauffeured transfer. 877-609-1919.',
     excerpt:
