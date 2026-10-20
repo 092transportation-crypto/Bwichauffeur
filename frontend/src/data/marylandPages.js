@@ -7,6 +7,7 @@ import { MARYLAND_BATCH5 } from './marylandPagesBatch5';
 import { MARYLAND_BATCH6 } from './marylandPagesBatch6';
 import { MARYLAND_BATCH7 } from './marylandPagesBatch7';
 import { MARYLAND_BATCH8 } from './marylandPagesBatch8';
+import { MARYLAND_BATCH9 } from './marylandPagesBatch9';
 
 export const MARYLAND_PAGES = [
   {
@@ -67,6 +68,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "Rockville clients book us for corporate travel for I-270 biotech firms, court and county-government appointments, Montgomery College events, weddings at Glenview Mansion and nights out at Rockville Town Square. Corporate travelers from the Nuclear Regulatory Commission, Westat, the Montgomery County government complex and the biotech and health-science firms clustered along Shady Grove Road and the I-270 corridor keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Cambria Hotel Rockville, the Hilton Washington DC/Rockville and the Sheraton Rockville.",
           "Weddings and celebrations at Glenview Mansion get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
+        ]
+      },
+      {
+        "h2": "Rockville's rush-hour patterns and downtown closures",
+        "paragraphs": [
+          "Rockville Pike (MD-355) carries the heaviest retail traffic in the city past Congressional Plaza and the Twinbrook and White Flint corridors, and it backs up predictably between 4:30 and 6:30 p.m. on weekdays — a pattern our chauffeurs route around using Veirs Mill Road or the I-270 frontage roads rather than sitting in it. The I-270 spur's merge onto the Beltway near the Montrose Road interchange is the other chokepoint we plan for on every airport run, since a few minutes lost there can cascade into a much longer delay during the evening commute.",
+          "Downtown, Rockville Town Square closes sections of Maryland Avenue and East Middle Lane for its Wednesday and Saturday farmers market and for seasonal events like the winter Hanukkah and holiday tree lightings, which can shift the exact curbside pickup spot for a Town Square address. We confirm the current access point with you before pickup on those dates rather than defaulting to a closed street. As with every BWI Chauffeur reservation, sedan and SUV bookings cancel free up to 3 hours before pickup, and Sprinter vans or stretch limousines booked for a Glenview Mansion wedding or a graduation weekend cancel free up to 12 hours before pickup."
         ]
       }
     ],
@@ -234,6 +242,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "Bethesda clients book us for NIH and Walter Reed visits, Marriott and Lockheed executive travel, Strathmore concerts, Congressional Country Club events and dinners on Bethesda Row. Corporate travelers from NIH, Walter Reed, Marriott International, Lockheed Martin's Rockledge Drive headquarters and the law, consulting and medical practices around the Bethesda Metro keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Hyatt Regency Bethesda, the Bethesda Marriott, the Bethesdan Hotel and the Canopy by Hilton at Pike & Rose.",
           "Weddings and celebrations at the Music Center at Strathmore get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
+        ]
+      },
+      {
+        "h2": "Bethesda Row's valet pattern and the Chevy Chase border",
+        "paragraphs": [
+          "Bethesda Row's restaurant and theater district along Woodmont Avenue and Bethesda Avenue runs on valet and metered street parking that fills by early evening on a Friday or Saturday, and our chauffeurs plan a pickup spot on a quieter cross street — Edgemoor Lane or Arlington Road — rather than competing with the valet lines directly in front of a restaurant. Suburban Hospital, a Johns Hopkins Medicine member hospital just off Old Georgetown Road, is another frequent stop, and we time patient and family pickups around appointment or discharge windows rather than a generic estimate.",
+          "Along the Chevy Chase border and the Capital Crescent Trail corridor, weekday trips often combine a Bethesda pickup with a Chevy Chase or Friendship Heights drop-off on the same reservation. As with every BWI Chauffeur booking, sedan and SUV reservations cancel free up to 3 hours before pickup, and Sprinter vans or stretch limousines booked for a Strathmore evening or a Congressional Country Club event cancel free up to 12 hours before pickup."
         ]
       }
     ],
@@ -560,6 +575,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "Silver Spring clients book us for FDA and NOAA business travel, Fillmore concerts, AFI film festival weeks, Holy Cross medical visits and Takoma Park and Four Corners family airport runs. Corporate travelers from NOAA, the FDA at White Oak, Holy Cross Hospital, the Montgomery County government offices and the media and nonprofit employers downtown keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Sheraton Silver Spring, the Courtyard Silver Spring Downtown and the Homewood Suites.",
           "Weddings and celebrations at The Fillmore Silver Spring get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
+        ]
+      },
+      {
+        "h2": "Ellsworth Drive event nights and the FDA security window",
+        "paragraphs": [
+          "Downtown Silver Spring's Ellsworth Drive pedestrian district closes to vehicle traffic for concerts at The Fillmore and for seasonal events like Soupstock and the Thanksgiving Parade staging, which shifts the nearest legal pickup point to Wayne Avenue or Fenton Street on those dates — our chauffeurs confirm the exact spot with you ahead of time rather than guessing at a closed block. For FDA White Oak visitors, we back-time the pickup from your confirmed security-check-in window rather than a generic drive estimate, since arriving even a few minutes outside it can mean a significant delay re-entering the queue.",
+          "As with every BWI Chauffeur reservation, sedan and SUV bookings cancel free up to 3 hours before pickup, and Sprinter vans or stretch limousines booked for a Fillmore show or an AFI festival weekend cancel free up to 12 hours before pickup."
         ]
       }
     ],
@@ -1375,6 +1397,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "Frederick clients book us for Fort Detrick and Riverside Research Park business travel, Ceresville Mansion and downtown weddings, Frederick Keys games, wine-country outings to Linganore and Black Ankle and Hood College weekends. Corporate travelers from Fort Detrick, Frederick Health, Hood College, the biotech firms of the Riverside Research Park and the county government downtown keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Hilton Garden Inn Frederick, the Courtyard Frederick and the Visitation Hotel on East Church Street.",
           "Weddings and celebrations at Ceresville Mansion get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Frederick County."
+        ]
+      },
+      {
+        "h2": "Downtown Frederick's historic street grid and Fort Detrick's gate procedure",
+        "paragraphs": [
+          "Downtown Frederick's Market Street and Patrick Street grid dates to the 18th century, with narrow lanes and limited parking around Carroll Creek Linear Park that fill fast during the spring In the Street festival and the winter Candlelight House Tour, both of which close sections of Market Street to vehicles. We confirm a drop-off point just outside the closure rather than leaving guests to find their own way in on those dates. Fort Detrick visitors work against a stricter clock than a typical office pickup — badge appointments and escort coordination are scheduled in advance — so we back-time Fort Detrick pickups from the sponsor's confirmed arrival window rather than a generic drive estimate.",
+          "As with every BWI Chauffeur reservation, sedan and SUV bookings cancel free up to 3 hours before pickup, and Sprinter vans or stretch limousines booked for a Ceresville Mansion wedding or a Hood College family weekend cancel free up to 12 hours before pickup."
         ]
       }
     ],
@@ -8989,6 +9018,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH6,
   ...MARYLAND_BATCH7,
   ...MARYLAND_BATCH8,
+  ...MARYLAND_BATCH9,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);

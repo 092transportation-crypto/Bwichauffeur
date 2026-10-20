@@ -36,6 +36,24 @@ export const AIRPORT_PAGES = [
       'Standard procedure works like this: we track your inbound flight from departure, your chauffeur stages in the nearby cell lot as you taxi in, and the moment you text or call that you have your luggage, the car rolls to your door — typically under five minutes. International arrivals clearing customs at Concourse E get extended complimentary wait time, because we know a customs hall can be unpredictable. Late-night arrival after the last Southwest bank? We run twenty-four hours, and Linthicum is close enough that even a 2 a.m. pickup is routine for us rather than a special request.',
       'Departures are just as considered. We plan your pickup around real conditions on I-95, the Baltimore–Washington Parkway, and I-195, all of which we drive daily, and we build in a cushion for TSA lines that swell around holiday weekends and Monday mornings. Whether you are leaving from Fells Point, an Annapolis waterfront home, a Columbia office park, or a Bethesda hotel, your quote covers door to terminal door. One vehicle, one chauffeur, one flat rate — call for a quote and the number you hear is the number you pay.',
     ],
+    neighborhoods: [
+      {
+        h3: 'Linthicum, Glen Burnie & our Anne Arundel County home base',
+        text: 'Our dispatch base sits in Linthicum, a few minutes from the terminal loop, which is also why Linthicum and neighboring Glen Burnie get some of the fastest response times anywhere on our map — often a car within minutes of a same-day request. We know the Nursery Road and Camp Meade Road approaches to the terminal cold, including which cut-through avoids the backup on Elkridge Landing Road during a shift change at the airport itself.',
+      },
+      {
+        h3: 'Downtown Baltimore, Fells Point & Federal Hill',
+        text: 'A pickup from Fells Point\'s cobblestone streets or a Federal Hill rowhouse runs down I-395 and I-95 South to the BWI exit, typically 25 to 35 minutes outside of rush hour. Our chauffeurs plan around Inner Harbor event traffic — an Orioles game at Camden Yards or a cruise departure at the Locust Point terminal can both add real time to that drive, and we check the schedule before confirming your pickup window.',
+      },
+      {
+        h3: 'Annapolis & the Naval Academy',
+        text: 'Annapolis runs via Route 97 and I-97 south to the BWI connector, usually 30 to 40 minutes. Commissioning Week in late May and any Naval Academy home football Saturday both add meaningful congestion around the Route 50/Route 97 interchange, and it is one of the few predictable traffic patterns in our coverage area that we build into every Annapolis-to-BWI quote without being asked.',
+      },
+      {
+        h3: 'Columbia, Howard County & the Route 175 corridor',
+        text: 'Columbia and the rest of Howard County reach BWI via Route 175 and I-95, typically 20 to 25 minutes — one of the shorter approaches on our network. Merriweather Post Pavilion concert nights are the one event that reliably slows this corridor, and our chauffeurs check the venue\'s calendar before setting a pickup time on a concert night.',
+      },
+    ],
     faqs: [
       {
         q: 'How does meet-and-greet pickup work at BWI?',
@@ -113,6 +131,24 @@ export const AIRPORT_PAGES = [
       'Timing at DCA is really a story about the roads around it. The George Washington Parkway, Route 1, and the 14th Street Bridge crossings can double a trip during the morning and evening peaks, and Nationals games or Mall events add their own ripples. We factor all of it into your pickup window using live conditions rather than optimistic map estimates. Heading north toward Maryland, your chauffeur will choose between the BW Parkway, I-295, and I-95 based on what the corridor is actually doing that afternoon — a judgment call that routinely saves twenty minutes.',
       'Departure runs to DCA get the same discipline. For a shuttle flight with carry-on only we can time your arrival lean; for a checked-bag itinerary on a holiday Friday we will build in honest margin and tell you why. Service area is wide: we regularly carry travelers between Reagan and Annapolis, Baltimore, Bethesda, Silver Spring, Columbia, and the entire BWI business corridor. Whatever the route, the quote comes first and the price never changes en route — flat rate, call for quote, done.',
     ],
+    neighborhoods: [
+      {
+        h3: 'Bethesda & the NIH, Marriott and Lockheed Martin corridor',
+        text: 'Bethesda is one of the shortest DCA runs we offer, typically 25 to 40 minutes via the GW Parkway or the Beltway, which is exactly why it is a popular trip for executives tied to the National Institutes of Health campus, Marriott International\'s headquarters, or Lockheed Martin\'s corporate headquarters. We time pickups from NIH specifically around its visitor badge window rather than a generic drive estimate.',
+      },
+      {
+        h3: 'Silver Spring & the Colesville Road office corridor',
+        text: 'Silver Spring sits about 14 miles from DCA, typically 30 to 45 minutes depending on the Beltway. Our chauffeurs plan around the Colesville Road and Georgia Avenue corridor\'s weekday rush, and around FDA White Oak campus visitor security-check-in windows for travelers heading there directly from the airport.',
+      },
+      {
+        h3: 'Capitol Hill, the National Mall & downtown DC',
+        text: 'A DCA pickup headed into downtown Washington crosses the 14th Street Bridge into a street grid shaped by committee hearings, state visits and Mall-area road closures that can appear with little notice. Our dispatchers check the day\'s official schedule before confirming a pickup window for any Capitol Hill or Mall-adjacent drop-off.',
+      },
+      {
+        h3: 'Old Town Alexandria & Arlington',
+        text: 'Just across the Potomac, Old Town Alexandria and Arlington are some of the shortest trips we run from DCA — often under 15 minutes — though Old Town\'s narrow, one-way colonial-era streets reward a chauffeur who already knows which block has a legal loading spot near King Street.',
+      },
+    ],
     faqs: [
       {
         q: 'Where does my chauffeur meet me at Reagan National?',
@@ -189,6 +225,24 @@ export const AIRPORT_PAGES = [
       'Dulles funnels essentially all arriving passengers back to the main terminal, which keeps our side of the operation simple. Domestic travelers ride the AeroTrain or a mobile lounge from the midfield concourses and exit near baggage claim on the lower level; international travelers emerge from the customs doors into the arrivals hall. For international flights we recommend the inside meet: your greeter stands at those doors with a name board, takes a luggage cart’s worth of bags in stride, and leads you to the vehicle. For domestic arrivals, a curbside text-and-pickup at your claim door is usually fastest.',
       'The distances inside Dulles are real — it can be a fifteen-to-twenty-minute journey from a far gate to the curb even with no lines — so we never stage your car prematurely or pressure you to hurry. Dispatch watches three signals: the flight’s actual touchdown, typical customs throughput for that hour, and your text when bags are in hand. The car appears when you do. Overnight arrivals are no obstacle; we monitor red-eyes from Europe and Asia around the clock and staff accordingly.',
       'Leaving the airport, your chauffeur picks the route by conditions: the Dulles Access Road and Toll Road feed toward the Beltway and Route 66, and from there the run to Maryland goes via the American Legion Bridge or around the top of the Beltway to I-95 and the BW Parkway. Figure about an hour to Baltimore-area destinations, more in weekday peaks. Departure trips to IAD from Maryland get generous time budgeting for the same reason in reverse. Every itinerary is quoted as a single flat rate — call for a quote and it will not change afterward.',
+    ],
+    neighborhoods: [
+      {
+        h3: 'Tysons Corner & the Route 7 technology corridor',
+        text: 'Tysons Corner is one of the closer IAD trips at roughly 20 to 30 minutes via the Dulles Toll Road and Route 7, and its dense cluster of technology and consulting firms generates steady corporate airport travel for us, often booked as a standing account with consolidated billing for recurring visitors.',
+      },
+      {
+        h3: 'Reston & Herndon, Dulles\' closest neighbors',
+        text: 'Reston and Herndon sit just minutes from the terminal via the Dulles Access Road, making same-day fly-in meetings genuinely realistic. Our chauffeurs know the Reston Town Center hotel valet pattern and the Herndon Metro station area well enough to make a quick local hop feel as considered as a cross-region transfer.',
+      },
+      {
+        h3: 'Northern Virginia\'s American Legion Bridge approach to Maryland',
+        text: 'For Maryland-bound travelers, the American Legion Bridge across the Potomac is the single biggest variable in an IAD trip\'s timing — a backup there during evening rush can add 20 minutes or more with little warning. We watch that bridge in real time rather than quoting an optimistic straight-line drive estimate.',
+      },
+      {
+        h3: 'Loudoun County & the wine country beyond the airport',
+        text: 'West of Dulles, Loudoun County\'s wineries and historic towns like Leesburg and Middleburg are a popular hourly booking for visitors extending an IAD trip into a day of touring, and our Sprinter vans are a common choice for a group splitting a wine-country day before a return flight.',
+      },
     ],
     faqs: [
       {

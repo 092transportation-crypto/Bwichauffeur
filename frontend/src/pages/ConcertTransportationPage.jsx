@@ -262,6 +262,32 @@ const ConcertTransportationPage = () => {
           </div>
         </section>
 
+        {/* Venue-specific traffic patterns & event-night policy */}
+        <section className="py-16 bg-black">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+              Venue-Specific Traffic Patterns We <span style={{ color: '#D4AF37' }}>Plan Around</span>
+            </h2>
+            <p className="text-gray-300 text-lg mb-6">
+              Every venue on our list has its own egress bottleneck, and knowing it in advance is what actually gets you
+              home faster. CFG Bank Arena's downtown Baltimore load-out backs up onto Baltimore Street and Howard Street
+              for 20 to 30 minutes after a sold-out show, so our chauffeurs stage one block over and walk you to the car
+              rather than idling in the jam. Merriweather Post Pavilion's single-exit lot empties onto Broken Land
+              Parkway and Route 29, and a Columbia-bound pickup there is timed to beat the worst of it by waiting a few
+              extra minutes inside rather than joining the lot queue immediately. Capital One Arena in DC closes curb
+              lanes around 6th and F Street on event nights, which changes the legal pickup spot block by block — we
+              confirm the current spot with venue security before your chauffeur ever arrives.
+            </p>
+            <p className="text-gray-300 text-lg">
+              Event-night pricing works the same as every other BWI Chauffeur booking: one flat rate, confirmed before
+              you book, with no late-night or event surcharge added after the final encore. Cancellations for sedan and
+              SUV event bookings are free up to 3 hours before pickup; Sprinter vans and group event bookings — the more
+              common choice for a concert group splitting one ride — carry a 12-hour free-cancellation window, the same
+              policy that applies to every special-event reservation we run.
+            </p>
+          </div>
+        </section>
+
         {/* Venues grid */}
         <section className="py-16 bg-gray-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

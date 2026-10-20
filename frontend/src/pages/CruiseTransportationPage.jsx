@@ -319,6 +319,16 @@ const CruiseTransportationPage = () => {
               chauffeur will already be watching your ship's estimated dock time on disembarkation
               day, so there's no need to call or coordinate pickup from the ship.
             </p>
+            <h3 className="text-xl font-bold text-[#D4AF37] mt-6 mb-3">Getting to Locust Point: I-95 and Fort Avenue</h3>
+            <p className="text-gray-300 leading-relaxed">
+              The Cruise Maryland Terminal sits in the Locust Point neighborhood on a peninsula south
+              of the Inner Harbor, reached mainly via I-95's Key Highway/Fort Avenue exit or Hanover
+              Street across the Middle Branch. Embarkation-day traffic backs up fastest on Fort Avenue
+              itself as hundreds of vehicles converge on the terminal within the same two-hour window,
+              so our chauffeurs plan the drop-off sequence and timing to avoid arriving in the thick
+              of that surge, delivering you close enough to Fort McHenry to see it from the terminal
+              approach without adding it as an unplanned detour.
+            </p>
           </div>
 
           {/* FAQ Section */}

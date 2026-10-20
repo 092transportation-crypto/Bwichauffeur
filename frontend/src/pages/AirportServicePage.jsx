@@ -175,6 +175,26 @@ const AirportServicePage = ({ airport }) => {
           </div>
         </section>
 
+        {/* Neighborhoods, landmarks & traffic patterns (optional, per-airport) */}
+        {Array.isArray(airport.neighborhoods) && airport.neighborhoods.length > 0 && (
+          <section className="py-16 bg-black" data-testid="airport-neighborhoods">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8">
+                Neighborhoods, Landmarks &amp; Traffic Patterns Near{' '}
+                <span style={{ color: '#D4AF37' }}>{airport.shortName}</span>
+              </h2>
+              <div className="space-y-6">
+                {airport.neighborhoods.map((n) => (
+                  <div key={n.h3} className="bg-gray-900/50 border border-gray-800 rounded-xl p-6">
+                    <h3 className="text-xl font-bold text-white mb-2">{n.h3}</h3>
+                    <p className="text-gray-300 leading-relaxed">{n.text}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Features */}
         <section className="py-16 bg-black">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
