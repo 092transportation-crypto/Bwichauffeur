@@ -87,6 +87,14 @@ const CoveragePage = () => {
           <p>
             Our chauffeurs know the region well. We use GPS navigation and real-time traffic monitoring to pick the best routes. You arrive on time, whatever the traffic or weather.
           </p>
+
+          <p>
+            Coverage beyond Maryland is just as routine for us. We run regular long-distance transfers to the Delaware beaches (Rehoboth, Bethany and Dewey), to Ocean City on Maryland's Eastern Shore, and up to Philadelphia International Airport for travelers whose flights connect better from PHL. Northern Virginia trips frequently pair with a DCA or IAD transfer, and a growing share of our corporate accounts route recurring travel between a Maryland or DC office and one of these farther destinations on a standing monthly schedule.
+          </p>
+
+          <p>
+            If your address is not on this page, that is a gap in our list, not in our service area. Call <a href="tel:+18776091919" className="text-[#D4AF37] hover:text-[#F4E5C3] underline">877-609-1919</a> or use the quote form below with your exact pickup and drop-off addresses, and dispatch will confirm coverage and a flat rate before you book.
+          </p>
         </div>
 
         {/* Coverage Highlights */}

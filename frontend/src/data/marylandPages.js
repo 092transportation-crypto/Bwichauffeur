@@ -8,6 +8,7 @@ import { MARYLAND_BATCH6 } from './marylandPagesBatch6';
 import { MARYLAND_BATCH7 } from './marylandPagesBatch7';
 import { MARYLAND_BATCH8 } from './marylandPagesBatch8';
 import { MARYLAND_BATCH9 } from './marylandPagesBatch9';
+import { MARYLAND_BATCH10 } from './marylandPagesBatch10';
 
 export const MARYLAND_PAGES = [
   {
@@ -9019,6 +9020,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH7,
   ...MARYLAND_BATCH8,
   ...MARYLAND_BATCH9,
+  ...MARYLAND_BATCH10,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);

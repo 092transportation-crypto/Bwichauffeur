@@ -34,9 +34,26 @@ function routesFromSitemap() {
 }
 
 // Per-page tags come from react-helmet; drop the shell's defaults they replace.
+//
+// public/index.html also ships two static <script type="application/ld+json">
+// blocks (a site-wide LocalBusiness schema and a Service schema with a nested
+// LocalBusiness) so pages with no per-page schema still carry one. Almost
+// every route-specific page (MarylandPage, BlogPostPage, CityPage, RoutePage,
+// VenuePage, AirportServicePage, HomePage, etc.) renders its own LocalBusiness
+// JSON-LD via Helmet, which previously left two LocalBusiness blocks in the
+// final HTML (the static one plus the per-page one) — a duplicate-schema bug.
+// When the per-page head already supplies a (Helmet-tagged, data-rh="true")
+// LocalBusiness block, the shell's static ld+json blocks are redundant and are
+// stripped here. Pages with no per-page schema of their own (e.g. /blog,
+// /privacy-policy, /terms-conditions) keep the shell's static blocks as their
+// only schema, so nothing loses structured data.
+const STATIC_LD_JSON_RE = /<script type="application\/ld\+json">[\s\S]*?<\/script>\s*/g;
 function buildHtml(shell, { html, title, head }) {
   let out = shell;
   if (title) out = out.replace(/<title>[\s\S]*?<\/title>/, "");
+  if (/data-rh="true"[^>]*type="application\/ld\+json"[^>]*>\{"@context":"https:\/\/schema\.org","@type":"LocalBusiness"/.test(head)) {
+    out = out.replace(STATIC_LD_JSON_RE, (block) => (block.includes("LocalBusiness") ? "" : block));
+  }
   out = out.replace("</head>", `${title}${head}</head>`);
   return out.replace(/<div id="root">\s*<\/div>/, `<div id="root">${html}</div>`);
 }

@@ -35,7 +35,7 @@ for (const f of files) {
   existingPaths.add(rel === "/." ? "/" : rel);
 }
 
-let issues = { title: [], desc: [], dupTitle: {}, dupDesc: {}, dupContent: {}, brokenLinks: [], missingTitle: [], missingCanonical: [], badJsonLd: [], sitemapBad: [], missingH1: [], brokenImages: [] };
+let issues = { title: [], desc: [], dupTitle: {}, dupDesc: {}, dupContent: {}, brokenLinks: [], missingTitle: [], missingCanonical: [], badJsonLd: [], sitemapBad: [], missingH1: [], brokenImages: [], missingAlt: [], thinContent: [] };
 
 const titleMap = new Map();
 const descMap = new Map();
@@ -95,6 +95,7 @@ for (const p of pages) {
   const mainMatch = p.html.match(/<main[^>]*>([\s\S]*?)<\/main>/);
   const bodySrc = mainMatch ? mainMatch[1] : p.html;
   const textOnly = bodySrc.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  const textOnlyFull = textOnly;
   const fingerprint = textOnly.slice(0, 2000); // first 2000 chars as fingerprint
   if (fingerprint.length > 100) {
     if (!contentMap.has(fingerprint)) contentMap.set(fingerprint, []);
@@ -127,6 +128,30 @@ for (const p of pages) {
     const onDiskBuild = path.join(BUILD, imgPath);
     if (!fs.existsSync(onDisk) && !fs.existsSync(onDiskBuild)) {
       issues.brokenImages.push({ route: p.route, src: imgPath });
+    }
+  }
+
+  // missing/empty alt text on real content <img> tags
+  const imgTagRe = /<img\b[^>]*>/g;
+  let imgTagMatch;
+  while ((imgTagMatch = imgTagRe.exec(p.html))) {
+    const tag = imgTagMatch[0];
+    const altMatch = tag.match(/alt="([^"]*)"/);
+    if (!altMatch || !altMatch[1].trim()) {
+      const srcMatch = tag.match(/src="([^"]*)"/);
+      issues.missingAlt.push({ route: p.route, src: srcMatch ? srcMatch[1] : "(no src)" });
+    }
+  }
+
+  // thin content: visible text inside <main>, stripped of tags, under 600 words.
+  // Only flagged for page types expected to carry substantial copy (maryland
+  // pages, guides/blog posts, city/route/venue pages) - not utility pages like
+  // /booking or /contact.
+  const UTILITY_ROUTES = new Set(["/", "/booking", "/contact", "/faq", "/privacy-policy", "/terms-conditions", "/blog"]);
+  if (!UTILITY_ROUTES.has(p.route)) {
+    const words = textOnlyFull.split(/\s+/).filter(Boolean).length;
+    if (words > 0 && words < 600) {
+      issues.thinContent.push({ route: p.route, words });
     }
   }
 
@@ -197,6 +222,8 @@ const out = {
   brokenImages: issues.brokenImages,
   badJsonLd: issues.badJsonLd,
   sitemapBad: issues.sitemapBad,
+  missingAlt: issues.missingAlt,
+  thinContent: issues.thinContent,
 };
 
 fs.writeFileSync(path.join(__dirname, "seo-audit-report.json"), JSON.stringify(out, null, 2));
@@ -214,4 +241,6 @@ console.log("Broken internal links:", out.brokenLinks.length);
 console.log("Broken internal images:", out.brokenImages.length);
 console.log("Invalid JSON-LD:", out.badJsonLd.length);
 console.log("Sitemap URLs with no matching page:", out.sitemapBad.length);
+console.log("Images missing alt text:", out.missingAlt.length);
+console.log("Pages under 600 words (excluding utility pages):", out.thinContent.length);
 console.log("\nFull detail written to scripts/seo-audit-report.json");
