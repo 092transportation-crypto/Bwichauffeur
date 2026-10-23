@@ -7,6 +7,7 @@ import {
   Mail,
   MapPin,
   Clock,
+  ShieldCheck,
   CheckCircle2,
   Send,
   Loader2,
@@ -237,6 +238,21 @@ const ContactPage = () => {
                       <p className="text-sm text-gray-400 mt-1">
                         Bookings, dispatch &amp; support around the clock.
                       </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-gradient-to-br from-gray-900 to-black border-[#D4AF37]/30">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-11 h-11 rounded-full bg-[#D4AF37]/15 border border-[#D4AF37]/40 flex items-center justify-center flex-shrink-0">
+                      <ShieldCheck className="h-5 w-5 text-[#D4AF37]" />
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">Licensed &amp; Insured</p>
+                      <p className="text-white">Maryland PSC Carrier #6325</p>
+                      <p className="text-gray-400 text-sm mt-1">$5M commercial liability coverage. Proof available on request.</p>
                     </div>
                   </div>
                 </CardContent>

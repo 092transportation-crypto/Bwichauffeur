@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Youtube, Linkedin, ArrowRight } from 'lucide-react';
+import { Phone, Mail, MapPin, ShieldCheck, Facebook, Instagram, Twitter, Youtube, Linkedin, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -138,6 +138,10 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 text-[#D4AF37] mt-1" />
                 <span>9836 Lyon Ave<br />Laurel, MD 20723</span>
               </div>
+              <div className="flex items-start space-x-3 text-gray-400">
+                <ShieldCheck className="h-5 w-5 text-[#D4AF37] mt-1" />
+                <span>Licensed &amp; Insured<br />Maryland PSC Carrier #6325</span>
+              </div>
             </div>
           </div>
         </div>
@@ -180,7 +184,7 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-500 text-sm">
-              © 2026 BWI Chauffeur. All rights reserved.
+              © 2026 BWI Chauffeur. All rights reserved. · 9836 Lyon Ave, Laurel, MD 20723 · Maryland PSC Carrier #6325
             </p>
             <div className="flex space-x-6 text-sm">
               <Link to="/privacy-policy" className="text-gray-500 hover:text-[#D4AF37] transition-colors">Privacy Policy</Link>

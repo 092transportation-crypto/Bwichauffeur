@@ -46,8 +46,8 @@ const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1.5">
           <p className="text-[11px] sm:text-xs md:text-sm font-semibold text-center tracking-wide leading-tight">
-            <span className="hidden md:inline">Licensed &amp; Insured | Maryland PSC Carrier | 12-Vehicle Fleet | 24/7 Availability</span>
-            <span className="md:hidden">Licensed &amp; Insured · MD PSC Carrier · 12 Vehicles · 24/7</span>
+            <span className="hidden md:inline">Licensed &amp; Insured | Maryland PSC Carrier #6325 | 12-Vehicle Fleet | 24/7 Availability</span>
+            <span className="md:hidden">Licensed &amp; Insured · MD PSC Carrier #6325 · 12 Vehicles · 24/7</span>
           </p>
         </div>
       </div>

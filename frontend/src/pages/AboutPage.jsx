@@ -112,6 +112,9 @@ const AboutPage = () => {
               <p>
                 We serve all of <Link to="/coverage" className="text-[#D4AF37] hover:underline">Maryland, Delaware, Washington DC, and Northern Virginia</Link>. We specialize in <Link to="/services" className="text-[#D4AF37] hover:underline">airport transportation</Link>, corporate car service, weddings, and special events. Fortune 500 companies, law firms, and discerning travelers choose us because we deliver.
               </p>
+              <p>
+                BWI Chauffeur operates under <strong className="text-[#D4AF37]">Maryland PSC Carrier No. 6325</strong>, is fully licensed and commercially insured, and is based at 9836 Lyon Ave, Laurel, MD 20723. We're happy to provide proof of licensing and insurance on request — call <a href="tel:+18776091919" className="text-[#D4AF37] hover:underline">877-609-1919</a> with any question before you book.
+              </p>
             </div>
           </div>
 
@@ -197,6 +200,31 @@ const AboutPage = () => {
               ))}
             </div>
           </div>
+        </div>
+
+        {/* Licensing & Insurance */}
+        <div className="mb-20 grid md:grid-cols-3 gap-6">
+          <Card className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 border-[#D4AF37]/20">
+            <CardContent className="p-6">
+              <Shield className="h-8 w-8 text-[#D4AF37] mb-3" />
+              <h3 className="text-white font-bold mb-1">Licensed Carrier</h3>
+              <p className="text-gray-400 text-sm">Maryland PSC Carrier No. 6325 — verifiable with the Maryland Public Service Commission.</p>
+            </CardContent>
+          </Card>
+          <Card className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 border-[#D4AF37]/20">
+            <CardContent className="p-6">
+              <CheckCircle className="h-8 w-8 text-[#D4AF37] mb-3" />
+              <h3 className="text-white font-bold mb-1">Commercially Insured</h3>
+              <p className="text-gray-400 text-sm">$5 million in commercial liability coverage on every vehicle and every trip.</p>
+            </CardContent>
+          </Card>
+          <Card className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 border-[#D4AF37]/20">
+            <CardContent className="p-6">
+              <Users className="h-8 w-8 text-[#D4AF37] mb-3" />
+              <h3 className="text-white font-bold mb-1">Our Office</h3>
+              <p className="text-gray-400 text-sm">9836 Lyon Ave, Laurel, MD 20723 — <a href="tel:+18776091919" className="text-[#D4AF37] hover:underline">877-609-1919</a></p>
+            </CardContent>
+          </Card>
         </div>
 
         {/* Why Choose Us */}
