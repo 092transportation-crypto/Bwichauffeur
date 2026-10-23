@@ -4,9 +4,12 @@ import { Users, Briefcase, Star, Car, ArrowRight } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 
 const Fleet = () => {
-  // The 8 fleet categories, in exact order — kept in sync with 92limo.com.
+  // The 7 fleet categories, in exact order — kept in sync with 92limo.com.
+  // Each `slug` maps to a full spec sheet in src/data/fleetDetails.js, shown
+  // at /fleet/:slug when a card is clicked.
   const vehicles = [
     {
+      slug: 'business-sedan',
       category: 'Business Sedan',
       name: 'Mercedes-Benz E-Class 2023+ or similar',
       image: '/images/mercedes-e-class.webp',
@@ -16,6 +19,7 @@ const Fleet = () => {
         'Perfect for solo executives and business travelers. Ideal for airport transfers and corporate travel. Mercedes E-Class or similar.'
     },
     {
+      slug: 'first-class-sedan',
       category: 'First Class Sedan',
       name: 'BMW 7 Series / Mercedes S-Class 2023+ or similar',
       image: '/images/bmw-7-series.webp',
@@ -25,6 +29,7 @@ const Fleet = () => {
         'The pinnacle of sedan luxury for discerning travelers who accept nothing less. BMW 7 Series, Mercedes S-Class or similar.'
     },
     {
+      slug: 'midsize-suv',
       category: 'Midsize SUV',
       name: 'Lincoln Nautilus 2023+ or similar',
       image: '/images/lincoln-nautilus.webp',
@@ -34,15 +39,17 @@ const Fleet = () => {
         'The perfect balance of comfort and practicality for families and travelers with extra luggage. Lincoln Nautilus or similar.'
     },
     {
+      slug: 'luxury-suv',
       category: 'Luxury SUV',
-      name: 'Chevrolet Suburban 2023+ or similar',
+      name: 'GMC Yukon XL Denali 2023+ or similar',
       image: '/images/chevy-suburban.webp',
       passengers: '5',
       luggage: '5',
       description:
-        'Maximum space without compromising luxury. Ideal for larger groups and extended journeys. Chevrolet Suburban or similar.'
+        'Maximum space without compromising luxury. Ideal for larger groups and extended journeys. GMC Yukon XL Denali or similar.'
     },
     {
+      slug: 'premium-suv',
       category: 'Premium SUV',
       name: 'Cadillac Escalade 2023+ or similar',
       image: '/images/cadillac-escalade.webp',
@@ -52,6 +59,7 @@ const Fleet = () => {
         "America's premier luxury SUV with commanding presence. Cadillac Escalade or similar."
     },
     {
+      slug: 'sprinter-shuttle',
       category: 'Sprinter Shuttle',
       name: 'Mercedes Sprinter 2023+ or similar',
       image: '/images/sprinter-shuttle-seats.webp',
@@ -61,6 +69,7 @@ const Fleet = () => {
         'Comfortable group transportation for airport runs, corporate events, and group outings. Mercedes Sprinter or similar.'
     },
     {
+      slug: 'sprinter-executive',
       category: 'Sprinter Executive',
       name: 'Mercedes Sprinter 2023+ or similar',
       image: '/images/mercedes-sprinter.webp',
@@ -99,40 +108,42 @@ const Fleet = () => {
               data-testid={`fleet-card-${index}`}
             >
               {/* Vehicle Image (gold placeholder behind, in case image not yet uploaded) */}
-              <div className="relative h-64 overflow-hidden bg-gradient-to-br from-gray-800 via-gray-900 to-black">
-                {/* Placeholder layer */}
-                <div
-                  aria-hidden="true"
-                  className="absolute inset-0 opacity-20"
-                  style={{
-                    backgroundImage:
-                      'repeating-linear-gradient(45deg, #D4AF37 0, #D4AF37 2px, transparent 2px, transparent 18px)'
-                  }}
-                />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#D4AF37]/15 border border-[#D4AF37]/40">
-                    <Car className="h-7 w-7 text-[#D4AF37]" />
+              <Link to={`/fleet/${vehicle.slug}`} data-testid={`fleet-details-link-${index}`} aria-label={`View details for the ${vehicle.category}`}>
+                <div className="relative h-64 overflow-hidden bg-gradient-to-br from-gray-800 via-gray-900 to-black">
+                  {/* Placeholder layer */}
+                  <div
+                    aria-hidden="true"
+                    className="absolute inset-0 opacity-20"
+                    style={{
+                      backgroundImage:
+                        'repeating-linear-gradient(45deg, #D4AF37 0, #D4AF37 2px, transparent 2px, transparent 18px)'
+                    }}
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#D4AF37]/15 border border-[#D4AF37]/40">
+                      <Car className="h-7 w-7 text-[#D4AF37]" />
+                    </div>
+                  </div>
+
+                  {/* Actual image (sits on top of placeholder) */}
+                  <img
+                    src={vehicle.image}
+                    alt={`${vehicle.name} — ${vehicle.category} for BWI airport car service and Baltimore black car service, seats ${vehicle.passengers}`}
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="600"
+                    onError={handleImgError}
+                    className="absolute inset-0 w-full h-full object-cover z-10 group-hover:scale-105 transition-transform duration-500"
+                  />
+
+                  {/* Overlay + category */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none z-20" />
+                  <div className="absolute bottom-4 left-4 right-4 z-30">
+                    <h3 className="text-2xl font-bold text-white drop-shadow-lg">{vehicle.category}</h3>
                   </div>
                 </div>
-
-                {/* Actual image (sits on top of placeholder) */}
-                <img
-                  src={vehicle.image}
-                  alt={`${vehicle.name} — ${vehicle.category} for BWI airport car service and Baltimore black car service, seats ${vehicle.passengers}`}
-                  loading="lazy"
-                  decoding="async"
-                  width="800"
-                  height="600"
-                  onError={handleImgError}
-                  className="absolute inset-0 w-full h-full object-cover z-10 group-hover:scale-105 transition-transform duration-500"
-                />
-
-                {/* Overlay + category */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none z-20" />
-                <div className="absolute bottom-4 left-4 right-4 z-30">
-                  <h3 className="text-2xl font-bold text-white drop-shadow-lg">{vehicle.category}</h3>
-                </div>
-              </div>
+              </Link>
 
               <CardContent className="p-6 flex flex-col flex-1">
                 {/* Category label — gold, at top */}
@@ -141,7 +152,9 @@ const Fleet = () => {
                 </span>
 
                 {/* Vehicle name */}
-                <h3 className="text-lg font-bold text-white mb-4">{vehicle.name}</h3>
+                <Link to={`/fleet/${vehicle.slug}`} className="hover:text-[#D4AF37] transition-colors">
+                  <h3 className="text-lg font-bold text-white mb-4">{vehicle.name}</h3>
+                </Link>
 
                 {/* Capacity: passengers + luggage with icons */}
                 <div className="flex items-center justify-between mb-4 pb-4 border-b border-gray-800">
@@ -158,16 +171,26 @@ const Fleet = () => {
                 {/* Description */}
                 <p className="text-gray-400 mb-6 text-sm flex-1">{vehicle.description}</p>
 
-                {/* Book Now button */}
-                <Link
-                  to="/booking"
-                  className="inline-flex items-center justify-center gap-2 w-full px-5 py-3 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-bold rounded-lg hover:shadow-lg hover:shadow-[#D4AF37]/40 transition-all duration-300"
-                  data-testid={`fleet-book-${index}`}
-                  aria-label={`Book the ${vehicle.category}`}
-                >
-                  Book the {vehicle.category}
-                  <ArrowRight className="h-4 w-4" />
-                </Link>
+                {/* View Details + Book Now buttons */}
+                <div className="flex flex-col gap-2.5">
+                  <Link
+                    to={`/fleet/${vehicle.slug}`}
+                    className="inline-flex items-center justify-center gap-2 w-full px-5 py-3 border border-[#D4AF37]/50 text-[#D4AF37] font-bold rounded-lg hover:bg-[#D4AF37]/10 transition-all duration-300"
+                    data-testid={`fleet-view-details-${index}`}
+                    aria-label={`View details for the ${vehicle.category}`}
+                  >
+                    View Details &amp; Specs
+                  </Link>
+                  <Link
+                    to="/booking"
+                    className="inline-flex items-center justify-center gap-2 w-full px-5 py-3 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-bold rounded-lg hover:shadow-lg hover:shadow-[#D4AF37]/40 transition-all duration-300"
+                    data-testid={`fleet-book-${index}`}
+                    aria-label={`Book the ${vehicle.category}`}
+                  >
+                    Book the {vehicle.category}
+                    <ArrowRight className="h-4 w-4" />
+                  </Link>
+                </div>
               </CardContent>
             </Card>
           ))}

@@ -68,7 +68,7 @@ const FleetPage = () => {
           </p>
 
           <p>
-            Our fleet features the latest models from <strong>Mercedes-Benz</strong>, <strong>BMW</strong>, <strong>Cadillac</strong>, and <strong>Chevrolet</strong>. Every vehicle gets a daily inspection and regular professional maintenance. Our vehicles reflect the service we promise. We accept nothing less than perfection.
+            Our fleet features the latest models from <strong>Mercedes-Benz</strong>, <strong>BMW</strong>, <strong>Cadillac</strong>, and <strong>GMC</strong>. Every vehicle gets a daily inspection and regular professional maintenance. Our vehicles reflect the service we promise. We accept nothing less than perfection.
           </p>
 
           <p>

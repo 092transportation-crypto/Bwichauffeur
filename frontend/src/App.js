@@ -8,6 +8,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import HomePage from "./pages/HomePage";
 import ServicesPage from "./pages/ServicesPage";
 import FleetPage from "./pages/FleetPage";
+import VehicleDetailPage from "./pages/VehicleDetailPage";
 import CoveragePage from "./pages/CoveragePage";
 import BookingPage from "./pages/BookingPage";
 import BlogPage from "./pages/BlogPage";
@@ -58,6 +59,7 @@ export function AppShell() {
                 <Route path="/services" element={<ServicesPage />} />
                 <Route path="/luxury-fleet" element={<FleetPage />} />
                 <Route path="/fleet" element={<Navigate to="/luxury-fleet" replace />} />
+                <Route path="/fleet/:slug" element={<VehicleDetailPage />} />
                 <Route path="/coverage" element={<CoveragePage />} />
                 <Route path="/booking" element={<BookingPage />} />
                 <Route path="/blog" element={<BlogPage />} />
