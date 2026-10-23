@@ -411,6 +411,7 @@ Whether it is a single client pickup or a standing arrangement for your firm's r
     ],
     relatedPosts: [33, 12, 314],
     relatedLinks: [
+      { to: '/law-firm-corporate-car-service-baltimore', label: 'Law Firm Corporate Car Service' },
       { to: '/blog/corporate-limo-service-baltimore', label: 'Corporate Limo Service in Baltimore' },
       { to: '/blog/corporate-car-service-maryland', label: 'Corporate Car Service in Maryland' },
       { to: '/services', label: 'Our Services' },
@@ -551,6 +552,7 @@ Whether it is a single interview-day pickup, a multi-day conference shuttle, or 
     ],
     relatedPosts: [314, 12, 33],
     relatedLinks: [
+      { to: '/hospital-medical-center-transportation-maryland', label: 'Hospital & Medical Center Transportation' },
       { to: '/blog/conference-association-meeting-transportation-baltimore', label: 'Conference & Association Meeting Transportation' },
       { to: '/limo-service-baltimore-md', label: 'Baltimore Limo Service' },
       { to: '/blog/corporate-car-service-maryland', label: 'Corporate Car Service in Maryland' },

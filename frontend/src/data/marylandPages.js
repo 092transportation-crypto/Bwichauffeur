@@ -9,6 +9,7 @@ import { MARYLAND_BATCH7 } from './marylandPagesBatch7';
 import { MARYLAND_BATCH8 } from './marylandPagesBatch8';
 import { MARYLAND_BATCH9 } from './marylandPagesBatch9';
 import { MARYLAND_BATCH10 } from './marylandPagesBatch10';
+import { MARYLAND_BATCH11 } from './marylandPagesBatch11';
 
 export const MARYLAND_PAGES = [
   {
@@ -974,6 +975,14 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Route 1 Corridor Transportation Guide",
+        "to": "/route-1-corridor-laurel-college-park-beltsville-transportation-guide"
+      },
+      {
+        "label": "Millersville MD Limo Service",
+        "to": "/millersville-md-limo-service"
+      },
+      {
         "label": "Bowie Limo Service",
         "to": "/bowie-limo-service"
       },
@@ -1808,6 +1817,10 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Pasadena MD Limo Service",
+        "to": "/pasadena-md-limo-service"
+      },
+      {
         "label": "Odenton Limo Service",
         "to": "/odenton-limo-service"
       },
@@ -2459,6 +2472,14 @@ export const MARYLAND_PAGES = [
       }
     ],
     "related": [
+      {
+        "label": "Linthicum Heights Limo Service",
+        "to": "/linthicum-heights-limo-service"
+      },
+      {
+        "label": "Live! Casino & Hotel Maryland Transportation",
+        "to": "/live-casino-hotel-maryland-transportation"
+      },
       {
         "label": "Odenton Limo Service",
         "to": "/odenton-limo-service"
@@ -9021,6 +9042,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH8,
   ...MARYLAND_BATCH9,
   ...MARYLAND_BATCH10,
+  ...MARYLAND_BATCH11,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);

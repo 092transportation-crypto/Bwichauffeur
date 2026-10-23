@@ -1,4 +1,6 @@
 // Root-level guide articles (/<slug>) — same shape as blogPosts, rendered by BlogPostPage.
+import { GUIDES_BATCH2 } from './guidesBatch2';
+
 export const GUIDES = [
   {
     id: 101,
@@ -797,6 +799,7 @@ Neighboring areas are covered in the [BWI corridor guide](/bwi-corridor-transpor
     ],
     relatedPosts: [27, 13, 15],
     relatedLinks: [
+      { label: 'Columbia Gateway & Dorsey Business Park Corporate Shuttle', to: '/columbia-gateway-dorsey-business-park-corporate-shuttle-maryland' },
       { label: 'Book a Ride in Howard County', to: '/booking' },
       { label: 'Columbia Limo Service', to: '/limo-service-columbia-md' },
       { label: 'Ellicott City Limo Service', to: '/limo-service-ellicott-city-md' },
@@ -1307,6 +1310,8 @@ Want the actual numbers for your trip? [Call 877-609-1919](tel:+18776091919) or 
     ],
     relatedPosts: [],
     relatedLinks: [
+      { label: 'BWI Rental Car Return vs Chauffeur Time Comparison', to: '/bwi-rental-car-return-vs-chauffeur-time-comparison' },
+      { label: 'TSA PreCheck, CLEAR and a Chauffeur Drop-Off at BWI', to: '/tsa-precheck-clear-bwi-airport-chauffeur-drop-off-guide' },
       { label: 'BWI Car Service vs Uber Cost Comparison', to: '/blog/bwi-car-service-vs-uber-cost-comparison' },
       { label: 'How Much Does BWI Airport Limo Cost', to: '/blog/how-much-does-bwi-airport-limo-cost' },
       { label: 'Airport Shuttle vs Private Limo BWI', to: '/blog/airport-shuttle-vs-private-limo-bwi' },
@@ -1689,6 +1694,7 @@ Because every trip is priced individually by vehicle, date and exact pickup and 
     relatedPosts: [],
     relatedLinks: [
       { label: 'BWI to Ocean City', to: '/bwi-to-ocean-city' },
+      { label: 'Cherry Blossom Season: A DC Day Trip Chauffeur Guide', to: '/cherry-blossom-season-dc-day-trip-chauffeur-guide' },
       { label: 'Why Hire a Chauffeur', to: '/why-hire-a-chauffeur' },
       { label: 'Uber vs Limo Service', to: '/uber-vs-limo-service' },
       { label: 'Maryland Hourly Chauffeur Service', to: '/maryland-hourly-chauffeur-service' },
@@ -2683,4 +2689,6 @@ Book early enough to secure the right vehicle for your trip type, but choose a p
       { label: 'Book a Ride', to: '/booking' },
     ],
   },
+  // Batch 2 (2026-10-23) lives in its own file.
+  ...GUIDES_BATCH2,
 ];
