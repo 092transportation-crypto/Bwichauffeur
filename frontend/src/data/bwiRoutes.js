@@ -47,8 +47,12 @@ export const BWI_ROUTES = [
         q: 'What is the best time to leave BWI to avoid Beltway traffic into D.C.?',
         a: 'Departures before 6:30 a.m. or after 7 p.m. clear the Beltway fastest. Midday trips run close to the posted 45–60 minute time; we avoid the 4–6:30 p.m. inbound crunch on 295 whenever the schedule allows.',
       },
+      {
+        q: 'Do you run a separate route for Georgetown specifically?',
+        a: 'Yes. Georgetown\'s narrow, historic street grid and limited curb access are different enough from the rest of downtown D.C. that we built a dedicated BWI to Georgetown page covering university, hotel, and M Street drop-offs specifically.',
+      },
     ],
-    nearby_links: ['bwi-to-arlington', 'bwi-to-bethesda', 'bwi-to-silver-spring'],
+    nearby_links: ['bwi-to-arlington', 'bwi-to-bethesda', 'bwi-to-silver-spring', 'bwi-to-georgetown-dc', 'bwi-to-dca-airport-transfer'],
   },
   {
     slug: 'bwi-to-annapolis',

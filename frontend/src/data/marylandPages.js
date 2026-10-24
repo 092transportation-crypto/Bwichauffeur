@@ -10,6 +10,7 @@ import { MARYLAND_BATCH8 } from './marylandPagesBatch8';
 import { MARYLAND_BATCH9 } from './marylandPagesBatch9';
 import { MARYLAND_BATCH10 } from './marylandPagesBatch10';
 import { MARYLAND_BATCH11 } from './marylandPagesBatch11';
+import { MARYLAND_BATCH12 } from './marylandPagesBatch12';
 
 export const MARYLAND_PAGES = [
   {
@@ -6230,8 +6231,8 @@ export const MARYLAND_PAGES = [
     "name": "Maryland Wedding Limo",
     "badge": "Maryland Service",
     "h1": "Maryland Wedding Limo Service",
-    "metaTitle": "Maryland Wedding Limo | Flat Rate Chauffeurs | BWI Chauffeur",
-    "metaDescription": "Maryland Wedding Limo across Baltimore and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919.",
+    "metaTitle": "Maryland Wedding Limo | A Timeline That Never Slips",
+    "metaDescription": "Your wedding day timeline, protected: Maryland wedding limo service built around your planner's schedule, not a generic pickup window. Call 877-609-1919.",
     "stats": [
       {
         "label": "Coverage",
@@ -6342,6 +6343,10 @@ export const MARYLAND_PAGES = [
       {
         "q": "Can I make multiple stops or change the plan on the day?",
         "a": "Yes. Hourly bookings are built for it, and dispatch can adjust point-to-point trips in real time as long as the chauffeur is not committed to another reservation."
+      },
+      {
+        "q": "Do you provide a separate shuttle for wedding guests, not just the couple?",
+        "a": "Yes. A guest shuttle is booked and scheduled separately from the couple's car, running round trips between a hotel block and the venue. See our Wedding Guest Shuttle Service Maryland page for how that is typically structured."
       }
     ],
     "related": [
@@ -6352,6 +6357,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "Maryland Prom Limo",
         "to": "/maryland-prom-limo"
+      },
+      {
+        "label": "Wedding Guest Shuttle Service Maryland",
+        "to": "/wedding-guest-shuttle-service-maryland"
       },
       {
         "label": "Maryland Concert Transportation",
@@ -6391,8 +6400,8 @@ export const MARYLAND_PAGES = [
     "name": "Maryland Corporate Car Service",
     "badge": "Maryland Service",
     "h1": "Maryland Corporate Car Service",
-    "metaTitle": "Maryland Corporate Car Service | Executive Chauffeurs, 24/7",
-    "metaDescription": "Maryland corporate car service for executives & teams — sedans, SUVs, Sprinter vans & stretch limos, flat rates, 24/7. Call 877-609-1919 for an account.",
+    "metaTitle": "Maryland Corporate Car Service | Skip the Surge, Book a Chauffeur",
+    "metaDescription": "Tired of surge pricing and no-show rideshares? Maryland corporate car service with flat rates, a named chauffeur, 24/7 dispatch. Call 877-609-1919.",
     "stats": [
       {
         "label": "Coverage",
@@ -6446,6 +6455,13 @@ export const MARYLAND_PAGES = [
         "h2": "Standing accounts and consolidated billing",
         "paragraphs": [
           "Most of our corporate clients book through a standing account rather than a one-off reservation, which means a single point of contact, consolidated monthly invoicing, and priority dispatch for recurring routes like a weekly Bethesda-to-BWI executive run or a standing conference shuttle during a busy week at the convention center. Setting one up takes a short conversation with dispatch to confirm billing details and the recurring routes you need."
+        ]
+      },
+      {
+        "h2": "Industry-specific corporate programs",
+        "paragraphs": [
+          "Different industries need different things from a corporate car service. Government contractors near Fort Meade need chauffeurs who know visitor-access gates and badge-appointment timing. Hospitals and medical centers need patient-and-family-aware scheduling. Law firms and financial services firms need discretion and a cabin conversation that stays confidential. Engineering and construction teams need a driver who will confirm the actual site entrance rather than trust a mapped address, and real estate agents need a chauffeur who will wait at each stop during a multi-property showing day. We run dedicated playbooks for each — see our government contractor, hospital, law firm, biotech, financial services, engineering and construction, and real estate car service pages for the specifics of each industry's program.",
+          "We have also extended corporate coverage into Northern Virginia, with dedicated programs for Tysons Corner and Reston — both close enough to Dulles and Reagan National that a Virginia stop fits naturally into the same hourly reservation as a Maryland or DC leg."
         ]
       }
     ],
@@ -6503,6 +6519,10 @@ export const MARYLAND_PAGES = [
       {
         "q": "Can I make multiple stops or change the plan on the day?",
         "a": "Yes. Hourly bookings are built for it, and dispatch can adjust point-to-point trips in real time as long as the chauffeur is not committed to another reservation."
+      },
+      {
+        "q": "Do you work with specific industries differently?",
+        "a": "Yes. We run dedicated programs for government contractors near Fort Meade, hospitals and medical centers, law firms, biotech and pharma companies, financial services firms, engineering and construction teams, and real estate agents and developers, including Tysons Corner and Reston in Northern Virginia — each with its own site-access, discretion or scheduling needs built in."
       }
     ],
     "related": [
@@ -6519,20 +6539,36 @@ export const MARYLAND_PAGES = [
         "to": "/maryland-concert-transportation"
       },
       {
-        "label": "Maryland Wine Tour Transportation",
-        "to": "/maryland-wine-tour-transportation"
+        "label": "Maryland Hourly Chauffeur Service",
+        "to": "/maryland-hourly-chauffeur-service"
+      },
+      {
+        "label": "Financial Services Corporate Car Service Maryland",
+        "to": "/financial-services-corporate-car-service-maryland"
+      },
+      {
+        "label": "Engineering & Construction Corporate Car Service Maryland",
+        "to": "/engineering-construction-corporate-car-service-maryland"
+      },
+      {
+        "label": "Real Estate Agent Car Service Maryland",
+        "to": "/real-estate-agent-car-service-maryland"
+      },
+      {
+        "label": "Tysons Corner VA Corporate Car Service",
+        "to": "/tysons-corner-va-corporate-car-service"
+      },
+      {
+        "label": "Reston VA Corporate Car Service",
+        "to": "/reston-va-corporate-car-service"
+      },
+      {
+        "label": "Fort Meade Government Contractor Car Service",
+        "to": "/government-contractor-car-service-fort-meade-maryland"
       },
       {
         "label": "Philadelphia Airport Car Service",
         "to": "/philadelphia-airport-car-service"
-      },
-      {
-        "label": "Merriweather Post Pavilion Transportation",
-        "to": "/merriweather-post-pavilion-transportation"
-      },
-      {
-        "label": "CFG Bank Arena Transportation",
-        "to": "/cfg-bank-arena-transportation"
       },
       {
         "label": "Capital One Arena Transportation",
@@ -6552,8 +6588,8 @@ export const MARYLAND_PAGES = [
     "name": "Maryland Prom Limo",
     "badge": "Maryland Service",
     "h1": "Maryland Prom Limo Service",
-    "metaTitle": "Maryland Prom Limo | Flat Rate Chauffeurs | BWI Chauffeur",
-    "metaDescription": "Maryland Prom Limo across Howard and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919.",
+    "metaTitle": "Maryland Prom Limo | Parents Confirm Pickup Times Directly",
+    "metaDescription": "Prom night, handled: Maryland prom limo with a background-checked chauffeur, parent-confirmed pickup times, flat rates. Call 877-609-1919 to book.",
     "stats": [
       {
         "label": "Coverage",
@@ -6664,6 +6700,10 @@ export const MARYLAND_PAGES = [
       {
         "q": "Can I make multiple stops or change the plan on the day?",
         "a": "Yes. Hourly bookings are built for it, and dispatch can adjust point-to-point trips in real time as long as the chauffeur is not committed to another reservation."
+      },
+      {
+        "q": "Can parents coordinate directly with the chauffeur for safety and pickup times?",
+        "a": "Yes. We welcome a parent point of contact and will confirm pickup and drop-off times directly with them, including a planned return time at the end of the night."
       }
     ],
     "related": [
@@ -6676,6 +6716,14 @@ export const MARYLAND_PAGES = [
         "to": "/maryland-corporate-car-service"
       },
       {
+        "label": "Perry Hall MD Limo Service",
+        "to": "/perry-hall-md-limo-service"
+      },
+      {
+        "label": "Towson Prom Limo Service",
+        "to": "/towson-prom-limo-service"
+      },
+      {
         "label": "Maryland Concert Transportation",
         "to": "/maryland-concert-transportation"
       },
@@ -6684,16 +6732,8 @@ export const MARYLAND_PAGES = [
         "to": "/maryland-wine-tour-transportation"
       },
       {
-        "label": "Philadelphia Airport Car Service",
-        "to": "/philadelphia-airport-car-service"
-      },
-      {
         "label": "Merriweather Post Pavilion Transportation",
         "to": "/merriweather-post-pavilion-transportation"
-      },
-      {
-        "label": "CFG Bank Arena Transportation",
-        "to": "/cfg-bank-arena-transportation"
       },
       {
         "label": "Capital One Arena Transportation",
@@ -9043,6 +9083,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH9,
   ...MARYLAND_BATCH10,
   ...MARYLAND_BATCH11,
+  ...MARYLAND_BATCH12,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);
