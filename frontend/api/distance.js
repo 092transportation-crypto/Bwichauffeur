@@ -49,6 +49,31 @@ async function osrmDistance(origin, destination) {
   return route.distance / METERS_PER_MILE;
 }
 
+// Shared core: Google Distance Matrix first (when a key is configured),
+// falling back to the free Photon + OSRM path. Extracted so other
+// server-side code (e.g. api/chat.js's get_instant_quote tool) can reuse the
+// exact same distance lookup instead of re-implementing it or making an
+// internal HTTP call to this endpoint.
+async function getDistanceMiles(origin, destination) {
+  const key = process.env.GOOGLE_MAPS_API_KEY || process.env.GOOGLE_API_KEY;
+  let miles;
+  let source;
+  if (key) {
+    try {
+      miles = await googleDistance(origin, destination, key);
+      source = 'google';
+    } catch (err) {
+      console.error('Google Distance Matrix failed, falling back:', err.message);
+      miles = await osrmDistance(origin, destination);
+      source = 'osrm';
+    }
+  } else {
+    miles = await osrmDistance(origin, destination);
+    source = 'osrm';
+  }
+  return { miles: Math.round(miles * 100) / 100, source };
+}
+
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
     res.setHeader('Allow', 'POST');
@@ -64,29 +89,9 @@ module.exports = async (req, res) => {
       .json({ success: false, message: 'Both addresses are required.' });
   }
 
-  const key = process.env.GOOGLE_MAPS_API_KEY || process.env.GOOGLE_API_KEY;
-
   try {
-    let miles;
-    let source;
-    if (key) {
-      try {
-        miles = await googleDistance(origin, destination, key);
-        source = 'google';
-      } catch (err) {
-        console.error('Google Distance Matrix failed, falling back:', err.message);
-        miles = await osrmDistance(origin, destination);
-        source = 'osrm';
-      }
-    } else {
-      miles = await osrmDistance(origin, destination);
-      source = 'osrm';
-    }
-    return res.status(200).json({
-      success: true,
-      miles: Math.round(miles * 100) / 100,
-      source,
-    });
+    const { miles, source } = await getDistanceMiles(origin, destination);
+    return res.status(200).json({ success: true, miles, source });
   } catch (err) {
     console.error('Distance lookup failed:', err.message);
     return res.status(422).json({
@@ -95,3 +100,5 @@ module.exports = async (req, res) => {
     });
   }
 };
+
+module.exports.getDistanceMiles = getDistanceMiles;

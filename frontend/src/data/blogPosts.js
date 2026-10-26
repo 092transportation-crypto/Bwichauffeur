@@ -6,6 +6,8 @@ import { BLOG_POSTS_BATCH4 } from './blogPostsBatch4';
 import { BLOG_POSTS_BATCH5 } from './blogPostsBatch5';
 import { BLOG_POSTS_BATCH6 } from './blogPostsBatch6';
 import { BLOG_POSTS_BATCH7 } from './blogPostsBatch7';
+import { BLOG_POSTS_BATCH8 } from './blogPostsBatch8';
+import { BLOG_POSTS_BATCH9 } from './blogPostsBatch9';
 
 export const blogPosts = [
   {
@@ -13,7 +15,7 @@ export const blogPosts = [
     slug: 'premier-luxury-chauffeur-service-maryland-delaware-dc',
     title: 'Premier Luxury Chauffeur Service in Maryland, Delaware & Washington DC',
     seoTitle: 'Luxury Chauffeur Service in MD, DE & DC | BWI Chauffeur',
-    seoDescription: 'Premier luxury chauffeur service across Maryland, Delaware & Washington DC — flat-rate BWI airport transfers, corporate travel and 24/7 professional drivers.',
+    seoDescription: 'Premier luxury chauffeur service across Maryland, Delaware & Washington DC — flat-rate BWI airport transfers, corporate travel. Call 877-609-1919.',
     excerpt: 'Discover BWI Chauffeur - your premier choice for luxury transportation services throughout Maryland, Delaware, and the greater Washington DC metropolitan area since 2014.',
     date: '2026-01-15',
     author: 'BWI Chauffeur Team',
@@ -55,7 +57,7 @@ We are far more than an airport car service. Our most-requested services include
 - **Cruise transfers** to the Port of Baltimore terminal, about 15 minutes from BWI
 - **Hourly chauffeur service** for multi-stop business days, city tours, and nights out
 
-Explore the [complete services menu](/services) or browse the [luxury fleet](/fleet) to pick your preferred vehicle class.
+Explore the [complete services menu](/services) or browse the [luxury fleet](/luxury-fleet) to pick your preferred vehicle class.
 
 ### Serving the Entire DMV Region
 
@@ -102,7 +104,7 @@ Skip the surge pricing, the parking-lot shuttle, and the rideshare guesswork. [B
     slug: 'luxury-fleet-mercedes-bmw-cadillac',
     title: 'Our Luxury Fleet - Mercedes-Benz, BMW & Cadillac Vehicles for Every Occasion',
     seoTitle: 'Our Luxury Fleet: Mercedes, BMW & Cadillac | BWI Chauffeur',
-    seoDescription: 'Travel in style with our luxury fleet of Mercedes, BMW, and Cadillac vehicles, delivering unmatched elegance, comfort, and reliability for all clients.',
+    seoDescription: 'Travel in style with our luxury fleet of Mercedes, BMW, and Cadillac vehicles, delivering unmatched elegance, comfort, and reliability. Call 877-609-1919.',
     excerpt: 'Explore our impressive fleet of luxury vehicles including the latest 2025 Mercedes-Benz E-Class, BMW 7 Series, Cadillac Escalade, and premium SUVs equipped with modern amenities.',
     date: '2026-01-14',
     author: 'Fleet Manager',
@@ -203,7 +205,7 @@ Every vehicle in our fleet undergoes rigorous daily inspections and regular prof
     slug: 'comprehensive-transportation-services-maryland-delaware',
     title: 'Complete Guide to Our Luxury Transportation Services in Maryland & Delaware',
     seoTitle: 'Guide to Our Transportation Services | BWI Chauffeur',
-    seoDescription: 'Comprehensive chauffeur services across Maryland, Delaware, and DC with professional drivers, luxury vehicles, and fully customized, reliable travel solutions.',
+    seoDescription: 'Comprehensive chauffeur services across Maryland, Delaware, and DC with professional drivers, luxury vehicles, and fully customized. Call 877-609-1919.',
     excerpt: 'From corporate car service to wedding limousines, airport transfers to city tours - discover our full range of transportation services tailored to your specific needs.',
     date: '2026-01-13',
     author: 'Operations Director',
@@ -336,7 +338,7 @@ Experience the best of the DMV region with our custom tour services:
     slug: 'service-coverage-maryland-counties-delaware-dc',
     title: 'Complete Service Coverage Map - All Maryland Counties, Delaware & Washington DC',
     seoTitle: 'Service Coverage Map: MD, DE & DC | BWI Chauffeur',
-    seoDescription: 'BWI Chauffeur covers every Maryland county plus Delaware & Washington DC — flat-rate airport transfers and 24/7 black car service you can rely on.',
+    seoDescription: 'BWI Chauffeur covers every Maryland county plus Delaware & Washington DC — flat-rate airport transfers and 24/7 black car service you can. Call 877-609-1919.',
     excerpt: 'BWI Chauffeur provides comprehensive luxury transportation coverage throughout all 23 Maryland counties, Delaware state, York County PA, and the entire DMV metropolitan region.',
     date: '2026-01-12',
     author: 'BWI Chauffeur Team',
@@ -678,7 +680,7 @@ Different clients value our standards for different reasons. **Business traveler
     slug: '24-7-availability-flight-tracking-technology',
     title: '24/7 Availability & Real-Time Flight Tracking Technology',
     seoTitle: '24/7 Availability & Flight Tracking | BWI Chauffeur',
-    seoDescription: 'BWI Chauffeur runs 24/7 with real-time flight tracking — your driver adjusts to delays and early arrivals so your ride is always on time.',
+    seoDescription: 'BWI Chauffeur runs 24/7 with real-time flight tracking — your driver adjusts to delays and early arrivals so your ride is always on time. Call 877-609-1919.',
     excerpt: 'Offering 24/7 flight tracking with luxury chauffeur services to ensure on-time airport pickups and smooth travel across MD, DE, and DC areas daily now.',
     date: '2026-01-10',
     author: 'Technology Team',
@@ -803,7 +805,7 @@ Think about the last time an app showed a driver "2 minutes away" who then sat m
 
 ### Book Your Next Ride
 
-[Experience our technology-driven service](/booking) or call **877-609-1919** to book your next ride. [View our luxury fleet](/fleet) to select your preferred vehicle, or read our full [BWI airport transportation guide](/blog/bwi-airport-transportation-guide-terminals-pickup) for terminal and pickup details.
+[Experience our technology-driven service](/booking) or call **877-609-1919** to book your next ride. [View our luxury fleet](/luxury-fleet) to select your preferred vehicle, or read our full [BWI airport transportation guide](/blog/bwi-airport-transportation-guide-terminals-pickup) for terminal and pickup details.
     `,
     faqs: [
       {
@@ -830,7 +832,7 @@ Think about the last time an app showed a driver "2 minutes away" who then sat m
     slug: 'bwi-airport-transportation-guide-terminals-pickup',
     title: 'Complete BWI Airport Transportation Guide - Terminals, Pickup Locations & Tips',
     seoTitle: 'BWI Airport Transportation Guide | BWI Chauffeur',
-    seoDescription: 'Your complete BWI Airport transportation guide — terminal layout, pickup locations, meet-and-greet options and tips for a smooth chauffeured arrival.',
+    seoDescription: 'Your complete BWI Airport transportation guide — terminal layout, pickup locations, meet-and-greet options and tips for a smooth. Call 877-609-1919.',
     excerpt: 'Complete BWI Airport transportation guide with terminal info, pickup instructions, and premium chauffeur services for a smooth, stress-free travel experience.',
     date: '2026-01-09',
     author: 'Operations Team',
@@ -982,7 +984,7 @@ Skip the rideshare lottery, the parking-lot shuttle, and the surge pricing. Pre-
     slug: 'corporate-transportation-solutions-maryland-businesses',
     title: 'Corporate Transportation Solutions for Maryland Businesses',
     seoTitle: 'Corporate Transportation in Maryland | BWI Chauffeur',
-    seoDescription: 'Reliable corporate transportation for Maryland businesses — executive black car service, airport transfers and roadshows with professional chauffeurs.',
+    seoDescription: 'Reliable corporate transportation for Maryland businesses — executive black car service, airport transfers and roadshows with professional. Call 877-609-1919.',
     excerpt: 'Discover how Maryland businesses streamline executive travel with dedicated account management, corporate billing, and professional chauffeur services.',
     date: '2026-01-08',
     author: 'Business Development',
@@ -1140,7 +1142,7 @@ Most corporate relationships start small — a single executive airport run book
 
 **Phone:** 877-609-1919
 **Email:** corporate@bwichauffeur.com
-**[View Our Fleet](/fleet)** | **[Service Coverage](/coverage)** | **[All Services](/services)**
+**[View Our Fleet](/luxury-fleet)** | **[Service Coverage](/coverage)** | **[All Services](/services)**
     `,
     faqs: [
       {
@@ -1166,8 +1168,8 @@ Most corporate relationships start small — a single executive airport run book
     id: 9,
     slug: 'wedding-transportation-maryland-luxury-limousine',
     title: 'Wedding Transportation in Maryland - Luxury Limousine & Chauffeur Services',
-    seoTitle: 'Maryland Wedding Transportation | BWI Chauffeur',
-    seoDescription: 'Luxury wedding transportation in Maryland — elegant limousines and professional chauffeurs to get your party to the venue on time and in style.',
+    seoTitle: 'Wedding Limo & Bridal Party Transportation MD',
+    seoDescription: 'Luxury wedding transportation in Maryland — elegant limousines and professional chauffeurs to get your party to the venue on time. Call 877-609-1919.',
     excerpt: 'Make your Maryland wedding unforgettable with elegant limousine service, bridal party transportation, and guest shuttles from BWI Chauffeur.',
     date: '2026-01-07',
     author: 'Events Coordinator',
@@ -1194,7 +1196,7 @@ Your wedding day is one of the most important days of your life, and every detai
 
 **Guest Shuttles**
 - Hotel-to-venue shuttle service
-- [Mercedes Sprinter Vans](/fleet) for guest groups
+- [Mercedes Sprinter Vans](/luxury-fleet) for guest groups
 - Multiple shuttle runs available
 - Professional drivers familiar with venue
 
@@ -1310,7 +1312,7 @@ Absolutely. Multi-vehicle bookings receive preferred rates. [Contact us](/bookin
 [Request a wedding consultation](/booking) or call **877-609-1919** to speak with our events team.
 
 **Related Resources:**
-- [View Our Luxury Fleet](/fleet)
+- [View Our Luxury Fleet](/luxury-fleet)
 - [Complete Service Details](/services)
 - [Coverage Areas](/coverage)
 - [Company Information](/)
@@ -1340,7 +1342,7 @@ Absolutely. Multi-vehicle bookings receive preferred rates. [Contact us](/bookin
     slug: 'choosing-luxury-transportation-vs-rideshare-comparison',
     title: 'Luxury Chauffeur Service vs. Ride-Share: A Complete Comparison Guide',
     seoTitle: 'Chauffeur Service vs Ride-Share | BWI Chauffeur',
-    seoDescription: 'Chauffeur service vs ride-share compared — cost, reliability, comfort and safety, and why a professional BWI chauffeur wins for airport travel.',
+    seoDescription: 'Chauffeur service vs ride-share compared — cost, reliability, comfort and safety, and why a professional BWI chauffeur wins for airport. Call 877-609-1919.',
     excerpt: 'Compare luxury chauffeur services and rideshare options to make smart travel choices for safety, comfort, and full convenience during all your trips.',
     date: '2026-01-06',
     author: 'BWI Chauffeur Team',
@@ -1435,7 +1437,7 @@ Ride-sharing apps can be appropriate for:
 - 99%+ on-time pickup rate
 - No-surge-pricing guarantee
 - [Flight tracking](/blog/24-7-availability-flight-tracking-technology) for airport pickups
-- Guaranteed [luxury vehicle](/fleet)
+- Guaranteed [luxury vehicle](/luxury-fleet)
 - [Professional, vetted chauffeurs](/blog/professional-chauffeurs-training-safety-standards)
 - Select your preferred vehicle class
 
@@ -1497,7 +1499,7 @@ Learn more about our [safety standards and chauffeur training](/blog/professiona
 Experience the difference professional chauffeur service makes. [Book your first ride](/booking) or call **877-609-1919** for a quote.
 
 **Learn More:**
-- [Our Luxury Fleet](/fleet)
+- [Our Luxury Fleet](/luxury-fleet)
 - [Service Coverage](/coverage)
 - [Corporate Accounts](/blog/corporate-transportation-solutions-maryland-businesses)
 - [All Services](/services)
@@ -2152,7 +2154,7 @@ We look forward to driving you.
     slug: 'bwi-airport-vip-meet-greet',
     title: 'BWI Airport Meet and Greet Service — What to Expect',
     seoTitle: 'BWI Airport Meet & Greet Service | BWI Chauffeur',
-    seoDescription: 'BWI Airport meet-and-greet service explained — your chauffeur greets you at baggage claim, handles luggage and walks you to the car, step by step.',
+    seoDescription: 'BWI Airport meet-and-greet service explained — your chauffeur greets you at baggage claim, handles luggage and walks you to the car. Call 877-609-1919.',
     excerpt: 'A behind-the-scenes look at how proper meet-and-greet service actually works at BWI — where your driver stands, what they do, and why first-time international travelers love it.',
     date: '2026-02-15',
     author: 'Dispatch Team',
@@ -2378,7 +2380,7 @@ Have a great night, and bring lots of memory card space for the photos.
     slug: 'bwi-car-service-vs-uber-cost-comparison',
     title: 'BWI Airport Car Service vs Uber — Real Cost Comparison for 2026',
     seoTitle: 'BWI Car Service vs Uber: Cost Guide | BWI Chauffeur',
-    seoDescription: 'BWI airport car service vs Uber — a real 2026 cost comparison with surge pricing, fees and flat rates so you know which option truly saves money.',
+    seoDescription: 'BWI airport car service vs Uber — a real 2026 cost comparison with surge pricing, fees and flat rates so you know which option truly saves. Call 877-609-1919.',
     excerpt: 'We pulled real 2026 numbers to settle it: when is a flat-rate BWI car service actually cheaper than Uber, and when does rideshare win? Honest math, no spin.',
     date: '2026-03-02',
     author: 'BWI Chauffeur Team',
@@ -2476,7 +2478,7 @@ Want the exact flat rate for your route so you can compare it against tonight's 
     slug: 'bwi-to-annapolis-cheapest-way',
     title: 'How to Get From BWI to Annapolis — The Cheapest Ways Compared',
     seoTitle: 'Cheapest Way from BWI to Annapolis | BWI Chauffeur',
-    seoDescription: 'The cheapest ways to get from BWI to Annapolis compared — shuttle, ride-share and flat-rate chauffeur — with real 2026 prices and travel times.',
+    seoDescription: 'The cheapest ways to get from BWI to Annapolis compared — shuttle, ride-share and flat-rate chauffeur — with real 2026 prices and travel. Call 877-609-1919.',
     excerpt: 'A no-spin guide to the cheapest way from BWI to Annapolis in 2026 — every option ranked by real cost and travel time, including when paying a bit more is worth it.',
     date: '2026-03-04',
     author: 'BWI Chauffeur Team',
@@ -2570,7 +2572,7 @@ Want to see the exact flat rate for your group and date? [Request a quote here](
     slug: 'best-black-car-service-bwi-airport',
     title: 'Best Black Car Service at BWI Airport — What to Look For in 2026',
     seoTitle: 'Best Black Car Service at BWI Airport | BWI Chauffeur',
-    seoDescription: 'How to choose the best black car service at BWI Airport in 2026 — what to look for in pricing, vehicles, chauffeurs and reliability before booking.',
+    seoDescription: 'How to choose the best black car service at BWI Airport in 2026 — what to look for in pricing, vehicles, chauffeurs and reliability. Call 877-609-1919.',
     excerpt: 'Not all black car services are equal. Here are the seven things that separate the best BWI black car service from the rest in 2026 — and how to vet one before you book.',
     date: '2026-03-06',
     author: 'BWI Chauffeur Team',
@@ -2591,7 +2593,7 @@ A serious airport service monitors your flight automatically and adjusts your pi
 
 ### 3. A Genuinely Late-Model Fleet
 
-"Luxury" is a word; a 2018 sedan with 180,000 miles is a reality. The best services run **late-model Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, and Mercedes Sprinter** vehicles, professionally detailed and inspected daily. Ask the model year and whether you can request a vehicle class. See our [full fleet](/fleet) for what a real black car lineup looks like.
+"Luxury" is a word; a 2018 sedan with 180,000 miles is a reality. The best services run **late-model Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, and Mercedes Sprinter** vehicles, professionally detailed and inspected daily. Ask the model year and whether you can request a vehicle class. See our [full fleet](/luxury-fleet) for what a real black car lineup looks like.
 
 ### 4. Lower-Level Arrivals Pickup
 
@@ -2656,7 +2658,7 @@ The best way to judge a black car service is to use it once on a trip that matte
     slug: 'bwi-airport-late-night-pickup',
     title: 'BWI Airport Late-Night Pickup Service — Rides After Midnight',
     seoTitle: 'BWI Airport Late-Night Pickup Service | BWI Chauffeur',
-    seoDescription: 'BWI Airport late-night pickup service for flights after midnight — 24/7 flat-rate chauffeurs, real-time flight tracking and guaranteed rides home.',
+    seoDescription: 'BWI Airport late-night pickup service for flights after midnight — 24/7 flat-rate chauffeurs, real-time flight tracking and guaranteed. Call 877-609-1919.',
     excerpt: 'Red-eye landing at 1 a.m.? Here is how to guarantee a ride home from BWI after midnight — why rideshare thins out late night, and how a pre-arranged chauffeur fixes it.',
     date: '2026-03-08',
     author: 'Dispatch Team',
@@ -2759,7 +2761,7 @@ If you've got a late or red-eye arrival coming up, lock in your ride before you 
     slug: 'bwi-to-dc-flat-rate-car-service',
     title: 'BWI to DC Flat-Rate Car Service — One Price, No Surprises',
     seoTitle: 'BWI to DC Flat-Rate Car Service | BWI Chauffeur',
-    seoDescription: 'BWI to DC flat-rate car service — one upfront price, no surge and no surprises, with flight tracking and a professional chauffeur every time.',
+    seoDescription: 'BWI to DC flat-rate car service — one upfront price, no surge and no surprises, with flight tracking and a professional chauffeur every time. Call 877-609-1919.',
     excerpt: 'Why a flat-rate beats a metered or surge ride on the BWI to DC run — what is included, real 2026 pricing, routes, and timing for a 32-mile trip that traffic can make unpredictable.',
     date: '2026-03-10',
     author: 'BWI Chauffeur Team',
@@ -2859,7 +2861,7 @@ Lock in one price for the whole trip — no surge, no meter, no surprises. [Rese
     slug: 'bwi-airport-tips-2026',
     title: '10 Tips for a Stress-Free BWI Airport Experience',
     seoTitle: '10 Tips for a Stress-Free BWI Airport Trip | BWI Chauffeur',
-    seoDescription: 'Ten practical tips for a stress-free BWI Airport experience in 2026 — security shortcuts, terminal navigation, timing, and why a flat-rate car service wins.',
+    seoDescription: 'Ten practical tips for a stress-free BWI Airport experience in 2026 — security shortcuts, terminal navigation, timing, and why a flat-rate. Call 877-609-1919.',
     excerpt: 'From TSA timing to terminal layout to the smartest way to get to the curb, here are ten field-tested tips that make BWI Marshall genuinely easy in 2026.',
     date: '2026-08-06',
     author: 'BWI Chauffeur Team',
@@ -2938,8 +2940,8 @@ A stress-free BWI run isn't luck — it's a checklist. Know your concourse, resp
     id: 25,
     slug: 'wedding-transportation-guide-maryland',
     title: 'How to Choose Wedding Transportation in Maryland',
-    seoTitle: 'Maryland Wedding Transportation Guide | BWI Chauffeur',
-    seoDescription: 'How to choose wedding transportation in Maryland — timelines, vehicle types, guest shuttles, costs, and booking tips from the DMV\'s trusted chauffeur team.',
+    seoTitle: 'Wedding Transportation Costs & Timing Guide MD',
+    seoDescription: 'How to choose wedding transportation in Maryland — timelines, vehicle types, guest shuttles, costs, and booking tips from the DMV\'s. Call 877-609-1919.',
     excerpt: 'A practical playbook for couples and wedding planners: when to book, which vehicles to combine, how guest shuttles actually work, and the contract questions that prevent day-of surprises.',
     date: '2026-08-09',
     author: 'BWI Chauffeur Team',
@@ -2998,7 +3000,7 @@ Two local realities deserve their own line items. First, weather: an April showe
 
 ### Let's Get Your Wedding Moving
 
-Whether you're a couple planning your own day or a planner coordinating your tenth season, we'd love to build the transportation plan with you. Explore [the fleet](/fleet), then [request a wedding quote](/booking) or call **877-609-1919** — tell us the date, the venues, and the guest count, and we'll map the rest.
+Whether you're a couple planning your own day or a planner coordinating your tenth season, we'd love to build the transportation plan with you. Explore [the fleet](/luxury-fleet), then [request a wedding quote](/booking) or call **877-609-1919** — tell us the date, the venues, and the guest count, and we'll map the rest.
     `,
     faqs: [
       {
@@ -3025,7 +3027,7 @@ Whether you're a couple planning your own day or a planner coordinating your ten
     slug: 'corporate-travel-tips-dc',
     title: 'Corporate Travel Tips for DC Executives',
     seoTitle: 'Corporate Travel Tips for DC Executives | BWI Chauffeur',
-    seoDescription: 'Corporate travel tips for DC executives — airport strategy, scheduling buffers, expense-friendly car service, and productivity tactics for the DMV corridor.',
+    seoDescription: 'Corporate travel tips for DC executives — airport strategy, scheduling buffers, expense-friendly car service, and productivity tactics. Call 877-609-1919.',
     excerpt: 'The DMV is one of the hardest regions in America to travel efficiently. These are the habits, buffers, and booking strategies that keep DC executives on schedule.',
     date: '2026-08-12',
     author: 'BWI Chauffeur Team',
@@ -3110,7 +3112,7 @@ When you're ready to put the ground-travel piece on autopilot, [set up a corpora
     slug: 'bwi-vs-dca-vs-iad-airport-guide',
     title: 'BWI vs DCA vs IAD: Which Maryland-Area Airport Should You Choose?',
     seoTitle: 'BWI vs DCA vs IAD: Which Airport to Choose? | BWI Chauffeur',
-    seoDescription: 'BWI vs DCA vs IAD compared — location, airlines, fares, security waits, and ground transportation, so you can pick the right Washington-Baltimore airport.',
+    seoDescription: 'BWI vs DCA vs IAD compared — location, airlines, fares, security waits, and ground transportation, so you can pick the right. Call 877-609-1919.',
     excerpt: 'Three airports serve the Washington-Baltimore region, and the right choice can save you hours and hundreds of dollars. Here is the honest comparison, route by route.',
     date: '2026-08-15',
     author: 'BWI Chauffeur Team',
@@ -3199,7 +3201,7 @@ The airport comparison usually gets decided by fares and flight times — but th
     slug: 'prom-limo-service-maryland',
     title: 'Prom Night Limo Service Guide for Maryland Families',
     seoTitle: 'Maryland Prom Limo Service Guide | BWI Chauffeur',
-    seoDescription: 'A parent\'s guide to prom night limo service in Maryland — costs, safety questions, booking timelines, and group options for a night done right.',
+    seoDescription: 'A parent\'s guide to prom night limo service in Maryland — costs, safety questions, booking timelines, and group options for a night done. Call 877-609-1919.',
     excerpt: 'Prom transportation done right is equal parts fun and safety. Here is what Maryland parents should book, ask, and expect — and when to reserve before spring sells out.',
     date: '2026-08-18',
     author: 'BWI Chauffeur Team',
@@ -3277,8 +3279,8 @@ Prom should be memorable for the right reasons — the photos, the entrance, the
     id: 29,
     slug: 'how-much-does-bwi-airport-limo-cost',
     title: 'How Much Does BWI Airport Limo Service Cost in 2026?',
-    seoTitle: 'How Much Does BWI Airport Limo Service Cost in 2026?',
-    seoDescription: 'BWI airport limo prices in 2026 — typical flat rates by vehicle and destination, what\'s included, tipping etiquette, and how to get the best value.',
+    seoTitle: 'How Much Does BWI Airport Limo Service Cost?',
+    seoDescription: 'BWI airport limo prices in 2026 — typical flat rates by vehicle and destination, what\'s included, tipping etiquette, and how to get. Call 877-609-1919.',
     excerpt: 'Real numbers, not vague estimates. Here is what BWI airport limo service actually costs in 2026 — by vehicle class and destination — plus what\'s included and how to avoid overpaying.',
     date: '2026-08-14',
     author: 'BWI Chauffeur Team',
@@ -3312,7 +3314,7 @@ These are representative market ranges for professional chauffeured service in 2
 | Bethesda / Rockville | $135–$180 | $175–$235 |
 | Northern Virginia (Tysons, Arlington) | $160–$210 | $200–$270 |
 
-Group travel in a Sprinter van generally starts around $250–$350 for regional transfers — which, for a party of ten, beats three separate rideshares on both price and logistics. See the [full fleet lineup](/fleet) to match a vehicle to your group.
+Group travel in a Sprinter van generally starts around $250–$350 for regional transfers — which, for a party of ten, beats three separate rideshares on both price and logistics. See the [full fleet lineup](/luxury-fleet) to match a vehicle to your group.
 
 ### What a Legitimate Flat Rate Includes
 
@@ -3374,8 +3376,8 @@ Ranges are useful; your number is better. Tell us your date, pickup address, and
     id: 30,
     slug: 'bwi-airport-to-washington-dc-transportation',
     title: 'Best Ways to Get from BWI Airport to Washington DC',
-    seoTitle: 'Best Ways to Get from BWI Airport to Washington DC',
-    seoDescription: 'Every way to get from BWI Airport to Washington DC compared — MARC train, Amtrak, rideshare, shuttle and private car — with 2026 prices, times and trade-offs.',
+    seoTitle: 'Best Ways From BWI Airport to Washington DC | BWI Chauffeur',
+    seoDescription: 'Every way to get from BWI Airport to Washington DC compared — MARC train, rideshare, shuttle and private car, with 2026 prices. Call 877-609-1919.',
     excerpt: 'Train, rideshare, shuttle, or private car? Here is every realistic way to travel the 32 miles from BWI Airport to Washington DC in 2026, with honest prices, times, and when each option wins.',
     date: '2026-08-15',
     author: 'BWI Chauffeur Team',
@@ -3461,8 +3463,8 @@ If your BWI-to-DC trip is the kind where showing up on time matters — a meetin
     id: 31,
     slug: 'limo-service-vs-rideshare-maryland',
     title: 'Limo Service vs Rideshare in Maryland: What\'s the Difference?',
-    seoTitle: 'Limo Service vs Rideshare in Maryland: Key Differences',
-    seoDescription: 'Limo service vs rideshare in Maryland compared — licensing, insurance, pricing, reliability and coverage — plus when each option actually makes sense.',
+    seoTitle: 'Limo Service vs Rideshare in Maryland',
+    seoDescription: 'Limo service vs rideshare in Maryland compared — licensing, insurance, pricing, reliability and coverage — plus when each option actually. Call 877-609-1919.',
     excerpt: 'Beyond the leather seats, limo service and rideshare are structurally different products in Maryland — in licensing, insurance, pricing, and who shows up. Here is the practical breakdown.',
     date: '2026-08-17',
     author: 'BWI Chauffeur Team',
@@ -3495,7 +3497,7 @@ At BWI Marshall, rideshare pickup is on the **upper Departures level** — you l
 
 ### The Vehicle and the Person Driving It
 
-Rideshare guarantees a category ("UberX," "Black"); a chauffeured reservation guarantees a **specific class of late-model luxury vehicle** — Mercedes E- or S-Class, BMW, Escalade, Suburban, or Sprinter — detailed before every trip, driven by a uniformed professional who loads your luggage, holds the door, and knows the route without a phone mounted on the dash. Browse the [fleet](/fleet) to see the actual vehicles.
+Rideshare guarantees a category ("UberX," "Black"); a chauffeured reservation guarantees a **specific class of late-model luxury vehicle** — Mercedes E- or S-Class, BMW, Escalade, Suburban, or Sprinter — detailed before every trip, driven by a uniformed professional who loads your luggage, holds the door, and knows the route without a phone mounted on the dash. Browse the [fleet](/luxury-fleet) to see the actual vehicles.
 
 ### When Rideshare Is the Right Choice
 
@@ -3555,7 +3557,7 @@ Rideshare sells you a ride that probably works. A licensed chauffeured service s
     slug: 'bwi-airport-car-service-annapolis',
     title: 'BWI Airport Car Service to Annapolis MD: The Complete Guide',
     seoTitle: 'BWI Airport Car Service to Annapolis MD | BWI Chauffeur',
-    seoDescription: 'BWI Airport car service to Annapolis MD — route and travel time, 2026 flat rates, Naval Academy events, boat show tips and how to book a reliable chauffeur.',
+    seoDescription: 'BWI Airport car service to Annapolis MD — route and travel time, 2026 flat rates, Naval Academy events, boat show tips and how to book. Call 877-609-1919.',
     excerpt: 'Flying into BWI and heading to Annapolis? Here is the complete guide — the 30-minute route, realistic 2026 pricing, Naval Academy event logistics, and how to guarantee your ride both ways.',
     date: '2026-08-19',
     author: 'BWI Chauffeur Team',
@@ -3634,7 +3636,7 @@ Whether it's one traveler for the legislative session, a family of five for Comm
     slug: 'corporate-limo-service-baltimore',
     title: 'Corporate Limo Service in Baltimore: What to Expect',
     seoTitle: 'Corporate Limo Service in Baltimore | BWI Chauffeur',
-    seoDescription: 'Corporate limo service in Baltimore — what to expect from executive car service: accounts, monthly billing, chauffeur standards, fleet and BWI transfers.',
+    seoDescription: 'Corporate limo service in Baltimore — what to expect from executive car service: accounts, monthly billing, chauffeur standards. Call 877-609-1919.',
     excerpt: 'From Harbor East boardrooms to BWI departures, here is what corporate limo service in Baltimore actually includes — accounts, billing, chauffeur standards, and how companies use it day to day.',
     date: '2026-08-20',
     author: 'BWI Chauffeur Team',
@@ -3675,7 +3677,7 @@ Corporate service is defined by the person driving. Every BWI Chauffeur driver i
 
 ### The Fleet, Matched to the Occasion
 
-Corporate accounts draw on the [full fleet](/fleet): Mercedes E-Class and BMW sedans for standard executive transfers, S-Class for board-level guests, Cadillac Escalades and Suburbans for teams and clients with presence to project, and Sprinters for groups. Same chauffeur standard at every tier; the vehicle simply matches the meeting.
+Corporate accounts draw on the [full fleet](/luxury-fleet): Mercedes E-Class and BMW sedans for standard executive transfers, S-Class for board-level guests, Cadillac Escalades and Suburbans for teams and clients with presence to project, and Sprinters for groups. Same chauffeur standard at every tier; the vehicle simply matches the meeting.
 
 ### Why Companies Switch from Rideshare Reimbursement
 
@@ -3715,6 +3717,8 @@ Opening a corporate account is a ten-minute conversation: your routes, your volu
   ...BLOG_POSTS_BATCH5,
   ...BLOG_POSTS_BATCH6,
   ...BLOG_POSTS_BATCH7,
+  ...BLOG_POSTS_BATCH8,
+  ...BLOG_POSTS_BATCH9,
 ];
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { Button } from './ui/button';
 
 const IntroContent = () => {
@@ -17,11 +17,11 @@ const IntroContent = () => {
           </p>
 
           <p>
-            We specialize in <strong>BWI airport transportation</strong>. Our transfers to and from BWI Marshall Airport are punctual and stress-free. Heading to a meeting in Baltimore, a conference in Annapolis, or an event in Washington DC? Our chauffeurs get you there on time and in style.
+            We specialize in <Link to="/bwi-airport-car-service" className="text-[#D4AF37] hover:underline font-semibold">BWI airport transportation</Link>. Our transfers to and from BWI Marshall Airport are punctual and stress-free. Heading to a meeting in Baltimore, a conference in Annapolis, or an event in Washington DC? Our chauffeurs get you there on time and in style.
           </p>
 
           <p>
-            We also serve Ronald Reagan Washington National Airport (DCA) and Washington Dulles International Airport (IAD). That gives you smooth connections across the entire tri-state area.
+            We also serve <Link to="/dca-airport-car-service" className="text-[#D4AF37] hover:underline font-semibold">Ronald Reagan Washington National Airport (DCA)</Link> and <Link to="/iad-airport-car-service" className="text-[#D4AF37] hover:underline font-semibold">Washington Dulles International Airport (IAD)</Link>. That gives you smooth connections across the entire tri-state area, including Northern Virginia hubs like <Link to="/tysons-corner-va-corporate-car-service" className="text-[#D4AF37] hover:underline font-semibold">Tysons Corner</Link> and <Link to="/reston-va-corporate-car-service" className="text-[#D4AF37] hover:underline font-semibold">Reston</Link>.
           </p>
 
           <p>
@@ -41,15 +41,15 @@ const IntroContent = () => {
           </p>
 
           <ul className="list-disc list-inside space-y-2 pl-2">
-            <li>Corporate car service for business executives</li>
-            <li>Wedding limousine service for special occasions</li>
+            <li><Link to="/maryland-corporate-car-service" className="text-[#D4AF37] hover:underline">Corporate car service</Link> for business executives</li>
+            <li><Link to="/maryland-wedding-limo" className="text-[#D4AF37] hover:underline">Wedding limousine service</Link> for special occasions</li>
             <li>Airport shuttle and point-to-point transfers</li>
-            <li>Hourly chauffeur service</li>
-            <li>Group transportation for events and conferences</li>
+            <li><Link to="/maryland-hourly-chauffeur-service" className="text-[#D4AF37] hover:underline">Hourly chauffeur service</Link></li>
+            <li><Link to="/blog/group-transportation-bwi-airport" className="text-[#D4AF37] hover:underline">Group transportation</Link> for events and conferences</li>
           </ul>
 
           <p>
-            <strong className="text-[#D4AF37]">Pricing is simple and flat-rate.</strong> Point-to-point sedan transfers typically run $85–$185 depending on distance — for example $85–$115 to downtown Baltimore, $95–$130 to Annapolis, or $140–$185 to Washington DC — with premium SUVs adding roughly $30–$60. Hourly, as-directed service for weddings, events, or multi-stop days runs about $95–$150 per hour with a three- to four-hour minimum. Every rate includes tolls and gratuity, is confirmed before you book, and never changes for surge or demand. Call 877-609-1919 or request a quote online for the exact rate on your trip.
+            <strong className="text-[#D4AF37]">Pricing is simple and flat-rate.</strong> Point-to-point sedan transfers are priced by distance, with premium SUVs priced above the sedan rate for the same trip. Hourly, as-directed service for weddings, events, or multi-stop days is booked with a three- to four-hour minimum. Every rate includes tolls and gratuity, is confirmed before you book, and never changes for surge or demand. Call 877-609-1919 or request a quote online for the exact rate on your trip.
           </p>
 
           <p>

@@ -164,7 +164,7 @@ const CityPage = ({ city }) => {
           telephone: '877-609-1919',
           email: 'info@bwichauffeur.com',
           url: 'https://www.bwichauffeur.com',
-          image: 'https://www.bwichauffeur.com/images/bmw-7series.jpg',
+          image: 'https://www.bwichauffeur.com/images/bmw-7series.webp',
           address: {
             '@type': 'PostalAddress',
             streetAddress: '9836 Lyon Ave',

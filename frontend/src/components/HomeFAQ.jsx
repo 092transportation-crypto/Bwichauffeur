@@ -10,7 +10,7 @@ const HomeFAQ = () => {
     {
       question: 'How much does BWI airport car service cost?',
       answer:
-        'Flat-rate sedan transfers typically run $85–$185 depending on distance — for example $85–$115 to downtown Baltimore or $140–$185 to Washington DC — with premium SUVs adding roughly $30–$60. The price includes fuel, tolls, flight tracking, and the chauffeur, with no surge pricing and no overnight fees. Request a quote online or call 877-609-1919 for an exact all-inclusive rate for your address.'
+        'Rates are flat and quoted by vehicle class and distance — the price includes fuel, tolls, flight tracking, and the chauffeur, with no surge pricing and no overnight fees. Request a quote online or call 877-609-1919 for an exact all-inclusive rate for your address.'
     },
     {
       question: 'How far in advance should I book?',
@@ -31,6 +31,21 @@ const HomeFAQ = () => {
       question: 'Do you serve DCA and IAD airports too?',
       answer:
         'Yes. In addition to BWI Marshall, we run flat-rate, flight-tracked transfers to and from Reagan National (DCA), Washington Dulles (IAD), and Philadelphia International (PHL) from anywhere in Maryland, DC, Virginia, and Delaware.'
+    },
+    {
+      question: 'Do you offer corporate accounts for frequent business travel?',
+      answer:
+        'Yes. Standing corporate accounts get a single point of contact, consolidated monthly invoicing, and priority dispatch for recurring routes like a weekly executive commute or a standing conference shuttle. Call 877-609-1919 to set one up.'
+    },
+    {
+      question: 'Can I book an hourly, as-directed chauffeur instead of a one-way trip?',
+      answer:
+        'Yes. Hourly as-directed service keeps the same chauffeur and vehicle with you for a multi-stop day — roadshows, wedding timelines, campus tours, or a night out with several destinations — billed hourly with a set minimum.'
+    },
+    {
+      question: 'Do you serve Northern Virginia locations like Tysons Corner and Reston?',
+      answer:
+        'Yes. Beyond Maryland, Washington DC and Delaware, we regularly serve Northern Virginia business hubs including Tysons Corner and Reston, both of which sit close to Dulles and Reagan National airports.'
     }
   ];
 

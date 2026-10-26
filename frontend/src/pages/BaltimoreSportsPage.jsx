@@ -30,7 +30,7 @@ const BaltimoreSportsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Sports Event Limo | Ravens Games, O's Events</title>
+        <title>Baltimore Sports Event Limo | Ravens & Orioles Games</title>
         <meta name="description" content="Ride to Ravens games at M&T Bank Stadium and Orioles games at Camden Yards in style. Reliable luxury transportation for Baltimore sports fans." />
         <meta name="keywords" content="Baltimore Ravens transportation, Orioles game day shuttle, M&T Bank Stadium limo, Camden Yards chauffeur, Baltimore sports transportation, NFL game transportation, MLB game shuttle, Ravens tailgate transportation" />
         <link rel="canonical" href="https://www.bwichauffeur.com/baltimore-sports-transportation" />
@@ -43,6 +43,27 @@ const BaltimoreSportsPage = () => {
               name: f.q,
               acceptedAnswer: { '@type': 'Answer', text: f.a },
             })),
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'BWI Chauffeur',
+            telephone: '+1-877-609-1919',
+            url: 'https://www.bwichauffeur.com',
+            image: 'https://www.bwichauffeur.com/logo.jpeg',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              postalCode: '20723',
+              addressCountry: 'US',
+            },
+            areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+            openingHours: 'Mo-Su 00:00-23:59',
           })}
         </script>
       </Helmet>
@@ -109,6 +130,14 @@ const BaltimoreSportsPage = () => {
                 <p className="text-gray-300 text-lg mb-6">
                   M&T Bank Stadium, located in downtown Baltimore, seats over 71,000 fans and offers an electric atmosphere on game days. However, parking is expensive and traffic can add hours to your trip. Let BWI Chauffeur handle the logistics while you focus on cheering for Lamar Jackson and the Ravens.
                 </p>
+                <h3 className="text-xl font-bold text-white mb-3">Russell Street, Ravens Walk &amp; Game-Day Traffic</h3>
+                <p className="text-gray-300 text-lg mb-6">
+                  The stadium complex sits along Russell Street with Ravens Walk funneling foot traffic between M&amp;T
+                  Bank Stadium and neighboring Camden Yards on a doubleheader Sunday, and the surface lots along Russell
+                  and Ostend Street fill well before kickoff on a sold-out Sunday. Our chauffeurs stage on the surrounding
+                  side streets — not in the stadium lot queue — so a post-game pickup clears the area well before the
+                  MARC Camden Line and Light RailLink crowds have finished boarding at Hamburg Street Station.
+                </p>
                 <ul className="space-y-4 mb-8">
                   <li className="flex items-start space-x-3">
                     <Car className="h-6 w-6 text-[#D4AF37] flex-shrink-0 mt-1" />
@@ -170,6 +199,15 @@ const BaltimoreSportsPage = () => {
                 </p>
                 <p className="text-gray-300 text-lg mb-6">
                   Whether you're catching a summer night game, attending the home opener, or watching the O's in a pennant race, BWI Chauffeur provides smooth transportation to and from Camden Yards. Enjoy the game, grab a Boog's BBQ sandwich, and let us handle the ride home.
+                </p>
+                <h3 className="text-xl font-bold text-white mb-3">Pratt Street, Eutaw Street &amp; the Camden Station Approach</h3>
+                <p className="text-gray-300 text-lg mb-6">
+                  Camden Yards sits between Eutaw Street's warehouse-facing entrances and the Pratt Street approach most
+                  drop-offs use, with historic Camden Station anchoring the corner where Light RailLink and MARC
+                  commuter trains both stop. On a weeknight game, Pratt Street backs up fastest right after the final
+                  out, so our chauffeurs confirm a pickup spot on a quieter side street near Camden Station rather than
+                  joining the Pratt Street queue, which routinely saves fifteen to twenty minutes getting clear of
+                  downtown.
                 </p>
                 <ul className="space-y-4 mb-8">
                   <li className="flex items-start space-x-3">
@@ -348,6 +386,35 @@ const BaltimoreSportsPage = () => {
                   <h3 className="text-lg font-semibold text-white mb-2">{f.q}</h3>
                   <p className="text-gray-400">{f.a}</p>
                 </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Related venue & event pages */}
+        <section className="py-16 bg-gray-900">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8 text-center">
+              More Baltimore <span style={{ color: '#D4AF37' }}>Game-Day & Event Pages</span>
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                { name: 'M&T Bank Stadium', location: 'Direct venue page', to: '/mt-bank-stadium-transportation' },
+                { name: 'Oriole Park at Camden Yards', location: 'Direct venue page', to: '/oriole-park-camden-yards-transportation' },
+                { name: 'Pimlico Race Course', location: 'Preakness & race days', to: '/pimlico-race-course-transportation' },
+                { name: 'Preakness Stakes', location: 'Event weekend transportation', to: '/preakness-stakes-transportation' },
+                { name: 'Navy-Marine Corps Memorial Stadium', location: 'Annapolis', to: '/navy-marine-corps-stadium-transportation' },
+                { name: 'All Concert & Event Venues', location: 'Baltimore, DC & Virginia', to: '/concert-transportation' },
+              ].map((v) => (
+                <Link
+                  key={v.to}
+                  to={v.to}
+                  className="bg-black/50 border border-gray-800 rounded-xl p-6 hover:border-[#D4AF37]/50 transition-all duration-300 block"
+                >
+                  <Calendar className="h-6 w-6 text-[#D4AF37] mb-3" />
+                  <h3 className="text-lg font-bold text-white mb-1">{v.name}</h3>
+                  <p className="text-gray-400 text-sm">{v.location}</p>
+                </Link>
               ))}
             </div>
           </div>

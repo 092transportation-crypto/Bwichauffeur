@@ -8,9 +8,8 @@ export const BLOG_POSTS_BATCH7 = [
     id: 346,
     slug: 'maryland-dc-wedding-limo-complete-guide',
     title: 'The Complete Maryland & DC Wedding Limo Guide: Vehicles, Venues, Timeline & Questions to Ask',
-    seoTitle: 'Maryland Wedding Limo Guide: Vehicles, Pricing & Venues | BWI Chauffeur',
-    seoDescription:
-      'The complete guide to wedding limo service in Maryland, DC & Virginia — vehicle comparison, real venue logistics, timeline coordination, package pricing, and the questions to ask before you book.',
+    seoTitle: 'Maryland Wedding Limo Guide: Vehicles & Pricing',
+    seoDescription: 'The complete guide to wedding limo service in Maryland, DC & Virginia: vehicle comparison, venue logistics, timelines and pricing questions. Call 877-609-1919.',
     excerpt:
       'Everything a bride, groom, or wedding planner needs to know before booking wedding transportation in Maryland, DC or Virginia — vehicle selection, venue-specific logistics, timeline coordination, and the vendor-vetting questions most couples never think to ask.',
     date: '2026-09-30',
@@ -40,7 +39,7 @@ The single biggest planning mistake we see is choosing a vehicle based on how it
 
 **Premium SUV (Cadillac Escalade)** — Seats six with real luggage room, and is our most-requested vehicle for a six-person wedding party that wants one vehicle instead of splitting into two cars.
 
-**Mercedes Sprinter (Shuttle, Executive, or Limo trim)** — Once your bridal party passes six people, this is the only vehicle that keeps everyone together. A 10-to-13-person wedding party in a Sprinter Limo travels as one unit, arrives together, and never has a "where's the second car" moment in the parking lot.
+**Mercedes Sprinter (Shuttle or Executive trim)** — Once your bridal party passes six people, this is the only vehicle that keeps everyone together. A 10-to-13-person wedding party in a Sprinter Executive travels as one unit, arrives together, and never has a "where's the second car" moment in the parking lot.
 
 The planning rule of thumb: count your actual wedding party (not your guest list), add anyone riding with them, and add ten percent for garment bags, gift bags, and the inevitable extra person who needs a ride at the last minute. Undersizing the vehicle is the single most common (and most avoidable) wedding transportation mistake.
 

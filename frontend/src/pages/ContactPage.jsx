@@ -7,6 +7,7 @@ import {
   Mail,
   MapPin,
   Clock,
+  ShieldCheck,
   CheckCircle2,
   Send,
   Loader2,
@@ -117,6 +118,27 @@ const ContactPage = () => {
           content="Contact BWI Chauffeur for 24/7 luxury airport transfers and corporate car service across Maryland, DC & Delaware. Call 877-609-1919 or book online."
         />
         <link rel="canonical" href="https://www.bwichauffeur.com/contact" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'BWI Chauffeur',
+            telephone: '+1-877-609-1919',
+            url: 'https://www.bwichauffeur.com',
+            image: 'https://www.bwichauffeur.com/logo.jpeg',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              postalCode: '20723',
+              addressCountry: 'US',
+            },
+            areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+            openingHours: 'Mo-Su 00:00-23:59',
+          })}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-black pt-32 pb-16" data-testid="contact-page">
@@ -216,6 +238,21 @@ const ContactPage = () => {
                       <p className="text-sm text-gray-400 mt-1">
                         Bookings, dispatch &amp; support around the clock.
                       </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-gradient-to-br from-gray-900 to-black border-[#D4AF37]/30">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-11 h-11 rounded-full bg-[#D4AF37]/15 border border-[#D4AF37]/40 flex items-center justify-center flex-shrink-0">
+                      <ShieldCheck className="h-5 w-5 text-[#D4AF37]" />
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">Licensed &amp; Insured</p>
+                      <p className="text-white">Maryland PSC Carrier #6325</p>
+                      <p className="text-gray-400 text-sm mt-1">$5M commercial liability coverage. Proof available on request.</p>
                     </div>
                   </div>
                 </CardContent>

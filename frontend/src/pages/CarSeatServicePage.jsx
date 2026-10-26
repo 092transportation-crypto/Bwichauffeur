@@ -100,6 +100,27 @@ const CarSeatServicePage = () => {
             })),
           })}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'BWI Chauffeur',
+            telephone: '+1-877-609-1919',
+            url: 'https://www.bwichauffeur.com',
+            image: 'https://www.bwichauffeur.com/logo.jpeg',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              postalCode: '20723',
+              addressCountry: 'US',
+            },
+            areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+            openingHours: 'Mo-Su 00:00-23:59',
+          })}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-black pt-32 pb-16">
@@ -267,6 +288,29 @@ const CarSeatServicePage = () => {
                   <signal.icon className="h-5 w-5 text-[#D4AF37]" />
                   <span className="text-gray-300 font-semibold">{signal.label}</span>
                 </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Related pages */}
+          <div className="mb-16">
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center">
+              Traveling with <span className="text-[#D4AF37]">Kids? See Also</span>
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+              {[
+                { label: 'BWI Airport Car Service', to: '/bwi-airport-car-service' },
+                { label: 'Our Luxury Fleet & SUVs', to: '/luxury-fleet' },
+                { label: 'All Service Areas', to: '/service-areas' },
+                { label: 'Frequently Asked Questions', to: '/faq' },
+              ].map((r) => (
+                <Link
+                  key={r.to}
+                  to={r.to}
+                  className="bg-gradient-to-br from-gray-900 to-black border border-[#D4AF37]/30 hover:border-[#D4AF37] rounded-lg p-5 text-center transition-colors"
+                >
+                  <p className="text-white font-semibold">{r.label}</p>
+                </Link>
               ))}
             </div>
           </div>

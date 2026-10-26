@@ -5,7 +5,7 @@ export const BLOG_POSTS_BATCH2 = [
     id: 201,
     slug: 'bwi-arrivals-guide-where-to-meet-your-driver',
     title: 'BWI Arrivals Guide: Where to Meet Your Chauffeur',
-    seoTitle: 'BWI Arrivals Guide | Where to Meet Your Driver',
+    seoTitle: 'BWI Arrivals Guide: Where to Meet Your Driver',
     seoDescription:
       'A practical BWI arrivals guide — baggage claim, curbside pickup, meet and greet, and how flight tracking keeps your chauffeur on time. 877-609-1919.',
     excerpt:
@@ -38,6 +38,10 @@ For a departure, we back-time your pickup from your flight and the airport's own
 ### What to Tell Dispatch When You Book
 
 Give us your flight number, airline, and whether you want curbside or meet and greet. We track the flight from there. If your plans change — an earlier connection, a cancelled flight rebooked to a later one — call and we will adjust the pickup without starting the reservation over.
+
+### Traveling With a Group or Extra Luggage
+
+If more than one or two people are arriving together, or if the trip involves golf bags, oversized luggage or equipment, mention it when you book rather than at the curb. We will assign an SUV or Sprinter van instead of a sedan, so nobody is folding into a back seat around a suitcase that does not fit in the trunk. The same applies to car seats — tell us the ages of any children traveling and the correct seat is installed before the vehicle arrives.
 `,
     faqs: [
       { question: 'Where exactly will my chauffeur be waiting at BWI?', answer: 'At the designated pickup area outside baggage claim for curbside service, or inside baggage claim holding a name sign if you add meet and greet.' },
@@ -60,7 +64,7 @@ Give us your flight number, airline, and whether you want curbside or meet and g
     id: 202,
     slug: 'bwi-early-morning-departure-checklist',
     title: 'BWI Early-Morning Departure Checklist',
-    seoTitle: 'BWI Early-Morning Departure Checklist',
+    seoTitle: 'BWI Early-Morning Departure Checklist | BWI Chauffeur',
     seoDescription:
       'Planning a pre-dawn flight from BWI? This checklist covers pickup timing, terminal walk time and how a reserved chauffeur removes the risk. 877-609-1919.',
     excerpt:
@@ -93,6 +97,10 @@ For departures, BWI's check-in counters run along the upper level roughly in air
 ### The Bottom Line
 
 Early flights are the trip where "I'll just get a rideshare" carries the most risk and the least room for error. A confirmed pickup, locked in the night before with a flat rate and no surge pricing, removes that risk entirely.
+
+### A Short Pre-Flight Checklist
+
+Pack the night before, charge your phone, confirm your pickup time and address with dispatch, set an alarm with real margin rather than the bare minimum, and have your boarding pass or confirmation ready before the chauffeur arrives. None of it is complicated, but skipping any one step is usually what turns an early departure into a stressful one — and none of it depends on an app finding you a driver at an hour when most of the city is still asleep.
 `,
     faqs: [
       { question: 'How early should I book a pre-dawn BWI pickup?', answer: 'At least a day ahead when possible, so the pickup is confirmed and staged rather than requested last minute.' },
@@ -115,7 +123,7 @@ Early flights are the trip where "I'll just get a rideshare" carries the most ri
     id: 203,
     slug: 'bwi-corporate-travel-program-setup',
     title: 'Setting Up a Corporate Travel Program for BWI: A Travel Manager\'s Guide',
-    seoTitle: 'BWI Corporate Travel Program Setup Guide',
+    seoTitle: 'BWI Corporate Travel Program Setup Guide | BWI Chauffeur',
     seoDescription:
       'A guide for travel managers setting up a corporate car service program around BWI Airport — accounts, invoicing, dispatch and reliability. 877-609-1919.',
     excerpt:
@@ -152,6 +160,10 @@ Monthly consolidated invoicing gives you an itemized record by traveler and trip
 ### Getting Started
 
 If your company is flying through BWI regularly enough that airport transportation has become its own small administrative headache, a corporate account is usually a same-week setup. Call and ask for corporate accounts, and we will walk through what fits your travel pattern.
+
+### What Changes Once the Account Is Live
+
+Most travel managers notice the difference within the first billing cycle: one invoice instead of a stack of individual rideshare receipts to reconcile, a single point of contact when a trip needs to change, and a clear answer when someone asks who travels where and how often. For a company adding Reagan National or Dulles coverage alongside BWI, the same account and the same point of contact cover all three airports, so the program does not need to be rebuilt as travel patterns shift.
 `,
     faqs: [
       { question: 'How long does it take to set up a corporate account?', answer: 'Usually a short conversation about your travel patterns is enough to get started, with monthly invoicing active from the first trip.' },
@@ -174,7 +186,7 @@ If your company is flying through BWI regularly enough that airport transportati
     id: 204,
     slug: 'baltimore-black-car-vs-taxi-vs-rideshare',
     title: 'Baltimore Black Car Service vs. Taxi vs. Rideshare: An Honest Comparison',
-    seoTitle: 'Baltimore Black Car vs Taxi vs Rideshare',
+    seoTitle: 'Baltimore Black Car vs Taxi vs Rideshare | BWI Chauffeur',
     seoDescription:
       'A fair comparison of black car service, taxis and rideshare in Baltimore — pricing, reliability and when each option actually makes sense. 877-609-1919.',
     excerpt:

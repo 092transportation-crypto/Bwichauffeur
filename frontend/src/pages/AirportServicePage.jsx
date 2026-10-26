@@ -51,6 +51,27 @@ const AirportServicePage = ({ airport }) => {
             })),
           })}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'BWI Chauffeur',
+            telephone: '+1-877-609-1919',
+            url: 'https://www.bwichauffeur.com',
+            image: 'https://www.bwichauffeur.com/logo.jpeg',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              postalCode: '20723',
+              addressCountry: 'US',
+            },
+            areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+            openingHours: 'Mo-Su 00:00-23:59',
+          })}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-black">
@@ -153,6 +174,26 @@ const AirportServicePage = ({ airport }) => {
             ))}
           </div>
         </section>
+
+        {/* Neighborhoods, landmarks & traffic patterns (optional, per-airport) */}
+        {Array.isArray(airport.neighborhoods) && airport.neighborhoods.length > 0 && (
+          <section className="py-16 bg-black" data-testid="airport-neighborhoods">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8">
+                Neighborhoods, Landmarks &amp; Traffic Patterns Near{' '}
+                <span style={{ color: '#D4AF37' }}>{airport.shortName}</span>
+              </h2>
+              <div className="space-y-6">
+                {airport.neighborhoods.map((n) => (
+                  <div key={n.h3} className="bg-gray-900/50 border border-gray-800 rounded-xl p-6">
+                    <h3 className="text-xl font-bold text-white mb-2">{n.h3}</h3>
+                    <p className="text-gray-300 leading-relaxed">{n.text}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Features */}
         <section className="py-16 bg-black">

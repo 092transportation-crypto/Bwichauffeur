@@ -99,6 +99,27 @@ const CruiseTransportationPage = () => {
             })),
           })}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'BWI Chauffeur',
+            telephone: '+1-877-609-1919',
+            url: 'https://www.bwichauffeur.com',
+            image: 'https://www.bwichauffeur.com/logo.jpeg',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              postalCode: '20723',
+              addressCountry: 'US',
+            },
+            areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+            openingHours: 'Mo-Su 00:00-23:59',
+          })}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-black pt-32 pb-16">
@@ -298,6 +319,16 @@ const CruiseTransportationPage = () => {
               chauffeur will already be watching your ship's estimated dock time on disembarkation
               day, so there's no need to call or coordinate pickup from the ship.
             </p>
+            <h3 className="text-xl font-bold text-[#D4AF37] mt-6 mb-3">Getting to Locust Point: I-95 and Fort Avenue</h3>
+            <p className="text-gray-300 leading-relaxed">
+              The Cruise Maryland Terminal sits in the Locust Point neighborhood on a peninsula south
+              of the Inner Harbor, reached mainly via I-95's Key Highway/Fort Avenue exit or Hanover
+              Street across the Middle Branch. Embarkation-day traffic backs up fastest on Fort Avenue
+              itself as hundreds of vehicles converge on the terminal within the same two-hour window,
+              so our chauffeurs plan the drop-off sequence and timing to avoid arriving in the thick
+              of that surge, delivering you close enough to Fort McHenry to see it from the terminal
+              approach without adding it as an unplanned detour.
+            </p>
           </div>
 
           {/* FAQ Section */}
@@ -311,6 +342,29 @@ const CruiseTransportationPage = () => {
                   <h3 className="text-lg font-semibold text-white mb-2">{f.q}</h3>
                   <p className="text-gray-400">{f.a}</p>
                 </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Related pages */}
+          <div className="mb-16">
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center">
+              Serving the <span className="text-[#D4AF37]">Baltimore Cruise Terminal Area</span>
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+              {[
+                { label: 'Baltimore Limo Service', to: '/limo-service-baltimore-md' },
+                { label: 'Dundalk Limo Service', to: '/limo-service-dundalk-md' },
+                { label: 'Towson Limo Service', to: '/limo-service-towson-md' },
+                { label: 'See All Service Areas', to: '/service-areas' },
+              ].map((r) => (
+                <Link
+                  key={r.to}
+                  to={r.to}
+                  className="bg-gradient-to-br from-gray-900 to-black border border-[#D4AF37]/30 hover:border-[#D4AF37] rounded-lg p-5 text-center transition-colors"
+                >
+                  <p className="text-white font-semibold">{r.label}</p>
+                </Link>
               ))}
             </div>
           </div>

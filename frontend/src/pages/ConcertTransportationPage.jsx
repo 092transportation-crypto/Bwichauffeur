@@ -8,7 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 const concertFaqs = [
   {
     q: 'Which concert venues do you serve?',
-    a: 'We cover every major venue in the Baltimore-Washington region: CFG Bank Arena, Merriweather Post Pavilion, Capital One Arena, Jiffy Lube Live, M&T Bank Stadium, Camden Yards, The Anthem, Wolf Trap, and more. If there is a show within about two hours of BWI, we can get you there.',
+    a: 'We cover every major venue in the Baltimore-Washington region: CFG Bank Arena, Merriweather Post Pavilion, Capital One Arena, Jiffy Lube Live, M&T Bank Stadium, Camden Yards, The Anthem, Wolf Trap, the 9:30 Club, EagleBank Arena, Rams Head Live, and more. If there is a show within about two hours of BWI, we can get you there.',
   },
   {
     q: 'What happens if the show runs late or there is an encore?',
@@ -53,6 +53,7 @@ const venues = [
   {
     name: 'Jiffy Lube Live',
     location: 'Bristow, VA',
+    to: '/jiffy-lube-live-transportation',
     description:
       'Northern Virginia’s 25,000-capacity amphitheater is notorious for exit traffic on Route 66. Ride out relaxed while the lots crawl.',
   },
@@ -62,6 +63,69 @@ const venues = [
     to: '/baltimore-sports-transportation',
     description:
       'Ravens games and stadium-sized tours. Gate-side drop-off, tailgate-friendly timing, and a confirmed pickup after the final whistle.',
+  },
+  {
+    name: 'The Anthem',
+    location: 'Washington, DC',
+    to: '/the-anthem-dc-transportation',
+    description:
+      'The Wharf’s 6,000-capacity concert hall on the Southwest DC waterfront. Skip the Wharf garage crunch with a confirmed curbside pickup.',
+  },
+  {
+    name: 'Pier Six Pavilion',
+    location: 'Baltimore, MD',
+    to: '/pier-six-pavilion-transportation',
+    description:
+      'An open-air stage on Baltimore’s Inner Harbor. Door-to-door transfers mean no hunting for harbor-adjacent parking after the encore.',
+  },
+  {
+    name: 'Wolf Trap',
+    location: 'Vienna, VA',
+    to: '/wolf-trap-transportation',
+    description:
+      'The National Park for the Performing Arts, tucked into the Virginia woods. A chauffeured ride avoids the single-lane exit backup after a sold-out show.',
+  },
+  {
+    name: 'Lincoln Financial Field',
+    location: 'Philadelphia, PA',
+    to: '/lincoln-financial-field-transportation',
+    description:
+      'Eagles games and stadium concerts in South Philadelphia. A longer run from BWI, booked the same way — one flat rate, one chauffeur.',
+  },
+  {
+    name: 'Citizens Bank Park',
+    location: 'Philadelphia, PA',
+    to: '/citizens-bank-park-transportation',
+    description:
+      'Phillies baseball in the South Philadelphia Sports Complex. We handle the I-95 run north and the stadium-lot gridlock on the way out.',
+  },
+  {
+    name: 'Wells Fargo Center',
+    location: 'Philadelphia, PA',
+    to: '/wells-fargo-center-transportation',
+    description:
+      'Sixers, Flyers, and touring concerts in South Philadelphia. Same flat-rate chauffeur service as our Maryland and DC venues, just a longer drive.',
+  },
+  {
+    name: '9:30 Club',
+    location: 'Washington, DC',
+    to: '/nine-thirty-club-dc-transportation',
+    description:
+      'DC’s legendary U Street club. Skip the metered-parking hunt and the sidewalk scramble for a ride after a sold-out show.',
+  },
+  {
+    name: 'EagleBank Arena',
+    location: 'Fairfax, VA',
+    to: '/eaglebank-arena-transportation',
+    description:
+      'Concerts, Patriots basketball, and George Mason graduation weekends. We handle the family group and the campus exit crowd alike.',
+  },
+  {
+    name: 'Rams Head Live',
+    location: 'Baltimore, MD',
+    to: '/rams-head-live-transportation',
+    description:
+      'A Power Plant Live concert hall steps from the Inner Harbor. Skip the harbor garage lines before and after the show.',
   },
   {
     name: 'Camden Yards',
@@ -79,7 +143,7 @@ const ConcertTransportationPage = () => {
         <title>BWI Concert & Event Transportation | Baltimore, DC & VA</title>
         <meta
           name="description"
-          content="Luxury concert and event transportation across Baltimore, DC, and Virginia. CFG Bank Arena, Merriweather, Capital One Arena, Jiffy Lube Live & more. 877-609-1919."
+          content="Luxury concert and event transportation across Baltimore, DC, and Virginia. CFG Bank Arena, Merriweather, Capital One Arena, Jiffy Lube Live. 877-609-1919."
         />
         <meta
           name="keywords"
@@ -95,6 +159,27 @@ const ConcertTransportationPage = () => {
               name: f.q,
               acceptedAnswer: { '@type': 'Answer', text: f.a },
             })),
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'BWI Chauffeur',
+            telephone: '+1-877-609-1919',
+            url: 'https://www.bwichauffeur.com',
+            image: 'https://www.bwichauffeur.com/logo.jpeg',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              postalCode: '20723',
+              addressCountry: 'US',
+            },
+            areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+            openingHours: 'Mo-Su 00:00-23:59',
           })}
         </script>
       </Helmet>
@@ -173,6 +258,32 @@ const ConcertTransportationPage = () => {
             <p className="text-gray-300 text-lg">
               We serve concerts, festivals, stadium tours, NFL and MLB games, comedy shows, and private events. One-way
               transfers, round trips, and hourly bookings are all available, seven days a week.
+            </p>
+          </div>
+        </section>
+
+        {/* Venue-specific traffic patterns & event-night policy */}
+        <section className="py-16 bg-black">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+              Venue-Specific Traffic Patterns We <span style={{ color: '#D4AF37' }}>Plan Around</span>
+            </h2>
+            <p className="text-gray-300 text-lg mb-6">
+              Every venue on our list has its own egress bottleneck, and knowing it in advance is what actually gets you
+              home faster. CFG Bank Arena's downtown Baltimore load-out backs up onto Baltimore Street and Howard Street
+              for 20 to 30 minutes after a sold-out show, so our chauffeurs stage one block over and walk you to the car
+              rather than idling in the jam. Merriweather Post Pavilion's single-exit lot empties onto Broken Land
+              Parkway and Route 29, and a Columbia-bound pickup there is timed to beat the worst of it by waiting a few
+              extra minutes inside rather than joining the lot queue immediately. Capital One Arena in DC closes curb
+              lanes around 6th and F Street on event nights, which changes the legal pickup spot block by block — we
+              confirm the current spot with venue security before your chauffeur ever arrives.
+            </p>
+            <p className="text-gray-300 text-lg">
+              Event-night pricing works the same as every other BWI Chauffeur booking: one flat rate, confirmed before
+              you book, with no late-night or event surcharge added after the final encore. Cancellations for sedan and
+              SUV event bookings are free up to 3 hours before pickup; Sprinter vans and group event bookings — the more
+              common choice for a concert group splitting one ride — carry a 12-hour free-cancellation window, the same
+              policy that applies to every special-event reservation we run.
             </p>
           </div>
         </section>

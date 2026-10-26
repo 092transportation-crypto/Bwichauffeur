@@ -4,9 +4,9 @@ export const AIRPORT_PAGES = [
     shortName: 'BWI Airport',
     name: 'Baltimore/Washington International Thurgood Marshall Airport',
     location: 'Linthicum, Maryland',
-    metaTitle: 'BWI Airport Car Service | BWI Chauffeur',
+    metaTitle: 'BWI Airport Car Service | Flat-Rate & Meet-and-Greet',
     metaDescription:
-      'Luxury BWI Airport car service with meet-and-greet at baggage claim. Flat rates, 24/7 pickups across Maryland, DC & VA. Call 877-609-1919.',
+      'BWI Airport car service with meet-and-greet at baggage claim & 10-minute home-base pickups. Flat rates, no surge, 24/7. Call 877-609-1919 to book.',
     keywords:
       'BWI airport car service, BWI limo service, BWI chauffeur, BWI airport pickup, Baltimore airport transportation, BWI Marshall car service, luxury car service BWI',
     heroImage:
@@ -36,6 +36,32 @@ export const AIRPORT_PAGES = [
       'Standard procedure works like this: we track your inbound flight from departure, your chauffeur stages in the nearby cell lot as you taxi in, and the moment you text or call that you have your luggage, the car rolls to your door — typically under five minutes. International arrivals clearing customs at Concourse E get extended complimentary wait time, because we know a customs hall can be unpredictable. Late-night arrival after the last Southwest bank? We run twenty-four hours, and Linthicum is close enough that even a 2 a.m. pickup is routine for us rather than a special request.',
       'Departures are just as considered. We plan your pickup around real conditions on I-95, the Baltimore–Washington Parkway, and I-195, all of which we drive daily, and we build in a cushion for TSA lines that swell around holiday weekends and Monday mornings. Whether you are leaving from Fells Point, an Annapolis waterfront home, a Columbia office park, or a Bethesda hotel, your quote covers door to terminal door. One vehicle, one chauffeur, one flat rate — call for a quote and the number you hear is the number you pay.',
     ],
+    neighborhoods: [
+      {
+        h3: 'Linthicum, Glen Burnie & our Anne Arundel County home base',
+        text: 'Our dispatch base sits in Linthicum, a few minutes from the terminal loop, which is also why Linthicum and neighboring Glen Burnie get some of the fastest response times anywhere on our map — often a car within minutes of a same-day request. We know the Nursery Road and Camp Meade Road approaches to the terminal cold, including which cut-through avoids the backup on Elkridge Landing Road during a shift change at the airport itself.',
+      },
+      {
+        h3: 'Downtown Baltimore, Fells Point & Federal Hill',
+        text: 'A pickup from Fells Point\'s cobblestone streets or a Federal Hill rowhouse runs down I-395 and I-95 South to the BWI exit, typically 25 to 35 minutes outside of rush hour. Our chauffeurs plan around Inner Harbor event traffic — an Orioles game at Camden Yards or a cruise departure at the Locust Point terminal can both add real time to that drive, and we check the schedule before confirming your pickup window.',
+      },
+      {
+        h3: 'Annapolis & the Naval Academy',
+        text: 'Annapolis runs via Route 97 and I-97 south to the BWI connector, usually 30 to 40 minutes. Commissioning Week in late May and any Naval Academy home football Saturday both add meaningful congestion around the Route 50/Route 97 interchange, and it is one of the few predictable traffic patterns in our coverage area that we build into every Annapolis-to-BWI quote without being asked.',
+      },
+      {
+        h3: 'Columbia, Howard County & the Route 175 corridor',
+        text: 'Columbia and the rest of Howard County reach BWI via Route 175 and I-95, typically 20 to 25 minutes — one of the shorter approaches on our network. Merriweather Post Pavilion concert nights are the one event that reliably slows this corridor, and our chauffeurs check the venue\'s calendar before setting a pickup time on a concert night.',
+      },
+      {
+        h3: 'Bethesda, Rockville & the I-270 corridor',
+        text: 'Bethesda and Rockville reach BWI via I-495 and the BW Parkway, typically 45 to 60 minutes depending on Beltway traffic. This corridor generates some of our steadiest corporate volume — NIH, Walter Reed and the I-270 biotech firms all send traveling staff through BWI regularly, and we hold standing accounts for several of them.',
+      },
+      {
+        h3: 'Northern Virginia: Tysons Corner, Reston & beyond',
+        text: 'BWI is not the closest airport for Northern Virginia travelers — Dulles and Reagan National usually are — but we run the BWI transfer daily for Tysons Corner and Reston clients whose flight or fare made BWI the better choice. See our dedicated Tysons Corner and Reston corporate car service pages for how we handle that longer Beltway run.',
+      },
+    ],
     faqs: [
       {
         q: 'How does meet-and-greet pickup work at BWI?',
@@ -57,6 +83,14 @@ export const AIRPORT_PAGES = [
         q: 'Which areas do you serve from BWI Airport?',
         a: 'Essentially the whole mid-Atlantic core: Baltimore City and County, Annapolis, Columbia, Howard and Montgomery Counties, Washington DC, and Northern Virginia, plus longer runs to Philadelphia, Delaware beaches, or the Eastern Shore on request. If you can name the address, we can quote a flat rate to it from the BWI curb.',
       },
+      {
+        q: 'Can you connect a BWI arrival straight to a flight out of DCA or Dulles?',
+        a: 'Yes. We run direct airport-to-airport transfers between BWI and Reagan National, and between BWI and Dulles, for travelers whose connecting itinerary splits across two airports. The pickup is timed to your actual landing, not a fixed schedule.',
+      },
+      {
+        q: 'Can I book a BWI pickup for a last-minute or same-day trip?',
+        a: 'Often, yes. Because our base sits ten minutes from the terminal, sedans and SUVs are frequently available within the hour. Call 877-609-1919 and dispatch will confirm real-time availability immediately.',
+      },
     ],
     relatedLinks: [
       {
@@ -65,9 +99,34 @@ export const AIRPORT_PAGES = [
         sub: 'Flat-rate transfers from BWI to downtown DC hotels and offices',
       },
       {
+        to: '/bwi-to-dca-airport-transfer',
+        label: 'BWI to DCA Airport Transfer',
+        sub: 'Direct airport-to-airport transfer for split connecting itineraries',
+      },
+      {
+        to: '/bwi-to-georgetown-dc',
+        label: 'BWI to Georgetown DC',
+        sub: 'Flat-rate transfers into Georgetown\'s hotel and university district',
+      },
+      {
         to: '/luxury-fleet',
         label: 'Our Luxury Fleet',
         sub: 'Sedans, SUVs, and Sprinter vans available for every BWI pickup',
+      },
+      {
+        to: '/maryland-corporate-car-service',
+        label: 'Maryland Corporate Car Service',
+        sub: 'Standing accounts and industry-specific corporate programs',
+      },
+      {
+        to: '/same-day-last-minute-car-service-maryland',
+        label: 'Last-Minute & Same-Day Car Service Maryland',
+        sub: 'What is realistic when you need a car today',
+      },
+      {
+        to: '/baltimore-airport-car-service',
+        label: 'Baltimore Airport Car Service',
+        sub: 'A Baltimore-focused view of the same BWI chauffeur service',
       },
     ],
   },
@@ -76,9 +135,9 @@ export const AIRPORT_PAGES = [
     shortName: 'Reagan National (DCA)',
     name: 'Ronald Reagan Washington National Airport',
     location: 'Arlington, Virginia',
-    metaTitle: 'DCA Airport Car Service | BWI Chauffeur',
+    metaTitle: 'DCA Airport Car Service | Reagan National Flat-Rate',
     metaDescription:
-      'Chauffeured car service at Reagan National (DCA) — luxury sedans and SUVs to DC, Maryland & BWI. Flat-rate quotes at 877-609-1919, day or night.',
+      'Chauffeured car service at Reagan National (DCA) — luxury sedans & SUVs to DC, Maryland and BWI. Flat-rate, no surge, 24/7. Call 877-609-1919 now.',
     keywords:
       'DCA car service, Reagan National airport car service, DCA airport limo, Reagan airport chauffeur, DCA to Maryland car service, Washington National airport transportation',
     heroImage:
@@ -107,6 +166,24 @@ export const AIRPORT_PAGES = [
       'Reagan National’s gates are grouped into Terminal 1 and the long crescent of Terminal 2, and your airline determines which baggage claim you will exit from. Our dispatch confirms your terminal against your flight number the day you travel, so you never have to decode the airport yourself. When you land, your chauffeur sends the vehicle description and exact door location by text. Commercial pickups stage in designated zones close to the claim halls, and because our drivers work DCA daily, they know which doors move fastest at which times of day.',
       'Timing at DCA is really a story about the roads around it. The George Washington Parkway, Route 1, and the 14th Street Bridge crossings can double a trip during the morning and evening peaks, and Nationals games or Mall events add their own ripples. We factor all of it into your pickup window using live conditions rather than optimistic map estimates. Heading north toward Maryland, your chauffeur will choose between the BW Parkway, I-295, and I-95 based on what the corridor is actually doing that afternoon — a judgment call that routinely saves twenty minutes.',
       'Departure runs to DCA get the same discipline. For a shuttle flight with carry-on only we can time your arrival lean; for a checked-bag itinerary on a holiday Friday we will build in honest margin and tell you why. Service area is wide: we regularly carry travelers between Reagan and Annapolis, Baltimore, Bethesda, Silver Spring, Columbia, and the entire BWI business corridor. Whatever the route, the quote comes first and the price never changes en route — flat rate, call for quote, done.',
+    ],
+    neighborhoods: [
+      {
+        h3: 'Bethesda & the NIH, Marriott and Lockheed Martin corridor',
+        text: 'Bethesda is one of the shortest DCA runs we offer, typically 25 to 40 minutes via the GW Parkway or the Beltway, which is exactly why it is a popular trip for executives tied to the National Institutes of Health campus, Marriott International\'s headquarters, or Lockheed Martin\'s corporate headquarters. We time pickups from NIH specifically around its visitor badge window rather than a generic drive estimate.',
+      },
+      {
+        h3: 'Silver Spring & the Colesville Road office corridor',
+        text: 'Silver Spring sits about 14 miles from DCA, typically 30 to 45 minutes depending on the Beltway. Our chauffeurs plan around the Colesville Road and Georgia Avenue corridor\'s weekday rush, and around FDA White Oak campus visitor security-check-in windows for travelers heading there directly from the airport.',
+      },
+      {
+        h3: 'Capitol Hill, the National Mall & downtown DC',
+        text: 'A DCA pickup headed into downtown Washington crosses the 14th Street Bridge into a street grid shaped by committee hearings, state visits and Mall-area road closures that can appear with little notice. Our dispatchers check the day\'s official schedule before confirming a pickup window for any Capitol Hill or Mall-adjacent drop-off.',
+      },
+      {
+        h3: 'Old Town Alexandria & Arlington',
+        text: 'Just across the Potomac, Old Town Alexandria and Arlington are some of the shortest trips we run from DCA — often under 15 minutes — though Old Town\'s narrow, one-way colonial-era streets reward a chauffeur who already knows which block has a legal loading spot near King Street.',
+      },
     ],
     faqs: [
       {
@@ -141,6 +218,11 @@ export const AIRPORT_PAGES = [
         label: 'All Chauffeur Services',
         sub: 'Corporate travel, hourly hire, events, and more across DC-MD-VA',
       },
+      {
+        to: '/dca-to-rockville',
+        label: 'DCA to Rockville',
+        sub: 'Flat-rate transfers from Reagan National to Montgomery County',
+      },
     ],
   },
   {
@@ -148,9 +230,9 @@ export const AIRPORT_PAGES = [
     shortName: 'Washington Dulles (IAD)',
     name: 'Washington Dulles International Airport',
     location: 'Dulles, Virginia',
-    metaTitle: 'Dulles IAD Airport Car Service | BWI Chauffeur',
+    metaTitle: 'Dulles (IAD) Airport Car Service | Free 60-Min Wait',
     metaDescription:
-      'Luxury car service at Washington Dulles (IAD) with 60 minutes of free international wait. Serving MD, DC & VA. Flat rates — call 877-609-1919.',
+      'Luxury car service at Washington Dulles (IAD) with 60 minutes of free international wait. Serving MD, DC & VA, flat rates. Call 877-609-1919.',
     keywords:
       'IAD car service, Dulles airport car service, Washington Dulles limo, IAD chauffeur, Dulles international arrival pickup, IAD to Maryland car service, Dulles airport transportation',
     heroImage:
@@ -179,6 +261,24 @@ export const AIRPORT_PAGES = [
       'Dulles funnels essentially all arriving passengers back to the main terminal, which keeps our side of the operation simple. Domestic travelers ride the AeroTrain or a mobile lounge from the midfield concourses and exit near baggage claim on the lower level; international travelers emerge from the customs doors into the arrivals hall. For international flights we recommend the inside meet: your greeter stands at those doors with a name board, takes a luggage cart’s worth of bags in stride, and leads you to the vehicle. For domestic arrivals, a curbside text-and-pickup at your claim door is usually fastest.',
       'The distances inside Dulles are real — it can be a fifteen-to-twenty-minute journey from a far gate to the curb even with no lines — so we never stage your car prematurely or pressure you to hurry. Dispatch watches three signals: the flight’s actual touchdown, typical customs throughput for that hour, and your text when bags are in hand. The car appears when you do. Overnight arrivals are no obstacle; we monitor red-eyes from Europe and Asia around the clock and staff accordingly.',
       'Leaving the airport, your chauffeur picks the route by conditions: the Dulles Access Road and Toll Road feed toward the Beltway and Route 66, and from there the run to Maryland goes via the American Legion Bridge or around the top of the Beltway to I-95 and the BW Parkway. Figure about an hour to Baltimore-area destinations, more in weekday peaks. Departure trips to IAD from Maryland get generous time budgeting for the same reason in reverse. Every itinerary is quoted as a single flat rate — call for a quote and it will not change afterward.',
+    ],
+    neighborhoods: [
+      {
+        h3: 'Tysons Corner & the Route 7 technology corridor',
+        text: 'Tysons Corner is one of the closer IAD trips at roughly 20 to 30 minutes via the Dulles Toll Road and Route 7, and its dense cluster of technology and consulting firms generates steady corporate airport travel for us, often booked as a standing account with consolidated billing for recurring visitors.',
+      },
+      {
+        h3: 'Reston & Herndon, Dulles\' closest neighbors',
+        text: 'Reston and Herndon sit just minutes from the terminal via the Dulles Access Road, making same-day fly-in meetings genuinely realistic. Our chauffeurs know the Reston Town Center hotel valet pattern and the Herndon Metro station area well enough to make a quick local hop feel as considered as a cross-region transfer.',
+      },
+      {
+        h3: 'Northern Virginia\'s American Legion Bridge approach to Maryland',
+        text: 'For Maryland-bound travelers, the American Legion Bridge across the Potomac is the single biggest variable in an IAD trip\'s timing — a backup there during evening rush can add 20 minutes or more with little warning. We watch that bridge in real time rather than quoting an optimistic straight-line drive estimate.',
+      },
+      {
+        h3: 'Loudoun County & the wine country beyond the airport',
+        text: 'West of Dulles, Loudoun County\'s wineries and historic towns like Leesburg and Middleburg are a popular hourly booking for visitors extending an IAD trip into a day of touring, and our Sprinter vans are a common choice for a group splitting a wine-country day before a return flight.',
+      },
     ],
     faqs: [
       {
@@ -213,6 +313,11 @@ export const AIRPORT_PAGES = [
         label: 'Explore the Fleet',
         sub: 'From executive sedans to Sprinters for arriving delegations',
       },
+      {
+        to: '/iad-to-bethesda',
+        label: 'IAD to Bethesda',
+        sub: 'Flat-rate transfers from Dulles to Bethesda and North Bethesda',
+      },
     ],
   },
   {
@@ -222,7 +327,7 @@ export const AIRPORT_PAGES = [
     location: 'Dulles, Virginia',
     metaTitle: 'Dulles Airport Transfers | IAD to BWI, DCA & MD',
     metaDescription:
-      'Dulles Airport transfers made simple: IAD to BWI, DCA, Maryland suburbs & cruise ports. Chauffeured, flat-rate, on time. Call 877-609-1919.',
+      'Dulles Airport transfers made simple: IAD to BWI, DCA, Maryland suburbs & Baltimore cruise terminal. Chauffeured, flat-rate. Call 877-609-1919.',
     keywords:
       'Dulles airport transfers, IAD to BWI transfer, IAD to DCA shuttle alternative, Dulles to Maryland transfer, Dulles airport connection service, IAD group transfers, Dulles to Baltimore cruise terminal',
     heroImage:
@@ -273,6 +378,10 @@ export const AIRPORT_PAGES = [
         q: 'Is a Dulles transfer priced differently from a normal airport pickup?',
         a: 'The structure is identical: one flat rate covering the entire door-to-door move, quoted and confirmed before you travel. Airport-to-airport runs, suburb drop-offs, and cruise connections each have their own quote, but none of them ever involves meters, waiting-time surprises, or surge pricing. Call 877-609-1919 and we will price your exact itinerary.',
       },
+      {
+        q: 'Do you serve Reston and Tysons Corner, right next to Dulles?',
+        a: 'Yes. Reston sits about seven miles from Dulles and Tysons Corner about seventeen, and both generate steady corporate pickup and drop-off traffic for us connecting to IAD, BWI, and Reagan National alike.',
+      },
     ],
     relatedLinks: [
       {
@@ -281,9 +390,24 @@ export const AIRPORT_PAGES = [
         sub: 'Details, timing, and booking for the BWI–IAD corridor',
       },
       {
+        to: '/reston-va-corporate-car-service',
+        label: 'Reston VA Corporate Car Service',
+        sub: 'Minutes from Dulles — flat-rate corporate transfers',
+      },
+      {
+        to: '/tysons-corner-va-corporate-car-service',
+        label: 'Tysons Corner VA Corporate Car Service',
+        sub: 'Close to both Dulles and Reagan National',
+      },
+      {
         to: '/cruise-transportation',
         label: 'Cruise Transportation',
         sub: 'Airport-to-pier service for Port of Baltimore sailings',
+      },
+      {
+        to: '/iad-to-rockville',
+        label: 'IAD to Rockville',
+        sub: 'Flat-rate transfers from Dulles to Rockville and I-270 corridor',
       },
     ],
   },
@@ -292,9 +416,9 @@ export const AIRPORT_PAGES = [
     shortName: 'Reagan Transfers',
     name: 'Reagan National Airport Transfers',
     location: 'Arlington, Virginia',
-    metaTitle: 'Reagan Airport Transfers | DCA to BWI & Maryland',
+    metaTitle: 'Reagan Airport Transfers | DCA to BWI, Annapolis & Baltimore',
     metaDescription:
-      'Reagan Airport transfers for business travel: DCA to BWI, Annapolis, Baltimore & Bethesda. Chauffeured flat-rate service — 877-609-1919.',
+      'Reagan Airport transfers for business travel: DCA to BWI, Annapolis, Baltimore & Bethesda. Chauffeured, flat-rate, 24/7. Call 877-609-1919.',
     keywords:
       'Reagan airport transfers, DCA to BWI transfer, DCA to Annapolis car service, DCA to Baltimore transfer, DCA corporate car service, Capitol Hill airport transfer, Reagan National to Bethesda',
     heroImage:
@@ -345,6 +469,10 @@ export const AIRPORT_PAGES = [
         q: 'What happens if my inbound flight to DCA lands early or late?',
         a: 'Your chauffeur’s schedule follows the aircraft, not the booking form. We track the tail from departure, so an early landing means the car is simply ready sooner, and a delay costs you nothing. If a cancellation moves you to a different flight, one call to dispatch re-anchors the transfer to the new arrival.',
       },
+      {
+        q: 'Do you run transfers between Reagan National and BWI directly?',
+        a: 'Yes. See our dedicated BWI to DCA airport-to-airport transfer page for how we handle that specific corridor, including connecting-itinerary timing for split airport bookings.',
+      },
     ],
     relatedLinks: [
       {
@@ -353,9 +481,29 @@ export const AIRPORT_PAGES = [
         sub: 'Chauffeured service to the State House, Academy & waterfront',
       },
       {
+        to: '/bwi-to-dca-airport-transfer',
+        label: 'BWI to DCA Airport Transfer',
+        sub: 'Direct airport-to-airport transfer for split connecting itineraries',
+      },
+      {
+        to: '/bwi-to-georgetown-dc',
+        label: 'BWI to Georgetown DC',
+        sub: 'Flat-rate transfers into Georgetown from either airport corridor',
+      },
+      {
+        to: '/tysons-corner-va-corporate-car-service',
+        label: 'Tysons Corner VA Corporate Car Service',
+        sub: 'About 13 miles from DCA — a frequent Reagan transfer destination',
+      },
+      {
         to: '/coverage',
         label: 'Service Coverage Map',
         sub: 'Every city and county we serve across Maryland, DC & Virginia',
+      },
+      {
+        to: '/dca-to-bethesda',
+        label: 'DCA to Bethesda',
+        sub: 'Flat-rate transfers from Reagan National to Bethesda',
       },
     ],
   },

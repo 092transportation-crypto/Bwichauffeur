@@ -49,6 +49,7 @@ const HomePage = () => {
             areaServed: [
               { '@type': 'State', name: 'Maryland' },
               { '@type': 'State', name: 'Virginia' },
+              { '@type': 'State', name: 'Delaware' },
               { '@type': 'AdministrativeArea', name: 'Washington DC' },
             ],
             priceRange: '$$',

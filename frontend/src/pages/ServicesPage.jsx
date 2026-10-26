@@ -36,8 +36,8 @@ const ServicesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Luxury Services | Airport Transfer, Weddings, Corporate</title>
-        <meta name="description" content="Explore BWI Chauffeur's luxury services: airport transfers, wedding limousines and corporate car service across Maryland, DC and Delaware." />
+        <title>Chauffeur Services | Airport, Weddings & Corporate</title>
+        <meta name="description" content="Flat-rate airport transfers, wedding limousines, corporate car service & hourly chauffeur hire across Maryland, DC and Delaware. 24/7 — call 877-609-1919." />
         <link rel="canonical" href="https://www.bwichauffeur.com/services" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -48,6 +48,27 @@ const ServicesPage = () => {
               name: f.q,
               acceptedAnswer: { '@type': 'Answer', text: f.a },
             })),
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'BWI Chauffeur',
+            telephone: '+1-877-609-1919',
+            url: 'https://www.bwichauffeur.com',
+            image: 'https://www.bwichauffeur.com/logo.jpeg',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              postalCode: '20723',
+              addressCountry: 'US',
+            },
+            areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+            openingHours: 'Mo-Su 00:00-23:59',
           })}
         </script>
       </Helmet>

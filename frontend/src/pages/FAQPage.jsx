@@ -86,7 +86,7 @@ const FAQPage = () => {
       faqs: [
         {
           question: 'What types of vehicles do you have?',
-          answer: 'Our luxury fleet includes: the Business Sedan (Mercedes-Benz E-Class), First Class Sedan (BMW 7 Series / Mercedes S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), Mercedes Sprinter Shuttle and Sprinter Executive vans, and the Mercedes Sprinter Limo — all 2023+ or similar, meticulously maintained, and fully insured.'
+          answer: 'Our luxury fleet includes: the Business Sedan (Mercedes-Benz E-Class), First Class Sedan (BMW 7 Series / Mercedes S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), Mercedes Sprinter Shuttle and Sprinter Executive vans — all 2023+ or similar, meticulously maintained, and fully insured.'
         },
         {
           question: 'Can I request a specific vehicle?',
@@ -176,6 +176,27 @@ const FAQPage = () => {
                 name: f.question,
                 acceptedAnswer: { '@type': 'Answer', text: f.answer },
               })),
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'BWI Chauffeur',
+            telephone: '+1-877-609-1919',
+            url: 'https://www.bwichauffeur.com',
+            image: 'https://www.bwichauffeur.com/logo.jpeg',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              postalCode: '20723',
+              addressCountry: 'US',
+            },
+            areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+            openingHours: 'Mo-Su 00:00-23:59',
           })}
         </script>
       </Helmet>

@@ -14,9 +14,30 @@ const CoveragePage = () => {
   return (
     <>
       <Helmet>
-        <title>Service Areas | Maryland, DC, Virginia Coverage</title>
-        <meta name="description" content="See where BWI Chauffeur drives: Maryland, Washington DC, Northern Virginia and Delaware, with service to BWI, DCA, IAD and PHL airports." />
+        <title>Where We Drive | Maryland, DC, Virginia & Delaware</title>
+        <meta name="description" content="See where BWI Chauffeur drives: Maryland, Washington DC, Northern Virginia & Delaware, BWI/DCA/IAD/PHL. Call 877-609-1919." />
         <link rel="canonical" href="https://www.bwichauffeur.com/coverage" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'BWI Chauffeur',
+            telephone: '+1-877-609-1919',
+            url: 'https://www.bwichauffeur.com',
+            image: 'https://www.bwichauffeur.com/logo.jpeg',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              postalCode: '20723',
+              addressCountry: 'US',
+            },
+            areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+            openingHours: 'Mo-Su 00:00-23:59',
+          })}
+        </script>
       </Helmet>
     <div className="min-h-screen bg-black pt-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -65,6 +86,14 @@ const CoveragePage = () => {
 
           <p>
             Our chauffeurs know the region well. We use GPS navigation and real-time traffic monitoring to pick the best routes. You arrive on time, whatever the traffic or weather.
+          </p>
+
+          <p>
+            Coverage beyond Maryland is just as routine for us. We run regular long-distance transfers to the Delaware beaches (Rehoboth, Bethany and Dewey), to Ocean City on Maryland's Eastern Shore, and up to Philadelphia International Airport for travelers whose flights connect better from PHL. Northern Virginia trips frequently pair with a DCA or IAD transfer, and a growing share of our corporate accounts route recurring travel between a Maryland or DC office and one of these farther destinations on a standing monthly schedule.
+          </p>
+
+          <p>
+            If your address is not on this page, that is a gap in our list, not in our service area. Call <a href="tel:+18776091919" className="text-[#D4AF37] hover:text-[#F4E5C3] underline">877-609-1919</a> or use the quote form below with your exact pickup and drop-off addresses, and dispatch will confirm coverage and a flat rate before you book.
           </p>
         </div>
 

@@ -14,12 +14,33 @@ const BookingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Book Your Ride | Easy Airport Limo Reservation</title>
+        <title>Book Your Ride | Flat-Rate Airport Limo Reservation</title>
         <meta
           name="description"
-          content="Reserve your BWI Chauffeur ride online in minutes. Airport transfers, corporate travel and event transportation across MD, DC and DE. Call 877-609-1919."
+          content="Reserve your flat-rate BWI Chauffeur ride online in minutes. Airport transfers, corporate travel & event transportation across MD, DC & DE. Call 877-609-1919."
         />
         <link rel="canonical" href="https://www.bwichauffeur.com/booking" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'BWI Chauffeur',
+            telephone: '+1-877-609-1919',
+            url: 'https://www.bwichauffeur.com',
+            image: 'https://www.bwichauffeur.com/logo.jpeg',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '9836 Lyon Ave',
+              addressLocality: 'Laurel',
+              addressRegion: 'MD',
+              postalCode: '20723',
+              addressCountry: 'US',
+            },
+            areaServed: { '@type': 'Place', name: 'Maryland, Washington DC & Northern Virginia' },
+            openingHours: 'Mo-Su 00:00-23:59',
+          })}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 pt-32 pb-16">

@@ -49,6 +49,8 @@ async function run() {
   // Require handlers AFTER env is set.
   const quoteHandler = require("../api/quote-requests");
   const contactHandler = require("../api/contact");
+  const chatHandler = require("../api/chat");
+  const leadCaptureHandler = require("../api/lead-capture");
 
   let failures = 0;
 
@@ -221,6 +223,118 @@ async function run() {
     await quoteHandler(mockReq("GET", {}), res);
     const ok = res.statusCode === 405;
     console.log(`[quote GET 405] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) failures++;
+  }
+
+  // ---- Chat: graceful fallback when ANTHROPIC_API_KEY is unset ----
+  // (never set anywhere in this script, so this exercises the real "not
+  // configured" path — must 200 with an honest fallback, never crash/5xx.)
+  {
+    delete process.env.ANTHROPIC_API_KEY;
+    const req = mockReq("POST", {
+      messages: [{ role: "user", content: "Hi, what cars do you have?" }],
+    });
+    const res = mockRes();
+    await chatHandler(req, res);
+    const ok =
+      res.statusCode === 200 &&
+      typeof res.body?.reply === "string" &&
+      /877-609-1919/.test(res.body.reply) &&
+      !res.body.leadCaptured;
+    console.log(`[chat no-api-key] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) { failures++; console.log(JSON.stringify(res.body)); }
+  }
+
+  // ---- Chat: empty/missing messages -> 400 (still no crash) ----
+  {
+    const req = mockReq("POST", {});
+    const res = mockRes();
+    await chatHandler(req, res);
+    const ok = res.statusCode === 400;
+    console.log(`[chat empty-messages] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) failures++;
+  }
+
+  // ---- Chat: method guard ----
+  {
+    const res = mockRes();
+    await chatHandler(mockReq("GET", {}), res);
+    const ok = res.statusCode === 405;
+    console.log(`[chat GET 405] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) failures++;
+  }
+
+  // ---- Lead capture: missing name + phone -> 400 ----
+  {
+    const req = mockReq("POST", { source: "lead_popup", email: "x@y.com" });
+    const res = mockRes();
+    await leadCaptureHandler(req, res);
+    const ok = res.statusCode === 400 && /name|phone/.test(res.body.detail);
+    console.log(`[lead-capture missing name+phone] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"} (${res.body.detail})`);
+    if (!ok) failures++;
+  }
+
+  // ---- Lead capture: invalid phone -> 400 ----
+  {
+    const req = mockReq("POST", { source: "exit_intent", name: "Jo", phone: "123" });
+    const res = mockRes();
+    await leadCaptureHandler(req, res);
+    const ok = res.statusCode === 400 && /phone/.test(res.body.detail);
+    console.log(`[lead-capture invalid phone] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"} (${res.body.detail})`);
+    if (!ok) failures++;
+  }
+
+  // ---- Lead capture: valid submission, Twilio/webhook unset -> 201, fast (no hang) ----
+  {
+    delete process.env.TWILIO_ACCOUNT_SID;
+    delete process.env.TWILIO_AUTH_TOKEN;
+    delete process.env.TWILIO_FROM_NUMBER;
+    delete process.env.ALERT_PHONE_NUMBER;
+    delete process.env.LEAD_WEBHOOK_URL;
+    const req = mockReq("POST", {
+      source: "lead_popup",
+      name: "Lead Visitor",
+      phone: "410-555-0123",
+      email: "lead.visitor@example.com",
+    });
+    const res = mockRes();
+    const started = Date.now();
+    await leadCaptureHandler(req, res);
+    const elapsedMs = Date.now() - started;
+    const ok = res.statusCode === 201 && res.body?.success === true && elapsedMs < 2000;
+    console.log(`[lead-capture unconfigured] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"} (${elapsedMs}ms)`);
+    if (!ok) failures++;
+  }
+
+  // ---- Lead capture: LEAD_WEBHOOK_URL points at an unreachable host —
+  // the fire-and-forget 6s AbortController timeout must actually bound the
+  // request (not hang indefinitely), and the visitor-facing response must
+  // still be 201 regardless of webhook delivery outcome. ----
+  {
+    process.env.LEAD_WEBHOOK_URL = "http://10.255.255.1:1234/webhook";
+    const req = mockReq("POST", {
+      source: "exit_intent",
+      name: "Timeout Test",
+      phone: "410-555-0199",
+    });
+    const res = mockRes();
+    const started = Date.now();
+    await leadCaptureHandler(req, res);
+    const elapsedMs = Date.now() - started;
+    delete process.env.LEAD_WEBHOOK_URL;
+    // Generous upper bound: the 6s abort timeout plus overhead, well under
+    // what an unbounded hang (OS-level TCP timeout, often 60s+) would take.
+    const ok = res.statusCode === 201 && res.body?.success === true && elapsedMs < 8000;
+    console.log(`[lead-capture unreachable webhook] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"} (${elapsedMs}ms)`);
+    if (!ok) failures++;
+  }
+
+  // ---- Lead capture: method guard ----
+  {
+    const res = mockRes();
+    await leadCaptureHandler(mockReq("GET", {}), res);
+    const ok = res.statusCode === 405;
+    console.log(`[lead-capture GET 405] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
     if (!ok) failures++;
   }
 

@@ -3,6 +3,14 @@
 
 import { MARYLAND_BATCH3 } from './marylandPagesBatch3';
 import { MARYLAND_BATCH4 } from './marylandPagesBatch4';
+import { MARYLAND_BATCH5 } from './marylandPagesBatch5';
+import { MARYLAND_BATCH6 } from './marylandPagesBatch6';
+import { MARYLAND_BATCH7 } from './marylandPagesBatch7';
+import { MARYLAND_BATCH8 } from './marylandPagesBatch8';
+import { MARYLAND_BATCH9 } from './marylandPagesBatch9';
+import { MARYLAND_BATCH10 } from './marylandPagesBatch10';
+import { MARYLAND_BATCH11 } from './marylandPagesBatch11';
+import { MARYLAND_BATCH12 } from './marylandPagesBatch12';
 
 export const MARYLAND_PAGES = [
   {
@@ -11,8 +19,8 @@ export const MARYLAND_PAGES = [
     "name": "Rockville",
     "badge": "Montgomery County Limo Service",
     "h1": "Rockville Limo Service",
-    "metaTitle": "Rockville Limo Service | Car Service Rockville MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Rockville, MD. BWI in 55–70 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Rockville MD Limo Service | Flat-Rate to BWI & DCA",
+    "metaDescription": "Rockville's trusted limo & car service — BWI in 55–70 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -63,6 +71,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "Rockville clients book us for corporate travel for I-270 biotech firms, court and county-government appointments, Montgomery College events, weddings at Glenview Mansion and nights out at Rockville Town Square. Corporate travelers from the Nuclear Regulatory Commission, Westat, the Montgomery County government complex and the biotech and health-science firms clustered along Shady Grove Road and the I-270 corridor keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Cambria Hotel Rockville, the Hilton Washington DC/Rockville and the Sheraton Rockville.",
           "Weddings and celebrations at Glenview Mansion get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
+        ]
+      },
+      {
+        "h2": "Rockville's rush-hour patterns and downtown closures",
+        "paragraphs": [
+          "Rockville Pike (MD-355) carries the heaviest retail traffic in the city past Congressional Plaza and the Twinbrook and White Flint corridors, and it backs up predictably between 4:30 and 6:30 p.m. on weekdays — a pattern our chauffeurs route around using Veirs Mill Road or the I-270 frontage roads rather than sitting in it. The I-270 spur's merge onto the Beltway near the Montrose Road interchange is the other chokepoint we plan for on every airport run, since a few minutes lost there can cascade into a much longer delay during the evening commute.",
+          "Downtown, Rockville Town Square closes sections of Maryland Avenue and East Middle Lane for its Wednesday and Saturday farmers market and for seasonal events like the winter Hanukkah and holiday tree lightings, which can shift the exact curbside pickup spot for a Town Square address. We confirm the current access point with you before pickup on those dates rather than defaulting to a closed street. As with every BWI Chauffeur reservation, sedan and SUV bookings cancel free up to 3 hours before pickup, and Sprinter vans or stretch limousines booked for a Glenview Mansion wedding or a graduation weekend cancel free up to 12 hours before pickup."
         ]
       }
     ],
@@ -144,6 +159,10 @@ export const MARYLAND_PAGES = [
         "to": "/bethesda-limo-service"
       },
       {
+        "label": "Kensington Limo Service",
+        "to": "/kensington-md-limo-service"
+      },
+      {
         "label": "Gaithersburg Limo Service",
         "to": "/gaithersburg-limo-service"
       },
@@ -174,8 +193,8 @@ export const MARYLAND_PAGES = [
     "name": "Bethesda",
     "badge": "Montgomery County Limo Service",
     "h1": "Bethesda Limo Service",
-    "metaTitle": "Bethesda Limo Service | Car Service Bethesda MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Bethesda, MD. BWI in 50–65 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Bethesda MD Limo Service | Flat-Rate to BWI, DCA & IAD",
+    "metaDescription": "Bethesda's trusted limo & car service — BWI in 50–65 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -226,6 +245,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "Bethesda clients book us for NIH and Walter Reed visits, Marriott and Lockheed executive travel, Strathmore concerts, Congressional Country Club events and dinners on Bethesda Row. Corporate travelers from NIH, Walter Reed, Marriott International, Lockheed Martin's Rockledge Drive headquarters and the law, consulting and medical practices around the Bethesda Metro keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Hyatt Regency Bethesda, the Bethesda Marriott, the Bethesdan Hotel and the Canopy by Hilton at Pike & Rose.",
           "Weddings and celebrations at the Music Center at Strathmore get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
+        ]
+      },
+      {
+        "h2": "Bethesda Row's valet pattern and the Chevy Chase border",
+        "paragraphs": [
+          "Bethesda Row's restaurant and theater district along Woodmont Avenue and Bethesda Avenue runs on valet and metered street parking that fills by early evening on a Friday or Saturday, and our chauffeurs plan a pickup spot on a quieter cross street — Edgemoor Lane or Arlington Road — rather than competing with the valet lines directly in front of a restaurant. Suburban Hospital, a Johns Hopkins Medicine member hospital just off Old Georgetown Road, is another frequent stop, and we time patient and family pickups around appointment or discharge windows rather than a generic estimate.",
+          "Along the Chevy Chase border and the Capital Crescent Trail corridor, weekday trips often combine a Bethesda pickup with a Chevy Chase or Friendship Heights drop-off on the same reservation. As with every BWI Chauffeur booking, sedan and SUV reservations cancel free up to 3 hours before pickup, and Sprinter vans or stretch limousines booked for a Strathmore evening or a Congressional Country Club event cancel free up to 12 hours before pickup."
         ]
       }
     ],
@@ -337,8 +363,8 @@ export const MARYLAND_PAGES = [
     "name": "Gaithersburg",
     "badge": "Montgomery County Limo Service",
     "h1": "Gaithersburg Limo Service",
-    "metaTitle": "Gaithersburg Limo Service | Car Service Gaithersburg MD",
-    "metaDescription": "Flat-rate limo & car service in Gaithersburg, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Gaithersburg MD Limo Service | Flat-Rate to BWI & IAD",
+    "metaDescription": "Gaithersburg's trusted limo & car service — BWI in 60–75 min, DCA & Dulles covered, corporate, weddings & events, 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -500,8 +526,8 @@ export const MARYLAND_PAGES = [
     "name": "Silver Spring",
     "badge": "Montgomery County Limo Service",
     "h1": "Silver Spring Limo Service",
-    "metaTitle": "Silver Spring Limo Service | Car Service Silver Spring MD",
-    "metaDescription": "Flat-rate limo & car service in Silver Spring, MD. BWI in 45–60 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Silver Spring MD Limo Service | Flat-Rate BWI & DCA",
+    "metaDescription": "Silver Spring's trusted limo & car service — BWI in 45–60 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -552,6 +578,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "Silver Spring clients book us for FDA and NOAA business travel, Fillmore concerts, AFI film festival weeks, Holy Cross medical visits and Takoma Park and Four Corners family airport runs. Corporate travelers from NOAA, the FDA at White Oak, Holy Cross Hospital, the Montgomery County government offices and the media and nonprofit employers downtown keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Sheraton Silver Spring, the Courtyard Silver Spring Downtown and the Homewood Suites.",
           "Weddings and celebrations at The Fillmore Silver Spring get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
+        ]
+      },
+      {
+        "h2": "Ellsworth Drive event nights and the FDA security window",
+        "paragraphs": [
+          "Downtown Silver Spring's Ellsworth Drive pedestrian district closes to vehicle traffic for concerts at The Fillmore and for seasonal events like Soupstock and the Thanksgiving Parade staging, which shifts the nearest legal pickup point to Wayne Avenue or Fenton Street on those dates — our chauffeurs confirm the exact spot with you ahead of time rather than guessing at a closed block. For FDA White Oak visitors, we back-time the pickup from your confirmed security-check-in window rather than a generic drive estimate, since arriving even a few minutes outside it can mean a significant delay re-entering the queue.",
+          "As with every BWI Chauffeur reservation, sedan and SUV bookings cancel free up to 3 hours before pickup, and Sprinter vans or stretch limousines booked for a Fillmore show or an AFI festival weekend cancel free up to 12 hours before pickup."
         ]
       }
     ],
@@ -663,8 +696,8 @@ export const MARYLAND_PAGES = [
     "name": "Bowie",
     "badge": "Prince George's County Limo Service",
     "h1": "Bowie Limo Service",
-    "metaTitle": "Bowie Limo Service | Car Service Bowie MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Bowie, MD. BWI in 30–40 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Bowie MD Limo Service | Flat-Rate to BWI, 30–40 Min",
+    "metaDescription": "Bowie's trusted limo & car service — BWI in 30–40 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -826,8 +859,8 @@ export const MARYLAND_PAGES = [
     "name": "Laurel",
     "badge": "Prince George's, Howard and Anne Arundel counties Limo Service",
     "h1": "Laurel Limo Service",
-    "metaTitle": "Laurel Limo Service | Car Service Laurel MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Laurel, MD. BWI in 20–25 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Laurel MD Limo Service | Flat-Rate to BWI in 20 Min",
+    "metaDescription": "Laurel's home-base limo & car service — BWI in just 20–25 min, DCA & Dulles covered, corporate, weddings & events, 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -943,6 +976,14 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Route 1 Corridor Transportation Guide",
+        "to": "/route-1-corridor-laurel-college-park-beltsville-transportation-guide"
+      },
+      {
+        "label": "Millersville MD Limo Service",
+        "to": "/millersville-md-limo-service"
+      },
+      {
         "label": "Bowie Limo Service",
         "to": "/bowie-limo-service"
       },
@@ -989,7 +1030,7 @@ export const MARYLAND_PAGES = [
     "name": "Greenbelt",
     "badge": "Prince George's County Limo Service",
     "h1": "Greenbelt Limo Service",
-    "metaTitle": "Greenbelt Limo Service | Car Service Greenbelt MD | BWI Chauffeur",
+    "metaTitle": "Greenbelt MD Limo Service | BWI Chauffeur",
     "metaDescription": "Flat-rate limo & car service in Greenbelt, MD. BWI in 25–35 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
@@ -1152,7 +1193,7 @@ export const MARYLAND_PAGES = [
     "name": "Waldorf",
     "badge": "Charles County Limo Service",
     "h1": "Waldorf Limo Service",
-    "metaTitle": "Waldorf Limo Service | Car Service Waldorf MD | BWI Chauffeur",
+    "metaTitle": "Waldorf MD Limo Service | BWI Chauffeur",
     "metaDescription": "Flat-rate limo & car service in Waldorf, MD. BWI in 55–75 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
@@ -1315,8 +1356,8 @@ export const MARYLAND_PAGES = [
     "name": "Frederick",
     "badge": "Frederick County Limo Service",
     "h1": "Frederick Limo Service",
-    "metaTitle": "Frederick Limo Service | Car Service Frederick MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Frederick, MD. BWI in 60–75 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Frederick MD Limo Service | Flat-Rate to BWI & Dulles",
+    "metaDescription": "Frederick's trusted limo & car service — BWI in 60–75 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -1367,6 +1408,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "Frederick clients book us for Fort Detrick and Riverside Research Park business travel, Ceresville Mansion and downtown weddings, Frederick Keys games, wine-country outings to Linganore and Black Ankle and Hood College weekends. Corporate travelers from Fort Detrick, Frederick Health, Hood College, the biotech firms of the Riverside Research Park and the county government downtown keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Hilton Garden Inn Frederick, the Courtyard Frederick and the Visitation Hotel on East Church Street.",
           "Weddings and celebrations at Ceresville Mansion get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Frederick County."
+        ]
+      },
+      {
+        "h2": "Downtown Frederick's historic street grid and Fort Detrick's gate procedure",
+        "paragraphs": [
+          "Downtown Frederick's Market Street and Patrick Street grid dates to the 18th century, with narrow lanes and limited parking around Carroll Creek Linear Park that fill fast during the spring In the Street festival and the winter Candlelight House Tour, both of which close sections of Market Street to vehicles. We confirm a drop-off point just outside the closure rather than leaving guests to find their own way in on those dates. Fort Detrick visitors work against a stricter clock than a typical office pickup — badge appointments and escort coordination are scheduled in advance — so we back-time Fort Detrick pickups from the sponsor's confirmed arrival window rather than a generic drive estimate.",
+          "As with every BWI Chauffeur reservation, sedan and SUV bookings cancel free up to 3 hours before pickup, and Sprinter vans or stretch limousines booked for a Ceresville Mansion wedding or a Hood College family weekend cancel free up to 12 hours before pickup."
         ]
       }
     ],
@@ -1436,6 +1484,14 @@ export const MARYLAND_PAGES = [
         "to": "/bwi-to-frederick"
       },
       {
+        "label": "Walkersville Limo Service",
+        "to": "/walkersville-limo-service"
+      },
+      {
+        "label": "Brunswick, MD Limo Service",
+        "to": "/brunswick-md-limo-service"
+      },
+      {
         "label": "Rockville Limo Service",
         "to": "/rockville-limo-service"
       },
@@ -1478,7 +1534,7 @@ export const MARYLAND_PAGES = [
     "name": "Odenton",
     "badge": "Anne Arundel County Limo Service",
     "h1": "Odenton Limo Service",
-    "metaTitle": "Odenton Limo Service | Car Service Odenton MD | BWI Chauffeur",
+    "metaTitle": "Odenton MD Limo Service | BWI Chauffeur",
     "metaDescription": "Flat-rate limo & car service in Odenton, MD. BWI in 15–20 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
@@ -1594,6 +1650,10 @@ export const MARYLAND_PAGES = [
       }
     ],
     "related": [
+      {
+        "label": "Fort Meade, MD Limo Service",
+        "to": "/fort-meade-limo-service"
+      },
       {
         "label": "Severna Park Limo Service",
         "to": "/severna-park-limo-service"
@@ -1758,6 +1818,10 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Pasadena MD Limo Service",
+        "to": "/pasadena-md-limo-service"
+      },
+      {
         "label": "Odenton Limo Service",
         "to": "/odenton-limo-service"
       },
@@ -1804,7 +1868,7 @@ export const MARYLAND_PAGES = [
     "name": "Crofton",
     "badge": "Anne Arundel County Limo Service",
     "h1": "Crofton Limo Service",
-    "metaTitle": "Crofton Limo Service | Car Service Crofton MD | BWI Chauffeur",
+    "metaTitle": "Crofton MD Limo Service | BWI Chauffeur",
     "metaDescription": "Flat-rate limo & car service in Crofton, MD. BWI in 25–35 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
@@ -2410,6 +2474,14 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Linthicum Heights Limo Service",
+        "to": "/linthicum-heights-limo-service"
+      },
+      {
+        "label": "Live! Casino & Hotel Maryland Transportation",
+        "to": "/live-casino-hotel-maryland-transportation"
+      },
+      {
         "label": "Odenton Limo Service",
         "to": "/odenton-limo-service"
       },
@@ -2782,7 +2854,7 @@ export const MARYLAND_PAGES = [
     "name": "Cape St. Claire",
     "badge": "Anne Arundel County Limo Service",
     "h1": "Cape St. Claire Limo Service",
-    "metaTitle": "Cape St. Claire Limo Service | Car Service Cape St. Claire MD",
+    "metaTitle": "Cape St. Claire MD Limo Service | BWI Chauffeur",
     "metaDescription": "Flat-rate limo & car service in Cape St. Claire, MD. BWI in 30–45 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
@@ -3108,8 +3180,8 @@ export const MARYLAND_PAGES = [
     "name": "Towson",
     "badge": "Baltimore County Limo Service",
     "h1": "Towson Limo Service",
-    "metaTitle": "Towson Limo Service | Car Service Towson MD | BWI Chauffeur",
-    "metaDescription": "Flat-rate limo & car service in Towson, MD. BWI in 25–40 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
+    "metaTitle": "Towson MD Limo Service | Flat-Rate to BWI, 25–40 Min",
+    "metaDescription": "Towson's trusted limo & car service — BWI in just 25–40 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
     "stats": [
       {
         "label": "To BWI",
@@ -3271,7 +3343,7 @@ export const MARYLAND_PAGES = [
     "name": "Timonium",
     "badge": "Baltimore County Limo Service",
     "h1": "Timonium Limo Service",
-    "metaTitle": "Timonium Limo Service | Car Service Timonium MD | BWI Chauffeur",
+    "metaTitle": "Timonium MD Limo Service | BWI Chauffeur",
     "metaDescription": "Flat-rate limo & car service in Timonium, MD. BWI in 30–45 minutes, plus DCA & Dulles, corporate, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
@@ -3597,7 +3669,7 @@ export const MARYLAND_PAGES = [
     "name": "Phoenix",
     "badge": "Baltimore County Limo Service",
     "h1": "Phoenix Limo Service",
-    "metaTitle": "Phoenix Limo Service | Car Service Phoenix MD | BWI Chauffeur",
+    "metaTitle": "Phoenix MD Limo Service | BWI Chauffeur",
     "metaDescription": "Flat-rate limo & car service in Phoenix, MD. BWI in 40–50 minutes, plus DCA & Dulles, corporate travel, weddings & events. 24/7. Call 877-609-1919.",
     "stats": [
       {
@@ -4366,6 +4438,14 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Centreville, MD Limo Service",
+        "to": "/centreville-md-limo-service"
+      },
+      {
+        "label": "Chestertown, MD Limo Service",
+        "to": "/chestertown-md-limo-service"
+      },
+      {
         "label": "Rockville Limo Service",
         "to": "/rockville-limo-service"
       },
@@ -4738,7 +4818,7 @@ export const MARYLAND_PAGES = [
     "name": "BWI to Ocean City",
     "badge": "Airport Transfer Route",
     "h1": "BWI Airport to Ocean City Car Service",
-    "metaTitle": "BWI to Ocean City Car Service | Flat Rate Limo | BWI Chauffeur",
+    "metaTitle": "BWI to Ocean City Car Service | Flat Rate Limo",
     "metaDescription": "Flat-rate chauffeured car service from BWI Airport to Ocean City — 130 miles, 2.5–3 hours. Flight tracking, 24/7, sedans to Sprinters. Call 877-609-1919.",
     "stats": [
       {
@@ -4895,7 +4975,7 @@ export const MARYLAND_PAGES = [
     "name": "BWI to Frederick",
     "badge": "Airport Transfer Route",
     "h1": "BWI Airport to Frederick Car Service",
-    "metaTitle": "BWI to Frederick Car Service | Flat Rate Limo | BWI Chauffeur",
+    "metaTitle": "BWI to Frederick Car Service | Flat Rate Limo",
     "metaDescription": "Flat-rate chauffeured car service from BWI Airport to Frederick — 55 miles, 60–75 minutes. Flight tracking, 24/7, sedans to Sprinters. Call 877-609-1919.",
     "stats": [
       {
@@ -5209,7 +5289,7 @@ export const MARYLAND_PAGES = [
     "name": "DCA to Rockville",
     "badge": "Airport Transfer Route",
     "h1": "Reagan National Airport to Rockville Car Service",
-    "metaTitle": "DCA to Rockville Car Service | Flat Rate Limo | BWI Chauffeur",
+    "metaTitle": "DCA to Rockville Car Service | Flat Rate Limo",
     "metaDescription": "Flat-rate chauffeured car service from DCA Airport to Rockville — 20 miles, 35–50 minutes. Flight tracking, 24/7, sedans to Sprinters. Call 877-609-1919.",
     "stats": [
       {
@@ -5366,7 +5446,7 @@ export const MARYLAND_PAGES = [
     "name": "IAD to Rockville",
     "badge": "Airport Transfer Route",
     "h1": "Dulles Airport to Rockville Car Service",
-    "metaTitle": "IAD to Rockville Car Service | Flat Rate Limo | BWI Chauffeur",
+    "metaTitle": "IAD to Rockville Car Service | Flat Rate Limo",
     "metaDescription": "Flat-rate chauffeured car service from Dulles Airport to Rockville — 27 miles, 40–55 minutes. Flight tracking, 24/7, sedans to Sprinters. Call 877-609-1919.",
     "stats": [
       {
@@ -5680,8 +5760,8 @@ export const MARYLAND_PAGES = [
     "name": "Baltimore to Washington DC",
     "badge": "City-to-City Route",
     "h1": "Baltimore to Washington, DC Car Service",
-    "metaTitle": "Baltimore to Washington DC Car Service | BWI Chauffeur",
-    "metaDescription": "Flat-rate chauffeured car service from Baltimore to Washington, DC — 40 miles, 55–75 minutes. Flight tracking, 24/7, sedans to Sprinters. Call 877-609-1919.",
+    "metaTitle": "Baltimore to DC Car Service | Flat-Rate, 55–75 Min",
+    "metaDescription": "Flat-rate chauffeured car service from Baltimore to Washington, DC — 40 miles, 55–75 minutes, flight tracking, 24/7. Call 877-609-1919 to book.",
     "stats": [
       {
         "label": "Distance",
@@ -6151,8 +6231,8 @@ export const MARYLAND_PAGES = [
     "name": "Maryland Wedding Limo",
     "badge": "Maryland Service",
     "h1": "Maryland Wedding Limo Service",
-    "metaTitle": "Maryland Wedding Limo | Flat Rate Chauffeurs | BWI Chauffeur",
-    "metaDescription": "Maryland Wedding Limo across Baltimore and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919.",
+    "metaTitle": "Maryland Wedding Limo | A Timeline That Never Slips",
+    "metaDescription": "Your wedding day timeline, protected: Maryland wedding limo service built around your planner's schedule, not a generic pickup window. Call 877-609-1919.",
     "stats": [
       {
         "label": "Coverage",
@@ -6200,6 +6280,12 @@ export const MARYLAND_PAGES = [
         "h2": "Choosing the right vehicle",
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+        ]
+      },
+      {
+        "h2": "Coordinating with your planner and vendors",
+        "paragraphs": [
+          "Most wedding transportation problems are really timeline problems, not vehicle problems, so we ask for the full day-of schedule — hair and makeup, first look, ceremony start, photo locations, reception load-in — before the vehicle ever gets assigned. If your planner issues a vendor timeline, send it directly to dispatch and we build the chauffeur's schedule around it rather than around a generic set of pickup windows. On the day itself, the chauffeur checks in with the planner or point of contact rather than disappearing between stops, which is usually the detail that saves the most stress when a photo session runs long or a ceremony starts a few minutes late."
         ]
       }
     ],
@@ -6257,6 +6343,10 @@ export const MARYLAND_PAGES = [
       {
         "q": "Can I make multiple stops or change the plan on the day?",
         "a": "Yes. Hourly bookings are built for it, and dispatch can adjust point-to-point trips in real time as long as the chauffeur is not committed to another reservation."
+      },
+      {
+        "q": "Do you provide a separate shuttle for wedding guests, not just the couple?",
+        "a": "Yes. A guest shuttle is booked and scheduled separately from the couple's car, running round trips between a hotel block and the venue. See our Wedding Guest Shuttle Service Maryland page for how that is typically structured."
       }
     ],
     "related": [
@@ -6267,6 +6357,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "Maryland Prom Limo",
         "to": "/maryland-prom-limo"
+      },
+      {
+        "label": "Wedding Guest Shuttle Service Maryland",
+        "to": "/wedding-guest-shuttle-service-maryland"
       },
       {
         "label": "Maryland Concert Transportation",
@@ -6306,8 +6400,8 @@ export const MARYLAND_PAGES = [
     "name": "Maryland Corporate Car Service",
     "badge": "Maryland Service",
     "h1": "Maryland Corporate Car Service",
-    "metaTitle": "Maryland Corporate Car Service | BWI Chauffeur",
-    "metaDescription": "Maryland Corporate Car Service across Baltimore and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919.",
+    "metaTitle": "Maryland Corporate Car Service | Skip the Surge, Book a Chauffeur",
+    "metaDescription": "Tired of surge pricing and no-show rideshares? Maryland corporate car service with flat rates, a named chauffeur, 24/7 dispatch. Call 877-609-1919.",
     "stats": [
       {
         "label": "Coverage",
@@ -6355,6 +6449,19 @@ export const MARYLAND_PAGES = [
         "h2": "Choosing the right vehicle",
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+        ]
+      },
+      {
+        "h2": "Standing accounts and consolidated billing",
+        "paragraphs": [
+          "Most of our corporate clients book through a standing account rather than a one-off reservation, which means a single point of contact, consolidated monthly invoicing, and priority dispatch for recurring routes like a weekly Bethesda-to-BWI executive run or a standing conference shuttle during a busy week at the convention center. Setting one up takes a short conversation with dispatch to confirm billing details and the recurring routes you need."
+        ]
+      },
+      {
+        "h2": "Industry-specific corporate programs",
+        "paragraphs": [
+          "Different industries need different things from a corporate car service. Government contractors near Fort Meade need chauffeurs who know visitor-access gates and badge-appointment timing. Hospitals and medical centers need patient-and-family-aware scheduling. Law firms and financial services firms need discretion and a cabin conversation that stays confidential. Engineering and construction teams need a driver who will confirm the actual site entrance rather than trust a mapped address, and real estate agents need a chauffeur who will wait at each stop during a multi-property showing day. We run dedicated playbooks for each — see our government contractor, hospital, law firm, biotech, financial services, engineering and construction, and real estate car service pages for the specifics of each industry's program.",
+          "We have also extended corporate coverage into Northern Virginia, with dedicated programs for Tysons Corner and Reston — both close enough to Dulles and Reagan National that a Virginia stop fits naturally into the same hourly reservation as a Maryland or DC leg."
         ]
       }
     ],
@@ -6412,6 +6519,10 @@ export const MARYLAND_PAGES = [
       {
         "q": "Can I make multiple stops or change the plan on the day?",
         "a": "Yes. Hourly bookings are built for it, and dispatch can adjust point-to-point trips in real time as long as the chauffeur is not committed to another reservation."
+      },
+      {
+        "q": "Do you work with specific industries differently?",
+        "a": "Yes. We run dedicated programs for government contractors near Fort Meade, hospitals and medical centers, law firms, biotech and pharma companies, financial services firms, engineering and construction teams, and real estate agents and developers, including Tysons Corner and Reston in Northern Virginia — each with its own site-access, discretion or scheduling needs built in."
       }
     ],
     "related": [
@@ -6428,20 +6539,36 @@ export const MARYLAND_PAGES = [
         "to": "/maryland-concert-transportation"
       },
       {
-        "label": "Maryland Wine Tour Transportation",
-        "to": "/maryland-wine-tour-transportation"
+        "label": "Maryland Hourly Chauffeur Service",
+        "to": "/maryland-hourly-chauffeur-service"
+      },
+      {
+        "label": "Financial Services Corporate Car Service Maryland",
+        "to": "/financial-services-corporate-car-service-maryland"
+      },
+      {
+        "label": "Engineering & Construction Corporate Car Service Maryland",
+        "to": "/engineering-construction-corporate-car-service-maryland"
+      },
+      {
+        "label": "Real Estate Agent Car Service Maryland",
+        "to": "/real-estate-agent-car-service-maryland"
+      },
+      {
+        "label": "Tysons Corner VA Corporate Car Service",
+        "to": "/tysons-corner-va-corporate-car-service"
+      },
+      {
+        "label": "Reston VA Corporate Car Service",
+        "to": "/reston-va-corporate-car-service"
+      },
+      {
+        "label": "Fort Meade Government Contractor Car Service",
+        "to": "/government-contractor-car-service-fort-meade-maryland"
       },
       {
         "label": "Philadelphia Airport Car Service",
         "to": "/philadelphia-airport-car-service"
-      },
-      {
-        "label": "Merriweather Post Pavilion Transportation",
-        "to": "/merriweather-post-pavilion-transportation"
-      },
-      {
-        "label": "CFG Bank Arena Transportation",
-        "to": "/cfg-bank-arena-transportation"
       },
       {
         "label": "Capital One Arena Transportation",
@@ -6461,8 +6588,8 @@ export const MARYLAND_PAGES = [
     "name": "Maryland Prom Limo",
     "badge": "Maryland Service",
     "h1": "Maryland Prom Limo Service",
-    "metaTitle": "Maryland Prom Limo | Flat Rate Chauffeurs | BWI Chauffeur",
-    "metaDescription": "Maryland Prom Limo across Howard and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-1919.",
+    "metaTitle": "Maryland Prom Limo | Parents Confirm Pickup Times Directly",
+    "metaDescription": "Prom night, handled: Maryland prom limo with a background-checked chauffeur, parent-confirmed pickup times, flat rates. Call 877-609-1919 to book.",
     "stats": [
       {
         "label": "Coverage",
@@ -6510,6 +6637,12 @@ export const MARYLAND_PAGES = [
         "h2": "Choosing the right vehicle",
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+        ]
+      },
+      {
+        "h2": "Group safety and parent peace of mind",
+        "paragraphs": [
+          "For prom specifically, many parents book directly and ask for a check-in call or text once the group is picked up and again at drop-off — a request we are glad to accommodate. A single chauffeured vehicle also means the whole group arrives and leaves together rather than splitting across several rides over the course of the night, which is usually the actual safety concern behind the question. Our chauffeurs are background-checked and trained to handle the after-party pickup the same way as the ride to the venue — professionally, and on the schedule the parents agreed to."
         ]
       }
     ],
@@ -6567,6 +6700,10 @@ export const MARYLAND_PAGES = [
       {
         "q": "Can I make multiple stops or change the plan on the day?",
         "a": "Yes. Hourly bookings are built for it, and dispatch can adjust point-to-point trips in real time as long as the chauffeur is not committed to another reservation."
+      },
+      {
+        "q": "Can parents coordinate directly with the chauffeur for safety and pickup times?",
+        "a": "Yes. We welcome a parent point of contact and will confirm pickup and drop-off times directly with them, including a planned return time at the end of the night."
       }
     ],
     "related": [
@@ -6579,6 +6716,14 @@ export const MARYLAND_PAGES = [
         "to": "/maryland-corporate-car-service"
       },
       {
+        "label": "Perry Hall MD Limo Service",
+        "to": "/perry-hall-md-limo-service"
+      },
+      {
+        "label": "Towson Prom Limo Service",
+        "to": "/towson-prom-limo-service"
+      },
+      {
         "label": "Maryland Concert Transportation",
         "to": "/maryland-concert-transportation"
       },
@@ -6587,16 +6732,8 @@ export const MARYLAND_PAGES = [
         "to": "/maryland-wine-tour-transportation"
       },
       {
-        "label": "Philadelphia Airport Car Service",
-        "to": "/philadelphia-airport-car-service"
-      },
-      {
         "label": "Merriweather Post Pavilion Transportation",
         "to": "/merriweather-post-pavilion-transportation"
-      },
-      {
-        "label": "CFG Bank Arena Transportation",
-        "to": "/cfg-bank-arena-transportation"
       },
       {
         "label": "Capital One Arena Transportation",
@@ -6665,6 +6802,12 @@ export const MARYLAND_PAGES = [
         "h2": "Choosing the right vehicle",
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+        ]
+      },
+      {
+        "h2": "Season-long planning for frequent concertgoers",
+        "paragraphs": [
+          "Regular concertgoers at Merriweather Post Pavilion, CFG Bank Arena or Capital One Arena often set up a standing arrangement with us for the season rather than booking fresh for every show, which simplifies the process to a text or call with the date and venue. Pricing for post-show pickup accounts for the real exit time at each venue, not the advertised end time, so your chauffeur is in position when the crowd actually clears the gates."
         ]
       }
     ],
@@ -6772,7 +6915,7 @@ export const MARYLAND_PAGES = [
     "badge": "Maryland Service",
     "h1": "Maryland Wine Tour Transportation",
     "metaTitle": "Maryland Wine Tour Transportation | BWI Chauffeur",
-    "metaDescription": "Maryland Wine Tour Transportation across the Frederick wine trail and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7.",
+    "metaDescription": "Maryland wine tour transportation across the Frederick wine trail and beyond. Sedans, SUVs & Sprinter vans, 24/7. Call 877-609-1919 to book.",
     "stats": [
       {
         "label": "Coverage",
@@ -6820,6 +6963,12 @@ export const MARYLAND_PAGES = [
         "h2": "Choosing the right vehicle",
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+        ]
+      },
+      {
+        "h2": "Group tasting days and designated-driver logic",
+        "paragraphs": [
+          "A wine tour only works if nobody at the tasting is also the one driving home, and a chauffeured Sprinter van or sedan solves that cleanly for a group of any size. We typically route two to three wineries in an afternoon, build in time at each stop, and handle the return trip at the end — the same planning we use for a wedding day, just with vineyards instead of a ceremony and reception."
         ]
       }
     ],
@@ -6927,7 +7076,7 @@ export const MARYLAND_PAGES = [
     "badge": "Airport Transfer Service",
     "h1": "Philadelphia Airport Car Service",
     "metaTitle": "Philadelphia Airport Car Service | BWI Chauffeur",
-    "metaDescription": "Philadelphia Airport Car Service across Baltimore and beyond. Sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs, 24/7. Call 877-609-191",
+    "metaDescription": "Philadelphia Airport car service from Baltimore and the DMV — sedans, SUVs, Sprinter vans & stretch limos with pro chauffeurs, 24/7. Call 877-609-1919.",
     "stats": [
       {
         "label": "Coverage",
@@ -6975,6 +7124,12 @@ export const MARYLAND_PAGES = [
         "h2": "Choosing the right vehicle",
         "paragraphs": [
           "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+        ]
+      },
+      {
+        "h2": "Group day trips and sports excursions",
+        "paragraphs": [
+          "A Philadelphia day trip is a common group booking out of Maryland — a Phillies or Eagles game, a day at the outlets, or a family visiting relatives in the city. A Sprinter van keeps a group of eight to fourteen together for the whole round trip rather than splitting into multiple cars, and the flat rate is quoted for the vehicle, not per seat, which usually makes it the better value once a group gets past four or five people. Round trips can be booked together or as two separate one-way legs, whichever fits your schedule better and your return date."
         ]
       }
     ],
@@ -7249,7 +7404,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Pimlico Race Course Transportation & Limo Service",
     "metaTitle": "Pimlico Race Course Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Pimlico Race Course in Baltimore. Door drop-off, staged pickup, flat rates, sedans to Sprinters & limos.. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to Pimlico Race Course in Baltimore. Door drop-off, staged pickup, flat-rate sedans to Sprinters & limos. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -7580,8 +7735,8 @@ export const MARYLAND_PAGES = [
     "name": "Camden Yards",
     "badge": "Event Transportation",
     "h1": "Oriole Park at Camden Yards Transportation & Limo Service",
-    "metaTitle": "Oriole Park at Camden Yards Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Oriole Park at Camden Yards in Baltimore. Door drop-off, staged pickup, flat rates, sedans to Sprinters &. Call 877-609-1919.",
+    "metaTitle": "Oriole Park at Camden Yards Limo & Car Service",
+    "metaDescription": "Chauffeured transportation to Oriole Park at Camden Yards in Baltimore. Door drop-off, staged pickup, flat-rate sedans to Sprinter vans. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -7747,7 +7902,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "University of Maryland Transportation & Limo Service",
     "metaTitle": "University of Maryland Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to University of Maryland in College Park. Door drop-off, staged pickup, flat rates, sedans to Sprinters &. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to the University of Maryland in College Park. Door drop-off, staged pickup, flat-rate sedans to Sprinter vans. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -7867,6 +8022,10 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Riverdale Park, MD Limo Service",
+        "to": "/riverdale-park-limo-service"
+      },
+      {
         "label": "Merriweather Post Pavilion Transportation",
         "to": "/merriweather-post-pavilion-transportation"
       },
@@ -7913,7 +8072,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Navy-Marine Corps Memorial Stadium Transportation & Limo Service",
     "metaTitle": "Navy-Marine Corps Stadium Transportation | BWI Chauffeur",
-    "metaDescription": "Chauffeured transportation to Navy-Marine Corps Memorial Stadium in Annapolis. Door drop-off, staged pickup, flat rates, sedans to. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to Navy-Marine Corps Stadium in Annapolis. Door drop-off, staged pickup, flat-rate sedans to Sprinter vans. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -8199,6 +8358,10 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Oxon Hill, MD Limo Service",
+        "to": "/oxon-hill-md-limo-service"
+      },
+      {
         "label": "Merriweather Post Pavilion Transportation",
         "to": "/merriweather-post-pavilion-transportation"
       },
@@ -8227,8 +8390,12 @@ export const MARYLAND_PAGES = [
         "to": "/bowie-limo-service"
       },
       {
-        "label": "Laurel Limo Service",
-        "to": "/laurel-limo-service"
+        "label": "Capitol Heights Limo Service",
+        "to": "/capitol-heights-limo-service"
+      },
+      {
+        "label": "Fort Washington Limo Service",
+        "to": "/fort-washington-md-limo-service"
       }
     ],
     "schema": {
@@ -8245,7 +8412,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Chesapeake Bay Events Transportation & Limo Service",
     "metaTitle": "Chesapeake Bay Events Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Chesapeake Bay Events in Annapolis and the Eastern Shore. Door drop-off, staged pickup, flat rates, sedans. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation for Chesapeake Bay events in Annapolis and the Eastern Shore. Door drop-off, flat-rate sedans to SUVs. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -8411,7 +8578,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Annapolis Boat Shows Transportation & Limo Service",
     "metaTitle": "Annapolis Boat Shows Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Annapolis Boat Shows in Annapolis. Door drop-off, staged pickup, flat rates, sedans to Sprinters & limos.. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to the Annapolis Boat Shows. Door drop-off, staged pickup, flat-rate sedans to Sprinters & limos. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -8576,8 +8743,8 @@ export const MARYLAND_PAGES = [
     "name": "Maryland Renaissance Festival",
     "badge": "Event Transportation",
     "h1": "Maryland Renaissance Festival Transportation & Limo Service",
-    "metaTitle": "Maryland Renaissance Festival Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Maryland Renaissance Festival in Crownsville. Door drop-off, staged pickup, flat rates, sedans to Sprinters. Call 877-609-1919.",
+    "metaTitle": "Maryland Renaissance Festival Limo & Car Service",
+    "metaDescription": "Chauffeured transportation to the Maryland Renaissance Festival in Crownsville. Door drop-off, flat-rate sedans to Sprinter vans. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -8743,7 +8910,7 @@ export const MARYLAND_PAGES = [
     "badge": "Event Transportation",
     "h1": "Preakness Stakes Transportation & Limo Service",
     "metaTitle": "Preakness Stakes Transportation | Limo & Car Service",
-    "metaDescription": "Chauffeured transportation to Preakness Stakes in Baltimore and Laurel. Door drop-off, staged pickup, flat rates, sedans to Sprinters &. Call 877-609-1919.",
+    "metaDescription": "Chauffeured transportation to the Preakness Stakes in Baltimore and Laurel. Door drop-off, staged pickup, flat-rate sedans to Sprinter vans. Call 877-609-1919.",
     "stats": [
       {
         "label": "Location",
@@ -8863,6 +9030,10 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Dover, DE Limo Service (Dover Motor Speedway)",
+        "to": "/dover-de-limo-service"
+      },
+      {
         "label": "Merriweather Post Pavilion Transportation",
         "to": "/merriweather-post-pavilion-transportation"
       },
@@ -8908,11 +9079,11 @@ export const MARYLAND_PAGES = [
     "name": "Car Service Near BWI",
     "badge": "BWI Area Car Service",
     "h1": "Car Service Near BWI Airport",
-    "metaTitle": "Car Service BWI | Flat-Rate Chauffeurs From $85",
-    "metaDescription": "Car service near BWI from $85 flat rate — licensed chauffeurs, no surge, 24/7 same-day booking. Airport, business & local trips. Call 877-609-1919.",
+    "metaTitle": "Car Service BWI | Flat-Rate Chauffeurs, No Surge",
+    "metaDescription": "Car service near BWI — licensed chauffeurs, flat-rate pricing, no surge, 24/7 same-day booking. Airport, business & local trips. Call 877-609-1919.",
     "stats": [
       { "label": "Coverage", "value": "BWI & the Baltimore–Washington corridor" },
-      { "label": "Pricing", "value": "$85–$185 flat rate" },
+      { "label": "Pricing", "value": "Flat rate, quoted upfront" },
       { "label": "Response", "value": "Same-day booking available" },
       { "label": "Availability", "value": "24 / 7" }
     ],
@@ -8953,7 +9124,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Car service pricing near BWI",
         "paragraphs": [
-          "Flat-rate sedan transfers around the BWI area typically run $85–$185 depending on distance — for example, $85–$115 to downtown Baltimore versus $140–$185 to Washington DC — with premium SUVs like the Cadillac Escalade or Chevrolet Suburban adding roughly $30–$60. Multi-stop or open-ended trips, such as a day of appointments or an evening out, are booked hourly as-directed, generally $95–$150 per hour with a three- to four-hour minimum. Sprinter van service for groups typically starts around $250–$350 for regional transfers.",
+          "Flat-rate sedan transfers around the BWI area are priced by distance — a short local hop costs less than a run to downtown DC — with premium SUVs like the Cadillac Escalade or Chevrolet Suburban priced above the sedan rate for the same trip. Multi-stop or open-ended trips, such as a day of appointments or an evening out, are booked hourly as-directed with a three- to four-hour minimum. Sprinter van service for groups is quoted separately based on group size and distance.",
           "Every quote includes tolls and gratuity — the number you are quoted is the number you pay, with no surge pricing and no metered surprises. Call 877-609-1919 or request a quote online for the exact rate on your trip."
         ]
       },
@@ -8975,7 +9146,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does car service near BWI cost?",
-        "a": "Flat-rate sedan transfers typically run $85–$185 depending on distance, with premium SUVs adding roughly $30–$60. Hourly, as-directed service for multi-stop trips generally runs $95–$150 per hour with a three- to four-hour minimum. Call 877-609-1919 or request a quote online for your exact rate."
+        "a": "Flat-rate sedan transfers are priced by distance, with premium SUVs priced above the sedan rate. Hourly, as-directed service for multi-stop trips runs with a three- to four-hour minimum. Call 877-609-1919 or request a quote online for your exact rate."
       },
       {
         "q": "What's the difference between car service and a taxi or rideshare?",
@@ -9018,7 +9189,7 @@ export const MARYLAND_PAGES = [
     "badge": "Airport, Business & Local Travel",
     "h1": "BWI Car Service for Business, Local & Airport Trips",
     "metaTitle": "BWI Car Service | Airport, Corporate & Local Chauffeurs",
-    "metaDescription": "BWI car service for airport transfers, corporate travel & local trips. Flat rate from $85, licensed chauffeurs, 24/7 dispatch. Call 877-609-1919 to book.",
+    "metaDescription": "BWI car service for airport transfers, corporate travel & local trips. Flat-rate pricing, licensed chauffeurs, 24/7 dispatch. Call 877-609-1919 to book.",
     "stats": [
       { "label": "Use Cases", "value": "Airport, business, local & events" },
       { "label": "Pricing", "value": "Flat rate or hourly as-directed" },
@@ -9048,7 +9219,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Hourly and as-directed car service",
         "paragraphs": [
-          "When an itinerary has more than one stop — a day of meetings, a wedding, a milestone celebration, or a night out with several destinations — hourly as-directed service is the better fit than a point-to-point flat rate. The chauffeur and vehicle are reserved for a block of time, generally with a three- to four-hour minimum, and the rate runs in the neighborhood of $95–$150 per hour for a sedan or SUV depending on vehicle class and season. Sprinter vans and stretch limousines are priced higher but divide efficiently across a group.",
+          "When an itinerary has more than one stop — a day of meetings, a wedding, a milestone celebration, or a night out with several destinations — hourly as-directed service is the better fit than a point-to-point flat rate. The chauffeur and vehicle are reserved for a block of time, generally with a three- to four-hour minimum, priced by vehicle class and season. Sprinter vans and stretch limousines are priced higher but divide efficiently across a group.",
           "We confirm the full itinerary before the day and keep dispatch available throughout, so a schedule change mid-day never becomes a problem you have to solve from the back seat."
         ]
       },
@@ -9067,7 +9238,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "BWI car service pricing",
         "paragraphs": [
-          "Flat-rate point-to-point transfers generally run $85–$185 depending on distance — for example $85–$115 to downtown Baltimore, $95–$130 to Annapolis, or $140–$185 to Washington DC — with premium SUVs adding roughly $30–$60. Hourly, as-directed service for multi-stop days runs about $95–$150 per hour with a three- to four-hour minimum, and Sprinter van or limousine service is quoted by the group. Every rate includes tolls and gratuity and is confirmed before your card is charged — call 877-609-1919 or request a quote online for the exact number on your trip."
+          "Flat-rate point-to-point transfers are priced by distance — a short local hop costs less than a run to downtown DC — with premium SUVs priced above the sedan rate for the same trip. Hourly, as-directed service for multi-stop days is booked with a three- to four-hour minimum, and Sprinter van or limousine service is quoted by the group. Every rate includes tolls and gratuity and is confirmed before your card is charged — call 877-609-1919 or request a quote online for the exact number on your trip."
         ]
       }
     ],
@@ -9086,7 +9257,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How is BWI car service priced?",
-        "a": "Point-to-point trips are flat rate, generally $85–$185 depending on distance with SUVs adding $30–$60. Multi-stop or open-ended trips are booked hourly as-directed, around $95–$150 per hour with a three- to four-hour minimum. Call 877-609-1919 or request a quote online for your exact rate."
+        "a": "Point-to-point trips are flat rate, priced by distance with SUVs priced above the sedan rate. Multi-stop or open-ended trips are booked hourly as-directed, with a three- to four-hour minimum. Call 877-609-1919 or request a quote online for your exact rate."
       },
       {
         "q": "Can my company set up a standing corporate account?",
@@ -9121,6 +9292,14 @@ export const MARYLAND_PAGES = [
   // Batch 3 (2026-09-21) lives in its own file.
   ...MARYLAND_BATCH3,
   ...MARYLAND_BATCH4,
+  ...MARYLAND_BATCH5,
+  ...MARYLAND_BATCH6,
+  ...MARYLAND_BATCH7,
+  ...MARYLAND_BATCH8,
+  ...MARYLAND_BATCH9,
+  ...MARYLAND_BATCH10,
+  ...MARYLAND_BATCH11,
+  ...MARYLAND_BATCH12,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);
