@@ -62,7 +62,7 @@ export const BWI_ROUTES = [
     drive_time: '30–45 minutes',
     metaTitle: 'BWI to Annapolis Car Service | Trusted Chauffeurs — Book Now',
     metaDescription:
-      'BWI Airport to Annapolis flat-rate car service — no surge, ever. USNA-savvy chauffeurs, 24/7, flight tracked. Call 877-609-1919 or book online.',
+      'Professional car service from BWI Airport to Annapolis — USNA-savvy chauffeurs, real-time flight tracking, 24/7 availability. Call 877-609-1919 or book now.',
     intro:
       'BWI Chauffeur is the trusted partner for travelers heading from BWI Airport to Annapolis, Maryland — Maryland\'s capital, home of the United States Naval Academy, and gateway to the Chesapeake Bay. You may be arriving for Commissioning Week, an Eastport sailing charter, a State House meeting, a cruise departure from the City Dock, or a quiet weekend at one of Annapolis\'s historic inns. Either way, our chauffeurs deliver a polished, predictable transfer in under an hour. Every booking includes real-time flight tracking, complimentary wait time, and a flat published rate so you can budget the trip before you ever leave the gate.',
     why_choose: [

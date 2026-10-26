@@ -19,8 +19,8 @@ export const MARYLAND_PAGES = [
     "name": "Rockville",
     "badge": "Montgomery County Limo Service",
     "h1": "Rockville Limo Service",
-    "metaTitle": "Rockville MD Limo Service | Flat-Rate to BWI & DCA",
-    "metaDescription": "Rockville's trusted limo & car service — BWI in 55–70 min, DCA & Dulles covered, corporate, weddings & events, 24/7, no surge. Call 877-609-1919.",
+    "metaTitle": "Rockville MD Limo Service & Rental | Book 24/7",
+    "metaDescription": "Rockville limo rental and car service — BWI, DCA and Dulles transfers, corporate, weddings and events, licensed chauffeurs, 24/7. Call 877-609-1919 to book.",
     "stats": [
       {
         "label": "To BWI",
