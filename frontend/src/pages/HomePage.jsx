@@ -18,17 +18,17 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>BWI Airport Car Service | Flat-Rate Chauffeur, No Surge</title>
-        <meta name="description" content="BWI Chauffeur offers professional chauffeur service and hourly chauffeur service for airport transfers, business travel, and luxury rides in the BWI area." />
+        <title>BWI Airport Car Service | Flat Rate, No Surge — Book Today</title>
+        <meta name="description" content="Flat-rate BWI Airport car service since 2014 — no surge, free flight tracking, licensed chauffeurs. Serving MD, DC & VA 24/7. Call 877-609-1919 or book online." />
         <link rel="canonical" href="https://www.bwichauffeur.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.bwichauffeur.com/" />
-        <meta property="og:title" content="BWI Airport Car Service | Flat-Rate Chauffeur, No Surge" />
-        <meta property="og:description" content="BWI Chauffeur offers professional chauffeur service and hourly chauffeur service for airport transfers, business travel, and luxury rides in the BWI area." />
+        <meta property="og:title" content="BWI Airport Car Service | Flat Rate, No Surge — Book Today" />
+        <meta property="og:description" content="Flat-rate BWI Airport car service since 2014 — no surge, free flight tracking, licensed chauffeurs. Serving MD, DC & VA 24/7. Call 877-609-1919 or book online." />
         <meta property="og:image" content="https://www.bwichauffeur.com/logo.jpeg" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="BWI Airport Car Service | Flat-Rate Chauffeur, No Surge" />
-        <meta property="twitter:description" content="BWI Chauffeur offers professional chauffeur service and hourly chauffeur service for airport transfers, business travel, and luxury rides in the BWI area." />
+        <meta property="twitter:title" content="BWI Airport Car Service | Flat Rate, No Surge — Book Today" />
+        <meta property="twitter:description" content="Flat-rate BWI Airport car service since 2014 — no surge, free flight tracking, licensed chauffeurs. Serving MD, DC & VA 24/7. Call 877-609-1919 or book online." />
         <meta property="twitter:image" content="https://www.bwichauffeur.com/logo.jpeg" />
         <script type="application/ld+json">
           {JSON.stringify({

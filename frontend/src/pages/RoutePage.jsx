@@ -167,7 +167,9 @@ const RoutePage = ({ route }) => {
                 <div className="flex items-center gap-2 text-gray-400 text-xs uppercase tracking-widest mb-1">
                   <Car className="h-3.5 w-3.5 text-[#D4AF37]" /> Pricing
                 </div>
-                <p className="text-white font-bold text-lg">Flat rate — call for quote</p>
+                <p className="text-white font-bold text-lg">
+                  {route.price_range || 'Flat rate — call for quote'}
+                </p>
               </div>
               <div className="bg-gradient-to-br from-gray-900 to-black border border-[#D4AF37]/30 rounded-lg p-4">
                 <div className="flex items-center gap-2 text-gray-400 text-xs uppercase tracking-widest mb-1">
@@ -202,9 +204,9 @@ const RoutePage = ({ route }) => {
                   to="/booking"
                   className="inline-flex items-center px-5 py-3 border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black font-semibold rounded-md transition-all"
                   data-testid="route-book-cta"
-                  aria-label={`Book ${originShort} to ${route.destination} transfer`}
+                  aria-label={`Book Now: ${originShort} to ${route.destination} transfer`}
                 >
-                  Book {originShort} to {route.destination}
+                  Book Now — {originShort} to {route.destination}
                 </Link>
               </div>
             </CardContent>

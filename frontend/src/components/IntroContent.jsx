@@ -49,6 +49,10 @@ const IntroContent = () => {
           </ul>
 
           <p>
+            <strong className="text-[#D4AF37]">Pricing is simple and flat-rate.</strong> Point-to-point sedan transfers typically run $85–$185 depending on distance — for example $85–$115 to downtown Baltimore, $95–$130 to Annapolis, or $140–$185 to Washington DC — with premium SUVs adding roughly $30–$60. Hourly, as-directed service for weddings, events, or multi-stop days runs about $95–$150 per hour with a three- to four-hour minimum. Every rate includes tolls and gratuity, is confirmed before you book, and never changes for surge or demand. Call 877-609-1919 or request a quote online for the exact rate on your trip.
+          </p>
+
+          <p>
             Every client is different. We tailor each package to your needs — from Fortune 500 companies to family celebrations. You get the same care and attention to detail either way.
           </p>
 

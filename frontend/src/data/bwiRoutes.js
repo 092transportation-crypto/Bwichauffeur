@@ -38,29 +38,57 @@ export const BWI_ROUTES = [
     headline: 'Annapolis, Maryland',
     distance: '27 miles',
     drive_time: '30–45 minutes',
-    flat_rate_from: 65,
-    metaTitle: 'BWI to Annapolis | Flat Rate Car Service',
+    price_range: '$95–$130 sedan · $130–$180 SUV',
+    metaTitle: 'BWI to Annapolis Car Service | Flat Rate From $95',
     metaDescription:
-      'BWI Airport to Annapolis flat-rate chauffeur — no surge, ever. Professional driver, 24/7, USNA-savvy. Call 877-609-1919 to book.',
+      'BWI Airport to Annapolis flat-rate car service from $95 — no surge, ever. USNA-savvy chauffeurs, 24/7, flight tracked. Call 877-609-1919 or book online.',
     intro:
-      'BWI Chauffeur is the trusted partner for travelers heading from BWI Airport to Annapolis, Maryland — Maryland\'s capital, home of the United States Naval Academy, and gateway to the Chesapeake Bay. You may be arriving for Commissioning Week, an Eastport sailing charter, a State House meeting, or a quiet weekend at one of Annapolis\'s historic inns. Either way, our chauffeurs deliver a polished, predictable transfer in under an hour. Every booking includes flight tracking, complimentary wait time, and a flat published rate so you can budget without guesswork.',
+      'BWI Chauffeur is the trusted partner for travelers heading from BWI Airport to Annapolis, Maryland — Maryland\'s capital, home of the United States Naval Academy, and gateway to the Chesapeake Bay. You may be arriving for Commissioning Week, an Eastport sailing charter, a State House meeting, a cruise departure from the City Dock, or a quiet weekend at one of Annapolis\'s historic inns. Either way, our chauffeurs deliver a polished, predictable transfer in under an hour. Every booking includes real-time flight tracking, complimentary wait time, and a flat published rate so you can budget the trip before you ever leave the gate.',
     why_choose: [
       'USNA-savvy drivers familiar with Gate 1, Gate 8, and the Visitor Control Center protocols',
-      'Direct route via MD-2 and US-50 — typically 30–45 minutes from BWI',
+      'Direct route via MD-2 and US-50 — typically 30–45 minutes from BWI, with live traffic rerouting around Beltway and Bay Bridge backups',
       'Wedding-day and Commissioning Week packages with multi-stop and guest-shuttle support',
       'Sedan, SUV, and Sprinter options for couples, families, or full graduation parties',
-      'Flat rate — no meter, no surge, no scenic-route surprises',
+      'Flat rate — no meter, no surge, no scenic-route surprises, tolls and gratuity included',
+      'Licensed Maryland PSC Carrier No. 6325, with background-checked, professionally trained chauffeurs',
     ],
     what_to_expect:
-      'Your chauffeur greets you in the BWI lower-level arrivals area with a sign bearing your name. They handle your luggage and walk you to a freshly detailed vehicle waiting in the ground transportation lane. The drive south on Aris T. Allen Boulevard delivers you to downtown Annapolis, Eastport, the Naval Academy gates, or any waterfront destination on Spa Creek or the Severn River. For weddings and military ceremonies we coordinate multiple pickups and stagger arrivals so guests are dropped off in the right order. We also support corporate visits to AnneArundelMedical, ARINC, and the dozens of defense contractors headquartered in town.',
+      'Your chauffeur greets you in the BWI lower-level arrivals area with a sign bearing your name, or inside at baggage claim if you add the meet-and-greet option. They handle your luggage and walk you to a freshly detailed vehicle waiting in the ground transportation lane. The drive south on Aris T. Allen Boulevard delivers you to downtown Annapolis, Eastport, the Naval Academy gates, or any waterfront destination on Spa Creek or the Severn River — typically 30 to 45 minutes depending on US-50 traffic. For weddings and military ceremonies we coordinate multiple pickups and stagger arrivals so guests are dropped off in the right order, with a lead chauffeur keeping the whole party on schedule. We also support corporate visits to Anne Arundel Medical Center, ARINC, and the dozens of defense contractors and state-government offices headquartered in town, plus return trips timed against your departure flight with a built-in buffer for TSA lines at BWI.',
     service_details: [
-      'Pickup zone: BWI Concourse Level, curbside, or pre-arranged meet-and-greet',
-      'Drop-off: USNA gates, Maryland State House, Westin Annapolis, Hilton, B&Bs, private residences, marina pickups',
-      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Sprinter Van for groups',
-      'Common occasions: Commissioning Week, USNA family weekends, Boat Show transfers, legislative session visits, weddings',
-      'Round-trip discounts when same-day return is booked together',
+      'Pickup zone: BWI Concourse Level, curbside, or pre-arranged meet-and-greet at baggage claim',
+      'Drop-off: USNA gates, Maryland State House, Westin Annapolis, Hilton, City Dock, B&Bs, private residences, marina pickups',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, Sprinter Van for groups up to 14',
+      'Pricing: flat rate from $95 for a sedan and $130 for a premium SUV, tolls and gratuity included — confirmed before you book, never surged',
+      'Common occasions: Commissioning Week, USNA family weekends, Annapolis Boat Show transfers, Maryland General Assembly session visits, weddings at Annapolis waterfront venues',
+      'Round-trip discounts when a same-day Annapolis-to-BWI return is booked together',
     ],
     nearby_links: ['bwi-to-washington-dc', 'bwi-to-columbia-md', 'bwi-to-bethesda'],
+    faqs: [
+      {
+        q: 'How much does BWI to Annapolis car service cost?',
+        a: 'A flat-rate sedan from BWI to Annapolis typically runs $95–$130, and a premium SUV (Cadillac Escalade or Chevrolet Suburban) runs $130–$180 — tolls and gratuity included, confirmed before you book. Sprinter vans for wedding parties and groups are quoted separately. Call 877-609-1919 or request a quote online for your exact rate.',
+      },
+      {
+        q: 'How long is the drive from BWI to Annapolis?',
+        a: 'About 27 miles and 30 to 45 minutes via MD-2 and US-50, depending on traffic. Our chauffeurs watch real-time conditions around the Beltway interchange and reroute as needed to keep you on schedule.',
+      },
+      {
+        q: 'Do your chauffeurs know the Naval Academy gate procedures?',
+        a: 'Yes. Our drivers regularly work Commissioning Week and family weekends and know the protocols at Gate 1, Gate 8, and the Visitor Control Center — including what credentials are needed and where the car can and cannot wait.',
+      },
+      {
+        q: 'Can you handle wedding transportation to Annapolis waterfront venues?',
+        a: 'Yes. We coordinate multi-stop wedding days — getting-ready pickups, ceremony, reception, and guest shuttles — at venues around Eastport, Spa Creek, and the Severn River, with a lead chauffeur staggering arrivals so guests land in the right order. See our Maryland wedding limo page for full packages.',
+      },
+      {
+        q: 'Do you track my flight for a BWI to Annapolis pickup?',
+        a: 'Yes. Every booking includes real-time flight tracking with 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown — not the printed schedule.',
+      },
+      {
+        q: 'Is the price fixed, or can it change once I am in the car?',
+        a: 'Your quoted flat rate is the price you pay. There is no meter, no surge pricing, and no hidden fees — tolls and gratuity are already included in the number you are quoted.',
+      },
+    ],
   },
   {
     slug: 'bwi-to-columbia-md',
