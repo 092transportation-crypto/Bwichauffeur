@@ -9164,10 +9164,6 @@ export const MARYLAND_PAGES = [
       {
         "q": "Is your car service licensed and insured?",
         "a": "Yes. We operate under Maryland Public Service Commission Carrier No. 6325, every vehicle carries commercial insurance, and every chauffeur is licensed and background-checked."
-      },
-      {
-        "q": "Can I set up a corporate account for regular car service near BWI?",
-        "a": "Yes — with priority dispatch and monthly consolidated invoicing for businesses that book regularly. Call 877-609-1919 or use the contact form to set one up."
       }
     ],
     "related": [
@@ -9271,10 +9267,6 @@ export const MARYLAND_PAGES = [
       {
         "q": "Do you still provide dedicated BWI Airport pickup service?",
         "a": "Yes — airport transfers remain our core specialty, with real-time flight tracking and complimentary wait time on every BWI pickup. See our dedicated BWI Airport Car Service page for terminal and concourse details."
-      },
-      {
-        "q": "Is BWI car service available on short notice?",
-        "a": "Often, yes. While 24 hours of notice guarantees your preferred vehicle class, our dispatch desk — based minutes from BWI — accommodates same-day requests for both airport and local trips more often than not. Call 877-609-1919 to check same-day availability."
       }
     ],
     "related": [
