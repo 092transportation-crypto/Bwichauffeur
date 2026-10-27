@@ -99,7 +99,7 @@ const Hero = () => {
             to="/booking"
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#D4AF37] to-[#F4E5C3] text-black font-bold text-lg rounded-md hover:shadow-2xl hover:shadow-[#D4AF37]/50 transition-all duration-300 hover:scale-105 group"
           >
-            Reserve Your Ride
+            Book Now
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </Link>
           <a

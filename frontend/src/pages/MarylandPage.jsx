@@ -78,7 +78,7 @@ const MarylandPage = ({ page }) => {
     ],
   };
 
-  const bookLabel = page.type === 'route' ? `Book ${page.name}` : `Book ${page.name}`;
+  const bookLabel = `Book Now — ${page.name}`;
 
   return (
     <>

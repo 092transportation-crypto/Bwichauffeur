@@ -9074,6 +9074,222 @@ export const MARYLAND_PAGES = [
       "serviceType": "Event transportation"
     }
   },
+  {
+    "slug": "car-service-bwi",
+    "type": "service",
+    "name": "Car Service Near BWI",
+    "badge": "BWI Area Car Service",
+    "h1": "Car Service Near BWI Airport",
+    "metaTitle": "Car Service BWI | Flat-Rate Chauffeurs, No Surge",
+    "metaDescription": "Car service near BWI — licensed chauffeurs, flat-rate pricing, no surge, 24/7 same-day booking. Airport, business & local trips. Call 877-609-1919.",
+    "stats": [
+      { "label": "Coverage", "value": "BWI & the Baltimore–Washington corridor" },
+      { "label": "Pricing", "value": "Flat rate, quoted upfront" },
+      { "label": "Response", "value": "Same-day booking available" },
+      { "label": "Availability", "value": "24 / 7" }
+    ],
+    "intro": [
+      "\"Car service near BWI\" covers a lot of ground — an airport transfer, a ride to a downtown meeting, a night out in Baltimore, or a standing weekly trip for a company near the airport. BWI Chauffeur runs all of it from one dispatch desk: a licensed, professionally trained chauffeur, a late-model vehicle, and one flat rate confirmed before you book, every time.",
+      "We are based minutes from BWI Marshall in the Linthicum–Laurel corridor, which means a car service request near the airport does not mean waiting for a vehicle to reposition from downtown Baltimore or the DC suburbs. Our chauffeurs stage close, track flights in real time, and run point-to-point trips anywhere across Maryland, Washington DC, and Northern Virginia on the same flat-rate model."
+    ],
+    "highlights": [
+      "Licensed Maryland PSC Carrier No. 6325 — not an unregulated rideshare driver",
+      "Flat rate quoted before you book — no surge pricing, ever, even during storms or late-night arrival banks",
+      "Based minutes from BWI, so pickups stage fast across Anne Arundel County and beyond",
+      "Sedans, SUVs, Sprinter vans and stretch limousines under one phone call",
+      "Same-day and advance bookings both welcome, with 24/7 live dispatch",
+      "Corporate accounts with monthly invoicing for frequent travelers and local businesses"
+    ],
+    "sections": [
+      {
+        "h2": "What \"car service\" actually means near BWI",
+        "paragraphs": [
+          "A taxi is metered and hailed. A rideshare app like Uber or Lyft assigns whatever driver is nearest and reprices the trip in real time based on demand. A shuttle runs a fixed loop on its own schedule. Car service is different: it is a pre-arranged, licensed chauffeur in a vetted vehicle, dispatched specifically for your trip, at a price agreed before you ever get in the car.",
+          "That distinction matters most at an airport, where demand spikes unpredictably and rideshare surge pricing is common, but it applies just as much to a business trip across town or a night out — car service means the same driver, the same vehicle, and the same price regardless of what is happening with demand around you."
+        ]
+      },
+      {
+        "h2": "Where we provide car service around BWI",
+        "paragraphs": [
+          "Our core coverage radius includes Linthicum, Hanover, Glen Burnie, and Laurel — all within about 20 minutes of the airport — plus the broader Anne Arundel County and Howard County corridor out to Columbia, Annapolis, and Baltimore. From there we run regularly into Washington DC and Northern Virginia, and longer regional trips to Philadelphia, the Delaware beaches, and the Eastern Shore on request.",
+          "Local chauffeurs know the roads that matter for a fast, reliable pickup: Ritchie Highway and Crain Highway for North County trips, I-97 and MD-100 for Anne Arundel and Howard County, and the BW Parkway and I-295 for Baltimore and DC runs. If you can name the address, we can quote a flat rate to it from anywhere in our BWI-area coverage."
+        ]
+      },
+      {
+        "h2": "Booking car service near BWI",
+        "paragraphs": [
+          "Call 877-609-1919 or request a quote online with your pickup location, destination, date, and vehicle preference. For airport trips, give us your flight number and we track it automatically — your chauffeur is dispatched against the actual arrival time, not the printed schedule, with 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international arrivals.",
+          "Your rate is confirmed before your card is ever charged. On the day, your chauffeur stages ahead of pickup time, texts when they are close, and handles your luggage curbside or meets you inside at baggage claim if you add the meet-and-greet option."
+        ]
+      },
+      {
+        "h2": "Car service pricing near BWI",
+        "paragraphs": [
+          "Flat-rate sedan transfers around the BWI area are priced by distance — a short local hop costs less than a run to downtown DC — with premium SUVs like the Cadillac Escalade or Chevrolet Suburban priced above the sedan rate for the same trip. Multi-stop or open-ended trips, such as a day of appointments or an evening out, are booked hourly as-directed with a three- to four-hour minimum. Sprinter van service for groups is quoted separately based on group size and distance.",
+          "Every quote includes tolls and gratuity — the number you are quoted is the number you pay, with no surge pricing and no metered surprises. Call 877-609-1919 or request a quote online for the exact rate on your trip."
+        ]
+      },
+      {
+        "h2": "Car service vs. rideshare near BWI",
+        "paragraphs": [
+          "Rideshare pricing is dynamic — the same ride can cost two or three times more during a storm, a stadium letout, or a late-night arrival bank at BWI. Car service is flat-rate: the price agreed at booking is the price charged, regardless of weather, hour, or demand, and your chauffeur is guaranteed and dispatched in advance rather than assigned from whoever happens to be nearby. For the full numbers on how the two compare at BWI specifically, see our BWI car service vs. Uber cost comparison."
+        ]
+      }
+    ],
+    "vehicles": [
+      { "name": "Mercedes-Benz E-Class", "cls": "Business sedan", "seats": 3, "best": "solo travelers and couples" },
+      { "name": "BMW 7 Series", "cls": "First-class sedan", "seats": 3, "best": "VIP and executive travel" },
+      { "name": "Cadillac Escalade", "cls": "Premium SUV", "seats": 6, "best": "families and small groups with luggage" },
+      { "name": "Chevrolet Suburban", "cls": "Luxury SUV", "seats": 6, "best": "airport runs with extra luggage" },
+      { "name": "Mercedes Sprinter van", "cls": "Executive van", "seats": 14, "best": "groups, teams and events" },
+      { "name": "Stretch limousine", "cls": "Limousine", "seats": 8, "best": "celebrations and special occasions" }
+    ],
+    "faqs": [
+      {
+        "q": "How much does car service near BWI cost?",
+        "a": "Flat-rate sedan transfers are priced by distance, with premium SUVs priced above the sedan rate. Hourly, as-directed service for multi-stop trips runs with a three- to four-hour minimum. Call 877-609-1919 or request a quote online for your exact rate."
+      },
+      {
+        "q": "What's the difference between car service and a taxi or rideshare?",
+        "a": "Car service is a pre-arranged, licensed chauffeur dispatched specifically for your trip at a flat rate agreed before you book. A taxi is metered, and rideshare apps reprice your trip based on real-time demand — car service pricing does not change regardless of weather, hour, or demand."
+      },
+      {
+        "q": "Can I book car service near BWI on short notice?",
+        "a": "Yes. While 24 hours of notice guarantees your preferred vehicle class, our dispatch desk accommodates same-day and short-notice requests more often than not, thanks to our base minutes from the airport. Call 877-609-1919 and dispatch will tell you honestly what is available."
+      },
+      {
+        "q": "Do you serve areas beyond BWI Airport itself?",
+        "a": "Yes. Beyond the airport, we cover the full Baltimore–Washington corridor — Linthicum, Glen Burnie, Laurel, Columbia, Annapolis, Baltimore, Washington DC and Northern Virginia — for business trips, local appointments, and point-to-point rides, not just airport pickups."
+      },
+      {
+        "q": "Is your car service licensed and insured?",
+        "a": "Yes. We operate under Maryland Public Service Commission Carrier No. 6325, every vehicle carries commercial insurance, and every chauffeur is licensed and background-checked."
+      },
+      {
+        "q": "Can I set up a corporate account for regular car service near BWI?",
+        "a": "Yes — with priority dispatch and monthly consolidated invoicing for businesses that book regularly. Call 877-609-1919 or use the contact form to set one up."
+      }
+    ],
+    "related": [
+      { "label": "BWI Airport Car Service", "to": "/bwi-airport-car-service" },
+      { "label": "BWI Car Service for Everyday Trips", "to": "/bwi-car-service" },
+      { "label": "BWI to Washington DC", "to": "/bwi-to-washington-dc" },
+      { "label": "BWI to Annapolis", "to": "/bwi-to-annapolis" },
+      { "label": "Luxury Fleet", "to": "/luxury-fleet" },
+      { "label": "BWI Car Service vs. Uber Cost Comparison", "to": "/blog/bwi-car-service-vs-uber-cost-comparison" }
+    ],
+    "schema": {
+      "areaServed": ["BWI Airport", "Baltimore", "Anne Arundel County"],
+      "serviceType": "Chauffeured car service"
+    }
+  },
+  {
+    "slug": "bwi-car-service",
+    "type": "service",
+    "name": "BWI Car Service",
+    "badge": "Airport, Business & Local Travel",
+    "h1": "BWI Car Service for Business, Local & Airport Trips",
+    "metaTitle": "BWI Car Service | Airport, Corporate & Local Chauffeurs",
+    "metaDescription": "BWI car service for airport transfers, corporate travel & local trips. Flat-rate pricing, licensed chauffeurs, 24/7 dispatch. Call 877-609-1919 to book.",
+    "stats": [
+      { "label": "Use Cases", "value": "Airport, business, local & events" },
+      { "label": "Pricing", "value": "Flat rate or hourly as-directed" },
+      { "label": "Coverage", "value": "BWI corridor, MD, DC & VA" },
+      { "label": "Availability", "value": "24 / 7" }
+    ],
+    "intro": [
+      "BWI car service means more than an airport pickup at BWI Chauffeur. The same licensed chauffeurs, flat-rate pricing, and 24/7 dispatch that handle your flight also cover the rest of your calendar — a client dinner downtown, a recurring commute for a visiting executive, a medical appointment, or a multi-stop day that needs a driver who waits rather than a rideshare you re-request every time you move.",
+      "We are a Maryland-licensed carrier (PSC Carrier No. 6325) based minutes from BWI Marshall, which means both your airport transfers and your everyday local trips are dispatched from the same nearby base, by the same vetted chauffeurs, at the same transparent flat or hourly rate."
+    ],
+    "highlights": [
+      "Flat-rate airport transfers and hourly as-directed service for multi-stop days, under one account",
+      "Corporate accounts with monthly invoicing for businesses near BWI",
+      "Point-to-point rides for medical appointments, dinners, and local events — not just the airport",
+      "Licensed Maryland PSC Carrier No. 6325, background-checked professional chauffeurs",
+      "Sedans, SUVs, Sprinter vans and stretch limousines for any group size",
+      "24/7 dispatch with same-day availability for both airport and local trips"
+    ],
+    "sections": [
+      {
+        "h2": "More than an airport ride",
+        "paragraphs": [
+          "Most companies that search \"BWI car service\" are thinking about an airport transfer, and we handle those every day with flight tracking and complimentary wait time built in. But the same account and the same chauffeurs are available for everything else on your calendar: a recurring ride to a client site, a night out in Baltimore or DC, a medical appointment that needs a dependable, on-time driver, or a multi-stop day that would be inefficient to cover with separate rideshare requests.",
+          "Point-to-point trips are flat-rate, quoted before you book. Open-ended, multi-stop trips are booked hourly as-directed, where the vehicle and chauffeur stay with you for a block of time rather than one single run."
+        ]
+      },
+      {
+        "h2": "Hourly and as-directed car service",
+        "paragraphs": [
+          "When an itinerary has more than one stop — a day of meetings, a wedding, a milestone celebration, or a night out with several destinations — hourly as-directed service is the better fit than a point-to-point flat rate. The chauffeur and vehicle are reserved for a block of time, generally with a three- to four-hour minimum, priced by vehicle class and season. Sprinter vans and stretch limousines are priced higher but divide efficiently across a group.",
+          "We confirm the full itinerary before the day and keep dispatch available throughout, so a schedule change mid-day never becomes a problem you have to solve from the back seat."
+        ]
+      },
+      {
+        "h2": "Corporate car service near BWI",
+        "paragraphs": [
+          "Companies in the Linthicum, Hanover, and Columbia corridor near BWI use us for visiting-executive transfers, recurring employee commutes, and client entertainment, consolidated onto one monthly invoice. Setup takes a short phone call, there is no minimum account size, and an office manager or executive assistant can book on behalf of the company without each trip needing separate approval. Priority dispatch is standard for corporate accounts, which matters most on high-volume travel days around conferences or year-end."
+        ]
+      },
+      {
+        "h2": "Airport transfers remain our specialty",
+        "paragraphs": [
+          "None of this replaces what we are built around: BWI airport transfers with real-time flight tracking, complimentary wait time, and chauffeurs who stage minutes from the terminal. If an airport pickup is your primary need, our dedicated BWI Airport Car Service page covers terminal logistics, concourse details, and meet-and-greet options in full."
+        ]
+      },
+      {
+        "h2": "BWI car service pricing",
+        "paragraphs": [
+          "Flat-rate point-to-point transfers are priced by distance — a short local hop costs less than a run to downtown DC — with premium SUVs priced above the sedan rate for the same trip. Hourly, as-directed service for multi-stop days is booked with a three- to four-hour minimum, and Sprinter van or limousine service is quoted by the group. Every rate includes tolls and gratuity and is confirmed before your card is charged — call 877-609-1919 or request a quote online for the exact number on your trip."
+        ]
+      }
+    ],
+    "vehicles": [
+      { "name": "Mercedes-Benz E-Class", "cls": "Business sedan", "seats": 3, "best": "solo executives and couples" },
+      { "name": "BMW 7 Series", "cls": "First-class sedan", "seats": 3, "best": "VIP and executive travel" },
+      { "name": "Cadillac Escalade", "cls": "Premium SUV", "seats": 6, "best": "families and small groups with luggage" },
+      { "name": "Chevrolet Suburban", "cls": "Luxury SUV", "seats": 6, "best": "airport runs with extra luggage" },
+      { "name": "Mercedes Sprinter van", "cls": "Executive van", "seats": 14, "best": "corporate teams and groups" },
+      { "name": "Stretch limousine", "cls": "Limousine", "seats": 8, "best": "celebrations and special occasions" }
+    ],
+    "faqs": [
+      {
+        "q": "Does BWI car service cover more than airport transfers?",
+        "a": "Yes. The same chauffeurs and account cover airport pickups, corporate travel, medical appointments, local point-to-point trips, and hourly as-directed service for multi-stop days — not just rides to and from BWI."
+      },
+      {
+        "q": "How is BWI car service priced?",
+        "a": "Point-to-point trips are flat rate, priced by distance with SUVs priced above the sedan rate. Multi-stop or open-ended trips are booked hourly as-directed, with a three- to four-hour minimum. Call 877-609-1919 or request a quote online for your exact rate."
+      },
+      {
+        "q": "Can my company set up a standing corporate account?",
+        "a": "Yes. Corporate accounts include priority dispatch and monthly consolidated invoicing, with no minimum account size — a small office benefits from the same predictable billing as a large one. Call 877-609-1919 or use the contact form to set one up."
+      },
+      {
+        "q": "What vehicles are available for BWI car service?",
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans, and stretch limousines. Child car seats are available on request in any vehicle."
+      },
+      {
+        "q": "Do you still provide dedicated BWI Airport pickup service?",
+        "a": "Yes — airport transfers remain our core specialty, with real-time flight tracking and complimentary wait time on every BWI pickup. See our dedicated BWI Airport Car Service page for terminal and concourse details."
+      },
+      {
+        "q": "Is BWI car service available on short notice?",
+        "a": "Often, yes. While 24 hours of notice guarantees your preferred vehicle class, our dispatch desk — based minutes from BWI — accommodates same-day requests for both airport and local trips more often than not. Call 877-609-1919 to check same-day availability."
+      }
+    ],
+    "related": [
+      { "label": "Car Service Near BWI", "to": "/car-service-bwi" },
+      { "label": "BWI Airport Car Service", "to": "/bwi-airport-car-service" },
+      { "label": "Maryland Wedding Limo", "to": "/maryland-wedding-limo" },
+      { "label": "Service Area Coverage", "to": "/coverage" },
+      { "label": "Luxury Fleet", "to": "/luxury-fleet" },
+      { "label": "Baltimore Sports Transportation", "to": "/baltimore-sports-transportation" }
+    ],
+    "schema": {
+      "areaServed": ["BWI Airport", "Baltimore", "Washington DC", "Northern Virginia"],
+      "serviceType": "Chauffeured car service"
+    }
+  },
   // Batch 3 (2026-09-21) lives in its own file.
   ...MARYLAND_BATCH3,
   ...MARYLAND_BATCH4,
