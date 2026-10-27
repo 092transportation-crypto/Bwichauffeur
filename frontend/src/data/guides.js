@@ -1,5 +1,6 @@
 // Root-level guide articles (/<slug>) — same shape as blogPosts, rendered by BlogPostPage.
 import { GUIDES_BATCH2 } from './guidesBatch2';
+import { GUIDES_BATCH3 } from './guidesBatch3';
 
 export const GUIDES = [
   {
@@ -2691,4 +2692,6 @@ Book early enough to secure the right vehicle for your trip type, but choose a p
   },
   // Batch 2 (2026-10-23) lives in its own file.
   ...GUIDES_BATCH2,
+  // Batch 3 (2026-10-27) lives in its own file.
+  ...GUIDES_BATCH3,
 ];

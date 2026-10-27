@@ -17,6 +17,7 @@ import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
 import { ensureFiveFaqs } from '../lib/faqExtras';
+import { renderInlineText } from '../lib/inlineMarkdown';
 import Breadcrumbs from '../components/Breadcrumbs';
 import KeywordSection from '../components/KeywordSection';
 
@@ -117,7 +118,7 @@ const MarylandPage = ({ page }) => {
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-5 leading-tight">{page.h1}</h1>
             {page.intro.map((p, i) => (
               <p key={i} className="text-lg md:text-xl text-gray-300 max-w-3xl leading-relaxed mb-4">
-                {p}
+                {renderInlineText(p)}
               </p>
             ))}
 
@@ -188,7 +189,7 @@ const MarylandPage = ({ page }) => {
               <div className="bg-gradient-to-br from-gray-900 to-black border border-[#D4AF37]/30 rounded-xl p-6 md:p-8 space-y-4">
                 {s.paragraphs.map((p, i) => (
                   <p key={i} className="text-gray-200 text-base md:text-lg leading-relaxed">
-                    {p}
+                    {renderInlineText(p)}
                   </p>
                 ))}
               </div>

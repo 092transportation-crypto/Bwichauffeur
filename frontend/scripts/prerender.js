@@ -47,11 +47,18 @@ function routesFromSitemap() {
 // stripped here. Pages with no per-page schema of their own (e.g. /blog,
 // /privacy-policy, /terms-conditions) keep the shell's static blocks as their
 // only schema, so nothing loses structured data.
+//
+// Some pages (BlogPostPage) emit a flat `{"@type":"LocalBusiness",...}` block;
+// others (MarylandPage and others built since) emit a single
+// `{"@graph":[{"@type":"LocalBusiness"...}, ...]}` block instead. The
+// detection below has to match both shapes — matching only the flat shape
+// previously let the @graph-style pages keep the duplicate static schema
+// (round 7 audit: 239 of 511 prerendered pages had 2 LocalBusiness nodes).
 const STATIC_LD_JSON_RE = /<script type="application\/ld\+json">[\s\S]*?<\/script>\s*/g;
 function buildHtml(shell, { html, title, head }) {
   let out = shell;
   if (title) out = out.replace(/<title>[\s\S]*?<\/title>/, "");
-  if (/data-rh="true"[^>]*type="application\/ld\+json"[^>]*>\{"@context":"https:\/\/schema\.org","@type":"LocalBusiness"/.test(head)) {
+  if (/data-rh="true"[^>]*type="application\/ld\+json"[^>]*>[^<]*"@type":"LocalBusiness"/.test(head)) {
     out = out.replace(STATIC_LD_JSON_RE, (block) => (block.includes("LocalBusiness") ? "" : block));
   }
   out = out.replace("</head>", `${title}${head}</head>`);

@@ -559,7 +559,7 @@ export const MARYLAND_BATCH12 = [
       {
         h2: "Roadshows and multi-stop client days",
         paragraphs: [
-          "Hourly as-directed service keeps the same chauffeur and vehicle with an executive or a visiting team for a full roadshow day, moving between client meetings without the friction of booking a new ride at each stop. See our [hourly as-directed chauffeur guide](/hourly-as-directed-chauffeur-corporate-roadshows) for how that billing and scheduling typically works.",
+          "Hourly as-directed service keeps the same chauffeur and vehicle with an executive or a visiting team for a full roadshow day, moving between client meetings without the friction of booking a new ride at each stop. See our [hourly as-directed chauffeur guide](/blog/hourly-as-directed-chauffeur-corporate-roadshows) for how that billing and scheduling typically works.",
         ],
       },
     ],
@@ -760,7 +760,7 @@ export const MARYLAND_BATCH12 = [
       {
         h2: "Hotel-block shuttles and member group travel",
         paragraphs: [
-          "Beyond individual VIP travel, many associations need a recurring shuttle loop between a hotel block and the conference venue for staff and attending members. See our [conference & association meeting transportation guide](/conference-association-meeting-transportation-baltimore) for how we structure that kind of recurring shuttle schedule on the Baltimore side of this same service.",
+          "Beyond individual VIP travel, many associations need a recurring shuttle loop between a hotel block and the conference venue for staff and attending members. See our [conference & association meeting transportation guide](/blog/conference-association-meeting-transportation-baltimore) for how we structure that kind of recurring shuttle schedule on the Baltimore side of this same service.",
         ],
       },
     ],

@@ -468,7 +468,7 @@ export const MARYLAND_BATCH11 = [
       {
         h2: "Medical conferences and visiting physicians",
         paragraphs: [
-          "Baltimore hosts a steady calendar of medical conferences tied to its hospital systems, and visiting physicians and conference attendees benefit from the same flat-rate, flight-tracked service as any corporate traveler — see our [Johns Hopkins medical conference transportation](/johns-hopkins-medical-conference-transportation) guide for conference-specific detail.",
+          "Baltimore hosts a steady calendar of medical conferences tied to its hospital systems, and visiting physicians and conference attendees benefit from the same flat-rate, flight-tracked service as any corporate traveler — see our [Johns Hopkins medical conference transportation](/blog/johns-hopkins-medical-conference-transportation) guide for conference-specific detail.",
         ],
       },
     ],
