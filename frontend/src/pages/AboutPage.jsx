@@ -46,8 +46,8 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>About BWI Chauffeur | Professional Team Since 2014</title>
-        <meta name="description" content="Meet the professional team behind BWI Chauffeur, serving Maryland, DC & Delaware since 2014 with background-checked chauffeurs. Call 877-609-1919." />
+        <title>About BWI Chauffeur | Licensed Since 2014</title>
+        <meta name="description" content="BWI Chauffeur: licensed, background-checked chauffeurs serving Maryland, DC, VA & DE since 2014 — 25,000+ rides, 99% on-time. Call 877-609-1919." />
         <link rel="canonical" href="https://www.bwichauffeur.com/about" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -114,6 +114,9 @@ const AboutPage = () => {
               </p>
               <p>
                 BWI Chauffeur operates under <strong className="text-[#D4AF37]">Maryland PSC Carrier No. 6325</strong>, is fully licensed and commercially insured, and is based at 9836 Lyon Ave, Laurel, MD 20723. We're happy to provide proof of licensing and insurance on request — call <a href="tel:+18776091919" className="text-[#D4AF37] hover:underline">877-609-1919</a> with any question before you book.
+              </p>
+              <p>
+                Most of our business now comes from repeat clients and referrals rather than first-time searches, which is the metric we actually track internally — a chauffeured service lives or dies on whether the same client calls back for their next trip. Standing <Link to="/maryland-corporate-car-service" className="text-[#D4AF37] hover:underline">corporate accounts</Link> and recurring <Link to="/maryland-wedding-limo" className="text-[#D4AF37] hover:underline">wedding and event</Link> bookings make up a growing share of our calendar, and our highest-volume routes run through <Link to="/bwi-airport-car-service" className="text-[#D4AF37] hover:underline">BWI Marshall Airport</Link> and the Baltimore-Washington corridor.
               </p>
             </div>
           </div>
@@ -290,6 +293,10 @@ const AboutPage = () => {
             <Link to="/blog" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Blog</Link>
             <span className="text-gray-600">•</span>
             <Link to="/booking" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Reserve a Vehicle</Link>
+            <span className="text-gray-600">•</span>
+            <Link to="/maryland-corporate-car-service" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Corporate Accounts</Link>
+            <span className="text-gray-600">•</span>
+            <Link to="/service-areas" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Service Areas</Link>
           </div>
         </div>
       </div>

@@ -201,6 +201,23 @@ export const CITIES = [
     landmarks: ['Inner Harbor', 'Oriole Park at Camden Yards', 'M&T Bank Stadium', 'Johns Hopkins Hospital', 'Cruise Maryland Terminal'],
     localNote:
       'Sailing from the Port of Baltimore? Our cruise transfer service takes you straight to the South Locust Point terminal with luggage assistance included. Catching an Orioles or Ravens game? We handle stadium drop-offs and late-night pickups too.',
+    // Round 8 strengthening pass — Baltimore is the single highest-traffic
+    // city page on the site, so it gets CTR-tuned meta copy, extra FAQs and
+    // extra internal links beyond the shared city-page template.
+    metaTitleOverride: 'Baltimore Limo Service | Flat Rate, No Surge — 24/7',
+    metaDescriptionOverride: 'Baltimore limo & black car service — flat-rate BWI transfers in 15 min, cruise port & Camden Yards rides, 24/7, no surge. Call 877-609-1919.',
+    extraFaqs: [
+      { q: 'Do you serve Camden Yards and M&T Bank Stadium game days?', a: 'Yes. We handle Orioles and Ravens game-day drop-offs and post-game pickups, with chauffeurs who plan around stadium-area street closures and traffic rather than getting caught in it.' },
+      { q: 'Do you offer corporate accounts for Baltimore businesses?', a: 'Yes. Standing accounts get consolidated monthly billing and priority dispatch — see our Baltimore corporate car service page or call 877-609-1919 to set one up.' },
+    ],
+    extraLinks: [
+      { label: 'Baltimore Corporate Car Service', to: '/baltimore-corporate-car-service' },
+      { label: 'Baltimore Wedding Limo Service', to: '/baltimore-wedding-limo-service' },
+      { label: 'Baltimore Airport Car Service', to: '/baltimore-airport-car-service' },
+      { label: "Orioles Game Day Car Service", to: '/blog/orioles-game-day-car-service-camden-yards' },
+      { label: 'Baltimore Prom Limo Service', to: '/baltimore-prom-limo-service' },
+      { label: 'Maryland Corporate Car Service', to: '/maryland-corporate-car-service' },
+    ],
   },
   {
     slug: 'towson-md',
@@ -359,6 +376,23 @@ export const CITIES = [
     landmarks: ['U.S. Naval Academy', 'Annapolis City Dock', 'Maryland State House', 'Westfield Annapolis'],
     localNote:
       'Commissioning Week, Navy football, downtown galas, or an early flight from BWI. Our chauffeurs know Annapolis inside and out, from Eastport to West Annapolis to the Broadneck Peninsula.',
+    // Round 8 strengthening pass — Annapolis is one of the site's top
+    // tourism/wedding/government city pages, so it gets CTR-tuned meta copy,
+    // extra FAQs and extra internal links beyond the shared city-page template.
+    metaTitleOverride: 'Annapolis Limo Service | Flat Rate to BWI — 24/7',
+    metaDescriptionOverride: 'Annapolis limo & car service — flat-rate BWI transfers, Naval Academy events, weddings & legislative-session corporate travel. Call 877-609-1919.',
+    extraFaqs: [
+      { q: 'Do you handle U.S. Naval Academy events like Commissioning Week?', a: 'Yes. Commissioning Week and Navy home football Saturdays both add predictable congestion near the Route 50/97 interchange, and we build that into every Annapolis quote without being asked.' },
+      { q: 'Do you serve the Maryland legislative session in Annapolis?', a: 'Yes. We run standing corporate accounts for lobbying firms, agencies and businesses with regular travel to the State House during the January-to-April session.' },
+    ],
+    extraLinks: [
+      { label: 'Annapolis Corporate Car Service', to: '/annapolis-corporate-car-service' },
+      { label: 'Annapolis Wedding Limo Service', to: '/annapolis-wedding-limo-service' },
+      { label: 'Annapolis Prom Limo Service', to: '/annapolis-prom-limo-service' },
+      { label: 'Naval Academy Transportation', to: '/naval-academy-transportation' },
+      { label: 'Annapolis Boat Show Transportation', to: '/annapolis-boat-show-transportation' },
+      { label: 'Crownsville MD Limo Service', to: '/crownsville-md-limo-service' },
+    ],
   },
   {
     slug: 'crofton-md',

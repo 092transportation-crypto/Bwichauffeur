@@ -4,9 +4,9 @@ export const AIRPORT_PAGES = [
     shortName: 'BWI Airport',
     name: 'Baltimore/Washington International Thurgood Marshall Airport',
     location: 'Linthicum, Maryland',
-    metaTitle: 'BWI Airport Car Service | Flat-Rate & Meet-and-Greet',
+    metaTitle: 'BWI Airport Car Service | Flat Rate, No Surge — 24/7',
     metaDescription:
-      'BWI Airport car service with meet-and-greet at baggage claim & 10-minute home-base pickups. Flat rates, no surge, 24/7. Call 877-609-1919 to book.',
+      'BWI Airport car service: meet-and-greet at baggage claim, 10-minute home-base pickups, flat rates confirmed before you ride. Call 877-609-1919 now.',
     keywords:
       'BWI airport car service, BWI limo service, BWI chauffeur, BWI airport pickup, Baltimore airport transportation, BWI Marshall car service, luxury car service BWI',
     heroImage:
@@ -91,6 +91,14 @@ export const AIRPORT_PAGES = [
         q: 'Can I book a BWI pickup for a last-minute or same-day trip?',
         a: 'Often, yes. Because our base sits ten minutes from the terminal, sedans and SUVs are frequently available within the hour. Call 877-609-1919 and dispatch will confirm real-time availability immediately.',
       },
+      {
+        q: 'Do you provide child car seats for BWI airport pickups?',
+        a: 'Yes. Infant, convertible and booster seats are available on request in any vehicle class — tell us your child\'s age when you book and the seat is installed and checked before the vehicle arrives.',
+      },
+      {
+        q: 'What is your cancellation policy for a BWI reservation?',
+        a: 'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings cancel free of charge up to 12 hours before pickup.',
+      },
     ],
     relatedLinks: [
       {
@@ -127,6 +135,16 @@ export const AIRPORT_PAGES = [
         to: '/baltimore-airport-car-service',
         label: 'Baltimore Airport Car Service',
         sub: 'A Baltimore-focused view of the same BWI chauffeur service',
+      },
+      {
+        to: '/blog/bwi-airport-transportation-guide-terminals-pickup',
+        label: 'BWI Airport Transportation Guide',
+        sub: 'Terminal-by-terminal pickup and drop-off details',
+      },
+      {
+        to: '/bwi-airport-lounges-and-amenities-guide',
+        label: 'BWI Airport Lounges & Amenities Guide',
+        sub: 'What is past security, concourse by concourse',
       },
     ],
   },

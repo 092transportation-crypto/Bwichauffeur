@@ -13,6 +13,8 @@ export const PAGE_FAQS = {
     { q: 'Am I guaranteed the exact model shown?', a: 'Reservations are made by vehicle class. The exact make and model can vary within that class, and if a vehicle becomes unavailable we provide a comparable or upgraded one — never a smaller vehicle without your agreement.' },
     { q: 'How are the vehicles maintained?', a: 'Every vehicle is commercially insured, inspected regularly and detailed before each ride, and is driven by a licensed, background-checked chauffeur.' },
     { q: 'Can I request a child car seat in any vehicle?', a: 'Yes. Infant, convertible and booster seats are available on request in any vehicle class — tell us the child\'s age when you book.' },
+    { q: 'How much does each vehicle class cost?', a: 'Each fleet page lists a starting flat rate for a short local trip. Call ' + PHONE + ' or request a quote online for an exact rate by distance and date.' },
+    { q: 'Can I mix vehicle classes on one reservation?', a: 'Yes. Weddings and corporate events commonly combine a sedan or two with a Sprinter van or stretch limousine, all coordinated by the same dispatch team.' },
   ],
   '/about': [
     { q: 'Who is BWI Chauffeur?', a: 'BWI Chauffeur is a Maryland chauffeured transportation company that has operated since 2014, with its office at 9836 Lyon Ave, Laurel, MD 20723 — between Baltimore and Washington, a short drive from BWI Marshall Airport.' },
@@ -20,6 +22,8 @@ export const PAGE_FAQS = {
     { q: 'How are your chauffeurs selected?', a: 'Chauffeurs are licensed and background-checked, and are trained on airport procedures, route planning and the discretion expected in executive travel.' },
     { q: 'What areas do you serve?', a: 'All of Maryland, Washington DC, Northern Virginia and Delaware, with airport service at BWI, Reagan National (DCA), Dulles (IAD) and Philadelphia (PHL).' },
     { q: 'Do you offer corporate accounts?', a: `Yes — with priority dispatch and monthly invoicing. Call ${PHONE} or use the contact form to set one up.` },
+    { q: 'How many vehicles and chauffeurs does BWI Chauffeur have?', a: 'A fleet spanning sedans, SUVs, Sprinter vans and stretch limousines, with a roster of licensed, background-checked chauffeurs sized to our 24/7 demand across Maryland, DC, Virginia and Delaware.' },
+    { q: 'Can I verify your licensing before booking?', a: `Yes. We're happy to provide proof of Maryland PSC Carrier No. 6325 and commercial insurance on request — call ${PHONE} with any question before you book.` },
   ],
   '/coverage': [
     { q: 'Which counties do you cover in Maryland?', a: 'All of them — from Anne Arundel, Howard, Baltimore and Montgomery counties around the airports to Western Maryland, Southern Maryland and the Eastern Shore.' },
@@ -27,6 +31,8 @@ export const PAGE_FAQS = {
     { q: 'Do you go to the beaches?', a: 'Yes — Ocean City, Maryland and the Delaware beaches including Rehoboth and Bethany are regular long-distance transfers from BWI and the Baltimore–Washington area.' },
     { q: 'Is pricing higher far from the airport?', a: 'Your rate reflects the full trip. ' + RATE },
     { q: 'My town is not listed — can I still book?', a: `Almost certainly. The listed towns are the ones we are asked about most, not the limit of where we drive. Send your addresses through the booking form or call ${PHONE}.` },
+    { q: 'Do you serve Pennsylvania?', a: 'Yes, within reach of our core area — York County, Pennsylvania and trips to Philadelphia International Airport are regular long-distance transfers.' },
+    { q: 'Which cities get the most requests?', a: 'Baltimore, Annapolis, Columbia, Bethesda, Rockville and Silver Spring are our highest-volume stops, alongside BWI, DCA and Dulles airport transfers.' },
   ],
   '/booking': [
     { q: 'Is my ride confirmed as soon as I submit the form?', a: 'Submitting the form sends your request to dispatch. Your ride is confirmed once we reply with your flat rate and you approve it — you then receive a written confirmation.' },

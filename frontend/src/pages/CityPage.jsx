@@ -115,6 +115,11 @@ const buildFaqs = (city) => {
       a: `We recommend booking at least 24 hours in advance to guarantee availability, especially for early-morning flights. That said, we take last-minute requests whenever possible — call ${PHONE_DISPLAY} and we'll do our best to get a chauffeur to you.`,
     });
   }
+  // Optional per-city extra FAQs (round 8 strengthening pass) — appended before
+  // the shared ensureFiveFaqs top-up so these always show for cities that set them.
+  if (Array.isArray(city.extraFaqs) && city.extraFaqs.length) {
+    faqs.push(...city.extraFaqs);
+  }
   return ensureFiveFaqs(faqs, { slug: city.slug, name: city.name });
 };
 
@@ -146,8 +151,11 @@ const CityPage = ({ city }) => {
   const localGuide = buildLocalGuide(city);
   const nearby = getNearbyCities(city, 8);
   const pageUrl = `https://www.bwichauffeur.com/limo-service-${city.slug}`;
-  const title = `Limo Service ${city.name}, MD | BWI Car Service`;
-  const description = `Flat-rate BWI airport transfers from ${city.name}, MD (~${city.minutes} min) plus corporate, wedding & 24/7 chauffeur service. Call ${PHONE_DISPLAY}.`;
+  // metaTitleOverride/metaDescriptionOverride let a specific high-traffic city
+  // (round 8 strengthening pass) ship more compelling, CTR-tuned copy without
+  // changing the generic template every other city page relies on.
+  const title = city.metaTitleOverride || `Limo Service ${city.name}, MD | BWI Car Service`;
+  const description = city.metaDescriptionOverride || `Flat-rate BWI airport transfers from ${city.name}, MD (~${city.minutes} min) plus corporate, wedding & 24/7 chauffeur service. Call ${PHONE_DISPLAY}.`;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -405,6 +413,28 @@ const CityPage = ({ city }) => {
               ))}
             </div>
           </div>
+
+          {/* Optional per-city extra links (round 8 strengthening pass) —
+              lets a specific high-traffic city point to related service and
+              guide pages beyond the generic nearby-cities list. */}
+          {Array.isArray(city.extraLinks) && city.extraLinks.length > 0 && (
+            <div className="mb-16">
+              <h2 className="text-2xl font-bold text-white text-center mb-8">
+                Related <span className="text-[#D4AF37]">{city.name} Resources</span>
+              </h2>
+              <div className="flex flex-wrap justify-center gap-3" data-testid="city-extra-links">
+                {city.extraLinks.map((l) => (
+                  <Link
+                    key={l.to}
+                    to={l.to}
+                    className="px-4 py-2 bg-gray-900 border border-[#D4AF37]/20 hover:border-[#D4AF37] text-gray-300 hover:text-[#D4AF37] rounded-full text-sm transition-colors"
+                  >
+                    {l.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Nearby cities */}
           <div className="mb-16">

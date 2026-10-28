@@ -46,6 +46,16 @@ const HomeFAQ = () => {
       question: 'Do you serve Northern Virginia locations like Tysons Corner and Reston?',
       answer:
         'Yes. Beyond Maryland, Washington DC and Delaware, we regularly serve Northern Virginia business hubs including Tysons Corner and Reston, both of which sit close to Dulles and Reagan National airports.'
+    },
+    {
+      question: 'Which Maryland cities do you serve most often?',
+      answer:
+        'Baltimore, Annapolis, Columbia, Bethesda, Rockville and Silver Spring are our highest-volume cities, but our chauffeurs cover all 23 Maryland counties plus Baltimore City. See our service areas page for your specific town.'
+    },
+    {
+      question: 'What is your cancellation policy?',
+      answer:
+        'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings cancel free of charge up to 12 hours before pickup.'
     }
   ];
 

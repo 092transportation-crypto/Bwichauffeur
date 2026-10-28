@@ -24,6 +24,7 @@ export const FLEET_DETAILS = {
     description: [
       "The Mercedes-Benz E-Class is our most-booked vehicle, and for good reason: it's the right size for one or two travelers with standard luggage, quiet enough to take a call in, and sized to move through city traffic and airport curbs without the bulk of an SUV.",
       "Every E-Class in our fleet runs 2023 or newer, is detailed before each trip, and is driven by a licensed, background-checked chauffeur who tracks your flight and adjusts pickup automatically for early arrivals or delays.",
+      "Most clients book the E-Class for a BWI, DCA or Dulles airport transfer, a corporate meeting run, or a point-to-point ride across Baltimore, Annapolis or DC — it is the default recommendation whenever a client asks which vehicle to pick for a solo or two-person trip with standard luggage. The trunk comfortably holds two standard suitcases plus a carry-on or laptop bag, which covers the vast majority of single-traveler and couple's airport trips without needing to step up to an SUV. See our full luxury fleet for how it compares to our other sedan and SUV classes.",
     ],
     features: [
       'Leather seating',
@@ -56,6 +57,7 @@ export const FLEET_DETAILS = {
     description: [
       "When the trip calls for more than a standard sedan, the BMW 7 Series or Mercedes S-Class delivers it — extended rear legroom, a hushed cabin, and the kind of presence that matters when you're picking up a client, arriving at a wedding, or closing out a long travel day.",
       "We rotate between the 7 Series and S-Class depending on availability, both maintained to the same standard: late-model, detailed before every trip, and driven by a chauffeur trained for a first-class experience from curb to destination.",
+      "This is the class most VIP airport arrivals, executive roadshows and wedding-day departures book, since the extra legroom and quieter cabin matter most on exactly those occasions. It pairs well with a Sprinter van or Escalade for a larger party where one or two guests of honor ride in the flagship sedan while the rest of the group travels separately, and it is the vehicle we recommend most often when a client specifically asks for the most comfortable sedan in the fleet rather than the most affordable one.",
     ],
     features: [
       'Premium leather interior',
@@ -89,6 +91,7 @@ export const FLEET_DETAILS = {
     description: [
       "The Lincoln Nautilus steps up from a sedan without the size or cost of a full-size SUV. It's the vehicle we recommend most often for couples and small families carrying more than two bags, or anyone who wants extra cargo room for golf clubs, strollers, or shopping without booking a larger vehicle than they need.",
       "Like every vehicle in our fleet, it's inspected daily, professionally detailed, and driven by a chauffeur who handles your luggage from curb to trunk.",
+      "It is a popular middle option for an airport transfer when a standard sedan feels tight but a full-size Escalade or Suburban is more vehicle than the trip needs — common for a couple with checked bags, a parent traveling with one child, or a short multi-stop shopping or errand day around Baltimore or Annapolis. The raised ride height and extra cargo room also make it a comfortable choice for an older traveler who prefers an easier step-in height than a low sedan without needing a full-size SUV.",
     ],
     features: [
       'Leather seating',
@@ -121,6 +124,7 @@ export const FLEET_DETAILS = {
     description: [
       "The GMC Yukon XL Denali is our full-size answer for larger groups and longer journeys — extended-length cargo space behind the third row, Denali trim leather throughout, and the commanding road presence that makes a long highway run feel effortless.",
       "It's the vehicle most families and small groups choose when they're carrying more bags than a midsize SUV can comfortably hold, without stepping up to a van.",
+      "It is a frequent choice for a golf outing, a longer airport transfer with multiple travelers and full luggage, or a family reunion run where five passengers and their bags need to travel together comfortably. The extended-length cargo area behind the third row is large enough for several full-size golf bags or a week's worth of luggage for a family heading to the airport, which is the single most common reason clients step up from a midsize SUV to this class. See our Premium SUV page for the Cadillac Escalade if you want the same seating capacity with a different brand's styling, or our Sprinter Shuttle if your group grows past five passengers.",
     ],
     features: [
       'Denali-trim leather seating',
@@ -154,6 +158,7 @@ export const FLEET_DETAILS = {
     description: [
       "The Cadillac Escalade is the vehicle clients request by name — three rows of leather seating, a cabin built for presence as much as comfort, and enough room for a group of six with luggage without anyone feeling cramped.",
       "It's our top pick for wedding parties, prom groups who want to arrive together in one vehicle, and VIP or executive arrivals where the vehicle itself is part of the impression.",
+      "Corporate clients book it for executive airport arrivals where the vehicle is part of the welcome, and families book it for the same reason rideshare drivers rarely offer: three real rows of seating with everyone's luggage still fitting in the trunk. Pair it with a second sedan for a larger traveling party, or book our Sprinter Executive for a group of eight or more who want the same premium feel. Wedding parties also request it by name for the bridal car, since the three-row seating keeps the bride, groom and immediate family together for photos without splitting across vehicles.",
     ],
     features: [
       'Three-row leather seating',
@@ -187,6 +192,7 @@ export const FLEET_DETAILS = {
     description: [
       "When a group needs to travel together, the Mercedes Sprinter keeps everyone — and every bag — in one vehicle instead of splitting across two or three cars. Forward-facing high-back seating with individual seatbelts and reading lights makes the ride comfortable even on longer trips.",
       "It's the standard choice for airport group transfers, conference shuttles between hotels and venues, and any booking where coordinating multiple cars would cost more and create more room for something to go wrong.",
+      "A single Sprinter typically costs less per person than booking several separate rideshares once you account for luggage and seatbelt limits — see our group transportation cost-per-person guide for the math. It is also the vehicle most corporate accounts rely on for a standing weekly shuttle between an office and BWI, Dulles or Reagan National, and the one we recommend most often for a wedding party, youth sports team or conference group that needs to move together on a schedule.",
     ],
     features: [
       'High-back leather seating for 13',
@@ -219,6 +225,7 @@ export const FLEET_DETAILS = {
     description: [
       "The Sprinter Executive is the same Mercedes platform as our Sprinter Shuttle, upgraded with premium captain's-chair seating, mood lighting, and an onboard entertainment screen — built for groups who want their group transportation to feel like part of the event, not just a way to get there.",
       "It's our most-requested vehicle for wedding parties and prom groups who want to arrive together and make an entrance, and for corporate clients entertaining a group that expects more than a standard shuttle.",
+      "Wedding parties use it for the ride between ceremony and reception when the group wants to stay together and keep celebrating along the way, and corporate clients book it for a VIP client group or an executive retreat where a standard shuttle would undersell the occasion. Prom groups favor it for the same reason weddings do — the captain's-chair seating and mood lighting turn the ride itself into part of the night rather than just transportation between stops. See our Sprinter Shuttle page if your group prioritizes seating capacity over the upgraded interior.",
     ],
     features: [
       'Premium captain\'s-chair leather seating',

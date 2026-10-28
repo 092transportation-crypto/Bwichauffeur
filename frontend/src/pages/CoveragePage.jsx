@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from '@dr.pogodin/react-helmet';
 import Coverage from '../components/Coverage';
 import { ArrowLeft, Navigation, Plane, Building } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import FaqSection from '../components/FaqSection';
 import { PAGE_FAQS } from '../data/pageFaqs';
@@ -14,8 +14,8 @@ const CoveragePage = () => {
   return (
     <>
       <Helmet>
-        <title>Where We Drive | Maryland, DC, Virginia & Delaware</title>
-        <meta name="description" content="See where BWI Chauffeur drives: Maryland, Washington DC, Northern Virginia & Delaware, BWI/DCA/IAD/PHL. Call 877-609-1919." />
+        <title>Where We Drive | MD, DC, VA & DE Coverage Map</title>
+        <meta name="description" content="BWI Chauffeur's full coverage: every Maryland county, Washington DC, Northern Virginia & Delaware, plus BWI, DCA, IAD & PHL airports. Call 877-609-1919." />
         <link rel="canonical" href="https://www.bwichauffeur.com/coverage" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -94,6 +94,10 @@ const CoveragePage = () => {
 
           <p>
             If your address is not on this page, that is a gap in our list, not in our service area. Call <a href="tel:+18776091919" className="text-[#D4AF37] hover:text-[#F4E5C3] underline">877-609-1919</a> or use the quote form below with your exact pickup and drop-off addresses, and dispatch will confirm coverage and a flat rate before you book.
+          </p>
+
+          <p>
+            Our busiest corridors — <Link to="/limo-service-baltimore-md" className="text-[#D4AF37] hover:text-[#F4E5C3] underline">Baltimore</Link>, <Link to="/limo-service-annapolis-md" className="text-[#D4AF37] hover:text-[#F4E5C3] underline">Annapolis</Link>, Columbia, Bethesda, Rockville and Silver Spring — see standing chauffeur rotations, which means faster same-day availability and chauffeurs who already know the local streets rather than relying solely on GPS. Every other address in our coverage map gets the same flat-rate pricing and 24/7 dispatch; it just may mean a slightly longer lead time to guarantee your preferred vehicle class. See our <Link to="/service-areas" className="text-[#D4AF37] hover:text-[#F4E5C3] underline">full list of service area pages</Link> for city-specific drive times and FAQs, or our <Link to="/maryland-corporate-car-service" className="text-[#D4AF37] hover:text-[#F4E5C3] underline">Maryland corporate car service</Link> page if you are setting up a standing account across multiple locations.
           </p>
         </div>
 

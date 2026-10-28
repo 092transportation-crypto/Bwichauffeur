@@ -176,7 +176,23 @@ const Footer = () => {
             <Link to="/limo-service-towson-md" className="text-gray-500 hover:text-[#D4AF37] transition-colors">Limo Service Towson</Link>
             <Link to="/limo-service-glen-burnie-md" className="text-gray-500 hover:text-[#D4AF37] transition-colors">Limo Service Glen Burnie</Link>
             <Link to="/limo-service-ocean-city-md" className="text-gray-500 hover:text-[#D4AF37] transition-colors">Limo Service Ocean City</Link>
+            <Link to="/capitol-hill-dc-car-service" className="text-gray-500 hover:text-[#D4AF37] transition-colors">Capitol Hill DC Car Service</Link>
+            <Link to="/old-town-alexandria-va-car-service" className="text-gray-500 hover:text-[#D4AF37] transition-colors">Old Town Alexandria VA</Link>
             <Link to="/service-areas" className="text-[#D4AF37] hover:text-[#F4E5C3] transition-colors font-semibold">View All Cities →</Link>
+          </div>
+        </div>
+
+        {/* Travel Guides */}
+        <div className="mt-12 pt-8 border-t border-gray-800">
+          <h3 className="text-white font-bold text-sm mb-4 uppercase tracking-wider">Travel Guides</h3>
+          <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+            <Link to="/what-to-expect-from-your-chauffeur-airport-etiquette-guide" className="text-gray-500 hover:text-[#D4AF37] transition-colors">First-Time Chauffeur Etiquette Guide</Link>
+            <Link to="/bwi-airport-lounges-and-amenities-guide" className="text-gray-500 hover:text-[#D4AF37] transition-colors">BWI Lounges &amp; Amenities Guide</Link>
+            <Link to="/maryland-snow-emergency-travel-plan-chauffeur-guide" className="text-gray-500 hover:text-[#D4AF37] transition-colors">Maryland Snow Emergency Travel Guide</Link>
+            <Link to="/group-transportation-cost-per-person-calculator-guide" className="text-gray-500 hover:text-[#D4AF37] transition-colors">Group Cost-Per-Person Guide</Link>
+            <Link to="/corporate-ground-transportation-policy-template-guide" className="text-gray-500 hover:text-[#D4AF37] transition-colors">Corporate Transportation Policy Guide</Link>
+            <Link to="/scenic-drives-maryland-chauffeured-day-trip-guide" className="text-gray-500 hover:text-[#D4AF37] transition-colors">5 Scenic Maryland Day Trips</Link>
+            <Link to="/blog" className="text-[#D4AF37] hover:text-[#F4E5C3] transition-colors font-semibold">View All Guides →</Link>
           </div>
         </div>
 

@@ -28,6 +28,14 @@ const servicesFaqs = [
     q: 'What vehicles can I choose from?',
     a: 'Sedans include the Mercedes E-Class, S-Class, and BMW 7 Series. SUVs include the Cadillac Escalade and Chevrolet Suburban. Mercedes Sprinter vans fit up to 14 passengers.',
   },
+  {
+    q: 'Do you serve DCA and Dulles in addition to BWI?',
+    a: 'Yes. Beyond BWI Marshall, we run flat-rate, flight-tracked transfers to and from Reagan National (DCA) and Washington Dulles (IAD) from anywhere in Maryland, DC, Virginia and Delaware.',
+  },
+  {
+    q: 'What is your cancellation policy?',
+    a: 'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings cancel free of charge up to 12 hours before pickup.',
+  },
 ];
 
 const ServicesPage = () => {
@@ -36,8 +44,8 @@ const ServicesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Chauffeur Services | Airport, Weddings & Corporate</title>
-        <meta name="description" content="Flat-rate airport transfers, wedding limousines, corporate car service & hourly chauffeur hire across Maryland, DC and Delaware. 24/7 — call 877-609-1919." />
+        <title>Chauffeur Services | Flat-Rate Airport, Weddings & Corporate</title>
+        <meta name="description" content="Flat-rate airport transfers, wedding limousines, corporate car service & hourly chauffeur hire across MD, DC & Delaware — no surge, ever. Call 877-609-1919." />
         <link rel="canonical" href="https://www.bwichauffeur.com/services" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -258,6 +266,18 @@ const ServicesPage = () => {
             className="px-4 py-3 bg-gray-900/60 border border-[#D4AF37]/30 hover:border-[#D4AF37] hover:bg-[#D4AF37]/5 rounded-lg text-gray-200 hover:text-[#D4AF37] transition-colors text-sm font-medium"
           >
             Travel Insights & Blog →
+          </Link>
+          <Link
+            to="/maryland-corporate-car-service"
+            className="px-4 py-3 bg-gray-900/60 border border-[#D4AF37]/30 hover:border-[#D4AF37] hover:bg-[#D4AF37]/5 rounded-lg text-gray-200 hover:text-[#D4AF37] transition-colors text-sm font-medium"
+          >
+            Maryland Corporate Car Service →
+          </Link>
+          <Link
+            to="/maryland-wedding-limo"
+            className="px-4 py-3 bg-gray-900/60 border border-[#D4AF37]/30 hover:border-[#D4AF37] hover:bg-[#D4AF37]/5 rounded-lg text-gray-200 hover:text-[#D4AF37] transition-colors text-sm font-medium"
+          >
+            Maryland Wedding Limo →
           </Link>
         </div>
       </div>

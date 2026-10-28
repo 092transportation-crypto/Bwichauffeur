@@ -162,8 +162,8 @@ const FAQPage = () => {
   return (
     <>
       <Helmet>
-        <title>FAQ | Airport Limo Questions Answered</title>
-        <meta name="description" content="Get answers about BWI Chauffeur pricing, booking, cancellations and airport pickups for BWI, DCA and IAD travelers." />
+        <title>FAQ | Pricing, Booking & Airport Pickup Answers</title>
+        <meta name="description" content="Answers on BWI Chauffeur pricing, booking, cancellations and airport pickups for BWI, DCA & IAD travelers — flat rates, no surge. Call 877-609-1919." />
         <link rel="canonical" href="https://www.bwichauffeur.com/faq" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -312,6 +312,10 @@ const FAQPage = () => {
             <Link to="/booking" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Schedule Your Ride</Link>
             <span className="text-gray-600">•</span>
             <Link to="/blog" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Blog</Link>
+            <span className="text-gray-600">•</span>
+            <Link to="/bwi-airport-car-service" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">BWI Airport Car Service</Link>
+            <span className="text-gray-600">•</span>
+            <Link to="/maryland-corporate-car-service" className="text-[#D4AF37] hover:text-[#F4E5C3] text-sm">Corporate Car Service</Link>
           </div>
         </div>
       </div>

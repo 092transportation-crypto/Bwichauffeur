@@ -12,6 +12,7 @@ import { MARYLAND_BATCH10 } from './marylandPagesBatch10';
 import { MARYLAND_BATCH11 } from './marylandPagesBatch11';
 import { MARYLAND_BATCH12 } from './marylandPagesBatch12';
 import { MARYLAND_BATCH13 } from './marylandPagesBatch13';
+import { MARYLAND_BATCH14 } from './marylandPagesBatch14';
 
 export const MARYLAND_PAGES = [
   {
@@ -6523,7 +6524,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you work with specific industries differently?",
-        "a": "Yes. We run dedicated programs for government contractors near Fort Meade, hospitals and medical centers, law firms, biotech and pharma companies, financial services firms, engineering and construction teams, and real estate agents and developers, including Tysons Corner and Reston in Northern Virginia — each with its own site-access, discretion or scheduling needs built in."
+        "a": "Yes. We run dedicated programs for government contractors near Fort Meade, hospitals and medical centers, law firms, biotech and pharma companies, financial services firms, engineering and construction teams, and real estate agents and developers, including Tysons Corner and Reston in Northern Virginia — each with its own site-access, discretion or scheduling needs built in. See our corporate ground transportation policy guide and expensing ground transportation guide for how larger accounts typically formalize this."
       }
     ],
     "related": [
@@ -6574,6 +6575,14 @@ export const MARYLAND_PAGES = [
       {
         "label": "Capital One Arena Transportation",
         "to": "/capital-one-arena-transportation"
+      },
+      {
+        "label": "Corporate Ground Transportation Policy Guide",
+        "to": "/corporate-ground-transportation-policy-template-guide"
+      },
+      {
+        "label": "Expensing Ground Transportation Guide",
+        "to": "/expense-reporting-ground-transportation-corporate-travel-guide"
       }
     ],
     "schema": {
@@ -9294,6 +9303,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH11,
   ...MARYLAND_BATCH12,
   ...MARYLAND_BATCH13,
+  ...MARYLAND_BATCH14,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);
