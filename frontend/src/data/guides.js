@@ -158,7 +158,7 @@ Our chauffeurs are licensed and background-checked before they carry a passenger
 
 ### Vehicle Preparation
 
-A chauffeured vehicle is a commercial vehicle maintained for this purpose, not a personal car doing double duty. Before a trip it is cleaned inside and out and checked over. The vehicle class you reserve is the class that arrives, whether that is a Mercedes-Benz E-Class or S-Class, a BMW 7 Series, a Lincoln Nautilus, a Cadillac Escalade, a Chevrolet Suburban or a Mercedes Sprinter van. You can see each on the [luxury fleet](/luxury-fleet) page.
+A chauffeured vehicle is a commercial vehicle maintained for this purpose, not a personal car doing double duty. Before a trip it is cleaned inside and out and checked over. The vehicle class you reserve is the class that arrives, whether that is a Mercedes-Benz E-Class or S-Class, a BMW 7 Series, a Lincoln Nautilus, a Lincoln Navigator, a Chevrolet Suburban or a Mercedes Sprinter van. You can see each on the [luxury fleet](/luxury-fleet) page.
 
 Preparation also covers special requests. Car seats are available on request and are installed before the vehicle leaves for your pickup, so you are not wrestling with a seat at the curb. See [car seat service](/car-seat-service) for how to request one.
 
@@ -393,7 +393,7 @@ If your organization handles regulated or market-sensitive information, consider
 
 Investor roadshows, client tours and site visits are where on-demand rides struggle most. A day with six meetings across Baltimore and Washington leaves no room to request a new car after each one and hope it arrives promptly.
 
-Hourly chauffeured service keeps one vehicle and one chauffeur with the party all day. The car is staged outside each meeting, bags and materials stay on board, and the itinerary can flex when a meeting runs long. For larger delegations, Mercedes Sprinter vans keep the team together so the conversation continues between stops. See the [luxury fleet](/luxury-fleet) for vehicle classes, from the Mercedes-Benz E-Class and S-Class to the Cadillac Escalade and Chevrolet Suburban.
+Hourly chauffeured service keeps one vehicle and one chauffeur with the party all day. The car is staged outside each meeting, bags and materials stay on board, and the itinerary can flex when a meeting runs long. For larger delegations, Mercedes Sprinter vans keep the team together so the conversation continues between stops. See the [luxury fleet](/luxury-fleet) for vehicle classes, from the Mercedes-Benz E-Class and S-Class to the Lincoln Navigator and Chevrolet Suburban.
 
 ### Reliability for Airport Transfers
 
@@ -890,7 +890,7 @@ Our fleet gives a holiday group several reasonable options, and the right one de
 | BMW 7 Series / Mercedes S-Class (First Class Sedan) | 3 passengers, 2 bags | A date night or an anniversary trip where the ride itself is part of the occasion |
 | Lincoln Nautilus (Midsize SUV) | 3 passengers, 4 bags | A family with car seats, strollers or gifts to carry between stops |
 | Chevrolet Suburban (Luxury SUV) | 5 passengers, 5 bags | Extended family groups who want a higher seating position for drive-through displays |
-| Cadillac Escalade (Premium SUV) | 6 passengers, 5 bags | A larger family or friend group that wants extra presence along with the room |
+| Lincoln Navigator (Premium SUV) | 6 passengers, 5 bags | A larger family or friend group that wants extra presence along with the room |
 | Mercedes Sprinter Shuttle | 13 passengers, 13 bags | Office holiday parties, extended family reunions, or multiple households touring together |
 | Mercedes Sprinter Executive | 13 passengers, 13 bags | A celebratory group that wants a stretch-limo evening built around the lights |
 
@@ -1019,7 +1019,7 @@ Three things move the number: vehicle type, one-way versus round trip, and wheth
 These are the general bands we quote for this specific route — call 877-609-1919 for the exact figure based on your pickup and drop-off address, since a trip to Philadelphia's airport differs slightly from one to Center City or a stadium-district hotel:
 
 - **Mercedes-Benz E-Class or BMW 7 Series sedan** (1–3 passengers): the baseline rate for this route, and the most common booking for solo business travelers and couples.
-- **Cadillac Escalade or Chevrolet Suburban SUV** (up to 6 passengers with luggage): a moderate step up from the sedan rate, worth it for families or anyone checking bags for a longer stay.
+- **Lincoln Navigator or Chevrolet Suburban SUV** (up to 6 passengers with luggage): a moderate step up from the sedan rate, worth it for families or anyone checking bags for a longer stay.
 - **Mercedes Sprinter van** (up to 14 passengers): priced per vehicle, not per seat, which usually makes it the better per-person value for a group of five or more making the trip together.
 - **Stretch limousine**: typically booked hourly rather than as a flat one-way rate for this distance, and usually reserved for a specific event rather than a standard airport transfer.
 
@@ -1349,7 +1349,7 @@ Three things move the number: vehicle type, one-way versus round trip, and wheth
 These are the general bands we quote for this specific route — call 877-609-1919 for the exact figure based on your pickup and drop-off address, since a trip to downtown Rehoboth differs slightly from one to a rental a mile or two inland:
 
 - **Mercedes-Benz E-Class or BMW 7 Series sedan** (1–3 passengers): the baseline rate, and the most common booking for a couple or a solo traveler heading to a hotel.
-- **Cadillac Escalade or Chevrolet Suburban SUV** (up to 6 passengers with luggage): a moderate step up from the sedan rate, worth it for a family checking bags and beach gear for a longer stay.
+- **Lincoln Navigator or Chevrolet Suburban SUV** (up to 6 passengers with luggage): a moderate step up from the sedan rate, worth it for a family checking bags and beach gear for a longer stay.
 - **Mercedes Sprinter van** (up to 14 passengers): priced per vehicle, not per seat, which usually makes it the better per-person value for a bachelorette trip, family reunion or shared rental-house group of five or more.
 - **Stretch limousine**: occasionally booked for a specific celebration tied to the trip, but most Rehoboth bookings are sedans, SUVs or Sprinters rather than a stretch limo for this distance.
 
@@ -1664,7 +1664,7 @@ BWI to Virginia Beach is a genuine long-distance trip — about 195 miles and ty
 
 A chauffeured car service, unlike a taxi meter, does not charge by the minute stuck in Hampton Roads Bridge-Tunnel traffic. Instead, the rate is built from a few concrete inputs:
 
-1. **Vehicle class.** A Mercedes-Benz E-Class or BMW 7 Series sedan for one or two travelers costs less than a Cadillac Escalade or Chevrolet Suburban for a family with luggage, which in turn costs less than a 14-passenger Sprinter van for a group.
+1. **Vehicle class.** A Mercedes-Benz E-Class or BMW 7 Series sedan for one or two travelers costs less than a Lincoln Navigator or Chevrolet Suburban for a family with luggage, which in turn costs less than a 14-passenger Sprinter van for a group.
 2. **One-way versus round trip.** A one-way transfer has to account for the chauffeur's return drive with no fare, which is reflected in the price. Booking both legs together, even on different days, is usually more efficient than booking two separate one-way trips.
 3. **Tolls.** This route crosses toll facilities depending on the exact path taken, and a transparent quote discloses them up front rather than adding them as a surprise line item at drop-off.
 4. **Time of day and day of week.** A pre-dawn pickup for an early flight or a Friday-afternoon departure during peak summer beach traffic can affect scheduling, though — unlike rideshare — the price itself does not surge once it is quoted.
@@ -2004,7 +2004,7 @@ BWI Marshall sits about 10 miles south of downtown Baltimore, a trip that takes 
 We quote this route as a flat rate, confirmed before you book, not a metered fare that moves with traffic or demand:
 
 - **Sedan** (Mercedes-Benz E-Class or BMW 7 Series, up to 3 passengers): the lowest-cost option for a solo traveler or couple with standard luggage.
-- **Luxury SUV** (Cadillac Escalade or Chevrolet Suburban, up to 6 passengers): a modest step up from the sedan rate, worth it for families, extra luggage, golf clubs or a stroller.
+- **Luxury SUV** (Lincoln Navigator or Chevrolet Suburban, up to 6 passengers): a modest step up from the sedan rate, worth it for families, extra luggage, golf clubs or a stroller.
 - **Mercedes Sprinter van** (up to 14 passengers): priced for groups — bachelorette parties, wedding guests arriving together, or a corporate team landing on the same flight — and often cheaper per person than multiple sedans.
 - **Stretch limousine** (up to 8 passengers): the highest tier, reserved mostly for celebrations rather than a standard airport run.
 

@@ -28,7 +28,7 @@ const About = () => {
             </p>
 
             <p className="text-gray-300 leading-relaxed">
-              Our commitment to excellence is reflected in every aspect of our service. From our meticulously maintained fleet of luxury vehicles including Mercedes-Benz S-Class, BMW 7 Series, and Cadillac Escalade SUVs, to our professionally trained chauffeurs who undergo rigorous background checks and continuous training, we ensure that every journey with BWI Chauffeur exceeds your expectations.
+              Our commitment to excellence is reflected in every aspect of our service. From our meticulously maintained fleet of luxury vehicles including Mercedes-Benz S-Class, BMW 7 Series, and Lincoln Navigator SUVs, to our professionally trained chauffeurs who undergo rigorous background checks and continuous training, we ensure that every journey with BWI Chauffeur exceeds your expectations.
             </p>
 
             <p className="text-gray-300 leading-relaxed">

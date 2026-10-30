@@ -16,7 +16,7 @@
 - First Class Sedan: BMW 7 Series, Mercedes-Benz S-Class (3 passengers)
 - Midsize SUV: Lincoln Nautilus (3 passengers)
 - Luxury SUV: Chevrolet Suburban (5 passengers)
-- Premium SUV: Cadillac Escalade (6 passengers)
+- Premium SUV: Lincoln Navigator (6 passengers)
 - Van: Mercedes Sprinter Shuttle, Sprinter Executive (13 passengers)
 
 ## Service Areas

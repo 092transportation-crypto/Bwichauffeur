@@ -30,7 +30,7 @@ Not every trip needs the same car, and matching vehicle to purpose is where firs
 
 - **Sedan (Mercedes E-Class, BMW 7 Series)** — best for 1–3 travelers with standard luggage; the default choice for a solo business trip or a couple
 - **Luxury sedan (Mercedes S-Class)** — for VIP arrivals, client pickups, or anyone who wants the extra legroom and presentation
-- **SUV (Cadillac Escalade, Chevrolet Suburban)** — 4–6 passengers with golf clubs, extra bags, or car seats; also the right call for uneven road conditions during winter weather
+- **SUV (Lincoln Navigator, Chevrolet Suburban)** — 4–6 passengers with golf clubs, extra bags, or car seats; also the right call for uneven road conditions during winter weather
 - **Sprinter van (up to 14 passengers)** — wedding parties, sports teams, conference groups, and family reunions arriving on the same or staggered flights
 
 If you're unsure, call and describe your group and luggage — a dispatcher who books BWI runs daily will steer you to the right size faster than any online calculator. You can browse the full lineup on our [luxury fleet page](/luxury-fleet).

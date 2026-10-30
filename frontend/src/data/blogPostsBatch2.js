@@ -210,7 +210,7 @@ Rideshare availability depends on how many drivers are active nearby at that mom
 
 ### The Vehicle and the Driver
 
-Rideshare and taxi vehicles vary by whatever the driver owns or leases; you may get a compact sedan or a minivan depending on the app's assignment. A black car service specifies the vehicle class you are getting — a Mercedes-Benz E-Class, an Escalade, a Sprinter — and the chauffeur is licensed, background-checked, and dressed for business travel rather than a personal vehicle doing gig work.
+Rideshare and taxi vehicles vary by whatever the driver owns or leases; you may get a compact sedan or a minivan depending on the app's assignment. A black car service specifies the vehicle class you are getting — a Mercedes-Benz E-Class, an Navigator, a Sprinter — and the chauffeur is licensed, background-checked, and dressed for business travel rather than a personal vehicle doing gig work.
 
 ### When Rideshare or a Taxi Is the Better Call
 

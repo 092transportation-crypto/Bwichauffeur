@@ -25,7 +25,7 @@ const HomeFAQ = () => {
     {
       question: 'What vehicles do you offer?',
       answer:
-        'Late-model Mercedes-Benz E-Class and S-Class sedans, BMW 7 Series, Cadillac Escalade and Chevrolet Suburban SUVs, and 14-passenger Mercedes Sprinter vans for groups. Every vehicle is detailed before your trip and driven by a professional, background-checked chauffeur.'
+        'Late-model Mercedes-Benz E-Class and S-Class sedans, BMW 7 Series, Lincoln Navigator and Chevrolet Suburban SUVs, and 14-passenger Mercedes Sprinter vans for groups. Every vehicle is detailed before your trip and driven by a professional, background-checked chauffeur.'
     },
     {
       question: 'Do you serve DCA and IAD airports too?',

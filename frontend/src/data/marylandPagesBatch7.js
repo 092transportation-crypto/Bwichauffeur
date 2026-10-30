@@ -6,7 +6,7 @@
 
 const ECLASS = { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" };
 const BMW7 = { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" };
-const ESCALADE = { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
+const ESCALADE = { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
 const SUBURBAN = { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with extra luggage or gear" };
 const SPRINTER = { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" };
 const STRETCH = { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" };

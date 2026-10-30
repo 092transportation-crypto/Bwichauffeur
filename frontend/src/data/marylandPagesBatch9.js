@@ -6,7 +6,7 @@
 
 const ECLASS = { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" };
 const BMW7 = { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" };
-const ESCALADE = { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
+const ESCALADE = { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
 const SUBURBAN = { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with extra luggage or gear" };
 const SPRINTER = { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" };
 const STRETCH = { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" };
@@ -1231,7 +1231,7 @@ export const MARYLAND_BATCH9 = [
       "One flat rate for BWI to Towson — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Towson: Towson University, Towson Town Center, GBMC and the York Road corridor",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -1298,7 +1298,7 @@ export const MARYLAND_BATCH9 = [
       "One flat rate for BWI to Owings Mills — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Owings Mills: Metro Centre, the CareFirst and T. Rowe Price office campuses and surrounding neighborhoods",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -1364,7 +1364,7 @@ export const MARYLAND_BATCH9 = [
       "One flat rate for BWI to White Marsh — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in White Marsh: the Avenue at White Marsh, White Marsh Town Center and Nottingham Square",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -1430,7 +1430,7 @@ export const MARYLAND_BATCH9 = [
       "One flat rate for BWI to Ellicott City — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Ellicott City: historic Main Street, Turf Valley Resort and the Route 40/Route 100 corridor",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -1496,7 +1496,7 @@ export const MARYLAND_BATCH9 = [
       "One flat rate for BWI to Gaithersburg — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Gaithersburg: Kentlands, Washingtonian Lake, RIO and the I-270 technology corridor",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -1562,7 +1562,7 @@ export const MARYLAND_BATCH9 = [
       "One flat rate for BWI to Bowie — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Bowie: Bowie State University, Belair Mansion, Allen Pond Park and the US-301 corridor",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],

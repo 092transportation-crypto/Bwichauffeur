@@ -26,7 +26,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI Concourse Level (or curb-side if luggage is light)',
       'Drop-off: any D.C. address — hotels, offices, residences, government buildings',
-      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, Mercedes Sprinter (up to 14 pax)',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Chevrolet Suburban, Mercedes Sprinter (up to 14 pax)',
       'Reverse trip: D.C. to BWI bookings monitored by departure flight time, with buffer for TSA',
       'Ideal for: government travelers, federal contractors, lobbyists, conference attendees, embassy guests',
     ],
@@ -78,7 +78,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI Concourse Level, curbside, or pre-arranged meet-and-greet at baggage claim',
       'Drop-off: USNA gates, Maryland State House, Westin Annapolis, Hilton, City Dock, B&Bs, private residences, marina pickups',
-      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, Sprinter Van for groups up to 14',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Chevrolet Suburban, Sprinter Van for groups up to 14',
       'Pricing: one flat rate by vehicle class, tolls and gratuity included — confirmed before you book, never surged',
       'Common occasions: Commissioning Week, USNA family weekends, Annapolis Boat Show transfers, Maryland General Assembly session visits, weddings at Annapolis waterfront venues',
       'Round-trip discounts when a same-day Annapolis-to-BWI return is booked together',
@@ -86,7 +86,7 @@ export const BWI_ROUTES = [
     faqs: [
       {
         q: 'How much does BWI to Annapolis car service cost?',
-        a: 'A flat-rate sedan from BWI to Annapolis is quoted based on your exact pickup and drop-off address, with premium SUVs (Cadillac Escalade or Chevrolet Suburban) priced accordingly — tolls and gratuity included, confirmed before you book. Sprinter vans for wedding parties and groups are quoted separately. Call 877-609-1919 or request a quote online for your exact rate.',
+        a: 'A flat-rate sedan from BWI to Annapolis is quoted based on your exact pickup and drop-off address, with premium SUVs (Lincoln Navigator or Chevrolet Suburban) priced accordingly — tolls and gratuity included, confirmed before you book. Sprinter vans for wedding parties and groups are quoted separately. Call 877-609-1919 or request a quote online for your exact rate.',
       },
       {
         q: 'How long is the drive from BWI to Annapolis?',
@@ -199,7 +199,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI Concourse Level (or curb if luggage is light)',
       'Drop-off: NIH Clinical Center, Walter Reed NMMC, Bethesda hotels, Lockheed Martin HQ, downtown Bethesda',
-      'Vehicles: Mercedes S-Class for executive travel, Cadillac Escalade for family/medical travel, Sprinter for multi-passenger groups',
+      'Vehicles: Mercedes S-Class for executive travel, Lincoln Navigator for family/medical travel, Sprinter for multi-passenger groups',
       'Common occasions: NIH outpatient visits, Walter Reed family visits, biotech corporate travel, Lockheed Martin contractor trips',
       'Round-trip discounts and patient-family long-stay packages available',
     ],
@@ -251,7 +251,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI Concourse Level or pre-arranged meet-and-greet at baggage claim',
       'Drop-off: Tysons Corner, Reston, McLean, Vienna, Fairfax, Arlington, Alexandria, Loudoun County',
-      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, Mercedes Sprinter',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Chevrolet Suburban, Mercedes Sprinter',
       'Common occasions: defense contractor travel, tech industry executive visits, Capital One/Hilton/Booz Allen meetings',
       'Multi-stop hourly chauffeur service ideal for full-day Tysons-Reston-McLean tours',
     ],
@@ -299,7 +299,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI Concourse Level, curbside, or pre-arranged meet-and-greet',
       'Drop-off: Pentagon, Crystal City, Pentagon City, Amazon HQ2, Rosslyn, Ballston, Clarendon, Courthouse, Shirlington',
-      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Chevrolet Suburban',
       'Common occasions: federal/military travel, defense contractor visits, Amazon HQ2 corporate travel, conferences at Crystal Gateway Marriott',
       'Reagan National (DCA) connector trips also available when itineraries mix airports',
     ],
@@ -355,7 +355,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI Concourse Level or pre-arranged meet-and-greet at baggage claim',
       'Drop-off: Old Town hotels and B&Bs, federal courthouse, Eisenhower Ave offices, Del Ray, West End, Mount Vernon estate',
-      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Sprinter Van for wedding parties or groups',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Sprinter Van for wedding parties or groups',
       'Common occasions: Old Town weddings, federal court appearances, defense contractor visits, Mount Vernon tours, romantic getaways',
       'Hourly chauffeur option ideal for full-day Old Town and Mount Vernon excursions',
     ],
@@ -407,7 +407,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI Concourse Level or pre-arranged meet-and-greet',
       'Drop-off: I-270 corporate corridor, downtown Rockville Town Square, FDA White Oak, residential addresses',
-      'Vehicles: Mercedes E-Class, BMW 7 Series, Cadillac Escalade, Suburban, Sprinter for biotech teams',
+      'Vehicles: Mercedes E-Class, BMW 7 Series, Lincoln Navigator, Suburban, Sprinter for biotech teams',
       'Common occasions: biotech and pharma corporate travel, FDA advisory visits, Choice Hotels HQ trips, family transport',
       'Hourly chauffeur option ideal for full-day Rockville/Bethesda/Gaithersburg corporate tours',
     ],
@@ -463,7 +463,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI Concourse Level or pre-arranged meet-and-greet at baggage claim',
       'Drop-off: NOAA Silver Spring, FDA White Oak, downtown Silver Spring, Takoma Park, Forest Glen, Wheaton',
-      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, Sprinter Van',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Chevrolet Suburban, Sprinter Van',
       'Common occasions: federal-agency visits, Discovery/NOAA corporate travel, Holy Cross Hospital family visits, residential transfers',
       'ICC (MD-200) routing recommended during peak hours — we cover the toll automatically in flat rate',
     ],
@@ -515,7 +515,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI Concourse Level or IAD baggage claim',
       'Drop-off: any IAD departures door — Main Terminal A/B (United domestic), Concourse C/D international, etc.',
-      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, Sprinter for luggage-heavy groups',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Chevrolet Suburban, Sprinter for luggage-heavy groups',
       'Common occasions: international connections, missed-flight rebooking, mixed-airport itineraries, corporate inter-airport transfers',
       'Round-trip discounts when both legs are booked together — ideal for international travelers returning via the same gateway',
     ],
@@ -564,7 +564,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: PHL arrivals curb at any terminal, or inside baggage claim with the meet-and-greet upgrade',
       'Drop-off: Center City hotels, University City, the Navy Yard, South Philadelphia Sports Complex, suburbs, and the Main Line',
-      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, Mercedes Sprinter (up to 13 pax)',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Chevrolet Suburban, Mercedes Sprinter (up to 13 pax)',
       'Reverse trips: Philadelphia to PHL with departure-time monitoring and TSA buffer built in',
       'Ideal for: business travelers, conventions at the Pennsylvania Convention Center, cruise passengers, families, and group arrivals',
     ],
@@ -618,7 +618,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: any Baltimore-area address — downtown, the suburbs, Annapolis, Columbia, Towson, or BWI Airport',
       'Drop-off: any Philadelphia address, including Center City hotels, universities, hospitals, venues, and the sports complex',
-      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, Mercedes Sprinter (up to 13 pax)',
+      'Vehicles: Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Chevrolet Suburban, Mercedes Sprinter (up to 13 pax)',
       'Options: one-way, round-trip, same-day return, hourly as-directed, and multi-stop itineraries',
       'Ideal for: business meetings, PHL and cruise connections, weddings, Eagles/Phillies/Sixers games, and university visits',
     ],
@@ -670,7 +670,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI arrivals curb, ground transportation lane, or in-terminal meet-and-greet',
       'Drop-off: any Glen Burnie address — UM BWMC, MVA headquarters, Marley Station corridor, Ferndale, Point Pleasant, private residences',
-      'Vehicles: Mercedes and BMW sedans, Cadillac Escalade and Suburban SUVs, Sprinter van for larger groups',
+      'Vehicles: Mercedes and BMW sedans, Lincoln Navigator and Suburban SUVs, Sprinter van for larger groups',
       'Reverse trips: Glen Burnie to BWI with departure-time monitoring and TSA buffer built in',
       'Ideal for: returning residents, medical visits, business travelers, and family pickups across North County',
     ],
@@ -722,7 +722,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI arrivals curb or in-terminal meet-and-greet with a name placard',
       'Drop-off: all Pasadena communities — Lake Shore, Riviera Beach, Green Haven, Chelsea Beach, Compass Pointe, waterfront residences',
-      'Vehicles: luxury sedans for couples, Escalade and Suburban SUVs for families, Sprinter van for groups up to 14',
+      'Vehicles: luxury sedans for couples, Navigator and Suburban SUVs for families, Sprinter van for groups up to 14',
       'Reverse trips: Pasadena to BWI with departure monitoring, plus round-trip scheduling for vacations',
       'Ideal for: returning vacationers, waterfront homeowners, golf outings, and family celebrations on the Magothy',
     ],
@@ -741,7 +741,7 @@ export const BWI_ROUTES = [
       },
       {
         q: 'Can you handle beach gear, coolers, and fishing equipment?',
-        a: 'Absolutely. Our Escalades, Suburbans, and Sprinter vans swallow luggage that would never fit in a sedan — coolers, rod cases, strollers, golf bags for Compass Pointe. Tell us what you are bringing when you book and we will assign the right vehicle.',
+        a: 'Absolutely. Our Navigators, Suburbans, and Sprinter vans swallow luggage that would never fit in a sedan — coolers, rod cases, strollers, golf bags for Compass Pointe. Tell us what you are bringing when you book and we will assign the right vehicle.',
       },
       {
         q: 'Will my driver wait if my flight into BWI is delayed?',
@@ -826,7 +826,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI arrivals curb, ground transportation lane, or in-terminal meet-and-greet',
       'Drop-off: Piney Orchard, Seven Oaks, Odenton Town Center, Odenton MARC station, Fort Meade visitor gates, area hotels',
-      'Vehicles: executive sedans, Cadillac Escalade and Suburban SUVs, Sprinter van for teams and group PCS moves',
+      'Vehicles: executive sedans, Lincoln Navigator and Suburban SUVs, Sprinter van for teams and group PCS moves',
       'Corporate support: contractor billing, rotating-team pickups, and recurring transfer schedules',
       'Ideal for: Fort Meade and NSA-area personnel, defense contractors, MARC commuters, and Odenton families',
     ],
@@ -878,7 +878,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI arrivals curb, ground transportation lane, or meet-and-greet at baggage claim',
       'Drop-off: all Crofton neighborhoods plus Waugh Chapel Towne Centre, Crofton Country Club, and MD-3 corridor offices',
-      'Vehicles: Mercedes and BMW sedans, Escalade and Suburban SUVs, Sprinter van for group travel',
+      'Vehicles: Mercedes and BMW sedans, Navigator and Suburban SUVs, Sprinter van for group travel',
       'Family service: child car seats on request, stroller-friendly cargo space, patient multi-stop pickups',
       'Ideal for: commuting professionals, families, golf trips, and Annapolis-area travelers west of the water',
     ],
@@ -930,7 +930,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI arrivals curb, ground transportation lane, or meet-and-greet with name placard',
       'Drop-off: Shipley\'s Choice, Old Mill, Benfield Boulevard corridor, Veterans Highway offices, Crownsville-border addresses',
-      'Vehicles: Mercedes E/S-Class and BMW sedans, Cadillac Escalade, Chevrolet Suburban, Sprinter van for groups',
+      'Vehicles: Mercedes E/S-Class and BMW sedans, Lincoln Navigator, Chevrolet Suburban, Sprinter van for groups',
       'Round trips: paired arrival and departure bookings with flight monitoring on both legs',
       'Ideal for: Severna Park-area families, business travelers, retirees who prefer a guaranteed pickup, and visiting relatives',
     ],
@@ -1034,7 +1034,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI arrivals curb, ground transportation lane, or in-terminal meet-and-greet',
       'Drop-off: Live! Casino & Hotel, Arundel Mills Mall, The Hall at Live!, Arundel Preserve, Dorsey Road corridor offices, residences',
-      'Vehicles: luxury sedans, Cadillac Escalade and Suburban SUVs, Sprinter van for groups up to 14',
+      'Vehicles: luxury sedans, Lincoln Navigator and Suburban SUVs, Sprinter van for groups up to 14',
       'Event service: scheduled return pickups after concerts, shows, and casino evenings',
       'Ideal for: casino and concert guests, conference attendees, cyber-corridor professionals, and Hanover residents',
     ],
@@ -1086,7 +1086,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI arrivals curb, ground transportation lane, or in-terminal meet-and-greet',
       'Drop-off: Waugh Chapel Towne Centre area, Gambrills Road and Davidsonville Road neighborhoods, Crownsville-border farm properties',
-      'Vehicles: Mercedes and BMW sedans, Escalade and Suburban SUVs, Sprinter van for family groups',
+      'Vehicles: Mercedes and BMW sedans, Navigator and Suburban SUVs, Sprinter van for family groups',
       'Address support: pre-trip confirmation for private lanes, gated drives, and unmarked entrances',
       'Ideal for: Gambrills families, Fort Meade commuters, equestrian-property owners, and Waugh Chapel-area residents',
     ],
@@ -1138,7 +1138,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup zone: BWI arrivals curb, ground transportation lane, or in-terminal meet-and-greet',
       'Drop-off: Londontowne, South River Colony, Mayo Peninsula, Selby-on-the-Bay, Beverly Beach, Central Avenue corridor',
-      'Vehicles: luxury sedans for couples, Escalade and Suburban SUVs for families, Sprinter van for group travel',
+      'Vehicles: luxury sedans for couples, Navigator and Suburban SUVs for families, Sprinter van for group travel',
       'Round trips: paired bookings with flight monitoring on both legs and consistent chauffeurs where possible',
       'Ideal for: waterfront residents, sailing and boating visitors, South County families, and Annapolis-area travelers south of the river',
     ],
@@ -1192,7 +1192,7 @@ export const BWI_ROUTES = [
     service_details: [
       'Pickup: any Gibson Island residence or the Gibson Island Club, coordinated through the gatehouse at booking',
       'Airports served: BWI Marshall, Reagan National (DCA), Dulles (IAD), plus private aviation at Martin State and BWI FBOs',
-      'Vehicles: executive sedans for solo travelers and couples, Escalade and Suburban SUVs for families, Sprinter van for larger parties',
+      'Vehicles: executive sedans for solo travelers and couples, Navigator and Suburban SUVs for families, Sprinter van for larger parties',
       'Corporate and private travel: Baltimore, Annapolis, and Washington DC meetings, dinners, and events with wait-and-return service',
       'Ideal for: island residents, club members and their guests, yacht squadron visitors, and house guests arriving by air',
     ],

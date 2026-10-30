@@ -8,8 +8,8 @@ const WAIT = 'Airport pickups include 45 minutes of complimentary waiting time o
 
 export const PAGE_FAQS = {
   '/luxury-fleet': [
-    { q: 'Which vehicles are in the BWI Chauffeur fleet?', a: 'Mercedes-Benz E-Class and S-Class and BMW 7 Series sedans, Lincoln Nautilus, Cadillac Escalade and GMC Yukon XL Denali SUVs, and Mercedes Sprinter vans in shuttle and executive layouts.' },
-    { q: 'Which vehicle should I book for an airport trip with luggage?', a: 'A sedan suits one to three travelers with standard bags. A full-size SUV such as the Escalade or Yukon XL is the better choice for families and heavy luggage, and a Sprinter van keeps a larger group and all of its bags in one vehicle.' },
+    { q: 'Which vehicles are in the BWI Chauffeur fleet?', a: 'Mercedes-Benz E-Class and S-Class and BMW 7 Series sedans, Lincoln Nautilus, Lincoln Navigator and GMC Yukon XL Denali SUVs, and Mercedes Sprinter vans in shuttle and executive layouts.' },
+    { q: 'Which vehicle should I book for an airport trip with luggage?', a: 'A sedan suits one to three travelers with standard bags. A full-size SUV such as the Navigator or Yukon XL is the better choice for families and heavy luggage, and a Sprinter van keeps a larger group and all of its bags in one vehicle.' },
     { q: 'Am I guaranteed the exact model shown?', a: 'Reservations are made by vehicle class. The exact make and model can vary within that class, and if a vehicle becomes unavailable we provide a comparable or upgraded one — never a smaller vehicle without your agreement.' },
     { q: 'How are the vehicles maintained?', a: 'Every vehicle is commercially insured, inspected regularly and detailed before each ride, and is driven by a licensed, background-checked chauffeur.' },
     { q: 'Can I request a child car seat in any vehicle?', a: 'Yes. Infant, convertible and booster seats are available on request in any vehicle class — tell us the child\'s age when you book.' },

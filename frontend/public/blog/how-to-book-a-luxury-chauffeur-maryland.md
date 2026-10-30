@@ -30,7 +30,7 @@ A dispatcher or the online booking form will walk you through vehicle options ba
 
 - **Sedan** (Mercedes E-Class, BMW 7 Series) for 1–3 passengers and standard luggage
 - **Luxury sedan** (Mercedes S-Class) for VIP or client-facing trips
-- **SUV** (Cadillac Escalade, Chevrolet Suburban) for 4–6 passengers or extra cargo
+- **SUV** (Lincoln Navigator, Chevrolet Suburban) for 4–6 passengers or extra cargo
 - **Sprinter van** (up to 14 passengers) for groups, wedding parties, or team travel
 
 If you're unsure, describe your group size and occasion — the [full fleet page](/luxury-fleet) shows every option, but a quick call gets you a specific recommendation faster than browsing alone.

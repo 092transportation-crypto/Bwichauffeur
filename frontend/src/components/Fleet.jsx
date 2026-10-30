@@ -51,12 +51,12 @@ const Fleet = () => {
     {
       slug: 'premium-suv',
       category: 'Premium SUV',
-      name: 'Cadillac Escalade 2023+ or similar',
+      name: 'Lincoln Navigator 2026+ or similar',
       image: '/images/cadillac-escalade.webp',
       passengers: '6',
       luggage: '5',
       description:
-        "America's premier luxury SUV with commanding presence. Cadillac Escalade or similar."
+        "America's premier luxury SUV with commanding presence. Lincoln Navigator or similar."
     },
     {
       slug: 'sprinter-shuttle',

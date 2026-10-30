@@ -4,7 +4,7 @@
 
 const ECLASS = { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" };
 const BMW7 = { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" };
-const ESCALADE = { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
+const ESCALADE = { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
 const SUBURBAN = { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with beach or golf luggage" };
 const SPRINTER = { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" };
 const STRETCH = { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" };
@@ -55,7 +55,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Choosing the right vehicle for your pickup",
         paragraphs: [
-          "A business traveller with a carry-on is comfortable in an E-Class or BMW 7 Series. A family returning from vacation with several checked bags, a stroller and a car seat request is better served by an Escalade or Suburban. Groups arriving together for a wedding, a cruise from the Port of Baltimore or a conference downtown can share a 14-passenger Sprinter and stay together from baggage claim to the hotel door. Whatever the vehicle, the black car service standard is the same: a clean, commercially insured car and a licensed, background-checked chauffeur who knows the airport roads. Sedan and SUV pickups may be cancelled free up to 3 hours ahead; Sprinters and limousines up to 12 hours.",
+          "A business traveller with a carry-on is comfortable in an E-Class or BMW 7 Series. A family returning from vacation with several checked bags, a stroller and a car seat request is better served by an Navigator or Suburban. Groups arriving together for a wedding, a cruise from the Port of Baltimore or a conference downtown can share a 14-passenger Sprinter and stay together from baggage claim to the hotel door. Whatever the vehicle, the black car service standard is the same: a clean, commercially insured car and a licensed, background-checked chauffeur who knows the airport roads. Sedan and SUV pickups may be cancelled free up to 3 hours ahead; Sprinters and limousines up to 12 hours.",
         ],
       },
     ],
@@ -121,7 +121,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Families, groups and international departures",
         paragraphs: [
-          "An Escalade or Suburban carries a family with checked bags and car seats, which we install on request. For a wedding party, a cruise group or a corporate team flying out together, a 14-passenger Sprinter means one vehicle, one pickup time and everyone at the counter at once. International departures get extra margin because check-in closes earlier and document checks take longer. Our chauffeur service also serves Reagan National, Dulles and Philadelphia International when BWI does not have the route you need. Sedan and SUV bookings can be cancelled free up to 3 hours before pickup; Sprinters and limousines up to 12 hours.",
+          "An Navigator or Suburban carries a family with checked bags and car seats, which we install on request. For a wedding party, a cruise group or a corporate team flying out together, a 14-passenger Sprinter means one vehicle, one pickup time and everyone at the counter at once. International departures get extra margin because check-in closes earlier and document checks take longer. Our chauffeur service also serves Reagan National, Dulles and Philadelphia International when BWI does not have the route you need. Sedan and SUV bookings can be cancelled free up to 3 hours before pickup; Sprinters and limousines up to 12 hours.",
         ],
       },
     ],
@@ -317,7 +317,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Why companies move from rideshare reimbursement",
         paragraphs: [
-          "The reasons repeat across accounts: unpredictable surge fares that make travel budgets guesswork, executives waiting in rideshare queues at BWI, drivers cancelling before an early flight, and finance teams reconciling stacks of individual receipts. A corporate chauffeur service answers all four with flat rates, a named chauffeur assigned in advance, a dispatcher who answers at any hour and one invoice a month. Vehicles come from our own commercially insured fleet, from E-Class and BMW 7 Series sedans through Escalades and Suburbans to 14-passenger Sprinters for teams. Sedan and SUV bookings can be cancelled free up to 3 hours before pickup; Sprinters up to 12 hours.",
+          "The reasons repeat across accounts: unpredictable surge fares that make travel budgets guesswork, executives waiting in rideshare queues at BWI, drivers cancelling before an early flight, and finance teams reconciling stacks of individual receipts. A corporate chauffeur service answers all four with flat rates, a named chauffeur assigned in advance, a dispatcher who answers at any hour and one invoice a month. Vehicles come from our own commercially insured fleet, from E-Class and BMW 7 Series sedans through Navigators and Suburbans to 14-passenger Sprinters for teams. Sedan and SUV bookings can be cancelled free up to 3 hours before pickup; Sprinters up to 12 hours.",
         ],
       },
     ],
@@ -383,7 +383,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Beyond the airport: Baltimore, Annapolis and Washington hotels",
         paragraphs: [
-          "From BWI, the Inner Harbor and Harbor East hotels are a short run up MD-295 or I-95, Annapolis is a straightforward trip down I-97, and the Washington hotels along the National Mall, in Georgetown or at National Harbor are reached by the Baltimore-Washington Parkway. Every route is a flat rate by vehicle class, so a family in an Escalade or a couple in an E-Class knows the price before landing. On the way home, a hotel pickup is scheduled from your flight time and the chauffeur is at the lobby door, not a curb across the street. Sedans and SUVs can be cancelled free up to 3 hours before pickup, Sprinters and limousines up to 12 hours.",
+          "From BWI, the Inner Harbor and Harbor East hotels are a short run up MD-295 or I-95, Annapolis is a straightforward trip down I-97, and the Washington hotels along the National Mall, in Georgetown or at National Harbor are reached by the Baltimore-Washington Parkway. Every route is a flat rate by vehicle class, so a family in an Navigator or a couple in an E-Class knows the price before landing. On the way home, a hotel pickup is scheduled from your flight time and the chauffeur is at the lobby door, not a curb across the street. Sedans and SUVs can be cancelled free up to 3 hours before pickup, Sprinters and limousines up to 12 hours.",
         ],
       },
     ],
@@ -444,7 +444,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Vehicles for every part of the day",
         paragraphs: [
-          "A stretch limousine seats eight and is the classic choice for the couple and their closest attendants, with a chauffeur who opens doors and manages the dress and train. For a larger wedding party, a Sprinter van carries up to 14 with room for garment bags and bouquets, and it doubles as a guest shuttle later in the evening. An Escalade or BMW 7 Series suits parents and grandparents, or a couple who prefer an understated black car service to a limousine. Guests flying into BWI can be met at baggage claim with a name sign and brought straight to the hotel, and car seats are available on request for young family members.",
+          "A stretch limousine seats eight and is the classic choice for the couple and their closest attendants, with a chauffeur who opens doors and manages the dress and train. For a larger wedding party, a Sprinter van carries up to 14 with room for garment bags and bouquets, and it doubles as a guest shuttle later in the evening. An Navigator or BMW 7 Series suits parents and grandparents, or a couple who prefer an understated black car service to a limousine. Guests flying into BWI can be met at baggage claim with a name sign and brought straight to the hotel, and car seats are available on request for young family members.",
         ],
       },
       {
@@ -510,7 +510,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Roadshows, hourly service and the Baltimore-Washington day",
         paragraphs: [
-          "Investment firms, law practices and healthcare companies use hourly chauffeur service when a day has several stops: a breakfast in Harbor East, a meeting at Hopkins, an afternoon in Bethesda or downtown Washington and a flight out of DCA. One chauffeur and one vehicle stay with the team throughout, luggage rides along, and the car is at the door as each meeting ends. The back seat becomes working time. Sprinters keep deal teams together, and Escalades suit client site tours. Hourly rates and minimums are confirmed before the booking.",
+          "Investment firms, law practices and healthcare companies use hourly chauffeur service when a day has several stops: a breakfast in Harbor East, a meeting at Hopkins, an afternoon in Bethesda or downtown Washington and a flight out of DCA. One chauffeur and one vehicle stay with the team throughout, luggage rides along, and the car is at the door as each meeting ends. The back seat becomes working time. Sprinters keep deal teams together, and Navigators suit client site tours. Hourly rates and minimums are confirmed before the booking.",
         ],
       },
       {
@@ -579,7 +579,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Choosing between a stretch limousine and a Sprinter",
         paragraphs: [
-          "The stretch limousine is the traditional choice and seats eight comfortably in formal wear. For groups of nine to 14, a Sprinter van keeps everyone together in one vehicle with a high roof, easy entry in a gown and space for bags and corsage boxes. Both are chauffeured by the same licensed professionals. Groups larger than 14 travel in two vehicles coordinated to arrive together. Some families prefer a black car service in an Escalade for a couple or a small group, and that works just as well for arrivals in front of the venue.",
+          "The stretch limousine is the traditional choice and seats eight comfortably in formal wear. For groups of nine to 14, a Sprinter van keeps everyone together in one vehicle with a high roof, easy entry in a gown and space for bags and corsage boxes. Both are chauffeured by the same licensed professionals. Groups larger than 14 travel in two vehicles coordinated to arrive together. Some families prefer a black car service in an Navigator for a couple or a small group, and that works just as well for arrivals in front of the venue.",
         ],
       },
       {
@@ -615,10 +615,10 @@ export const MARYLAND_BATCH4 = [
     badge: "Baltimore Service",
     h1: "Baltimore Black Car Service",
     metaTitle: "Baltimore Black Car Service | BWI Chauffeur",
-    metaDescription: "Professional black car service in Baltimore: Mercedes and BMW sedans, Escalades and Suburbans with licensed chauffeurs. Flat rates. Call 877-609-1919.",
+    metaDescription: "Professional black car service in Baltimore: Mercedes and BMW sedans, Navigators and Suburbans with licensed chauffeurs. Flat rates. Call 877-609-1919.",
     stats: [
       { label: "Coverage", value: "All Baltimore neighborhoods & suburbs" },
-      { label: "Vehicles", value: "E-Class · BMW 7 · Escalade · Suburban" },
+      { label: "Vehicles", value: "E-Class · BMW 7 · Navigator · Suburban" },
       { label: "Pricing", value: "Flat rate — call for quote" },
       { label: "Availability", value: "24 / 7" },
     ],
@@ -627,7 +627,7 @@ export const MARYLAND_BATCH4 = [
       "We are licensed under Maryland PSC Carrier No. 6325, commercially insured and based in Laurel with dispatch open 24/7. The rate for every trip is flat and confirmed before you ride, with no surge on game nights, holidays or in the rain.",
     ],
     highlights: [
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs",
       "Flat rates to BWI, Reagan National, Dulles and Philadelphia with flight tracking on returns",
       "Point-to-point trips across Baltimore and hourly service for dinners, meetings and events",
       "Reserved in advance with a named chauffeur, not requested on the curb",
@@ -716,7 +716,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Vehicles, groups and Philadelphia",
         paragraphs: [
-          "An E-Class or BMW 7 Series suits a business traveller with a carry-on. Families use an Escalade or Suburban for checked bags, strollers and car seats, which we install on request. Groups leaving together for a cruise, a wedding or a conference share a 14-passenger Sprinter so one pickup time covers everyone. Philadelphia International, up I-95 through Delaware, is also a regular run for Baltimore travellers when the route or fare is better there. Sedan and SUV bookings cancel free up to 3 hours before pickup; Sprinters and limousines up to 12 hours.",
+          "An E-Class or BMW 7 Series suits a business traveller with a carry-on. Families use an Navigator or Suburban for checked bags, strollers and car seats, which we install on request. Groups leaving together for a cruise, a wedding or a conference share a 14-passenger Sprinter so one pickup time covers everyone. Philadelphia International, up I-95 through Delaware, is also a regular run for Baltimore travellers when the route or fare is better there. Sedan and SUV bookings cancel free up to 3 hours before pickup; Sprinters and limousines up to 12 hours.",
         ],
       },
     ],
@@ -979,7 +979,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Weddings, proms and celebrations",
         paragraphs: [
-          "Severn families book a stretch limousine or a Sprinter for weddings at venues across Anne Arundel and Howard counties, for proms at the local high schools and for graduation and promotion ceremonies. On an hourly booking the vehicle stays with the party from the first pickup to the last drop-off, and a black car service in an Escalade suits an anniversary dinner in Annapolis or a family outing to a concert at Merriweather Post Pavilion. Sprinters, limousines and special-event bookings may be cancelled free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
+          "Severn families book a stretch limousine or a Sprinter for weddings at venues across Anne Arundel and Howard counties, for proms at the local high schools and for graduation and promotion ceremonies. On an hourly booking the vehicle stays with the party from the first pickup to the last drop-off, and a black car service in an Navigator suits an anniversary dinner in Annapolis or a family outing to a concert at Merriweather Post Pavilion. Sprinters, limousines and special-event bookings may be cancelled free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
         ],
       },
     ],
@@ -1045,7 +1045,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Weddings, proms and celebrations",
         paragraphs: [
-          "Wedding parties from Millersville travel to venues on the Severn River, in downtown Annapolis and around Baltimore, and a Sprinter keeps everyone together between the ceremony, the photo stop and the reception while a stretch limousine carries the couple. Prom bookings for the local high schools are made by parents with an agreed itinerary, and graduation and anniversary dinners suit an Escalade or BMW 7 Series. Sprinters, limousines and special-event bookings can be cancelled free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
+          "Wedding parties from Millersville travel to venues on the Severn River, in downtown Annapolis and around Baltimore, and a Sprinter keeps everyone together between the ceremony, the photo stop and the reception while a stretch limousine carries the couple. Prom bookings for the local high schools are made by parents with an agreed itinerary, and graduation and anniversary dinners suit an Navigator or BMW 7 Series. Sprinters, limousines and special-event bookings can be cancelled free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
         ],
       },
     ],
@@ -1111,7 +1111,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Weddings, proms and summer celebrations",
         paragraphs: [
-          "Pasadena's waterfront homes and clubs host weddings through the warmer months, and a Sprinter carries the wedding party between the ceremony, a photo stop by the water and the reception while a stretch limousine or sedan carries the couple. Prom season brings limousine bookings for the local high schools, with itineraries agreed with parents. Family reunions, milestone birthdays and anniversary dinners suit an Escalade or a black car service sedan. Sprinters, limousines and special events cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
+          "Pasadena's waterfront homes and clubs host weddings through the warmer months, and a Sprinter carries the wedding party between the ceremony, a photo stop by the water and the reception while a stretch limousine or sedan carries the couple. Prom season brings limousine bookings for the local high schools, with itineraries agreed with parents. Family reunions, milestone birthdays and anniversary dinners suit an Navigator or a black car service sedan. Sprinters, limousines and special events cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
         ],
       },
     ],
@@ -1177,7 +1177,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Weddings, proms and family occasions",
         paragraphs: [
-          "Wedding venues around Gambrills, Crofton and Davidsonville and in Annapolis are served by a Sprinter for the wedding party and a stretch limousine for the couple, with an hourly booking that keeps the vehicles with you from the first pickup to the reception. Prom bookings for the Crofton and Odenton area high schools are made by parents with an agreed itinerary. Family airport trips with luggage and car seats suit an Escalade or Suburban. Sprinters, limousines and special events may be cancelled free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
+          "Wedding venues around Gambrills, Crofton and Davidsonville and in Annapolis are served by a Sprinter for the wedding party and a stretch limousine for the couple, with an hourly booking that keeps the vehicles with you from the first pickup to the reception. Prom bookings for the Crofton and Odenton area high schools are made by parents with an agreed itinerary. Family airport trips with luggage and car seats suit an Navigator or Suburban. Sprinters, limousines and special events may be cancelled free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
         ],
       },
     ],
@@ -1243,7 +1243,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Work, evenings and celebrations",
         paragraphs: [
-          "Arbutus commuters work at the BWI business district, in Catonsville, at St. Agnes and in downtown Baltimore, and corporate accounts with monthly invoicing suit those who fly from BWI regularly. Evenings in Baltimore, whether a game at Camden Yards, a show at the Hippodrome or dinner in Federal Hill, are covered by an hourly booking with the chauffeur waiting for the return. Weddings and proms draw on the Sprinter and the stretch limousine, and family occasions on the Escalade. Sprinters, limousines and special events cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
+          "Arbutus commuters work at the BWI business district, in Catonsville, at St. Agnes and in downtown Baltimore, and corporate accounts with monthly invoicing suit those who fly from BWI regularly. Evenings in Baltimore, whether a game at Camden Yards, a show at the Hippodrome or dinner in Federal Hill, are covered by an hourly booking with the chauffeur waiting for the return. Weddings and proms draw on the Sprinter and the stretch limousine, and family occasions on the Navigator. Sprinters, limousines and special events cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
         ],
       },
     ],
@@ -1309,7 +1309,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Weddings, proms and family occasions",
         paragraphs: [
-          "Halethorpe and Arbutus families book a Sprinter for the wedding party and a stretch limousine for the couple, with an hourly reservation that keeps both vehicles on hand from the ceremony to the reception. Prom season brings limousine bookings for the area high schools, arranged by parents with an agreed itinerary, and family airport trips with luggage and car seats suit an Escalade or Suburban. Sprinters, limousines and special-event bookings cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
+          "Halethorpe and Arbutus families book a Sprinter for the wedding party and a stretch limousine for the couple, with an hourly reservation that keeps both vehicles on hand from the ceremony to the reception. Prom season brings limousine bookings for the area high schools, arranged by parents with an agreed itinerary, and family airport trips with luggage and car seats suit an Navigator or Suburban. Sprinters, limousines and special-event bookings cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
         ],
       },
     ],
@@ -1374,7 +1374,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Weddings, proms and family occasions",
         paragraphs: [
-          "For weddings, a Sprinter moves the wedding party between the ceremony, a photo stop in Patapsco Valley State Park or on the harbour and the reception, while a stretch limousine carries the couple. Prom bookings for the Lansdowne area high schools are made by parents with an agreed itinerary and a chauffeur who keeps to it. Family airport trips with luggage and car seats suit an Escalade or Suburban. Sprinters, limousines and special-event bookings cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
+          "For weddings, a Sprinter moves the wedding party between the ceremony, a photo stop in Patapsco Valley State Park or on the harbour and the reception, while a stretch limousine carries the couple. Prom bookings for the Lansdowne area high schools are made by parents with an agreed itinerary and a chauffeur who keeps to it. Family airport trips with luggage and car seats suit an Navigator or Suburban. Sprinters, limousines and special-event bookings cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
         ],
       },
     ],
@@ -1439,7 +1439,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Waterfront weddings and family celebrations",
         paragraphs: [
-          "Riviera Beach and the wider Pasadena shoreline host weddings at homes, yacht clubs and community halls through the warmer months. A Sprinter carries the wedding party between the ceremony, a photo stop by the water and the reception, while a stretch limousine or a black car service sedan carries the couple. Prom bookings for the Pasadena area high schools are arranged by parents with an agreed itinerary. Family reunions and milestone birthdays suit an Escalade. Sprinters, limousines and special events cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
+          "Riviera Beach and the wider Pasadena shoreline host weddings at homes, yacht clubs and community halls through the warmer months. A Sprinter carries the wedding party between the ceremony, a photo stop by the water and the reception, while a stretch limousine or a black car service sedan carries the couple. Prom bookings for the Pasadena area high schools are arranged by parents with an agreed itinerary. Family reunions and milestone birthdays suit an Navigator. Sprinters, limousines and special events cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours.",
         ],
       },
     ],

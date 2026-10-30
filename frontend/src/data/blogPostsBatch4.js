@@ -780,7 +780,7 @@ A Mercedes E-Class or comparable sedan covers the majority of solo and two-passe
 
 ### SUV: Three to Five Passengers, or Extra Luggage
 
-A Cadillac Escalade or Chevrolet Suburban is the right call for a family of four with luggage, a small executive group, or any sedan-sized party carrying more bags than a sedan trunk comfortably holds. It is also the standard choice when the occasion itself calls for more presence — client pickups, a milestone celebration, an SUV's more commanding curb arrival.
+A Lincoln Navigator or Chevrolet Suburban is the right call for a family of four with luggage, a small executive group, or any sedan-sized party carrying more bags than a sedan trunk comfortably holds. It is also the standard choice when the occasion itself calls for more presence — client pickups, a milestone celebration, an SUV's more commanding curb arrival.
 
 ### Sprinter Van: Eight to Fourteen Passengers
 

@@ -3,7 +3,7 @@
 
 const ECLASS = { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" };
 const BMW7 = { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" };
-const ESCALADE = { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
+const ESCALADE = { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
 const SUBURBAN = { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with beach or golf luggage" };
 const SPRINTER = { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" };
 const STRETCH = { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" };
@@ -195,7 +195,7 @@ export const MARYLAND_BATCH3 = [
     faqs: [
       { q: "Is Havre de Grace closer to BWI or Philadelphia airport?", a: "They are comparable. BWI is generally a little quicker, but the difference is small enough that flight times and fares usually decide it. We serve both and will quote each as a flat rate." },
       { q: "Can you shuttle wedding guests between hotels near I-95 and a venue downtown?", a: "Yes. A 14-passenger Sprinter running scheduled loops is the usual setup, with additional vehicles for larger guest counts. We build the schedule around your ceremony and reception times." },
-      { q: "Do you have room for golf bags?", a: "Yes. The Chevrolet Suburban and Cadillac Escalade carry a foursome's clubs with seats in use, and Sprinter vans handle larger outings." },
+      { q: "Do you have room for golf bags?", a: "Yes. The Chevrolet Suburban and Lincoln Navigator carry a foursome's clubs with seats in use, and Sprinter vans handle larger outings." },
       { q: "How is pricing set for a full day in Havre de Grace?", a: "Multi-stop days are booked hourly with a minimum, and point-to-point transfers are flat rate. Both are confirmed before you book and neither is subject to surge pricing. Call 877-609-1919 for a quote." },
       { q: "Do you serve Perryville and Port Deposit across the river?", a: "Yes. We cover the Cecil County side of the Susquehanna as well, along with Aberdeen, Bel Air and the rest of Harford County." },
     ],
@@ -494,7 +494,7 @@ export const MARYLAND_BATCH3 = [
       "Airport transfers between St. Michaels and BWI, Reagan National or Dulles at a confirmed flat rate",
       "Guest shuttles linking Easton hotels, St. Michaels inns and waterfront wedding venues",
       "Pickup timing built around Bay Bridge conditions, especially summer Fridays and Sundays",
-      "Sedans for couples, Suburbans and Escalades for families, 14-passenger Sprinters for wedding parties",
+      "Sedans for couples, Suburbans and Navigators for families, 14-passenger Sprinters for wedding parties",
       "Flight tracking with 45 minutes of free wait on domestic arrivals, 60 on international",
       "Operating since 2014 under Maryland PSC Carrier No. 6325, with 24/7 dispatch",
     ],
@@ -1092,7 +1092,7 @@ export const MARYLAND_BATCH3 = [
       "Hourly service that covers dinner, a performance and any stop you add on the night",
       "Discreet help with surprises: tell dispatch the plan and the chauffeur follows it",
       "Flat-rate or hourly pricing confirmed in advance, no surge on Saturday nights or holidays",
-      "Room for family in an Escalade or Suburban when the celebration includes the children or parents",
+      "Room for family in an Navigator or Suburban when the celebration includes the children or parents",
       "Operating since 2014, Maryland PSC Carrier No. 6325, 24/7 dispatch",
     ],
     sections: [
@@ -1184,7 +1184,7 @@ export const MARYLAND_BATCH3 = [
     vehicles: FLEET_ALL,
     faqs: [
       { q: "How much does graduation transportation cost?", a: "Transfers are flat rate by vehicle and address, and wait-and-return service is hourly with a minimum. The price is confirmed before you book and does not surge on commencement weekends. Call 877-609-1919 for a quote." },
-      { q: "How many people fit in one vehicle?", a: "Sedans seat three, the Cadillac Escalade and Chevrolet Suburban seat six, stretch limousines eight and Mercedes Sprinter vans up to 14. Larger families use two vehicles that travel together." },
+      { q: "How many people fit in one vehicle?", a: "Sedans seat three, the Lincoln Navigator and Chevrolet Suburban seat six, stretch limousines eight and Mercedes Sprinter vans up to 14. Larger families use two vehicles that travel together." },
       { q: "How early should we book for May graduations?", a: "As soon as the ceremony date is published. Sprinter vans are the first vehicles to sell out in May, and Naval Academy Commissioning Week is in especially high demand." },
       { q: "Can the chauffeur wait during the ceremony?", a: "Yes. With an hourly booking the chauffeur stages nearby and meets you at an agreed point afterward, then continues to your restaurant or party." },
       { q: "Can you collect relatives from the airport as well?", a: "Yes. We serve BWI, DCA, IAD and PHL with flight tracking and complimentary wait time of 45 minutes on domestic arrivals and 60 on international, and can take guests directly to their hotel or to campus." },

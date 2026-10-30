@@ -8,6 +8,7 @@ import { BLOG_POSTS_BATCH6 } from './blogPostsBatch6';
 import { BLOG_POSTS_BATCH7 } from './blogPostsBatch7';
 import { BLOG_POSTS_BATCH8 } from './blogPostsBatch8';
 import { BLOG_POSTS_BATCH9 } from './blogPostsBatch9';
+import { BLOG_POSTS_BATCH10 } from './blogPostsBatch10';
 
 export const blogPosts = [
   {
@@ -40,7 +41,7 @@ In a fast-paced business environment, your time and your peace of mind are the a
 
 - **Guaranteed punctuality** with real-time flight tracking and a committed vehicle
 - **Professional, background-checked chauffeurs** averaging 12+ years of experience
-- **Late-model luxury vehicles** — Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Suburban, and Sprinter
+- **Late-model luxury vehicles** — Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Suburban, and Sprinter
 - **Flat-rate pricing** with no surge fees, no overnight surcharge, and no hidden tolls
 - **24/7 availability** for 4 a.m. departures and 2 a.m. red-eye arrivals alike
 
@@ -105,7 +106,7 @@ Skip the surge pricing, the parking-lot shuttle, and the rideshare guesswork. [B
     title: 'Our Luxury Fleet - Mercedes-Benz, BMW & Cadillac Vehicles for Every Occasion',
     seoTitle: 'Our Luxury Fleet: Mercedes, BMW & Cadillac | BWI Chauffeur',
     seoDescription: 'Travel in style with our luxury fleet of Mercedes, BMW, and Cadillac vehicles, delivering unmatched elegance, comfort, and reliability. Call 877-609-1919.',
-    excerpt: 'Explore our impressive fleet of luxury vehicles including the latest 2025 Mercedes-Benz E-Class, BMW 7 Series, Cadillac Escalade, and premium SUVs equipped with modern amenities.',
+    excerpt: 'Explore our impressive fleet of luxury vehicles including the latest 2025 Mercedes-Benz E-Class, BMW 7 Series, Lincoln Navigator, and premium SUVs equipped with modern amenities.',
     date: '2026-01-14',
     author: 'Fleet Manager',
     category: 'Fleet',
@@ -147,11 +148,11 @@ The **BMW 7 Series** delivers the perfect combination of performance and luxury.
 - Bowers & Wilkins Diamond Surround Sound System
 - Ambient Air package with ionization
 
-### Luxury SUV Options - Cadillac Escalade & Chevrolet Suburban
+### Luxury SUV Options - Lincoln Navigator & Chevrolet Suburban
 
 For clients requiring additional space or traveling in groups, our **luxury SUV fleet** offers commanding presence with exceptional comfort:
 
-**Cadillac Escalade** - The pinnacle of American luxury, featuring:
+**Lincoln Navigator** - The pinnacle of American luxury, featuring:
 - AKG Studio Reference 36-speaker audio system
 - Super Cruise hands-free driving technology
 - 38-inch OLED curved display
@@ -183,7 +184,7 @@ Every vehicle in our fleet undergoes rigorous daily inspections and regular prof
     faqs: [
       {
         question: 'What types of vehicles are in the BWI Chauffeur fleet?',
-        answer: 'Our fleet includes the Mercedes-Benz E-Class and flagship S-Class, the BMW 7 Series, the Cadillac Escalade and Chevrolet Suburban SUVs, and 14-passenger Mercedes Sprinter vans — covering solo executives, families, and large groups.',
+        answer: 'Our fleet includes the Mercedes-Benz E-Class and flagship S-Class, the BMW 7 Series, the Lincoln Navigator and Chevrolet Suburban SUVs, and 14-passenger Mercedes Sprinter vans — covering solo executives, families, and large groups.',
       },
       {
         question: 'How many passengers can your largest vehicle hold?',
@@ -191,7 +192,7 @@ Every vehicle in our fleet undergoes rigorous daily inspections and regular prof
       },
       {
         question: 'Can I request a specific vehicle when I book?',
-        answer: 'Yes. You can choose your vehicle class at booking based on group size, luggage, and occasion. For executive travel most clients pick the E-Class or S-Class; families and groups choose the Escalade, Suburban, or Sprinter.',
+        answer: 'Yes. You can choose your vehicle class at booking based on group size, luggage, and occasion. For executive travel most clients pick the E-Class or S-Class; families and groups choose the Navigator, Suburban, or Sprinter.',
       },
       {
         question: 'Are the vehicles new and well maintained?',
@@ -929,7 +930,7 @@ A short, honest summary:
 - **No surge pricing**, ever — same rate 4 a.m. or 4 p.m.
 - **Lower-level Arrivals pickup** — no schlepping bags upstairs
 - **45 minutes free wait time** (60 minutes international) — no panic if customs is slow
-- **Late-model luxury fleet** — Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Suburban, Sprinter
+- **Late-model luxury fleet** — Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Suburban, Sprinter
 - **Real customer support** — a human at 877-609-1919 24/7, not an app chatbot
 
 ### Insider Tips for BWI Travelers
@@ -1243,7 +1244,7 @@ Our chauffeurs are familiar with Maryland's premier wedding venues:
 |---------|------------|----------|
 | Mercedes S-Class | 3 | Bride & Groom, Parents |
 | BMW 7 Series | 3 | VIP Family Members |
-| Cadillac Escalade | 5 | Bridal Party |
+| Lincoln Navigator | 5 | Bridal Party |
 | Chevrolet Suburban | 5 | Groomsmen |
 | Mercedes Sprinter | 14 | Guest Shuttles |
 
@@ -1320,7 +1321,7 @@ Absolutely. Multi-vehicle bookings receive preferred rates. [Contact us](/bookin
     faqs: [
       {
         question: 'How far in advance should I book wedding transportation in Maryland?',
-        answer: 'Book 6 to 12 months ahead for peak wedding season (May through October). Popular dates and the most-requested vehicles — Sprinter vans and Escalades — fill quickly. Off-season dates allow more flexibility.',
+        answer: 'Book 6 to 12 months ahead for peak wedding season (May through October). Popular dates and the most-requested vehicles — Sprinter vans and Navigators — fill quickly. Off-season dates allow more flexibility.',
       },
       {
         question: 'Can you provide both the bridal-party car and guest shuttles?',
@@ -1571,7 +1572,7 @@ Curbside taxis are metered, no surge. Expect a mid-range metered fare to most Ba
 Here is what we honestly recommend to people based on the situation:
 
 - **Business traveler with a 9 a.m. meeting downtown:** Pre-arranged chauffeur. Period. Predictable, professional, and you walk into the office calm instead of frazzled.
-- **Family of four with luggage heading to a hotel:** Pre-arranged Suburban or Escalade. Cheaper than two Ubers plus less hassle.
+- **Family of four with luggage heading to a hotel:** Pre-arranged Suburban or Navigator. Cheaper than two Ubers plus less hassle.
 - **College student on a budget, light bags:** Light Rail.
 - **Group of 6–14 returning from a wedding or conference:** Sprinter van. Everyone fits, luggage fits, one bill.
 
@@ -1679,7 +1680,7 @@ Our most-requested executive vehicles:
 - **Mercedes-Benz E-Class:** Solo traveler, business meetings, in-transit calls. Quiet, comfortable, understated.
 - **Mercedes-Benz S-Class:** C-suite, board members, client-facing arrivals. The classic executive sedan.
 - **BMW 7 Series:** Same role as S-Class — alternative for execs who prefer the BMW driving feel.
-- **Cadillac Escalade & Chevrolet Suburban:** Two to four executives traveling together, plus luggage. Or family travel for relocating execs.
+- **Lincoln Navigator & Chevrolet Suburban:** Two to four executives traveling together, plus luggage. Or family travel for relocating execs.
 - **Mercedes Sprinter Van:** Board meetings, leadership offsites, recruiting events. Up to 14 passengers with WiFi, captain's chairs, and conference seating.
 
 See the [full fleet](/services) for current vehicle specs.
@@ -1885,7 +1886,7 @@ If you are coming for a wedding, Ravens-related travel, or a corporate retreat w
 
 In our Mercedes E-Class or S-Class, the trip is genuinely pleasant. The cabin is quiet, climate-controlled, and there is enough legroom that you can stretch out. We pack a small cooler of bottled water for OC runs. There is WiFi. Phone chargers in every seat.
 
-For families heading to a beach week, our Cadillac Escalade or Chevrolet Suburban handles up to 5 passengers plus a week's worth of luggage. For larger groups — a 12-person wedding party, a corporate retreat — the Mercedes Sprinter handles 14 passengers comfortably with overhead bin space.
+For families heading to a beach week, our Lincoln Navigator or Chevrolet Suburban handles up to 5 passengers plus a week's worth of luggage. For larger groups — a 12-person wedding party, a corporate retreat — the Mercedes Sprinter handles 14 passengers comfortably with overhead bin space.
 
 We make one bathroom stop typically — usually at the **Royal Farms or Wawa just past Cambridge** (around the 90-minute mark). Long enough to grab coffee, short enough to keep moving.
 
@@ -1935,7 +1936,7 @@ We do BWI to Ocean City flat-rate transfers year-round. Off-season (October thro
       },
       {
         question: 'Can you fit a family of 5 with luggage?',
-        answer: 'Absolutely. Our Cadillac Escalade or Chevrolet Suburban seats up to 5 passengers with full beach-trip luggage. For 6 or more passengers we recommend the Mercedes Sprinter van.',
+        answer: 'Absolutely. Our Lincoln Navigator or Chevrolet Suburban seats up to 5 passengers with full beach-trip luggage. For 6 or more passengers we recommend the Mercedes Sprinter van.',
       },
     ],
     relatedPosts: [11, 15, 7],
@@ -2006,7 +2007,7 @@ BWI to Bethesda or DC for a corporate offsite: **one flat quoted rate** in a Spr
 
 ### Sprinter Van vs. Two SUVs — Which Is Better?
 
-For groups of **6–7 passengers**, two SUVs (Suburban + Escalade) is often the right call. More legroom per person, two vehicles for flexibility, and you can split into different destinations easily.
+For groups of **6–7 passengers**, two SUVs (Suburban + Navigator) is often the right call. More legroom per person, two vehicles for flexibility, and you can split into different destinations easily.
 
 For groups of **8 or more passengers**, the Sprinter wins on every dimension: one vehicle, one chauffeur, one chain of communication, one bill. You ride together, you arrive together.
 
@@ -2118,7 +2119,7 @@ We dispatch:
 - **Mercedes-Benz E-Class** — solo or couple, 2 bags, quiet for in-transit calls
 - **Mercedes-Benz S-Class** — executive comfort, longer leg room
 - **BMW 7 Series** — alternative to the S-Class
-- **Cadillac Escalade / Chevy Suburban** — family of 5 with luggage
+- **Lincoln Navigator / Chevy Suburban** — family of 5 with luggage
 - **Mercedes Sprinter Van** — weddings, leadership offsites, larger groups
 
 See the [full fleet here](/luxury-fleet), and our [complete services menu here](/services).
@@ -2144,7 +2145,7 @@ We look forward to driving you.
       },
       {
         question: 'Can you handle a family with car seats and luggage?',
-        answer: 'Absolutely. Our Cadillac Escalade and Chevy Suburban seat up to 5 passengers with full family luggage. Mention car seats at booking and we will confirm whether you are bringing your own or want us to provide one (advance notice required).',
+        answer: 'Absolutely. Our Lincoln Navigator and Chevy Suburban seat up to 5 passengers with full family luggage. Mention car seats at booking and we will confirm whether you are bringing your own or want us to provide one (advance notice required).',
       },
     ],
     relatedPosts: [11, 13, 14],
@@ -2293,7 +2294,7 @@ What you're picturing: a long Lincoln Town Car or Chrysler 300 stretch, polished
 
 ### The Modern Chauffeured Approach — SUV or Sprinter
 
-What you're picturing instead: a 2024+ Cadillac Escalade or Chevy Suburban for 5–6 kids, or a Mercedes Sprinter van with captain's chairs for 8–14 kids. Polished, modern, professionally driven.
+What you're picturing instead: a 2024+ Lincoln Navigator or Chevy Suburban for 5–6 kids, or a Mercedes Sprinter van with captain's chairs for 8–14 kids. Polished, modern, professionally driven.
 
 **Pros:**
 
@@ -2320,7 +2321,7 @@ For a typical 5-hour Maryland prom block (5 p.m. pickup, photos at homes, dinner
 |---------|----------|-----------|---------------------------|
 | Stretch Lincoln Limo | 8 | Mid-range | Moderate |
 | Stretch Chrysler 300 | 10 | Higher | Moderate |
-| Cadillac Escalade | 5 | Lower total | Higher per person |
+| Lincoln Navigator | 5 | Lower total | Higher per person |
 | Chevy Suburban | 5 | Lower total | Higher per person |
 | Mercedes Sprinter (luxury) | 14 | Highest total | Lowest per person |
 
@@ -2330,11 +2331,11 @@ Per-person, a fully-loaded **Sprinter is actually the cheapest** modern option. 
 
 In our experience working with Maryland families, the booking pattern that works best is:
 
-**For 5–6 kids:** One Cadillac Escalade or Chevy Suburban. Splits to a reasonable per-kid share for a 5-hour block, vehicle is brand-new, chauffeur is professional, parents have a single point of contact for the night.
+**For 5–6 kids:** One Lincoln Navigator or Chevy Suburban. Splits to a reasonable per-kid share for a 5-hour block, vehicle is brand-new, chauffeur is professional, parents have a single point of contact for the night.
 
 **For 8–14 kids:** One Mercedes Sprinter van. Splits to the lowest per-kid share for a 5-hour block, with captain's chairs, USB charging, climate control, and Bluetooth audio.
 
-**For 15+ kids:** Two Sprinters or a Sprinter + an Escalade. We coordinate the night as one booking with one bill that we split among families.
+**For 15+ kids:** Two Sprinters or a Sprinter + an Navigator. We coordinate the night as one booking with one bill that we split among families.
 
 ### Practical Prom Night Tips
 
@@ -2358,11 +2359,11 @@ Have a great night, and bring lots of memory card space for the photos.
     faqs: [
       {
         question: 'Is a chauffeured SUV cheaper than a stretch limo for prom?',
-        answer: 'It depends on group size. Per-person, a fully-loaded Mercedes Sprinter is actually cheaper than most stretch limos. For groups of 5 or 6 in a Cadillac Escalade, the per-person share is slightly more than a stretch but in a much nicer, newer, safer vehicle.',
+        answer: 'It depends on group size. Per-person, a fully-loaded Mercedes Sprinter is actually cheaper than most stretch limos. For groups of 5 or 6 in a Lincoln Navigator, the per-person share is slightly more than a stretch but in a much nicer, newer, safer vehicle.',
       },
       {
         question: 'When should I book Maryland prom transportation?',
-        answer: 'Mid-March at the latest. Prom season in central Maryland (Howard, Anne Arundel, Montgomery, and Baltimore counties) books out fast, especially Sprinters and Escalades for the most popular prom weekends in April and May.',
+        answer: 'Mid-March at the latest. Prom season in central Maryland (Howard, Anne Arundel, Montgomery, and Baltimore counties) books out fast, especially Sprinters and Navigators for the most popular prom weekends in April and May.',
       },
       {
         question: 'Will the chauffeur stop teens from drinking in the vehicle?',
@@ -2593,7 +2594,7 @@ A serious airport service monitors your flight automatically and adjusts your pi
 
 ### 3. A Genuinely Late-Model Fleet
 
-"Luxury" is a word; a 2018 sedan with 180,000 miles is a reality. The best services run **late-model Mercedes E/S-Class, BMW 7 Series, Cadillac Escalade, Chevrolet Suburban, and Mercedes Sprinter** vehicles, professionally detailed and inspected daily. Ask the model year and whether you can request a vehicle class. See our [full fleet](/luxury-fleet) for what a real black car lineup looks like.
+"Luxury" is a word; a 2018 sedan with 180,000 miles is a reality. The best services run **late-model Mercedes E/S-Class, BMW 7 Series, Lincoln Navigator, Chevrolet Suburban, and Mercedes Sprinter** vehicles, professionally detailed and inspected daily. Ask the model year and whether you can request a vehicle class. See our [full fleet](/luxury-fleet) for what a real black car lineup looks like.
 
 ### 4. Lower-Level Arrivals Pickup
 
@@ -2609,7 +2610,7 @@ Apps are fine until something goes sideways at 2 a.m. The best black car service
 
 ### 7. Reviews That Mention Reliability, Not Just Cars
 
-Anyone can post a photo of a clean Escalade. Read reviews for the words that matter: "on time," "waiting when I landed," "handled my delay," "showed up at 4 a.m. as promised." Reliability is the product. The luxury is the packaging.
+Anyone can post a photo of a clean Navigator. Read reviews for the words that matter: "on time," "waiting when I landed," "handled my delay," "showed up at 4 a.m. as promised." Reliability is the product. The luxury is the packaging.
 
 ### Red Flags That Signal a Service to Avoid
 
@@ -2792,7 +2793,7 @@ We quote one flat rate from BWI to Washington, DC — starting with the **Merced
 |---------|----------|----------------|
 | Mercedes E-Class | 1–3 | Base flat rate |
 | Mercedes S-Class | 1–3 | Premium tier |
-| Cadillac Escalade / Suburban | 1–5 | SUV tier |
+| Lincoln Navigator / Suburban | 1–5 | SUV tier |
 | Mercedes Sprinter | up to 14 | Group tier |
 
 Every rate includes tolls, fuel, flight tracking, and the chauffeur. [Get your exact quote here](/booking).
@@ -2839,7 +2840,7 @@ Lock in one price for the whole trip — no surge, no meter, no surprises. [Rese
     faqs: [
       {
         question: 'How much is a flat-rate car service from BWI to DC?',
-        answer: 'We quote one flat rate, starting with the Mercedes E-Class and scaling by vehicle — S-Class, Escalade or Suburban, and the 14-passenger Sprinter. Every rate includes tolls, fuel, flight tracking, and the chauffeur, with no surge or meter. Contact us for exact pricing.',
+        answer: 'We quote one flat rate, starting with the Mercedes E-Class and scaling by vehicle — S-Class, Navigator or Suburban, and the 14-passenger Sprinter. Every rate includes tolls, fuel, flight tracking, and the chauffeur, with no surge or meter. Contact us for exact pricing.',
       },
       {
         question: 'How long does the BWI to DC drive take?',
@@ -2960,7 +2961,7 @@ Before you think about limousines or Sprinters, map the day: getting-ready locat
 
 Most full weddings combine three layers:
 
-- **The couple's car** — a chauffeured luxury sedan or SUV for the ceremony arrival and the reception exit. An S-Class or Escalade photographs beautifully and keeps a wedding gown uncrushed.
+- **The couple's car** — a chauffeured luxury sedan or SUV for the ceremony arrival and the reception exit. An S-Class or Navigator photographs beautifully and keeps a wedding gown uncrushed.
 - **The wedding party vehicle** — a 14-passenger Mercedes Sprinter keeps the party together, on schedule, and out of a twelve-car caravan between photo locations.
 - **Guest shuttles** — looping vehicles between host hotels and the venue, timed to ceremony start and staggered at night's end so early-leavers and last-dancers both get home.
 
@@ -3013,7 +3014,7 @@ Whether you're a couple planning your own day or a planner coordinating your ten
       },
       {
         question: 'What vehicles work best for a wedding party?',
-        answer: 'A 14-passenger Mercedes Sprinter is the modern standard — everyone rides together, gowns and suits stay uncrushed, and the group arrives on schedule. Couples typically add a luxury sedan or SUV, such as an S-Class or Escalade, for the ceremony arrival and reception send-off.',
+        answer: 'A 14-passenger Mercedes Sprinter is the modern standard — everyone rides together, gowns and suits stay uncrushed, and the group arrives on schedule. Couples typically add a luxury sedan or SUV, such as an S-Class or Navigator, for the ceremony arrival and reception send-off.',
       },
       {
         question: 'How much does wedding transportation cost in Maryland?',
@@ -3233,7 +3234,7 @@ Maryland proms cluster tightly across late April and May, and every school in th
 ### Choosing the Right Vehicle for the Group
 
 - **Couples and small groups (2–4):** a chauffeured luxury sedan — an S-Class arrival photographs as well as any stretch and costs less.
-- **Friend groups (6–10):** a luxury SUV like an Escalade or Suburban keeps a mid-size group together comfortably.
+- **Friend groups (6–10):** a luxury SUV like an Navigator or Suburban keeps a mid-size group together comfortably.
 - **The whole crew (up to 14):** the Mercedes Sprinter is the modern prom standard — room to stand, everyone together, one pickup order and one drop-off plan.
 
 Traditional stretch limousines still have their fans, and we compare the options honestly in our [prom limo versus chauffeur breakdown](/blog/maryland-prom-limo-vs-chauffeur). The short version: groups increasingly choose Sprinters for space and photos, sedans for elegance.
@@ -3280,7 +3281,7 @@ Prom should be memorable for the right reasons — the photos, the entrance, the
       },
       {
         question: 'What is the best vehicle for a prom group?',
-        answer: 'For groups up to 14, the Mercedes Sprinter is the modern favorite — everyone rides together with room for dresses and photos. Couples and small groups often choose a chauffeured S-Class or Escalade, which makes an elegant entrance at a lower cost than a stretch.',
+        answer: 'For groups up to 14, the Mercedes Sprinter is the modern favorite — everyone rides together with room for dresses and photos. Couples and small groups often choose a chauffeured S-Class or Navigator, which makes an elegant entrance at a lower cost than a stretch.',
       },
     ],
     relatedPosts: [18, 5, 2],
@@ -3307,7 +3308,7 @@ One important note before the numbers: when people search "BWI limo," they almos
 
 **Distance and route.** A trip from BWI to downtown Baltimore is roughly 10 miles; to Washington DC it's about 32; to Ocean City it's 145. Flat rates scale with mileage and expected drive time, including predictable toll segments like I-95 or the ICC.
 
-**Vehicle class.** A luxury sedan (Mercedes E-Class, BMW 5/7 Series) is the baseline. A premium SUV (Cadillac Escalade, Chevrolet Suburban) typically adds $30–$60 to the same route because of capacity and operating cost. A 14-passenger Mercedes Sprinter runs higher still, but divided among a group it's often the cheapest per-person option on the lot.
+**Vehicle class.** A luxury sedan (Mercedes E-Class, BMW 5/7 Series) is the baseline. A premium SUV (Lincoln Navigator, Chevrolet Suburban) typically adds $30–$60 to the same route because of capacity and operating cost. A 14-passenger Mercedes Sprinter runs higher still, but divided among a group it's often the cheapest per-person option on the lot.
 
 **What's bundled in.** This is where quotes stop being comparable. A true all-inclusive flat rate covers tolls, fuel, airport fees, and flight-tracked wait time. A teaser rate that adds those afterward can grow 25–40% by the time you're charged.
 
@@ -3350,7 +3351,7 @@ Gratuity of 15–20% is customary for chauffeured service; many companies, ours 
 
 1. **Book ahead.** Reserving 48+ hours out guarantees vehicle choice and lets dispatch route efficiently — last-minute trips can carry premiums anywhere.
 2. **Ask "is that all-in?"** One question exposes teaser pricing instantly.
-3. **Right-size the vehicle.** Two travelers with normal luggage don't need an Escalade; the sedan is the same chauffeur standard for less.
+3. **Right-size the vehicle.** Two travelers with normal luggage don't need an Navigator; the sedan is the same chauffeur standard for less.
 4. **Share a Sprinter.** Groups of 6+ almost always beat per-person rideshare costs in [group transportation](/blog/group-transportation-bwi-airport).
 5. **Set up a corporate account** if you fly monthly — negotiated rates and one monthly invoice beat ad-hoc booking every time.
 
@@ -3507,7 +3508,7 @@ At BWI Marshall, rideshare pickup is on the **upper Departures level** — you l
 
 ### The Vehicle and the Person Driving It
 
-Rideshare guarantees a category ("UberX," "Black"); a chauffeured reservation guarantees a **specific class of late-model luxury vehicle** — Mercedes E- or S-Class, BMW, Escalade, Suburban, or Sprinter — detailed before every trip, driven by a uniformed professional who loads your luggage, holds the door, and knows the route without a phone mounted on the dash. Browse the [fleet](/luxury-fleet) to see the actual vehicles.
+Rideshare guarantees a category ("UberX," "Black"); a chauffeured reservation guarantees a **specific class of late-model luxury vehicle** — Mercedes E- or S-Class, BMW, Navigator, Suburban, or Sprinter — detailed before every trip, driven by a uniformed professional who loads your luggage, holds the door, and knows the route without a phone mounted on the dash. Browse the [fleet](/luxury-fleet) to see the actual vehicles.
 
 ### When Rideshare Is the Right Choice
 
@@ -3675,7 +3676,7 @@ The bread and butter of Baltimore corporate service is the BWI transfer. Your vi
 
 ### Roadshows, Site Visits, and Hourly Service
 
-The second pillar is **hourly chauffeured service**: one vehicle and one chauffeur held at your disposal for a morning, a day, or a week. Baltimore's investment banks and law firms use it for investor roadshows — six meetings across Baltimore and DC in one day, with the car staged outside each stop, no parking, no repositioning, the deal team working the whole way. Real estate groups run site tours from the back of an Escalade; medical device firms shuttle surgeons between Hopkins, Bayview, and BWI. The hourly model turns transportation from a series of small gambles into a fixed, silent piece of the schedule.
+The second pillar is **hourly chauffeured service**: one vehicle and one chauffeur held at your disposal for a morning, a day, or a week. Baltimore's investment banks and law firms use it for investor roadshows — six meetings across Baltimore and DC in one day, with the car staged outside each stop, no parking, no repositioning, the deal team working the whole way. Real estate groups run site tours from the back of an Navigator; medical device firms shuttle surgeons between Hopkins, Bayview, and BWI. The hourly model turns transportation from a series of small gambles into a fixed, silent piece of the schedule.
 
 ### Groups, Events, and the Convention Calendar
 
@@ -3687,7 +3688,7 @@ Corporate service is defined by the person driving. Every BWI Chauffeur driver i
 
 ### The Fleet, Matched to the Occasion
 
-Corporate accounts draw on the [full fleet](/luxury-fleet): Mercedes E-Class and BMW sedans for standard executive transfers, S-Class for board-level guests, Cadillac Escalades and Suburbans for teams and clients with presence to project, and Sprinters for groups. Same chauffeur standard at every tier; the vehicle simply matches the meeting.
+Corporate accounts draw on the [full fleet](/luxury-fleet): Mercedes E-Class and BMW sedans for standard executive transfers, S-Class for board-level guests, Lincoln Navigators and Suburbans for teams and clients with presence to project, and Sprinters for groups. Same chauffeur standard at every tier; the vehicle simply matches the meeting.
 
 ### Why Companies Switch from Rideshare Reimbursement
 
@@ -3729,6 +3730,7 @@ Opening a corporate account is a ten-minute conversation: your routes, your volu
   ...BLOG_POSTS_BATCH7,
   ...BLOG_POSTS_BATCH8,
   ...BLOG_POSTS_BATCH9,
+  ...BLOG_POSTS_BATCH10,
 ];
 
 

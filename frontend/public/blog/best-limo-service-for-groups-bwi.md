@@ -18,7 +18,7 @@ The single most common group-booking mistake is sizing the vehicle to passenger 
 
 ## Vehicle Options by Group Size
 
-- **4–6 passengers, standard luggage:** a Cadillac Escalade or Chevrolet Suburban handles this comfortably with room for bags
+- **4–6 passengers, standard luggage:** a Lincoln Navigator or Chevrolet Suburban handles this comfortably with room for bags
 - **7–10 passengers:** typically requires a Sprinter van, even though passenger count alone might suggest an SUV would do — legroom and cargo space run out faster than seat count implies
 - **11–14 passengers:** a full-size Mercedes Sprinter van, the largest single vehicle in most Maryland fleets
 - **15+ passengers:** requires splitting across two vehicles — plan for this explicitly rather than trying to force one van to overcapacity
@@ -37,7 +37,7 @@ Wedding parties and multi-generational family reunions have a different profile:
 
 ## Corporate Groups and Roadshows
 
-Business groups — a visiting client delegation, a company offsite, a conference team — usually value discretion and efficiency over spectacle. A Sprinter or a pair of Escalades staged outside a terminal, moving directly to a hotel or office with no unnecessary stops, is the standard setup. Corporate groups also benefit most from a single consolidated invoice rather than splitting cost across individual travelers — worth asking about if your group travels together regularly.
+Business groups — a visiting client delegation, a company offsite, a conference team — usually value discretion and efficiency over spectacle. A Sprinter or a pair of Navigators staged outside a terminal, moving directly to a hotel or office with no unnecessary stops, is the standard setup. Corporate groups also benefit most from a single consolidated invoice rather than splitting cost across individual travelers — worth asking about if your group travels together regularly.
 
 ## Pricing: What to Actually Compare
 
@@ -69,7 +69,7 @@ When a group exceeds a single Sprinter's capacity, the right answer is a coordin
 
 ## Mixed Groups: Splitting by Purpose, Not Just Headcount
 
-Not every group needs to travel in a single vehicle even when one would technically fit everyone. A wedding party might split the couple into a private sedan for a more intimate getaway moment while the rest of the bridal party rides together in an SUV or Sprinter. A corporate delegation might put senior executives in a Cadillac Escalade while the broader team rides in a Sprinter behind them. There's no rule requiring one vehicle per group — matching vehicle assignment to the actual social or professional dynamics of the trip is often the better call, and a good dispatcher will ask about this rather than assume everyone belongs in the same van by default.
+Not every group needs to travel in a single vehicle even when one would technically fit everyone. A wedding party might split the couple into a private sedan for a more intimate getaway moment while the rest of the bridal party rides together in an SUV or Sprinter. A corporate delegation might put senior executives in a Lincoln Navigator while the broader team rides in a Sprinter behind them. There's no rule requiring one vehicle per group — matching vehicle assignment to the actual social or professional dynamics of the trip is often the better call, and a good dispatcher will ask about this rather than assume everyone belongs in the same van by default.
 
 ## Communicating Changes Before the Day Of
 

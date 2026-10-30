@@ -243,7 +243,7 @@ const ConcertTransportationPage = () => {
             </p>
             <p className="text-gray-300 text-lg mb-6">
               Here is how it works. Your professional chauffeur picks you up at home, at your hotel, or straight from
-              your gate at BWI Airport. You ride in a late-model Mercedes sedan, Cadillac Escalade, or Sprinter van with
+              your gate at BWI Airport. You ride in a late-model Mercedes sedan, Lincoln Navigator, or Sprinter van with
               bottled water, phone chargers, and room for the whole group. At the venue, you step out at the closest
               drop point to the entrance. While the show plays, your chauffeur tracks it in real time. When the encore
               ends, your vehicle is waiting at a pre-confirmed pickup spot — no surge pricing, no rideshare lot, no
@@ -358,7 +358,7 @@ const ConcertTransportationPage = () => {
                 {
                   icon: Users,
                   title: 'Whole-Group Rides',
-                  description: 'Sedans for date night, Escalades for friends, Sprinter vans for up to 14. Everyone rides together.',
+                  description: 'Sedans for date night, Navigators for friends, Sprinter vans for up to 14. Everyone rides together.',
                 },
                 {
                   icon: Shield,

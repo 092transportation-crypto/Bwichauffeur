@@ -35,7 +35,7 @@ Not every trip needs the same car, and matching vehicle to purpose is where firs
 
 - **Sedan (Mercedes E-Class, BMW 7 Series)** — best for 1–3 travelers with standard luggage; the default choice for a solo business trip or a couple
 - **Luxury sedan (Mercedes S-Class)** — for VIP arrivals, client pickups, or anyone who wants the extra legroom and presentation
-- **SUV (Cadillac Escalade, Chevrolet Suburban)** — 4–6 passengers with golf clubs, extra bags, or car seats; also the right call for uneven road conditions during winter weather
+- **SUV (Lincoln Navigator, Chevrolet Suburban)** — 4–6 passengers with golf clubs, extra bags, or car seats; also the right call for uneven road conditions during winter weather
 - **Sprinter van (up to 14 passengers)** — wedding parties, sports teams, conference groups, and family reunions arriving on the same or staggered flights
 
 If you're unsure, call and describe your group and luggage — a dispatcher who books BWI runs daily will steer you to the right size faster than any online calculator. You can browse the full lineup on our [luxury fleet page](/luxury-fleet).
@@ -318,7 +318,7 @@ Before calling a single vendor, sketch your day hour by hour: where the wedding 
 Wedding transportation rarely means one car. A typical Maryland wedding uses some combination of:
 
 - **A luxury sedan (Mercedes S-Class)** for the couple's getaway car or the bride's arrival
-- **An SUV (Cadillac Escalade or Suburban)** for the wedding party or immediate family
+- **An SUV (Lincoln Navigator or Suburban)** for the wedding party or immediate family
 - **A Sprinter van (up to 14 passengers)** for the full bridal party or as a guest shuttle between a hotel block and the venue
 
 Guest shuttles deserve special attention if your venue has limited parking or you want to keep guests from driving after an open bar — a single Sprinter running a loop between hotel and venue every 30–45 minutes solves both problems at once. Browse vehicle options on our [luxury fleet page](/luxury-fleet) before finalizing your count.
@@ -617,7 +617,7 @@ A dispatcher or the online booking form will walk you through vehicle options ba
 
 - **Sedan** (Mercedes E-Class, BMW 7 Series) for 1–3 passengers and standard luggage
 - **Luxury sedan** (Mercedes S-Class) for VIP or client-facing trips
-- **SUV** (Cadillac Escalade, Chevrolet Suburban) for 4–6 passengers or extra cargo
+- **SUV** (Lincoln Navigator, Chevrolet Suburban) for 4–6 passengers or extra cargo
 - **Sprinter van** (up to 14 passengers) for groups, wedding parties, or team travel
 
 If you're unsure, describe your group size and occasion — the [full fleet page](/luxury-fleet) shows every option, but a quick call gets you a specific recommendation faster than browsing alone.
@@ -726,7 +726,7 @@ The single most common group-booking mistake is sizing the vehicle to passenger 
 
 ## Vehicle Options by Group Size
 
-- **4–6 passengers, standard luggage:** a Cadillac Escalade or Chevrolet Suburban handles this comfortably with room for bags
+- **4–6 passengers, standard luggage:** a Lincoln Navigator or Chevrolet Suburban handles this comfortably with room for bags
 - **7–10 passengers:** typically requires a Sprinter van, even though passenger count alone might suggest an SUV would do — legroom and cargo space run out faster than seat count implies
 - **11–14 passengers:** a full-size Mercedes Sprinter van, the largest single vehicle in most Maryland fleets
 - **15+ passengers:** requires splitting across two vehicles — plan for this explicitly rather than trying to force one van to overcapacity
@@ -745,7 +745,7 @@ Wedding parties and multi-generational family reunions have a different profile:
 
 ## Corporate Groups and Roadshows
 
-Business groups — a visiting client delegation, a company offsite, a conference team — usually value discretion and efficiency over spectacle. A Sprinter or a pair of Escalades staged outside a terminal, moving directly to a hotel or office with no unnecessary stops, is the standard setup. Corporate groups also benefit most from a single consolidated invoice rather than splitting cost across individual travelers — worth asking about if your group travels together regularly.
+Business groups — a visiting client delegation, a company offsite, a conference team — usually value discretion and efficiency over spectacle. A Sprinter or a pair of Navigators staged outside a terminal, moving directly to a hotel or office with no unnecessary stops, is the standard setup. Corporate groups also benefit most from a single consolidated invoice rather than splitting cost across individual travelers — worth asking about if your group travels together regularly.
 
 ## Pricing: What to Actually Compare
 
@@ -777,7 +777,7 @@ When a group exceeds a single Sprinter's capacity, the right answer is a coordin
 
 ## Mixed Groups: Splitting by Purpose, Not Just Headcount
 
-Not every group needs to travel in a single vehicle even when one would technically fit everyone. A wedding party might split the couple into a private sedan for a more intimate getaway moment while the rest of the bridal party rides together in an SUV or Sprinter. A corporate delegation might put senior executives in a Cadillac Escalade while the broader team rides in a Sprinter behind them. There's no rule requiring one vehicle per group — matching vehicle assignment to the actual social or professional dynamics of the trip is often the better call, and a good dispatcher will ask about this rather than assume everyone belongs in the same van by default.
+Not every group needs to travel in a single vehicle even when one would technically fit everyone. A wedding party might split the couple into a private sedan for a more intimate getaway moment while the rest of the bridal party rides together in an SUV or Sprinter. A corporate delegation might put senior executives in a Lincoln Navigator while the broader team rides in a Sprinter behind them. There's no rule requiring one vehicle per group — matching vehicle assignment to the actual social or professional dynamics of the trip is often the better call, and a good dispatcher will ask about this rather than assume everyone belongs in the same van by default.
 
 ## Communicating Changes Before the Day Of
 

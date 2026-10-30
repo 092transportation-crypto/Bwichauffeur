@@ -49,7 +49,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Rockville Town Square, the Montgomery County Circuit Court and the back way around the I-270 spur merge at the Beltway and the Rockville Pike crawl between Twinbrook and White Flint",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the Nuclear Regulatory Commission and the Montgomery County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -71,7 +71,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Rockville",
         "paragraphs": [
-          "Rockville clients book us for corporate travel for I-270 biotech firms, court and county-government appointments, Montgomery College events, weddings at Glenview Mansion and nights out at Rockville Town Square. Corporate travelers from the Nuclear Regulatory Commission, Westat, the Montgomery County government complex and the biotech and health-science firms clustered along Shady Grove Road and the I-270 corridor keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Cambria Hotel Rockville, the Hilton Washington DC/Rockville and the Sheraton Rockville.",
+          "Rockville clients book us for corporate travel for I-270 biotech firms, court and county-government appointments, Montgomery College events, weddings at Glenview Mansion and nights out at Rockville Town Square. Corporate travelers from the Nuclear Regulatory Commission, Westat, the Montgomery County government complex and the biotech and health-science firms clustered along Shady Grove Road and the I-270 corridor keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Cambria Hotel Rockville, the Hilton Washington DC/Rockville and the Sheraton Rockville.",
           "Weddings and celebrations at Glenview Mansion get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
         ]
       },
@@ -97,7 +97,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -136,7 +136,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Rockville?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Rockville for a wedding, prom or night out?",
@@ -223,7 +223,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know the National Institutes of Health campus, Walter Reed National Military Medical Center and the back way around the Wisconsin Avenue and Old Georgetown Road bottlenecks at rush hour and the Beltway approach to the American Legion Bridge",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for NIH and the Montgomery County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -245,7 +245,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Bethesda",
         "paragraphs": [
-          "Bethesda clients book us for NIH and Walter Reed visits, Marriott and Lockheed executive travel, Strathmore concerts, Congressional Country Club events and dinners on Bethesda Row. Corporate travelers from NIH, Walter Reed, Marriott International, Lockheed Martin's Rockledge Drive headquarters and the law, consulting and medical practices around the Bethesda Metro keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Hyatt Regency Bethesda, the Bethesda Marriott, the Bethesdan Hotel and the Canopy by Hilton at Pike & Rose.",
+          "Bethesda clients book us for NIH and Walter Reed visits, Marriott and Lockheed executive travel, Strathmore concerts, Congressional Country Club events and dinners on Bethesda Row. Corporate travelers from NIH, Walter Reed, Marriott International, Lockheed Martin's Rockledge Drive headquarters and the law, consulting and medical practices around the Bethesda Metro keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Hyatt Regency Bethesda, the Bethesda Marriott, the Bethesdan Hotel and the Canopy by Hilton at Pike & Rose.",
           "Weddings and celebrations at the Music Center at Strathmore get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
         ]
       },
@@ -271,7 +271,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -310,7 +310,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Bethesda?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Bethesda for a wedding, prom or night out?",
@@ -393,7 +393,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Rio Lakefront, Downtown Crown and the back way around the I-270 local-express lane merges south of Shady Grove and the Sam Eig Highway loop around Rio",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for NIST and the Montgomery County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -415,7 +415,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Gaithersburg",
         "paragraphs": [
-          "Gaithersburg clients book us for I-270 biotech and NIST business travel, the Montgomery County Agricultural Fair, Kentlands weddings and family airport runs from Montgomery Village. Corporate travelers from NIST, AstraZeneca, Emergent BioSolutions, Novavax and the technology and life-science companies along I-270 keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Gaithersburg Marriott Washingtonian Center, the Hilton Garden Inn Rio and the Courtyard Gaithersburg Washingtonian Center.",
+          "Gaithersburg clients book us for I-270 biotech and NIST business travel, the Montgomery County Agricultural Fair, Kentlands weddings and family airport runs from Montgomery Village. Corporate travelers from NIST, AstraZeneca, Emergent BioSolutions, Novavax and the technology and life-science companies along I-270 keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Gaithersburg Marriott Washingtonian Center, the Hilton Garden Inn Rio and the Courtyard Gaithersburg Washingtonian Center.",
           "Weddings and celebrations at Kentlands Mansion get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
         ]
       }
@@ -434,7 +434,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -473,7 +473,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Gaithersburg?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Gaithersburg for a wedding, prom or night out?",
@@ -556,7 +556,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Downtown Silver Spring on Ellsworth Drive, the AFI Silver Theatre and the back way around the Colesville Road and Georgia Avenue merges downtown and the Beltway inner loop between Georgia Avenue and I-95",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for NOAA and the Montgomery County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -578,7 +578,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Silver Spring",
         "paragraphs": [
-          "Silver Spring clients book us for FDA and NOAA business travel, Fillmore concerts, AFI film festival weeks, Holy Cross medical visits and Takoma Park and Four Corners family airport runs. Corporate travelers from NOAA, the FDA at White Oak, Holy Cross Hospital, the Montgomery County government offices and the media and nonprofit employers downtown keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Sheraton Silver Spring, the Courtyard Silver Spring Downtown and the Homewood Suites.",
+          "Silver Spring clients book us for FDA and NOAA business travel, Fillmore concerts, AFI film festival weeks, Holy Cross medical visits and Takoma Park and Four Corners family airport runs. Corporate travelers from NOAA, the FDA at White Oak, Holy Cross Hospital, the Montgomery County government offices and the media and nonprofit employers downtown keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Sheraton Silver Spring, the Courtyard Silver Spring Downtown and the Homewood Suites.",
           "Weddings and celebrations at The Fillmore Silver Spring get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
         ]
       },
@@ -604,7 +604,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -643,7 +643,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Silver Spring?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Silver Spring for a wedding, prom or night out?",
@@ -726,7 +726,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Bowie Town Center, Bowie State University and the back way around the US-50 and MD-3 interchange and the Beltway approach at Landover on the way to DCA",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for Bowie State University and the Prince George's County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -748,7 +748,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Bowie",
         "paragraphs": [
-          "Bowie clients book us for Bowie State commencement weekends, Baysox games, Comfort Inn ballroom weddings and receptions, Six Flags America outings and airport runs from Fairwood and Mitchellville. Corporate travelers from Bowie State University, Inovalon, the Bowie Town Center retail district and the federal workforce commuting to Andrews, NASA Goddard and downtown Washington keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Comfort Inn Conference Center Bowie and the Hilton Garden Inn Bowie.",
+          "Bowie clients book us for Bowie State commencement weekends, Baysox games, Comfort Inn ballroom weddings and receptions, Six Flags America outings and airport runs from Fairwood and Mitchellville. Corporate travelers from Bowie State University, Inovalon, the Bowie Town Center retail district and the federal workforce commuting to Andrews, NASA Goddard and downtown Washington keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Comfort Inn Conference Center Bowie and the Hilton Garden Inn Bowie.",
           "Weddings and celebrations at the Comfort Inn Conference Center Bowie get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Prince George's County."
         ]
       }
@@ -767,7 +767,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -806,7 +806,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Bowie?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Bowie for a wedding, prom or night out?",
@@ -889,7 +889,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Laurel Park racetrack, Montpelier Mansion and the back way around the I-95 and MD-198 interchange at rush hour and the BW Parkway merge at MD-197",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for Johns Hopkins APL and the Prince George's, Howard and Anne Arundel counties business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -911,7 +911,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Laurel",
         "paragraphs": [
-          "Laurel clients book us for APL and Fort Meade business travel, Laurel Park race days, Montpelier Mansion weddings, Main Street nights out and quick BW Parkway airport runs. Corporate travelers from Johns Hopkins APL, Fort Meade and the NSA just up MD-32, Laurel Park and the government contractors clustered around Konterra and Maryland City keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the DoubleTree by Hilton Laurel, the Holiday Inn Laurel West and the Hampton Inn Laurel.",
+          "Laurel clients book us for APL and Fort Meade business travel, Laurel Park race days, Montpelier Mansion weddings, Main Street nights out and quick BW Parkway airport runs. Corporate travelers from Johns Hopkins APL, Fort Meade and the NSA just up MD-32, Laurel Park and the government contractors clustered around Konterra and Maryland City keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the DoubleTree by Hilton Laurel, the Holiday Inn Laurel West and the Hampton Inn Laurel.",
           "Weddings and celebrations at Montpelier Mansion get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Prince George's, Howard and Anne Arundel counties."
         ]
       }
@@ -930,7 +930,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -969,7 +969,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Laurel?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Laurel for a wedding, prom or night out?",
@@ -1060,7 +1060,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know NASA's Goddard Space Flight Center, Roosevelt Center and the back way around the Beltway–BW Parkway–I-95 interchange, one of the busiest merges in Maryland",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for NASA Goddard and the Prince George's County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -1082,7 +1082,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Greenbelt",
         "paragraphs": [
-          "Greenbelt clients book us for Goddard contractor travel, University of Maryland graduation and game weekends, Roosevelt Center events and BW Parkway airport runs. Corporate travelers from NASA Goddard, the aerospace contractors on Greenbelt Road, the University of Maryland next door in College Park and the federal agencies reachable on the Green Line keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Greenbelt Marriott, the Courtyard Greenbelt and the Residence Inn Greenbelt.",
+          "Greenbelt clients book us for Goddard contractor travel, University of Maryland graduation and game weekends, Roosevelt Center events and BW Parkway airport runs. Corporate travelers from NASA Goddard, the aerospace contractors on Greenbelt Road, the University of Maryland next door in College Park and the federal agencies reachable on the Green Line keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Greenbelt Marriott, the Courtyard Greenbelt and the Residence Inn Greenbelt.",
           "Weddings and celebrations at the Greenbelt Marriott get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Prince George's County."
         ]
       }
@@ -1101,7 +1101,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1140,7 +1140,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Greenbelt?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Greenbelt for a wedding, prom or night out?",
@@ -1223,7 +1223,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know St. Charles Towne Center, Regency Furniture Stadium, home of the Southern Maryland Blue Crabs and the back way around the US-301 and MD-5 split at Waldorf and the Branch Avenue backup at the Beltway",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the Charles County government in La Plata and the Charles County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -1245,7 +1245,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Waldorf",
         "paragraphs": [
-          "Waldorf clients book us for Blue Crabs games, Southern Maryland weddings, Indian Head and Andrews-related travel, Branch Avenue commuters flying out of DCA and family trips to BWI. Corporate travelers from the Charles County government in La Plata, Naval Support Facility Indian Head, the College of Southern Maryland and the federal workforce commuting up Branch Avenue keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Hampton Inn Waldorf, the Holiday Inn Express Waldorf and the Country Inn & Suites.",
+          "Waldorf clients book us for Blue Crabs games, Southern Maryland weddings, Indian Head and Andrews-related travel, Branch Avenue commuters flying out of DCA and family trips to BWI. Corporate travelers from the Charles County government in La Plata, Naval Support Facility Indian Head, the College of Southern Maryland and the federal workforce commuting up Branch Avenue keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Hampton Inn Waldorf, the Holiday Inn Express Waldorf and the Country Inn & Suites.",
           "Weddings and celebrations at the Capital Clubhouse get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Charles County."
         ]
       }
@@ -1264,7 +1264,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1303,7 +1303,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Waldorf?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Waldorf for a wedding, prom or night out?",
@@ -1386,7 +1386,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Carroll Creek Linear Park, Fort Detrick and the back way around the I-270 and I-70 interchange and the US-15 crawl through downtown",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for Fort Detrick and the Frederick County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -1408,7 +1408,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Frederick",
         "paragraphs": [
-          "Frederick clients book us for Fort Detrick and Riverside Research Park business travel, Ceresville Mansion and downtown weddings, Frederick Keys games, wine-country outings to Linganore and Black Ankle and Hood College weekends. Corporate travelers from Fort Detrick, Frederick Health, Hood College, the biotech firms of the Riverside Research Park and the county government downtown keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Hilton Garden Inn Frederick, the Courtyard Frederick and the Visitation Hotel on East Church Street.",
+          "Frederick clients book us for Fort Detrick and Riverside Research Park business travel, Ceresville Mansion and downtown weddings, Frederick Keys games, wine-country outings to Linganore and Black Ankle and Hood College weekends. Corporate travelers from Fort Detrick, Frederick Health, Hood College, the biotech firms of the Riverside Research Park and the county government downtown keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Hilton Garden Inn Frederick, the Courtyard Frederick and the Visitation Hotel on East Church Street.",
           "Weddings and celebrations at Ceresville Mansion get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Frederick County."
         ]
       },
@@ -1434,7 +1434,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1473,7 +1473,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Frederick?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Frederick for a wedding, prom or night out?",
@@ -1564,7 +1564,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Fort George G. Meade and the NSA campus, the Odenton MARC station on the Penn Line and the back way around the MD-32 gate backups at Fort Meade and the MD-175 corridor at shift change",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the NSA and the Anne Arundel County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -1586,7 +1586,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Odenton",
         "paragraphs": [
-          "Odenton clients book us for Fort Meade TDY and contractor travel, Piney Orchard family airport runs, Waugh Chapel nights out and Live! Casino evenings. Corporate travelers from the NSA, U.S. Cyber Command, DISA and the defense contractors ringing Fort Meade along MD-175 and MD-32 keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Courtyard Fort Meade, the Candlewood Suites Fort Meade and the hotels around Arundel Mills.",
+          "Odenton clients book us for Fort Meade TDY and contractor travel, Piney Orchard family airport runs, Waugh Chapel nights out and Live! Casino evenings. Corporate travelers from the NSA, U.S. Cyber Command, DISA and the defense contractors ringing Fort Meade along MD-175 and MD-32 keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Courtyard Fort Meade, the Candlewood Suites Fort Meade and the hotels around Arundel Mills.",
           "Weddings and celebrations at the Odenton Town Center pavilion get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Anne Arundel County."
         ]
       }
@@ -1605,7 +1605,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1644,7 +1644,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Odenton?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Odenton for a wedding, prom or night out?",
@@ -1731,7 +1731,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know the Baltimore & Annapolis Trail, Kinder Farm Park and the back way around Ritchie Highway backups at Jumpers Hole Road and the I-97 merge at MD-100",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for Anne Arundel Medical Center and the Anne Arundel County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -1753,7 +1753,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Severna Park",
         "paragraphs": [
-          "Severna Park clients book us for Naval Academy Commissioning Week and football weekends, Chartwell weddings, Boat Show weeks in Annapolis, Round Bay boating season and BWI family departures. Corporate travelers from Anne Arundel Medical Center, the Naval Academy and state government in Annapolis, Fort Meade and the Baltimore firms that Ritchie Highway commuters serve keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the hotels of downtown Annapolis and the BWI corridor, the nearest full-service options.",
+          "Severna Park clients book us for Naval Academy Commissioning Week and football weekends, Chartwell weddings, Boat Show weeks in Annapolis, Round Bay boating season and BWI family departures. Corporate travelers from Anne Arundel Medical Center, the Naval Academy and state government in Annapolis, Fort Meade and the Baltimore firms that Ritchie Highway commuters serve keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the hotels of downtown Annapolis and the BWI corridor, the nearest full-service options.",
           "Weddings and celebrations at Chartwell Golf & Country Club get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Anne Arundel County."
         ]
       }
@@ -1772,7 +1772,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1811,7 +1811,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Severna Park?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Severna Park for a wedding, prom or night out?",
@@ -1898,7 +1898,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Crofton Country Club, the Crofton Parkway and the back way around the MD-3 and US-50 interchange and the Davidsonville Road bottleneck at Route 450",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for Fort Meade and the NSA to the north and the Anne Arundel County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -1920,7 +1920,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Crofton",
         "paragraphs": [
-          "Crofton clients book us for Crofton Country Club weddings and golf outings, Naval Academy weekends, Fort Meade business travel and Waugh Chapel evenings out. Corporate travelers from Fort Meade and the NSA to the north, the Annapolis state-government and Naval Academy community to the east and the federal workforce commuting to Washington on US-50 keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Bowie and Annapolis hotels, the nearest full-service properties.",
+          "Crofton clients book us for Crofton Country Club weddings and golf outings, Naval Academy weekends, Fort Meade business travel and Waugh Chapel evenings out. Corporate travelers from Fort Meade and the NSA to the north, the Annapolis state-government and Naval Academy community to the east and the federal workforce commuting to Washington on US-50 keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Bowie and Annapolis hotels, the nearest full-service properties.",
           "Weddings and celebrations at Crofton Country Club get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Anne Arundel County."
         ]
       }
@@ -1939,7 +1939,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1978,7 +1978,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Crofton?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Crofton for a wedding, prom or night out?",
@@ -2061,7 +2061,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know The Mall at Prince George's, the Hyattsville Crossing Metro station and the back way around the Route 1 crawl through College Park and the East-West Highway merge at Adelphi Road",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the University of Maryland and the Prince George's County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -2083,7 +2083,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Hyattsville",
         "paragraphs": [
-          "Hyattsville clients book us for University of Maryland commencement and Terps game days, Arts District openings, Route 1 dinners and quick DCA runs down Kenilworth Avenue. Corporate travelers from the University of Maryland, Prince George's County agencies, the federal workforce on the Green Line and the arts and restaurant businesses of the Gateway Arts District keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at The Hotel at the University of Maryland, the Cambria College Park and the Hyattsville corridor's business hotels.",
+          "Hyattsville clients book us for University of Maryland commencement and Terps game days, Arts District openings, Route 1 dinners and quick DCA runs down Kenilworth Avenue. Corporate travelers from the University of Maryland, Prince George's County agencies, the federal workforce on the Green Line and the arts and restaurant businesses of the Gateway Arts District keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at The Hotel at the University of Maryland, the Cambria College Park and the Hyattsville corridor's business hotels.",
           "Weddings and celebrations at the Pyramid Atlantic Art Center get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Prince George's County."
         ]
       }
@@ -2102,7 +2102,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2141,7 +2141,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Hyattsville?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Hyattsville for a wedding, prom or night out?",
@@ -2224,7 +2224,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know the BlackRock Center for the Arts, the Maryland SoccerPlex and the back way around the I-270 lane drop at MD-118 and the Middlebrook Road merge in the afternoon",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for Hughes Network Systems and the Montgomery County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -2246,7 +2246,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Germantown",
         "paragraphs": [
-          "Germantown clients book us for SoccerPlex tournament weekends, BlackRock performances, DOE and Hughes business travel, Butler's Orchard and Clarksburg outlet trips and I-270 airport runs. Corporate travelers from Hughes Network Systems, the Department of Energy's Germantown complex, Qiagen, Holy Cross Germantown Hospital and the upper I-270 technology corridor keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Hampton Inn Germantown, the Holiday Inn Express Germantown and the hotels of nearby Gaithersburg.",
+          "Germantown clients book us for SoccerPlex tournament weekends, BlackRock performances, DOE and Hughes business travel, Butler's Orchard and Clarksburg outlet trips and I-270 airport runs. Corporate travelers from Hughes Network Systems, the Department of Energy's Germantown complex, Qiagen, Holy Cross Germantown Hospital and the upper I-270 technology corridor keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Hampton Inn Germantown, the Holiday Inn Express Germantown and the hotels of nearby Gaithersburg.",
           "Weddings and celebrations at the BlackRock Center for the Arts get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
         ]
       }
@@ -2265,7 +2265,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2304,7 +2304,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Germantown?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Germantown for a wedding, prom or night out?",
@@ -2387,7 +2387,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Marley Station Mall, Harundale Plaza and the back way around the I-97 and I-695 interchange and Ritchie Highway at Marley Station on weekends",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for UM Baltimore Washington Medical Center and the Anne Arundel County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -2409,7 +2409,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Glen Burnie",
         "paragraphs": [
-          "Glen Burnie clients book us for pre-dawn BWI departures, hospital visits at BWMC, Live! Casino nights, Marley Station shopping runs and Ravens and Orioles game days in Baltimore. Corporate travelers from UM Baltimore Washington Medical Center, the Maryland MVA, Northrop Grumman in Linthicum, BWI Airport itself and the Arundel Mills retail district keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the BWI airport hotels along West Nursery Road and the Hampton Inn Glen Burnie.",
+          "Glen Burnie clients book us for pre-dawn BWI departures, hospital visits at BWMC, Live! Casino nights, Marley Station shopping runs and Ravens and Orioles game days in Baltimore. Corporate travelers from UM Baltimore Washington Medical Center, the Maryland MVA, Northrop Grumman in Linthicum, BWI Airport itself and the Arundel Mills retail district keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the BWI airport hotels along West Nursery Road and the Hampton Inn Glen Burnie.",
           "Weddings and celebrations at the Kurtz's Beach waterfront pavilion in Pasadena get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Anne Arundel County."
         ]
       }
@@ -2428,7 +2428,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2467,7 +2467,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Glen Burnie?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Glen Burnie for a wedding, prom or night out?",
@@ -2558,7 +2558,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Anne Arundel Community College, Broadneck High School and the back way around Ritchie Highway at College Parkway and the Severn River Bridge into Annapolis on event days",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for Anne Arundel Community College and the Anne Arundel County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -2580,7 +2580,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Arnold",
         "paragraphs": [
-          "Arnold clients book us for Naval Academy weekends and Commissioning Week, AACC commencement, Magothy River boating season, Bay Hills weddings and BWI family departures. Corporate travelers from Anne Arundel Community College, the Naval Academy and state government in Annapolis, Anne Arundel Medical Center and the Fort Meade commute up MD-2 keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Annapolis hotels on West Street and the Westin Annapolis, the nearest full-service properties.",
+          "Arnold clients book us for Naval Academy weekends and Commissioning Week, AACC commencement, Magothy River boating season, Bay Hills weddings and BWI family departures. Corporate travelers from Anne Arundel Community College, the Naval Academy and state government in Annapolis, Anne Arundel Medical Center and the Fort Meade commute up MD-2 keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Annapolis hotels on West Street and the Westin Annapolis, the nearest full-service properties.",
           "Weddings and celebrations at Bay Hills Golf Club get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Anne Arundel County."
         ]
       }
@@ -2599,7 +2599,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2638,7 +2638,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Arnold?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Arnold for a wedding, prom or night out?",
@@ -2721,7 +2721,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know the South River waterfront, Riva Festival shopping center and the back way around the Riva Road and US-50 interchange at Parole and the Solomons Island Road crawl on summer Fridays",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for Anne Arundel County government on Riva Road and the Anne Arundel County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -2743,7 +2743,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Riva",
         "paragraphs": [
-          "Riva clients book us for South River waterfront weddings, county-government meetings, Annapolis session days, Heritage Harbour airport runs and Boat Show week. Corporate travelers from Anne Arundel County government on Riva Road, Anne Arundel Medical Center, the Parole business district and state agencies in Annapolis keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Westin Annapolis, the DoubleTree Annapolis and the Parole business hotels.",
+          "Riva clients book us for South River waterfront weddings, county-government meetings, Annapolis session days, Heritage Harbour airport runs and Boat Show week. Corporate travelers from Anne Arundel County government on Riva Road, Anne Arundel Medical Center, the Parole business district and state agencies in Annapolis keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Westin Annapolis, the DoubleTree Annapolis and the Parole business hotels.",
           "Weddings and celebrations at the South River Colony clubhouse get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Anne Arundel County."
         ]
       }
@@ -2762,7 +2762,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2801,7 +2801,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Riva?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Riva for a wedding, prom or night out?",
@@ -2884,7 +2884,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Cape St. Claire Beach on the Magothy, the Cape St. Claire Shopping Center and the back way around the US-50 Bay Bridge backup that spills onto Cape St. Claire Road on summer weekends",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the Naval Academy and state government in Annapolis and the Anne Arundel County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -2906,7 +2906,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Cape St. Claire",
         "paragraphs": [
-          "Cape St. Claire clients book us for Magothy River beach weddings, Naval Academy weekends, Sandy Point outings, Bay Bridge Run mornings and BWI family departures. Corporate travelers from the Naval Academy and state government in Annapolis, Anne Arundel Medical Center, Fort Meade and the Bay Bridge commute to Kent Island keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Annapolis hotels on West Street, the nearest full-service properties.",
+          "Cape St. Claire clients book us for Magothy River beach weddings, Naval Academy weekends, Sandy Point outings, Bay Bridge Run mornings and BWI family departures. Corporate travelers from the Naval Academy and state government in Annapolis, Anne Arundel Medical Center, Fort Meade and the Bay Bridge commute to Kent Island keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Annapolis hotels on West Street, the nearest full-service properties.",
           "Weddings and celebrations at Cape St. Claire Beach get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Anne Arundel County."
         ]
       }
@@ -2925,7 +2925,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2964,7 +2964,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Cape St. Claire?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Cape St. Claire for a wedding, prom or night out?",
@@ -3047,7 +3047,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Clarksville Commons, the River Hill Village Center and the back way around the MD-108 and MD-32 interchange and Clarksville Pike at school dismissal",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for Johns Hopkins APL in Laurel and the Howard County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -3069,7 +3069,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Clarksville",
         "paragraphs": [
-          "Clarksville clients book us for Cattail Creek and Glenwood weddings, River Hill High School proms, Larriland Farm weekends, Merriweather concerts and I-95 corridor airport runs. Corporate travelers from Johns Hopkins APL in Laurel, the Columbia office parks, Fort Meade and the Washington commute down US-29 keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Columbia hotels along the Merriweather District, the nearest full-service properties.",
+          "Clarksville clients book us for Cattail Creek and Glenwood weddings, River Hill High School proms, Larriland Farm weekends, Merriweather concerts and I-95 corridor airport runs. Corporate travelers from Johns Hopkins APL in Laurel, the Columbia office parks, Fort Meade and the Washington commute down US-29 keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Columbia hotels along the Merriweather District, the nearest full-service properties.",
           "Weddings and celebrations at Cattail Creek Country Club get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Howard County."
         ]
       }
@@ -3088,7 +3088,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -3127,7 +3127,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Clarksville?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Clarksville for a wedding, prom or night out?",
@@ -3210,7 +3210,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Towson Town Center, Towson University and the back way around the I-695 and I-83 interchange and York Road through the Towson Circle on game nights",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for Baltimore County government and the Baltimore County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -3232,7 +3232,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Towson",
         "paragraphs": [
-          "Towson clients book us for Towson University commencement and move-in, Goucher events, courthouse appointments, Hampton Mansion weddings and Loch Raven wedding photos on the way to receptions. Corporate travelers from Baltimore County government, Towson University, GBMC, St. Joseph Medical Center and the law and finance offices around the courthouse keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Sheraton Baltimore North and the Hampton Inn Towson.",
+          "Towson clients book us for Towson University commencement and move-in, Goucher events, courthouse appointments, Hampton Mansion weddings and Loch Raven wedding photos on the way to receptions. Corporate travelers from Baltimore County government, Towson University, GBMC, St. Joseph Medical Center and the law and finance offices around the courthouse keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Sheraton Baltimore North and the Hampton Inn Towson.",
           "Weddings and celebrations at the Hampton National Historic Site get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Baltimore County."
         ]
       }
@@ -3251,7 +3251,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -3290,7 +3290,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Towson?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Towson for a wedding, prom or night out?",
@@ -3373,7 +3373,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know the Maryland State Fairgrounds, the Timonium light-rail station and the back way around the I-83 merge at Padonia Road and York Road during Fair week",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the corporate campuses of Timonium Business Park and Hunt Valley and the Baltimore County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -3395,7 +3395,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Timonium",
         "paragraphs": [
-          "Timonium clients book us for Maryland State Fair days, Hunt Valley corporate travel, Oregon Ridge weddings, Timonium fairgrounds shows and pre-dawn BWI runs down I-83. Corporate travelers from the corporate campuses of Timonium Business Park and Hunt Valley, GBMC in Towson and the I-83 commute into Baltimore keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Delta Hotels Baltimore Hunt Valley, the Red Lion Hotel Baltimore North and the Holiday Inn Timonium.",
+          "Timonium clients book us for Maryland State Fair days, Hunt Valley corporate travel, Oregon Ridge weddings, Timonium fairgrounds shows and pre-dawn BWI runs down I-83. Corporate travelers from the corporate campuses of Timonium Business Park and Hunt Valley, GBMC in Towson and the I-83 commute into Baltimore keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Delta Hotels Baltimore Hunt Valley, the Red Lion Hotel Baltimore North and the Holiday Inn Timonium.",
           "Weddings and celebrations at Oregon Ridge Park get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Baltimore County."
         ]
       }
@@ -3414,7 +3414,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -3453,7 +3453,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Timonium?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Timonium for a wedding, prom or night out?",
@@ -3536,7 +3536,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Greenspring Station, the Lutherville light-rail station and the back way around the York Road and I-695 interchange and Falls Road at Greenspring Station in the afternoon",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the medical practices at Greenspring Station and the Baltimore County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -3558,7 +3558,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Lutherville",
         "paragraphs": [
-          "Lutherville clients book us for Greenspring Station medical appointments, St. Paul's and Notre Dame Prep events, Ruxton weddings, State Fair week next door and BWI departures. Corporate travelers from the medical practices at Greenspring Station, GBMC, the Hunt Valley corporate corridor and the I-83 commute into Baltimore keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Sheraton Baltimore North in Towson and the Hunt Valley hotels.",
+          "Lutherville clients book us for Greenspring Station medical appointments, St. Paul's and Notre Dame Prep events, Ruxton weddings, State Fair week next door and BWI departures. Corporate travelers from the medical practices at Greenspring Station, GBMC, the Hunt Valley corporate corridor and the I-83 commute into Baltimore keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Sheraton Baltimore North in Towson and the Hunt Valley hotels.",
           "Weddings and celebrations at the Historic Lutherville Colonial Hall get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Baltimore County."
         ]
       }
@@ -3577,7 +3577,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -3616,7 +3616,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Lutherville?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Lutherville for a wedding, prom or night out?",
@@ -3699,7 +3699,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Loch Raven Reservoir, Ladew Topiary Gardens in Monkton and the back way around the two-lane Jarrettsville Pike at school hours and the Shawan Road merge onto I-83",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the Hunt Valley corporate corridor and the Baltimore County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -3721,7 +3721,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Phoenix",
         "paragraphs": [
-          "Phoenix clients book us for Ladew Gardens and estate weddings, Boordy Vineyards wine tours, Hunt Valley business travel, My Lady's Manor race day and BWI departures from the horse country. Corporate travelers from the Hunt Valley corporate corridor, GBMC and the Towson medical campuses and the horse-country farms and estates of the Dulaney Valley keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Delta Hotels Baltimore Hunt Valley, the nearest full-service property.",
+          "Phoenix clients book us for Ladew Gardens and estate weddings, Boordy Vineyards wine tours, Hunt Valley business travel, My Lady's Manor race day and BWI departures from the horse country. Corporate travelers from the Hunt Valley corporate corridor, GBMC and the Towson medical campuses and the horse-country farms and estates of the Dulaney Valley keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Delta Hotels Baltimore Hunt Valley, the nearest full-service property.",
           "Weddings and celebrations at Ladew Topiary Gardens get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Baltimore County."
         ]
       }
@@ -3740,7 +3740,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -3779,7 +3779,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Phoenix?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Phoenix for a wedding, prom or night out?",
@@ -3862,7 +3862,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know the Music Center at Strathmore, Pike & Rose and the back way around Rockville Pike between Montrose and Old Georgetown Road and the I-270 spur merge at the Beltway",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the Nuclear Regulatory Commission and the Montgomery County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -3884,7 +3884,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in North Bethesda",
         "paragraphs": [
-          "North Bethesda clients book us for Strathmore concerts, Bethesda North Marriott conferences and weddings, Georgetown Prep events, Pike & Rose dinners and NIH visits. Corporate travelers from the Nuclear Regulatory Commission, the Pike & Rose office towers, Georgetown Prep and the NIH and Walter Reed campuses two miles south keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Canopy by Hilton at Pike & Rose and the Bethesda North Marriott Hotel & Conference Center.",
+          "North Bethesda clients book us for Strathmore concerts, Bethesda North Marriott conferences and weddings, Georgetown Prep events, Pike & Rose dinners and NIH visits. Corporate travelers from the Nuclear Regulatory Commission, the Pike & Rose office towers, Georgetown Prep and the NIH and Walter Reed campuses two miles south keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Canopy by Hilton at Pike & Rose and the Bethesda North Marriott Hotel & Conference Center.",
           "Weddings and celebrations at the Bethesda North Marriott Hotel & Conference Center get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
         ]
       }
@@ -3903,7 +3903,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -3942,7 +3942,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in North Bethesda?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in North Bethesda for a wedding, prom or night out?",
@@ -4025,7 +4025,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Muddy Branch Park, Thomas S. Wootton High School and the back way around Darnestown Road at Quince Orchard Road in the morning and the I-270 spur in the afternoon",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the I-270 biotech corridor and the Montgomery County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -4047,7 +4047,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in North Potomac",
         "paragraphs": [
-          "North Potomac clients book us for Wootton and Quince Orchard proms, Potomac estate weddings, I-270 executive travel, Falls Road golf outings and Dulles international departures. Corporate travelers from the I-270 biotech corridor, NIST and AstraZeneca in Gaithersburg, and the NIH and downtown Washington commute keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Gaithersburg Marriott Washingtonian Center and the Rio hotels.",
+          "North Potomac clients book us for Wootton and Quince Orchard proms, Potomac estate weddings, I-270 executive travel, Falls Road golf outings and Dulles international departures. Corporate travelers from the I-270 biotech corridor, NIST and AstraZeneca in Gaithersburg, and the NIH and downtown Washington commute keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Gaithersburg Marriott Washingtonian Center and the Rio hotels.",
           "Weddings and celebrations at the Potomac estate venues along Travilah Road get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
         ]
       }
@@ -4066,7 +4066,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -4105,7 +4105,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in North Potomac?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in North Potomac for a wedding, prom or night out?",
@@ -4188,7 +4188,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know the Gibson Island Club and its golf course, the Gibson Island Yacht Squadron and the back way around the two-lane Mountain Road corridor through Pasadena and the gatehouse check-in, which we clear in advance with your name",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the Baltimore and Annapolis firms whose principals live on the island and the Anne Arundel County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -4210,7 +4210,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Gibson Island",
         "paragraphs": [
-          "Gibson Island clients book us for Gibson Island Club weddings and regattas, holiday house-party arrivals, international departures from BWI and Dulles and Baltimore and Washington business days. Corporate travelers from the Baltimore and Annapolis firms whose principals live on the island, plus Fort Meade and BWI-corridor executives keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the island has none — guests stay at the Annapolis or BWI hotels and we shuttle them through the gate.",
+          "Gibson Island clients book us for Gibson Island Club weddings and regattas, holiday house-party arrivals, international departures from BWI and Dulles and Baltimore and Washington business days. Corporate travelers from the Baltimore and Annapolis firms whose principals live on the island, plus Fort Meade and BWI-corridor executives keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the island has none — guests stay at the Annapolis or BWI hotels and we shuttle them through the gate.",
           "Weddings and celebrations at the Gibson Island Club get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Anne Arundel County."
         ]
       }
@@ -4229,7 +4229,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -4268,7 +4268,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Gibson Island?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Gibson Island for a wedding, prom or night out?",
@@ -4351,7 +4351,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know the Chesapeake Bay Beach Club, Kent Narrows and its crab houses and the back way around Bay Bridge backups on summer weekends and the Kent Narrows drawbridge on boating days",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the Queen Anne's County government in Centreville and the Queen Anne's County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -4373,7 +4373,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Stevensville",
         "paragraphs": [
-          "Stevensville clients book us for Chesapeake Bay Beach Club weddings, Kent Narrows dinners, the Bay Bridge Boat Show in April, Terrapin Park outings and BWI departures across the bridge. Corporate travelers from the Queen Anne's County government in Centreville, the Kent Narrows hospitality trade and the Bay Bridge commute to Annapolis and Washington keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Hilton Garden Inn Kent Island and the Chesapeake Bay Beach Club inn.",
+          "Stevensville clients book us for Chesapeake Bay Beach Club weddings, Kent Narrows dinners, the Bay Bridge Boat Show in April, Terrapin Park outings and BWI departures across the bridge. Corporate travelers from the Queen Anne's County government in Centreville, the Kent Narrows hospitality trade and the Bay Bridge commute to Annapolis and Washington keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Hilton Garden Inn Kent Island and the Chesapeake Bay Beach Club inn.",
           "Weddings and celebrations at the Chesapeake Bay Beach Club get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Queen Anne's County."
         ]
       }
@@ -4392,7 +4392,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -4431,7 +4431,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Stevensville?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Stevensville for a wedding, prom or night out?",
@@ -4522,7 +4522,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know the Friendship Heights Metro station, the Collection at Chevy Chase and the back way around Connecticut Avenue at Chevy Chase Circle and Wisconsin Avenue through Friendship Heights at rush hour",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for GEICO and the Montgomery County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -4544,7 +4544,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Chevy Chase",
         "paragraphs": [
-          "Chevy Chase clients book us for Chevy Chase Club and Columbia Country Club weddings, embassy dinners, Friendship Heights shopping days, Rock Creek Park photo stops and Dulles international departures. Corporate travelers from GEICO, the Friendship Heights law and finance offices, NIH and Walter Reed to the north and the embassies and agencies of Northwest Washington keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Bethesda hotels and the Embassy Suites Chevy Chase Pavilion in Friendship Heights.",
+          "Chevy Chase clients book us for Chevy Chase Club and Columbia Country Club weddings, embassy dinners, Friendship Heights shopping days, Rock Creek Park photo stops and Dulles international departures. Corporate travelers from GEICO, the Friendship Heights law and finance offices, NIH and Walter Reed to the north and the embassies and agencies of Northwest Washington keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Bethesda hotels and the Embassy Suites Chevy Chase Pavilion in Friendship Heights.",
           "Weddings and celebrations at the Chevy Chase Club get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Montgomery County."
         ]
       }
@@ -4563,7 +4563,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -4602,7 +4602,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Chevy Chase?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Chevy Chase for a wedding, prom or night out?",
@@ -4685,7 +4685,7 @@ export const MARYLAND_PAGES = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
       "Chauffeurs who know Sykesville's Main Street and the restored B&O station, Patapsco Valley State Park and the back way around MD-32 at the I-70 interchange and Liberty Road through Eldersburg at rush hour",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for the Springfield Hospital Center and the Carroll County business community",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs"
     ],
@@ -4707,7 +4707,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Beyond the airport in Sykesville",
         "paragraphs": [
-          "Sykesville clients book us for Main Street weddings and Patapsco Valley receptions, Old Westminster wine tours, Freedom District proms, Liberty Road commuters flying BWI and Baltimore nights out. Corporate travelers from the Springfield Hospital Center, the Eldersburg retail corridor, Northrop Grumman and BWI-corridor employers down MD-32 and Carroll County government in Westminster keep a standing account for visiting executives and roadshow days; families book the Escalade or Suburban for hotel pickups at the Columbia and BWI hotels, the nearest full-service properties.",
+          "Sykesville clients book us for Main Street weddings and Patapsco Valley receptions, Old Westminster wine tours, Freedom District proms, Liberty Road commuters flying BWI and Baltimore nights out. Corporate travelers from the Springfield Hospital Center, the Eldersburg retail corridor, Northrop Grumman and BWI-corridor employers down MD-32 and Carroll County government in Westminster keep a standing account for visiting executives and roadshow days; families book the Navigator or Suburban for hotel pickups at the Columbia and BWI hotels, the nearest full-service properties.",
           "Weddings and celebrations at the Sykesville Main Street event spaces get a Sprinter van or stretch limousine with a chauffeur who has worked the venue before. Hourly service is available for multi-stop days anywhere in Carroll County."
         ]
       }
@@ -4726,7 +4726,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -4765,7 +4765,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Which vehicles are available in Sykesville?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request."
       },
       {
         "q": "Can I book a chauffeur in Sykesville for a wedding, prom or night out?",
@@ -4848,7 +4848,7 @@ export const MARYLAND_PAGES = [
       "One flat rate for BWI to Ocean City — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Ocean City: Assateague Island and Berlin, Fenwick Island and Bethany Beach just over the Delaware line and Sunset Marina and the West Ocean City charter docks",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked"
     ],
@@ -4869,7 +4869,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Why book a chauffeur instead of rideshare",
         "paragraphs": [
-          "Rideshare on the BWI–Ocean City run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Escalade or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
+          "Rideshare on the BWI–Ocean City run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Navigator or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
         ]
       }
     ],
@@ -4887,7 +4887,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -4926,7 +4926,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you take a group from BWI to Ocean City?",
-        "a": "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
+        "a": "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
       },
       {
         "q": "Do you run the return trip from Ocean City to BWI?",
@@ -5005,7 +5005,7 @@ export const MARYLAND_PAGES = [
       "One flat rate for BWI to Frederick — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Frederick: the Riverside Research Park, Ceresville Mansion and the Hilton Garden Inn and Courtyard Frederick",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked"
     ],
@@ -5026,7 +5026,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Why book a chauffeur instead of rideshare",
         "paragraphs": [
-          "Rideshare on the BWI–Frederick run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Escalade or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
+          "Rideshare on the BWI–Frederick run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Navigator or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
         ]
       }
     ],
@@ -5044,7 +5044,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -5083,7 +5083,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you take a group from BWI to Frederick?",
-        "a": "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
+        "a": "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
       },
       {
         "q": "Do you run the return trip from Frederick to BWI?",
@@ -5162,7 +5162,7 @@ export const MARYLAND_PAGES = [
       "One flat rate for DCA to Bethesda — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Bethesda: the Hyatt Regency Bethesda, Congressional Country Club and Strathmore and North Bethesda",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked"
     ],
@@ -5183,7 +5183,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Why book a chauffeur instead of rideshare",
         "paragraphs": [
-          "Rideshare on the DCA–Bethesda run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Escalade or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
+          "Rideshare on the DCA–Bethesda run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Navigator or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
         ]
       }
     ],
@@ -5201,7 +5201,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -5240,7 +5240,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you take a group from DCA to Bethesda?",
-        "a": "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
+        "a": "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
       },
       {
         "q": "Do you run the return trip from Bethesda to DCA?",
@@ -5319,7 +5319,7 @@ export const MARYLAND_PAGES = [
       "One flat rate for DCA to Rockville — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Rockville: the Shady Grove Road biotech campuses, Twinbrook and the Cambria Rockville and Montgomery College",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked"
     ],
@@ -5340,7 +5340,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Why book a chauffeur instead of rideshare",
         "paragraphs": [
-          "Rideshare on the DCA–Rockville run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Escalade or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
+          "Rideshare on the DCA–Rockville run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Navigator or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
         ]
       }
     ],
@@ -5358,7 +5358,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -5397,7 +5397,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you take a group from DCA to Rockville?",
-        "a": "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
+        "a": "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
       },
       {
         "q": "Do you run the return trip from Rockville to DCA?",
@@ -5476,7 +5476,7 @@ export const MARYLAND_PAGES = [
       "One flat rate for IAD to Rockville — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Rockville: Adventist HealthCare Shady Grove, the Hilton and Cambria Rockville and Montgomery College",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked"
     ],
@@ -5497,7 +5497,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Why book a chauffeur instead of rideshare",
         "paragraphs": [
-          "Rideshare on the IAD–Rockville run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Escalade or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
+          "Rideshare on the IAD–Rockville run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Navigator or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
         ]
       }
     ],
@@ -5515,7 +5515,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -5554,7 +5554,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you take a group from IAD to Rockville?",
-        "a": "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
+        "a": "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
       },
       {
         "q": "Do you run the return trip from Rockville to IAD?",
@@ -5633,7 +5633,7 @@ export const MARYLAND_PAGES = [
       "One flat rate for IAD to Bethesda — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Bethesda: the Hyatt Regency Bethesda, Congressional Country Club and Strathmore and Pike & Rose",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked"
     ],
@@ -5654,7 +5654,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Why book a chauffeur instead of rideshare",
         "paragraphs": [
-          "Rideshare on the IAD–Bethesda run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Escalade or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
+          "Rideshare on the IAD–Bethesda run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Navigator or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
         ]
       }
     ],
@@ -5672,7 +5672,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -5711,7 +5711,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you take a group from IAD to Bethesda?",
-        "a": "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
+        "a": "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
       },
       {
         "q": "Do you run the return trip from Bethesda to IAD?",
@@ -5790,7 +5790,7 @@ export const MARYLAND_PAGES = [
       "One flat rate for Baltimore to Washington DC — tolls disclosed up front, no meter, no surge",
       "Pickups timed to your meeting or train, with live rerouting around BW Parkway backups at MD-197 and the New York Avenue crawl",
       "Drop-off anywhere in Washington DC: Navy Yard and Nationals Park, the Convention Center and Penn Quarter hotels and the embassies of Massachusetts Avenue",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked"
     ],
@@ -5811,7 +5811,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Why book a chauffeur instead of rideshare",
         "paragraphs": [
-          "Rideshare on the Baltimore–Washington DC run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Escalade or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
+          "Rideshare on the Baltimore–Washington DC run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Navigator or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
         ]
       }
     ],
@@ -5829,7 +5829,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -5868,7 +5868,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you take a group from Baltimore to Washington DC?",
-        "a": "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
+        "a": "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
       },
       {
         "q": "Do you run the return trip from Washington DC to Baltimore?",
@@ -5947,7 +5947,7 @@ export const MARYLAND_PAGES = [
       "One flat rate for Baltimore to Annapolis — tolls disclosed up front, no meter, no surge",
       "Pickups timed to your meeting or train, with live rerouting around I-97 and MD-100 merges at rush hour and Rowe Boulevard on session days",
       "Drop-off anywhere in Annapolis: the Westin and Graduate Annapolis, Anne Arundel Medical Center and the Bay Bridge and Kent Island",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked"
     ],
@@ -5968,7 +5968,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Why book a chauffeur instead of rideshare",
         "paragraphs": [
-          "Rideshare on the Baltimore–Annapolis run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Escalade or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
+          "Rideshare on the Baltimore–Annapolis run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Navigator or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
         ]
       }
     ],
@@ -5986,7 +5986,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -6025,7 +6025,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you take a group from Baltimore to Annapolis?",
-        "a": "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
+        "a": "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
       },
       {
         "q": "Do you run the return trip from Annapolis to Baltimore?",
@@ -6104,7 +6104,7 @@ export const MARYLAND_PAGES = [
       "One flat rate for Baltimore to Bethesda — tolls disclosed up front, no meter, no surge",
       "Pickups timed to your meeting or train, with live rerouting around the I-95 to Beltway merge at College Park and the inner loop toward the I-270 spur",
       "Drop-off anywhere in Bethesda: Strathmore and North Bethesda, Congressional Country Club and Lockheed Martin on Rockledge Drive",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Reverse trips and same-day round trips booked together at a combined rate",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked"
     ],
@@ -6125,7 +6125,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Why book a chauffeur instead of rideshare",
         "paragraphs": [
-          "Rideshare on the Baltimore–Bethesda run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Escalade or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
+          "Rideshare on the Baltimore–Bethesda run surges when you need it most and cancels when the trip is inconvenient for the driver. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a Mercedes E-Class or BMW 7 Series for one or two travelers, an Navigator or Suburban for families and luggage, or a Sprinter van for groups of up to 14."
         ]
       }
     ],
@@ -6143,7 +6143,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -6182,7 +6182,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you take a group from Baltimore to Bethesda?",
-        "a": "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
+        "a": "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. For larger parties we coordinate multiple vehicles arriving together."
       },
       {
         "q": "Do you run the return trip from Bethesda to Baltimore?",
@@ -6281,7 +6281,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Choosing the right vehicle",
         "paragraphs": [
-          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Lincoln Navigator and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
         ]
       },
       {
@@ -6305,7 +6305,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -6450,7 +6450,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Choosing the right vehicle",
         "paragraphs": [
-          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Lincoln Navigator and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
         ]
       },
       {
@@ -6481,7 +6481,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -6646,7 +6646,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Choosing the right vehicle",
         "paragraphs": [
-          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Lincoln Navigator and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
         ]
       },
       {
@@ -6670,7 +6670,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -6811,7 +6811,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Choosing the right vehicle",
         "paragraphs": [
-          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Lincoln Navigator and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
         ]
       },
       {
@@ -6835,7 +6835,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -6972,7 +6972,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Choosing the right vehicle",
         "paragraphs": [
-          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Lincoln Navigator and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
         ]
       },
       {
@@ -6996,7 +6996,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -7133,7 +7133,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Choosing the right vehicle",
         "paragraphs": [
-          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Cadillac Escalade and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
+          "A Mercedes-Benz E-Class or BMW 7 Series suits couples and executives. The Lincoln Navigator and Chevrolet Suburban seat six with room for gowns, garment bags or golf clubs. Mercedes Sprinter vans carry up to 14, and stretch limousines add the occasion. Mix vehicles across one reservation and we coordinate arrivals together."
         ]
       },
       {
@@ -7157,7 +7157,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -7275,7 +7275,7 @@ export const MARYLAND_PAGES = [
       "Drop-off at the M&T Bank Stadium entrance, pickup at a pre-set corner outside the crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no parking fees",
       "Chauffeurs who work M&T Bank Stadium regularly and know the closures on I-95 exit 52 to Russell Street",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops and hotel pickups on request",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -7320,7 +7320,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -7359,7 +7359,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to M&T Bank Stadium?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at M&T Bank Stadium?",
@@ -7441,7 +7441,7 @@ export const MARYLAND_PAGES = [
       "Drop-off at the Pimlico Race Course entrance, pickup at a pre-set corner outside the crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no parking fees",
       "Chauffeurs who work Pimlico Race Course regularly and know the closures on Northern Parkway from I-83 or I-695",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops and hotel pickups on request",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -7486,7 +7486,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -7525,7 +7525,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Pimlico Race Course?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Pimlico Race Course?",
@@ -7607,7 +7607,7 @@ export const MARYLAND_PAGES = [
       "Drop-off at the Maryland State Fair entrance, pickup at a pre-set corner outside the crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no parking fees",
       "Chauffeurs who work the Maryland State Fair regularly and know the closures on I-83 exits 16 and 17",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops and hotel pickups on request",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -7652,7 +7652,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -7691,7 +7691,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Maryland State Fair?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Maryland State Fair?",
@@ -7773,7 +7773,7 @@ export const MARYLAND_PAGES = [
       "Drop-off at the Oriole Park at Camden Yards entrance, pickup at a pre-set corner outside the crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no parking fees",
       "Chauffeurs who work Oriole Park at Camden Yards regularly and know the closures on I-395 to Conway Street",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops and hotel pickups on request",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -7818,7 +7818,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -7857,7 +7857,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Oriole Park at Camden Yards?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Oriole Park at Camden Yards?",
@@ -7939,7 +7939,7 @@ export const MARYLAND_PAGES = [
       "Drop-off at the University of Maryland entrance, pickup at a pre-set corner outside the crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no parking fees",
       "Chauffeurs who work the University of Maryland regularly and know the closures on US-1 (Baltimore Avenue)",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops and hotel pickups on request",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -7984,7 +7984,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -8023,7 +8023,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the University of Maryland?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the University of Maryland?",
@@ -8109,7 +8109,7 @@ export const MARYLAND_PAGES = [
       "Drop-off at the Navy-Marine Corps Memorial Stadium entrance, pickup at a pre-set corner outside the crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no parking fees",
       "Chauffeurs who work Navy-Marine Corps Memorial Stadium regularly and know the closures on Rowe Boulevard from US-50 exit 24",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops and hotel pickups on request",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8154,7 +8154,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -8193,7 +8193,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Navy-Marine Corps Memorial Stadium?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Navy-Marine Corps Memorial Stadium?",
@@ -8275,7 +8275,7 @@ export const MARYLAND_PAGES = [
       "Drop-off at the National Harbor entrance, pickup at a pre-set corner outside the crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no parking fees",
       "Chauffeurs who work National Harbor regularly and know the closures on I-295 and the Beltway (I-495) exit 2 at the Woodrow Wilson Bridge",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops and hotel pickups on request",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8320,7 +8320,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -8359,7 +8359,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to National Harbor?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at National Harbor?",
@@ -8449,7 +8449,7 @@ export const MARYLAND_PAGES = [
       "Drop-off at the Chesapeake Bay Events entrance, pickup at a pre-set corner outside the crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no parking fees",
       "Chauffeurs who work Chesapeake Bay Events regularly and know the closures on US-50/301 across the Bay Bridge",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops and hotel pickups on request",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8494,7 +8494,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -8533,7 +8533,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Chesapeake Bay Events?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Chesapeake Bay Events?",
@@ -8615,7 +8615,7 @@ export const MARYLAND_PAGES = [
       "Drop-off at the Annapolis Boat Shows entrance, pickup at a pre-set corner outside the crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no parking fees",
       "Chauffeurs who work the Annapolis Boat Shows regularly and know the closures on Rowe Boulevard from US-50",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops and hotel pickups on request",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8660,7 +8660,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -8699,7 +8699,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Annapolis Boat Shows?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Annapolis Boat Shows?",
@@ -8781,7 +8781,7 @@ export const MARYLAND_PAGES = [
       "Drop-off at the Maryland Renaissance Festival entrance, pickup at a pre-set corner outside the crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no parking fees",
       "Chauffeurs who work the Maryland Renaissance Festival regularly and know the closures on I-97 exit 5 to Crownsville Road (MD-178)",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops and hotel pickups on request",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8826,7 +8826,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -8865,7 +8865,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Maryland Renaissance Festival?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Maryland Renaissance Festival?",
@@ -8947,7 +8947,7 @@ export const MARYLAND_PAGES = [
       "Drop-off at the Preakness Stakes entrance, pickup at a pre-set corner outside the crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no parking fees",
       "Chauffeurs who work the Preakness Stakes regularly and know the closures on For Laurel Park",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops and hotel pickups on request",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8992,7 +8992,7 @@ export const MARYLAND_PAGES = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -9031,7 +9031,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Preakness Stakes?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Preakness Stakes?",
@@ -9134,7 +9134,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Car service pricing near BWI",
         "paragraphs": [
-          "Flat-rate sedan transfers around the BWI area are priced by distance — a short local hop costs less than a run to downtown DC — with premium SUVs like the Cadillac Escalade or Chevrolet Suburban priced above the sedan rate for the same trip. Multi-stop or open-ended trips, such as a day of appointments or an evening out, are booked hourly as-directed with a three- to four-hour minimum. Sprinter van service for groups is quoted separately based on group size and distance.",
+          "Flat-rate sedan transfers around the BWI area are priced by distance — a short local hop costs less than a run to downtown DC — with premium SUVs like the Lincoln Navigator or Chevrolet Suburban priced above the sedan rate for the same trip. Multi-stop or open-ended trips, such as a day of appointments or an evening out, are booked hourly as-directed with a three- to four-hour minimum. Sprinter van service for groups is quoted separately based on group size and distance.",
           "Every quote includes tolls and gratuity — the number you are quoted is the number you pay, with no surge pricing and no metered surprises. Call 877-609-1919 or request a quote online for the exact rate on your trip."
         ]
       },
@@ -9148,7 +9148,7 @@ export const MARYLAND_PAGES = [
     "vehicles": [
       { "name": "Mercedes-Benz E-Class", "cls": "Business sedan", "seats": 3, "best": "solo travelers and couples" },
       { "name": "BMW 7 Series", "cls": "First-class sedan", "seats": 3, "best": "VIP and executive travel" },
-      { "name": "Cadillac Escalade", "cls": "Premium SUV", "seats": 6, "best": "families and small groups with luggage" },
+      { "name": "Lincoln Navigator", "cls": "Premium SUV", "seats": 6, "best": "families and small groups with luggage" },
       { "name": "Chevrolet Suburban", "cls": "Luxury SUV", "seats": 6, "best": "airport runs with extra luggage" },
       { "name": "Mercedes Sprinter van", "cls": "Executive van", "seats": 14, "best": "groups, teams and events" },
       { "name": "Stretch limousine", "cls": "Limousine", "seats": 8, "best": "celebrations and special occasions" }
@@ -9251,7 +9251,7 @@ export const MARYLAND_PAGES = [
     "vehicles": [
       { "name": "Mercedes-Benz E-Class", "cls": "Business sedan", "seats": 3, "best": "solo executives and couples" },
       { "name": "BMW 7 Series", "cls": "First-class sedan", "seats": 3, "best": "VIP and executive travel" },
-      { "name": "Cadillac Escalade", "cls": "Premium SUV", "seats": 6, "best": "families and small groups with luggage" },
+      { "name": "Lincoln Navigator", "cls": "Premium SUV", "seats": 6, "best": "families and small groups with luggage" },
       { "name": "Chevrolet Suburban", "cls": "Luxury SUV", "seats": 6, "best": "airport runs with extra luggage" },
       { "name": "Mercedes Sprinter van", "cls": "Executive van", "seats": 14, "best": "corporate teams and groups" },
       { "name": "Stretch limousine", "cls": "Limousine", "seats": 8, "best": "celebrations and special occasions" }
@@ -9271,7 +9271,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "What vehicles are available for BWI car service?",
-        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans, and stretch limousines. Child car seats are available on request in any vehicle."
+        "a": "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans, and stretch limousines. Child car seats are available on request in any vehicle."
       },
       {
         "q": "Do you still provide dedicated BWI Airport pickup service?",

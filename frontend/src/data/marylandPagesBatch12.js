@@ -33,7 +33,7 @@
 
 const ECLASS = { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" };
 const BMW7 = { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" };
-const ESCALADE = { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
+const ESCALADE = { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
 const SUBURBAN = { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with extra luggage or gear" };
 const SPRINTER = { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" };
 const STRETCH = { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" };
@@ -267,7 +267,7 @@ export const MARYLAND_BATCH12 = [
       "Close to both Dulles and Reagan National — typically a 20 to 30 minute transfer to either",
       "Chauffeurs experienced with the Capital Beltway, the Dulles Toll Road and Tysons' office-tower parking and lobby procedures",
       "Standing corporate accounts for firms along International Drive, Route 7 and the Tysons office corridor",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for visiting teams",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for visiting teams",
       "Flat-rate or hourly as-directed pricing confirmed before you book",
       "Maryland PSC Carrier No. 6325 — licensed, insured, background-checked chauffeurs serving the DC metro",
     ],
@@ -334,7 +334,7 @@ export const MARYLAND_BATCH12 = [
       "One of the shortest airport transfers in our coverage area — typically 10 to 15 minutes to Dulles",
       "Chauffeurs experienced with the Dulles Toll Road, the Fairfax County Parkway and Reston Town Center's office and parking layout",
       "Standing corporate accounts for technology, telecommunications and federal-contracting firms",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs for executive travel",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs for executive travel",
       "Flat-rate or hourly as-directed pricing confirmed before you book",
       "Maryland PSC Carrier No. 6325 — licensed, insured, background-checked chauffeurs serving the DC metro",
     ],
@@ -403,7 +403,7 @@ export const MARYLAND_BATCH12 = [
       "One flat rate between BWI and DCA in either direction — no meter, no surge",
       "Flight tracked on the arriving leg with 45 minutes of complimentary wait time (60 minutes international)",
       "Chauffeurs who run this exact corridor daily and know the Beltway's predictable choke points",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for crews and groups",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for crews and groups",
       "A dependable option when a connecting itinerary splits across both airports",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -432,7 +432,7 @@ export const MARYLAND_BATCH12 = [
       { q: "How much does a transfer between BWI and DCA cost?", a: "It is one flat rate confirmed before you book, the same in either direction. Call 877-609-1919 or request a quote online." },
       { q: "How long does the drive between BWI and DCA take?", a: "About 35 miles and 40–55 minutes via the BW Parkway and the Capital Beltway, depending on traffic. Your chauffeur monitors conditions in real time." },
       { q: "Do you track my inbound flight for a connecting trip like this?", a: "Yes. The pickup is timed to your actual arriving flight, with 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international, so a delayed landing does not jeopardize the connection." },
-      { q: "Can you handle a group or an airline crew transfer between BWI and DCA?", a: "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers for larger groups or crews." },
+      { q: "Can you handle a group or an airline crew transfer between BWI and DCA?", a: "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers for larger groups or crews." },
       { q: "What happens if my connecting flight changes after I book?", a: "A flight-tracked reservation adjusts automatically to a schedule change on the arriving leg. For a bigger change — a different day or airport — a quick confirmation call to dispatch is worth it." },
     ],
     related: [
@@ -471,7 +471,7 @@ export const MARYLAND_BATCH12 = [
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Chauffeurs who know Georgetown's narrow one-way streets and limited curbside-access zones",
       "Drop-off at Georgetown University, the waterfront hotels, or anywhere along M Street or Wisconsin Avenue",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for family groups",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for family groups",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
     sections: [
@@ -633,7 +633,7 @@ export const MARYLAND_BATCH12 = [
     vehicles: FLEET_ALL,
     faqs: [
       { q: "Can you take us to an active construction site, not just a street address?", a: "Yes. We confirm the correct site entrance and any safety requirements with your team ahead of the pickup, so the vehicle arrives at the right gate." },
-      { q: "Do you provide SUVs suited to job-site conditions?", a: "Yes. Cadillac Escalades and Chevrolet Suburbans handle unpaved access roads and active job-site conditions better than a standard sedan." },
+      { q: "Do you provide SUVs suited to job-site conditions?", a: "Yes. Lincoln Navigators and Chevrolet Suburbans handle unpaved access roads and active job-site conditions better than a standard sedan." },
       { q: "Can you handle a multi-site visit day for an engineering team?", a: "Yes. Hourly as-directed service keeps the same chauffeur and vehicle with your team across a schedule that can shift as the day goes." },
       { q: "Do you serve visiting engineers or inspectors flying into BWI for a Maryland project?", a: "Yes. We regularly combine an airport pickup with the rest of a multi-site visit day on the same reservation." },
       { q: "Is corporate billing available for engineering and construction accounts?", a: "Yes. Standing accounts can be set up with corporate billing and regular chauffeurs for recurring project travel." },
@@ -701,7 +701,7 @@ export const MARYLAND_BATCH12 = [
     faqs: [
       { q: "Can a chauffeur wait at each property while I show a client around?", a: "Yes. Hourly as-directed service means the vehicle waits at each stop and moves to the next address on your schedule, with no separate booking needed." },
       { q: "Do you handle airport pickups for relocating buyers flying in to house-hunt?", a: "Yes. We regularly connect a BWI, DCA or Dulles airport pickup directly into the same day's showing schedule for out-of-town buyers." },
-      { q: "Can you transport moving boxes or display materials between showings?", a: "Yes. Cadillac Escalades and Chevrolet Suburbans offer real cargo room for materials, and Sprinter vans are available for larger loads." },
+      { q: "Can you transport moving boxes or display materials between showings?", a: "Yes. Lincoln Navigators and Chevrolet Suburbans offer real cargo room for materials, and Sprinter vans are available for larger loads." },
       { q: "Do you provide car service for new-construction site visits?", a: "Yes. We regularly move buyers, inspectors and agents between a sales office, an active build site and a title company on closing day." },
       { q: "Is pricing flat-rate or hourly for real estate accounts?", a: "Multi-stop showing days are typically billed hourly as-directed; a single airport pickup is flat-rate." },
     ],
@@ -1174,7 +1174,7 @@ export const MARYLAND_BATCH12 = [
     faqs: [
       { q: "Do I need to tell you in advance that I'm traveling with a pet?", a: "Yes, please mention it at booking so we confirm the right vehicle and any special handling — we never want it to be a surprise for the chauffeur or a reason for a trip to be declined." },
       { q: "Is there an extra charge for bringing a pet?", a: "Pet travel is included in the flat rate confirmed at booking — no after-the-fact surcharge disputes." },
-      { q: "Can you handle a larger dog or multiple pets?", a: "Yes. Cadillac Escalades and Chevrolet Suburbans offer more room than a standard sedan for larger dogs or multiple pets." },
+      { q: "Can you handle a larger dog or multiple pets?", a: "Yes. Lincoln Navigators and Chevrolet Suburbans offer more room than a standard sedan for larger dogs or multiple pets." },
       { q: "Do you provide transportation for flying with a pet from BWI?", a: "Yes. We regularly handle both in-cabin carrier trips and cargo-area drop-offs for larger animals — see our flying-with-pets guide for the specific logistics." },
       { q: "Can you provide seat covers or help securing a carrier?", a: "Yes, protective seat covers and carrier securing are available on request." },
     ],

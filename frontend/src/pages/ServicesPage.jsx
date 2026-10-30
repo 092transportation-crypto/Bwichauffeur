@@ -26,7 +26,7 @@ const servicesFaqs = [
   },
   {
     q: 'What vehicles can I choose from?',
-    a: 'Sedans include the Mercedes E-Class, S-Class, and BMW 7 Series. SUVs include the Cadillac Escalade and Chevrolet Suburban. Mercedes Sprinter vans fit up to 14 passengers.',
+    a: 'Sedans include the Mercedes E-Class, S-Class, and BMW 7 Series. SUVs include the Lincoln Navigator and Chevrolet Suburban. Mercedes Sprinter vans fit up to 14 passengers.',
   },
   {
     q: 'Do you serve DCA and Dulles in addition to BWI?',

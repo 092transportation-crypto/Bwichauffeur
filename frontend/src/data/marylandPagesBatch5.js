@@ -6,7 +6,7 @@
 
 const ECLASS = { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" };
 const BMW7 = { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" };
-const ESCALADE = { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
+const ESCALADE = { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" };
 const SUBURBAN = { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with beach or golf luggage" };
 const SPRINTER = { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" };
 const STRETCH = { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" };
@@ -37,7 +37,7 @@ export const MARYLAND_BATCH5 = [
       "Flat rate to DCA, BWI or Dulles — quoted before you book, never surged",
       "One of our fastest DCA routes: 20–30 minutes from door to terminal",
       "Chauffeurs who know Old Town Takoma, Takoma-Langley Crossroads and the Sligo Creek Trail neighborhoods",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Hourly charters for the Takoma Park Folk Festival, farmers market mornings and Old Town Takoma dinners",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs",
     ],
@@ -59,7 +59,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Beyond the airport in Takoma Park",
         paragraphs: [
-          "Takoma Park clients book us for NIH and Walter Reed appointments a few minutes down the road in Silver Spring and Bethesda, for the annual Takoma Park Folk Festival and Independence Day parade, and for nights out in Old Town or downtown DC via the Takoma Metro. Families book the Escalade or Suburban for car-seat requests and farmers-market-and-airport combination trips; Sprinter vans handle larger groups heading to Eastern Market or the Smithsonian for the day.",
+          "Takoma Park clients book us for NIH and Walter Reed appointments a few minutes down the road in Silver Spring and Bethesda, for the annual Takoma Park Folk Festival and Independence Day parade, and for nights out in Old Town or downtown DC via the Takoma Metro. Families book the Navigator or Suburban for car-seat requests and farmers-market-and-airport combination trips; Sprinter vans handle larger groups heading to Eastern Market or the Smithsonian for the day.",
         ],
       },
     ],
@@ -68,7 +68,7 @@ export const MARYLAND_BATCH5 = [
       { q: "How much is a limo service from Takoma Park to DCA?", a: "Takoma Park to Reagan National is quoted as one flat rate based on your vehicle and exact address, with tolls and gratuity disclosed up front and no surge pricing. Call 877-609-1919 or request a quote online for exact pricing." },
       { q: "How long does it take to get from Takoma Park to the airport?", a: "DCA is 10 miles and 20–30 minutes via 16th Street or Georgia Avenue. BWI is 35 miles (45–60 minutes) and Dulles is 25 miles (40–55 minutes). We schedule your pickup around live traffic and build in a buffer for check-in." },
       { q: "Do you serve both the Takoma Park, MD and DC sides of the neighborhood?", a: "Yes. We treat Takoma Park, Maryland and the adjoining DC neighborhood as one service area and quote the same flat-rate structure on either side of the line." },
-      { q: "Which vehicles are available in Takoma Park?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
+      { q: "Which vehicles are available in Takoma Park?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
       { q: "Can I book an hourly chauffeur in Takoma Park for an event?", a: "Absolutely. We regularly run hourly charters for the Takoma Park Folk Festival, Old Town Takoma dinners and multi-stop days anywhere in Montgomery County — reserve ahead for festival weekends." },
     ],
     related: [
@@ -104,7 +104,7 @@ export const MARYLAND_BATCH5 = [
       "Flat rate to Dulles, BWI or DCA — quoted before you book, never surged",
       "Chauffeurs who know the I-270 exit 18 interchange, MD-121 and the Clarksburg Premium Outlets corridor",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for I-270 biotech and life-sciences employers near Germantown and Gaithersburg",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs",
     ],
@@ -126,7 +126,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Beyond the airport in Clarksburg",
         paragraphs: [
-          "Clarksburg residents book us for corporate travel into the I-270 biotech corridor, weddings and events at venues around Frederick and Germantown, and hourly charters for Clarksburg Premium Outlets shopping trips combined with an airport run. Families use the Escalade or Suburban for school and sports schedules that stretch across Montgomery and Frederick counties.",
+          "Clarksburg residents book us for corporate travel into the I-270 biotech corridor, weddings and events at venues around Frederick and Germantown, and hourly charters for Clarksburg Premium Outlets shopping trips combined with an airport run. Families use the Navigator or Suburban for school and sports schedules that stretch across Montgomery and Frederick counties.",
         ],
       },
     ],
@@ -135,7 +135,7 @@ export const MARYLAND_BATCH5 = [
       { q: "How much is a limo service from Clarksburg to Dulles?", a: "Clarksburg to Dulles is quoted as one flat rate based on your vehicle and address, with tolls and gratuity disclosed up front and no surge pricing. Call 877-609-1919 or request a quote online." },
       { q: "How long does it take to get from Clarksburg to the airport?", a: "Dulles is 30 miles (40–55 minutes), BWI is 50 miles (60–75 minutes) and DCA is 35 miles (50–65 minutes), depending on I-270 and Beltway traffic. We build a buffer into every pickup." },
       { q: "Do you serve new developments still being built in Clarksburg?", a: "Yes. New subdivisions off MD-121 and Stringtown Road are part of our regular coverage — just confirm the gate code or exact address when you book." },
-      { q: "Which vehicles are available in Clarksburg?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
+      { q: "Which vehicles are available in Clarksburg?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
       { q: "Can I book a chauffeur in Clarksburg for a wedding or event?", a: "Absolutely. We regularly serve events across upper Montgomery and Frederick counties with hourly and point-to-point options — Sprinter vans and limousines book early in spring and fall, so reserve ahead." },
     ],
     related: [
@@ -171,7 +171,7 @@ export const MARYLAND_BATCH5 = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Direct pickup and drop-off at New Carrollton's Metro, MARC and Amtrak station for rail-to-road connections",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Event transfers to Northwest Stadium and FedEx-area venues minutes away",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs",
     ],
@@ -202,7 +202,7 @@ export const MARYLAND_BATCH5 = [
       { q: "Do you meet trains at the New Carrollton station?", a: "Yes. We meet Amtrak, MARC Penn Line and Metro Orange Line arrivals at New Carrollton's east entrance and handle the connection to anywhere in the region — just share your train number when you book." },
       { q: "How much is a limo service from New Carrollton to BWI?", a: "New Carrollton to BWI is quoted as one flat rate based on your vehicle and address, with tolls and gratuity disclosed up front and no surge pricing. Call 877-609-1919 for exact pricing." },
       { q: "How long does it take to get from New Carrollton to the airport?", a: "BWI is 25 miles (30–40 minutes), DCA is 12 miles (25–35 minutes) and Dulles is 30 miles (45–60 minutes), depending on Beltway and Route 50 traffic." },
-      { q: "Which vehicles are available in New Carrollton?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
+      { q: "Which vehicles are available in New Carrollton?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
       { q: "Can you take me to a Commanders game at Northwest Stadium from New Carrollton?", a: "Yes, it is a short, frequent trip for us. We drop at the gate and stage the pickup away from the post-game rideshare crowd." },
     ],
     related: [
@@ -241,7 +241,7 @@ export const MARYLAND_BATCH5 = [
       "One of our shortest BWI transfers anywhere in the region — 15–20 minutes door to curb",
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Chauffeurs who know the BARC campus, US-1 (Baltimore Avenue) corridor and the BW Parkway interchange at Powder Mill Road",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate and federal-contractor accounts for USDA, NOAA and University of Maryland research visitors",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs",
     ],
@@ -263,7 +263,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Beyond the airport in Beltsville",
         paragraphs: [
-          "Beltsville clients book us for federal research-campus visits, University of Maryland conferences a few minutes away in College Park, and corporate travel for the warehousing and logistics firms along US-1. Families use the Escalade or Suburban for quick BWI runs with full luggage. The short drive to BWI also makes same-day round trips practical for day-trip visitors who need to be back on a flight by evening.",
+          "Beltsville clients book us for federal research-campus visits, University of Maryland conferences a few minutes away in College Park, and corporate travel for the warehousing and logistics firms along US-1. Families use the Navigator or Suburban for quick BWI runs with full luggage. The short drive to BWI also makes same-day round trips practical for day-trip visitors who need to be back on a flight by evening.",
         ],
       },
     ],
@@ -272,7 +272,7 @@ export const MARYLAND_BATCH5 = [
       { q: "How much is a limo service from Beltsville to BWI?", a: "Beltsville to BWI is quoted as one flat rate based on your vehicle and address, with tolls and gratuity disclosed up front and no surge pricing. Call 877-609-1919 for exact pricing." },
       { q: "How long does it take to get from Beltsville to BWI?", a: "About 12 miles and 15–20 minutes straight up the Baltimore-Washington Parkway — one of the fastest airport transfers in our coverage area." },
       { q: "Do you serve the USDA Beltsville Agricultural Research Center?", a: "Yes. We regularly handle visitor transportation for USDA, NOAA and ARS staff and guests at the BARC campus, including specific gate and badge-check coordination." },
-      { q: "Which vehicles are available in Beltsville?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
+      { q: "Which vehicles are available in Beltsville?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
       { q: "Can you take me from Beltsville to a University of Maryland event?", a: "Yes, College Park and the University of Maryland campus are just minutes away — a frequent combination trip with BWI pickups for visiting faculty and conference guests." },
     ],
     related: [
@@ -308,7 +308,7 @@ export const MARYLAND_BATCH5 = [
       "Flat rate to DCA, BWI or Dulles — quoted before you book, never surged",
       "Direct experience with Suitland Federal Center and Census Bureau visitor and badge procedures",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Government and federal-contractor billing accepted for standing accounts",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs",
     ],
@@ -330,7 +330,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Beyond the airport in Suitland",
         paragraphs: [
-          "Suitland clients book us for federal-agency business travel, Census Bureau conference and delegation transport, and connections to Branch Avenue Metro. Families use the Escalade or Suburban for luggage-heavy DCA and BWI trips, and we handle recurring visitor shuttles for agencies hosting multi-day conferences on the federal campus throughout the year, with consolidated billing available on request.",
+          "Suitland clients book us for federal-agency business travel, Census Bureau conference and delegation transport, and connections to Branch Avenue Metro. Families use the Navigator or Suburban for luggage-heavy DCA and BWI trips, and we handle recurring visitor shuttles for agencies hosting multi-day conferences on the federal campus throughout the year, with consolidated billing available on request.",
         ],
       },
     ],
@@ -340,7 +340,7 @@ export const MARYLAND_BATCH5 = [
       { q: "How much is a limo service from Suitland to DCA?", a: "Suitland to DCA is quoted as one flat rate based on your vehicle and exact address, with tolls and gratuity disclosed up front and no surge pricing. Call 877-609-1919 for exact pricing." },
       { q: "How long does it take to get from Suitland to the airport?", a: "DCA is 12 miles (20–30 minutes), BWI is 25 miles (35–45 minutes) and Dulles is 32 miles (45–60 minutes), depending on Beltway traffic." },
       { q: "Do you accept government and federal-contractor billing?", a: "Yes. We set up standing corporate and government accounts with consolidated billing for frequent Suitland Federal Center travel — call dispatch to establish one." },
-      { q: "Which vehicles are available in Suitland?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
+      { q: "Which vehicles are available in Suitland?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
     ],
     related: [
       { label: "New Carrollton Limo Service", to: "/new-carrollton-limo-service" },
@@ -377,7 +377,7 @@ export const MARYLAND_BATCH5 = [
       "Flat rate to BWI, DCA or Dulles — quoted before you book, never surged",
       "Chauffeurs who know Mount Airy's historic Main Street, the I-70/MD-27 interchange and the Carroll-Frederick county line roads",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Early-morning pickups built around I-70 commuter traffic patterns",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs",
     ],
@@ -399,7 +399,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Beyond the airport in Mount Airy",
         paragraphs: [
-          "Mount Airy clients book us for corporate travel into Frederick and the I-270 corridor, weddings and events at venues scattered across Carroll and Frederick counties, and hourly charters for multi-stop days. Families use the Escalade or Suburban for long-distance airport runs with full luggage.",
+          "Mount Airy clients book us for corporate travel into Frederick and the I-270 corridor, weddings and events at venues scattered across Carroll and Frederick counties, and hourly charters for multi-stop days. Families use the Navigator or Suburban for long-distance airport runs with full luggage.",
         ],
       },
     ],
@@ -408,7 +408,7 @@ export const MARYLAND_BATCH5 = [
       { q: "How much is a limo service from Mount Airy to BWI?", a: "Mount Airy to BWI is quoted as one flat rate based on your vehicle and address, with tolls and gratuity disclosed up front and no surge pricing. Call 877-609-1919 for exact pricing." },
       { q: "How long does it take to get from Mount Airy to BWI?", a: "About 45 miles and 55–65 minutes via I-70, I-695 and the BW Parkway, depending on the time of day. We schedule your pickup around live traffic and build in a buffer for check-in." },
       { q: "Do you serve both the Carroll County and Frederick County sides of Mount Airy?", a: "Yes. We cover all of Mount Airy regardless of which county side the address falls on, with the same flat-rate pricing." },
-      { q: "Which vehicles are available in Mount Airy?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
+      { q: "Which vehicles are available in Mount Airy?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
       { q: "Can I book a chauffeur in Mount Airy for a wedding or event?", a: "Absolutely. We regularly serve events across Carroll and Frederick counties with hourly and point-to-point options — Sprinter vans and limousines book early in spring and fall, so reserve ahead." },
     ],
     related: [
@@ -444,7 +444,7 @@ export const MARYLAND_BATCH5 = [
       "Flat rate to Dulles, BWI or DCA — quoted before you book, never surged",
       "Chauffeurs who know the Villages of Urbana, the I-270 exit 26 interchange and Fingerboard Road",
       "Real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 on international",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Corporate accounts for I-270 biotech and life-sciences employers between Urbana and Gaithersburg",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs",
     ],
@@ -475,7 +475,7 @@ export const MARYLAND_BATCH5 = [
       { q: "How much is a limo service from Urbana to Dulles?", a: "Urbana to Dulles is quoted as one flat rate based on your vehicle and address, with tolls and gratuity disclosed up front and no surge pricing. Call 877-609-1919 for exact pricing." },
       { q: "How long does it take to get from Urbana to Dulles?", a: "About 35 miles and 45–60 minutes via I-270 south and Route 28 to the Dulles Greenway or Toll Road, depending on the time of day." },
       { q: "Do you serve the Villages of Urbana community?", a: "Yes, including newer phases still under construction off Fingerboard Road and MD-80 — confirm your exact address when booking." },
-      { q: "Which vehicles are available in Urbana?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
+      { q: "Which vehicles are available in Urbana?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
       { q: "Can you combine an Urbana airport trip with a stop in downtown Frederick?", a: "Yes. Frederick is about 15 minutes north, and we regularly combine airport transfers with downtown Frederick stops for dinner, meetings or sightseeing." },
     ],
     related: [
@@ -511,7 +511,7 @@ export const MARYLAND_BATCH5 = [
       "Flat rate to BWI or Philadelphia International — quoted before you book, never surged",
       "One of the few Maryland towns where PHL is a faster airport option than BWI",
       "Chauffeurs who know the I-95/MD-279 interchange, Fair Hill and the Elkton Historic District",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Hourly and point-to-point service for Fair Hill International equestrian events",
       "Maryland PSC Carrier No. 6325 — fully licensed, commercially insured, background-checked chauffeurs",
     ],
@@ -542,7 +542,7 @@ export const MARYLAND_BATCH5 = [
       { q: "Should I fly out of BWI or Philadelphia from Elkton?", a: "It depends on your flight. PHL is slightly closer (45 miles, 50–60 minutes) while BWI is 55 miles (55–65 minutes) — tell us your airline and destination and we will recommend the faster, more reliable option." },
       { q: "How much is a limo service from Elkton to BWI or PHL?", a: "Either route is quoted as one flat rate based on your vehicle and address, with tolls and gratuity disclosed up front and no surge pricing. Call 877-609-1919 for exact pricing." },
       { q: "Do you serve Fair Hill equestrian events?", a: "Yes. We regularly provide hourly and point-to-point chauffeur service for Fair Hill International events and the Fair Hill Natural Resources Management Area." },
-      { q: "Which vehicles are available in Elkton?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
+      { q: "Which vehicles are available in Elkton?", a: "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, 14-passenger Mercedes Sprinter vans and stretch limousines. Child seats are available on request." },
       { q: "Can you take me from Elkton to Baltimore or Philadelphia for business?", a: "Yes, both cities are regular I-95 runs for us — Baltimore in about an hour, Philadelphia in roughly the same time heading north." },
     ],
     related: [
@@ -583,7 +583,7 @@ export const MARYLAND_BATCH5 = [
       "One flat rate for DCA to Annapolis — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Annapolis: City Dock, the Naval Academy, the State House district or Eastport",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Timed for Commissioning Week, Army-Navy weekends and the Annapolis sailing season",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -604,7 +604,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Why book a chauffeur instead of rideshare",
         paragraphs: [
-          "Rideshare on the DCA–Annapolis run surges hardest during Commissioning Week, home football weekends and summer sailing events — precisely when you need it most. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a sedan for one or two travelers, an Escalade or Suburban for families and luggage, or a Sprinter van for groups of up to 14.",
+          "Rideshare on the DCA–Annapolis run surges hardest during Commissioning Week, home football weekends and summer sailing events — precisely when you need it most. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a sedan for one or two travelers, an Navigator or Suburban for families and luggage, or a Sprinter van for groups of up to 14.",
         ],
       },
     ],
@@ -613,7 +613,7 @@ export const MARYLAND_BATCH5 = [
       { q: "How much does a car service from DCA to Annapolis cost?", a: "It is one flat rate set by vehicle and exact drop-off address, confirmed in writing before you ride. Tolls are disclosed up front and there is no surge pricing. Call 877-609-1919 or request a quote online." },
       { q: "How long is the drive from DCA to Annapolis?", a: "About 32 miles and 40–55 minutes via the GW Parkway, the Beltway and US-50 east, depending on the time of day. Your chauffeur monitors live conditions and adjusts the route." },
       { q: "Do you track my flight?", a: "Yes. Every airport booking includes real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international, timed from actual landing." },
-      { q: "Can you take a group from DCA to Annapolis for Commissioning Week?", a: "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. Commissioning Week and Army-Navy weekends book early, so reserve ahead." },
+      { q: "Can you take a group from DCA to Annapolis for Commissioning Week?", a: "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers. Commissioning Week and Army-Navy weekends book early, so reserve ahead." },
       { q: "Do you run the return trip from Annapolis to DCA?", a: "Yes, 24/7. Book both legs together and we hold the same vehicle class and a combined rate; airport departures are scheduled against your flight time and check-in window." },
     ],
     related: [
@@ -649,7 +649,7 @@ export const MARYLAND_BATCH5 = [
       "One flat rate for IAD to Annapolis — tolls disclosed up front, no meter, no surge",
       "60 minutes of complimentary wait time on international arrivals, 45 on domestic",
       "Drop-off anywhere in Annapolis: City Dock, the Naval Academy, the State House district or Eastport",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Group transfers for Naval Academy international family visits and Commissioning Week",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -678,7 +678,7 @@ export const MARYLAND_BATCH5 = [
       { q: "How much does a car service from Dulles to Annapolis cost?", a: "It is one flat rate set by vehicle and exact drop-off address, confirmed in writing before you ride. Tolls are disclosed up front and there is no surge pricing. Call 877-609-1919 or request a quote online." },
       { q: "How long is the drive from Dulles to Annapolis?", a: "About 55 miles and 70–85 minutes via the Dulles Toll Road, the Beltway and US-50 east, depending on traffic. Your chauffeur monitors live conditions and adjusts the route." },
       { q: "How does the international wait time work at Dulles?", a: "The complimentary 60-minute window starts when your aircraft actually lands, not the scheduled time, giving you a full hour to clear customs and collect luggage before your chauffeur's wait time is used." },
-      { q: "Can you take a group from Dulles to Annapolis?", a: "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers — popular for Naval Academy family groups flying in for Commissioning Week." },
+      { q: "Can you take a group from Dulles to Annapolis?", a: "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers — popular for Naval Academy family groups flying in for Commissioning Week." },
       { q: "Do you run the return trip from Annapolis to Dulles?", a: "Yes, 24/7. Book both legs together and we hold the same vehicle class and a combined rate; airport departures are scheduled against your flight time with extra margin for the longer drive." },
     ],
     related: [
@@ -714,7 +714,7 @@ export const MARYLAND_BATCH5 = [
       "One flat rate for DCA to Columbia — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Columbia: Town Center, Merriweather Post Pavilion, Columbia Gateway or any village",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Timed for Merriweather concert nights and Columbia Gateway business schedules",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -735,7 +735,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: "Why book a chauffeur instead of rideshare",
         paragraphs: [
-          "Rideshare on the DCA–Columbia run surges hardest on Merriweather concert nights, exactly when you need a reliable pickup most. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a sedan for business travel, an Escalade or Suburban for families, or a Sprinter van for concert groups of up to 14.",
+          "Rideshare on the DCA–Columbia run surges hardest on Merriweather concert nights, exactly when you need a reliable pickup most. A BWI Chauffeur reservation commits a specific vehicle and chauffeur to you at a written rate, with 24/7 dispatch behind it. Choose a sedan for business travel, an Navigator or Suburban for families, or a Sprinter van for concert groups of up to 14.",
         ],
       },
     ],
@@ -780,7 +780,7 @@ export const MARYLAND_BATCH5 = [
       "One flat rate for BWI to Takoma Park — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Takoma Park: Old Town, Takoma-Langley Crossroads or the DC-side Takoma neighborhood",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Chauffeurs who know Takoma Park's one-way streets and the Metro station loop",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -810,7 +810,7 @@ export const MARYLAND_BATCH5 = [
       { q: "How much does a car service from BWI to Takoma Park cost?", a: "It is one flat rate set by vehicle and exact drop-off address, confirmed in writing before you ride. Tolls are disclosed up front and there is no surge pricing. Call 877-609-1919 or request a quote online." },
       { q: "How long is the drive from BWI to Takoma Park?", a: "About 35 miles and 45–60 minutes via the BW Parkway and the ICC, or I-95 and the Beltway, depending on the time of day. Your chauffeur monitors live conditions and adjusts the route." },
       { q: "Do you track my flight?", a: "Yes. Every airport booking includes real-time flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international, timed from actual landing." },
-      { q: "Can you take a group from BWI to Takoma Park?", a: "Yes. Cadillac Escalades and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers for larger families or groups." },
+      { q: "Can you take a group from BWI to Takoma Park?", a: "Yes. Lincoln Navigators and Suburbans seat six with luggage, and Mercedes Sprinter vans carry up to 14 passengers for larger families or groups." },
       { q: "Do you run the return trip from Takoma Park to BWI?", a: "Yes, 24/7. Book both legs together and we hold the same vehicle class and a combined rate; airport departures are scheduled against your flight time and check-in window." },
     ],
     related: [
@@ -846,7 +846,7 @@ export const MARYLAND_BATCH5 = [
       "One flat rate for BWI to National Harbor — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in National Harbor: MGM National Harbor, the Gaylord National or the waterfront promenade",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Chauffeurs who know the Woodrow Wilson Bridge crossing and National Harbor's resort-access roads",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -912,7 +912,7 @@ export const MARYLAND_BATCH5 = [
       "One flat rate for DCA to Silver Spring — tolls disclosed up front, no meter, no surge",
       "Flight tracked pickups with 45 minutes of complimentary wait time (60 minutes international)",
       "Drop-off anywhere in Silver Spring: downtown, the Fillmore, East-West Highway corridor or Woodside",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "One of our quickest DCA transfers — frequently under 30 minutes outside rush hour",
       "Maryland PSC Carrier No. 6325 — licensed, insured and background-checked",
     ],
@@ -980,7 +980,7 @@ export const MARYLAND_BATCH5 = [
       "Drop-off at the MGM National Harbor main entrance, pickup at a pre-set spot away from valet congestion",
       "Flat-rate or hourly pricing — no surge on weekend nights, no parking fees or garage hunting",
       "Chauffeurs who work National Harbor regularly and know the Woodrow Wilson Bridge traffic patterns",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Combination trips with dinner reservations elsewhere on the National Harbor waterfront",
       "Maryland PSC Carrier No. 6325",
     ],
@@ -1010,7 +1010,7 @@ export const MARYLAND_BATCH5 = [
       { q: "Where does the chauffeur drop off and pick up at MGM National Harbor?", a: "We drop at the main porte-cochère entrance nearest the casino floor and The Theater; for pickup we set a meeting point away from the valet queue so your car is ready without a wait." },
       { q: "How much does MGM National Harbor transportation cost?", a: "Point-to-point trips are one flat rate by vehicle and pickup address; if you want the car to wait through dinner or a show, we quote an hourly rate with a minimum instead. Call 877-609-1919 for a quote." },
       { q: "Is the casino floor open all night?", a: "Yes, MGM National Harbor's casino floor operates 24 hours. We run 24/7 dispatch, so a 2 a.m. pickup after a late night at the tables is routine." },
-      { q: "Can you carry a group to MGM National Harbor?", a: "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together." },
+      { q: "Can you carry a group to MGM National Harbor?", a: "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together." },
       { q: "What about parking at MGM National Harbor?", a: "Self-parking and valet both exist but fill quickly on weekend nights and major event dates. With a chauffeur there is nothing to park and no valet line to wait in." },
     ],
     related: [
@@ -1046,7 +1046,7 @@ export const MARYLAND_BATCH5 = [
       "Drop-off near Xfinity Center's gates, pickup at a pre-set corner away from the campus exit crush",
       "Flat-rate or hourly pricing — no surge on concert nights, no campus parking fees",
       "Chauffeurs who work Xfinity Center regularly and know the University of Maryland campus road closures",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops in College Park or nearby Greenbelt and Beltsville on request",
       "Maryland PSC Carrier No. 6325",
     ],
@@ -1082,7 +1082,7 @@ export const MARYLAND_BATCH5 = [
       { q: "Where does the chauffeur drop off and pick up at Xfinity Center?", a: "We drop as close to the venue gates as event-night traffic control allows; for pickup we set a meeting point off Campus Drive, away from the lot-exit scrum, and time the return around the encore." },
       { q: "How much does Xfinity Center transportation cost?", a: "Point-to-point trips are one flat rate by vehicle and pickup address; if you want the car to wait through the show, we quote an hourly rate with a minimum instead. Call 877-609-1919 for a quote." },
       { q: "When is Xfinity Center's concert season?", a: "Touring concerts run roughly May through October, with national acts most commonly booking Friday and Saturday nights." },
-      { q: "Can you carry a group to Xfinity Center?", a: "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together." },
+      { q: "Can you carry a group to Xfinity Center?", a: "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together." },
       { q: "What about parking at Xfinity Center?", a: "Venue and campus lots fill early on big concert nights and the exit afterward can take close to an hour. With a chauffeur there is nothing to park." },
     ],
     related: [
@@ -1118,7 +1118,7 @@ export const MARYLAND_BATCH5 = [
       "Drop-off at the Royal Farms Arena entrance, pickup at a pre-set corner away from the exit crowd",
       "Flat-rate or hourly pricing — no surge on event nights, no downtown parking garage hunting",
       "Chauffeurs who work Royal Farms Arena regularly and know the downtown Baltimore one-way grid",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Pre-show dinner stops in Baltimore's Inner Harbor or Mount Vernon on request",
       "Maryland PSC Carrier No. 6325",
     ],
@@ -1154,7 +1154,7 @@ export const MARYLAND_BATCH5 = [
       { q: "Where does the chauffeur drop off and pick up at Royal Farms Arena?", a: "We drop on West Baltimore Street at the gate nearest your section; for pickup we set a meeting point on a quieter cross street away from the main exit crowd and time the return around the post-event surge." },
       { q: "How much does Royal Farms Arena transportation cost?", a: "Point-to-point trips are one flat rate by vehicle and pickup address; if you want the car to wait through the event, we quote an hourly rate with a minimum instead. Call 877-609-1919 for a quote." },
       { q: "What events does Royal Farms Arena host?", a: "Concerts, family and ice shows, and the Baltimore Blast indoor soccer season run year-round, with the busiest nights typically Fridays and Saturdays." },
-      { q: "Can you carry a group to Royal Farms Arena?", a: "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together." },
+      { q: "Can you carry a group to Royal Farms Arena?", a: "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together." },
       { q: "What about parking near Royal Farms Arena?", a: "Downtown garages near Baltimore and Howard Streets fill on sellout nights and the surrounding one-way grid slows a post-show exit. With a chauffeur there is nothing to park." },
     ],
     related: [
@@ -1190,7 +1190,7 @@ export const MARYLAND_BATCH5 = [
       "Drop-off as close to the Naval Academy's Gate 1 or Gate 3 as security allows, pickup at a pre-set spot in historic Annapolis",
       "Flat-rate or hourly pricing — no surge during Commissioning Week or Army-Navy weekend",
       "Chauffeurs who work Naval Academy events regularly and know Annapolis's gate-security procedures",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Multi-day packages for Commissioning Week and Parents' Weekend families flying into BWI, DCA or Dulles",
       "Maryland PSC Carrier No. 6325",
     ],
@@ -1221,7 +1221,7 @@ export const MARYLAND_BATCH5 = [
       { q: "How much does Naval Academy transportation cost?", a: "Point-to-point trips are one flat rate by vehicle and pickup address; multi-day Commissioning Week or Parents' Weekend packages are quoted as a package rate. Call 877-609-1919 for a quote." },
       { q: "When is Naval Academy graduation and Commissioning Week?", a: "Commissioning Week and graduation fall in late May and are the busiest, highest-security days on the Academy's calendar — book transportation well in advance." },
       { q: "Can you pick up our family from BWI, DCA or Dulles for Commissioning Week?", a: "Yes. We regularly coordinate airport pickups from all three airports timed to arrive together for Naval Academy family events, with flight tracking on every leg." },
-      { q: "Can you carry a group to a home football or lacrosse game?", a: "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together." },
+      { q: "Can you carry a group to a home football or lacrosse game?", a: "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together." },
     ],
     related: [
       { label: "Navy-Marine Corps Memorial Stadium Transportation", to: "/navy-marine-corps-stadium-transportation" },
@@ -1256,7 +1256,7 @@ export const MARYLAND_BATCH5 = [
       "Drop-off right at the Six Flags America main gate, pickup at a pre-set spot away from the parking lot shuttle line",
       "Flat-rate or hourly pricing — no surge on weekend afternoons, no parking fees",
       "Chauffeurs who work the Largo/Central Avenue corridor regularly and know the park's entrance traffic patterns",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Child seats available on request for family outings",
       "Maryland PSC Carrier No. 6325",
     ],
@@ -1328,7 +1328,7 @@ export const MARYLAND_BATCH5 = [
       "Drop-off at the Homewood campus gate nearest your event, pickup at a pre-set spot clear of commencement traffic",
       "Flat-rate or hourly pricing — no surge during commencement weekend or move-in days",
       "Chauffeurs who work Johns Hopkins events regularly and know Charles Village's campus-adjacent streets",
-      "Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
+      "Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans for up to 14 passengers and stretch limousines for celebrations",
       "Combination trips to the Johns Hopkins Hospital medical campus for patients and visiting families",
       "Maryland PSC Carrier No. 6325",
     ],

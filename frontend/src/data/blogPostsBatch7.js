@@ -37,7 +37,7 @@ The single biggest planning mistake we see is choosing a vehicle based on how it
 
 **Midsize and Luxury SUVs (Lincoln Nautilus, Chevrolet Suburban)** — The workhorse for immediate family transport — parents, grandparents, or a small wedding party of four to six with garment bags and overnight luggage for a destination-style wedding weekend.
 
-**Premium SUV (Cadillac Escalade)** — Seats six with real luggage room, and is our most-requested vehicle for a six-person wedding party that wants one vehicle instead of splitting into two cars.
+**Premium SUV (Lincoln Navigator)** — Seats six with real luggage room, and is our most-requested vehicle for a six-person wedding party that wants one vehicle instead of splitting into two cars.
 
 **Mercedes Sprinter (Shuttle or Executive trim)** — Once your bridal party passes six people, this is the only vehicle that keeps everyone together. A 10-to-13-person wedding party in a Sprinter Executive travels as one unit, arrives together, and never has a "where's the second car" moment in the parking lot.
 

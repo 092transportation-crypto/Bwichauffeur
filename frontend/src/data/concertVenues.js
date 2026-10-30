@@ -411,7 +411,7 @@ export const CONCERT_VENUES = [
       },
       {
         q: 'Can you take a full tailgate group to an Eagles game?',
-        a: 'Absolutely. Our Mercedes Sprinter vans carry up to 13 passengers with room for coolers and gear, so the whole group rides together. For smaller parties we run luxury sedans and SUVs like the Suburban and Escalade.',
+        a: 'Absolutely. Our Mercedes Sprinter vans carry up to 13 passengers with room for coolers and gear, so the whole group rides together. For smaller parties we run luxury sedans and SUVs like the Suburban and Navigator.',
       },
       {
         q: 'What happens if the game goes to overtime?',
@@ -519,7 +519,7 @@ export const CONCERT_VENUES = [
       },
       {
         q: 'What vehicles are available for arena events?',
-        a: 'Business and first-class sedans for couples, Suburbans and Escalades for families and small groups, and Mercedes Sprinter vans that carry up to 13 for corporate suites and group nights out. Every vehicle is a late-model, detailed before pickup, and driven by a licensed, background-checked chauffeur.',
+        a: 'Business and first-class sedans for couples, Suburbans and Navigators for families and small groups, and Mercedes Sprinter vans that carry up to 13 for corporate suites and group nights out. Every vehicle is a late-model, detailed before pickup, and driven by a licensed, background-checked chauffeur.',
       },
       {
         q: 'How much does transportation to Wells Fargo Center cost?',

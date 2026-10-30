@@ -32,7 +32,7 @@ const IntroContent = () => {
             <li>2025 Mercedes-Benz E-Class business sedans</li>
             <li>Mercedes-Benz S-Class executive sedans</li>
             <li>BMW 7 Series luxury sedans</li>
-            <li>Cadillac Escalade and Chevrolet Suburban SUVs</li>
+            <li>Lincoln Navigator and Chevrolet Suburban SUVs</li>
             <li>Mercedes Sprinter vans for groups</li>
           </ul>
 

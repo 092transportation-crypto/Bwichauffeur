@@ -297,7 +297,7 @@ const BaltimoreSportsPage = () => {
                 },
                 {
                   name: 'Premium',
-                  vehicle: 'Cadillac Escalade',
+                  vehicle: 'Lincoln Navigator',
                   passengers: '1-5 passengers',
                   features: ['Round-trip transportation', 'Professional chauffeur', 'Premium amenities', 'Extra luggage space', 'Cooler for refreshments'],
                   popular: true

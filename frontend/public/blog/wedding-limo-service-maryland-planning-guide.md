@@ -21,7 +21,7 @@ Before calling a single vendor, sketch your day hour by hour: where the wedding 
 Wedding transportation rarely means one car. A typical Maryland wedding uses some combination of:
 
 - **A luxury sedan (Mercedes S-Class)** for the couple's getaway car or the bride's arrival
-- **An SUV (Cadillac Escalade or Suburban)** for the wedding party or immediate family
+- **An SUV (Lincoln Navigator or Suburban)** for the wedding party or immediate family
 - **A Sprinter van (up to 14 passengers)** for the full bridal party or as a guest shuttle between a hotel block and the venue
 
 Guest shuttles deserve special attention if your venue has limited parking or you want to keep guests from driving after an open bar — a single Sprinter running a loop between hotel and venue every 30–45 minutes solves both problems at once. Browse vehicle options on our [luxury fleet page](/luxury-fleet) before finalizing your count.

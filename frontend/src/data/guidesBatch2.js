@@ -89,7 +89,7 @@ The route from BWI to Deep Creek Lake runs west on I-70 and then I-68 through Ha
 
 ### Vehicle Choice for a Lake Weekend
 
-A lake house weekend usually means more than a typical airport transfer's worth of luggage — ski or snowboard gear in winter, coolers and boating equipment in summer, and often a larger group traveling together. A Cadillac Escalade or Chevrolet Suburban handles a family group with substantial gear, while a 14-passenger Sprinter van keeps a larger multi-family group or a full lake-house rental party together for the drive rather than splitting across multiple cars arriving at different times.
+A lake house weekend usually means more than a typical airport transfer's worth of luggage — ski or snowboard gear in winter, coolers and boating equipment in summer, and often a larger group traveling together. A Lincoln Navigator or Chevrolet Suburban handles a family group with substantial gear, while a 14-passenger Sprinter van keeps a larger multi-family group or a full lake-house rental party together for the drive rather than splitting across multiple cars arriving at different times.
 
 ### One Reservation Versus Renting a Car
 
@@ -107,7 +107,7 @@ Call **877-609-1919** or [request a quote](/booking) to book a Deep Creek Lake t
     `,
     faqs: [
       { question: 'How long is the drive from BWI Airport to Deep Creek Lake?', answer: 'About 2.5 to 3.5 hours covering roughly 170 to 180 miles, depending on the exact Deep Creek Lake address and conditions on I-68 through the mountains.' },
-      { question: 'Can you handle ski or boating gear for a Deep Creek Lake trip?', answer: 'Yes. A Cadillac Escalade or Chevrolet Suburban handles a family with substantial gear, and a 14-passenger Sprinter van keeps a larger group together with room for equipment.' },
+      { question: 'Can you handle ski or boating gear for a Deep Creek Lake trip?', answer: 'Yes. A Lincoln Navigator or Chevrolet Suburban handles a family with substantial gear, and a 14-passenger Sprinter van keeps a larger group together with room for equipment.' },
       { question: 'Is winter driving to Deep Creek Lake different from the rest of Maryland?', answer: 'Yes. I-68 through the Allegheny mountains sees lake-effect snow squalls that do not affect the Baltimore-Washington corridor, so winter trips benefit from a chauffeur experienced with mountain-road conditions.' },
       { question: 'Should we rent a car once we arrive at Deep Creek Lake?', answer: 'It depends on your plans. If you intend to stay at the lake house and relax, a one-way chauffeured transfer removes the long drive entirely. If you need a vehicle for local errands during the stay, pairing a one-way transfer with a local rental is common.' },
       { question: 'How far in advance should we book a Deep Creek Lake transfer?', answer: 'As soon as your travel dates are set, especially for ski season and summer lake-house weekends, when demand for larger vehicles is highest.' },

@@ -36,7 +36,7 @@ const SEOContent = () => {
             <li>The latest <strong>2025 Mercedes-Benz E-Class</strong> business sedans</li>
             <li><strong>Mercedes-Benz S-Class</strong> executive sedans</li>
             <li><strong>BMW 7 Series</strong> luxury sedans</li>
-            <li>Spacious <strong>Cadillac Escalade</strong> and <strong>Chevrolet Suburban</strong> SUVs</li>
+            <li>Spacious <strong>Lincoln Navigator</strong> and <strong>Chevrolet Suburban</strong> SUVs</li>
             <li><strong>Mercedes Sprinter Vans</strong> for group transportation</li>
           </ul>
 

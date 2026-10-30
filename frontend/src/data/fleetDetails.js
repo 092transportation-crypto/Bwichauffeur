@@ -57,7 +57,7 @@ export const FLEET_DETAILS = {
     description: [
       "When the trip calls for more than a standard sedan, the BMW 7 Series or Mercedes S-Class delivers it — extended rear legroom, a hushed cabin, and the kind of presence that matters when you're picking up a client, arriving at a wedding, or closing out a long travel day.",
       "We rotate between the 7 Series and S-Class depending on availability, both maintained to the same standard: late-model, detailed before every trip, and driven by a chauffeur trained for a first-class experience from curb to destination.",
-      "This is the class most VIP airport arrivals, executive roadshows and wedding-day departures book, since the extra legroom and quieter cabin matter most on exactly those occasions. It pairs well with a Sprinter van or Escalade for a larger party where one or two guests of honor ride in the flagship sedan while the rest of the group travels separately, and it is the vehicle we recommend most often when a client specifically asks for the most comfortable sedan in the fleet rather than the most affordable one.",
+      "This is the class most VIP airport arrivals, executive roadshows and wedding-day departures book, since the extra legroom and quieter cabin matter most on exactly those occasions. It pairs well with a Sprinter van or Navigator for a larger party where one or two guests of honor ride in the flagship sedan while the rest of the group travels separately, and it is the vehicle we recommend most often when a client specifically asks for the most comfortable sedan in the fleet rather than the most affordable one.",
     ],
     features: [
       'Premium leather interior',
@@ -91,7 +91,7 @@ export const FLEET_DETAILS = {
     description: [
       "The Lincoln Nautilus steps up from a sedan without the size or cost of a full-size SUV. It's the vehicle we recommend most often for couples and small families carrying more than two bags, or anyone who wants extra cargo room for golf clubs, strollers, or shopping without booking a larger vehicle than they need.",
       "Like every vehicle in our fleet, it's inspected daily, professionally detailed, and driven by a chauffeur who handles your luggage from curb to trunk.",
-      "It is a popular middle option for an airport transfer when a standard sedan feels tight but a full-size Escalade or Suburban is more vehicle than the trip needs — common for a couple with checked bags, a parent traveling with one child, or a short multi-stop shopping or errand day around Baltimore or Annapolis. The raised ride height and extra cargo room also make it a comfortable choice for an older traveler who prefers an easier step-in height than a low sedan without needing a full-size SUV.",
+      "It is a popular middle option for an airport transfer when a standard sedan feels tight but a full-size Navigator or Suburban is more vehicle than the trip needs — common for a couple with checked bags, a parent traveling with one child, or a short multi-stop shopping or errand day around Baltimore or Annapolis. The raised ride height and extra cargo room also make it a comfortable choice for an older traveler who prefers an easier step-in height than a low sedan without needing a full-size SUV.",
     ],
     features: [
       'Leather seating',
@@ -124,7 +124,7 @@ export const FLEET_DETAILS = {
     description: [
       "The GMC Yukon XL Denali is our full-size answer for larger groups and longer journeys — extended-length cargo space behind the third row, Denali trim leather throughout, and the commanding road presence that makes a long highway run feel effortless.",
       "It's the vehicle most families and small groups choose when they're carrying more bags than a midsize SUV can comfortably hold, without stepping up to a van.",
-      "It is a frequent choice for a golf outing, a longer airport transfer with multiple travelers and full luggage, or a family reunion run where five passengers and their bags need to travel together comfortably. The extended-length cargo area behind the third row is large enough for several full-size golf bags or a week's worth of luggage for a family heading to the airport, which is the single most common reason clients step up from a midsize SUV to this class. See our Premium SUV page for the Cadillac Escalade if you want the same seating capacity with a different brand's styling, or our Sprinter Shuttle if your group grows past five passengers.",
+      "It is a frequent choice for a golf outing, a longer airport transfer with multiple travelers and full luggage, or a family reunion run where five passengers and their bags need to travel together comfortably. The extended-length cargo area behind the third row is large enough for several full-size golf bags or a week's worth of luggage for a family heading to the airport, which is the single most common reason clients step up from a midsize SUV to this class. See our Premium SUV page for the Lincoln Navigator if you want the same seating capacity with a different brand's styling, or our Sprinter Shuttle if your group grows past five passengers.",
     ],
     features: [
       'Denali-trim leather seating',
@@ -146,9 +146,9 @@ export const FLEET_DETAILS = {
   'premium-suv': {
     slug: 'premium-suv',
     category: 'Premium SUV',
-    name: 'Cadillac Escalade',
-    nameNote: '2023+ or similar',
-    tagline: "America's premier luxury SUV, with commanding presence.",
+    name: 'Lincoln Navigator',
+    nameNote: '2026+ or similar',
+    tagline: "A flagship luxury SUV, with commanding presence.",
     heroImage: '/images/cadillac-escalade.webp',
     gallery: ['/images/cadillac-escalade.webp', '/images/gallery/escalade-harbor-east.webp'],
     passengers: 6,
@@ -156,7 +156,7 @@ export const FLEET_DETAILS = {
     startingPrice: 'Starting at $125',
     bestFor: ['VIP Arrivals', 'Weddings', 'Prom', 'Corporate Groups'],
     description: [
-      "The Cadillac Escalade is the vehicle clients request by name — three rows of leather seating, a cabin built for presence as much as comfort, and enough room for a group of six with luggage without anyone feeling cramped.",
+      "The Lincoln Navigator is the vehicle clients request by name — three rows of leather seating, a cabin built for presence as much as comfort, and enough room for a group of six with luggage without anyone feeling cramped.",
       "It's our top pick for wedding parties, prom groups who want to arrive together in one vehicle, and VIP or executive arrivals where the vehicle itself is part of the impression.",
       "Corporate clients book it for executive airport arrivals where the vehicle is part of the welcome, and families book it for the same reason rideshare drivers rarely offer: three real rows of seating with everyone's luggage still fitting in the trunk. Pair it with a second sedan for a larger traveling party, or book our Sprinter Executive for a group of eight or more who want the same premium feel. Wedding parties also request it by name for the bridal car, since the three-row seating keeps the bride, groom and immediate family together for photos without splitting across vehicles.",
     ],

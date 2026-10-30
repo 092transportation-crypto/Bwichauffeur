@@ -5,7 +5,7 @@ import { Camera } from 'lucide-react';
 const photos = [
   {
     src: '/images/gallery/fleet-downtown-baltimore.webp',
-    alt: 'BMW 7 Series and Cadillac Escalade ESV chauffeur vehicles staged curbside in downtown Baltimore',
+    alt: 'BMW 7 Series and Lincoln Navigator L chauffeur vehicles staged curbside in downtown Baltimore',
     caption: 'Executive fleet staged in downtown Baltimore',
     wide: true
   },
@@ -16,8 +16,8 @@ const photos = [
   },
   {
     src: '/images/gallery/escalade-harbor-east.webp',
-    alt: 'Black Cadillac Escalade ESV parked at Harbor East on the Baltimore waterfront',
-    caption: 'Escalade ESV at Harbor East, Baltimore'
+    alt: 'Black Lincoln Navigator L parked at Harbor East on the Baltimore waterfront',
+    caption: 'Navigator L at Harbor East, Baltimore'
   },
   {
     src: '/images/gallery/yukon-denali-washington-dc.webp',

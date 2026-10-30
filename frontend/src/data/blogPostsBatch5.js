@@ -123,7 +123,7 @@ A luxury SUV — a Chevrolet Suburban or similar full-size SUV — steps up to *
 
 ### Premium SUV: Commanding Presence for Groups That Want to Arrive That Way
 
-A premium SUV — a Cadillac Escalade or similar — matches the luxury SUV's **five bags** while adding a sixth passenger seat, and it does so with the kind of curb presence that makes it a favorite for client entertainment, milestone celebrations, and any group that wants their arrival to look as good as the occasion feels. It carries the same practical five-to-six passenger capacity as the luxury SUV tier, with a distinctly more commanding profile.
+A premium SUV — a Lincoln Navigator or similar — matches the luxury SUV's **five bags** while adding a sixth passenger seat, and it does so with the kind of curb presence that makes it a favorite for client entertainment, milestone celebrations, and any group that wants their arrival to look as good as the occasion feels. It carries the same practical five-to-six passenger capacity as the luxury SUV tier, with a distinctly more commanding profile.
 
 ### Sprinter Shuttle: Group Transportation Without Complication
 
@@ -164,7 +164,7 @@ Passenger count and luggage volume resolve the vast majority of vehicle-selectio
     faqs: [
       { question: 'What is the passenger and luggage capacity of a business sedan?', answer: 'A business sedan comfortably seats three passengers with two pieces of standard luggage, making it the right choice for a solo traveler, a couple, or a small family with light bags.' },
       { question: 'How many people fit in a Sprinter van?', answer: 'A Mercedes Sprinter — whether shuttle, executive, or limo configuration — seats up to thirteen passengers with room for thirteen pieces of luggage, making it the standard choice for any group past six or seven people.' },
-      { question: 'What is the difference between a luxury SUV and a premium SUV?', answer: 'Both classes carry five pieces of luggage; a premium SUV like a Cadillac Escalade adds a sixth passenger seat and a more commanding curb presence compared to a luxury SUV like a Chevrolet Suburban, which is the standard five-passenger tier.' },
+      { question: 'What is the difference between a luxury SUV and a premium SUV?', answer: 'Both classes carry five pieces of luggage; a premium SUV like a Lincoln Navigator adds a sixth passenger seat and a more commanding curb presence compared to a luxury SUV like a Chevrolet Suburban, which is the standard five-passenger tier.' },
       { question: 'When should I book a first class sedan instead of a business sedan?', answer: 'Both carry the same three passengers and two bags, so the choice comes down to presentation rather than capacity — a first class sedan like a BMW 7 Series or Mercedes S-Class is the right call for board-level guests, VIP clients, or any trip where the vehicle itself is part of the impression.' },
     ],
     relatedPosts: [313, 2, 321],

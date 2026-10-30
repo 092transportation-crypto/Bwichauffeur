@@ -14,8 +14,8 @@ const FleetPage = () => {
   return (
     <>
       <Helmet>
-        <title>Luxury Fleet | Mercedes, BMW, Escalade & Sprinters</title>
-        <meta name="description" content="Mercedes-Benz sedans, BMW 7 Series, Cadillac Escalade SUVs & 14-passenger Sprinter vans — flat rates, late-model, insured. Call 877-609-1919 to book." />
+        <title>Luxury Fleet | Mercedes, BMW, Navigator & Sprinters</title>
+        <meta name="description" content="Mercedes-Benz sedans, BMW 7 Series, Lincoln Navigator SUVs & 14-passenger Sprinter vans — flat rates, late-model, insured. Call 877-609-1919 to book." />
         <link rel="canonical" href="https://www.bwichauffeur.com/luxury-fleet" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -124,7 +124,7 @@ const FleetPage = () => {
           </p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Families and small groups of 3–5 with multiple suitcases usually do best in a Lincoln
-            Nautilus or Cadillac Escalade — the Escalade's third row also works well for golf
+            Nautilus or Lincoln Navigator — the Navigator's third row also works well for golf
             clubs, car seats, or a stroller alongside the luggage. For wedding parties, airport
             groups, or corporate shuttles of 7–14 people, our Mercedes Sprinter vans keep everyone
             together in one vehicle at one flat rate, instead of splitting into two or three cars.
