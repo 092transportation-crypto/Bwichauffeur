@@ -13,6 +13,7 @@ import { MARYLAND_BATCH11 } from './marylandPagesBatch11';
 import { MARYLAND_BATCH12 } from './marylandPagesBatch12';
 import { MARYLAND_BATCH13 } from './marylandPagesBatch13';
 import { MARYLAND_BATCH14 } from './marylandPagesBatch14';
+import { MARYLAND_BATCH15 } from './marylandPagesBatch15';
 
 export const MARYLAND_PAGES = [
   {
@@ -9304,6 +9305,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH12,
   ...MARYLAND_BATCH13,
   ...MARYLAND_BATCH14,
+  ...MARYLAND_BATCH15,
 ];
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);

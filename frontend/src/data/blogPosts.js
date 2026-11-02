@@ -9,6 +9,7 @@ import { BLOG_POSTS_BATCH7 } from './blogPostsBatch7';
 import { BLOG_POSTS_BATCH8 } from './blogPostsBatch8';
 import { BLOG_POSTS_BATCH9 } from './blogPostsBatch9';
 import { BLOG_POSTS_BATCH10 } from './blogPostsBatch10';
+import { BLOG_POSTS_BATCH11 } from './blogPostsBatch11';
 
 export const blogPosts = [
   {
@@ -3731,6 +3732,7 @@ Opening a corporate account is a ten-minute conversation: your routes, your volu
   ...BLOG_POSTS_BATCH8,
   ...BLOG_POSTS_BATCH9,
   ...BLOG_POSTS_BATCH10,
+  ...BLOG_POSTS_BATCH11,
 ];
 
 
