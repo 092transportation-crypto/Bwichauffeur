@@ -10,6 +10,7 @@ import { BLOG_POSTS_BATCH8 } from './blogPostsBatch8';
 import { BLOG_POSTS_BATCH9 } from './blogPostsBatch9';
 import { BLOG_POSTS_BATCH10 } from './blogPostsBatch10';
 import { BLOG_POSTS_BATCH11 } from './blogPostsBatch11';
+import { BLOG_POSTS_BATCH12 } from './blogPostsBatch12';
 import { isPublished } from '../lib/publishSchedule';
 
 // Every post, including ones scheduled for a future date. Only tooling that
@@ -3736,6 +3737,7 @@ Opening a corporate account is a ten-minute conversation: your routes, your volu
   ...BLOG_POSTS_BATCH9,
   ...BLOG_POSTS_BATCH10,
   ...BLOG_POSTS_BATCH11,
+  ...BLOG_POSTS_BATCH12,
 ];
 
 // Live posts only: scheduled posts (date after the build cutoff) are hidden
