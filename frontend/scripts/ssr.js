@@ -65,4 +65,4 @@ function renderPath(urlPath) {
   };
 }
 
-module.exports = { renderPath };
+module.exports = { renderPath, install };

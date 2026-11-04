@@ -10,8 +10,11 @@ import { BLOG_POSTS_BATCH8 } from './blogPostsBatch8';
 import { BLOG_POSTS_BATCH9 } from './blogPostsBatch9';
 import { BLOG_POSTS_BATCH10 } from './blogPostsBatch10';
 import { BLOG_POSTS_BATCH11 } from './blogPostsBatch11';
+import { isPublished } from '../lib/publishSchedule';
 
-export const blogPosts = [
+// Every post, including ones scheduled for a future date. Only tooling that
+// needs the full set (slug/id-collision checks) should read this.
+export const ALL_BLOG_POSTS = [
   {
     id: 1,
     slug: 'premier-luxury-chauffeur-service-maryland-delaware-dc',
@@ -3734,5 +3737,9 @@ Opening a corporate account is a ten-minute conversation: your routes, your volu
   ...BLOG_POSTS_BATCH10,
   ...BLOG_POSTS_BATCH11,
 ];
+
+// Live posts only: scheduled posts (date after the build cutoff) are hidden
+// everywhere — listings, routes, related links, sitemap and prerender.
+export const blogPosts = ALL_BLOG_POSTS.filter(isPublished);
 
 

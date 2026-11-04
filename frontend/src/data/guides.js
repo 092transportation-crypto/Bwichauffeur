@@ -2,8 +2,11 @@
 import { GUIDES_BATCH2 } from './guidesBatch2';
 import { GUIDES_BATCH3 } from './guidesBatch3';
 import { GUIDES_BATCH4 } from './guidesBatch4';
+import { isPublished } from '../lib/publishSchedule';
 
-export const GUIDES = [
+// Every guide, including ones scheduled for a future date (see
+// src/lib/publishSchedule.js). Only collision-check tooling should read this.
+export const ALL_GUIDES = [
   {
     id: 101,
     slug: 'uber-vs-limo-service',
@@ -2698,3 +2701,6 @@ Book early enough to secure the right vehicle for your trip type, but choose a p
   // Batch 4 (2026-10-28) lives in its own file.
   ...GUIDES_BATCH4,
 ];
+
+// Live guides only: scheduled guides dated after the build cutoff are hidden.
+export const GUIDES = ALL_GUIDES.filter(isPublished);
