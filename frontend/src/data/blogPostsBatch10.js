@@ -348,7 +348,7 @@ Weekend afternoons and evenings bring the heaviest downtown and City Dock crowds
 
 ### Getting to Annapolis From BWI, DCA, or Dulles
 
-Annapolis sits closest to BWI of the three major airports, a straightforward trip that is usually the fastest and most direct option if your flight allows a choice. From DCA or Dulles, the drive runs longer and typically routes around DC rather than through it, so building in extra time for that leg matters more than it would from BWI. Our [BWI to Annapolis guide](/blog/how-to-get-from-bwi-to-annapolis-cheapest-ways) breaks down the options from that side in more detail.
+Annapolis sits closest to BWI of the three major airports, a straightforward trip that is usually the fastest and most direct option if your flight allows a choice. From DCA or Dulles, the drive runs longer and typically routes around DC rather than through it, so building in extra time for that leg matters more than it would from BWI. Our [BWI to Annapolis guide](/blog/bwi-to-annapolis-cheapest-way) breaks down the options from that side in more detail.
 
 ### City Dock and State Circle, a Little More Context
 
@@ -450,7 +450,7 @@ When attendees each book their own rideshare, a planner loses visibility into wh
 
 ### Who to Loop In at the Company
 
-For companies that book transportation regularly rather than as a one-off event, our guide on [setting up a corporate travel program](/blog/setting-up-corporate-travel-program-bwi-travel-manager) covers consolidating billing and streamlining repeat bookings — worth setting up before the next event, not during it. If this is one of several similar events your company runs through the year — a quarterly all-hands, a recurring client visit, an annual conference — treating the headcount and pickup pattern as a reusable template saves re-deriving the plan from scratch every time; the specifics change, the underlying shape of the booking usually does not.
+For companies that book transportation regularly rather than as a one-off event, our guide on [setting up a corporate travel program](/blog/bwi-corporate-travel-program-setup) covers consolidating billing and streamlining repeat bookings — worth setting up before the next event, not during it. If this is one of several similar events your company runs through the year — a quarterly all-hands, a recurring client visit, an annual conference — treating the headcount and pickup pattern as a reusable template saves re-deriving the plan from scratch every time; the specifics change, the underlying shape of the booking usually does not.
 
 ### The Checklist, in One Place
 

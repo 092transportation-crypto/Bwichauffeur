@@ -86,8 +86,8 @@ export const MARYLAND_BATCH15 = [
       { q: "Is parking really difficult near the National Aquarium?", a: "On busy weekends, touring-exhibit days, and anytime a nearby Orioles or Ravens game overlaps, yes — nearby garages fill and the one-way grid slows a search for a spot. A chauffeured drop-off avoids it entirely." },
     ],
     related: [
-      { label: "Private Chauffeur Day: Inner Harbor & Fells Point Touring", to: "/private-chauffeur-day-inner-harbor-fells-point-touring" },
-      { label: "Orioles Game Day Car Service, Camden Yards", to: "/orioles-game-day-car-service-camden-yards" },
+      { label: "Private Chauffeur Day: Inner Harbor & Fells Point Touring", to: "/blog/private-chauffeur-day-inner-harbor-fells-point-touring" },
+      { label: "Orioles Game Day Car Service, Camden Yards", to: "/blog/orioles-game-day-car-service-camden-yards" },
       { label: "Royal Farms Arena Transportation", to: "/royal-farms-arena-transportation" },
       { label: "BWI Airport Car Service", to: "/bwi-airport-car-service" },
     ],
