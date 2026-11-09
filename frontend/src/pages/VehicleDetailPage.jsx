@@ -29,6 +29,7 @@ const VehicleDetailPage = () => {
     '@graph': [
       {
         '@type': 'LocalBusiness',
+        '@id': `${SITE_URL}/#business`,
         name: 'BWI Chauffeur',
         telephone: '+1-877-609-1919',
         url: SITE_URL,
@@ -51,7 +52,9 @@ const VehicleDetailPage = () => {
         serviceType: vehicle.category,
         url: `${SITE_URL}/fleet/${vehicle.slug}`,
         description: vehicle.tagline,
-        provider: { '@type': 'LocalBusiness', name: 'BWI Chauffeur' },
+        // Reference the full LocalBusiness node above instead of an inline
+        // stub: a LocalBusiness without an address is invalid markup.
+        provider: { '@id': `${SITE_URL}/#business` },
       },
     ],
   };
