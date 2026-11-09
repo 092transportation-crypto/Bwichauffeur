@@ -2077,4 +2077,343 @@ To reserve your ride, [book online](/booking) or call 877-609-1919 at any hour. 
     ],
     relatedPosts: [7, 387, 318],
   },
+
+  // ---------------------------------------------------------- 2026-11-11 (added 2026-11-09)
+  // Three more scheduled seasonal posts, one per day on Nov 11, 12 and 13
+  // (the days after this batch's last post). Topics checked against every
+  // post, guide, landing page and sitemap URL on all five sites. Fleet
+  // capacities follow fleetDetails.js; policies follow the FAQ and Terms
+  // pages; no prices. Game, plunge and preclearance details are sent to the
+  // official source.
+  {
+    id: 398,
+    slug: "turkey-bowl-calvert-hall-loyola-thanksgiving-day-transportation",
+    title: "The Thanksgiving Day Turkey Bowl: Getting to Calvert Hall vs. Loyola and Home in Time for Dinner",
+    seoTitle: "Thanksgiving Turkey Bowl Game Day Rides | BWI Chauffeur",
+    seoDescription: "Planning a trip to the Thanksgiving Day Turkey Bowl between Calvert Hall and Loyola Blakefield: timing, crowds, alumni groups and getting to dinner on time.",
+    excerpt: "For many Baltimore families, Thanksgiving starts with a high school football game. Here is how to plan the morning of the Turkey Bowl so the rivalry, the reunion and the turkey all fit in one day.",
+    date: "2026-11-11",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/blog/scenario-corporate-2.webp",
+    content: `
+In a lot of Baltimore households, Thanksgiving morning doesn't start in the kitchen. It starts in the stands, wrapped in a scarf in school colors, watching Calvert Hall and Loyola Blakefield play the Turkey Bowl. The rivalry between the two Towson-area Catholic schools goes back to 1920, and it is one of the longest-running high school football rivalries in the country. For alumni, it is a reunion as much as a game; for current students and their families, it is the biggest event of the fall.
+
+It is also a logistical puzzle. The game falls on the same morning that families are cooking, relatives are arriving at BWI, and everyone is trying to be at the table by mid-afternoon. This guide covers how to plan Thanksgiving Day around the Turkey Bowl, from getting to the stadium to getting home for dinner.
+
+## When and Where the Game Is Played
+
+The Turkey Bowl is traditionally played on Thanksgiving morning, which falls on **Thursday, November 26, 2026**. The venue and kickoff time have changed over the years, and the schools announce them each season along with ticket information. Check the official Calvert Hall or Loyola Blakefield athletics announcements before you plan the day, because the location determines everything else: the drive, the parking and how long it takes to get back out.
+
+Both schools are in the Towson area, so most fans come from Baltimore County, the city and Harford County, with alumni flying in from much farther. Our [Towson and Timonium events guide](/blog/towson-timonium-limo-service-local-events) covers how traffic behaves around big events in that part of the county.
+
+## Why the Morning Gets Complicated
+
+Thanksgiving morning has a few things working against a smooth trip to the game:
+
+- **Everyone arrives at once.** Thousands of fans converge on the stadium in the hour before kickoff, and the closest parking fills quickly.
+- **Everyone leaves at once, too.** When the final whistle blows, the whole crowd heads for the exits and the same roads at the same time.
+- **The clock is ticking.** Most families have a dinner time, a turkey in the oven or relatives waiting, and a long wait in post-game traffic eats into it.
+- **It's cold.** Late November mornings in Baltimore County can be near freezing, and a long walk from a distant lot isn't much fun for younger children or older alumni.
+
+## Getting There Without the Parking Hunt
+
+A drop-off close to the stadium entrance avoids most of the problem. Your chauffeur drops your group as near as game-day traffic and any event-management rules allow, then either waits nearby or returns at the time you set. If you want to stay for the trophy presentation and the post-game handshakes, set a pickup time with a buffer; if you need to leave at the final whistle to get dinner started, agree on a pickup spot a short walk from the stadium where traffic is moving.
+
+It helps to agree on that pickup point before kickoff. After the game, phone service can be slow when thousands of people are calling and posting at the same time, so a fixed meeting point and time is more reliable than calling to find each other.
+
+## Alumni Groups and Class Reunions
+
+For many alumni, the Turkey Bowl is the one day of the year when the old class gets together. Groups often meet for breakfast before the game, watch together and head to a bar or someone's house afterward before splitting up for family dinners. One vehicle for the group keeps everyone together and means nobody has to drive after a celebratory toast.
+
+- A **GMC Yukon XL** seats five, and a **Lincoln Navigator** seats six.
+- A **Mercedes Sprinter** carries up to thirteen passengers, a good fit for a reunion group or a family with several generations of alumni. See our [Sprinter Shuttle](/fleet/sprinter-shuttle) page.
+- If the group is coming from several addresses, give us the pickup order and we'll set times so the last person isn't waiting at the curb while the first is still finding a hat.
+
+## Combining the Game With BWI Arrivals
+
+Thanksgiving week is one of the busiest at BWI, and many alumni fly in on Wednesday night or even on Thanksgiving morning. If a relative is landing that morning, it can be easier to book the airport pickup and the game-day ride together: the chauffeur meets them at BWI and brings them straight to the stadium, or drops them at home while the rest of the family is at the game.
+
+Our chauffeurs track inbound flights, so the pickup adjusts to the actual landing time, and airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from touchdown.
+
+## Planning the Rest of Thanksgiving Day
+
+The game is only the start of the day. A few planning tips:
+
+- **Work backward from dinner.** If dinner is at 3 p.m. and the game ends around midday, there's room for a short celebration. If dinner is earlier, plan to leave at the final whistle.
+- **Plan the afternoon rides too.** Grandparents who came to the game may need a ride to a different house for dinner, and guests who drink at dinner will need a ride home that evening.
+- **Consider an hourly booking.** If the day includes the game, a stop at a friend's house and the trip to dinner, keeping the vehicle and chauffeur with you is often easier than separate rides.
+
+## Families of Players and Band Members
+
+If your child is on the team, in the band or cheering, your schedule is different: early arrival, equipment, and a long day for the student. Players and performers usually have their own arrival times set by the school, and families often want to arrive later and leave with their student after the game. Tell us the student's report time and where you'd like to be picked up, and we'll plan around it.
+
+## If the Weather Turns
+
+Thanksgiving morning weather in Baltimore County can range from bright and crisp to cold rain, and the game is played outdoors. Pack rain gear along with the blanket, and check the schools' announcements that morning in case of any schedule change. Wet weather slows traffic leaving the stadium too, so add a little more cushion between the final whistle and your dinner time. If conditions look bad, call us early to adjust the pickup.
+
+## What to Bring
+
+- Warm layers, gloves and a hat, plus a blanket for the stands.
+- Tickets, if required, and any parking or entry information the school provides.
+- A charged phone and the chauffeur's contact saved.
+- A dish or bag for dinner, which can stay in the vehicle during the game if you're going straight to the table afterward.
+
+## Booking Your Thanksgiving Day Rides
+
+Thanksgiving is one of our busiest days, with airport runs, family gatherings and game-day trips all happening at once. Book early, especially for larger vehicles. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before.
+
+You can [book your Turkey Bowl ride online](/booking) or call 877-609-1919 any hour of the day. Tell us the game location once it's announced, your group size and your dinner plans, and we'll build the schedule.
+    `,
+    faqs: [
+      {
+        question: "When is the Calvert Hall vs. Loyola Turkey Bowl?",
+        answer: "It is traditionally played on Thanksgiving morning, which is Thursday, November 26, 2026. The schools announce the venue, kickoff time and ticket information each year.",
+      },
+      {
+        question: "How long has the Turkey Bowl been played?",
+        answer: "The rivalry between Calvert Hall and Loyola Blakefield dates back to 1920, making it one of the longest-running high school football rivalries in the country.",
+      },
+      {
+        question: "Can a chauffeur drop us close to the stadium?",
+        answer: "Yes. Your chauffeur drops your group as close to the entrance as game-day traffic allows, then waits nearby or returns at a set time. Agree on a pickup point before kickoff, since phone service can be slow after the game.",
+      },
+      {
+        question: "What vehicle works for an alumni reunion group?",
+        answer: "A Mercedes Sprinter carries up to thirteen passengers, which suits a class reunion or a multigenerational family. A GMC Yukon XL seats five and a Lincoln Navigator seats six.",
+      },
+      {
+        question: "Can you pick up a relative at BWI on Thanksgiving morning and bring them to the game?",
+        answer: "Yes. We track flights, so the pickup adjusts to the actual landing time, and domestic airport pickups include 45 minutes of complimentary waiting from touchdown.",
+      },
+    ],
+    relatedPosts: [334, 326, 363],
+  },
+
+  // ---------------------------------------------------------- 2026-11-12 (added 2026-11-09)
+  {
+    id: 399,
+    slug: "winter-sun-getaway-bwi-caribbean-mexico-departure-guide",
+    title: "Escaping Winter From BWI: Planning a Caribbean or Mexico Getaway, From Packing to the Ride Home",
+    seoTitle: "Winter Getaway Flights From BWI: A Planner | BWI Chauffeur",
+    seoDescription: "Flying from BWI to the Caribbean or Mexico this winter? Passports, early check-in, the winter coat problem, preclearance on the way home and booking your rides.",
+    excerpt: "A warm-weather trip in January starts and ends in a Baltimore winter. Here is how to handle passports, early flights, the coat you won't need, and the late-night arrival home.",
+    date: "2026-11-12",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Travel Tips",
+    image: "/images/blog/airport-tarmac-sunset.webp",
+    content: `
+Somewhere around the second week of January, a lot of Marylanders start looking at flights to somewhere warm. BWI Marshall has a steady schedule of departures toward the Caribbean and Mexico through the winter, and a week in the sun can make February feel a lot shorter.
+
+The tricky part is that both ends of the trip happen in a Baltimore winter. You leave before dawn in freezing temperatures with a suitcase full of shorts, and you come home late at night to ice on the driveway. This guide covers the practical side of a winter-sun trip from BWI: documents, timing, what to do with your coat, coming back through customs, and getting to and from the airport.
+
+## Check Your Documents Early
+
+International trips have rules that domestic trips don't, and January is the wrong time to discover a problem.
+
+- **Passports.** Most international destinations require a valid passport, and some require it to be valid for a period beyond your travel dates. Check the entry requirements for your destination on the U.S. State Department's travel website, and check every family member's passport, including children's, which expire sooner.
+- **Entry forms and fees.** Some countries require an online form, a tourist card or a fee before arrival. Your airline or the destination's official tourism site will list them.
+- **Cruises.** If your getaway is a cruise departing elsewhere, check the cruise line's document rules, which can differ.
+
+Passport renewals take time, so if anything is close to expiring, start well before you book.
+
+## Plan for an Early Departure
+
+Many flights to the Caribbean and Mexico leave in the early morning, and international trips call for more time at the airport than a domestic hop. Airlines generally recommend arriving well ahead for international departures, and checked-bag cutoffs are firmer. For an early flight, that can mean a pickup well before dawn.
+
+- **Check your airline's recommended arrival time** for international flights, and add a buffer for holiday-season or spring-break crowds.
+- **Have bags and documents ready the night before.** At 4 a.m. nobody wants to be looking for a passport.
+- **Watch the weather.** A snowy morning in Maryland can slow the roads to BWI even when your destination is sunny. Our [winter weather flight delay playbook](/blog/winter-weather-flight-delay-playbook-bwi) covers what to do if a storm hits on travel day.
+
+Our [early morning departure checklist](/blog/bwi-early-morning-departure-checklist) has more tips for pre-dawn flights.
+
+## The Winter Coat Problem
+
+Every winter-sun traveler faces the same small dilemma: you need a heavy coat to get from your front door to the airport, and you'll have no use for it for the next week. Carrying it through the terminal and stuffing it into an overhead bin is awkward, and checking it uses up space.
+
+A door-to-door ride solves this. With a chauffeur picking you up at home and dropping you at the terminal curb, you can leave the heavy coat at home and wear a light layer for the short walk from the car to the door. On the way back, pack a fleece or light jacket at the top of your carry-on for the walk from the terminal door to the car, so you're not stepping out into a February night in a T-shirt.
+
+## Packing for Two Climates
+
+- Pack summer clothes in your checked bag and keep a warm layer in your carry-on for the return.
+- Keep sunscreen and other liquids within the carry-on liquid limits, or put them in your checked bag.
+- Check your airline's baggage allowance, since fees and limits vary by airline and fare.
+- Leave room for anything you'll bring home.
+
+## Coming Home: Customs and Preclearance
+
+Returning international travelers normally clear U.S. Customs and Border Protection on arrival. Some destinations, though, have **U.S. preclearance**, where you clear customs before you board, and your flight arrives as if it were domestic. Several Caribbean and Atlantic destinations, including Aruba, the Bahamas and Bermuda, have offered preclearance. It can make a real difference on a late-night arrival, because you walk off the plane and straight to baggage claim.
+
+If your flight doesn't have preclearance, expect to clear customs at BWI before you can leave. Programs such as Global Entry can speed that up for eligible travelers; check CBP's official information for eligibility and how to apply.
+
+## The Ride Home After a Late Arrival
+
+Return flights from warm-weather destinations often land in the evening or late at night, and winter weather can delay them. That's when a pre-booked ride matters most. Our chauffeurs track your flight and adjust to the actual landing time, and international arrivals include 60 minutes of complimentary waiting from touchdown, which helps if customs takes a while. If you've cleared customs before departure, domestic arrival waiting time of 45 minutes applies.
+
+There's also no need to scrape ice off a car that's been sitting in a long-term lot for a week. Our [BWI parking vs. chauffeur comparison](/bwi-airport-parking-vs-chauffeur-cost-comparison) walks through the trade-offs.
+
+## Choosing a Vehicle for Vacation Luggage
+
+Vacation trips usually mean more luggage than business trips. Here's how our fleet compares:
+
+- **Mercedes-Benz E-Class:** three passengers and about two standard suitcases.
+- **Lincoln Nautilus:** three passengers and up to four bags.
+- **GMC Yukon XL:** five passengers and five bags.
+- **Lincoln Navigator:** six passengers and five bags.
+- **Mercedes Sprinter:** up to thirteen passengers with a dedicated luggage area, ideal for families or friends traveling together.
+
+If you're traveling with young children, we provide car seats on request; see our [car seat service](/car-seat-service) page.
+
+## Traveling With Children
+
+Family winter-sun trips are popular during school breaks, and a few details make them easier. Every child needs their own passport for most international trips, and children's passports are valid for a shorter period than adults', so check expiration dates early. For a pre-dawn pickup, have children dressed in comfortable travel clothes the night before so they can go straight from bed to the car. We provide infant, convertible and booster seats on request; tell us each child's age and size when you book, and the seats will be installed before pickup.
+
+## If a Storm Hits Before You Leave
+
+A winter storm in Maryland can disrupt a trip to the sun before it starts. When a big storm is forecast, airlines often issue travel waivers that let you change your flight without a fee. Check your airline's app or website, and if you move your flight, call us as soon as you can to change the pickup time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter bookings up to 12 hours before, so there's room to adjust if your plans change.
+
+## Booking Your Rides
+
+Book both directions when you book your flights. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter bookings up to 12 hours before. You can [book online](/booking) or call 877-609-1919 any hour. Include both flight numbers so we can track your return.
+    `,
+    faqs: [
+      {
+        question: "How early should I get to BWI for a flight to the Caribbean or Mexico?",
+        answer: "International departures need more time than domestic flights. Check your airline's recommended arrival time and checked-bag cutoff, and add a buffer for winter weather and busy travel periods.",
+      },
+      {
+        question: "What is U.S. preclearance?",
+        answer: "Preclearance lets travelers clear U.S. Customs and Border Protection before boarding, so the flight arrives as if it were domestic. Several destinations, including Aruba, the Bahamas and Bermuda, have offered it. Check CBP's official information for your airport.",
+      },
+      {
+        question: "What do I do with my winter coat on a beach trip?",
+        answer: "With a door-to-door ride, you can leave the heavy coat at home and wear a light layer for the short walk to the terminal. Keep a fleece or light jacket in your carry-on for the walk to the car on the way home.",
+      },
+      {
+        question: "What if my return flight is delayed?",
+        answer: "We track flights and adjust the pickup to your actual landing time. International arrivals include 60 minutes of complimentary waiting from touchdown, and domestic arrivals include 45 minutes.",
+      },
+      {
+        question: "Which vehicle should I book for vacation luggage?",
+        answer: "A Lincoln Nautilus fits three passengers and four bags, a GMC Yukon XL five passengers and five bags, and a Lincoln Navigator six passengers and five bags. A Mercedes Sprinter suits larger groups.",
+      },
+    ],
+    relatedPosts: [202, 318, 13],
+  },
+
+  // ---------------------------------------------------------- 2026-11-13 (added 2026-11-09)
+  {
+    id: 400,
+    slug: "maryland-polar-bear-plunge-sandy-point-transportation",
+    title: "The Maryland Polar Bear Plunge: Planning Your Trip to Sandy Point and Getting Home Warm",
+    seoTitle: "Polar Bear Plunge at Sandy Point: Rides | BWI Chauffeur",
+    seoDescription: "Taking part in the Maryland Polar Bear Plunge at Sandy Point State Park: registration, crowds, parking, teams, what to bring and getting home warm and dry.",
+    excerpt: "Every winter, thousands of people run into the Chesapeake Bay at Sandy Point State Park to raise money for Special Olympics Maryland. Here's how to plan the trip, the team logistics and the warm ride home.",
+    date: "2026-11-13",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/blog/landmark-annapolis-2.webp",
+    content: `
+Few events capture Maryland's sense of fun quite like the Polar Bear Plunge. Each winter, thousands of people in costumes, team shirts and very little else gather at Sandy Point State Park, at the western end of the Bay Bridge, and run into the freezing Chesapeake Bay. The event is organized with the Maryland State Police and raises money for Special Olympics Maryland, and over the years it has become one of the state's best-known charity events.
+
+It's also a large outdoor event in the middle of winter, at a park that's busy even in summer. This guide covers how to plan your plunge: when it usually happens, how teams organize, what to bring, and how to get there and back without spending the afternoon in a parking lot.
+
+## When and How It Works
+
+The Polar Bear Plunge is usually held in late January, with the main plunge on a Saturday and related events around it. Participants register in advance, raise pledges for Special Olympics Maryland, and plunge in waves at scheduled times. The organizers set the schedule, registration rules, fundraising minimums and safety guidance each year, so check the official Polar Bear Plunge website before you make plans.
+
+Follow the organizers' safety instructions on the day, including where and when to enter the water and how long to stay in. The event is staffed with safety personnel, and plungers are expected to follow their directions.
+
+## Getting to Sandy Point
+
+Sandy Point State Park sits right off US-50/301 at the western end of the Chesapeake Bay Bridge, near Annapolis. From BWI and Baltimore, the drive typically runs down I-97 and onto US-50. From DC and the Maryland suburbs, it's straight out US-50.
+
+On plunge day, traffic into the park can be heavy, and the event has historically used parking and shuttle arrangements that change from year to year. Check the official event information for parking, drop-off rules and any shuttle details before you go. Our [Sandy Point State Park car service](/limo-service-near-sandy-point-state-park) page covers the area in more detail.
+
+## Why a Drop-Off Helps on Plunge Day
+
+The plunge itself takes a few minutes. The parts that take longer are getting into the park, getting changed, and getting warm again afterward. A chauffeured drop-off helps with all three:
+
+- **No parking.** Your chauffeur drops your group as close as the event's traffic rules allow, so you don't have to find a space or wait for a remote shuttle.
+- **A warm place to change.** After the plunge, a heated vehicle waiting for you is far more comfortable than a long walk back to a cold car.
+- **Somewhere for your things.** Dry clothes, towels and bags stay in the vehicle instead of being carried around or left on the beach.
+- **No driving afterward.** If you're celebrating with your team after the plunge, nobody has to drive.
+
+## Teams, Schools and Companies
+
+Many people plunge as part of a team: friends, co-workers, schools, clubs or community groups. Teams often meet up before the event, plunge together and celebrate afterward. One vehicle for the team keeps everyone together.
+
+- A **GMC Yukon XL** seats five, and a **Lincoln Navigator** seats six.
+- A **Mercedes Sprinter** carries up to thirteen passengers and has room for bags, a good fit for a team or company group. See our [Sprinter Shuttle](/fleet/sprinter-shuttle) page.
+- If team members are coming from different places, agree on a single meeting point, such as an office, school or park-and-ride, to keep the pickup simple.
+
+## What to Bring
+
+Plunge day is all about staying warm before and after the water.
+
+- **A complete change of dry clothes**, including socks and underwear, packed in a waterproof bag.
+- **Towels**, more than you think you'll need.
+- **Water shoes or old sneakers.** The beach can be rough and cold underfoot.
+- **A warm hat, gloves and a heavy coat** for after the plunge.
+- **A plastic bag for wet clothes**, so they don't soak everything else.
+- **Your registration confirmation** and anything else the organizers ask you to bring.
+- **Something warm to drink** for the ride home.
+
+Costumes are part of the fun, but make sure yours is safe to wear in the water and easy to take off when you're cold.
+
+## Registration and Fundraising Tips
+
+The plunge is a fundraiser first, so registration and pledges are part of the preparation. Register early, especially if you're joining or forming a team, and follow the organizers' guidance on fundraising requirements and deadlines. Teams often set up a group page and share it with friends, family and co-workers in the weeks before the event. If your company is participating, ask whether it has its own team or matching program.
+
+Plan your transportation at the same time you register. Once you know your team size and plunge time, you can choose the right vehicle and set a pickup time that gets everyone there with time to check in and change.
+
+## Watching the Weather
+
+Late January weather on the Chesapeake can be cold, windy and occasionally icy. The organizers may adjust the schedule for conditions, so check the official event updates the morning of the plunge. Wind can also slow traffic near the Bay Bridge approach. If snow or ice is forecast, call us early to talk through timing.
+
+## Getting Dry and Warm Afterward
+
+The most important part of the day after the plunge is getting out of wet clothes and into dry, warm ones quickly. Follow the instructions of the event's safety and medical staff, and use the changing areas the organizers provide. Pack your dry clothes in the order you'll put them on, and keep a towel within reach at the top of your bag. With a chauffeured vehicle, a warm, dry place to sit is waiting for you as soon as you're changed.
+
+## Spectators and Families
+
+You don't have to plunge to enjoy the day. Many families come to cheer on a parent or a team, and spectators fill the beach. If you're bringing children to watch, dress them warmly, agree on a meeting point, and plan for crowds. If children are coming along in the vehicle, we provide car seats on request; see our [car seat service](/car-seat-service) page.
+
+## After the Plunge
+
+Once you're dry and dressed, many teams head to nearby Annapolis or Kent Island for a meal and a celebration. With an hourly booking, the vehicle and chauffeur stay with your group, so you can go from the beach to lunch to home without arranging separate rides. Our [Annapolis visitor's guide](/blog/annapolis-visitors-guide-historic-downtown-naval-academy-city-dock) has ideas for the rest of the day.
+
+## Booking Your Plunge Day Ride
+
+The plunge falls on a busy weekend near Annapolis, so book early, especially for larger vehicles. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. If winter weather forces a change, call us as soon as you know.
+
+You can [book online](/booking) or call 877-609-1919 any hour. Tell us your team size, your plunge time and where you'd like to go afterward.
+    `,
+    faqs: [
+      {
+        question: "When is the Maryland Polar Bear Plunge?",
+        answer: "It is usually held in late January at Sandy Point State Park, with the main plunge on a Saturday. Check the official Polar Bear Plunge website for this year's dates, registration and schedule.",
+      },
+      {
+        question: "Who benefits from the Polar Bear Plunge?",
+        answer: "The plunge raises money for Special Olympics Maryland and is organized with the Maryland State Police. Participants raise pledges as part of registration.",
+      },
+      {
+        question: "Can a chauffeur drop us off at Sandy Point on plunge day?",
+        answer: "Yes. Your chauffeur drops your group as close as the event's traffic rules allow and waits or returns at a set time, so you have a warm vehicle to change in and your bags stay dry.",
+      },
+      {
+        question: "What vehicle works for a plunge team?",
+        answer: "A Mercedes Sprinter carries up to thirteen passengers with room for bags, which suits teams and company groups. A GMC Yukon XL seats five and a Lincoln Navigator six.",
+      },
+      {
+        question: "What should I bring to the Polar Bear Plunge?",
+        answer: "A full change of dry clothes in a waterproof bag, plenty of towels, water shoes, a warm hat, gloves and coat, a bag for wet clothes and your registration confirmation.",
+      },
+    ],
+    relatedPosts: [373, 363, 318],
+  },
 ];
