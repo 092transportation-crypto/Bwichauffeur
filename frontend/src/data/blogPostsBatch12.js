@@ -1759,4 +1759,322 @@ Check the weather, choose your attractions and book tickets in advance. When you
     ],
     relatedPosts: [305, 317, 362],
   },
+
+  // ---------------------------------------------------------- 2026-11-08 (added 2026-11-08)
+  // Three more scheduled seasonal posts, one per day on Nov 8, 9 and 10 (the
+  // days after this batch's last post). Topics checked against every post,
+  // guide and landing page on all five sites. Fleet capacities follow
+  // fleetDetails.js; policies follow the FAQ and Terms pages; no prices.
+  // Third-party details (event dates, USNA leave dates, TSA and airline rules)
+  // are sent to the official source.
+  {
+    id: 395,
+    slug: "festival-of-trees-timonium-thanksgiving-weekend-transportation",
+    title: "Festival of Trees at the Timonium Fairgrounds: A Thanksgiving Weekend Family Outing",
+    seoTitle: "Festival of Trees Timonium: Getting There | BWI Chauffeur",
+    seoDescription: "Planning a Thanksgiving weekend visit to the Festival of Trees at the Timonium Fairgrounds: when to go, parking, crowds, strollers and rides for relatives.",
+    excerpt: "For many Baltimore families, the Festival of Trees at the Maryland State Fairgrounds is how the holiday season starts. Here is how to plan the visit around Thanksgiving weekend crowds, visiting relatives and the drive up I-83.",
+    date: "2026-11-08",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/blog/scenario-doorman.webp",
+    content: `
+In a lot of Baltimore-area households, the long weekend after Thanksgiving has a fixed routine: leftovers on Friday, and at some point over the weekend, a trip to Timonium for the Festival of Trees. The event fills the exhibition buildings at the Maryland State Fairgrounds with decorated Christmas trees, wreaths, gingerbread houses, holiday shopping, live entertainment and activities for children, and it raises money for Kennedy Krieger Institute, the Baltimore hospital and research center that cares for children with disorders of the brain, spinal cord and musculoskeletal system.
+
+It is also one of the busiest family events in the region, held on a weekend when many households are hosting relatives who flew into BWI a few days earlier. This guide covers how to plan the outing: when to go, what the crowds and parking are like, and how to handle the trip when your group includes grandparents, small children or out-of-town guests who don't know the area.
+
+## What to Expect at the Festival
+
+The festival is spread across the fairgrounds' indoor exhibition halls, so most of the visit is spent walking and browsing under one roof. Decorated trees and wreaths are the centerpiece, many of them designed by local families, schools and businesses, and visitors often spend as much time reading the stories behind the trees as looking at the decorations. There are holiday vendors, a gingerbread display, stage performances and children's activities. Families with young children usually plan for two to three hours, and many visitors return year after year.
+
+Dates, hours, ticketing and any special sessions are set by Kennedy Krieger each year. The festival has traditionally been held over Thanksgiving weekend, but check the official Festival of Trees website for this season's schedule, ticket options and rules on strollers and bags before you plan the day.
+
+## Picking the Best Time to Go
+
+Like most Thanksgiving weekend events, the Festival of Trees is busiest in the late morning and early afternoon on Friday and Saturday, when families who have the day off arrive together. A few patterns help:
+
+- **Arrive at opening.** The first hour is generally the calmest, with shorter lines at the entrance and more room in front of the trees.
+- **Consider a later afternoon visit.** Some families come after lunch and leave around dinnertime, once the morning crowd has thinned.
+- **Sunday is often lighter**, although many visitors also spend it traveling home, which adds traffic on I-83 and around BWI.
+- **Check for special sessions.** Some years have offered special hours or ticketed events; the official site lists them.
+
+## Parking and Traffic Around the Fairgrounds
+
+The fairgrounds sit along York Road in Timonium, just off I-83, and the event uses the fairgrounds' own lots. On peak days those lots fill and traffic backs up on York Road and the Timonium Road and Padonia Road exits. Expect a slow approach in the hour before and after midday, and a walk from wherever you end up parking to the exhibition halls.
+
+That walk is the part that's hardest on older relatives and on parents managing a stroller in November weather. A drop-off at the entrance avoids it altogether. If you book a chauffeur for the trip, the driver drops your group as close to the entrance as event traffic allows, then waits nearby or returns at the time you set. Our [Towson and Timonium event guide](/blog/towson-timonium-limo-service-local-events) covers how the area handles traffic for other big events at the fairgrounds.
+
+## Planning Around Visiting Relatives
+
+Thanksgiving weekend is when out-of-town family is in town, and the Festival of Trees is a natural outing for them. A few things to think about when you're hosting:
+
+- **One vehicle, one group.** Rather than splitting the family across two or three cars, a single larger vehicle keeps everyone together. A GMC Yukon XL seats five and a Lincoln Navigator seats six, while a Mercedes Sprinter carries up to thirteen passengers, enough for grandparents, parents and cousins in one trip. See our [Sprinter Shuttle](/fleet/sprinter-shuttle) page for details.
+- **Pick up guests where they're staying.** If relatives are at a hotel near BWI or in Towson, the vehicle can collect them on the way.
+- **Combine with an airport run.** Relatives flying home on Sunday can go straight from the festival to BWI with their bags in the vehicle, which saves a trip back to the house. Airport drop-offs work well when there's a comfortable buffer before the flight.
+
+## Visiting With Young Children
+
+Children love the trees, the gingerbread and the entertainment, but the event can be crowded at child height. A few practical tips from families who go every year:
+
+- Check the official site's stroller policy before you go. On busy days a carrier can be easier than a stroller in tight aisles.
+- Pick a meeting spot when you arrive in case anyone gets separated.
+- Bring a snack and water; lines for food can be long at peak times.
+- Plan to leave before children are completely worn out. The last half hour is rarely the best one.
+
+If you're traveling with infants or toddlers, we provide car seats on request. Tell us each child's age and size when you book and the seats will be installed before pickup. Our [car seat service](/car-seat-service) page explains how it works.
+
+## What to Bring
+
+A little preparation makes the visit smoother, especially with a large group:
+
+- **Your tickets or confirmation**, on your phone or printed, plus a backup on a second phone.
+- **A way to pay vendors.** The holiday shops are part of the fun, so bring a card and some cash.
+- **A reusable shopping bag** for ornaments, gingerbread and gifts. If you expect to buy a lot, mention it when you book so the vehicle has room.
+- **Light layers.** The halls warm up quickly with the crowds, even when it's cold outside.
+- **A charged phone** with your chauffeur's contact saved, so pickup at the end of the visit is a quick call rather than a search through the parking lot.
+
+## Weather and the Trip Home
+
+Late November weather in Baltimore County ranges from crisp and sunny to cold rain, and the occasional early snow. The festival is indoors, but the walk from the lots isn't, and neither is the wait at the curb afterward. Dress children in layers that come off easily inside, where the halls can be warm with the crowds.
+
+After the visit, many families head on to dinner in Towson or Hunt Valley, or go home to the leftovers. If you're adding stops, mention them in your booking so the schedule works for everyone.
+
+## Booking a Ride for the Festival
+
+Thanksgiving weekend is one of the busiest stretches of the year for us, with airport runs, family gatherings and holiday events all happening at once, so it's worth booking early, especially for larger vehicles. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before, so you can reserve now and adjust later if plans change.
+
+You can [request your festival ride online](/booking) with your pickup addresses, group size and the time you'd like to arrive, or call 877-609-1919 any hour of the day. If relatives are flying in for the holiday, we can schedule their BWI pickups at the same time.
+    `,
+    faqs: [
+      {
+        question: "Where is the Festival of Trees held?",
+        answer: "The Festival of Trees is held in the exhibition buildings at the Maryland State Fairgrounds on York Road in Timonium, just off I-83. Check the official Festival of Trees website for this year's dates, hours and ticket options.",
+      },
+      {
+        question: "When is the Festival of Trees least crowded?",
+        answer: "Opening time is usually the calmest part of the day, and late afternoon can be quieter than late morning. Friday and Saturday of Thanksgiving weekend tend to be the busiest days.",
+      },
+      {
+        question: "Can a chauffeur drop us off near the entrance?",
+        answer: "Yes. Your chauffeur drops your group as close to the entrance as event traffic allows and either waits nearby or returns at the time you set, which saves older relatives and families with strollers the walk from the lots.",
+      },
+      {
+        question: "What vehicle works for a big family group?",
+        answer: "A GMC Yukon XL seats five and a Lincoln Navigator seats six. For larger groups, a Mercedes Sprinter carries up to thirteen passengers, so grandparents, parents and children can travel together.",
+      },
+      {
+        question: "Can you take relatives to BWI after the festival?",
+        answer: "Yes. Guests flying home that day can bring their luggage in the vehicle and go straight from Timonium to BWI. Allow a comfortable buffer before the flight, especially on Thanksgiving weekend.",
+      },
+    ],
+    relatedPosts: [357, 326, 335],
+  },
+
+  // ---------------------------------------------------------- 2026-11-09 (added 2026-11-08)
+  {
+    id: 396,
+    slug: "naval-academy-midshipmen-thanksgiving-winter-leave-bwi-travel",
+    title: "Midshipmen Going Home for the Holidays: Naval Academy Leave Travel Through BWI",
+    seoTitle: "Naval Academy Holiday Leave Travel via BWI | BWI Chauffeur",
+    seoDescription: "How Naval Academy midshipmen and their families can plan Thanksgiving and winter leave travel between Annapolis and BWI, from departure day to the return trip.",
+    excerpt: "When leave begins, a large share of the Brigade heads for BWI at once, and when it ends, everyone needs to be back on time. Here is how midshipmen and Navy families can plan the trip between Annapolis and the airport.",
+    date: "2026-11-09",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Airport Guide",
+    image: "/images/blog/landmark-annapolis-1.webp",
+    content: `
+Twice in a few weeks every fall, Annapolis empties out. When Thanksgiving leave begins, and again when winter leave starts after fall semester exams, thousands of midshipmen leave the Naval Academy for home, and for many of them home is a flight away. BWI Marshall, about half an hour up the road, is where most of those trips start.
+
+For parents, this is one of the most anticipated days of the year. It is also a logistics problem: a large group of travelers trying to reach the same airport in the same window, often with limited time, plenty of luggage and little patience for a missed connection. And the return trip matters even more than the departure, because a midshipman who comes back late from leave has a much bigger problem than a missed flight. This guide covers how to plan both directions.
+
+## Know the Dates Before You Book the Flights
+
+Leave periods are set by the Naval Academy's academic calendar and by each midshipman's own schedule, including exams, watch duties and any other obligations. Thanksgiving leave usually begins shortly before the holiday, and winter leave begins once fall exams and other commitments are finished. Exact dates and times change from year to year, so midshipmen and families should confirm them through official Academy sources before buying airline tickets.
+
+That last point matters. Families sometimes book flights months ahead based on the previous year's calendar, then discover that an exam or duty assignment pushes the departure later. A refundable fare or a flight with some buffer after the earliest release time saves a lot of stress.
+
+## Getting From the Yard to BWI
+
+### Where to Meet
+
+Access to the Naval Academy grounds is controlled, and the rules for visitors and outside vehicles can change with security conditions. Most families and car services arrange to meet midshipmen at an agreed spot outside a gate or in downtown Annapolis rather than planning to drive onto the Yard. Check the Academy's current visitor access information, and agree on the exact meeting point and a phone number before departure day. Our [Naval Academy transportation](/naval-academy-transportation) page covers the area around the Yard in more detail.
+
+### How Long the Drive Takes
+
+The trip from Annapolis to BWI usually runs north on I-97 and takes around half an hour in normal traffic, but leave days often coincide with heavy holiday traffic on US-50 and the roads around the airport. Our [BWI to Annapolis](/bwi-to-annapolis) page describes the route. For a domestic flight during the holiday rush, plan to reach the terminal at least two hours before departure, more if checking bags.
+
+### Sharing a Ride With Classmates
+
+When several midshipmen are flying out of BWI within a couple of hours of each other, sharing one vehicle is often the simplest option. A GMC Yukon XL seats five and a Lincoln Navigator seats six, and a Mercedes Sprinter carries up to thirteen passengers with room for their bags. One pickup time keeps the group together, and the chauffeur can drop everyone at their airline's door at the terminal.
+
+## Parents Booking From Out of State
+
+Many leave-day rides are booked by parents who live hundreds of miles away and want to know their midshipman will make the flight. A few tips make that easier:
+
+- **Put the midshipman's mobile number in the booking** so the chauffeur can coordinate directly on the day.
+- **Include the flight number.** We track flights, which helps if a departure time changes.
+- **Agree on a backup plan** if release times slip. A quick call to dispatch at 877-609-1919 is enough to move a pickup.
+- **Mention luggage.** Winter leave usually means more bags than Thanksgiving, particularly for anyone bringing gifts home.
+
+## When BWI Isn't the Best Airport
+
+BWI is the closest major airport to Annapolis and the natural choice for most trips, but it isn't always the best fit. Midshipmen heading to the West Coast, to smaller cities or overseas sometimes find a better nonstop or a more convenient connection from Reagan National or Dulles. Both are farther from Annapolis than BWI, and Dulles in particular can take well over an hour in holiday traffic, so leave more time than you would for BWI. We serve all three airports, so one booking can take a group from the Yard to whichever airport each person is flying from, with stops planned in the most efficient order.
+
+## What to Have Ready on Departure Day
+
+- Government ID and boarding pass, with the airline's app downloaded and notifications turned on.
+- Bags packed the night before, with anything that needs to come home for repairs or the holidays already inside.
+- A charged phone and the chauffeur's contact saved.
+- The exact meeting point and time, agreed with everyone sharing the ride.
+
+## The Return Trip: Plan Around Your Deadline
+
+Coming back is where planning pays off. Leave ends at a fixed time, and the consequences of missing it are serious. Several things can work against a midshipman on the last day of leave:
+
+- **Holiday flight disruptions.** The Sunday after Thanksgiving and the days after New Year's are among the busiest travel days of the year, and winter weather anywhere in the country can delay a connection.
+- **Late arrivals.** A flight that lands at BWI late in the evening leaves little room if anything slips.
+- **Everyone landing at once.** Many midshipmen return on the same day, so ground transportation from BWI to Annapolis is in heavy demand.
+
+The safest approach is to choose a flight that lands well before the return deadline, ideally with a later flight that day as a fallback, and to book the ride from BWI in advance. Our chauffeurs track inbound flights and adjust to the actual landing time. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from touchdown, so a late flight doesn't mean a missed ride. Our [winter weather flight delay playbook](/blog/winter-weather-flight-delay-playbook-bwi) covers what to do when a storm hits on travel day.
+
+## Families Visiting Annapolis Over Leave
+
+Some families do it the other way around: they fly into BWI, spend a day or two in Annapolis, and then travel home with their midshipman. If that's your plan, consider booking the whole trip at once: airport pickup, hotel drop-off, and the departure run to BWI with everyone's bags. Our [Annapolis visitor's guide](/blog/annapolis-visitors-guide-historic-downtown-naval-academy-city-dock) covers things to do downtown and around City Dock.
+
+## Booking and Changes
+
+Leave days book quickly because so many travelers want the same few hours. Reserve as soon as your flights are confirmed. If plans change, sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter bookings up to 12 hours before. You can [book online](/booking) or call 877-609-1919 at any hour. Tell us it's a leave-day trip, and include the meeting point and every flight number in the group.
+    `,
+    faqs: [
+      {
+        question: "How long does it take to get from the Naval Academy to BWI?",
+        answer: "In normal traffic the drive from Annapolis to BWI takes around half an hour, usually via I-97. Leave days often fall during heavy holiday traffic, so build in extra time and aim to reach the terminal at least two hours before a domestic flight.",
+      },
+      {
+        question: "Can the chauffeur pick up a midshipman on the Yard?",
+        answer: "Access to the Naval Academy grounds is controlled and rules for outside vehicles can change. Most rides use an agreed meeting point outside a gate or in downtown Annapolis. Check the Academy's current visitor access information.",
+      },
+      {
+        question: "Can several midshipmen share one vehicle to BWI?",
+        answer: "Yes. A GMC Yukon XL seats five and a Lincoln Navigator seats six. A Mercedes Sprinter carries up to thirteen passengers with room for luggage, which suits a group flying out around the same time.",
+      },
+      {
+        question: "Can parents book the ride from out of state?",
+        answer: "Yes. Book online or by phone and include the midshipman's mobile number, the flight number and the meeting point so the chauffeur can coordinate directly on the day.",
+      },
+      {
+        question: "What if a return flight to BWI is delayed?",
+        answer: "We track inbound flights and adjust the pickup to the actual landing time. Domestic airport pickups include 45 minutes of complimentary waiting from touchdown, and international arrivals include 60 minutes.",
+      },
+    ],
+    relatedPosts: [373, 365, 318],
+  },
+
+  // ---------------------------------------------------------- 2026-11-10 (added 2026-11-08)
+  {
+    id: 397,
+    slug: "flying-bwi-holiday-gifts-extra-luggage-tsa-tips",
+    title: "Flying Out of BWI With Holiday Gifts and Extra Bags: What to Pack, Wrap and Ship",
+    seoTitle: "Holiday Gifts & Extra Bags Through BWI | BWI Chauffeur",
+    seoDescription: "Traveling through BWI with holiday gifts? What TSA says about wrapped presents, food and liquids, how to pack extra bags, and how to choose a ride with room.",
+    excerpt: "Holiday trips come with more luggage than any other trip of the year. Here is how to get presents, food and extra suitcases through BWI without unwrapping gifts at the checkpoint or squeezing bags into the back seat.",
+    date: "2026-11-10",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Travel Tips",
+    image: "/images/blog/airport-terminal-glass.webp",
+    content: `
+Holiday travel is the one time of year when a weekend trip can involve more luggage than a two-week vacation. There are presents for the family you're visiting, maybe a box of crab cakes or a tin of Berger cookies to bring along, and on the way back, everything you were given. All of it has to get through BWI's security checkpoints and into the overhead bins or the cargo hold, and before any of that, into the car that takes you to the airport.
+
+This guide covers the practical side of traveling with gifts and extra bags at BWI Marshall: what TSA says about wrapped presents, which gifts belong in checked bags, how to think about baggage fees and space, and how to make sure the ride to the airport has room for everything.
+
+## Don't Wrap Gifts You're Carrying On
+
+The single most useful holiday travel tip from TSA is simple: don't wrap gifts that will go through security. If a wrapped package needs a closer look, the officer may have to unwrap it. TSA suggests bringing gifts unwrapped, using gift bags or boxes that open easily, or wrapping them when you arrive.
+
+The same applies to checked bags, which can also be opened for inspection. If you want presents to arrive looking perfect, pack the wrapping paper and tape and finish the job at your destination. Gift bags and tissue paper fold flat and travel well.
+
+## Gifts That Belong in Checked Luggage
+
+Many popular holiday gifts are liquids, gels or aerosols, and the carry-on rule for those items is the same at the holidays as the rest of the year: containers of 3.4 ounces (100 milliliters) or less, in a single quart-size bag. Anything bigger goes in a checked bag or gets shipped. Common holiday examples include:
+
+- **Perfume, cologne and skincare gift sets** over the size limit.
+- **Wine, spirits and craft beer.** Alcoholic beverages have their own rules for checked bags based on alcohol content and quantity, so check TSA's guidance before packing bottles.
+- **Jams, sauces, honey, maple syrup and other spreadable or pourable foods** in larger jars.
+- **Snow globes** that are larger than TSA allows in carry-ons. Small ones may be permitted in the quart bag; check the current rule before you pack one.
+- **Candles made of gel.** Solid wax candles are generally fine in carry-ons, but gel candles are treated differently.
+
+Baked goods are a pleasant exception. Pies, cakes, cookies and bread are generally allowed through the checkpoint, though they may get extra screening. Because rules are updated from time to time, use the "What Can I Bring?" tool on TSA's website or app to check specific items before you pack.
+
+## Bringing Holiday Food From Home
+
+Marylanders flying out for the holidays often pack food: crab cakes, a container of soup, a frozen dessert or a cooler of seafood for the family. Solid foods are generally fine, but the cold packs keeping them fresh have their own rule. Ice and ice packs are allowed through the checkpoint only if they are frozen solid when screened; if they've partly melted and there is liquid at the bottom, they fall under the liquids rule. Dry ice is permitted in limited amounts with airline approval and proper packaging, so check with your airline before packing a cooler that uses it. For anything perishable, plan the timing so the food spends as little time as possible out of the freezer, and tell your chauffeur if you're bringing a cooler so it rides upright in the cargo area.
+
+## Electronics and Batteries
+
+Gadgets are some of the most popular gifts, and they come with a rule that surprises people: spare lithium batteries and power banks must travel in carry-on bags, not checked luggage. Devices with batteries installed are generally best kept in the cabin as well. If you're bringing a new tablet, game console or e-reader as a present, put it in your carry-on, and leave it unwrapped so it can be screened.
+
+## Check Your Airline's Bag Rules Before You Pack
+
+Baggage policies vary by airline and fare, and they have changed in recent years. Southwest, BWI's largest carrier, ended its long-standing free checked bag policy for most fares in 2025, so travelers who used to bring an extra suitcase at no charge should check what their fare includes. Before a holiday trip, look up your airline's checked bag allowance, weight limits and fees, and decide whether an extra bag, shipping or a mix of both makes the most sense.
+
+## Consider Shipping Gifts Ahead
+
+For heavy, bulky or fragile gifts, shipping is often easier than flying with them. Ordering online and sending the gift directly to your destination avoids baggage fees, weight limits and the risk of a crushed box in the cargo hold. Leave plenty of time: carriers set holiday shipping deadlines in December, and those dates come sooner than many people expect.
+
+## Packing for the Trip Home
+
+The return trip is where luggage space really runs out. A few habits help:
+
+- **Pack a foldable duffel** in your suitcase for gifts you receive.
+- **Weigh bags before leaving for the airport.** A luggage scale costs little and avoids repacking at the counter.
+- **Keep valuable gifts and anything fragile in your carry-on.**
+- **Leave room in your plans for the ride home from BWI.** If you land with more bags than you left with, the car you booked needs to fit them.
+
+If something does get left behind on the way through the airport, our [BWI lost and found guide](/blog/bwi-lost-and-found-what-to-do-if-you-leave-something-behind) explains where to start.
+
+## Choosing a Vehicle With Enough Room
+
+Holiday travelers often underestimate how much space they'll need on the way to BWI and especially on the way home. Here's how our fleet compares for luggage:
+
+- **Mercedes-Benz E-Class:** three passengers and about two standard suitcases. Good for one or two travelers with normal luggage.
+- **Lincoln Nautilus:** three passengers and up to four bags, a good step up for a couple with gifts.
+- **GMC Yukon XL:** five passengers with room for five bags.
+- **Lincoln Navigator:** six passengers with room for five bags. See our [Premium SUV](/fleet/premium-suv) page.
+- **Mercedes Sprinter:** up to thirteen passengers and a dedicated luggage area for large families or groups.
+
+When you book, tell us how many suitcases, carry-ons, boxes and car seats you'll have. It's much easier to choose the right vehicle in advance than to discover at the curb that a sedan can't fit everything.
+
+## Getting to the Checkpoint on Time
+
+Allow extra time at BWI during the holidays, especially if you're checking bags. Bag drop lines get long on peak days, and if you have TSA PreCheck, our [PreCheck drop-off guide](/tsa-precheck-clear-bwi-airport-chauffeur-drop-off-guide) explains how to get dropped at the right part of the terminal. Your chauffeur handles bags from your door to the curb, and with a little planning, your gifts arrive the way you packed them.
+
+To reserve your ride, [book online](/booking) or call 877-609-1919 at any hour. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter bookings up to 12 hours before.
+    `,
+    faqs: [
+      {
+        question: "Can I bring wrapped gifts through security at BWI?",
+        answer: "You can, but TSA may need to unwrap a gift if it requires a closer look. TSA recommends bringing gifts unwrapped, using gift bags or easy-open boxes, or wrapping them after you arrive.",
+      },
+      {
+        question: "Can I carry a pie or cookies through TSA?",
+        answer: "Yes. Pies, cakes, cookies and other baked goods are generally allowed through the checkpoint, although they may receive additional screening. Check TSA's \"What Can I Bring?\" tool for specific items.",
+      },
+      {
+        question: "Can I pack a power bank or spare batteries in my checked bag?",
+        answer: "No. Spare lithium batteries and power banks must travel in carry-on bags. Devices with batteries installed are generally best kept in the cabin too.",
+      },
+      {
+        question: "Which vehicle should I book if I have lots of holiday luggage?",
+        answer: "A Lincoln Nautilus fits three passengers and up to four bags, a GMC Yukon XL fits five passengers and five bags, and a Lincoln Navigator fits six passengers and five bags. A Mercedes Sprinter has a dedicated luggage area for large groups.",
+      },
+      {
+        question: "Should I ship gifts instead of flying with them?",
+        answer: "For heavy, bulky or fragile gifts, shipping is often easier and can cost less than an extra checked bag. Check your carrier's December shipping deadlines and your airline's baggage fees before deciding.",
+      },
+    ],
+    relatedPosts: [7, 387, 318],
+  },
 ];
