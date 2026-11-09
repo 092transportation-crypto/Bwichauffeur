@@ -41,7 +41,7 @@ export const CONCERT_VENUES = [
       },
       {
         q: 'Can you take a group to a show at CFG Bank Arena?',
-        a: 'Yes. Our Mercedes Sprinter vans carry up to 14 passengers, so your whole group rides together. Sedans and SUVs are available for smaller parties.',
+        a: 'Yes. Our Mercedes Sprinter vans carry up to 13 passengers, so your whole group rides together. Sedans and SUVs are available for smaller parties.',
       },
       {
         q: 'How much does a limo to CFG Bank Arena cost?',
