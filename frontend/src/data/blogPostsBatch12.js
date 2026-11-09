@@ -2889,4 +2889,237 @@ You can [book online](/booking) or call 877-609-1919 any hour. Tell us the game,
     ],
     relatedPosts: [350, 329, 313],
   },
+
+  // ---------------------------------------------------------- 2026-11-18 (keyword gap, added 2026-11-09)
+  {
+    id: 405,
+    slug: "lights-on-the-bay-sandy-point-holiday-lights-guide",
+    title: "Lights on the Bay at Sandy Point: Timing, Traffic and How to Enjoy the Drive",
+    seoTitle: "Lights on the Bay at Sandy Point: Visit Guide | BWI Chauffeur",
+    seoDescription: "Plan a visit to Lights on the Bay at Sandy Point State Park: when to go, US-50 and Bay Bridge traffic, entry lines, vehicle size questions and getting home.",
+    excerpt: "Lights on the Bay turns the road through Sandy Point State Park into a drive-through holiday light show beside the Chesapeake Bay. Here's how to time your visit, handle US-50 traffic near the Bay Bridge and enjoy the show without the stress.",
+    date: "2026-11-18",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/blog/landmark-annapolis-2.webp",
+    content: `
+Lights on the Bay is one of the Annapolis area's best-loved holiday traditions. Each winter season, the road through Sandy Point State Park becomes a drive-through holiday light show, with lit displays and themed scenes along the park road and the Chesapeake Bay and the Bay Bridge in the background. Families come back year after year, and for many people around Anne Arundel County it is how the holidays officially start.
+
+Because it's a drive-through show, the experience depends heavily on the drive itself: when you go, how long you sit in line, what the traffic is like on US-50 near the Bay Bridge, and who in the car actually gets to look at the lights. This guide covers how Lights on the Bay usually works, how to time a visit, and how to make the evening easy for everyone in the vehicle, including the driver.
+
+Dates, hours, ticket prices and rules are set by the organizers and can change from year to year, so check the official Lights on the Bay website before you go.
+
+## What Lights on the Bay Is
+
+Lights on the Bay is a drive-through holiday light display inside Sandy Point State Park, the state park on the western shore of the Chesapeake Bay at the foot of the Bay Bridge. Instead of walking a path, you stay in your vehicle and drive slowly along a route lined with light displays. It usually runs in the evenings through the holiday season, typically starting around the middle of November and continuing into the new year, but the exact opening and closing dates vary, so confirm the current season's schedule with the organizer.
+
+Admission is usually charged per vehicle rather than per person, and the organizers may offer advance tickets or set entry rules that differ from past years. Again, the official site is the place to check what applies this season.
+
+If you know Sandy Point from summer beach days or from the [Maryland Polar Bear Plunge at Sandy Point](/blog/maryland-polar-bear-plunge-sandy-point-transportation), the setting will be familiar, but the experience is completely different: no crowds on the sand, just a slow line of headlights and a long string of lights by the water.
+
+## Timing Your Visit
+
+Lights on the Bay draws steady crowds through the season, and the wait to get in depends mostly on when you arrive. A few patterns hold most years:
+
+- **Weeknights are usually quieter** than Fridays and Saturdays. If your schedule allows, a Monday through Thursday visit often means a shorter entry line.
+- **Early evening is popular with families.** The first couple of hours after the show opens tend to fill with families who want young children home for bedtime. Arriving later in the evening can mean a shorter wait, but check the closing time and the last entry time before you plan a late visit.
+- **The weeks around Christmas are busiest.** Weekends in December and the days between Christmas and New Year's, when schools are out and visitors are in town, usually bring the longest lines.
+- **Weather matters.** Clear, cold nights tend to draw crowds. Rain, wind or ice can thin them out, but they can also lead to a delayed opening or a closed night. Check the organizer's site or social channels for weather updates before you leave.
+
+Whatever night you choose, build in real time for the line. The drive through the displays is short compared with the time you might spend waiting to reach them on a busy night.
+
+## Traffic on US-50 Near the Bay Bridge
+
+Sandy Point State Park sits right beside US-50/301, at one of the last exits on the western shore before the Chesapeake Bay Bridge. That location is what makes the drive to Lights on the Bay simple on a quiet night and slow on a busy one.
+
+Things to know about the approach:
+
+- **You don't need to cross the bridge.** The park is on the western side, so you reach it before the bridge itself. The exit is close to the bridge approach, though, so traffic heading for the bridge can affect you.
+- **Friday evenings can be heavy.** Eastbound traffic on US-50 builds on Friday afternoons and evenings as people head to the Eastern Shore, even outside summer. If you're visiting on a Friday, expect slower traffic as you near the park exit.
+- **Holiday travel days add volume.** The days around Thanksgiving, Christmas and New Year's bring extra traffic on US-50 toward and away from the bridge. Thanksgiving week is one of the busiest stretches of the year on many Maryland highways.
+- **Bridge operations can back things up.** The Maryland Transportation Authority (MDTA) sometimes runs two-way traffic on one of the spans, closes lanes for maintenance or adjusts operations for weather and incidents. Any of these can slow traffic approaching the bridge. Check MDTA's Bay Bridge traffic information before you head out.
+- **Watch the park entrance line.** On busy nights, the line for Lights on the Bay can extend from the park toward the exit ramp. Follow any directions from park staff and traffic officers, and don't stop on the highway shoulder.
+
+If you're coming from Annapolis, the drive is short. From Baltimore, Columbia, BWI or the Washington suburbs, the route usually involves I-97 or US-50, and the time depends almost entirely on traffic, so check a live traffic app before you leave and allow a buffer.
+
+## Can a Limo or Sprinter Drive Through Lights on the Bay?
+
+This is the question we hear most from groups, and the honest answer is that it depends on the organizer's rules for that season. Drive-through light shows often have rules about larger vehicles, such as height or length limits, separate admission for larger vehicles, or specific nights or entry lanes for them. Those rules can change from year to year.
+
+Before you book any vehicle larger than an SUV, check with the Lights on the Bay organizer whether that type of vehicle is allowed through the display, whether there is a different admission rate for it, and whether any particular nights or times apply. When you book with us, tell us where you are going, and share whatever the organizer tells you so we can plan around it.
+
+Here's how our fleet fits different groups:
+
+- A **Lincoln Navigator** seats six and gives passengers a high seating position, which helps everyone see the lights through the windows.
+- A **GMC Yukon XL Denali** seats five with plenty of room for winter coats and blankets.
+- A **Mercedes Sprinter** carries up to thirteen passengers, the natural choice for a larger family, a holiday party or a group of friends. See our [Sprinter Shuttle](/fleet/sprinter-shuttle) page for details. For groups larger than thirteen, we can send two or more Sprinters, subject to the organizer's vehicle rules.
+
+Higher seating in an SUV or Sprinter usually gives rear passengers a better view than a low car, which matters at a show you watch through the glass.
+
+## Making the Drive Better for Everyone
+
+At a drive-through show, the person behind the wheel sees the least. They're watching brake lights, following the route and keeping a safe distance, while everyone else looks out the windows. With a chauffeur, the whole family gets to watch, including the parent who would normally drive.
+
+A few tips for any visit:
+
+- **Follow the posted rules on the route.** Drive-through shows typically ask vehicles to keep moving slowly and stay in line, and they may have rules about headlights, windows or getting out of the vehicle. Follow the organizer's and park staff's instructions.
+- **Bring snacks and drinks for the line** if you're going on a busy night, and use the restroom before you join the queue.
+- **Have tickets ready.** If tickets are sold in advance or a QR code is required, keep it handy on a phone so entry is quick.
+- **Charge your phone** for photos, and remember that photos through glass come out better with the interior lights off.
+- **Dress warmly anyway.** You'll be in the vehicle, but you may want to step out at stops before or after the show, and the bay wind is cold in December.
+
+## Turning It Into a Holiday Evening
+
+Lights on the Bay pairs naturally with a holiday dinner in Annapolis, just a few miles away. Downtown Annapolis is decorated for the season, and an evening can easily start with dinner near City Dock or in Eastport and end with a slow drive through the lights. Our [Annapolis limo service](/limo-service-annapolis-md) page covers trips around the city.
+
+With hourly service, the vehicle stays with you for the whole evening, so you can stop for dinner, see the lights and head home without anyone driving or parking. Some groups combine Lights on the Bay with other displays around the region. Our [holiday lights tours guide](/holiday-lights-limo-tours-maryland-dc) covers the major displays in Maryland, DC and Northern Virginia and how to plan a route between them, and our post on [Baltimore holiday lights and the Christmas Village](/blog/baltimore-holiday-lights-christmas-village-transportation) covers the city side.
+
+If children are coming, we provide car seats on request, so you don't have to move seats between vehicles.
+
+## Booking Your Ride to Lights on the Bay
+
+Popular December weekends book up, so reserve early once you've chosen a night. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before.
+
+You can [book online](/booking) or call 877-609-1919 any hour. Tell us your group size, the night you'd like to go, whether you're adding dinner or other stops, and what the organizer has told you about vehicle rules, and we'll plan the evening around the traffic.
+    `,
+    faqs: [
+      {
+        question: "Where is Lights on the Bay?",
+        answer: "Lights on the Bay is held inside Sandy Point State Park, on the western shore of the Chesapeake Bay beside US-50/301 near the Bay Bridge, a few miles from Annapolis.",
+      },
+      {
+        question: "When does Lights on the Bay run?",
+        answer: "It usually runs in the evenings through the holiday season, typically from around mid-November into the new year. Exact dates, hours and prices change yearly, so check the official Lights on the Bay website.",
+      },
+      {
+        question: "What is the best time to visit Lights on the Bay?",
+        answer: "Weeknights are usually quieter than weekends, and the weeks around Christmas are the busiest. Check closing and last entry times if you plan to arrive later in the evening.",
+      },
+      {
+        question: "Do I have to cross the Bay Bridge to get to Lights on the Bay?",
+        answer: "No. Sandy Point State Park is on the western side of the bridge, so you exit US-50 before the bridge. Traffic heading for the bridge can still slow the approach, so check MDTA traffic information first.",
+      },
+      {
+        question: "Can a Sprinter van drive through Lights on the Bay?",
+        answer: "It depends on the organizer's vehicle rules for that season, which may include size limits or separate admission for larger vehicles. Check with the Lights on the Bay organizer before booking a Sprinter.",
+      },
+    ],
+    relatedPosts: [400, 335, 373],
+  },
+
+  // ---------------------------------------------------------- 2026-11-19 (keyword gap, added 2026-11-09)
+  {
+    id: 406,
+    slug: "baltimore-convention-center-parking-guide",
+    title: "Baltimore Convention Center Parking: Garages, Drop-Off and Getting In Without a Car",
+    seoTitle: "Baltimore Convention Center Parking Guide | BWI Chauffeur",
+    seoDescription: "A guide to Baltimore Convention Center parking on West Pratt Street: nearby garages, drop-off points, Light Rail, Camden Yards event overlap and arrival tips.",
+    excerpt: "Parking near the Baltimore Convention Center can be easy or miserable depending on what else is happening downtown. Here's how garages, drop-off, Light Rail and a chauffeured ride compare for attendees and exhibitors.",
+    date: "2026-11-19",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/gallery/fleet-downtown-baltimore.webp",
+    content: `
+The Baltimore Convention Center is one of the easiest major convention venues on the East Coast to reach, sitting right in downtown Baltimore near the Inner Harbor and Camden Yards. Baltimore Convention Center parking is a different story. The venue is surrounded by office towers, hotels and stadiums, and on a busy day every garage nearby is serving several crowds at once.
+
+This guide covers Baltimore Convention Center parking options in general terms, where drop-off usually works, how events at Camden Yards and the Inner Harbor affect the area, and the alternatives that skip parking altogether, including Light Rail and a chauffeured ride. Garage operators, rates and event rules change often, so check the Convention Center's official website and your event's attendee information for current details.
+
+## Where the Convention Center Is
+
+The Baltimore Convention Center's address is One West Pratt Street, Baltimore, MD 21201. If you've seen it written as "the Baltimore Convention Center, West Pratt Street, Baltimore MD", that's the same building. It fills several downtown blocks along West Pratt Street, between Howard Street and Charles Street, a few blocks west of the Inner Harbor and directly across from the Camden Yards area, home to Oriole Park and, a little farther south, M&T Bank Stadium.
+
+That location is a big part of why the Convention Center works so well for attendees. Many downtown hotels are within walking distance, the Inner Harbor's restaurants are close by, and BWI Airport and Penn Station are a short drive away. Our [Baltimore Convention Center transportation](/baltimore-convention-center-transportation) page covers airport and train station transfers for attendees and event planners.
+
+## Drop-Off Points
+
+For most attendees, getting dropped off is easier than parking. A few things to know:
+
+- **Pratt Street is one-way eastbound** along the front of the building, and Lombard Street, a block north, runs one-way westbound. Your driver's approach depends on which side of the building you need.
+- **Main entrances face Pratt Street**, with other entrances on the surrounding streets. Which door is closest to your hall, registration desk or meeting room depends on the event, so check your event's floor plan or attendee guide.
+- **Exhibitors and freight use separate access.** Loading docks and marshaling for exhibitor freight follow the show's own logistics instructions, not the general drop-off routine. If you're an exhibitor arriving with materials, check your exhibitor kit.
+- **Curb space is limited at peak times.** At the start of a big show, many cars, rideshares and shuttles try to stop on the same blocks. Drivers often have to use the nearest legal spot rather than the exact door, and traffic officers may direct vehicles away from certain curbs.
+
+With a chauffeured ride, your chauffeur knows the one-way streets and chooses the drop-off point closest to your entrance that traffic allows. For the return, you agree on a pickup point and time, and the chauffeur is waiting there when your session ends.
+
+## Baltimore Convention Center Parking: Nearby Garages
+
+The Convention Center is surrounded by private parking garages and surface lots, many within a few minutes' walk. Some hotel garages nearby also accept public parking. Rather than listing specific garages, which change operators and rules often, here's how to approach them:
+
+- **Reserve ahead for big shows.** Many downtown garages can be booked through parking apps. On the first day of a large convention, reserving a space ahead saves circling.
+- **Check closing times.** Some garages serve office workers and close earlier than you might expect, especially on weekends. If your event runs into the evening, make sure your garage stays open.
+- **Check height limits** if you're driving a larger vehicle or carrying equipment on the roof.
+- **Look at event rates.** Garages near the stadiums may charge special event rates on game or concert days, even if you're only going to the Convention Center.
+- **Consider your exit.** A garage on the side of downtown you'll be leaving toward can save time at the end of the day, when Pratt, Lombard and the routes to I-395 and I-83 can be slow.
+
+Street parking downtown is limited, metered and enforced. It's rarely practical for a full convention day.
+
+Some events arrange discounted parking or shuttle service for attendees, so check your registration materials before you book anything yourself.
+
+## Camden Yards and Inner Harbor Event Overlap
+
+The biggest factor in Baltimore Convention Center parking is what else is happening that day. Because the building sits next to the Camden Yards complex and a few blocks from the Inner Harbor, several crowds can share the same streets and garages:
+
+- **Orioles games** at Oriole Park bring large crowds to the west side of downtown, often in the late afternoon and evening on weekdays, just as convention sessions end. Our guide to [parking at Camden Yards](/blog/parking-camden-yards-baltimore-guide) explains how game days affect downtown parking.
+- **Ravens games** at M&T Bank Stadium change how the Camden Yards area operates, with lots used for football parking and tailgating and heavier traffic on the approaches from I-95 and I-395.
+- **Concerts and events at CFG Bank Arena**, a few blocks north of the Convention Center, add to downtown traffic in the evenings.
+- **Inner Harbor events and holidays**, such as festivals, fireworks and big weekends, bring visitors to the harbor area and fill garages to the east.
+
+Before your trip, check the Orioles and Ravens schedules and the events calendar for downtown Baltimore. If your convention overlaps with a game, arrive early, expect higher garage rates and plan your exit carefully, or skip the car entirely.
+
+## Light Rail to the Convention Center
+
+Baltimore's Light Rail runs along Howard Street on the west side of downtown, with a stop for the Convention Center and another at Camden Yards. That makes the Light Rail a useful option, especially if you're coming from areas along the line:
+
+- **From BWI Airport**, the Light Rail runs from a station at the airport to downtown, with stops near the Convention Center.
+- **From Penn Station**, a Light Rail spur connects to the main line, though some trips may require a transfer.
+- **From the northern suburbs**, the line continues north toward Timonium and Hunt Valley, and south toward Glen Burnie.
+
+MARC's Camden Line also ends at Camden Station, a short walk from the Convention Center, though it runs mainly on a weekday commuter schedule. Check MTA Maryland for current schedules, especially in the evening or on weekends, when service may be less frequent.
+
+## Going Without a Car
+
+For many convention attendees, the easiest choice is not to bring a car downtown at all.
+
+- **Stay nearby.** Many hotels are within walking distance, and some connect to the Convention Center by skywalk. Check with your hotel.
+- **Use a car service for transfers.** A flat-rate transfer from BWI, Penn Station, DCA or Dulles gets you to your hotel or straight to the Convention Center with your luggage, without paying for parking all week.
+- **Book hourly service for a busy day.** If you're moving between the Convention Center, client meetings and dinners, hourly service keeps a vehicle and chauffeur with you, and parking is no longer your problem.
+
+### Choosing a Vehicle
+
+- A **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class** sedan seats three and suits an executive, speaker or small team. See our [Business Sedan](/fleet/business-sedan) page.
+- A **Lincoln Navigator** seats six, enough for a team with display materials.
+- A **Mercedes Sprinter** carries up to thirteen passengers, ideal for hotel shuttles or a team dinner. For a larger delegation, we can coordinate two or more Sprinters.
+
+## Booking Your Ride to the Baltimore Convention Center
+
+Book early for large conventions, especially if your event overlaps with a game or concert downtown. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. For airport pickups, we track your flight and include 45 minutes of free wait time on domestic arrivals and 60 minutes on international.
+
+You can [book online](/booking) or call 877-609-1919 any hour. Tell us your event, your hotel, your schedule and your group size, and we'll take care of getting you to West Pratt Street and back.
+    `,
+    faqs: [
+      {
+        question: "What is the address of the Baltimore Convention Center?",
+        answer: "The Baltimore Convention Center is at One West Pratt Street, Baltimore, MD 21201, in downtown Baltimore near the Inner Harbor and Camden Yards.",
+      },
+      {
+        question: "Where can I park at the Baltimore Convention Center?",
+        answer: "Most parking is in private garages and lots within walking distance downtown, plus some hotel garages. Many can be reserved through parking apps. Check the Convention Center's site and your event materials for current options.",
+      },
+      {
+        question: "Is parking harder when the Orioles or Ravens are playing?",
+        answer: "Yes. Games at Camden Yards and M&T Bank Stadium fill nearby garages and slow downtown traffic, and some garages charge event rates. Check the team schedules before you go and plan to arrive early.",
+      },
+      {
+        question: "Can I take the Light Rail to the Baltimore Convention Center?",
+        answer: "Yes. The Light Rail runs along Howard Street with stops for the Convention Center and Camden Yards, and it connects to BWI Airport. Check MTA Maryland for current schedules.",
+      },
+      {
+        question: "Where do drivers drop off at the Baltimore Convention Center?",
+        answer: "Main entrances face West Pratt Street, which is one-way eastbound. The best drop-off point depends on your event and hall, and at busy times drivers use the nearest legal curb space.",
+      },
+    ],
+    relatedPosts: [404, 350, 319],
+  },
 ];
