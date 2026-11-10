@@ -3122,4 +3122,358 @@ You can [book online](/booking) or call 877-609-1919 any hour. Tell us your even
     ],
     relatedPosts: [404, 350, 319],
   },
+
+  // ---------------------------------------------------------- 2026-11-20 (December seasonal, added 2026-11-10)
+  {
+    id: 407,
+    slug: "miracle-on-34th-street-hampden-baltimore-visit-guide",
+    title: "Miracle on 34th Street in Hampden: How to Visit Baltimore's Most Famous Holiday Block",
+    seoTitle: "Miracle on 34th Street Baltimore: Hampden Visit Guide | BWI Chauffeur",
+    seoDescription: "Plan a trip to Miracle on 34th Street in Baltimore's Hampden: when to go, crowds, where drivers can drop off, The Avenue dinner stops and getting home safely.",
+    excerpt: "Every holiday season, one rowhouse block in Hampden lights up so brightly that people drive in from across Maryland to see it. Here's how to time a visit to Miracle on 34th Street, where to get dropped off and how to turn it into an easy evening out.",
+    date: "2026-11-20",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/gallery/fleet-downtown-baltimore.webp",
+    content: `
+Miracle on 34th Street in Baltimore is one of the most photographed holiday traditions in Maryland. Every year, the residents of one rowhouse block of West 34th Street in Hampden cover their homes in lights, hand-built decorations and the neighborhood's trademark sense of humor. There's no ticket booth or official route. It's simply a city street, and thousands of people come to walk it every December.
+
+That informality is part of the charm, and it's also why a visit takes a little planning. The block is narrow, it's residential, and on a busy weekend evening the sidewalks and the street are full of people. This guide covers when to go, how to get there and back without circling for parking, where a driver can drop you off, and how to turn Miracle on 34th Street into a relaxed night in Hampden.
+
+The display is put up by the residents themselves, so the start date, lighting hours and any special events are set by the neighborhood and can change from year to year. Check the latest local announcements before you go.
+
+## What Miracle on 34th Street Is
+
+Miracle on 34th Street is the holiday display on the 700 block of West 34th Street in Hampden, a neighborhood in north Baltimore between the Jones Falls valley and Johns Hopkins University's Homewood campus. Neighbors on both sides of the block decorate their rowhouses with strings of lights, lit figures, overhead strands across the street and homemade pieces, including the hubcap Christmas trees the block is known for. The tradition goes back decades, and many of the households have been decorating together for years.
+
+The display usually goes up around the end of November and stays lit nightly through the holiday season, typically into early January. In past years the season has often started with a neighborhood lighting event around Thanksgiving weekend. Viewing is free; you just walk the block. Because it's a residential street with families living in the houses, visitors are asked to stay on the sidewalk, respect the homes and keep noise reasonable.
+
+If you want to see more of the city's holiday lights, our post on [Baltimore holiday lights and the Christmas Village](/blog/baltimore-holiday-lights-christmas-village-transportation) covers the Inner Harbor side of the season.
+
+## When to Visit
+
+Miracle on 34th Street is busiest on Friday and Saturday evenings in December and during the week between Christmas and New Year's, when schools are out and families have visitors in town. A few patterns hold most years:
+
+- **Weeknights are calmer.** A Monday through Thursday visit usually means room to walk, take photos and actually look at the details.
+- **Go after dark, but not too late.** The lights are the point, so arrive after sunset, which comes early in December. Lighting hours end at night, and residents turn the displays off at a set time, so don't plan a very late visit.
+- **The first and last weeks are quieter.** The opening days in late November and the first days of January draw smaller crowds than mid-December.
+- **Weather changes everything.** A dry, cold night brings people out. Rain thins the crowd, and icy sidewalks make the block harder to walk with small children or older relatives.
+
+You'll usually only need 20 to 40 minutes to walk the block and back, longer if you're taking photos. Most visitors combine it with dinner or a stop in the shops nearby.
+
+## Getting There From BWI and Around Maryland
+
+Hampden sits just off I-83, the Jones Falls Expressway, north of downtown Baltimore. From BWI Airport, the drive usually runs north through the city on I-95 or I-295 and then onto I-83 or the surface streets, and the time depends heavily on traffic. From Towson, Columbia or Ellicott City it's a straightforward evening drive, but the last mile is where things slow down.
+
+The challenge is the final approach. West 34th Street is a narrow residential block lined with parked cars, and the surrounding streets are small one-ways and alleys. On busy nights:
+
+- **Street parking fills early.** Residents need their spaces, and visitors fill every legal spot for several blocks around. Expect to walk if you find one at all.
+- **Traffic crawls near the block.** Cars looking for parking circle the same few streets, and pedestrians cross everywhere.
+- **The block itself may be busy with foot traffic.** Even when it's open to cars, it's not a place to drive through slowly to look at the lights. The display is meant to be walked.
+
+This is where a chauffeured ride makes the evening simpler. Your chauffeur drops you near the block, you walk the lights at your own pace, and the vehicle meets you at an agreed spot when you're ready to leave. Nobody has to look for parking, and nobody has to drive home after a holiday drink at dinner.
+
+## Where a Driver Can Drop You Off
+
+There's no official drop-off zone, so the best spot depends on traffic, pedestrians and where your evening goes next. In practice:
+
+- **Drop-off is usually at a nearby corner,** not in the middle of the block, so the vehicle doesn't block a narrow street full of people.
+- **Pickup works best at a pre-agreed point.** Choose a corner or a nearby restaurant as your meeting point before you start walking, and text your chauffeur when you're heading back. Cell service on the block can be slow when crowds are heavy, so agree on a time as a backup.
+- **Follow any traffic officers or posted restrictions.** On peak nights, the city or the neighborhood may limit traffic or parking on nearby streets, and drivers have to follow those directions.
+
+If someone in your group uses a wheelchair or walks slowly, tell us when you book. The chauffeur can get you as close as the street allows and plan the pickup point around shorter walking distances.
+
+## Make It a Night in Hampden
+
+Hampden's main shopping street, West 36th Street, known locally as The Avenue, is only a couple of blocks north of the lights. Its independent shops, bars and restaurants are a big part of why a visit to Miracle on 34th Street feels like an evening out rather than a quick look.
+
+A few ways to plan the night:
+
+- **Dinner first, lights after.** Book a table on The Avenue or nearby, then walk down to 34th Street once it's fully dark. Holiday weekends book up, so reserve early.
+- **Holiday shopping.** Many of the shops on The Avenue stock local gifts and stay busy through December. Check their hours, since small shops may close earlier than restaurants.
+- **Add more lights.** Some groups add other displays the same night. Our [holiday lights tours guide](/holiday-lights-limo-tours-maryland-dc) covers the major displays in Maryland, DC and Northern Virginia and how to plan a route between them.
+
+With hourly service, the vehicle stays with you all evening, so you can move between dinner, the lights and other stops without anyone driving. Our [Baltimore limo service](/limo-service-baltimore-md) page covers trips around the city.
+
+## Choosing a Vehicle for Miracle on 34th Street
+
+The streets around 34th Street are tight, so the right vehicle balances group size with how easily it fits the neighborhood:
+
+- A **Mercedes-Benz E-Class** sedan seats three and is the easiest fit on narrow streets for a couple or a small group.
+- A **GMC Yukon XL Denali** seats five, with room for winter coats, strollers and shopping bags.
+- A **Lincoln Navigator** seats six, a good fit for a family with grandparents visiting for the holidays.
+- A **Mercedes Sprinter** carries up to thirteen passengers, the natural choice for an office outing, a big family or a group of friends. Because the block and the streets around it are narrow, a Sprinter usually drops off and picks up at a wider street nearby, so plan on a slightly longer walk. See our [Sprinter Shuttle](/fleet/sprinter-shuttle) page for details.
+
+If children are coming, we provide car seats on request, so you don't have to move seats between vehicles. Tell us their ages when you book.
+
+## Tips for Walking the Block
+
+- **Dress for standing outside.** You'll be walking slowly and stopping often, and December evenings in Baltimore get cold fast.
+- **Wear shoes with grip.** Rowhouse steps, curbs and brick sidewalks can be slick on frosty nights.
+- **Be kind to the residents.** Don't climb steps, touch decorations or block doorways. The display exists because the neighbors keep it going.
+- **Keep the group together.** On a crowded night it's easy to lose someone. Pick a meeting spot at one end of the block.
+- **Charge your phone** for photos and for texting your chauffeur.
+
+## Booking Your Ride to Miracle on 34th Street
+
+Mid-December weekends are the busiest time to see the lights and one of our busiest stretches of the year, so reserve once you've picked your night. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us your group size, the night you'd like to go, whether you're adding dinner on The Avenue or other stops, and anyone who needs a shorter walk, and we'll plan the evening around the neighborhood's narrow streets.
+    `,
+    faqs: [
+      {
+        question: "Where is Miracle on 34th Street in Baltimore?",
+        answer: "It's on the 700 block of West 34th Street in Hampden, a neighborhood in north Baltimore just off I-83, a couple of blocks south of Hampden's main shopping street, West 36th Street (The Avenue).",
+      },
+      {
+        question: "When is Miracle on 34th Street lit?",
+        answer: "The residents usually light the block from around the end of November into early January, every evening after dark. The neighborhood sets the dates and hours, so check local announcements before you go.",
+      },
+      {
+        question: "Does it cost anything to see Miracle on 34th Street?",
+        answer: "No. Viewing is free; you simply walk the block. It's a residential street, so stay on the sidewalk and respect the homes and the people who live there.",
+      },
+      {
+        question: "Is there parking near Miracle on 34th Street?",
+        answer: "Only limited residential street parking, which fills quickly on December evenings. Many visitors find it easier to be dropped off nearby and picked up at an agreed corner when they're done.",
+      },
+      {
+        question: "Can a Sprinter van take a group to Miracle on 34th Street?",
+        answer: "Yes, a Mercedes Sprinter carries up to 13 passengers. Because the surrounding streets are narrow, it usually drops off and picks up at a wider street nearby, so expect a short walk to the block.",
+      },
+    ],
+    relatedPosts: [335, 336, 405],
+  },
+
+  // ---------------------------------------------------------- 2026-11-21 (December seasonal, added 2026-11-10)
+  {
+    id: 408,
+    slug: "mount-vernon-place-washington-monument-lighting-baltimore",
+    title: "The Washington Monument Lighting in Mount Vernon Place: A Baltimore Holiday Night Out",
+    seoTitle: "Mount Vernon Monument Lighting Baltimore Guide | BWI Chauffeur",
+    seoDescription: "Heading to the Washington Monument lighting at Mount Vernon Place in Baltimore? Here's when it usually happens, street closures, drop-off and dinner nearby.",
+    excerpt: "Each December, Baltimore gathers around the Washington Monument in Mount Vernon Place to light it up for the holidays. Here's how the evening usually works, how street closures affect drop-off, and how to plan dinner and the ride home.",
+    date: "2026-11-21",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/blog/scenario-doorman.webp",
+    content: `
+The Washington Monument lighting in Mount Vernon Place is one of the oldest holiday traditions in Baltimore. Each December, crowds gather in the squares around the city's Washington Monument in Mount Vernon to watch the column light up for the season, usually with music, family activities and, in many years, fireworks over the neighborhood. For a lot of Baltimore families, the monument lighting is the night the holidays begin downtown.
+
+It's also an outdoor event in a historic neighborhood with narrow streets, limited parking and closures around the squares, so getting there and home takes some planning. This guide covers how the Mount Vernon monument lighting usually works, how to handle drop-off and pickup around the closures, where to eat nearby, and how to plan the evening if you're coming from BWI, the suburbs or out of town.
+
+The event is organized by the Mount Vernon Place Conservancy, which sets the date, program and rules each year. Check the Conservancy's official announcements for this year's details before you go.
+
+## What the Monument Lighting Is
+
+Baltimore's Washington Monument stands at the center of Mount Vernon Place, where Charles Street meets a set of four park squares just north of downtown. It's one of the earliest monuments to George Washington in the country, and it gives the neighborhood its name and its skyline. Around it are some of Baltimore's best-known buildings, including the Walters Art Museum, the Peabody Institute and its library, and blocks of 19th-century townhouses.
+
+Each holiday season, the monument is lit with holiday lights during a community celebration in the squares. The lighting is traditionally held on an evening in early December, often on a Thursday, and past years have included live performances, food and activities in the squares before the lighting itself and a fireworks show around the monument afterward. The program can change from year to year, so treat any description here as general, and confirm the date, start time and any fireworks plans with the Conservancy.
+
+The event is outdoors and open to the public. Bigger crowds come when the weather is mild, and the squares fill up in the hour before the lighting.
+
+## Planning Around Street Closures
+
+The streets around Mount Vernon Place are the biggest planning factor. During large events in the squares, the city typically closes or restricts traffic on the streets around the monument, and the closures can start well before the lighting and continue until after the crowd leaves. Expect:
+
+- **No driving through the squares.** Charles Street and the streets around the monument are often closed or restricted during the event. Check the city's traffic advisories for the night.
+- **One-way streets on the approach.** Charles Street runs one-way northbound and St. Paul Street one-way southbound through Mount Vernon, and many side streets are one-way too. That shapes how a vehicle can reach any drop-off point.
+- **Very little parking.** Street parking in Mount Vernon is limited on a normal evening and almost impossible on lighting night. Nearby garages fill up early.
+- **Slow exits.** When the event ends, thousands of people leave at the same time, and traffic on Charles, St. Paul, Cathedral and Calvert streets moves slowly for a while.
+
+With a chauffeured ride, the closures become your chauffeur's problem rather than yours. You're dropped off at the nearest open corner, you walk a block or two to the squares, and you agree on a pickup point outside the closure for the end of the night.
+
+## Drop-Off and Pickup Tips
+
+Because closures vary each year, the best drop-off and pickup points are decided on the night. A few practical tips:
+
+- **Choose a pickup point away from the squares.** Picking a corner a few blocks from the monument, or a restaurant where you're having dinner, avoids the worst of the departing crowd.
+- **Agree on a time as well as a place.** Cell networks can slow down when a large crowd is in one place, so a set pickup time is a useful backup to texting.
+- **Leave a little after the crowd.** If you're in no rush, spending 20 or 30 minutes at dinner or dessert after the lighting lets traffic thin out before you head home.
+- **Plan shorter walks for anyone who needs them.** If someone in your group uses a wheelchair or a walker, tell us when you book. Your chauffeur will look for the closest accessible point the closures allow.
+
+## The Monument Lighting From BWI and Penn Station
+
+Mount Vernon is one of the easier Baltimore neighborhoods to reach from out of town. Penn Station is a short drive north and east of the squares, and BWI Airport is south of the city via I-95 or I-295. If you're flying or taking the train in for the lighting or for a holiday weekend in Baltimore, a car service can take you straight from the airport or the station to your hotel and then to the event.
+
+For airport pickups, we track your flight and include 45 minutes of free wait time on domestic arrivals and 60 minutes on international, so a delay doesn't mean a missed pickup. Our [BWI airport car service](/bwi-airport-car-service) page explains how airport pickups work.
+
+## Dinner and Other Stops in Mount Vernon
+
+Mount Vernon is one of Baltimore's best dining districts, with restaurants, cafés and bars along Charles Street and the streets around the squares. On lighting night they fill quickly, so book a table early, and tell the restaurant you're coming for the lighting so they can time the meal around it.
+
+A few ways to plan the evening:
+
+- **Dinner before, lights after.** An early dinner near the squares lets you walk over for the lighting without worrying about the clock.
+- **A museum stop.** The Walters Art Museum sits right on Mount Vernon Place. If you want to make a day of it, check its holiday hours. Our [Walters Art Museum](/limo-service-near-the-walters-art-museum) page covers drop-off on Charles Street.
+- **A show downtown.** Some groups pair the lighting with a holiday performance downtown. Our page on [Hippodrome Theatre transportation](/hippodrome-theatre-transportation) covers rides to the Hippodrome, a short drive south.
+- **More lights.** Our post on [Baltimore holiday lights and the Christmas Village](/blog/baltimore-holiday-lights-christmas-village-transportation) covers the Inner Harbor's holiday season, and you can add it to the same evening.
+
+With hourly service, the vehicle stays with you for the whole night, so you can move from dinner to the squares to a nightcap without anyone driving.
+
+## Choosing a Vehicle
+
+Mount Vernon's streets are narrow and busy on event nights, so match the vehicle to your group:
+
+- A **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class** sedan seats three and is the easiest fit for a couple or a small group. See our [Business Sedan](/fleet/business-sedan) page.
+- A **GMC Yukon XL Denali** seats five, with room for winter coats and strollers.
+- A **Lincoln Navigator** seats six, a good choice for a family evening with grandparents or out-of-town guests.
+- A **Mercedes Sprinter** carries up to thirteen passengers, the natural fit for an office holiday outing or a large family. Because of the closures, a Sprinter usually drops off and picks up on a wider street a little farther from the squares. For larger groups, we can send two or more Sprinters.
+
+If children are coming, we provide car seats on request.
+
+## What to Bring and Wear
+
+- **Layers.** You'll be standing outside for an hour or more, and the squares can feel colder after dark than you expect.
+- **Comfortable shoes.** The squares and the surrounding sidewalks include brick, stone and steps.
+- **A plan for kids.** Crowds get dense near the monument before the lighting. Agree on a meeting spot in case anyone gets separated.
+- **Ear protection for little ones** if fireworks are on the program this year.
+- **A charged phone** for photos and for texting your chauffeur.
+
+## Booking Your Ride to the Monument Lighting
+
+Lighting night falls during one of the busiest weeks of the holiday season, when office parties and holiday events are filling up the calendar, so book as soon as the date is announced. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before.
+
+You can [book online](/booking) or call 877-609-1919 any hour. Tell us your group size, where you're having dinner, and whether anyone needs a shorter walk, and we'll plan the drop-off and pickup around that night's closures.
+    `,
+    faqs: [
+      {
+        question: "When is the Washington Monument lighting in Baltimore?",
+        answer: "It's traditionally held on an evening in early December, often a Thursday. The Mount Vernon Place Conservancy sets the date and program each year, so check its announcements for this year's details.",
+      },
+      {
+        question: "Where is the Washington Monument in Baltimore?",
+        answer: "It stands in Mount Vernon Place, where Charles Street meets four park squares just north of downtown Baltimore, next to the Walters Art Museum and the Peabody Institute.",
+      },
+      {
+        question: "Are streets closed for the monument lighting?",
+        answer: "Streets around the squares are typically closed or restricted during the event, and closures can start before the lighting. Check the city's traffic advisories and plan to be dropped off at the nearest open corner.",
+      },
+      {
+        question: "Is there parking near Mount Vernon Place for the lighting?",
+        answer: "Very little. Street parking is limited on a normal night and nearby garages fill early on lighting night, so many visitors get dropped off and picked up at an agreed point outside the closures.",
+      },
+      {
+        question: "Can you pick us up from BWI or Penn Station for the lighting?",
+        answer: "Yes. We pick up at BWI and Penn Station and can take you to your hotel or straight to Mount Vernon. Airport pickups include flight tracking and 45 minutes of free wait time domestic, 60 international.",
+      },
+    ],
+    relatedPosts: [335, 407, 336],
+  },
+
+  // ---------------------------------------------------------- 2026-11-22 (December seasonal, added 2026-11-10)
+  {
+    id: 409,
+    slug: "flying-christmas-eve-christmas-day-bwi-airport-ride-guide",
+    title: "Flying on Christmas Eve or Christmas Day From BWI: Timing, Pickups and Getting Home",
+    seoTitle: "Christmas Eve and Christmas Day Flights at BWI | BWI Chauffeur",
+    seoDescription: "Flying on Christmas Eve or Christmas Day from BWI? Plan when to leave home, what the airport is like, holiday pickups, winter weather and booking your ride.",
+    excerpt: "Flying on the holiday itself can be a smart move, or a stressful one if the ride to or from BWI falls through. Here's how Christmas Eve and Christmas Day travel at BWI usually feels, when to leave and how to make sure someone is there when you land.",
+    date: "2026-11-22",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Airport Travel",
+    image: "/images/blog/airport-terminal-glass.webp",
+    content: `
+Flying on Christmas Eve or Christmas Day from BWI is a choice more travelers make every year. Fares can be easier to find, the terminal can feel calmer than it does in the days before the holiday, and you can wake up at home and still make it to dinner with family hundreds of miles away. The hard part is often not the flight. It's the ride: finding someone to drive you to BWI at dawn on Christmas morning, or making sure a car is actually waiting when you land on Christmas Eve night.
+
+This guide covers what Christmas Eve and Christmas Day flights at BWI are usually like, how early to leave home, how holiday pickups work, what to do when winter weather gets involved, and how to book a ride you can count on.
+
+Airline schedules, TSA staffing and airport services can change over the holidays, so check with your airline and BWI's official website for current information before you travel.
+
+## What Christmas Eve and Christmas Day Feel Like at BWI
+
+Holiday travel at BWI doesn't peak on the holiday itself. The heaviest days usually come before it, as schools let out and families head away, and after it, as everyone heads home. The few days right after Christmas and the days around New Year's are typically among the busiest of the season.
+
+Christmas Eve and Christmas Day often follow a different pattern:
+
+- **Christmas Eve mornings can still be busy** with last-minute travelers trying to get home in time. Afternoon and evening flights often feel calmer as the day goes on.
+- **Christmas Day is often one of the quieter travel days of the season,** with shorter lines and an emptier curb than the days around it. Quieter doesn't mean empty, though, especially on morning departures.
+- **Some airport services keep holiday hours.** Restaurants and shops inside the terminal may open late or close early. Eat before you leave home or bring a snack.
+- **Airlines may run reduced schedules.** Some routes have fewer flights on the holiday, so a missed connection or a cancellation can mean a longer wait for the next option.
+
+That last point is the one to plan around. On a normal day, if your flight is cancelled, there may be another one in a few hours. On Christmas Day, the next seat might be the next morning, which matters for how you plan your rides on both ends.
+
+## How Early to Leave for BWI
+
+Even when the terminal is calmer, give yourself a full buffer. Our general guidance for BWI is to arrive about **2 hours before a domestic departure** and **3 hours before an international one**, and the holidays are not the time to cut that short.
+
+A few holiday-specific tips:
+
+- **Check bags early.** Holiday luggage tends to be heavier, with gifts and winter clothes, and bag drop lines move slower when everyone is checking a full suitcase. Our post on [flying out of BWI with holiday gifts and extra bags](/blog/flying-bwi-holiday-gifts-extra-luggage-tsa-tips) covers packing and TSA rules for wrapped gifts.
+- **Allow for weather on the road.** A dusting of snow or freezing rain overnight can slow the morning drive on I-95, I-97 and the Baltimore-Washington Parkway. Look at the forecast the night before.
+- **Plan around early-morning flights.** If you're on one of the first departures of the day, set your pickup time for the drive plus your airport buffer, not for when you'd like to wake up.
+- **Know your terminal details.** Check which concourse your airline uses so your chauffeur can drop you at the right door on the departures level.
+
+## Getting a Ride on the Holiday Itself
+
+This is where Christmas travel gets tricky. On most days, finding a ride to BWI is easy. On Christmas morning, family members who would normally drive you would rather be at home, fewer rideshare drivers are working, and taxis can be scarce at odd hours. Rideshare pricing also tends to rise when demand outpaces the number of drivers on the road, and on a holiday that can happen quickly.
+
+A pre-booked car service removes that uncertainty. You know who's coming and when, and your rate is confirmed when you book. Our dispatch is staffed 24 hours a day, every day of the year, including Christmas Eve and Christmas Day, so a 5 a.m. pickup on December 25 is booked and dispatched like any other. Our [BWI airport car service](/bwi-airport-car-service) page covers how airport transfers work.
+
+## Coming Home on Christmas Eve Night
+
+If you're flying into BWI on Christmas Eve, especially late in the evening, the ride home matters even more. After a long day of travel, waiting in a pickup line or wondering whether a driver will accept your request is the last thing you want.
+
+With a booked pickup:
+
+- **We track your flight.** If you're delayed or land early, your pickup adjusts with it. You don't need to call us from the gate.
+- **You get free wait time.** We include 45 minutes of free wait time after domestic arrivals and 60 minutes after international arrivals, so a slow bag carousel doesn't turn into a problem.
+- **You can request a meet and greet.** A chauffeur can meet you inside baggage claim, which helps on a busy night or when you're traveling with children or older relatives.
+
+If your flight is cancelled and rebooked for Christmas morning, call dispatch and we'll move your pickup to the new flight. Our [winter weather and flight delay playbook](/blog/winter-weather-flight-delay-playbook-bwi) explains how we handle delays and cancellations in more detail.
+
+## Family and Group Travel Over Christmas
+
+Christmas travel often means more people and more bags than a normal trip: grandparents flying in, kids home from college, a family flying out together with presents in tow. Choose a vehicle that fits the whole group and everyone's luggage:
+
+- A **Mercedes-Benz E-Class** sedan seats three, a good fit for one or two travelers with standard bags.
+- A **Lincoln Nautilus** seats three with a little more cargo room for winter coats and extra luggage.
+- A **GMC Yukon XL Denali** seats five and has an extended cargo area behind the third row, the usual step up for a family with full holiday luggage.
+- A **Lincoln Navigator** seats six with luggage, a good fit for a larger family.
+- A **Mercedes Sprinter** carries up to thirteen passengers, the right choice when the whole extended family is landing at once. See our [Sprinter Shuttle](/fleet/sprinter-shuttle) page.
+
+If small children are traveling, we provide infant, convertible and booster car seats on request; our [car seat service](/car-seat-service) page explains how it works. Our guide to [multi-generational family holiday travel](/multigenerational-family-holiday-travel-chauffeur-guide-maryland) covers coordinating several arrivals, mobility needs and vehicle sizing in more depth.
+
+## Planning for Winter Weather
+
+December weather in the Baltimore-Washington area can range from mild and rainy to icy, and storms elsewhere in the country can delay flights into and out of BWI even on clear days here. A few things to keep in mind:
+
+- **Check your flight the night before** and again before you leave home.
+- **Sign up for airline alerts** so you hear about changes right away.
+- **Keep your pickup flexible.** Let us know about any change as soon as you know. Because we track arrivals, we'll often see a delay before you call.
+- **Plan for icy curbs.** Wear shoes with grip, and allow extra time if you're traveling with someone who walks slowly.
+
+## Booking Your Christmas Ride to or From BWI
+
+Holiday dates fill up early, especially pickups on the busiest days before and after Christmas, so book as soon as your flights are set. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter bookings up to 12 hours before, so you won't be stuck if plans change.
+
+You can [book online](/booking) or call 877-609-1919 any hour of any day. Tell us your flight numbers, your group size, how much luggage you're bringing and whether you need car seats, and we'll make sure a car is waiting on Christmas Eve, Christmas Day or whenever you fly.
+    `,
+    faqs: [
+      {
+        question: "Is BWI busy on Christmas Day?",
+        answer: "Christmas Day is often one of the quieter travel days of the holiday season, with the heaviest traffic on the days before and after. Morning flights can still be busy, so keep your usual airport buffer.",
+      },
+      {
+        question: "How early should I get to BWI on Christmas Eve?",
+        answer: "Plan on about 2 hours before a domestic departure and 3 hours before an international one. Holiday luggage and possible winter weather on the roads are good reasons not to cut it short.",
+      },
+      {
+        question: "Can I book a car service to BWI on Christmas morning?",
+        answer: "Yes. Our dispatch is staffed 24 hours a day, every day of the year, including Christmas Eve and Christmas Day. Book ahead so your pickup time and rate are confirmed.",
+      },
+      {
+        question: "What happens if my Christmas Eve flight into BWI is delayed?",
+        answer: "We track your flight and adjust the pickup automatically. Domestic arrivals include 45 minutes of free wait time and international arrivals 60 minutes. If you're rebooked, call dispatch to move the pickup.",
+      },
+      {
+        question: "Can you provide car seats for a Christmas airport pickup?",
+        answer: "Yes. We provide infant, convertible and booster car seats on request. Tell us your children's ages and weights when you book so the right seats are installed before pickup.",
+      },
+    ],
+    relatedPosts: [397, 318, 396],
+  },
 ];
