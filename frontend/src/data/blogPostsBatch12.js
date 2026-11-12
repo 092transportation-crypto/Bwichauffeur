@@ -3834,4 +3834,383 @@ You can [book online](/booking) or call 877-609-1919. Tell us where you're start
     ],
     relatedPosts: [373, 335, 336],
   },
+
+  // ---------------------------------------------------------- 2026-11-26 (December seasonal, round 2, added 2026-11-12)
+  {
+    id: 413,
+    slug: "longwood-gardens-christmas-day-trip-from-baltimore-bwi",
+    title: "Longwood Gardens Christmas From Baltimore: Planning a Chauffeured Holiday Day Trip",
+    seoTitle: "Longwood Gardens Christmas From Baltimore | BWI Chauffeur",
+    seoDescription: "Plan a Longwood Gardens Christmas trip from Baltimore or BWI: timed tickets, the I-95 drive, when to arrive for the lights and an easy ride home after dark.",
+    excerpt: "Longwood Gardens turns into one of the Mid-Atlantic's best-known holiday displays every winter. Here's how to plan the trip from Baltimore or BWI, from timed tickets and drive times to the ride home after the lights.",
+    date: "2026-11-26",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/gallery/yukon-denali-washington-dc.webp",
+    content: `
+Every holiday season, Longwood Gardens in Kennett Square, Pennsylvania, fills its conservatory with decorated trees and flowers and lights up its outdoor gardens after dark. For many Baltimore families, a Longwood Gardens Christmas visit has become a December tradition, and it's an easy one to fit into a single day or evening. The garden sits roughly an hour and a half from Baltimore, depending on traffic, and most of that drive is a straight run up I-95.
+
+The visit itself is relaxed. Getting there and back can be less so: holiday traffic on I-95, a full parking lot on popular nights, and a long, dark drive home after hours on your feet in the cold. This guide covers how the holiday display works, when to go, how to plan the drive from Baltimore and BWI, and how to choose a vehicle for your group.
+
+Longwood sets its own season dates, hours and ticketing each year. Always check the official Longwood Gardens website before you book anything, including your ride.
+
+## What the Holiday Display Is Like
+
+Longwood's holiday season typically runs from late November into early January. It has two parts, and most visitors want both:
+
+- **The conservatory.** The large glass conservatory is decorated for the season with themed trees, seasonal plants and elaborate floral displays. It's warm inside, which makes it a welcome break on a cold night.
+- **The outdoor lights.** After dark, trees, paths, fountains and gardens across the grounds are lit up. Walking the outdoor loop takes a while, and the paths cover a good amount of ground.
+
+Many people time their visit so they arrive in the late afternoon, see the conservatory while there's still some daylight, and then walk the outdoor gardens once the lights come on. Plan on spending at least two to three hours on the grounds, longer if you stop for food or linger in the conservatory.
+
+## Tickets and Timing
+
+Longwood has used timed-entry tickets for its holiday season in recent years, and popular evenings often sell out well in advance, especially weekends and the weeks right before Christmas. A few things to keep in mind:
+
+- **Buy tickets first, then book the ride.** Your ticket time sets everything else, including when you need to leave Baltimore.
+- **Weeknights are usually calmer.** If your schedule allows, a Tuesday or Wednesday evening is often less crowded than a Saturday.
+- **The early-January days can be quieter.** Once the holidays are over, crowds often thin out before the season ends.
+- **Check the weather and any closures.** Ice, high winds or heavy rain can affect outdoor areas, and the garden posts any changes on its website.
+
+## Getting to Longwood From Baltimore and BWI
+
+The usual route from Baltimore runs north on I-95 into Delaware, past Wilmington, and then on local highways north into Pennsylvania toward Kennett Square. From BWI, add a short run up I-95 or the Baltimore-Washington Parkway first. Expect roughly an hour and a half in normal conditions. In December, though, conditions are rarely normal:
+
+- **I-95 gets heavy holiday traffic.** Shopping trips, holiday travel and Friday-evening commuters all share the road, and the stretch through the Baltimore area and the Delaware toll plaza can slow down.
+- **Arrival windows matter.** Leaving Baltimore in mid-afternoon on a weekday puts you in the start of evening rush hour. Building in a cushion keeps you from missing your entry time.
+- **The drive home is in the dark.** You'll be leaving after a few hours of walking in the cold, often late in the evening, which is exactly when nobody in the group wants to drive for an hour and a half.
+
+A chauffeured ride takes care of all of it. Your chauffeur picks you up at home, at a hotel or at the airport, drives you to the garden, and is ready when you walk out. If friends or family are flying in for the holidays, we can collect them at BWI and go straight to Longwood. Our [BWI airport car service](/bwi-airport-car-service) page covers airport pickups, and our [guide to long-distance car service trips](/blog/what-to-pack-and-expect-on-a-long-distance-car-service-trip) explains what to expect on a longer ride.
+
+Longwood is outside our everyday local service area, so it's booked as a long-distance trip. Call us with your ticket time and pickup address and we'll put together a quote.
+
+## Point-to-Point or Hourly?
+
+There are two common ways to book a Longwood trip:
+
+- **A round trip with a set return time.** You're dropped off for your ticket window and picked up at a time agreed in advance. This works well if you know roughly how long you'll stay.
+- **Hourly service.** The chauffeur and vehicle stay with you for the whole outing. This is the simplest choice if you want to add a stop, such as dinner in the Brandywine Valley or Wilmington on the way home, or if you're not sure how long you'll spend in the gardens. See our [hourly chauffeur service](/maryland-hourly-chauffeur-service) page for how it works.
+
+Either way, tell us your ticket time when you book. We'll plan the pickup time around it, with room for holiday traffic.
+
+## Choosing a Vehicle for Your Group
+
+A Longwood trip is long enough that comfort matters. Here's how our fleet matches up:
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** seats three. A good fit for a couple's evening or a small family.
+- **Lincoln Nautilus:** seats three with more cargo space, handy for coats, a stroller or holiday shopping bags.
+- **GMC Yukon XL Denali:** seats five, with room for everyone's winter layers.
+- **Lincoln Navigator:** seats six across three rows. A good choice when grandparents, parents and kids are all going. See our [Premium SUV](/fleet/premium-suv) page.
+- **Mercedes Sprinter:** carries up to thirteen passengers, a popular choice for extended families, office outings and groups of friends. See our [Sprinter van service](/maryland-sprinter-van-service) page.
+
+If young children are coming, we provide car seats on request. Tell us their ages and weights when you book.
+
+## What to Bring
+
+- **Warm layers.** You'll spend a lot of time outdoors after dark, often standing still while you look at the displays. Hats, gloves, scarves and warm shoes make a big difference.
+- **Comfortable walking shoes.** The outdoor paths cover a lot of ground.
+- **Your tickets, ready on your phone.** Have them downloaded before you arrive in case the signal is slow in a crowd.
+- **A charged phone.** Cold weather drains batteries faster, and you'll want photos. You can charge it in the vehicle on the way there and back.
+- **A change of shoes or a blanket for the ride home,** if anyone in the group feels the cold. Leave them in the vehicle and they'll be waiting when you get back.
+
+## Getting Home After the Lights
+
+When you're ready to leave, text your chauffeur or call dispatch, and the vehicle will meet you at the agreed pickup point. On busy nights, the lot and the roads around the garden can be slow for a little while after a large ticket window lets out, so it's worth agreeing on a meeting spot before you go in.
+
+Then it's a warm, quiet ride back down I-95. Kids can sleep, adults can relax, and nobody has to drive at the end of a long day. We'll drop everyone at home, at a hotel or at BWI if a guest has a late flight or an early one the next morning.
+
+## Making a Day of It
+
+A few ways people build a full day around Longwood:
+
+- **Lunch or dinner in the Brandywine Valley.** The area around Kennett Square has plenty of restaurants. Book ahead on weekends in December.
+- **Pick up holiday guests on the way.** If relatives are landing at BWI, the trip can start at the airport.
+- **Combine it with other holiday lights.** Closer to home, our [holiday lights tours guide](/holiday-lights-limo-tours-maryland-dc) covers displays around Maryland and DC, and our [Lights on the Bay guide](/blog/lights-on-the-bay-sandy-point-holiday-lights-guide) covers the drive-through display at Sandy Point.
+
+## Booking Your Longwood Christmas Trip
+
+Holiday-season weekends fill quickly, for tickets and for vehicles, so book your ride as soon as you have your ticket time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us your pickup address, group size, ticket time and any stops you'd like to add, and we'll plan the trip around holiday traffic.
+    `,
+    faqs: [
+      {
+        question: "How far is Longwood Gardens from Baltimore?",
+        answer: "It's in Kennett Square, Pennsylvania, roughly an hour and a half from Baltimore in normal traffic. The usual route runs north on I-95 through Delaware. December traffic can add time, so plan a cushion before your ticket window.",
+      },
+      {
+        question: "When does the Longwood Gardens Christmas display run?",
+        answer: "The holiday season typically runs from late November into early January. Longwood sets its exact dates, hours and ticketing each year, so check its official website before you plan the trip.",
+      },
+      {
+        question: "Do I need tickets before booking a ride to Longwood?",
+        answer: "Yes, we recommend it. Longwood has used timed-entry tickets for the holiday season, and popular nights sell out. Buy your tickets first, then book the ride and we'll plan the pickup time around your entry window.",
+      },
+      {
+        question: "Can you pick up family at BWI and go straight to Longwood Gardens?",
+        answer: "Yes. Give us the flight number and your ticket time. We track the flight, and domestic arrivals include 45 minutes of free wait time and international arrivals 60 minutes, counted from landing.",
+      },
+      {
+        question: "What vehicle is best for a family trip to Longwood?",
+        answer: "The Lincoln Navigator seats six and the GMC Yukon XL Denali seats five. For larger groups, the Mercedes Sprinter carries up to thirteen passengers. Car seats are available on request for young children.",
+      },
+    ],
+    relatedPosts: [393, 405, 379],
+  },
+
+  // ---------------------------------------------------------- 2026-11-27 (December seasonal, round 2, added 2026-11-12)
+  {
+    id: 414,
+    slug: "old-ellicott-city-holiday-shopping-main-street-car-service",
+    title: "Holiday Shopping in Old Ellicott City: A Main Street Evening Without the Parking Climb",
+    seoTitle: "Old Ellicott City Holiday Shopping Guide | BWI Chauffeur",
+    seoDescription: "Plan a holiday shopping trip to Old Ellicott City: Main Street parking, the steep hill, late shopping nights, dinner plans and an easy chauffeured ride home.",
+    excerpt: "Old Ellicott City's historic Main Street is one of the most charming places in Maryland to shop for the holidays, and one of the hardest to park in. Here's how to plan a December evening there, from drop-off to dinner to the ride home.",
+    date: "2026-11-27",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/blog/scenario-doorman.webp",
+    content: `
+In December, historic Main Street in Old Ellicott City feels like a holiday card. The stone and brick buildings along the hill are decorated for the season, shop windows are full of gifts, and the restaurants and cafes are busy from late afternoon into the evening. Old Ellicott City holiday shopping is a favorite outing for people across Howard County, Baltimore and the BWI area, especially for anyone looking for something more personal than a mall gift.
+
+What makes Main Street special also makes it tricky. The street runs steeply downhill along the Patapsco River valley, the sidewalks are narrow, and parking is limited to a handful of public lots and a small amount of street parking. On a December weekend, those spaces fill fast. This guide covers how to plan a holiday shopping trip to Old Ellicott City, where a driver can drop you off, and how to make it a full evening.
+
+## Why Main Street Is Worth the Trip
+
+Old Ellicott City is a 19th-century mill town, and its historic district is packed into a few blocks of Main Street and the side streets around it. In place of chain stores, you'll find independent shops: antiques, home goods, clothing, books, art, jewelry and specialty food. In the holiday season, a lot of people go for exactly that, gifts you won't find anywhere else.
+
+Main Street merchants have traditionally hosted extended-hours holiday shopping evenings during December, and some shops add seasonal events. Dates and details change from year to year, so check with the local merchants' association or the shops you want to visit before you plan around a specific night.
+
+## The Parking and Hill Problem
+
+If you've driven to Main Street on a busy weekend, you know the routine:
+
+- **Lots fill early.** The public lots behind and above Main Street are small, and on December weekends they can be full by mid-afternoon.
+- **Street parking is scarce.** There are only a few spaces along Main Street itself, and drivers circle the narrow streets looking for one.
+- **The hill is steep.** If you park at the top and the shop you want is at the bottom, you'll walk back up with your bags. That's fine for some people, but not ideal for older relatives, anyone with limited mobility or anyone carrying a lot of packages.
+- **The roads are narrow and slow.** Main Street is tight, with constant pedestrian crossings, and traffic moves slowly in the evening.
+
+A chauffeured ride solves most of this. Your chauffeur drops you off near where you want to start, waits nearby or returns at a set time, and picks you up at the most practical point when you're done. Your bags can go back in the vehicle between stops, so you're not carrying everything up and down the hill.
+
+## Drop-Off and Pickup on Main Street
+
+There's no dedicated drop-off zone on Main Street, and stopping on the hill isn't always possible. A few tips:
+
+- **Choose a starting point.** Many people start at the top or bottom of the historic district and walk in one direction, so the pickup can be at the other end.
+- **Agree on a pickup point and time.** Pick a spot where a vehicle can stop safely, such as a nearby lot entrance or a wider side street. Your chauffeur will know the options.
+- **Text when you're ready.** With hourly service, the vehicle stays nearby, so you can text when you're done instead of committing to a time.
+- **Tell us about mobility needs.** If someone in your group would rather not walk the hill, we'll plan the closest practical drop-off and pickup.
+
+For a non-airport pickup like this, 15 minutes of complimentary wait time is included. If you book hourly, the vehicle is yours for the booked time, and waiting is built in.
+
+## Make It a Holiday Evening
+
+Main Street works well as a full evening:
+
+- **Shop in the late afternoon.** You'll catch the last of the daylight and the start of the evening lights.
+- **Dinner on Main Street.** The historic district has a range of restaurants, from casual spots to more formal dining. December weekends are busy, so book a table ahead.
+- **A stop for coffee or dessert.** Cafes and sweet shops along Main Street make a good break between shops.
+- **Add a second stop.** With hourly service, you can head to The Mall in Columbia or a restaurant elsewhere in Howard County after Main Street.
+
+Our [Howard County transportation guide](/howard-county-transportation-guide) covers the area more broadly, including Columbia and the US-29 and MD-100 corridors.
+
+## Hourly or Point-to-Point?
+
+For most holiday shopping trips, [hourly chauffeur service](/maryland-hourly-chauffeur-service) is the better choice. You'll have the same chauffeur and vehicle for the whole outing, and you can:
+
+- Drop bags in the vehicle between stops.
+- Change plans as you go, for example adding dinner or another shop.
+- Avoid deciding on a pickup time in advance.
+
+A simple round trip with a set pickup time can work if you know exactly how long you'll stay, such as a dinner reservation followed by an hour of shopping.
+
+## Coming From BWI or Out of Town
+
+Old Ellicott City is a short drive from BWI, which makes it a good first stop for holiday guests flying in. If family members are landing at BWI, we can meet them at the airport and take them straight to Main Street for an evening out. Our [BWI to Ellicott City car service](/bwi-to-ellicott-city-car-service) page covers the airport route, and our [Ellicott City limo service](/limo-service-ellicott-city-md) page covers local trips around the area.
+
+For airport pickups, we track the flight. Domestic arrivals include 45 minutes of free wait time and international arrivals 60 minutes, counted from landing.
+
+## Choosing a Vehicle
+
+Main Street is narrow, so match the vehicle to your group and your shopping list:
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** seats three. The easiest vehicle to maneuver on narrow streets, and good for a couple or a small group.
+- **Lincoln Nautilus:** seats three with extra cargo space, useful when you expect a lot of bags.
+- **GMC Yukon XL Denali:** seats five, with plenty of room for packages and coats.
+- **Lincoln Navigator:** seats six, a good fit for a family outing or two couples.
+- **Mercedes Sprinter:** carries up to thirteen passengers, good for an office outing, a book club or a group of friends. On busy evenings, it usually stops on a wider street a short walk from Main Street.
+
+Car seats are available on request. Tell us the children's ages and weights when you book.
+
+## Tips for a Smooth Shopping Trip
+
+- **Wear comfortable shoes.** The hill and older sidewalks can be uneven.
+- **Dress for the cold.** Main Street sits in a river valley, and December evenings can feel colder once the sun goes down.
+- **Check shop hours.** Independent shops set their own hours, and some may close earlier on weeknights.
+- **Bring a list.** It's easy to lose track of who you've shopped for in a dozen small stores.
+- **Leave bags in the vehicle.** With hourly service, you can drop off packages between stops instead of carrying them all evening.
+
+## Booking Your Old Ellicott City Holiday Trip
+
+December weekends and evenings are some of our busiest times, so reserve early, especially if you have a dinner reservation. Sedan and SUV bookings can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us your pickup address, group size, any dinner plans and roughly how long you'd like to shop, and we'll plan the evening around Main Street's hill and holiday crowds.
+    `,
+    faqs: [
+      {
+        question: "Is it hard to park in Old Ellicott City during the holidays?",
+        answer: "It can be. The public lots behind and above Main Street are small, street parking is limited, and December weekends fill up early. A chauffeured ride drops you near your first stop and picks you up when you're done.",
+      },
+      {
+        question: "Does Old Ellicott City have late holiday shopping nights?",
+        answer: "Main Street merchants have traditionally hosted extended-hours shopping evenings in December. Dates and details change each year, so check with the local merchants or the shops you plan to visit.",
+      },
+      {
+        question: "Can the chauffeur hold our shopping bags between stops?",
+        answer: "Yes, with hourly service the vehicle stays with you, so you can drop packages in it between shops and dinner instead of carrying them up and down the hill.",
+      },
+      {
+        question: "How long is the ride from BWI to Old Ellicott City?",
+        answer: "It's a short drive from BWI, which makes Main Street an easy first stop for holiday guests. We track flights and include 45 minutes of free wait time for domestic arrivals and 60 minutes for international.",
+      },
+      {
+        question: "What is the wait time for a non-airport pickup in Ellicott City?",
+        answer: "Non-airport pickups include 15 minutes of complimentary wait time. If you book hourly service, the vehicle is yours for the booked time, so waiting between stops is built in.",
+      },
+    ],
+    relatedPosts: [335, 330, 407],
+  },
+
+  // ---------------------------------------------------------- 2026-11-28 (December seasonal, round 2, added 2026-11-12)
+  {
+    id: 415,
+    slug: "sight-and-sound-christmas-show-trip-from-baltimore-group-transportation",
+    title: "Sight & Sound's Christmas Show From Baltimore: Group Transportation to Lancaster County",
+    seoTitle: "Sight & Sound Christmas Show From Baltimore | BWI Chauffeur",
+    seoDescription: "Plan a trip from Baltimore to the Sight & Sound Christmas show in Lancaster County: show times, the drive, group vans for church and family outings and more.",
+    excerpt: "Sight & Sound Theatres' holiday production draws groups from all over the Mid-Atlantic each year. Here's how to plan the trip from Baltimore, from show times and the drive north to choosing a vehicle for a church or family group.",
+    date: "2026-11-28",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/mercedes-sprinter-limo.webp",
+    content: `
+Sight & Sound Theatres in Lancaster County, Pennsylvania, is known for large-scale stage productions with elaborate sets, special effects and live animals. Its Christmas show is one of the most popular holiday outings in the region, and every year church groups, extended families and friends from Baltimore make the trip north to see it. A Sight & Sound Christmas show trip from Baltimore takes most of a day or evening once you count the drive, the show and a meal, which is why many groups would rather leave the driving to someone else.
+
+This guide covers how the trip works, how long the drive takes, how to time your departure around a show, and how to choose a vehicle for your group, whether that's a family of four or a church group of a dozen.
+
+Sight & Sound sets its own show schedule, run dates and ticket policies each year. Check its official website for current details before you plan anything else.
+
+## What to Expect From the Christmas Show
+
+Sight & Sound's theater in Lancaster County is large, with a wide stage that wraps around the audience. Its productions are known for big sets, a large cast and live animals on stage. In recent years, the theater has staged a Christmas production during the holiday season alongside its main show for the year, typically from around early November through late December.
+
+A few things to plan for:
+
+- **Shows run a set length,** usually a couple of hours with an intermission. Check the running time when you buy tickets.
+- **Matinee and evening performances** are both common. Matinees mean an earlier start from Baltimore but an easier drive home in daylight. Evening shows give you the day free but a later return.
+- **Popular dates sell out.** Weekend performances in December fill early, especially for groups who need seats together.
+- **Seating is reserved.** Buy tickets for the whole group at once if you want to sit together.
+
+## How Long Is the Drive From Baltimore?
+
+Sight & Sound's theater is in the Strasburg area east of Lancaster. From Baltimore, the usual route runs north on I-83 to York and then east on US-30 toward Lancaster, and the trip typically takes around an hour and a half to two hours, depending on your starting point and traffic. From BWI, add a short drive around the Baltimore Beltway first.
+
+In December, plan for some extra time:
+
+- **US-30 gets busy around Lancaster,** especially on weekends, with holiday shoppers heading to outlets and attractions in the area.
+- **Show crowds arrive together.** With a large theater, many people show up at the same time before curtain. Plan to arrive well before the show starts.
+- **Winter weather can slow the drive.** Snow or ice on I-83 or in south-central Pennsylvania can add time. Your chauffeur will plan the route around current conditions.
+
+We usually recommend leaving early enough to arrive at least 45 minutes to an hour before the show, especially for groups that need time to get everyone inside and seated.
+
+Lancaster County is outside our everyday local service area, so this is booked as a long-distance trip. Call us with your show time and group size for a quote. Our [guide to long-distance car service trips](/blog/what-to-pack-and-expect-on-a-long-distance-car-service-trip) covers what to expect on a longer ride.
+
+## Why Groups Book a Van
+
+Sight & Sound is a classic group outing. Churches, Sunday school classes, senior groups, extended families and groups of friends all make the trip. Driving it in several cars creates a few headaches:
+
+- **Coordinating multiple drivers** so everyone arrives on time and parks near each other.
+- **Asking someone to drive home in the dark** after a long day, often in winter weather.
+- **Splitting up the group,** so conversation and the shared experience get broken up across cars.
+
+A single Mercedes Sprinter van keeps everyone together, from departure to the ride home. It carries up to thirteen passengers, with a dedicated luggage area for coats and bags. For larger groups, we can coordinate more than one vehicle. Our [church and ministry group transportation](/church-ministry-group-transportation-maryland) page covers trips for congregations and church groups, and our [Sprinter van service](/maryland-sprinter-van-service) page explains the vehicle in more detail.
+
+## Choosing a Vehicle
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** seats three. A comfortable choice for a couple or a small family on a long drive.
+- **Lincoln Nautilus:** seats three with extra cargo space.
+- **GMC Yukon XL Denali:** seats five, with room for winter coats and bags.
+- **Lincoln Navigator:** seats six across three rows, a good fit for a family with grandparents. See our [Premium SUV](/fleet/premium-suv) page.
+- **Mercedes Sprinter:** carries up to thirteen passengers, the most common choice for church groups and larger families.
+
+If children are coming, car seats are available on request. Tell us their ages and weights when you book.
+
+## Planning the Day Around the Show
+
+Many groups turn the trip into a full day in Lancaster County:
+
+- **A meal before or after the show.** Lancaster County is known for family-style dining, and there are plenty of restaurants near the theater. Book ahead for a large group in December.
+- **Shopping in the area.** There are outlets and local shops along US-30 and in the surrounding towns.
+- **A stop in Hershey.** For a longer day, some groups add Hershey to the trip. Our [Hershey and Lancaster County day trip guide](/blog/hershey-and-lancaster-county-day-trip-from-baltimore) covers how to split the day between the two.
+
+With [hourly chauffeur service](/maryland-hourly-chauffeur-service), the vehicle stays with your group all day, so adding a meal or a shopping stop is easy.
+
+## Pickup Logistics for Groups
+
+If your group is meeting at a church, community center or someone's home:
+
+- **Pick one meeting point.** Have everyone gather there before the pickup time so the vehicle can leave on schedule.
+- **Allow time to load.** A full Sprinter with coats, bags and maybe a walker or two takes a few minutes to board.
+- **Send us the details.** Tell us the pickup address, group size, show time and any stops you'd like to add, and whether anyone needs extra help getting in and out of the vehicle.
+
+For non-airport pickups, 15 minutes of complimentary wait time is included. If you book hourly service, waiting is built into the booking.
+
+## Tips for Senior and Mixed-Age Groups
+
+Many Sight & Sound groups include older members, young children or both. A few things make the day easier for everyone:
+
+- **Plan a rest stop.** On a drive of an hour and a half or more, a short break on the way up helps. Tell us when you book and we'll build it into the schedule.
+- **Ask about the drop-off point.** The chauffeur can drop the group as close to the entrance as the theater's traffic flow and staff directions allow, which helps anyone who'd rather not walk far in the cold.
+- **Pack snacks and water** for the ride, especially if the show runs past a usual mealtime.
+- **Bring any medications** someone might need during a long day away from home.
+
+## The Ride Home
+
+After the show, the parking area and the roads around the theater can be slow while a full house leaves at once. Your chauffeur will meet the group at an agreed point. Then it's a relaxed ride back to Baltimore, with nobody in your group behind the wheel after dark. Many groups say the ride home, talking about the show, is part of the fun.
+
+If anyone in the group has a flight, we can drop them at BWI on the way back.
+
+## Booking Your Sight & Sound Christmas Trip
+
+December performances and weekend dates fill quickly, both for tickets and for larger vehicles, so book your ride as soon as you have your show time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us your group size, pickup point, show date and time, and any meal or shopping stops, and we'll plan the trip around the show.
+    `,
+    faqs: [
+      {
+        question: "How far is Sight & Sound Theatres from Baltimore?",
+        answer: "The theater is in the Strasburg area of Lancaster County, Pennsylvania. From Baltimore, the drive typically takes around an hour and a half to two hours via I-83 and US-30, depending on traffic and weather.",
+      },
+      {
+        question: "When does the Sight & Sound Christmas show run?",
+        answer: "In recent years, the Christmas production has typically run from around early November through late December. Sight & Sound sets its schedule each year, so check its official website for current dates and show times.",
+      },
+      {
+        question: "What vehicle works best for a church group going to Sight & Sound?",
+        answer: "The Mercedes Sprinter carries up to thirteen passengers and keeps the whole group together. For larger groups, we can coordinate more than one vehicle. Smaller families often choose the six-seat Lincoln Navigator.",
+      },
+      {
+        question: "How early should we leave Baltimore for a Sight & Sound show?",
+        answer: "Plan to arrive 45 minutes to an hour before the show. With a drive of around an hour and a half to two hours, most groups leave Baltimore two and a half to three hours before curtain in December.",
+      },
+      {
+        question: "Can we add a meal or a stop in Hershey to the trip?",
+        answer: "Yes. With hourly service, the vehicle stays with your group all day, so you can add a meal, shopping or a stop in Hershey. Tell us your plans when you book and we'll build the schedule.",
+      },
+    ],
+    relatedPosts: [393, 379, 335],
+  },
 ];
