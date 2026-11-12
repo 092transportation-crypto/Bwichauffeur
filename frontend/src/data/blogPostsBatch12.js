@@ -3476,4 +3476,362 @@ You can [book online](/booking) or call 877-609-1919 any hour of any day. Tell u
     ],
     relatedPosts: [397, 318, 396],
   },
+
+  // ---------------------------------------------------------- 2026-11-23 (December seasonal, added 2026-11-11)
+  {
+    id: 410,
+    slug: "ski-trip-car-service-baltimore-bwi-liberty-whitetail-roundtop-wisp",
+    title: "Ski Trip Car Service From Baltimore and BWI: Getting to Liberty, Whitetail, Roundtop and Wisp",
+    seoTitle: "Ski Trip Car Service From Baltimore & BWI | BWI Chauffeur",
+    seoDescription: "Plan a ski trip car service from Baltimore or BWI to Liberty, Whitetail, Roundtop or Wisp: drive times, winter roads, gear space and choosing the right vehicle.",
+    excerpt: "The closest ski slopes to Baltimore are an easy drive on a clear day and a long one in a snowstorm. Here's how to plan a chauffeured ski day or weekend from Baltimore or BWI, with room for the gear and nobody driving home tired.",
+    date: "2026-11-23",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Travel Tips",
+    image: "/images/gallery/yukon-denali-washington-dc.webp",
+    content: `
+A ski trip car service from Baltimore solves the two hardest parts of a winter day on the slopes: the drive up on roads that may be icy, and the drive home after a full day outside when everyone is tired. Baltimore sits within reach of several ski areas. The closest are just over the Pennsylvania line, and Maryland's own ski resort is out west in Garrett County. On a clear day the trips are easy. On a snowy one they're exactly the drives you'd rather hand to someone else.
+
+This guide covers the ski areas most Baltimore skiers visit, realistic drive times, how a chauffeured day trip or weekend works, what to tell us about your gear, and how to choose a vehicle. It also covers the other kind of ski trip: flying out of BWI with ski bags for a western or overseas resort.
+
+Every resort sets its own season, hours and lift-ticket rules, and opening day depends on the weather and snowmaking. Check each resort's official site before you go.
+
+## The Ski Areas Closest to Baltimore
+
+Most day trips from Baltimore head to one of four places:
+
+- **Roundtop Mountain Resort** in Lewisberry, Pennsylvania, near York and Harrisburg. The route runs north on I-83, and it's often the quickest of the Pennsylvania options from north Baltimore and Towson, usually somewhere around an hour and a quarter in normal traffic.
+- **Liberty Mountain Resort** near Fairfield, Pennsylvania, just over the state line and close to Gettysburg. The drive heads northwest through Carroll County toward Emmitsburg, typically around an hour and a half from Baltimore.
+- **Whitetail Resort** near Mercersburg, Pennsylvania. The route runs west on I-70 past Frederick and Hagerstown before turning north across the state line, usually about two hours from Baltimore.
+- **Wisp Resort** at Deep Creek Lake in Garrett County, Maryland. This is a longer trip west on I-70 and I-68 through Hagerstown and Cumberland, and the final miles climb into the mountains. Plan on well over three hours, and longer in snow. Most people treat Wisp as a weekend rather than a day trip.
+
+These times are rough estimates. Holiday weekends, weekday rush hours around Baltimore and winter weather can all stretch them. The local ski season usually gets going in December, depending on the weather, and runs into early spring, with the busiest days falling on weekends, the week between Christmas and New Year's, and holiday Mondays in January and February.
+
+## Why a Chauffeured Ski Trip Makes Sense
+
+The drive is the hidden cost of a ski day. You leave early to beat the lift lines, ski hard for hours, then face a long drive home in the dark, often on roads that got slick while you were on the mountain. A chauffeured ski trip changes that:
+
+- **Nobody has to drive tired.** The ride home is the time to rest, not the time to concentrate on a dark two-lane road.
+- **Winter roads are handled by a professional.** Our chauffeurs drive these Maryland and Pennsylvania routes and know how mountain roads behave when temperatures drop after sunset.
+- **No parking lot shuttle.** Resort lots can fill on busy days, and the walk in ski boots from a far lot is no fun. Your chauffeur drops you at the resort's drop-off area and meets you there at the end of the day.
+- **The group stays together.** Friends or a family in one vehicle arrive and leave together instead of coordinating two or three cars.
+
+If the forecast turns bad, our [Maryland snow emergency travel plan](/maryland-snow-emergency-travel-plan-chauffeur-guide) explains how we handle storms and when it makes sense to move a trip.
+
+## Day Trip or Weekend: How the Booking Works
+
+There are two common ways to book a ski trip with us:
+
+- **Drop-off and return pickup.** We take you to the resort in the morning and come back for you at a set time. This works well when you know how long you'll ski and don't need the vehicle in between.
+- **Hourly service.** The vehicle and chauffeur stay with you for the day. It costs more time on the meter but gives you flexibility: leave early if the snow turns to rain, stop for dinner in a small town on the way home, or change plans on the fly. Our [hourly chauffeur service](/maryland-hourly-chauffeur-service) page explains how it works.
+
+For a weekend at Wisp or a stay at a rental near Deep Creek Lake, a one-way transfer each direction usually makes more sense. Our [Deep Creek Lake weekend car service from BWI](/deep-creek-lake-weekend-car-service-from-bwi) page covers that route in detail. Because these are long-distance trips, they're priced and booked differently from a standard local ride, so call ahead to confirm the rate and the vehicle.
+
+## Planning the Timing
+
+A few habits make the day smoother:
+
+- **Leave early.** Lift lines and parking get worse through the morning on weekends and holidays. An early pickup also gives you a buffer if the roads are slow.
+- **Agree on a pickup time, with some flexibility.** Pick a realistic end time and tell your chauffeur where you'll meet. If you ski night sessions where a resort offers them, let us know so the pickup is set for later.
+- **Watch the forecast both ways.** Snow at the resort is great for skiing but can make the drive slower. Rain or ice on the way home is often the bigger issue.
+- **Build in a meal.** Many groups stop for an early dinner on the way back. Tell us when you book so the timing works.
+
+## Gear, Luggage and Vehicle Space
+
+Skis and snowboards are long, ski boots are bulky, and winter clothing takes up more room than you'd expect. The single most useful thing you can tell us is exactly what you're bringing: how many pairs of skis, how many snowboards, boot bags and any overnight luggage. If you're renting gear at the resort, say so, since that frees up a lot of space.
+
+Here's how our fleet lines up for a ski trip, using the seating and luggage capacity listed for each vehicle:
+
+- A **Lincoln Nautilus** seats three with room for four bags, a fit for a couple or small group renting gear at the mountain.
+- A **GMC Yukon XL Denali** seats five with room for five bags, and its extended cargo area is the most common choice for a family bringing their own equipment. See our [Luxury SUV](/fleet/luxury-suv) page.
+- A **Lincoln Navigator** seats six with room for five bags, good for a slightly larger group with moderate gear.
+- A **Mercedes Sprinter** carries up to thirteen passengers with room for thirteen bags, the right choice for a ski club, a church youth group or several families traveling together. See our [Sprinter Shuttle](/fleet/sprinter-shuttle) page.
+
+Sedans like the Mercedes-Benz E-Class are better suited to the ride to BWI than to a ski trip with gear. If you aren't sure which vehicle fits your equipment, describe it when you book and we'll match you to one with the space.
+
+## Flying Out of BWI for a Ski Trip
+
+Plenty of Maryland skiers fly to bigger mountains in the West, Canada or Europe. Those trips start with a ride to BWI carrying ski or snowboard bags, boot bags and winter luggage. Tell us about the oversized bags when you book so the vehicle has room, and plan on extra time at the airline counter, since sports equipment is usually checked separately and holiday-season lines can be long.
+
+On the way home, we track your flight and adjust the pickup if it's late. Domestic arrivals include 45 minutes of free wait time and international arrivals 60 minutes, which helps when oversized baggage comes out slowly. If a storm upends your return, our [winter weather flight delay playbook](/blog/winter-weather-flight-delay-playbook-bwi) covers what to do.
+
+## Traveling With Kids
+
+Family ski days need extra planning. We provide car seats on request; tell us children's ages and weights when you book so the right seats are installed before pickup. Pack a dry change of clothes and shoes in the vehicle for the ride home. Kids get cold and wet, and a warm, dry ride back makes the end of the day much easier.
+
+## Booking Your Ski Trip
+
+Weekend and holiday ski days book up quickly, especially the week between Christmas and New Year's. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. That helps when the weather forecast changes. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us the resort, your group size, the gear you're bringing and whether you want a drop-off and return or hourly service, and we'll plan the day around the drive.
+    `,
+    faqs: [
+      {
+        question: "Which ski areas are closest to Baltimore?",
+        answer: "Roundtop Mountain Resort near York, Liberty Mountain Resort near Gettysburg and Whitetail Resort near Mercersburg, all in Pennsylvania, are the usual day trips. Wisp Resort at Deep Creek Lake is Maryland's ski resort and is better as a weekend.",
+      },
+      {
+        question: "Can the chauffeur wait at the ski resort all day?",
+        answer: "Yes, with hourly service the vehicle and chauffeur stay with you. Many groups book a morning drop-off and an afternoon pickup instead. Call us to confirm the rate for long-distance trips.",
+      },
+      {
+        question: "Which vehicle fits skis and snowboards?",
+        answer: "The GMC Yukon XL Denali (5 passengers) and Lincoln Navigator (6) fit a family with gear, and the Mercedes Sprinter (13) suits larger groups. Tell us exactly what equipment you're bringing when you book.",
+      },
+      {
+        question: "What happens if it snows on the day of my ski trip?",
+        answer: "Our chauffeurs drive winter roads regularly, but safety comes first. If conditions are dangerous, dispatch will talk with you about adjusting the time or date. Sedans and SUVs can be cancelled free up to 3 hours before pickup.",
+      },
+      {
+        question: "Can you take us to BWI with ski bags for a flight out west?",
+        answer: "Yes. Tell us how many ski or snowboard bags and boot bags you have so we send a vehicle with room. On your return we track the flight, with 45 minutes of free wait time domestic and 60 international.",
+      },
+    ],
+    relatedPosts: [318, 15, 336],
+  },
+
+  // ---------------------------------------------------------- 2026-11-24 (December seasonal, added 2026-11-11)
+  {
+    id: 411,
+    slug: "college-winter-break-rides-to-bwi-students-parents-guide",
+    title: "College Winter Break Rides to BWI: A December Travel Plan for Students and Parents",
+    seoTitle: "College Winter Break Rides to BWI Airport | BWI Chauffeur",
+    seoDescription: "Plan college winter break rides to BWI from Hopkins, Towson, UMBC, Loyola or UMD: timing around finals, dorm pickups, luggage, shared rides and return trips.",
+    excerpt: "When finals end, thousands of Maryland college students head for BWI at once, often with a semester's worth of bags. Here's how students and parents can plan the ride to the airport, and the ride back to campus in January.",
+    date: "2026-11-24",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Airport Travel",
+    image: "/images/blog/airport-dropoff.webp",
+    content: `
+College winter break rides to BWI are one of the quiet logistics headaches of December. Finals end, residence halls close, and students from across the Baltimore area all head to the airport within the same few days, often on early flights and with more luggage than they arrived with. Parents who live out of state are trying to arrange it from hundreds of miles away. Rideshare prices and wait times jump at exactly the moments everyone needs a car.
+
+A booked ride takes that uncertainty off the table. This guide covers how to time the trip around finals, how campus pickups work, what to do about luggage, how a group of friends can share a ride, and how to plan the return to campus in January.
+
+Every school sets its own exam schedule and residence hall closing dates, and they change from year to year. Check your school's academic calendar and housing office before you book a flight or a ride.
+
+## Why Winter Break Is a Hard Week to Get to BWI
+
+The fall semester at most Maryland colleges ends with final exams in mid-December, and residence halls typically close shortly after the last exam. That means a few patterns repeat every year:
+
+- **Everyone leaves at once.** Students at Johns Hopkins, Towson, UMBC, Loyola, the University of Maryland and other area schools often finish within days of each other, and many fly out the morning after their last exam.
+- **The flights are early.** Morning departures are popular and often cheaper, which means pickups at 4 or 5 a.m. from a dorm or off-campus apartment.
+- **The bags are heavy.** Students going home for several weeks often bring laundry, gifts and things they won't need on campus until spring.
+- **The timing overlaps holiday travel.** Mid- to late December is one of BWI's busiest stretches of the year, with longer security lines and fuller parking garages.
+
+Booking ahead with a chauffeured service means the car is confirmed before finals week starts, at a time that's set in writing, with a driver who tracks traffic to the airport.
+
+## Campus Pickups: What to Expect
+
+Each campus has its own layout, and the right pickup point depends on where the student lives:
+
+- **Johns Hopkins (Homewood)** in north Baltimore has residence halls along North Charles Street and the surrounding blocks, with plenty of nearby apartment buildings. Our [Johns Hopkins University transportation](/johns-hopkins-university-transportation) page covers campus pickups.
+- **Towson University** has a large campus with residence halls spread across several areas, plus a big off-campus apartment population. See our [BWI to Towson car service](/bwi-to-towson-car-service) page for the route.
+- **UMBC** in Catonsville is one of the closest campuses to BWI, usually a short drive down the Beltway and I-195.
+- **Loyola University Maryland** sits in a residential North Baltimore neighborhood with limited curb space, so agree on a clear pickup spot.
+- **The University of Maryland** in College Park has a large campus with many pickup points. Our [University of Maryland transportation](/university-of-maryland-transportation) page has details.
+
+Wherever the pickup is, give us the exact building name or street address and a clear spot where a vehicle can stop safely. Campus roads may have restricted lanes, gates or loading zones, and the chauffeur has to follow campus traffic rules. The student should be ready at the curb a few minutes early, with bags packed.
+
+For other campus trips, such as commencement or family weekends, our guide to [university event transportation at Loyola, Towson and UMBC](/blog/university-event-transportation-loyola-towson-umbc) has more.
+
+## When to Schedule the Ride
+
+For a December departure from BWI, plan on reaching the airport about 2 hours before a domestic flight and 3 hours before an international one. Then work backward:
+
+- **Add the drive time.** From UMBC or the Arundel Mills area it's usually short. From Towson, Homewood or College Park, plan on more, and more again during weekday rush hours.
+- **Add a cushion for weather.** A December morning can bring freezing rain or snow, which slows the Beltway and I-95.
+- **Don't book the flight for the same morning as the last exam.** It sounds obvious, but a tight exam-to-flight window is one of the most common winter break stresses. Leave room in case an exam runs long or a residence hall checkout takes time.
+
+Early morning pickups are routine for us. Dispatch is staffed 24 hours a day, every day of the year.
+
+## Luggage and Vehicle Choice
+
+Tell us how many bags are going, including anything oversized like a guitar case or a mini-fridge being taken home. Using the seating and luggage capacity listed in our fleet:
+
+- A **Mercedes-Benz E-Class** sedan seats three with room for two bags, a fit for one student traveling light.
+- A **Lincoln Nautilus** seats three with room for four bags, good for a student with a full semester's luggage.
+- A **GMC Yukon XL Denali** seats five with room for five bags, and a **Lincoln Navigator** seats six with room for five bags, both good for roommates or a few friends.
+- A **Mercedes Sprinter** carries up to thirteen passengers with room for thirteen bags, the natural choice when a team, a club or a floor of friends is flying out the same morning.
+
+## Sharing a Ride With Friends
+
+Students on the same floor or team often have flights within a few hours of each other. Sharing one vehicle can make sense, as long as everyone's flight works with a single drop-off time. Base the pickup on the earliest flight, and make sure everyone is packed and at the curb on time. One late passenger holds up the whole group. For larger groups, our post on [group transportation to BWI Airport](/blog/group-transportation-bwi-airport) explains how we plan multi-passenger airport runs.
+
+## Booking From Out of State: Tips for Parents
+
+Many parents book winter break rides from home. A few things help:
+
+- **Give us the student's name and mobile number** so the chauffeur can reach them directly on the day, plus your own number as a backup.
+- **Confirm the pickup address with the student.** Dorm assignments change, and students in off-campus housing may have moved since the last trip.
+- **Share the flight number.** It helps us plan the timing, and for the return trip it means we can track the flight.
+- **Book early.** Finals week is busy for us too.
+
+## If a Flight Is Cancelled or Rebooked
+
+December weather and holiday crowds mean some flights get delayed, cancelled or moved. If that happens before the pickup, the student or parent should call dispatch at 877-609-1919 as soon as the airline confirms a new flight, and we'll move the ride to match. Moving the reservation is usually simpler than cancelling and rebooking.
+
+If the student is already at the airport when the flight is cancelled and needs to go back to campus, a friend's apartment or a hotel for the night, call dispatch and we'll arrange a ride from BWI. Since residence halls may already be closed, it helps to have a backup place to stay in mind before travel day. Our [winter weather flight delay playbook](/blog/winter-weather-flight-delay-playbook-bwi) has more on handling a storm on travel day.
+
+## The Return Trip in January
+
+Winter break ends with the reverse trip: landing at BWI in January with bags and heading back to campus. For arrivals we track the flight and adjust the pickup if it's early or late. Domestic arrivals include 45 minutes of free wait time and international arrivals 60 minutes, which helps international students coming back from long-haul flights. A [BWI airport arrival pickup](/bwi-airport-arrival-pickup) can include a meet and greet inside the terminal, useful for a first-year student landing alone.
+
+Midshipmen have their own leave schedule; our guide to [Naval Academy winter leave travel through BWI](/blog/naval-academy-midshipmen-thanksgiving-winter-leave-bwi-travel) covers that.
+
+## Booking Your Winter Break Ride
+
+Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. That helps when an exam schedule or flight changes. If a flight is rebooked, call dispatch and we'll move the pickup.
+
+You can [book online](/booking) or call 877-609-1919. Tell us the campus and pickup address, the flight time, the number of passengers and bags, and the best number to reach the student, and we'll handle the rest.
+    `,
+    faqs: [
+      {
+        question: "How early should a college student leave for BWI in December?",
+        answer: "Plan to arrive about 2 hours before a domestic flight and 3 hours before an international one, then add the drive from campus and a cushion for weather. Mid-December is one of BWI's busiest times of year.",
+      },
+      {
+        question: "Can a parent book a ride for a student from out of state?",
+        answer: "Yes. Book online or by phone, and give us the student's name, mobile number, pickup address and flight details, plus your own number as a backup.",
+      },
+      {
+        question: "Can several students share one ride to BWI?",
+        answer: "Yes, if their flights work with a single drop-off time. Base the pickup on the earliest flight. The Lincoln Navigator seats six and the Mercedes Sprinter seats thirteen, each with luggage space.",
+      },
+      {
+        question: "Do you pick up from dorms at Towson, UMBC, Hopkins, Loyola and UMD?",
+        answer: "Yes. Give us the building name or address and a spot where a vehicle can stop safely. Chauffeurs follow each campus's traffic and loading rules.",
+      },
+      {
+        question: "What if a student's flight back to BWI in January is delayed?",
+        answer: "We track the flight and adjust the pickup automatically. Domestic arrivals include 45 minutes of free wait time and international arrivals 60 minutes, counted from landing.",
+      },
+    ],
+    relatedPosts: [334, 15, 396],
+  },
+
+  // ---------------------------------------------------------- 2026-11-25 (December seasonal, added 2026-11-11)
+  {
+    id: 412,
+    slug: "eastport-yacht-club-lights-parade-annapolis-transportation-guide",
+    title: "Eastport Yacht Club Lights Parade: Planning an Annapolis Holiday Evening Without the Parking Hunt",
+    seoTitle: "Eastport Yacht Club Lights Parade Guide | BWI Chauffeur",
+    seoDescription: "Plan your trip to the Eastport Yacht Club Lights Parade in Annapolis: where to watch, how crowds and parking work, drop-off points and getting home safely.",
+    excerpt: "Every December, dozens of boats covered in holiday lights parade through Annapolis Harbor and Spa Creek. Here's how to plan the evening, where to watch, and how to get to and from the waterfront without fighting for parking.",
+    date: "2026-11-25",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/blog/landmark-annapolis-2.webp",
+    content: `
+The Eastport Yacht Club Lights Parade is one of the best-loved holiday traditions in Annapolis. On a December evening, local boats decorated with lights, from small powerboats to big sailboats with lights running up the mast, make their way through Annapolis Harbor and along Spa Creek while crowds watch from the waterfront. It's free to watch, it's beautiful, and it draws a lot of people into a small historic downtown at the same time.
+
+That last part is why it pays to plan. Downtown Annapolis has narrow streets, limited parking and a lot of foot traffic on parade night. This guide covers how the parade works, where people watch from, how to get there from Baltimore, BWI and the rest of Anne Arundel County, where a driver can drop you off and how to turn the parade into a full holiday evening.
+
+The parade is organized by the Eastport Yacht Club, which sets the date, start time, route and any weather postponement each year. Check the club's official announcements before you go.
+
+## What the Lights Parade Is
+
+The Eastport Yacht Club Lights Parade has been held for decades and is usually scheduled for a Saturday evening in early or mid-December. Boat owners spend weeks decorating, and the boats are judged on their displays. The boats typically cruise a course through Annapolis Harbor and past the waterfront along Spa Creek, so people on both the downtown side and the Eastport side get a view.
+
+Because it's on the water, the parade depends on the weather. Strong wind or a storm can lead to a postponement, and organizers usually name a backup date. December evenings by the water are also noticeably colder than inland Baltimore, especially once the sun goes down.
+
+## Where People Watch the Parade
+
+Viewing is informal. There are no tickets, and people gather wherever they can see the water. The most popular areas include:
+
+- **City Dock and the downtown waterfront,** at the foot of Main Street, where the crowd is usually biggest. It's central and close to restaurants but fills early.
+- **The Eastport side of Spa Creek,** across the bridge from downtown, where waterfront streets, restaurants and docks look back across the creek.
+- **Waterfront restaurants and bars** on both sides, many of which fill with reservations for parade night. Book well ahead if you want a table with a view.
+
+Arrive well before the scheduled start if you want a spot near the water. Crowds build through the late afternoon, and the best viewing areas can be packed by the time the boats appear.
+
+## Getting to Annapolis From Baltimore and BWI
+
+From downtown Baltimore, the drive to Annapolis typically runs down I-97 or MD-2, and from BWI it's an even shorter trip south on I-97. On parade night, the drive itself is rarely the issue. The last mile is:
+
+- **Downtown parking fills early.** Garages and lots near City Dock and Main Street fill up well before the parade on a December Saturday, and street parking in the historic district is limited.
+- **Traffic slows near the water.** Cars circling for parking, pedestrians crossing everywhere and narrow colonial-era streets make the final approach slow.
+- **The Spa Creek bridge gets busy.** It's the main link between downtown and Eastport, and on parade night it's crowded with both cars and people on foot.
+
+A chauffeured ride skips all of that. Your chauffeur drops you near your viewing spot or restaurant, you enjoy the parade, and the vehicle meets you at an agreed point afterward. Nobody has to circle for parking or drive home after dinner and a drink. Our [Baltimore to Annapolis](/baltimore-to-annapolis) and [BWI to Annapolis](/bwi-to-annapolis) pages cover the routes.
+
+## Drop-Off and Pickup on Parade Night
+
+There's no official drop-off zone, so the best spot depends on traffic and where your evening goes:
+
+- **Choose a drop-off a short walk from the water,** not on the busiest blocks near City Dock, where vehicles can't easily stop.
+- **Agree on a pickup point and time before you start walking.** After the parade, everyone leaves at once, and phone signal can be slow in dense crowds. A pre-agreed corner and time is a reliable backup.
+- **Follow traffic officers and posted closures.** The city may close or restrict streets near the waterfront, and drivers have to follow those directions.
+- **Tell us about anyone who needs a shorter walk.** The chauffeur can plan the closest practical drop-off point for older relatives or anyone with limited mobility.
+
+## Make It an Annapolis Holiday Evening
+
+The parade is a natural centerpiece for a full night out. A few ways to plan it:
+
+- **Dinner on the water.** Book a waterfront table in downtown Annapolis or Eastport. Parade night reservations go fast.
+- **Holiday shopping downtown.** The shops on Main Street and Maryland Avenue are busy in December, and downtown merchants have traditionally held late-night holiday shopping evenings during the month. Check the shops' hours before you plan around them.
+- **Stroll the historic district.** The State House and the streets around it are lit up for the season. Our [Annapolis visitors guide](/blog/annapolis-visitors-guide-historic-downtown-naval-academy-city-dock) covers the historic downtown, the Naval Academy and City Dock.
+
+With [hourly chauffeur service](/maryland-hourly-chauffeur-service), the vehicle stays with you all evening, so you can move between dinner, the waterfront and the shops without anyone driving.
+
+## Choosing a Vehicle
+
+Downtown Annapolis streets are narrow, so match the vehicle to your group:
+
+- A **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class** sedan seats three and is the easiest to maneuver downtown, good for a couple's evening out.
+- A **GMC Yukon XL Denali** seats five, with room for coats, blankets and shopping bags.
+- A **Lincoln Navigator** seats six, a good fit for a family or two couples. See our [Premium SUV](/fleet/premium-suv) page.
+- A **Mercedes Sprinter** carries up to thirteen passengers, a good choice for an office group, a family gathering or friends celebrating together. On a busy night it usually drops off and picks up on a wider street a short walk from the water.
+
+If children are coming, we provide car seats on request. Tell us their ages and weights when you book.
+
+## Getting Home After the Parade
+
+When the last boats pass, much of the crowd leaves at once. The streets around City Dock fill with people walking to garages, and traffic out of downtown can back up for a while. There are a few easy ways to make the end of the night smoother:
+
+- **Linger a little.** Stay for dessert or a drink after the parade and let the first wave of traffic clear before your pickup.
+- **Walk a few blocks to the vehicle.** A pickup point away from the waterfront is usually faster to reach than one right at City Dock.
+- **Text your chauffeur when you're ready.** With hourly service, the vehicle is nearby and can come to the agreed point as soon as you are.
+
+The ride back to Baltimore, Columbia or a BWI-area hotel is then a quiet drive home, with no one in your group behind the wheel.
+
+## Tips for Watching the Boats
+
+- **Dress warmer than you think.** It's colder by the water, and you'll be standing still for a while. Hats, gloves and a blanket help.
+- **Bring a small flashlight or use your phone light** on dark docks and uneven brick sidewalks.
+- **Keep the group together.** Crowds near City Dock are dense. Pick a meeting spot in case someone gets separated.
+- **Check for a weather postponement** on the day of the parade before heading out.
+
+## Booking Your Ride to the Lights Parade
+
+Parade night is a busy Saturday in Annapolis and one of our busier December evenings, so reserve as soon as the date is announced. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before, which helps if the parade is postponed. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us where you're starting, your group size, your dinner reservation and where you'd like to watch, and we'll plan the evening around the waterfront crowds.
+    `,
+    faqs: [
+      {
+        question: "When is the Eastport Yacht Club Lights Parade?",
+        answer: "It's usually held on a Saturday evening in early or mid-December, with a backup date in case of bad weather. The Eastport Yacht Club sets the date and time each year, so check its announcements.",
+      },
+      {
+        question: "Where is the best place to watch the Annapolis lights parade?",
+        answer: "City Dock and the downtown waterfront draw the biggest crowds. The Eastport side of Spa Creek and waterfront restaurants on both sides also have good views. Arrive early for a spot by the water.",
+      },
+      {
+        question: "Is it hard to park in Annapolis on lights parade night?",
+        answer: "Yes. Downtown garages, lots and street parking fill early, and traffic near the water is slow. A chauffeured ride drops you near your viewing spot and picks you up at an agreed point afterward.",
+      },
+      {
+        question: "Can you pick us up in Baltimore or at BWI for the parade?",
+        answer: "Yes. We pick up across the Baltimore area and at BWI. The drive to Annapolis usually runs down I-97, and with hourly service the vehicle stays with you for dinner and the parade.",
+      },
+      {
+        question: "What if the lights parade is postponed for weather?",
+        answer: "Call dispatch and we'll move your booking to the backup date if we can. Sedans and SUVs can be cancelled free up to 3 hours before pickup, and Sprinter bookings up to 12 hours before.",
+      },
+    ],
+    relatedPosts: [373, 335, 336],
+  },
 ];
