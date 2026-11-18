@@ -6430,4 +6430,178 @@ You can [book online](/booking) or call 877-609-1919. Tell us your pickup addres
     ],
     relatedPosts: [393, 378, 382],
   },
+
+  // ---------------------------------------------------------- 2026-11-18 (added 2026-11-18, live on deploy)
+  {
+    id: 437,
+    slug: "harpers-ferry-day-trip-from-baltimore-bwi",
+    title: "Harpers Ferry From Baltimore: Planning a Chauffeured Day Trip to the Rivers and Lower Town",
+    seoTitle: "Harpers Ferry Day Trip From Baltimore & BWI | BWI Chauffeur",
+    seoDescription: "Planning a day at Harpers Ferry from Baltimore or BWI? Drive time, the visitor center and Lower Town, Maryland Heights, the C&O Canal towpath and getting home.",
+    excerpt: "Harpers Ferry sits where the Potomac and Shenandoah rivers meet, a little over an hour from Baltimore. Here's how to plan a chauffeured day in the historic Lower Town, on the trails and along the C&O Canal.",
+    date: "2026-11-18",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/gallery/fleet-downtown-baltimore.webp",
+    content: `
+Harpers Ferry, West Virginia, sits at the point where the Potomac and Shenandoah rivers meet, just across the river from Maryland. Much of the town is part of Harpers Ferry National Historical Park, which preserves the nineteenth-century Lower Town, the site of the federal armory and the story of John Brown's 1859 raid. The Appalachian Trail runs straight through town, and the C&O Canal towpath follows the Maryland side of the Potomac below the cliffs of Maryland Heights.
+
+From Baltimore or BWI, Harpers Ferry makes an easy day trip. This guide covers how to plan it.
+
+## Getting There
+
+Harpers Ferry is roughly 65 to 75 miles from Baltimore and BWI, depending on where you start. Most trips head west on I-70 toward Frederick, then follow US-340 through southern Frederick County and across the Potomac. Without traffic, the drive is often about an hour and a quarter to an hour and a half each way.
+
+- **Start early.** Lower Town is compact, but most visitors want time for a walk or a hike as well as the historic buildings.
+- **Plan for the ride home.** After a day on hills and river trails, a chauffeured ride back means no one has to drive tired.
+
+## Parking and the Visitor Center
+
+Parking in Lower Town is limited. The park's main visitor center sits on the hill above town, and the park typically runs shuttle buses from there down to Lower Town. With a chauffeur, you can skip the parking question entirely: your driver can drop you as close to Lower Town as access allows and meet you again when you're ready. Check the National Park Service website for current hours, fees and shuttle details before you go.
+
+## Lower Town
+
+Lower Town is the heart of the visit. The park's restored buildings hold exhibits on the armory, the town's industrial history, the Civil War and John Brown's raid, and John Brown's Fort stands near the confluence. Stone steps lead up the hill past St. Peter's Catholic Church to Jefferson Rock, which looks out over the Shenandoah. High Street and Potomac Street have small shops, cafes and places to eat.
+
+## Maryland Heights and the C&O Canal
+
+A pedestrian walkway on the railroad bridge crosses the Potomac into Maryland, where the C&O Canal towpath runs along the river. The towpath is flat and easy, and the Maryland Heights trail climbs to the well-known overlook above town. The Maryland Heights climb is steep and rocky, so wear good shoes and give yourself plenty of time. If part of your group would rather not hike, your chauffeur can take them on to the next stop and come back.
+
+## Making It a Longer Trip
+
+Harpers Ferry pairs well with other stops in western Maryland. [Antietam National Battlefield](/limo-service-near-antietam-national-battlefield) near Sharpsburg is close by, and [Brunswick](/brunswick-md-limo-service), the old B&O Railroad town on the Maryland side of the Potomac, is on the way. Many visitors stop for dinner in downtown Frederick, along Carroll Creek, on the ride back. If you're planning more than one battlefield, our [Gettysburg day trip guide](/blog/gettysburg-battlefield-day-trip-from-baltimore-bwi) covers the route north into Pennsylvania.
+
+## Hourly Service for Day Trips
+
+A day trip to Harpers Ferry works best with hourly service, which keeps the vehicle and chauffeur with you all day. Our [hourly vs. point-to-point guide](/blog/hourly-chauffeur-vs-point-to-point-which-do-you-need) explains how it works, and our [Maryland hourly chauffeur service](/maryland-hourly-chauffeur-service) page has more detail.
+
+If you're flying in, we can pick you up at BWI Marshall and head straight west. Airport pickups include flight tracking, with 45 minutes of free wait time for domestic arrivals and 60 minutes for international arrivals.
+
+## Choosing a Vehicle
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** seats three, for a couple or a small party.
+- **Lincoln Nautilus:** seats three.
+- **GMC Yukon XL Denali:** seats five, for a family with hiking gear.
+- **Lincoln Navigator:** seats six.
+- **Mercedes Sprinter:** up to thirteen passengers, for a school group, scout troop, hiking club or family reunion.
+
+## Booking Your Harpers Ferry Trip
+
+Fall weekends are the busiest time of year in Harpers Ferry, and spring and summer weekends fill up too, so book early. Non-airport pickups include 15 minutes of complimentary wait time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us your pickup address, group size and what you'd like to see, and we'll plan the day.
+    `,
+    faqs: [
+      {
+        question: "How far is Harpers Ferry from Baltimore?",
+        answer: "Harpers Ferry is roughly 65 to 75 miles from Baltimore and BWI, depending on your starting point. Without traffic, the drive is often about an hour and a quarter to an hour and a half each way.",
+      },
+      {
+        question: "Is there parking in Harpers Ferry's Lower Town?",
+        answer: "Lower Town parking is limited, and the park typically runs shuttles from its visitor center on the hill above town. With a chauffeur, you're dropped off and picked up, so parking isn't a concern.",
+      },
+      {
+        question: "Can we hike Maryland Heights and still be picked up in town?",
+        answer: "Yes. With hourly service, your chauffeur stays with you all day, so you can hike, walk Lower Town and meet the car when you're done.",
+      },
+      {
+        question: "Can we combine Harpers Ferry with Antietam or Frederick?",
+        answer: "Yes. Antietam National Battlefield and downtown Frederick are both close to the route, and many visitors add one of them to the same day under one hourly reservation.",
+      },
+      {
+        question: "Can you take a school or scout group to Harpers Ferry?",
+        answer: "Yes. The Mercedes Sprinter carries up to thirteen passengers, and larger groups can be split across multiple vehicles.",
+      },
+    ],
+    relatedPosts: [436, 393, 378],
+  },
+
+  // ---------------------------------------------------------- 2026-11-18 (added 2026-11-18, live on deploy)
+  {
+    id: 438,
+    slug: "george-washingtons-mount-vernon-estate-visit-from-baltimore-bwi",
+    title: "Visiting George Washington's Mount Vernon From Baltimore: A Chauffeured Day on the Potomac",
+    seoTitle: "Mount Vernon Estate Trip From Baltimore & BWI | BWI Chauffeur",
+    seoDescription: "Planning a visit to George Washington's Mount Vernon from Baltimore or BWI? Drive time, the mansion tour, the grounds, the distillery, holiday season and getting home.",
+    excerpt: "George Washington's Mount Vernon sits on the Potomac south of Alexandria, an easy drive from Baltimore. Here's how to plan a chauffeured visit to the mansion, the grounds and Old Town on the way back.",
+    date: "2026-11-18",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/gallery/yukon-denali-washington-dc.webp",
+    content: `
+George Washington's Mount Vernon, his home and plantation on the Virginia bank of the Potomac River, is one of the most visited historic houses in the country. The estate is owned and operated by the Mount Vernon Ladies' Association and includes the mansion, outbuildings, gardens, Washington's tomb, a museum and education center, and a working distillery and gristmill a short drive away.
+
+From Baltimore or BWI, Mount Vernon is a comfortable day trip. This guide covers how to plan it.
+
+## Getting There
+
+Mount Vernon is roughly 50 to 65 miles from Baltimore and BWI, depending on where you start. Most trips head south on I-95 or the Baltimore-Washington Parkway, cross the Potomac on the Woodrow Wilson Bridge and follow the George Washington Memorial Parkway south along the river. Without traffic, the drive is often about an hour to an hour and a half each way, but the Capital Beltway can add time at rush hour.
+
+- **Leave early or after the morning rush.** A weekday start after the peak commute often makes the Beltway easier.
+- **Plan for the ride home.** Evening traffic on the Beltway and I-95 north is the part of the day most drivers dread. A chauffeured ride lets you rest instead.
+
+## The Mansion and the Grounds
+
+Most visits begin at the Ford Orientation Center, then head out to the mansion for a timed tour. Mansion tours are typically timed entry, so check the estate's website for current hours and tickets before you go and allow time to walk from the entrance to your tour.
+
+After the mansion, plan time for the grounds: the outbuildings, the gardens, the river views from the piazza, Washington's tomb, and the memorial to the people enslaved at Mount Vernon. The Donald W. Reynolds Museum and Education Center near the entrance has exhibits on Washington's life.
+
+## The Distillery and Gristmill
+
+George Washington's Distillery and Gristmill sits a few miles from the main estate. It's typically open seasonally, so check the schedule if it's on your list. With hourly service, your chauffeur can drive you between the two sites so you don't have to work out the separate trip.
+
+## The Holiday Season
+
+Mount Vernon typically decorates the mansion for the holidays and holds Christmas programs from late November into early January, including candlelight tours on select evenings. These events tend to sell out, so book tickets well ahead and tell us your tour time when you reserve the car.
+
+## Making It a Longer Trip
+
+Many visitors stop in Old Town Alexandria on the way back for dinner along King Street; our [Old Town Alexandria car service](/old-town-alexandria-va-car-service) page covers the area. If you'd like to add the monuments and museums in Washington, our [full day in Washington, DC guide](/a-full-day-in-washington-dc-by-private-chauffeur-monuments-and-museums) covers smart pickup points around the National Mall.
+
+## Hourly Service for Day Trips
+
+A Mount Vernon trip works best with hourly service, which keeps the vehicle and chauffeur with you all day. Our [hourly vs. point-to-point guide](/blog/hourly-chauffeur-vs-point-to-point-which-do-you-need) explains how it works, and our [Maryland hourly chauffeur service](/maryland-hourly-chauffeur-service) page has more detail.
+
+If you're flying in, we can pick you up at BWI Marshall and head straight to the estate. Airport pickups include flight tracking, with 45 minutes of free wait time for domestic arrivals and 60 minutes for international arrivals.
+
+## Choosing a Vehicle
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** seats three, for a couple or a small party.
+- **Lincoln Nautilus:** seats three.
+- **GMC Yukon XL Denali:** seats five, for a family.
+- **Lincoln Navigator:** seats six.
+- **Mercedes Sprinter:** up to thirteen passengers, for a school group, history club, church group or family reunion.
+
+## Booking Your Mount Vernon Trip
+
+Spring, fall and holiday weekends are popular, so book early. Non-airport pickups include 15 minutes of complimentary wait time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us your pickup address, group size and tour time, and we'll plan the day.
+    `,
+    faqs: [
+      {
+        question: "How far is Mount Vernon from Baltimore?",
+        answer: "George Washington's Mount Vernon is roughly 50 to 65 miles from Baltimore and BWI, depending on your starting point. Without traffic, the drive is often about an hour to an hour and a half each way.",
+      },
+      {
+        question: "How long should I plan to spend at Mount Vernon?",
+        answer: "Most visitors spend at least half a day on the mansion tour, the grounds and the museum. Adding the distillery and gristmill or dinner in Old Town Alexandria makes it a full day.",
+      },
+      {
+        question: "Can the chauffeur take us to the distillery and gristmill too?",
+        answer: "Yes. With hourly service, your chauffeur stays with you and can drive you between the main estate and the distillery and gristmill, which sit a few miles apart.",
+      },
+      {
+        question: "Does Mount Vernon do anything special for the holidays?",
+        answer: "Mount Vernon typically decorates the mansion and holds Christmas programs from late November into early January, including candlelight tours on select evenings. Check the estate's website for current dates and tickets.",
+      },
+      {
+        question: "Can you take a school or church group to Mount Vernon?",
+        answer: "Yes. The Mercedes Sprinter carries up to thirteen passengers, and larger groups can be split across multiple vehicles.",
+      },
+    ],
+    relatedPosts: [436, 378, 393],
+  },
 ];
