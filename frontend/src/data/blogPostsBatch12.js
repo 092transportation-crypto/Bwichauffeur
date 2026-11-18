@@ -6088,4 +6088,346 @@ You can [book online](/booking) or call 877-609-1919. Tell us your group size, p
     ],
     relatedPosts: [38, 373, 374],
   },
+
+  // ---------------------------------------------------------- 2026-12-16 (added 2026-11-18)
+  {
+    id: 433,
+    slug: "kennedy-center-holiday-performance-car-service-from-baltimore-bwi",
+    title: "A Holiday Show at the Kennedy Center: Car Service From Baltimore, Annapolis and BWI",
+    seoTitle: "Kennedy Center Car Service From Baltimore & BWI | BWI Chauffeur",
+    seoDescription: "Seeing a holiday concert, ballet or play at the Kennedy Center? Timing from Baltimore, Annapolis and BWI, drop-off at the building, dinner plans and getting home after the show.",
+    excerpt: "The Kennedy Center's holiday season typically brings concerts, family shows and touring productions to its stages on the Potomac. Here's how Maryland theatergoers can plan the trip into DC and the ride home.",
+    date: "2026-12-16",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/blog/landmark-capitol-1.webp",
+    content: `
+The John F. Kennedy Center for the Performing Arts sits on the Potomac River in DC's Foggy Bottom neighborhood. Its Concert Hall, Opera House and Eisenhower Theater host orchestra concerts, opera, ballet, musicals and touring shows all year, and the holiday season typically adds seasonal concerts and family-friendly performances to the calendar.
+
+For a lot of Baltimore, Howard County and Annapolis residents, a Kennedy Center night is a special occasion. It's also a trip of 35 to 45 miles each way, with DC traffic in the middle. This guide covers how to plan it.
+
+## How Long the Drive Takes
+
+From BWI, Baltimore or Columbia, most trips follow the Baltimore-Washington Parkway or I-95 into the city. From Annapolis, Route 50 is the usual approach. Without traffic, the drive is often an hour or a little more. On a weekday evening, when you're heading into DC at the same time commuters are leaving it, it can take considerably longer.
+
+- **Weekday evening shows:** Plan to leave earlier than you think. A 7:30 p.m. curtain on a weeknight usually means a late-afternoon departure from the Baltimore area.
+- **Weekend matinees:** Traffic is usually lighter, but holiday shopping and tourist traffic in December can still slow things down.
+- **Leave time to get seated.** The building is large, security screening is common at major venues, and finding your theater can take a few minutes.
+
+## Drop-Off and Pickup
+
+The Kennedy Center has a covered entrance plaza and an on-site garage, but the garage and the approach roads get busy before and after popular performances. With a chauffeur, you can skip parking entirely and be dropped off at the entrance.
+
+After the show, everyone leaves at once. Your chauffeur will confirm a pickup spot before you go in, and you can text when you're on your way out. With hourly service, the vehicle stays nearby for the whole evening, so there's no waiting for a car to be dispatched when the house lets out.
+
+## Making a Night of It
+
+Many people pair a Kennedy Center show with dinner in Georgetown, the West End or downtown. Hourly service makes that easy: the same chauffeur takes you to dinner, to the show and home again. Our [hourly vs. point-to-point guide](/blog/hourly-chauffeur-vs-point-to-point-which-do-you-need) explains which option fits your evening, and our [Maryland hourly chauffeur service](/maryland-hourly-chauffeur-service) page has more detail.
+
+If you'd like to see more of DC while you're there, our [full day in Washington DC by private chauffeur](/a-full-day-in-washington-dc-by-private-chauffeur-monuments-and-museums) page has ideas for a matinee day that starts earlier.
+
+## Coming From Out of Town
+
+If you're flying in for a performance, BWI Marshall and Reagan National both work well. Our [BWI to Georgetown](/bwi-to-georgetown-dc) page covers the route into northwest DC, and our [Reagan National car service](/dca-airport-car-service) page covers DCA. Airport pickups include flight tracking, with 45 minutes of free wait time for domestic arrivals and 60 minutes for international arrivals.
+
+## Closer to Home
+
+Not every great night out requires a drive into DC. Baltimore's [Meyerhoff Symphony Hall and the Lyric](/blog/baltimore-symphony-meyerhoff-lyric-evening-transportation), the [Hippodrome Theatre](/hippodrome-theatre-transportation) and [the Music Center at Strathmore](/music-center-at-strathmore-transportation) in North Bethesda are all good options for holiday performances too.
+
+## Choosing a Vehicle
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** seats three, for a couple or a small party.
+- **Lincoln Nautilus:** seats three.
+- **GMC Yukon XL Denali:** seats five, for two couples or a family.
+- **Lincoln Navigator:** seats six.
+- **Mercedes Sprinter:** up to thirteen passengers, for a group outing, a holiday office trip or an extended family.
+
+## Booking Your Kennedy Center Evening
+
+Holiday weekends book up, so reserve once you have your tickets. Non-airport pickups include 15 minutes of complimentary wait time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us your show time, your pickup address and whether you're planning dinner, and we'll plan the timing for you.
+    `,
+    faqs: [
+      {
+        question: "How long does it take to get to the Kennedy Center from Baltimore or BWI?",
+        answer: "Without traffic, the drive is often about an hour or a little more. On weekday evenings, heading into DC during rush hour can add a lot of time, so plan an earlier departure for weeknight shows.",
+      },
+      {
+        question: "Can the chauffeur wait during the performance?",
+        answer: "Yes. With hourly service, the vehicle and chauffeur stay nearby for the whole evening, including dinner and the show, and are ready when you come out.",
+      },
+      {
+        question: "Where will I be picked up after the show?",
+        answer: "Your chauffeur will confirm a pickup spot before you go in. Text when you're heading out, and the car will meet you there.",
+      },
+      {
+        question: "Can you bring a group to a Kennedy Center performance?",
+        answer: "Yes. The Mercedes Sprinter carries up to thirteen passengers, and larger groups can be split across multiple vehicles.",
+      },
+      {
+        question: "Do you pick up from Annapolis?",
+        answer: "Yes. We serve Annapolis, Baltimore, Howard County, Montgomery County and the rest of central Maryland, along with BWI, Reagan National and Dulles.",
+      },
+    ],
+    relatedPosts: [382, 378, 370],
+  },
+
+  // ---------------------------------------------------------- 2026-12-17 (added 2026-11-18)
+  {
+    id: 434,
+    slug: "washington-union-station-amtrak-holiday-arrivals-car-service-maryland",
+    title: "Arriving at Washington Union Station for the Holidays: Getting From the Train to Maryland",
+    seoTitle: "Union Station DC Pickup to Maryland | BWI Chauffeur",
+    seoDescription: "Taking Amtrak or MARC into Washington Union Station over the holidays? Where to meet your driver, timing, luggage, connecting to BWI or DCA and rides to Maryland suburbs.",
+    excerpt: "Washington Union Station gets crowded over the holidays as travelers arrive on Amtrak and commuter trains. Here's how to plan a pickup there and the ride to Maryland or the airport.",
+    date: "2026-12-17",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Travel Tips",
+    image: "/images/gallery/yukon-denali-washington-dc.webp",
+    content: `
+Washington Union Station, on Massachusetts Avenue NE just north of the Capitol, is one of the busiest rail stations in the country. Amtrak's Northeast Regional and Acela trains stop there, along with long-distance trains and the MARC Penn and Camden lines from Maryland. Around the holidays, it fills with students coming home, families visiting relatives and travelers connecting to flights.
+
+If someone in your family is arriving by train, or you're coming in yourself, a planned pickup takes much of the stress out of the arrival. This guide covers how to set it up.
+
+## Why Holiday Arrivals Need a Plan
+
+- **Crowds.** The days around Christmas and New Year's are among the busiest of the year for rail travel, and the station's main hall and exits can be packed.
+- **Train delays.** Trains can run late, especially in winter weather. A pickup time based on the printed schedule may not match the real arrival.
+- **Curbside traffic.** Taxis, rideshares and private cars all compete for space at the station's pickup areas, and arrangements around the building can change with ongoing construction.
+- **Luggage and gifts.** Holiday travelers often carry more than usual, which makes a long walk to a car or a crowded transit connection harder.
+
+## Setting Up a Union Station Pickup
+
+When you book, share the train number and the scheduled arrival time. Dispatch can check the train's status, and your chauffeur will confirm a meeting point near the station before you arrive. Text when you're off the train and heading out, and the car will meet you there.
+
+Pickups at the station include 15 minutes of complimentary wait time. If your train is running late, let us know as soon as you can and we'll adjust.
+
+## Rides From Union Station
+
+- **To Maryland suburbs:** Many travelers head to Silver Spring, Bethesda, Columbia, Bowie or Annapolis. Route and timing depend on the time of day and holiday traffic.
+- **To Capitol Hill and downtown DC:** Union Station sits on the edge of Capitol Hill. Our [Capitol Hill car service](/capitol-hill-dc-car-service) page covers trips around the neighborhood.
+- **To an airport:** Some travelers take the train into DC and fly home from BWI or Reagan National. We can take you directly from the station to either airport.
+
+## Connecting to BWI
+
+If your trip involves both a train and a flight, it's worth thinking about which station makes the most sense. MARC Penn Line and Amtrak trains also stop at the BWI Rail Station, which is connected to the airport by a shuttle. Our [guide to combining air travel, MARC and Penn Station](/blog/combining-air-travel-marc-train-penn-station-chauffeur) covers the Baltimore side of those connections, and our [BWI to Washington DC](/bwi-to-washington-dc) page covers the drive between the airport and the city.
+
+For airport pickups, we track your flight, with 45 minutes of free wait time for domestic arrivals and 60 minutes for international arrivals.
+
+## Choosing a Vehicle
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** seats three, for a solo traveler or a couple.
+- **Lincoln Nautilus:** seats three.
+- **GMC Yukon XL Denali:** seats five, with more room for holiday luggage.
+- **Lincoln Navigator:** seats six.
+- **Mercedes Sprinter:** up to thirteen passengers, for a large family or group arriving on the same train.
+
+Tell us how many bags you're bringing so we can recommend the right vehicle.
+
+## Booking a Union Station Pickup
+
+Holiday travel days fill up, so book as soon as you have your train ticket. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Send us the train number, arrival time, destination and number of bags, and we'll handle the rest.
+    `,
+    faqs: [
+      {
+        question: "Where will my driver meet me at Union Station?",
+        answer: "Your chauffeur will confirm a meeting point near the station before you arrive. Text when you're off the train, and the car will meet you there.",
+      },
+      {
+        question: "What happens if my train is late?",
+        answer: "Share your train number when you book so dispatch can check its status. Station pickups include 15 minutes of complimentary wait time, and if your train is delayed, let us know and we'll adjust.",
+      },
+      {
+        question: "Can you take me from Union Station to BWI or Reagan National?",
+        answer: "Yes. We provide direct rides from Union Station to BWI, Reagan National and Dulles.",
+      },
+      {
+        question: "Do you go from Union Station to Maryland suburbs?",
+        answer: "Yes. We regularly drive to Silver Spring, Bethesda, Columbia, Bowie, Annapolis, Baltimore and the rest of central Maryland.",
+      },
+      {
+        question: "Which vehicle is best for holiday luggage?",
+        answer: "The GMC Yukon XL Denali and Lincoln Navigator have more room for luggage. For a large group, the Mercedes Sprinter carries up to thirteen passengers.",
+      },
+    ],
+    relatedPosts: [319, 370, 378],
+  },
+
+  // ---------------------------------------------------------- 2026-12-18 (added 2026-11-18)
+  {
+    id: 435,
+    slug: "baltimore-center-stage-everyman-chesapeake-shakespeare-theatre-night-car-service",
+    title: "Baltimore Theater Nights: Getting to Center Stage, Everyman Theatre and Chesapeake Shakespeare",
+    seoTitle: "Baltimore Theater Night Car Service | BWI Chauffeur",
+    seoDescription: "Planning a night at Baltimore Center Stage, Everyman Theatre or Chesapeake Shakespeare Company? Where each theater is, drop-off, dinner nearby and the ride home.",
+    excerpt: "Beyond the Hippodrome, Baltimore has a strong regional theater scene in Mount Vernon and downtown. Here's how to plan a theater night at Center Stage, Everyman or Chesapeake Shakespeare without worrying about parking.",
+    date: "2026-12-18",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/gallery/fleet-downtown-baltimore.webp",
+    content: `
+Baltimore's big touring Broadway shows play at the Hippodrome, but the city also has a strong regional theater scene of its own. Three companies in particular draw audiences from across Maryland: Baltimore Center Stage in Mount Vernon, Everyman Theatre on the west side of downtown, and Chesapeake Shakespeare Company near the Inner Harbor. Each typically stages a mix of new plays, classics and seasonal productions.
+
+If you're coming in from Howard County, Annapolis, the suburbs or out of town, here's how to plan the evening.
+
+## Where Each Theater Is
+
+- **Baltimore Center Stage** is on North Calvert Street in Mount Vernon, close to the restaurants and bars on Charles Street and around Mount Vernon Place.
+- **Everyman Theatre** is on West Fayette Street on the west side of downtown, a short distance from the Hippodrome.
+- **Chesapeake Shakespeare Company** performs in a restored historic bank building on South Calvert Street, a few blocks from the Inner Harbor.
+
+All three are in busy parts of the city where on-street parking can be hard to find on show nights, and garages can mean a walk in the cold. A chauffeur drops you at the door and picks you up there afterward.
+
+## Planning Dinner and a Show
+
+Each theater is close to good restaurants. Mount Vernon has plenty of options within a few blocks of Center Stage, and the downtown theaters are close to the Inner Harbor, Harbor East and Little Italy. Our [Little Italy and Harbor East food guide](/blog/little-italy-harbor-east-food-tour-chauffeur-guide) has ideas.
+
+With hourly service, the same chauffeur takes you to dinner, waits during the show and drives you home. Our [hourly vs. point-to-point guide](/blog/hourly-chauffeur-vs-point-to-point-which-do-you-need) explains when each option makes sense.
+
+## Timing Your Evening
+
+- **Arrive early.** Smaller theaters often have limited lobby space and may not seat latecomers until a break in the show.
+- **Allow for traffic downtown.** Events at the arenas, the convention center or Camden Yards can slow traffic in the same part of the city.
+- **Confirm a pickup spot.** Your chauffeur will confirm where to meet after the show. Text when you're heading out, and the car will be there.
+
+## Other Baltimore Performance Venues
+
+If you're building a season of nights out, our guides to [Meyerhoff Symphony Hall and the Lyric](/blog/baltimore-symphony-meyerhoff-lyric-evening-transportation) and the [Hippodrome Theatre](/hippodrome-theatre-transportation) cover Baltimore's larger venues.
+
+## Coming From Out of Town
+
+If you're visiting Baltimore, BWI Marshall is about 15 to 20 minutes from downtown without traffic. Our [BWI to Baltimore car service](/bwi-to-baltimore-car-service) page covers the trip. Airport pickups include flight tracking, with 45 minutes of free wait time for domestic arrivals and 60 minutes for international arrivals.
+
+## Choosing a Vehicle
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** seats three, for a date night or a small party.
+- **Lincoln Nautilus:** seats three.
+- **GMC Yukon XL Denali:** seats five, for two couples.
+- **Lincoln Navigator:** seats six.
+- **Mercedes Sprinter:** up to thirteen passengers, for a book club, theater group or office outing.
+
+## Booking Your Theater Night
+
+Weekend shows and holiday productions are popular, so book once you have tickets. Non-airport pickups include 15 minutes of complimentary wait time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us the theater, your curtain time and whether you're planning dinner, and we'll plan the evening.
+    `,
+    faqs: [
+      {
+        question: "Where are Baltimore Center Stage, Everyman Theatre and Chesapeake Shakespeare Company?",
+        answer: "Baltimore Center Stage is on North Calvert Street in Mount Vernon, Everyman Theatre is on West Fayette Street downtown, and Chesapeake Shakespeare Company is on South Calvert Street near the Inner Harbor.",
+      },
+      {
+        question: "Can the chauffeur wait during the show?",
+        answer: "Yes. With hourly service, the vehicle and chauffeur stay nearby during dinner and the performance and are ready when you come out.",
+      },
+      {
+        question: "Is parking hard near these theaters?",
+        answer: "On busy nights, on-street parking can be hard to find, and garages may mean a walk. A chauffeur drops you at the door and picks you up there afterward.",
+      },
+      {
+        question: "Can you bring a group to a show?",
+        answer: "Yes. The Mercedes Sprinter carries up to thirteen passengers, and larger groups can be split across multiple vehicles.",
+      },
+      {
+        question: "How far is downtown Baltimore from BWI?",
+        answer: "Downtown Baltimore is about 15 to 20 minutes from BWI Marshall without traffic.",
+      },
+    ],
+    relatedPosts: [382, 362, 378],
+  },
+
+  // ---------------------------------------------------------- 2026-11-18 (added 2026-11-18, live on deploy)
+  {
+    id: 436,
+    slug: "gettysburg-battlefield-day-trip-from-baltimore-bwi",
+    title: "Gettysburg From Baltimore: Planning a Chauffeured Battlefield Day Trip",
+    seoTitle: "Gettysburg Day Trip From Baltimore & BWI | BWI Chauffeur",
+    seoDescription: "Planning a day at Gettysburg National Military Park from Baltimore or BWI? Drive time, the Museum and Visitor Center, touring the battlefield, the town and getting home.",
+    excerpt: "Gettysburg is an easy day trip from Baltimore, and November brings the anniversary of the Gettysburg Address. Here's how to plan a chauffeured visit to the battlefield, the museum and the town.",
+    date: "2026-11-18",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/gallery/mercedes-s-class-morning-pickup.webp",
+    content: `
+Gettysburg, Pennsylvania, sits just north of the Maryland line, and it's one of the most visited historic sites in the country. Gettysburg National Military Park preserves the ground where the three-day battle was fought in July 1863, and Soldiers' National Cemetery is where Abraham Lincoln delivered the Gettysburg Address on November 19 of that year. The town typically marks the anniversary each November with a Dedication Day ceremony and Remembrance Day events.
+
+From Baltimore or BWI, Gettysburg is a comfortable day trip. This guide covers how to plan it.
+
+## Getting There
+
+Gettysburg is roughly 55 to 70 miles from Baltimore and BWI, depending on where you start. Most trips head northwest through Carroll County, by way of Westminster, and cross into Pennsylvania near the Mason-Dixon Line. Without traffic, the drive is often about an hour and a half each way.
+
+- **Start early.** The battlefield covers a large area, and a full visit takes most of a day.
+- **Plan for the drive home.** After a day of walking, a chauffeured ride back means no one has to drive tired on rural roads after dark.
+
+## The Museum and Visitor Center
+
+Most visits start at the Gettysburg National Military Park Museum and Visitor Center, which has exhibits, a film and the Gettysburg Cyclorama, a large painting of the battle displayed in the round. It's a good place to get oriented before heading out onto the field. Check the park's website for current hours and ticket information before you go.
+
+## Touring the Battlefield
+
+The park's auto tour route follows the battle in order, with stops at places such as McPherson Ridge, Little Round Top, the Wheatfield and the site of Pickett's Charge on Cemetery Ridge. With a chauffeur, you can stop wherever you like, step out to read the monuments and walk the ground, and meet the car again a short distance away.
+
+The park also offers guided options, so check what's available when you plan your visit. If you'd like to add a guide, let us know when you book so we can plan timing around your tour.
+
+## Soldiers' National Cemetery and the Town
+
+Soldiers' National Cemetery, near the visitor center, is where Lincoln gave the Gettysburg Address. Downtown Gettysburg, around Lincoln Square, has the David Wills House, where Lincoln stayed the night before the address, along with restaurants, shops and small museums. Many visitors finish the day with dinner in town before the ride home.
+
+## Making It a Longer Trip
+
+Some visitors combine Gettysburg with other Civil War sites on the same trip. [Antietam National Battlefield](/limo-service-near-antietam-national-battlefield) near Sharpsburg, Maryland, is a separate day trip in western Maryland. If you're interested in Pennsylvania farm country, our [Hershey and Lancaster County day trip guide](/blog/hershey-and-lancaster-county-day-trip-from-baltimore) covers another route north.
+
+## Hourly Service for Day Trips
+
+A day trip to Gettysburg works best with hourly service, which keeps the vehicle and chauffeur with you all day. Our [hourly vs. point-to-point guide](/blog/hourly-chauffeur-vs-point-to-point-which-do-you-need) explains how it works, and our [Maryland hourly chauffeur service](/maryland-hourly-chauffeur-service) page has more detail.
+
+If you're flying in, we can pick you up at BWI Marshall and head straight to Gettysburg. Airport pickups include flight tracking, with 45 minutes of free wait time for domestic arrivals and 60 minutes for international arrivals.
+
+## Choosing a Vehicle
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** seats three, for a couple or a small party.
+- **Lincoln Nautilus:** seats three.
+- **GMC Yukon XL Denali:** seats five, for a family.
+- **Lincoln Navigator:** seats six.
+- **Mercedes Sprinter:** up to thirteen passengers, for a school group, history club, church group or family reunion.
+
+## Booking Your Gettysburg Trip
+
+Weekends in the fall and around the November anniversary are popular, so book early. Non-airport pickups include 15 minutes of complimentary wait time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us your pickup address, group size and what you'd like to see, and we'll plan the day.
+    `,
+    faqs: [
+      {
+        question: "How far is Gettysburg from Baltimore?",
+        answer: "Gettysburg is roughly 55 to 70 miles from Baltimore and BWI, depending on your starting point. Without traffic, the drive is often about an hour and a half each way.",
+      },
+      {
+        question: "How long should I plan to spend at Gettysburg?",
+        answer: "Most visitors spend a full day: the Museum and Visitor Center, the battlefield tour, Soldiers' National Cemetery and time in town.",
+      },
+      {
+        question: "Can the chauffeur drive us around the battlefield?",
+        answer: "Yes. With hourly service, your chauffeur follows the tour route with you, stops where you'd like and stays with you for the whole day.",
+      },
+      {
+        question: "Can you take a school or history group to Gettysburg?",
+        answer: "Yes. The Mercedes Sprinter carries up to thirteen passengers, and larger groups can be split across multiple vehicles.",
+      },
+      {
+        question: "When is the Gettysburg Address anniversary?",
+        answer: "Lincoln delivered the Gettysburg Address on November 19, 1863. The town typically marks the anniversary each November with a Dedication Day ceremony and Remembrance Day events.",
+      },
+    ],
+    relatedPosts: [393, 378, 382],
+  },
 ];
