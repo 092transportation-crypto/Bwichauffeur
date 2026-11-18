@@ -5793,4 +5793,299 @@ You can [book online](/booking) or call 877-609-1919. Tell us your pickup addres
     ],
     relatedPosts: [362, 329, 327],
   },
+
+  // ---------------------------------------------------------- 2026-12-13 (added 2026-11-18)
+  {
+    id: 430,
+    slug: "winter-wedding-transportation-maryland-december-january",
+    title: "Winter Wedding Transportation in Maryland: Planning a December or January Wedding Day",
+    seoTitle: "Winter Wedding Transportation in Maryland | BWI Chauffeur",
+    seoDescription: "Planning a December or January wedding in Maryland? Early sunsets, snow and ice, holiday traffic, guest shuttles and how to build a winter-proof transportation timeline.",
+    excerpt: "Winter weddings in Maryland come with early sunsets, cold evenings and the chance of snow. Here's how to plan wedding-day transportation for a December or January date, from the getting-ready run to the last guest shuttle.",
+    date: "2026-12-13",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Weddings",
+    image: "/images/blog/scenario-wedding-2.webp",
+    content: `
+Most Maryland weddings happen in spring and fall, but a December or January wedding has its own appeal: holiday decorations already in place, cozy indoor venues, guests who are home for the holidays and, often, more open dates at popular venues. A winter date also changes how wedding-day transportation should be planned. The sun sets early, evenings are cold, roads can be icy and the weeks around Christmas and New Year's are some of the busiest of the year on the road and at BWI.
+
+This guide covers what's different about winter wedding transportation and how to build a plan that holds up if the weather doesn't cooperate.
+
+## What's Different About a Winter Wedding
+
+### Early Sunsets
+In December and early January, the sun sets around 4:45 to 5 p.m. in central Maryland. If you want outdoor portraits in daylight, plan them early in the afternoon, and build the transportation timeline around that. Many couples do a first look and portraits before the ceremony so the photos are done before dark.
+
+### Cold and Possible Snow or Ice
+Maryland winters vary a lot from year to year. Some Decembers are mild; some Januarys bring several inches of snow and icy mornings. Your transportation plan should work on a 25-degree evening with slick roads, not just a pleasant 45-degree afternoon.
+
+### Holiday Traffic and Busy Calendars
+The weeks around Christmas and New Year's bring heavier traffic on I-95, I-97 and the Beltway, holiday shopping crowds near malls and town centers, and busy schedules for every wedding vendor. Holiday parties also book many of the same vehicles weddings need, so reserve early.
+
+## Building a Winter-Proof Timeline
+
+- **Add buffer time to every leg.** Winter roads, holiday traffic and photos in the cold all take longer than you expect. An extra 15 to 20 minutes per leg is reasonable.
+- **Shorten walking distances.** Ask your venue where vehicles can pull up closest to the entrance so nobody in formal shoes walks across an icy lot.
+- **Plan indoor photo stops.** Historic buildings, hotel lobbies and indoor gardens make good backup photo locations. Tell your chauffeur about each stop ahead of time.
+- **Keep the vehicle close.** With hourly service, the vehicle stays with you, so the wedding party can step into a warm cabin between photo locations. Our [hourly chauffeur service](/maryland-hourly-chauffeur-service) page explains how it works.
+- **Share a weather contact.** Decide who on your team makes the call if a winter storm changes plans, and make sure your transportation provider has that person's number.
+
+Our [wedding vendor timeline guide](/blog/coordinating-chauffeur-wedding-vendor-timeline) walks through how to line up transportation with your photographer, planner and venue.
+
+## If Snow Is in the Forecast
+
+Snow on a wedding weekend isn't the end of the world, but it does need a plan:
+
+- **Watch the forecast starting a week out** and talk with your planner and venue about contingencies.
+- **Consider moving pickups earlier** if snow is expected to start in the afternoon.
+- **Tell guests early** if the plan changes. A guest shuttle is especially helpful when out-of-town guests are unfamiliar with local roads in bad weather.
+- **Trust safety calls.** If roads become dangerous, the safest plan may be a delayed pickup or a shorter route.
+
+Our [Maryland snow emergency travel plan](/maryland-snow-emergency-travel-plan-chauffeur-guide) covers how winter storms affect travel around the state.
+
+## Guest Shuttles for a Winter Wedding
+
+Winter is when a guest shuttle earns its keep. Guests don't have to scrape windshields, walk from distant parking in the cold or drive home on dark, possibly icy roads after the reception.
+
+- **Hotel-to-venue loops** work well when most guests are staying at one or two hotels.
+- **A late-night return** gets guests back safely after the reception.
+- **The Mercedes Sprinter carries up to thirteen passengers**, and larger guest lists can be split across several runs or vehicles.
+
+See our [wedding guest shuttle service](/wedding-guest-shuttle-service-maryland) page for more on planning shuttles, and our guide to [how many cars a wedding party needs](/blog/how-many-cars-wedding-party-transportation-guide) for sizing the fleet.
+
+## Out-of-Town Guests Flying In
+
+Winter weddings often draw guests who fly in for the holidays. If guests are arriving at BWI, Reagan National or Dulles around your date, remember that December and early January flights are full and winter weather can cause delays. We track flights and adjust pickups for delays, and airport pickups include 45 minutes of free wait time for domestic arrivals and 60 minutes for international arrivals.
+
+## Choosing Vehicles
+
+- **BMW 7 Series / Mercedes S-Class:** seats three. A classic choice for the couple's getaway car.
+- **Mercedes-Benz E-Class:** seats three, for parents or grandparents.
+- **GMC Yukon XL Denali** (five passengers) or **Lincoln Navigator** (six passengers): good for the wedding party, with room for garment bags and coats.
+- **Mercedes Sprinter:** up to thirteen passengers, for the bridal party or a guest shuttle. Our [Sprinter van service](/maryland-sprinter-van-service) page has more detail.
+
+## Booking Tips for a Winter Wedding
+
+- **Book as soon as your date is set.** Holiday parties, New Year's Eve and winter formals compete for the same vehicles.
+- **New Year's Eve weddings** need extra lead time, since that night is one of the busiest of the year.
+- **Confirm the timeline** one to two weeks before the wedding, including addresses for every stop.
+- **Know the cancellation policy.** Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup; Sprinter and special-event bookings need 12 hours' notice.
+
+For non-airport pickups, 15 minutes of complimentary wait time is included. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Share your date, venue, timeline and guest count, and we'll help you plan winter wedding transportation that keeps everyone warm and on schedule.
+    `,
+    faqs: [
+      {
+        question: "How early should we book transportation for a December or January wedding?",
+        answer: "As soon as your date and venue are set. The holiday season is busy, with corporate parties, New Year's Eve and winter formals competing for the same vehicles, so booking early gives you the best choice.",
+      },
+      {
+        question: "What happens if it snows on our wedding day?",
+        answer: "We monitor the forecast and road conditions and will talk with you or your planner about adjusting pickup times or routes. Safety comes first, so in severe weather a pickup may be moved earlier or delayed.",
+      },
+      {
+        question: "Can you run a guest shuttle for a winter wedding?",
+        answer: "Yes. The Mercedes Sprinter carries up to thirteen passengers and works well for hotel-to-venue loops and late-night returns. Larger guest lists can be split across several runs or vehicles.",
+      },
+      {
+        question: "Should we book hourly service for a winter wedding?",
+        answer: "Hourly service is a good fit for winter weddings because the vehicle stays with you between stops, so the wedding party can wait in a warm cabin between photo locations.",
+      },
+      {
+        question: "Can you pick up wedding guests flying into BWI?",
+        answer: "Yes. We track flights and adjust for delays. Domestic arrivals include 45 minutes of free wait time and international arrivals 60 minutes.",
+      },
+    ],
+    relatedPosts: [308, 309, 346],
+  },
+
+  // ---------------------------------------------------------- 2026-12-14 (added 2026-11-18)
+  {
+    id: 431,
+    slug: "walter-e-washington-convention-center-dc-car-service-from-bwi",
+    title: "Getting to the Walter E. Washington Convention Center in DC: Car Service From BWI and Baltimore",
+    seoTitle: "Walter E. Washington Convention Center Car Service | BWI Chauffeur",
+    seoDescription: "Heading to a trade show or conference at DC's Walter E. Washington Convention Center? Drop-off tips, timing from BWI and Baltimore, exhibitor logistics and group transportation.",
+    excerpt: "The Walter E. Washington Convention Center in downtown DC hosts big trade shows, conferences and consumer events, including the Washington Auto Show, which is typically held in late January. Here's how to plan the ride from BWI or Baltimore.",
+    date: "2026-12-14",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Corporate Travel",
+    image: "/images/gallery/yukon-denali-washington-dc.webp",
+    content: `
+The Walter E. Washington Convention Center is Washington DC's main convention venue, a large building in the Mount Vernon Square area of downtown, between 7th and 9th Streets NW. Over the course of a year it hosts trade shows, association conferences, medical and technology meetings and consumer events. The Washington Auto Show, one of the best-known, is typically held there in late January.
+
+For many attendees, the trip starts at BWI Marshall or somewhere in the Baltimore area. This guide covers how to plan that ride, where to be dropped off and how exhibitors and groups can make convention days easier.
+
+## Getting There From BWI and Baltimore
+
+The convention center is roughly 30 miles from BWI. Most trips follow the Baltimore-Washington Parkway or I-95 and enter DC from the northeast. Without traffic, the drive often takes about 45 minutes to an hour. During weekday rush hours, or when a major event is in town, it can take considerably longer.
+
+- **Leave extra time on opening day.** The first morning of a big show brings heavy traffic and long lines at registration.
+- **Watch the clock in the evening.** Leaving downtown DC between about 4 and 7 p.m. on a weekday often means slow traffic heading back toward Maryland.
+- **Plan for Union Station or Penn Station connections** if part of your group travels by train. Our [guide to combining air travel, MARC and Penn Station](/blog/combining-air-travel-marc-train-penn-station-chauffeur) covers rail connections on the Baltimore side.
+
+Our [BWI to Washington DC](/bwi-to-washington-dc) page covers the airport-to-city route in more detail.
+
+## Drop-Off and Pickup
+
+Large convention centers have several entrances, and the right one depends on your event and where registration is located. Before your trip:
+
+- **Check your event's attendee information** for the main entrance, registration hall and any ride-share or drop-off zones.
+- **Tell us which entrance you need.** Your chauffeur will aim for that side of the building.
+- **Agree on a pickup point** for the return trip. When a session lets out, curbs around the building can get crowded, so a specific corner or entrance makes the meetup easier.
+
+Many attendees stay at hotels near the convention center, so a common pattern is an airport transfer on arrival, a walk to the show each day and a ride back to the airport at the end.
+
+## Exhibitors and Booth Staff
+
+Exhibitors usually have the longest days: early move-in, long show hours and teardown at the end. A few tips:
+
+- **Book early-morning pickups for move-in days**, especially if you're carrying sample cases, banners or display materials that fit in a vehicle. (Large freight goes through the show's official logistics provider.)
+- **Use an SUV for luggage-heavy trips.** The GMC Yukon XL Denali and Lincoln Navigator have plenty of cargo room.
+- **Move the booth team together.** A Mercedes Sprinter carries up to thirteen passengers, so the whole booth staff can ride from the hotel or airport at the same time. See our [Sprinter van service](/maryland-sprinter-van-service) page.
+
+## Hosting Clients During a Show
+
+Trade show week is often when companies host client dinners and meetings around downtown DC. Hourly service keeps a vehicle and chauffeur on call so you can move from the convention center to dinner and back to a hotel without hunting for rides. Our [hourly as-directed service for roadshows](/blog/hourly-as-directed-chauffeur-corporate-roadshows) explains how it works. Associations planning bigger programs may also find our [association and nonprofit transportation in Washington DC](/association-nonprofit-transportation-washington-dc) page useful.
+
+## Visiting the Washington Auto Show
+
+The Washington Auto Show is typically held in late January. It draws families and car enthusiasts as well as industry attendees. Check the show's official website for current dates, hours and ticket information.
+
+- **Weekends are busiest.** If you're going as a family or group, plan an earlier arrival.
+- **Make a day of it.** With hourly service, you can add lunch in Penn Quarter, a stop at a museum or dinner before heading home. Our guide to [a full day in Washington DC by private chauffeur](/a-full-day-in-washington-dc-by-private-chauffeur-monuments-and-museums) has ideas.
+- **Winter weather matters.** Late January can bring snow or ice. We monitor conditions and will contact you if the timing needs to change.
+
+## Choosing a Vehicle
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** seats three. Good for executives and speakers.
+- **Lincoln Nautilus:** seats three.
+- **GMC Yukon XL Denali:** seats five, with extra cargo space.
+- **Lincoln Navigator:** seats six.
+- **Mercedes Sprinter:** up to thirteen passengers for booth teams, delegations and client groups.
+
+## Booking Your Convention Center Ride
+
+Airport pickups include flight tracking, with 45 minutes of free wait time for domestic arrivals and 60 minutes for international arrivals. Non-airport pickups include 15 minutes of complimentary wait time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before.
+
+You can [book online](/booking) or call 877-609-1919. Tell us the event, your hotel or pickup address, the entrance you need and your group size, and we'll plan the ride around your schedule.
+    `,
+    faqs: [
+      {
+        question: "How long does it take to get from BWI to the Walter E. Washington Convention Center?",
+        answer: "The convention center is roughly 30 miles from BWI. Without traffic, the drive often takes about 45 minutes to an hour, but weekday rush hours and major events can make it considerably longer, so build in extra time.",
+      },
+      {
+        question: "When is the Washington Auto Show?",
+        answer: "The Washington Auto Show is typically held at the Walter E. Washington Convention Center in late January. Check the show's official website for current dates and hours.",
+      },
+      {
+        question: "Can you drop us off at a specific entrance?",
+        answer: "Yes. Tell us which entrance or registration area you need, and your chauffeur will aim for that side of the building. For the return trip, we recommend agreeing on a specific pickup point.",
+      },
+      {
+        question: "Can you move an exhibitor team to and from the show?",
+        answer: "Yes. The Mercedes Sprinter carries up to thirteen passengers, and SUVs have extra room for sample cases and display materials that fit in a vehicle. Large freight goes through the show's official logistics provider.",
+      },
+      {
+        question: "Can we keep a car for client dinners during the show?",
+        answer: "Yes. Hourly service keeps a vehicle and chauffeur available so you can move between the convention center, meetings, dinners and your hotel.",
+      },
+    ],
+    relatedPosts: [314, 311, 30],
+  },
+
+  // ---------------------------------------------------------- 2026-12-15 (added 2026-11-18)
+  {
+    id: 432,
+    slug: "maryland-general-assembly-session-annapolis-advocacy-day-transportation",
+    title: "Visiting Annapolis During the Maryland General Assembly Session: Transportation for Advocacy Days and Group Visits",
+    seoTitle: "General Assembly Advocacy Day Rides to Annapolis | BWI Chauffeur",
+    seoDescription: "Planning an advocacy day, lobby visit or school trip to Annapolis during the Maryland General Assembly session? Timing, drop-off near the State House and group transportation tips.",
+    excerpt: "The Maryland General Assembly convenes in Annapolis on the second Wednesday of January for a 90-day session. Here's how advocacy groups, associations, students and visitors can plan the trip to the State House.",
+    date: "2026-12-15",
+    scheduled: true,
+    author: "BWI Chauffeur Team",
+    category: "Local Guide",
+    image: "/images/blog/landmark-annapolis-1.webp",
+    content: `
+Every January, Annapolis becomes the center of Maryland politics. The Maryland General Assembly convenes on the second Wednesday of January (January 13 in 2027) and meets for 90 days, wrapping up in early April. During those months, downtown Annapolis fills with legislators, staff, lobbyists, advocacy groups, students and residents coming to testify, meet their delegates and senators or simply watch the legislature at work.
+
+If you're organizing an advocacy day, bringing a group to testify or planning a student trip to the State House, transportation is one of the details that can make or break the day. This guide covers how to plan it.
+
+## Why Getting to Annapolis Takes Planning During Session
+
+- **Downtown parking is tight.** Historic Annapolis has narrow streets, limited on-street parking and garages that fill early on busy session days.
+- **Mornings are busy.** Committee hearings, caucus meetings and advocacy events often start early, and Route 50 and I-97 can be slow at rush hour.
+- **Schedules shift.** Hearings can run long, and floor sessions don't always end on time, so pickup times may need to move.
+- **Winter weather.** January and February can bring snow and ice, which affects both roads and the walk between buildings.
+
+## Planning an Advocacy or Lobby Day
+
+Many organizations bring members to Annapolis for an advocacy day, when people meet legislators, attend hearings and hold a rally or briefing. A few transportation tips:
+
+- **Move the group together.** A Mercedes Sprinter carries up to thirteen passengers, so a small delegation can travel from Baltimore, Howard County or the DC suburbs together and arrive at the same time. Larger groups can be split across multiple vehicles. See our [Sprinter van service](/maryland-sprinter-van-service) page.
+- **Plan a drop-off close to your first meeting.** Tell us where your group needs to be first, and your chauffeur will drop you off as close as practical.
+- **Build in flexibility.** With hourly service, the vehicle stays nearby so your group can leave when the last meeting ends, rather than at a fixed time. Our [hourly vs. point-to-point guide](/blog/hourly-chauffeur-vs-point-to-point-which-do-you-need) explains the difference.
+- **Share the agenda.** Send us your schedule and a contact on the ground so we can adjust if hearings run long.
+
+## Testifying at a Hearing
+
+If you're testifying on a bill, timing matters. Committees publish hearing schedules, but the order of bills and the length of testimony can vary. Plan to arrive early, and book transportation with enough flexibility for the hearing to run late. If you're coming from out of town for a single hearing, a round trip with an open return or a few hours of hourly service often works best.
+
+## Flying in for Session
+
+Lobbyists, association representatives and out-of-state advocates often fly in during session. BWI Marshall is the closest major airport to Annapolis, and many travelers also use Reagan National. Our [BWI to Annapolis](/bwi-to-annapolis) and [DCA to Annapolis](/dca-to-annapolis) pages cover those routes.
+
+Airport pickups include flight tracking, with 45 minutes of free wait time for domestic arrivals and 60 minutes for international arrivals. If you're making repeat trips to Annapolis during session, our [Annapolis corporate car service](/annapolis-corporate-car-service) page covers ongoing business travel.
+
+## Student and School Group Visits
+
+Session is a popular time for school groups and student government trips to see the legislature in action. For these trips:
+
+- **Confirm the group size early** and include chaperones in the count.
+- **Plan a meeting point** for pickup so the group can gather in one place.
+- **Allow time for a walking tour.** The State House is the oldest state capitol still in continuous legislative use, and many groups combine their visit with a walk around State Circle, Main Street and City Dock. Our [Annapolis visitors guide](/blog/annapolis-visitors-guide-historic-downtown-naval-academy-city-dock) has ideas for the rest of the day.
+
+## Choosing a Vehicle
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** seats three. A good choice for an executive, lobbyist or speaker.
+- **Lincoln Nautilus:** seats three.
+- **GMC Yukon XL Denali:** seats five, for a small delegation.
+- **Lincoln Navigator:** seats six.
+- **Mercedes Sprinter:** up to thirteen passengers, for advocacy groups, associations and student delegations.
+
+## Booking Your Session Trip
+
+Popular advocacy days and the busiest weeks of session can fill up, so book once your date is set. Non-airport pickups include 15 minutes of complimentary wait time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us your group size, pickup location, first meeting and expected finish time, and we'll plan a ride that gets your group to Annapolis on time.
+    `,
+    faqs: [
+      {
+        question: "When does the Maryland General Assembly session start?",
+        answer: "The Maryland General Assembly convenes on the second Wednesday of January and meets for 90 days, ending in early April. In 2027, the session begins on January 13.",
+      },
+      {
+        question: "Can you bring an advocacy group to Annapolis together?",
+        answer: "Yes. The Mercedes Sprinter carries up to thirteen passengers, so a delegation can travel and arrive together. Larger groups can be split across multiple vehicles.",
+      },
+      {
+        question: "What if our hearing runs late?",
+        answer: "Hearings and floor sessions don't always end on time. Hourly service keeps the vehicle nearby so your group can leave when you're done. For point-to-point trips, let us know as soon as you can and we'll adjust the pickup if possible.",
+      },
+      {
+        question: "Which airport is closest to Annapolis?",
+        answer: "BWI Marshall is the closest major airport to Annapolis. Many travelers also fly into Reagan National, and we serve both.",
+      },
+      {
+        question: "Can you take a school group to the State House?",
+        answer: "Yes. Tell us the group size, including chaperones, and we'll recommend the right vehicles and a meeting point for pickup.",
+      },
+    ],
+    relatedPosts: [38, 373, 374],
+  },
 ];
