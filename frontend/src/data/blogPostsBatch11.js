@@ -506,4 +506,300 @@ Call 877-609-1919 or book online with your destination, timing, and any planned 
       },
     ],
   },
+
+  // ---------------------------------------------------------- 2026-11-20 (live, added 2026-11-20)
+  // Thanksgiving-week gaps, checked against every slug/title in all blog,
+  // guide, airport, route, city and marylandPages files (incl. scheduled):
+  // no post covered Thanksgiving Eve, Thanksgiving dinner rides for older
+  // relatives, or Black Friday / Small Business Saturday. Vehicles and
+  // capacities follow fleetDetails.js; policies follow pageFaqs.js; no prices.
+  {
+    id: 442,
+    slug: 'thanksgiving-eve-night-out-baltimore-safe-ride-home',
+    title: 'Thanksgiving Eve in Baltimore: Planning a Hometown Night Out and a Safe Ride Home',
+    seoTitle: 'Thanksgiving Eve Night Out Rides in Baltimore | BWI Chauffeur',
+    seoDescription: 'The Wednesday before Thanksgiving is one of the busiest nights out of the year. How to plan a group night in Baltimore, Towson or Annapolis and a safe ride home.',
+    excerpt: 'The night before Thanksgiving is when everyone is back in town at once. Here is how to plan a reunion night out in Baltimore, Towson or Annapolis, from a BWI arrival to a ride home that keeps Thanksgiving morning intact.',
+    date: '2026-11-20',
+    author: 'BWI Chauffeur Team',
+    category: 'Holiday Planning',
+    image: '/images/gallery/fleet-downtown-baltimore.webp',
+    content: `
+## Why the Night Before Thanksgiving Is Different
+
+The Wednesday before Thanksgiving, which falls on **November 25, 2026** this year, is a hometown night. College students are back from campus, people who moved away are in for the long weekend, and old friends finally have the same free evening. Bars and restaurants in Federal Hill, Fells Point, Canton, Towson and downtown Annapolis fill up with reunions. The night is busy enough that it has picked up its own nicknames.
+
+It is also the hardest night of the year to plan transportation for. The same evening is one of the heaviest travel days at BWI Marshall and on I-95, rideshare demand climbs as the bars fill, and almost everyone has to be up for a family meal the next day. A little planning keeps the reunion fun and the morning after manageable.
+
+## The Traffic Problem Starts in the Afternoon
+
+The holiday getaway rush means Wednesday afternoon and early evening traffic across the Baltimore region is often far heavier than a normal weekday. Many people are landing at BWI or driving in from out of state right as the night starts. Our [Thanksgiving travel guide for BWI](/thanksgiving-travel-bwi-airport-chauffeur-guide) covers the airport side of that day in more detail.
+
+If you are flying in Wednesday and heading straight out, book the airport pickup and the night out together. Your chauffeur tracks your flight, meets you at BWI, and takes you home to drop your bags or straight to where your friends are. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from touchdown, so a late flight doesn't throw off the plan.
+
+## Choosing How to Book the Night
+
+There are two common ways to set up a Thanksgiving Eve ride, and our [hourly vs. point-to-point guide](/blog/hourly-chauffeur-vs-point-to-point-which-do-you-need) explains the trade-offs in depth:
+
+- **Drop-off and return.** You're dropped at the first stop and picked up at a set time later in the night. This works when the group plans to stay in one neighborhood and walk between spots.
+- **Hourly, as-directed.** The vehicle and chauffeur stay with your group for a block of hours. This suits a night that moves from Towson to Fells Point, or from a family dinner to a bar, or one that includes picking up friends at several addresses. See our [hourly chauffeur service](/maryland-hourly-chauffeur-service) page.
+
+Either way, set the end of the night before it begins. A pickup time agreed while everyone is sober is far easier to keep than one worked out at last call.
+
+## Planning the Night
+
+### Pick One Meeting Point
+
+Choose one address where the group gathers, whether that's a parent's house, a friend's apartment or the first restaurant. If people are coming from several addresses, give us the pickup order and we'll set times so nobody is left waiting on the curb in the cold.
+
+### Keep the Route Loose but Local
+
+The best Thanksgiving Eve plans stay within one or two neighborhoods. Federal Hill and Fells Point are each walkable once you're dropped off, so a single drop-off point and a single pickup point usually cover the whole night. If part of the group lives in Baltimore County, our [Towson and Timonium events guide](/blog/towson-timonium-limo-service-local-events) covers that side of town.
+
+### Plan the Ride Home First
+
+The most important part of the night is the ride home. Rideshare surge and long waits are common late on busy holiday nights, and nobody wants to stand outside in late-November cold refreshing an app. With a reserved vehicle, the car is already booked for the time you set. Tell your chauffeur if anyone in the group has a different drop-off address, and those stops get built into the route home.
+
+## Choosing a Vehicle
+
+Pick the vehicle by headcount, and leave a seat or two of room if friends might join:
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** up to three passengers.
+- **Lincoln Nautilus:** up to three passengers.
+- **GMC Yukon XL Denali:** up to five passengers. See our [Luxury SUV](/fleet/luxury-suv) page.
+- **Lincoln Navigator:** up to six passengers. See our [Premium SUV](/fleet/premium-suv) page.
+- **Mercedes Sprinter:** up to thirteen passengers, for a full reunion group or a class get-together. See our [Sprinter Shuttle](/fleet/sprinter-shuttle) page.
+
+## A Few Practical Tips
+
+- **Book early.** Thanksgiving week is among our busiest stretches of the year, with airport runs and family gatherings all at once. Larger vehicles go first.
+- **Dress for the wait outside.** Even with a reserved ride, you'll be walking between spots, and late-November nights in Maryland can be near freezing.
+- **Save your chauffeur's contact.** Phone service can be slow in packed neighborhoods, so agree on a pickup spot as well as a time.
+- **Think about tomorrow.** Many people have an early start on Thanksgiving morning, whether it's cooking, a family trip or the [Thanksgiving Day Turkey Bowl](/blog/turkey-bowl-calvert-hall-loyola-thanksgiving-day-transportation). Set the pickup with that in mind.
+
+## Booking Your Thanksgiving Eve Ride
+
+Non-airport pickups include 15 minutes of complimentary waiting time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, including the holiday.
+
+You can [book online](/booking) or call 877-609-1919. Tell us your group size, where the night starts and where everyone needs to go at the end, and we'll plan the evening around it.
+    `,
+    faqs: [
+      {
+        question: 'When is Thanksgiving Eve in 2026?',
+        answer: 'Thanksgiving is Thursday, November 26, 2026, so Thanksgiving Eve is Wednesday, November 25. It is both a busy night out and one of the heaviest travel days of the year around BWI.',
+      },
+      {
+        question: 'Should I book hourly or a drop-off and return for Thanksgiving Eve?',
+        answer: 'If your group stays in one walkable neighborhood, a drop-off and a scheduled pickup usually works. If the night moves between neighborhoods or includes several pickups, hourly service keeps the vehicle and chauffeur with you.',
+      },
+      {
+        question: 'Can you pick me up at BWI and take me straight to meet friends?',
+        answer: 'Yes. We track your flight and adjust to the actual landing time. Domestic airport pickups include 45 minutes of complimentary waiting from touchdown, and international pickups include 60 minutes.',
+      },
+      {
+        question: 'What vehicle fits a reunion group?',
+        answer: 'A Mercedes Sprinter carries up to thirteen passengers. A GMC Yukon XL Denali seats five and a Lincoln Navigator seats six. Sedans and the Lincoln Nautilus seat three.',
+      },
+      {
+        question: 'What is the cancellation policy?',
+        answer: 'Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter and special-event bookings can be cancelled free up to 12 hours before.',
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- 2026-11-20 (live, added 2026-11-20)
+  {
+    id: 443,
+    slug: 'thanksgiving-dinner-rides-maryland-older-relatives-home-after-dark',
+    title: 'Thanksgiving Dinner Rides in Maryland: Getting Grandparents and Guests There and Home After Dark',
+    seoTitle: 'Thanksgiving Dinner Rides for Family | BWI Chauffeur',
+    seoDescription: 'Plan Thanksgiving Day rides for grandparents and guests who would rather not drive after dark: timing, mobility, car seats and the ride home across Maryland.',
+    excerpt: 'Thanksgiving dinner often runs well past sunset, and not every relative wants to drive home in the dark. Here is how to plan rides to and from the table for grandparents, guests and anyone who would rather not drive.',
+    date: '2026-11-20',
+    author: 'BWI Chauffeur Team',
+    category: 'Family Travel',
+    image: '/images/blog/scenario-doorman.webp',
+    content: `
+## The Part of Thanksgiving Nobody Plans
+
+Families plan the menu, the seating and who brings the pies. What usually gets left to the last minute is how everyone gets to the table and home again. On **Thursday, November 26, 2026**, that question matters more than it seems. In late November, the sun sets in Maryland before 5 p.m., so a mid-afternoon dinner almost always ends in the dark. For many older relatives, that's exactly when they'd prefer not to be behind the wheel.
+
+Add a glass of wine at dinner, a long drive back to another county, or a cold rainy evening, and the ride home becomes the part of the day that worries the host most. Booking rides ahead takes that worry off the table.
+
+## Who Usually Needs a Ride
+
+- **Grandparents and older relatives** who are comfortable driving in daylight but would rather not drive at night, in rain, or on busy highways.
+- **Guests who plan to drink at dinner** and want to leave their car at home.
+- **Relatives flying in** who land at BWI on Wednesday or Thursday morning and don't have a car.
+- **Family members coming from farther away**, such as Frederick, the Eastern Shore or Northern Virginia, where the drive home after a long day is the hardest part.
+
+## Planning the Timing
+
+Work backward from dinner. If the meal is at 3 p.m., a pickup around 2 p.m. gives most trips inside the Baltimore and Howard County area plenty of room. Longer trips need more time. Thanksgiving Day traffic is usually lighter than Wednesday's, but highways near malls and stadiums can still slow down.
+
+The ride home is harder to time because nobody knows when dessert will end. Two simple approaches work well:
+
+- **Set a pickup time and stick to it.** Older relatives often prefer a firm time, such as 7 p.m., so they know when to say goodbyes.
+- **Book hourly service.** If one vehicle is bringing several relatives from different addresses and taking them home again, keeping the chauffeur and vehicle for the evening can be simpler. Our [hourly vs. point-to-point guide](/blog/hourly-chauffeur-vs-point-to-point-which-do-you-need) explains when that makes sense.
+
+Non-airport pickups include 15 minutes of complimentary waiting time, which covers the usual last round of hugs and leftovers at the door.
+
+## Making the Ride Easy for Older Passengers
+
+A few details make a big difference for a grandparent or older guest:
+
+- **Door-to-door pickup.** The chauffeur comes to the door, helps with coats and dishes, and drops off as close to the entrance as the driveway or street allows.
+- **Vehicle height.** Some passengers find a sedan easier to get into than a taller SUV, while others prefer the higher seat of an SUV. Tell us when you book.
+- **Mobility aids.** A folding walker or folding wheelchair can travel in the vehicle. We are not a medical transport provider and do not operate wheelchair-lift vehicles. Our [senior car service page](/senior-elderly-car-service-maryland) explains what we can and can't do.
+- **A call to the host.** If you're booking for a parent, give us your number as well as theirs so you know when they've been picked up and dropped off.
+
+## Grandchildren, Car Seats and Bigger Groups
+
+If grandchildren are coming along, we provide car seats on request. Our [car seat service](/car-seat-service) page explains how it works. For a household of several generations coming together, one larger vehicle is often easier than several cars. Our guide to [multi-generational family holiday travel](/multigenerational-family-holiday-travel-chauffeur-guide-maryland) covers vehicle sizing and coordinating arrivals in more depth.
+
+## Choosing a Vehicle
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** up to three passengers, a comfortable choice for one or two grandparents.
+- **Lincoln Nautilus:** up to three passengers.
+- **GMC Yukon XL Denali:** up to five passengers, with room for dishes, bags and a folding walker.
+- **Lincoln Navigator:** up to six passengers.
+- **Mercedes Sprinter:** up to thirteen passengers, for an extended family traveling together. See our [Sprinter Shuttle](/fleet/sprinter-shuttle) page.
+
+## Relatives Flying In
+
+If a relative is landing at BWI for the holiday, the airport pickup and the dinner ride can be booked together. Our chauffeurs track inbound flights, so pickups follow the actual landing time, and airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from touchdown. Our [Thanksgiving travel guide for BWI](/thanksgiving-travel-bwi-airport-chauffeur-guide) covers the busiest airport days of the week. For travelers heading home on Sunday, it is worth booking the return ride at the same time.
+
+## If the Weather Turns
+
+Late November in Maryland can bring cold rain, and occasionally an early wintry mix. If the forecast looks rough, call us early to confirm timing, and allow more time for the trip home. Our [winter weather and flight delay playbook](/blog/winter-weather-flight-delay-playbook-bwi) covers what to do when weather affects travel plans.
+
+## Booking Thanksgiving Day Rides
+
+Thanksgiving is one of our busiest days of the year, so book early, especially for SUVs and Sprinter vans. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day, including Thanksgiving.
+
+You can [book online](/booking) or call 877-609-1919. Tell us who is riding, where they're coming from, the dinner address and roughly when they'd like to head home, and we'll plan both rides.
+    `,
+    faqs: [
+      {
+        question: 'Can I book a Thanksgiving ride for my parents or grandparents?',
+        answer: 'Yes. Give us their pickup address and phone number along with yours, and we will keep you updated when they are picked up and dropped off.',
+      },
+      {
+        question: 'Do you provide wheelchair-lift vehicles?',
+        answer: 'No. We are not a medical transport provider and do not operate wheelchair-lift vehicles. A folding walker or folding wheelchair can travel in our standard vehicles for a passenger who can get in and out with some help.',
+      },
+      {
+        question: 'What if dinner runs late?',
+        answer: 'Non-airport pickups include 15 minutes of complimentary waiting time. If you are not sure when dinner will end, hourly service keeps the vehicle and chauffeur with you for a set block of time.',
+      },
+      {
+        question: 'Do you have car seats for grandchildren?',
+        answer: 'Yes. Car seats are available on request. Tell us the children\'s ages when you book.',
+      },
+      {
+        question: 'Are you open on Thanksgiving Day?',
+        answer: 'Yes. Dispatch is staffed 24 hours a day, every day of the year, including Thanksgiving. It is one of our busiest days, so book early.',
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- 2026-11-20 (live, added 2026-11-20)
+  {
+    id: 444,
+    slug: 'black-friday-small-business-saturday-shopping-car-service-maryland',
+    title: 'Black Friday and Small Business Saturday in Maryland: A Shopping Day Without the Parking Lot Battle',
+    seoTitle: 'Black Friday Shopping Car Service in Maryland | BWI Chauffeur',
+    seoDescription: 'Plan a chauffeured Black Friday or Small Business Saturday around Baltimore: mall drop-offs, Main Street shopping, room for bags and a ride home. Call 877-609-1919.',
+    excerpt: 'The day after Thanksgiving brings full mall lots and slow traffic, and Small Business Saturday fills Maryland\'s Main Streets. Here is how to plan a shopping day with door drop-offs, a place for bags and no parking hunt.',
+    date: '2026-11-20',
+    author: 'BWI Chauffeur Team',
+    category: 'Holiday Planning',
+    image: '/images/gallery/mercedes-s-class-morning-pickup.webp',
+    content: `
+## The Shopping Weekend After Thanksgiving
+
+The two days after Thanksgiving are the unofficial start of holiday shopping. **Black Friday falls on November 27, 2026**, and **Small Business Saturday follows on November 28**. For many Maryland families, the weekend is a tradition: an early start at the mall on Friday, then a slower day on a historic Main Street on Saturday, with lunch somewhere in between.
+
+The shopping is the fun part. Parking usually isn't. Mall lots fill early, the roads around them back up, and small-town Main Streets have limited street parking even on a normal weekend. A chauffeured shopping day turns that into door drop-offs, a vehicle that holds your bags, and a ride home when you're done.
+
+## Black Friday at the Malls
+
+The biggest shopping centers around Baltimore draw the heaviest crowds on Friday. Popular stops include:
+
+- **Arundel Mills** in Hanover, a few minutes from BWI. Our [Arundel Mills page](/limo-service-near-arundel-mills-mall) covers drop-off and pickup there.
+- **Towson Town Center** in Baltimore County.
+- **The Mall in Columbia** in Howard County.
+- **The Annapolis Mall** in Anne Arundel County.
+- **White Marsh Mall** in eastern Baltimore County.
+
+Opening hours on Black Friday vary by mall and by store, and they change from year to year, so check each mall's website before you build the day.
+
+### How a Mall Day Works
+
+Your chauffeur drops you at the entrance closest to the stores you want, so you skip the search for a space and the long walk across the lot. When your arms are full, text the chauffeur. Bags go in the vehicle, and you head back in or on to the next stop. For a day with more than one mall, hourly service keeps the same vehicle and chauffeur with you all day. Our [hourly vs. point-to-point guide](/blog/hourly-chauffeur-vs-point-to-point-which-do-you-need) explains when hourly makes sense.
+
+Large malls can be confusing on a crowded day, so agree on a pickup entrance before you go in, and save your chauffeur's number. Phone service can be slow when the mall is packed.
+
+## Small Business Saturday on Main Street
+
+Small Business Saturday is about local shops, galleries and restaurants, and Maryland has some of the best historic shopping streets in the region:
+
+- **Old Ellicott City.** Main Street climbs a steep hill lined with independent shops. A drop-off at the top of the hill lets you shop your way down, with a pickup waiting at the bottom.
+- **Downtown Annapolis.** Main Street, Maryland Avenue and City Dock are full of local stores.
+- **Downtown Frederick.** Shops and restaurants surround Carroll Creek.
+
+Main Street shopping is slower than a mall day, with more walking between shops and a long lunch. A drop-off and a scheduled pickup works well if you're staying in one town. If you want to visit two towns, such as Ellicott City in the morning and Annapolis in the afternoon, hourly service is easier.
+
+## Making Room for Bags
+
+Holiday shopping takes up space, so choose the vehicle with the haul in mind as well as the headcount:
+
+- **Mercedes-Benz E-Class** or **BMW 7 Series / Mercedes S-Class:** up to three passengers, best for a small group with modest bags.
+- **Lincoln Nautilus:** up to three passengers, with more cargo room than a sedan.
+- **GMC Yukon XL Denali:** up to five passengers, with a large cargo area behind the third row. See our [Luxury SUV](/fleet/luxury-suv) page.
+- **Lincoln Navigator:** up to six passengers. See our [Premium SUV](/fleet/premium-suv) page.
+- **Mercedes Sprinter:** up to thirteen passengers, for a family group or friends' shopping tradition. See our [Sprinter Shuttle](/fleet/sprinter-shuttle) page.
+
+If you're buying something large, such as a TV or furniture, check with the store about delivery. A passenger vehicle is not a moving truck.
+
+## Pairing Shopping With Holiday Plans
+
+The weekend after Thanksgiving is busy in other ways too. Out-of-town relatives are still visiting, and some families fit a holiday outing into the same trip. The [Festival of Trees at the Timonium Fairgrounds](/blog/festival-of-trees-timonium-thanksgiving-weekend-transportation) is a Thanksgiving weekend tradition for many families. If visiting relatives are flying home from BWI on Sunday, our [Thanksgiving travel guide for BWI](/thanksgiving-travel-bwi-airport-chauffeur-guide) covers that return trip, which is one of the busiest of the year.
+
+## Tips for the Day
+
+- **Start with a list.** Know which stores matter most and go there first.
+- **Dress in layers.** You'll move between cold parking areas and warm, crowded stores.
+- **Keep your receipts and gift receipts together** in one envelope, so returns are easier.
+- **Eat outside peak hours.** Food courts and Main Street restaurants are busiest around noon.
+
+## Booking Your Shopping Day
+
+Non-airport pickups include 15 minutes of complimentary waiting time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Dispatch is staffed 24 hours a day, every day of the year.
+
+You can [book online](/booking) or call 877-609-1919. Tell us your group size, the malls or towns you want to visit and roughly how long you plan to shop, and we'll plan the day around it.
+    `,
+    faqs: [
+      {
+        question: 'When are Black Friday and Small Business Saturday in 2026?',
+        answer: 'Black Friday is Friday, November 27, 2026, the day after Thanksgiving. Small Business Saturday is Saturday, November 28.',
+      },
+      {
+        question: 'Can the chauffeur hold our shopping bags?',
+        answer: 'Yes. Bags can stay in the vehicle while you keep shopping. Text your chauffeur when you are ready to drop them off.',
+      },
+      {
+        question: 'Should I book hourly for a shopping day?',
+        answer: 'If you are visiting more than one mall or town, hourly service keeps the same vehicle and chauffeur with you all day. For one location, a drop-off and a scheduled pickup usually works.',
+      },
+      {
+        question: 'Which vehicle has the most room for bags?',
+        answer: 'The GMC Yukon XL Denali and Lincoln Navigator have the most cargo space of our SUVs. A Mercedes Sprinter suits larger groups of up to thirteen passengers.',
+      },
+      {
+        question: 'Do you know the Black Friday store hours?',
+        answer: 'Hours vary by mall and store and change each year, so check each mall\'s website before you go. We will plan pickups around the hours you give us.',
+      },
+    ],
+  },
 ];
